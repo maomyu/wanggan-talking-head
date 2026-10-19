@@ -3,8 +3,8 @@
   "total": 100,
   "userApproved": 20,
   "productionVerified": 0,
-  "inProduction": 3,
-  "queued": 77,
+  "inProduction": 5,
+  "queued": 75,
   "styles": [
     {
       "id": "A01",
@@ -524,7 +524,7 @@
       "key": "origami",
       "name": "折纸结构",
       "family": "fiber",
-      "stage": "design-in-progress",
+      "stage": "full-render-in-progress",
       "formal": false,
       "userApproved": false
     },
@@ -569,7 +569,7 @@
       "key": "embroidery",
       "name": "刺绣针脚",
       "family": "fiber",
-      "stage": "design-in-progress",
+      "stage": "smoke-v2-author-reviewed",
       "formal": false,
       "userApproved": false
     },
@@ -695,7 +695,7 @@
       "key": "etching",
       "name": "蚀刻铜版",
       "family": "craft",
-      "stage": "design-in-progress",
+      "stage": "smoke-author-reviewed",
       "formal": false,
       "userApproved": false
     },
@@ -848,7 +848,7 @@
       "key": "mechanical-cutaway",
       "name": "机械剖面",
       "family": "volume",
-      "stage": "queued",
+      "stage": "build-check-in-progress",
       "formal": false,
       "userApproved": false
     },
@@ -893,7 +893,7 @@
       "key": "spatial-pointcloud",
       "name": "空间点云",
       "family": "digital",
-      "stage": "queued",
+      "stage": "build-check-in-progress",
       "formal": false,
       "userApproved": false
     },
