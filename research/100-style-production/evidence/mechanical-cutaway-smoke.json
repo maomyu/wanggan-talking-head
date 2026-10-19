@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "key": "mechanical-cutaway",
+  "sourceWindow": [
+    4.5,
+    8.5
+  ],
+  "frames": 120,
+  "width": 1080,
+  "height": 1920,
+  "actualEncoded": true,
+  "scope": "人物让位和首组物件进场，非整片验证"
+}
