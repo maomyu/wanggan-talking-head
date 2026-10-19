@@ -1,4 +1,4 @@
-# 网感口播 1.2.0
+# 网感口播 1.3.0
 
 正式本地插件，包含23种已实现画风（20用户认可、3制作验证）、四个完整专业skill和一个整片统筹入口。100种创意目录分10个家族；其中另外77种尚未完成，分别标记候选或制作中。人物保持原色、角落正圆窗、字幕上移。
 
@@ -13,10 +13,9 @@
 
 `init --project 新目录 --source 视频 --style A58`导入本片并等待完整设计；`init --project 新目录 --example approved --style paper-stage`明确复现认可案例。候选不能用认可案例复现器。工程放插件外，单模块修改用`revise`另存。详见[使用说明](docs/使用说明.md)。
 
-渲染器固定HyperFrames0.8.174，依赖集中在本插件runtime，字体和素材本地化，不依赖test目录执行。四份专家正文按哈希保留；新候选经实际样片和用户认可后再晋级。声音目前是配方维度与完整交接规范，不新增一个冒称已全面实测的音频skill。
+渲染器固定HyperFrames0.8.174，依赖集中在本插件runtime，字体和素材本地化，不依赖test目录执行。四份专家正文按哈希保留；一般新增方向经样片和用户认可后晋级；本次100种目标已授权持续制作，通过整片验证后以制作验证状态晋级。声音目前是配方维度与完整交接规范，不新增一个冒称已全面实测的音频skill。
 
 源码与进度同步到GitHub私有仓库maomyu/wanggan-talking-head；见[同步规范](docs/GitHub同步.md)与[100种落地进度](research/100-style-production/README.md)。
 
-当前库：23种已实现（20用户认可，3制作验证），77种未完成。`styles --status implemented`查询可用实现，`--status approved`仅查询用户认可，`--status production`仅查询制作验证。`--example approved`为兼容沿用的固定素材复现命令，两类已实现模板均可使用，不表示都获用户逐条视觉认可。
 
-当前库：23种已实现（20用户认可，3制作验证），77种未完成。`styles --status implemented`查询可用实现，`--status approved`仅查询用户认可，`--status production`仅查询制作验证。`--example approved`为兼容沿用的固定素材复现命令，两类已实现模板均可使用，不表示都获用户逐条视觉认可。
+当前库：25种已实现（20用户认可，5制作验证），75种未完成。`styles --status implemented`查询可用实现，`--status approved`仅查询用户认可，`--status production`仅查询制作验证。`--example approved`为兼容沿用的固定素材复现命令，两类已实现模板均可使用，不表示都获用户逐条视觉认可。

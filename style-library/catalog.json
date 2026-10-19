@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "1.2.0",
+  "version": "1.3.0",
   "approvedCount": 20,
   "styles": [
     {
@@ -726,6 +726,88 @@
       "implementation": "templates/etching/index.html",
       "evidence": "evidence/production-20261020-a58-a63-a77.json",
       "videoSha256": "1bf7d2a1daf5a330f7eec7e13c91b9edb54b54a041758d99c060bd85799fafbe",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified"
+    },
+    {
+      "id": "A94",
+      "key": "mechanical-cutaway",
+      "name": "机械剖面",
+      "familyKey": "volume",
+      "family": "立体与模型",
+      "visualMechanism": "真实或明确示意的剖切体、分解结构和稳定标注，展示内部因果",
+      "profiles": {
+        "layout": "L14",
+        "motion": "M13",
+        "editing": "E10",
+        "sound": "S08"
+      },
+      "suitableFor": [
+        "工程",
+        "原理"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": [],
+      "productionStage": "composition-revision",
+      "preview": "previews/mechanical-cutaway.jpg",
+      "implementation": "templates/mechanical-cutaway/index.html",
+      "evidence": "evidence/production-20261020-a94-a99.json",
+      "videoSha256": "79170d791d1b44a0563608d79c58106607d254ab8d31ec9388457863a7398f6c",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified"
+    },
+    {
+      "id": "A99",
+      "key": "spatial-pointcloud",
+      "name": "空间点云",
+      "familyKey": "digital",
+      "family": "数字屏幕与系统",
+      "visualMechanism": "稀疏到密集的空间采样、点的前后关系和剖切观察；不把真人点云化",
+      "profiles": {
+        "layout": "L14",
+        "motion": "M13",
+        "editing": "E10",
+        "sound": "S08"
+      },
+      "suitableFor": [
+        "空间",
+        "机制"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": [],
+      "productionStage": "composition-revision",
+      "preview": "previews/spatial-pointcloud.jpg",
+      "implementation": "templates/spatial-pointcloud/index.html",
+      "evidence": "evidence/production-20261020-a94-a99.json",
+      "videoSha256": "41f4e0d836b35c706c25d7e365c9442e5d794dd9b02fa81a31266a4087b7ea96",
       "compatibleModules": [
         "art-direction",
         "layout",
@@ -2365,30 +2447,6 @@
       "references": []
     },
     {
-      "id": "A94",
-      "key": "mechanical-cutaway",
-      "name": "机械剖面",
-      "familyKey": "volume",
-      "family": "立体与模型",
-      "visualMechanism": "真实或明确示意的剖切体、分解结构和稳定标注，展示内部因果",
-      "profiles": {
-        "layout": "L14",
-        "motion": "M13",
-        "editing": "E10",
-        "sound": "S08"
-      },
-      "suitableFor": [
-        "工程",
-        "原理"
-      ],
-      "status": "candidate-planned",
-      "validation": "已进入实际制作，仍在修正或验证；尚无正式完整模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": [],
-      "productionStage": "composition-revision"
-    },
-    {
       "id": "A95",
       "key": "terminal-ascii",
       "name": "终端字符",
@@ -2481,30 +2539,6 @@
       "references": []
     },
     {
-      "id": "A99",
-      "key": "spatial-pointcloud",
-      "name": "空间点云",
-      "familyKey": "digital",
-      "family": "数字屏幕与系统",
-      "visualMechanism": "稀疏到密集的空间采样、点的前后关系和剖切观察；不把真人点云化",
-      "profiles": {
-        "layout": "L14",
-        "motion": "M13",
-        "editing": "E10",
-        "sound": "S08"
-      },
-      "suitableFor": [
-        "空间",
-        "机制"
-      ],
-      "status": "candidate-planned",
-      "validation": "已进入实际制作，仍在修正或验证；尚无正式完整模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": [],
-      "productionStage": "composition-revision"
-    },
-    {
       "id": "A100",
       "key": "holographic-volume",
       "name": "全息投影",
@@ -2528,7 +2562,7 @@
       "references": []
     }
   ],
-  "plannedCount": 77,
+  "plannedCount": 75,
   "totalCount": 100,
   "families": [
     {
@@ -2583,8 +2617,8 @@
     }
   ],
   "profileLibrary": "profiles.json",
-  "researchBoundary": "100项为可组合视觉方向，含材料、传统风格与原创配方；20种用户认可，3种制作验证，77种尚未完成。不是100个互斥行业标准。",
-  "implementedCount": 23,
+  "researchBoundary": "100项为可组合视觉方向，含材料、传统风格与原创配方；20种用户认可，5种制作验证，75种尚未完成。不是100个互斥行业标准。",
+  "implementedCount": 25,
   "userApprovedCount": 20,
-  "productionVerifiedCount": 3
+  "productionVerifiedCount": 5
 }

@@ -1,0 +1,164 @@
+{
+  "kind": "production-verified-under-authorized-goal",
+  "date": "2026-10-20T00:34:32.456018+08:00",
+  "authorization": "设定目标帮我完成这100种画风并正式并入插件",
+  "userVisualApproval": false,
+  "authorReview": {
+    "scope": "作者查看最终编码12帧拼版与风险/负债交接窗口真实编码8帧拼版，结合17人物姿态、21字幕、反向寻址、5fps解码与18切点邻帧程序证据；没有独立盲评，也未宣称逐帧人工观看整片。",
+    "passed": [
+      "origami",
+      "embroidery",
+      "etching",
+      "mechanical-cutaway",
+      "spatial-pointcloud"
+    ],
+    "needsRevision": {},
+    "sourceVersion": "font metrics fixed; cutaway/type spacing and point visibility revision; actual final encode",
+    "reviewedAt": "2026-10-20T00:34:32.271225+08:00"
+  },
+  "programProofs": [
+    {
+      "ok": true,
+      "look": "mechanical-cutaway",
+      "width": 1080,
+      "height": 1920,
+      "fps": "30/1",
+      "frames": 1100,
+      "duration": 36.666666666666664,
+      "bytes": 7284764,
+      "sha256": "79170d791d1b44a0563608d79c58106607d254ab8d31ec9388457863a7398f6c",
+      "decodedAudioHash": "f61d6839ef185edd3268011f553bc8ee2f7ad6afd261cbf596e02d416d7da70b",
+      "sourceSpeech": [
+        {
+          "time": 2,
+          "zeroLagCorrelation": 0.9999941772964133
+        },
+        {
+          "time": 8,
+          "zeroLagCorrelation": 0.9999978102677761
+        },
+        {
+          "time": 24,
+          "zeroLagCorrelation": 0.9999980662827164
+        },
+        {
+          "time": 34,
+          "zeroLagCorrelation": 0.9999969180075337
+        }
+      ],
+      "personColor": {
+        "meanRGBError": [
+          -2.0705409356725144,
+          -1.6506578947368422,
+          -1.9256578947368421
+        ],
+        "meanAbsoluteRGBError": 2.9819444444444443,
+        "scope": "同一源帧脸部区域与实际编码区域；允许缩放与压缩误差"
+      },
+      "cornerPixels": [
+        {
+          "u": 0.04,
+          "v": 0.04,
+          "sourceDifference": 67.54591836734693,
+          "reviewedBackgroundError": 1.3333333333333333
+        },
+        {
+          "u": 0.94,
+          "v": 0.04,
+          "sourceDifference": 97.01020408163265,
+          "reviewedBackgroundError": 1.3333333333333333
+        },
+        {
+          "u": 0.04,
+          "v": 0.94,
+          "sourceDifference": 167.9251700680272,
+          "reviewedBackgroundError": 1.3333333333333333
+        },
+        {
+          "u": 0.94,
+          "v": 0.94,
+          "sourceDifference": 139.55102040816325,
+          "reviewedBackgroundError": 1.3333333333333333
+        }
+      ],
+      "denseFrames": 183,
+      "cutNeighbourFrames": 18,
+      "firstFramePresenter": {
+        "ok": true,
+        "meanAbsoluteRGBError": 2.002877768022632
+      }
+    },
+    {
+      "ok": true,
+      "look": "spatial-pointcloud",
+      "width": 1080,
+      "height": 1920,
+      "fps": "30/1",
+      "frames": 1100,
+      "duration": 36.666666666666664,
+      "bytes": 63155478,
+      "sha256": "41f4e0d836b35c706c25d7e365c9442e5d794dd9b02fa81a31266a4087b7ea96",
+      "decodedAudioHash": "f61d6839ef185edd3268011f553bc8ee2f7ad6afd261cbf596e02d416d7da70b",
+      "sourceSpeech": [
+        {
+          "time": 2,
+          "zeroLagCorrelation": 0.9999941772964133
+        },
+        {
+          "time": 8,
+          "zeroLagCorrelation": 0.9999978102677761
+        },
+        {
+          "time": 24,
+          "zeroLagCorrelation": 0.9999980662827164
+        },
+        {
+          "time": 34,
+          "zeroLagCorrelation": 0.9999969180075337
+        }
+      ],
+      "personColor": {
+        "meanRGBError": [
+          -2.068932748538012,
+          -1.5720029239766082,
+          -1.8255847953216375
+        ],
+        "meanAbsoluteRGBError": 2.6920077972709553,
+        "scope": "同一源帧脸部区域与实际编码区域；允许缩放与压缩误差"
+      },
+      "cornerPixels": [
+        {
+          "u": 0.04,
+          "v": 0.04,
+          "sourceDifference": 119.58741496598641,
+          "reviewedBackgroundError": 1.3199999999999992
+        },
+        {
+          "u": 0.94,
+          "v": 0.04,
+          "sourceDifference": 101.98979591836735,
+          "reviewedBackgroundError": 2.133333333333333
+        },
+        {
+          "u": 0.04,
+          "v": 0.94,
+          "sourceDifference": 25.50149659863946,
+          "reviewedBackgroundError": 1.9866666666666646
+        },
+        {
+          "u": 0.94,
+          "v": 0.94,
+          "sourceDifference": 59.44897959183674,
+          "reviewedBackgroundError": 2.0
+        }
+      ],
+      "denseFrames": 183,
+      "cutNeighbourFrames": 18,
+      "firstFramePresenter": {
+        "ok": true,
+        "meanAbsoluteRGBError": 2.673402350195179
+      }
+    }
+  ],
+  "scope": "同一中文口播素材、1080×1920、30fps、1100帧；作者实际查看拼版和代表状态，程序核对原声、人物颜色、圆窗、字幕、反向寻址、5fps密集帧与切点邻帧。没有独立盲评。"
+}
