@@ -1,0 +1,30 @@
+[
+  {
+    "file": "ArchivoBlack-400.woff",
+    "sha256": "c029965cfbc3cbb79431babf56d0fee6bc185f366c4fc2a0957817137d374c95"
+  },
+  {
+    "file": "LXGWWenKai-500.woff",
+    "sha256": "734bd187392579417ac83effe31d37b9de43c7b290bcb400800456511ed79e8f"
+  },
+  {
+    "file": "NotoSansSC-500.woff",
+    "sha256": "928d841b1ec663ebce82593568cbc19749fe652f88b8ec960723b7d87b551512"
+  },
+  {
+    "file": "NotoSansSC-700.woff",
+    "sha256": "dd0d39a9780eb995c499af0c20cca93b1dfdda865da70871a20890b3e406b968"
+  },
+  {
+    "file": "NotoSansSC-800.woff",
+    "sha256": "b57f9c645b1a4967a3c8914ed41f24d109394a8175e36af08f93e40803e84664"
+  },
+  {
+    "file": "NotoSansSC-900.woff",
+    "sha256": "d2d8a42438b18b65b6577434df4e41bb08c6b5051281757849af00ab743bb58f"
+  },
+  {
+    "file": "NotoSerifSC-700.woff",
+    "sha256": "1a80a9564cf35315471634801238799851eaafeb713dae5449426c62867ad311"
+  }
+]

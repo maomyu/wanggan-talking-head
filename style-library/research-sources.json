@@ -1,0 +1,38 @@
+[
+  {
+    "id": "R01",
+    "title": "MoMA · Collage",
+    "url": "https://www.moma.org/collection/terms/collage",
+    "scope": "拼贴的材料与组合观察；本目录配方为本项目原创设计"
+  },
+  {
+    "id": "R02",
+    "title": "Adobe · Stop motion animation",
+    "url": "https://www.adobe.com/creativecloud/animation/discover/stop-motion-animation.html",
+    "scope": "物件逐帧与材料动画方法；不据此声称已拍摄定格片"
+  },
+  {
+    "id": "R03",
+    "title": "V&A · Art Nouveau – an international style",
+    "url": "https://www.vam.ac.uk/articles/art-nouveau-an-international-style",
+    "scope": "有机曲线与结构/装饰关系"
+  },
+  {
+    "id": "R04",
+    "title": "V&A · An introduction to Art Deco",
+    "url": "https://www.vam.ac.uk/articles/an-introduction-to-art-deco",
+    "scope": "几何与装饰艺术的来源；本目录不是艺术史分类全集"
+  },
+  {
+    "id": "R05",
+    "title": "The Met · Chinese Painting",
+    "url": "https://www.metmuseum.org/zh/essays/chinese-painting",
+    "scope": "笔墨、纸绢与画卷阅读的参考；不作为全部东方工艺的来源"
+  },
+  {
+    "id": "R06",
+    "title": "Cooper Hewitt · A Harmony of Contrasts",
+    "url": "https://www.cooperhewitt.org/2018/08/05/aharmonyofcontrasts/",
+    "scope": "瑞士平面中的网格、字体、摄影与对比关系"
+  }
+]

@@ -1,0 +1,2532 @@
+{
+  "schemaVersion": 1,
+  "version": "1.1.0",
+  "approvedCount": 20,
+  "styles": [
+    {
+      "id": "A01",
+      "key": "minimal",
+      "name": "写实极简",
+      "family": "真实摄影与现场",
+      "status": "approved-video",
+      "preview": "previews/minimal.jpg",
+      "implementation": "templates/minimal/index.html",
+      "evidence": "evidence/accepted-20261019.json",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "videoSha256": "2a5c540145b6f54148623d3caedd0c6719da733850556c69b0ccb7fff337b97b",
+      "familyKey": "photo",
+      "visualMechanism": "真实环境、自然光与克制包装；留白围绕人物的目光",
+      "profiles": {
+        "layout": "L01",
+        "motion": "M01",
+        "editing": "E01",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "观点",
+        "访谈"
+      ]
+    },
+    {
+      "id": "A02",
+      "key": "paper",
+      "name": "纸本批注",
+      "family": "编辑与信息印刷",
+      "status": "approved-video",
+      "preview": "previews/paper.jpg",
+      "implementation": "templates/paper/index.html",
+      "evidence": "evidence/accepted-20261019.json",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "videoSha256": "be017099b4145a202aa69b8a12d5a75c1a79ca20c829adfdc05f6903c8e5e75e",
+      "familyKey": "editorial",
+      "visualMechanism": "正文与批线、注释互相对应，阅读像翻看一份有判断的笔记",
+      "profiles": {
+        "layout": "L03",
+        "motion": "M03",
+        "editing": "E03",
+        "sound": "S03"
+      },
+      "suitableFor": [
+        "知识",
+        "复盘"
+      ]
+    },
+    {
+      "id": "A03",
+      "key": "geometry",
+      "name": "几何印刷",
+      "family": "字体与现代平面",
+      "status": "approved-video",
+      "preview": "previews/geometry.jpg",
+      "implementation": "templates/geometry/index.html",
+      "evidence": "evidence/accepted-20261019.json",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "videoSha256": "20af3113c0417d22d925e77363098c3e1bba4e7b4d121b040f2c0bbd8d043d40",
+      "familyKey": "graphic",
+      "visualMechanism": "硬边块面、强字阶与共同轴线，把并列或分类关系组织清楚",
+      "profiles": {
+        "layout": "L06",
+        "motion": "M05",
+        "editing": "E04",
+        "sound": "S05"
+      },
+      "suitableFor": [
+        "清单",
+        "方法"
+      ]
+    },
+    {
+      "id": "A04",
+      "key": "magazine",
+      "name": "杂志编辑",
+      "family": "编辑与信息印刷",
+      "status": "approved-video",
+      "preview": "previews/magazine.jpg",
+      "implementation": "templates/magazine/index.html",
+      "evidence": "evidence/accepted-20261019.json",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "videoSha256": "cd16c098c77223a4567aca739fed66d43a5bf327cd5b0ce466f64493c292532f",
+      "familyKey": "editorial",
+      "visualMechanism": "摄影裁切、大小字阶、栏线和不对称留白形成编辑节奏",
+      "profiles": {
+        "layout": "L03",
+        "motion": "M01",
+        "editing": "E02",
+        "sound": "S10"
+      },
+      "suitableFor": [
+        "商业",
+        "文化"
+      ]
+    },
+    {
+      "id": "A05",
+      "key": "collage",
+      "name": "剪贴拼贴",
+      "family": "编辑与信息印刷",
+      "status": "approved-video",
+      "preview": "previews/collage.jpg",
+      "implementation": "templates/collage/index.html",
+      "evidence": "evidence/accepted-20261019.json",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "videoSha256": "271889acf41646bbdc3f5f8d9c742a045646f00b35a5a837c1c11cf2910f8b35",
+      "familyKey": "editorial",
+      "visualMechanism": "不同内容载体被拼接和遮叠，连接线帮助追踪论证线索",
+      "profiles": {
+        "layout": "L04",
+        "motion": "M03",
+        "editing": "E05",
+        "sound": "S03"
+      },
+      "suitableFor": [
+        "事件",
+        "案例"
+      ]
+    },
+    {
+      "id": "A06",
+      "key": "line",
+      "name": "单线手绘",
+      "family": "手绘与书写",
+      "status": "approved-video",
+      "preview": "previews/line.jpg",
+      "implementation": "templates/line/index.html",
+      "evidence": "evidence/accepted-20261019.json",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "videoSha256": "5ad46ecab7c70ad3dc091715e558943666e55d8db0afc7e73b8d187ec5a1adb1",
+      "familyKey": "drawing",
+      "visualMechanism": "一条笔路和语义图标形成推导画布，线条连接真正相关的节点",
+      "profiles": {
+        "layout": "L07",
+        "motion": "M06",
+        "editing": "E04",
+        "sound": "S04"
+      },
+      "suitableFor": [
+        "原理",
+        "步骤"
+      ]
+    },
+    {
+      "id": "A07",
+      "key": "illustration",
+      "name": "图形插画",
+      "family": "插画与叙事",
+      "status": "approved-video",
+      "preview": "previews/illustration.jpg",
+      "implementation": "templates/illustration/index.html",
+      "evidence": "evidence/accepted-20261019.json",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "videoSha256": "70823d832a35acefd6364490260084068d897dafe1da764ea5694fb8e56fd74a",
+      "familyKey": "illustration",
+      "visualMechanism": "一致的图形造型与场景色块，把抽象关系转成可识别物件",
+      "profiles": {
+        "layout": "L09",
+        "motion": "M08",
+        "editing": "E07",
+        "sound": "S05"
+      },
+      "suitableFor": [
+        "科普",
+        "生活"
+      ]
+    },
+    {
+      "id": "A08",
+      "key": "precision",
+      "name": "精密界面",
+      "family": "数字屏幕与系统",
+      "status": "approved-video",
+      "preview": "previews/precision.jpg",
+      "implementation": "templates/precision/index.html",
+      "evidence": "evidence/accepted-20261019.json",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "videoSha256": "68c1ed827c66ac4d26f63af2295f67a01cbfafd4706e56f7dce8073ac2dce777",
+      "familyKey": "digital",
+      "visualMechanism": "功能分区、层级和操作结果构成阅读秩序，所有界面状态有实际依据",
+      "profiles": {
+        "layout": "L13",
+        "motion": "M14",
+        "editing": "E03",
+        "sound": "S09"
+      },
+      "suitableFor": [
+        "软件",
+        "流程"
+      ]
+    },
+    {
+      "id": "A09",
+      "key": "blueprint",
+      "name": "技术蓝图",
+      "family": "数字屏幕与系统",
+      "status": "approved-video",
+      "preview": "previews/blueprint.jpg",
+      "implementation": "templates/blueprint/index.html",
+      "evidence": "evidence/accepted-20261019.json",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "videoSha256": "a45e466a72eb2ea7474f8e0a953b358b9ed3fcf60757d1ac73fbba20e7267cff",
+      "familyKey": "digital",
+      "visualMechanism": "结构线、分解视图和对应标注让关系清楚，示意尺寸不冒充真实工程数据",
+      "profiles": {
+        "layout": "L14",
+        "motion": "M06",
+        "editing": "E10",
+        "sound": "S09"
+      },
+      "suitableFor": [
+        "技术",
+        "系统"
+      ]
+    },
+    {
+      "id": "A10",
+      "key": "halftone",
+      "name": "复古网点",
+      "family": "编辑与信息印刷",
+      "status": "approved-video",
+      "preview": "previews/halftone.jpg",
+      "implementation": "templates/halftone/index.html",
+      "evidence": "evidence/accepted-20261019.json",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "videoSha256": "4ef3f8a42fd2f176be4e0938211bb69c1b0190154df4673fab8bfb1e29c93fd2",
+      "familyKey": "editorial",
+      "visualMechanism": "资料图像以半色调和有限套色成为印刷面，正文保持清晰",
+      "profiles": {
+        "layout": "L02",
+        "motion": "M05",
+        "editing": "E04",
+        "sound": "S05"
+      },
+      "suitableFor": [
+        "文化",
+        "历史"
+      ]
+    },
+    {
+      "id": "A11",
+      "key": "comic",
+      "name": "漫画描线",
+      "family": "插画与叙事",
+      "status": "approved-video",
+      "preview": "previews/comic.jpg",
+      "implementation": "templates/comic/index.html",
+      "evidence": "evidence/accepted-20261019.json",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "videoSha256": "70c51e24ddf58758bb2ef66bd84eeb0189c5952c1af7f9b7ab42eb426c943228",
+      "familyKey": "illustration",
+      "visualMechanism": "分格、粗线、特写和反应揭示信息，真人保持原片独立层",
+      "profiles": {
+        "layout": "L09",
+        "motion": "M08",
+        "editing": "E07",
+        "sound": "S05"
+      },
+      "suitableFor": [
+        "反差",
+        "故事"
+      ]
+    },
+    {
+      "id": "A12",
+      "key": "film",
+      "name": "胶片影像",
+      "family": "真实摄影与现场",
+      "status": "approved-video",
+      "preview": "previews/film.jpg",
+      "implementation": "templates/film/index.html",
+      "evidence": "evidence/accepted-20261019.json",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "videoSha256": "6ca789661cc7edf3da29147910a7af2c73bdb40074d5183dcfccba626b39aa00",
+      "familyKey": "photo",
+      "visualMechanism": "摄影纵深、环境叙事与镜头关系；颗粒限于背景素材",
+      "profiles": {
+        "layout": "L02",
+        "motion": "M01",
+        "editing": "E02",
+        "sound": "S10"
+      },
+      "suitableFor": [
+        "经历",
+        "故事"
+      ]
+    },
+    {
+      "id": "A13",
+      "key": "ink",
+      "name": "水墨留白",
+      "family": "传统绘画与东方",
+      "status": "approved-video",
+      "preview": "previews/ink.jpg",
+      "implementation": "templates/ink/index.html",
+      "evidence": "evidence/accepted-20261019.json",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "videoSha256": "de2692da68238a94aca7c17b50a2d83b1d30838217f259df36db412627a51b2a",
+      "familyKey": "painting",
+      "visualMechanism": "墨色浓淡、虚实和留白组织信息，现代字幕与原色真人各自清楚",
+      "profiles": {
+        "layout": "L11",
+        "motion": "M11",
+        "editing": "E08",
+        "sound": "S07"
+      },
+      "suitableFor": [
+        "人文",
+        "慢思考"
+      ]
+    },
+    {
+      "id": "A14",
+      "key": "clay",
+      "name": "柔质立体",
+      "family": "立体与模型",
+      "status": "approved-video",
+      "preview": "previews/clay.jpg",
+      "implementation": "templates/clay/index.html",
+      "evidence": "evidence/accepted-20261019.json",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "videoSha256": "1c8e2bede431e00b4d8d75f397950ab5cb450ca60a11055aa1cf4788167fb25b",
+      "familyKey": "volume",
+      "visualMechanism": "黏土或软塑体积、接触阴影和微型物件形成亲和解释空间",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M13",
+        "editing": "E07",
+        "sound": "S06"
+      },
+      "suitableFor": [
+        "科普",
+        "产品"
+      ]
+    },
+    {
+      "id": "A15",
+      "key": "pixel",
+      "name": "像素复古",
+      "family": "数字屏幕与系统",
+      "status": "approved-video",
+      "preview": "previews/pixel.jpg",
+      "implementation": "templates/pixel/index.html",
+      "evidence": "evidence/accepted-20261019.json",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "videoSha256": "30e1238cac95e83a8b533da7793099dcc7c3f65f2e04c4acede07a26b0393266",
+      "familyKey": "digital",
+      "visualMechanism": "有限色像素场景、步进路径与游戏式物件，真人脸和字幕保持原始清晰度",
+      "profiles": {
+        "layout": "L09",
+        "motion": "M14",
+        "editing": "E07",
+        "sound": "S09"
+      },
+      "suitableFor": [
+        "游戏",
+        "技术史"
+      ]
+    },
+    {
+      "id": "A16",
+      "key": "chalk",
+      "name": "黑板粉笔",
+      "family": "手绘与书写",
+      "status": "approved-video",
+      "aliases": [
+        "B01"
+      ],
+      "preview": "previews/chalk.jpg",
+      "implementation": "templates/chalk/index.html",
+      "evidence": "evidence/accepted-five-20261019.json",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "videoSha256": "da364dfc25418adcf76f16140957bc583dfd547bce952df0ab8dbc85ef9046e7",
+      "familyKey": "drawing",
+      "visualMechanism": "深绿板面、干粉笔触和板书推导，擦除与重写对应观点修正",
+      "profiles": {
+        "layout": "L07",
+        "motion": "M07",
+        "editing": "E04",
+        "sound": "S04"
+      },
+      "suitableFor": [
+        "课堂",
+        "方法"
+      ]
+    },
+    {
+      "id": "A17",
+      "key": "paper-stage",
+      "name": "剪纸舞台",
+      "family": "纸与纤维",
+      "status": "approved-video",
+      "aliases": [
+        "B02"
+      ],
+      "preview": "previews/paper-stage.jpg",
+      "implementation": "templates/paper-stage/index.html",
+      "evidence": "evidence/accepted-five-20261019.json",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "videoSha256": "72cefa991b3a85a3de3257f1b4ae8d16ef7007fca5de23e89168ab137a27a119",
+      "familyKey": "fiber",
+      "visualMechanism": "切口侧壁、纸层遮挡、定向投影和轻微视差形成完整舞台",
+      "profiles": {
+        "layout": "L10",
+        "motion": "M09",
+        "editing": "E05",
+        "sound": "S03"
+      },
+      "suitableFor": [
+        "生活",
+        "概念"
+      ]
+    },
+    {
+      "id": "A18",
+      "key": "type-poster",
+      "name": "巨字海报",
+      "family": "字体与现代平面",
+      "status": "approved-video",
+      "aliases": [
+        "B03"
+      ],
+      "preview": "previews/type-poster.jpg",
+      "implementation": "templates/type-poster/index.html",
+      "evidence": "evidence/accepted-five-20261019.json",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "videoSha256": "0a7f4f853ad6fb903543815417dea417a7881d74f78a6b24e6d7704003652e17",
+      "familyKey": "graphic",
+      "visualMechanism": "完整关键词成为主体，反白字面和巨大尺度推进信息",
+      "profiles": {
+        "layout": "L05",
+        "motion": "M04",
+        "editing": "E04",
+        "sound": "S05"
+      },
+      "suitableFor": [
+        "判断",
+        "强调"
+      ]
+    },
+    {
+      "id": "A19",
+      "key": "cel",
+      "name": "赛璐璐",
+      "family": "插画与叙事",
+      "status": "approved-video",
+      "aliases": [
+        "B04"
+      ],
+      "preview": "previews/cel.jpg",
+      "implementation": "templates/cel/index.html",
+      "evidence": "evidence/accepted-five-20261019.json",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "videoSha256": "2235ffbad61f3021ca4443c439a693920431e6090cbe59c0376ddc72b4a4df0d",
+      "familyKey": "illustration",
+      "visualMechanism": "平涂造型、明确阴影分区和有限姿态表演；无真人卡通滤镜",
+      "profiles": {
+        "layout": "L09",
+        "motion": "M08",
+        "editing": "E07",
+        "sound": "S05"
+      },
+      "suitableFor": [
+        "机制",
+        "生活"
+      ]
+    },
+    {
+      "id": "A20",
+      "key": "sci-fi-wireframe",
+      "name": "科幻线框／硬表立体",
+      "family": "数字屏幕与系统",
+      "status": "approved-video",
+      "aliases": [
+        "B05"
+      ],
+      "preview": "previews/sci-fi-wireframe.jpg",
+      "implementation": "templates/sci-fi-wireframe/index.html",
+      "evidence": "evidence/accepted-five-20261019.json",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "videoSha256": "cc88b8bc5d968b5542df9598ab6fbfa4523bfc1643fd7e296741abe1c1979670",
+      "familyKey": "digital",
+      "visualMechanism": "倒角、金属实体、边缘线框与拆合模型；不靠假HUD数值成立",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M13",
+        "editing": "E10",
+        "sound": "S08"
+      },
+      "suitableFor": [
+        "科技",
+        "机制"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "id": "A21",
+      "key": "documentary",
+      "name": "纪实现场",
+      "familyKey": "photo",
+      "family": "真实摄影与现场",
+      "visualMechanism": "保留真实环境线索，图注像现场记录；不搭建虚构事件现场",
+      "profiles": {
+        "layout": "L01",
+        "motion": "M01",
+        "editing": "E03",
+        "sound": "S02"
+      },
+      "suitableFor": [
+        "行业观察"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A22",
+      "key": "tabletop-stilllife",
+      "name": "桌面静物",
+      "familyKey": "photo",
+      "family": "真实摄影与现场",
+      "visualMechanism": "真实物件占据解释区，用摆放距离和接触关系讲清概念",
+      "profiles": {
+        "layout": "L02",
+        "motion": "M02",
+        "editing": "E04",
+        "sound": "S02"
+      },
+      "suitableFor": [
+        "生活",
+        "消费"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A23",
+      "key": "macro-material",
+      "name": "微距材质",
+      "familyKey": "photo",
+      "family": "真实摄影与现场",
+      "visualMechanism": "放大物件表面的纹理与接缝，图注锚定可见细节",
+      "profiles": {
+        "layout": "L02",
+        "motion": "M12",
+        "editing": "E02",
+        "sound": "S08"
+      },
+      "suitableFor": [
+        "材料",
+        "工艺"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A24",
+      "key": "overhead-workbench",
+      "name": "俯拍操作台",
+      "familyKey": "photo",
+      "family": "真实摄影与现场",
+      "visualMechanism": "工具、步骤和手边物件从上往下组织；真人独立圆窗伴随",
+      "profiles": {
+        "layout": "L07",
+        "motion": "M02",
+        "editing": "E07",
+        "sound": "S02"
+      },
+      "suitableFor": [
+        "教程",
+        "手作"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A25",
+      "key": "architectural-light",
+      "name": "建筑光影",
+      "familyKey": "photo",
+      "family": "真实摄影与现场",
+      "visualMechanism": "大尺度墙面、投影和门洞形成空间秩序；文字落在稳定平面",
+      "profiles": {
+        "layout": "L06",
+        "motion": "M12",
+        "editing": "E02",
+        "sound": "S07"
+      },
+      "suitableFor": [
+        "空间",
+        "思考"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A26",
+      "key": "everyday-story",
+      "name": "生活场景叙事",
+      "familyKey": "photo",
+      "family": "真实摄影与现场",
+      "visualMechanism": "用真实生活物件构成一组情境，图注随场景给出观察点",
+      "profiles": {
+        "layout": "L09",
+        "motion": "M02",
+        "editing": "E07",
+        "sound": "S10"
+      },
+      "suitableFor": [
+        "经验",
+        "关系"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A27",
+      "key": "spotlight-stage",
+      "name": "舞台聚光",
+      "familyKey": "photo",
+      "family": "真实摄影与现场",
+      "visualMechanism": "黑色舞台与局部照明突出解释物件，人物原色视频层不受聚光调色",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M12",
+        "editing": "E08",
+        "sound": "S08"
+      },
+      "suitableFor": [
+        "观点",
+        "发布"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A28",
+      "key": "darkroom-prints",
+      "name": "黑白暗房",
+      "familyKey": "photo",
+      "family": "真实摄影与现场",
+      "visualMechanism": "背景资料以黑白照片和接触印样呈现，原色真人形成明确媒介对照",
+      "profiles": {
+        "layout": "L02",
+        "motion": "M03",
+        "editing": "E09",
+        "sound": "S02"
+      },
+      "suitableFor": [
+        "历史",
+        "摄影"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A29",
+      "key": "newspaper",
+      "name": "新闻报纸",
+      "familyKey": "editorial",
+      "family": "编辑与信息印刷",
+      "visualMechanism": "密度有秩序的栏组、标题与图片说明共同建立新闻阅读面",
+      "profiles": {
+        "layout": "L03",
+        "motion": "M03",
+        "editing": "E03",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "新闻解释"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A30",
+      "key": "archive-dossier",
+      "name": "档案卷宗",
+      "familyKey": "editorial",
+      "family": "编辑与信息印刷",
+      "visualMechanism": "来源页、页签和交叉引用组织材料，真实证据与解释示意分开标明",
+      "profiles": {
+        "layout": "L04",
+        "motion": "M03",
+        "editing": "E09",
+        "sound": "S03"
+      },
+      "suitableFor": [
+        "调查",
+        "复盘"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A31",
+      "key": "photo-book",
+      "name": "摄影画册",
+      "familyKey": "editorial",
+      "family": "编辑与信息印刷",
+      "visualMechanism": "大幅照片、跨页留白与简短图注，镜头停留为看清照片服务",
+      "profiles": {
+        "layout": "L02",
+        "motion": "M03",
+        "editing": "E08",
+        "sound": "S10"
+      },
+      "suitableFor": [
+        "人物",
+        "旅行"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A32",
+      "key": "dictionary-entry",
+      "name": "字典辞条",
+      "familyKey": "editorial",
+      "family": "编辑与信息印刷",
+      "visualMechanism": "术语、释义、例子和对应小图形成可查阅条目，重点由定义展开",
+      "profiles": {
+        "layout": "L03",
+        "motion": "M04",
+        "editing": "E03",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "术语科普"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A33",
+      "key": "lab-notebook",
+      "name": "实验记录",
+      "familyKey": "editorial",
+      "family": "编辑与信息印刷",
+      "visualMechanism": "步骤、观察和结论分别落在记录区，量尺及数据仅在有来源时出现",
+      "profiles": {
+        "layout": "L07",
+        "motion": "M06",
+        "editing": "E03",
+        "sound": "S04"
+      },
+      "suitableFor": [
+        "科学",
+        "方法"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A34",
+      "key": "timeline-almanac",
+      "name": "时间轴年鉴",
+      "familyKey": "editorial",
+      "family": "编辑与信息印刷",
+      "visualMechanism": "以真实日期、事件和同期图像组成时间带，避免虚构历史空白",
+      "profiles": {
+        "layout": "L11",
+        "motion": "M03",
+        "editing": "E09",
+        "sound": "S10"
+      },
+      "suitableFor": [
+        "历史",
+        "发展"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A35",
+      "key": "swiss-grid",
+      "name": "瑞士网格",
+      "familyKey": "graphic",
+      "family": "字体与现代平面",
+      "visualMechanism": "严密网格、非对称排印和字距控制，以对齐而非容器形成秩序",
+      "profiles": {
+        "layout": "L03",
+        "motion": "M04",
+        "editing": "E01",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "商业",
+        "知识"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": [
+        "R06"
+      ]
+    },
+    {
+      "id": "A36",
+      "key": "constructivist",
+      "name": "构成主义",
+      "familyKey": "graphic",
+      "family": "字体与现代平面",
+      "visualMechanism": "斜向轴线、摄影片段与几何张力组织观点；不借用历史政治口号",
+      "profiles": {
+        "layout": "L06",
+        "motion": "M05",
+        "editing": "E05",
+        "sound": "S05"
+      },
+      "suitableFor": [
+        "观点",
+        "机制"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A37",
+      "key": "art-deco",
+      "name": "装饰艺术",
+      "familyKey": "graphic",
+      "family": "字体与现代平面",
+      "visualMechanism": "阶梯几何、对称门框和金属细节营造秩序，段落像逐级展开的立面",
+      "profiles": {
+        "layout": "L06",
+        "motion": "M12",
+        "editing": "E04",
+        "sound": "S07"
+      },
+      "suitableFor": [
+        "品牌",
+        "文化"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": [
+        "R04"
+      ]
+    },
+    {
+      "id": "A38",
+      "key": "art-nouveau",
+      "name": "新艺术曲线",
+      "familyKey": "graphic",
+      "family": "字体与现代平面",
+      "visualMechanism": "植物式曲线、连贯边缘和有机框架构成阅读路径，不只贴花边",
+      "profiles": {
+        "layout": "L11",
+        "motion": "M06",
+        "editing": "E04",
+        "sound": "S07"
+      },
+      "suitableFor": [
+        "自然",
+        "文化"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": [
+        "R03"
+      ]
+    },
+    {
+      "id": "A39",
+      "key": "memphis",
+      "name": "孟菲斯几何",
+      "familyKey": "graphic",
+      "family": "字体与现代平面",
+      "visualMechanism": "互相制衡的几何纹样、错位尺度与轻快物件感，正文仍有稳定底面",
+      "profiles": {
+        "layout": "L06",
+        "motion": "M05",
+        "editing": "E04",
+        "sound": "S05"
+      },
+      "suitableFor": [
+        "轻松知识"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A40",
+      "key": "brutalist-type",
+      "name": "粗野排印",
+      "familyKey": "graphic",
+      "family": "字体与现代平面",
+      "visualMechanism": "直接暴露网格和强字重，以粗线和不修饰的结构承载冲突观点",
+      "profiles": {
+        "layout": "L05",
+        "motion": "M04",
+        "editing": "E01",
+        "sound": "S05"
+      },
+      "suitableFor": [
+        "态度",
+        "反思"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A41",
+      "key": "optical-graphic",
+      "name": "动势错视",
+      "familyKey": "graphic",
+      "family": "字体与现代平面",
+      "visualMechanism": "粗尺度黑白图底产生静态方向错觉；不使用高频闪烁或细密频闪纹",
+      "profiles": {
+        "layout": "L06",
+        "motion": "M05",
+        "editing": "E06",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "感知",
+        "设计"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A42",
+      "key": "negative-space",
+      "name": "负空间图形",
+      "familyKey": "graphic",
+      "family": "字体与现代平面",
+      "visualMechanism": "借轮廓之间留下的空白显示另一层意义，图与底依次被辨认",
+      "profiles": {
+        "layout": "L06",
+        "motion": "M05",
+        "editing": "E04",
+        "sound": "S07"
+      },
+      "suitableFor": [
+        "概念",
+        "反转"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A43",
+      "key": "pencil-sketch",
+      "name": "铅笔素描",
+      "familyKey": "drawing",
+      "family": "手绘与书写",
+      "visualMechanism": "石墨线重、留白和结构辅助线共同解释体积，关键边缘由轻到重",
+      "profiles": {
+        "layout": "L07",
+        "motion": "M06",
+        "editing": "E02",
+        "sound": "S04"
+      },
+      "suitableFor": [
+        "结构",
+        "观察"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A44",
+      "key": "colored-pencil",
+      "name": "彩铅笔记",
+      "familyKey": "drawing",
+      "family": "手绘与书写",
+      "visualMechanism": "可见叠笔与局部色层，图注像边看边补充的学习记录",
+      "profiles": {
+        "layout": "L03",
+        "motion": "M06",
+        "editing": "E03",
+        "sound": "S04"
+      },
+      "suitableFor": [
+        "学习",
+        "生活"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A45",
+      "key": "charcoal",
+      "name": "炭笔擦绘",
+      "familyKey": "drawing",
+      "family": "手绘与书写",
+      "visualMechanism": "宽幅炭迹、明暗块和擦出的高光建立形体，转场由擦绘区让出信息",
+      "profiles": {
+        "layout": "L02",
+        "motion": "M07",
+        "editing": "E05",
+        "sound": "S04"
+      },
+      "suitableFor": [
+        "情绪",
+        "形体"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A46",
+      "key": "pen-hatching",
+      "name": "钢笔排线",
+      "familyKey": "drawing",
+      "family": "手绘与书写",
+      "visualMechanism": "密度有方向的排线刻画解释物件，文字留白避免与细线竞争",
+      "profiles": {
+        "layout": "L07",
+        "motion": "M06",
+        "editing": "E02",
+        "sound": "S04"
+      },
+      "suitableFor": [
+        "工艺",
+        "建筑"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A47",
+      "key": "wax-crayon",
+      "name": "蜡笔涂绘",
+      "familyKey": "drawing",
+      "family": "手绘与书写",
+      "visualMechanism": "不均匀蜡质边缘、叠色和大胆轮廓建立亲近感，真人不被涂绘",
+      "profiles": {
+        "layout": "L09",
+        "motion": "M08",
+        "editing": "E07",
+        "sound": "S06"
+      },
+      "suitableFor": [
+        "亲子",
+        "趣味"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A48",
+      "key": "soft-pastel",
+      "name": "粉彩晕染",
+      "familyKey": "drawing",
+      "family": "手绘与书写",
+      "visualMechanism": "粉状色面、柔边和局部擦拭形成重点，字幕位于不受晕染的清晰层",
+      "profiles": {
+        "layout": "L02",
+        "motion": "M11",
+        "editing": "E08",
+        "sound": "S07"
+      },
+      "suitableFor": [
+        "情绪",
+        "自然"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A49",
+      "key": "marker-sketch",
+      "name": "记号笔速写",
+      "familyKey": "drawing",
+      "family": "手绘与书写",
+      "visualMechanism": "宽窄一致的标记线与透视草图，像快速抓住一个物件的用途",
+      "profiles": {
+        "layout": "L07",
+        "motion": "M06",
+        "editing": "E04",
+        "sound": "S04"
+      },
+      "suitableFor": [
+        "方法",
+        "产品"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A50",
+      "key": "brush-lettering",
+      "name": "刷笔字形",
+      "familyKey": "drawing",
+      "family": "手绘与书写",
+      "visualMechanism": "有起落的粗笔短词与大面积空白形成口气，长句仍用清晰正文字体",
+      "profiles": {
+        "layout": "L05",
+        "motion": "M06",
+        "editing": "E04",
+        "sound": "S07"
+      },
+      "suitableFor": [
+        "态度",
+        "文学"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A51",
+      "key": "picture-book",
+      "name": "儿童绘本",
+      "familyKey": "illustration",
+      "family": "插画与叙事",
+      "visualMechanism": "场景跨页、简单比例和细节发现形成叙事，不把人物原片改成插画",
+      "profiles": {
+        "layout": "L09",
+        "motion": "M08",
+        "editing": "E08",
+        "sound": "S07"
+      },
+      "suitableFor": [
+        "亲子",
+        "故事"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A52",
+      "key": "natural-history",
+      "name": "科学博物插画",
+      "familyKey": "illustration",
+      "family": "插画与叙事",
+      "visualMechanism": "对象的结构、局部和标注共同解释；品种、部位和比例需有资料依据",
+      "profiles": {
+        "layout": "L14",
+        "motion": "M06",
+        "editing": "E02",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "自然",
+        "科学"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A53",
+      "key": "isometric-city",
+      "name": "等距城市插画",
+      "familyKey": "illustration",
+      "family": "插画与叙事",
+      "visualMechanism": "等距街区和楼层关系承载系统解释，图注随真实对应的节点出现",
+      "profiles": {
+        "layout": "L14",
+        "motion": "M05",
+        "editing": "E07",
+        "sound": "S09"
+      },
+      "suitableFor": [
+        "城市",
+        "系统"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A54",
+      "key": "faceted-vector",
+      "name": "低多边形平涂",
+      "familyKey": "illustration",
+      "family": "插画与叙事",
+      "visualMechanism": "由有限平面切分建立形体和受光方向；保持二维切面而非光滑立体",
+      "profiles": {
+        "layout": "L09",
+        "motion": "M05",
+        "editing": "E04",
+        "sound": "S05"
+      },
+      "suitableFor": [
+        "概念",
+        "科技"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A55",
+      "key": "editorial-metaphor",
+      "name": "讽刺社论插画",
+      "familyKey": "illustration",
+      "family": "插画与叙事",
+      "visualMechanism": "物件比例与情境反差承载观点，类比保持解释身份而非假证据",
+      "profiles": {
+        "layout": "L09",
+        "motion": "M08",
+        "editing": "E07",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "社会",
+        "商业"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A56",
+      "key": "silhouette-fable",
+      "name": "剪影寓言",
+      "familyKey": "illustration",
+      "family": "插画与叙事",
+      "visualMechanism": "解释物件以清楚轮廓和负空间叙事，真人依然是原色圆窗",
+      "profiles": {
+        "layout": "L09",
+        "motion": "M08",
+        "editing": "E07",
+        "sound": "S10"
+      },
+      "suitableFor": [
+        "故事",
+        "寓意"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A57",
+      "key": "illustrated-map",
+      "name": "地图旅行插画",
+      "familyKey": "illustration",
+      "family": "插画与叙事",
+      "visualMechanism": "地形、路线和地点小场景构成可探索的画布，实际地理信息另行核对",
+      "profiles": {
+        "layout": "L11",
+        "motion": "M02",
+        "editing": "E09",
+        "sound": "S02"
+      },
+      "suitableFor": [
+        "旅行",
+        "历史"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A58",
+      "key": "origami",
+      "name": "折纸结构",
+      "familyKey": "fiber",
+      "family": "纸与纤维",
+      "visualMechanism": "一张纸围绕折线形成可辨认结构，展开与折合解释部分和整体",
+      "profiles": {
+        "layout": "L10",
+        "motion": "M09",
+        "editing": "E04",
+        "sound": "S03"
+      },
+      "suitableFor": [
+        "结构",
+        "方法"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": [
+        "R02"
+      ]
+    },
+    {
+      "id": "A59",
+      "key": "pop-up-book",
+      "name": "立体书机关",
+      "familyKey": "fiber",
+      "family": "纸与纤维",
+      "visualMechanism": "书脊、拉页和立起的纸形共同带出信息，机关方向具有真实连接",
+      "profiles": {
+        "layout": "L10",
+        "motion": "M09",
+        "editing": "E05",
+        "sound": "S03"
+      },
+      "suitableFor": [
+        "故事",
+        "科普"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": [
+        "R02"
+      ]
+    },
+    {
+      "id": "A60",
+      "key": "corrugated-model",
+      "name": "瓦楞纸模型",
+      "familyKey": "fiber",
+      "family": "纸与纤维",
+      "visualMechanism": "可见夹层、厚边和插接结构构成微型物件，与薄纸拼贴拉开厚度差异",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M09",
+        "editing": "E02",
+        "sound": "S06"
+      },
+      "suitableFor": [
+        "工程",
+        "手作"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A61",
+      "key": "torn-paper",
+      "name": "撕纸肌理",
+      "familyKey": "fiber",
+      "family": "纸与纤维",
+      "visualMechanism": "不规则纸纤维边缘与大色面叠接，轮廓由撕口而非笔线构成",
+      "profiles": {
+        "layout": "L10",
+        "motion": "M03",
+        "editing": "E05",
+        "sound": "S03"
+      },
+      "suitableFor": [
+        "情绪",
+        "历史"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A62",
+      "key": "felt-applique",
+      "name": "毛毡贴画",
+      "familyKey": "fiber",
+      "family": "纸与纤维",
+      "visualMechanism": "柔软毛边、厚片和缝接构成物件，运动有轻微阻尼和压缩",
+      "profiles": {
+        "layout": "L09",
+        "motion": "M08",
+        "editing": "E07",
+        "sound": "S06"
+      },
+      "suitableFor": [
+        "亲和科普"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A63",
+      "key": "embroidery",
+      "name": "刺绣针脚",
+      "familyKey": "fiber",
+      "family": "纸与纤维",
+      "visualMechanism": "线迹的方向和疏密组成图形，节点像逐针建立的联系",
+      "profiles": {
+        "layout": "L07",
+        "motion": "M10",
+        "editing": "E04",
+        "sound": "S06"
+      },
+      "suitableFor": [
+        "关系",
+        "手艺"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A64",
+      "key": "patchwork",
+      "name": "织物拼布",
+      "familyKey": "fiber",
+      "family": "纸与纤维",
+      "visualMechanism": "布纹、拼缝和不同织片共同组织并列材料，连接处承担信息分组",
+      "profiles": {
+        "layout": "L10",
+        "motion": "M10",
+        "editing": "E05",
+        "sound": "S06"
+      },
+      "suitableFor": [
+        "故事",
+        "文化"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A65",
+      "key": "knotted-cord",
+      "name": "线绳编结",
+      "familyKey": "fiber",
+      "family": "纸与纤维",
+      "visualMechanism": "绳结、缠绕和松开解释关系，标签位于不被线团穿过的空区",
+      "profiles": {
+        "layout": "L07",
+        "motion": "M10",
+        "editing": "E04",
+        "sound": "S06"
+      },
+      "suitableFor": [
+        "关系",
+        "方法"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A66",
+      "key": "silk-layers",
+      "name": "绢纱叠层",
+      "familyKey": "fiber",
+      "family": "纸与纤维",
+      "visualMechanism": "半透明织层、褶皱与透光形成前后关系，关键信息不藏在透明叠色中",
+      "profiles": {
+        "layout": "L10",
+        "motion": "M12",
+        "editing": "E08",
+        "sound": "S07"
+      },
+      "suitableFor": [
+        "情绪",
+        "工艺"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A67",
+      "key": "gongbi",
+      "name": "工笔设色",
+      "familyKey": "painting",
+      "family": "传统绘画与东方",
+      "visualMechanism": "细线立骨、多层淡设色和局部放大，解释对象边界清楚而不靠墨块",
+      "profiles": {
+        "layout": "L02",
+        "motion": "M11",
+        "editing": "E02",
+        "sound": "S07"
+      },
+      "suitableFor": [
+        "文化",
+        "自然"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": [
+        "R05"
+      ]
+    },
+    {
+      "id": "A68",
+      "key": "blue-green-landscape",
+      "name": "青绿山水",
+      "familyKey": "painting",
+      "family": "传统绘画与东方",
+      "visualMechanism": "层叠山形、矿物色面与长卷路径构成空间，人物不染成青绿",
+      "profiles": {
+        "layout": "L11",
+        "motion": "M11",
+        "editing": "E07",
+        "sound": "S07"
+      },
+      "suitableFor": [
+        "地理",
+        "文化"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": [
+        "R05"
+      ]
+    },
+    {
+      "id": "A69",
+      "key": "mural",
+      "name": "敦煌壁画",
+      "familyKey": "painting",
+      "family": "传统绘画与东方",
+      "visualMechanism": "壁面肌理、连续画带与平面设色组织故事，纹样使用需核对来源与语境",
+      "profiles": {
+        "layout": "L11",
+        "motion": "M11",
+        "editing": "E09",
+        "sound": "S07"
+      },
+      "suitableFor": [
+        "艺术",
+        "历史"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A70",
+      "key": "folk-woodblock",
+      "name": "版刻年画",
+      "familyKey": "painting",
+      "family": "传统绘画与东方",
+      "visualMechanism": "民间叙事构图、层次套色和有力轮廓形成节庆图像，避免文化符号乱拼",
+      "profiles": {
+        "layout": "L09",
+        "motion": "M05",
+        "editing": "E07",
+        "sound": "S05"
+      },
+      "suitableFor": [
+        "民俗",
+        "节庆"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A71",
+      "key": "porcelain-painting",
+      "name": "蓝白瓷绘",
+      "familyKey": "painting",
+      "family": "传统绘画与东方",
+      "visualMechanism": "釉面上的蓝色笔绘、器形曲面与留白构成解释载体，不只换成蓝白配色",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M12",
+        "editing": "E02",
+        "sound": "S07"
+      },
+      "suitableFor": [
+        "工艺",
+        "文化"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A72",
+      "key": "seal-carving",
+      "name": "篆印朱文",
+      "familyKey": "painting",
+      "family": "传统绘画与东方",
+      "visualMechanism": "朱白正负形、边款与印面建立关系，长句不强改为难读篆字",
+      "profiles": {
+        "layout": "L06",
+        "motion": "M05",
+        "editing": "E04",
+        "sound": "S04"
+      },
+      "suitableFor": [
+        "文字",
+        "文化"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A73",
+      "key": "lacquer-gold",
+      "name": "漆绘描金",
+      "familyKey": "painting",
+      "family": "传统绘画与东方",
+      "visualMechanism": "深色漆面、薄金线与反光层次形成图案，光线只扫过工艺表面",
+      "profiles": {
+        "layout": "L02",
+        "motion": "M12",
+        "editing": "E08",
+        "sound": "S07"
+      },
+      "suitableFor": [
+        "工艺",
+        "品牌"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A74",
+      "key": "watercolor",
+      "name": "水彩洇染",
+      "familyKey": "painting",
+      "family": "传统绘画与东方",
+      "visualMechanism": "透明色层、纸白与水痕边缘显示关系，字与真人不受扩散影响",
+      "profiles": {
+        "layout": "L02",
+        "motion": "M11",
+        "editing": "E08",
+        "sound": "S07"
+      },
+      "suitableFor": [
+        "自然",
+        "情绪"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A75",
+      "key": "impasto",
+      "name": "厚涂油彩",
+      "familyKey": "painting",
+      "family": "传统绘画与东方",
+      "visualMechanism": "厚颜料的笔脊、遮盖关系与侧光建立体积，避免把真人变成油画肖像",
+      "profiles": {
+        "layout": "L02",
+        "motion": "M12",
+        "editing": "E02",
+        "sound": "S10"
+      },
+      "suitableFor": [
+        "艺术",
+        "情绪"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A76",
+      "key": "woodcut",
+      "name": "木刻刀痕",
+      "familyKey": "craft",
+      "family": "工艺表面与印制",
+      "visualMechanism": "单色刀痕、强黑白和刻除方向构成物件，与年画的叙事套色分开",
+      "profiles": {
+        "layout": "L06",
+        "motion": "M07",
+        "editing": "E04",
+        "sound": "S04"
+      },
+      "suitableFor": [
+        "观点",
+        "历史"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A77",
+      "key": "etching",
+      "name": "蚀刻铜版",
+      "familyKey": "craft",
+      "family": "工艺表面与印制",
+      "visualMechanism": "细密刻线、版面边界和受控灰调表现对象，细节放大后才可读",
+      "profiles": {
+        "layout": "L02",
+        "motion": "M06",
+        "editing": "E02",
+        "sound": "S04"
+      },
+      "suitableFor": [
+        "工艺",
+        "知识"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A78",
+      "key": "risograph",
+      "name": "孔版套印",
+      "familyKey": "craft",
+      "family": "工艺表面与印制",
+      "visualMechanism": "大面积孔版色层、轻微套版错位和油墨颗粒；不是照片上统一加网点",
+      "profiles": {
+        "layout": "L06",
+        "motion": "M05",
+        "editing": "E04",
+        "sound": "S05"
+      },
+      "suitableFor": [
+        "文化",
+        "创意"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A79",
+      "key": "enamel-badge",
+      "name": "珐琅徽章",
+      "familyKey": "craft",
+      "family": "工艺表面与印制",
+      "visualMechanism": "金属围边、分隔色釉和小型凸起物件形成明确边界，标签不挤入釉格",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M12",
+        "editing": "E04",
+        "sound": "S08"
+      },
+      "suitableFor": [
+        "品牌",
+        "文化"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A80",
+      "key": "cyanotype",
+      "name": "蓝晒图像",
+      "familyKey": "craft",
+      "family": "工艺表面与印制",
+      "visualMechanism": "实物遮挡留下的负形与感光纸肌理，重点在影像生成关系而非工程蓝图",
+      "profiles": {
+        "layout": "L02",
+        "motion": "M11",
+        "editing": "E04",
+        "sound": "S02"
+      },
+      "suitableFor": [
+        "自然",
+        "摄影"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A81",
+      "key": "foil-deboss",
+      "name": "烫金压凹",
+      "familyKey": "craft",
+      "family": "工艺表面与印制",
+      "visualMechanism": "凹入字形、局部金属箔与侧光变化共同呈现触感，正文保持平视清晰",
+      "profiles": {
+        "layout": "L05",
+        "motion": "M12",
+        "editing": "E08",
+        "sound": "S03"
+      },
+      "suitableFor": [
+        "品牌",
+        "工艺"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A82",
+      "key": "mosaic",
+      "name": "马赛克拼片",
+      "familyKey": "craft",
+      "family": "工艺表面与印制",
+      "visualMechanism": "独立嵌片、拼缝和局部聚合建立图像，尺度足够大才能辨别拼片关系",
+      "profiles": {
+        "layout": "L06",
+        "motion": "M10",
+        "editing": "E04",
+        "sound": "S06"
+      },
+      "suitableFor": [
+        "历史",
+        "结构"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A83",
+      "key": "stained-glass",
+      "name": "彩绘玻璃",
+      "familyKey": "craft",
+      "family": "工艺表面与印制",
+      "visualMechanism": "铅条边界、彩色透光和块面拼接建立空间，字幕位于不透光底板",
+      "profiles": {
+        "layout": "L10",
+        "motion": "M12",
+        "editing": "E08",
+        "sound": "S07"
+      },
+      "suitableFor": [
+        "文化",
+        "空间"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A84",
+      "key": "sandstone-relief",
+      "name": "砂岩浮雕",
+      "familyKey": "craft",
+      "family": "工艺表面与印制",
+      "visualMechanism": "颗粒石面、刻入层次和低角度阴影解释轮廓，避免仅用一张石头背景",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M12",
+        "editing": "E02",
+        "sound": "S08"
+      },
+      "suitableFor": [
+        "历史",
+        "建筑"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A85",
+      "key": "chased-metal",
+      "name": "金属錾刻",
+      "familyKey": "craft",
+      "family": "工艺表面与印制",
+      "visualMechanism": "金属板上的凹凸线、锤痕与镜面变化形成局部细节，标签不随高光闪动",
+      "profiles": {
+        "layout": "L02",
+        "motion": "M12",
+        "editing": "E02",
+        "sound": "S08"
+      },
+      "suitableFor": [
+        "工艺",
+        "制造"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A86",
+      "key": "miniature-puppet",
+      "name": "微缩木偶",
+      "familyKey": "volume",
+      "family": "立体与模型",
+      "visualMechanism": "可见关节、布景比例与有重量的道具表演；真实讲述者不被做成木偶",
+      "profiles": {
+        "layout": "L09",
+        "motion": "M08",
+        "editing": "E07",
+        "sound": "S06"
+      },
+      "suitableFor": [
+        "故事",
+        "机制"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": [
+        "R02"
+      ]
+    },
+    {
+      "id": "A87",
+      "key": "building-blocks",
+      "name": "硬质积木",
+      "familyKey": "volume",
+      "family": "立体与模型",
+      "visualMechanism": "模块拼接、可见接缝和结构搭建解释组成关系，不冒用具体玩具品牌造型",
+      "profiles": {
+        "layout": "L14",
+        "motion": "M02",
+        "editing": "E04",
+        "sound": "S06"
+      },
+      "suitableFor": [
+        "组织",
+        "工程"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": [
+        "R02"
+      ]
+    },
+    {
+      "id": "A88",
+      "key": "optical-glass",
+      "name": "透明玻璃",
+      "familyKey": "volume",
+      "family": "立体与模型",
+      "visualMechanism": "折射、厚度与透视揭示物体内部关系，文字与人脸不经折射",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M13",
+        "editing": "E02",
+        "sound": "S08"
+      },
+      "suitableFor": [
+        "概念",
+        "科技"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A89",
+      "key": "ceramic-objects",
+      "name": "陶瓷物件",
+      "familyKey": "volume",
+      "family": "立体与模型",
+      "visualMechanism": "硬釉面、烧制色差和圆润体积形成物件，动作体现硬质接触而非软糖回弹",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M13",
+        "editing": "E07",
+        "sound": "S06"
+      },
+      "suitableFor": [
+        "生活",
+        "产品"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A90",
+      "key": "liquid-chrome",
+      "name": "镀铬液态",
+      "familyKey": "volume",
+      "family": "立体与模型",
+      "visualMechanism": "连续金属曲面、镜面环境和形体合并解释聚散，与硬表机械结构区分",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M13",
+        "editing": "E04",
+        "sound": "S08"
+      },
+      "suitableFor": [
+        "概念",
+        "品牌"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A91",
+      "key": "isometric-maquette",
+      "name": "等距白模",
+      "familyKey": "volume",
+      "family": "立体与模型",
+      "visualMechanism": "无装饰白色体块、统一斜投影和接触阴影解释空间比例",
+      "profiles": {
+        "layout": "L14",
+        "motion": "M13",
+        "editing": "E10",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "建筑",
+        "系统"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A92",
+      "key": "inflatable-sculpture",
+      "name": "充气软雕",
+      "familyKey": "volume",
+      "family": "立体与模型",
+      "visualMechanism": "接缝、内压和大体积软壳，形变只作用于图解物件",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M13",
+        "editing": "E04",
+        "sound": "S08"
+      },
+      "suitableFor": [
+        "轻松概念"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A93",
+      "key": "viscous-gel",
+      "name": "流体凝胶",
+      "familyKey": "volume",
+      "family": "立体与模型",
+      "visualMechanism": "透明黏性体积、缓慢回流和包裹关系，避免同屏与阅读文字一起流动",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M13",
+        "editing": "E07",
+        "sound": "S08"
+      },
+      "suitableFor": [
+        "机制",
+        "感知"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A94",
+      "key": "mechanical-cutaway",
+      "name": "机械剖面",
+      "familyKey": "volume",
+      "family": "立体与模型",
+      "visualMechanism": "真实或明确示意的剖切体、分解结构和稳定标注，展示内部因果",
+      "profiles": {
+        "layout": "L14",
+        "motion": "M13",
+        "editing": "E10",
+        "sound": "S08"
+      },
+      "suitableFor": [
+        "工程",
+        "原理"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A95",
+      "key": "terminal-ascii",
+      "name": "终端字符",
+      "familyKey": "digital",
+      "family": "数字屏幕与系统",
+      "visualMechanism": "等宽字符组成状态和结构，实际文字逐段输出；不伪装真实系统日志",
+      "profiles": {
+        "layout": "L13",
+        "motion": "M14",
+        "editing": "E04",
+        "sound": "S09"
+      },
+      "suitableFor": [
+        "编程",
+        "机制"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A96",
+      "key": "vector-oscilloscope",
+      "name": "矢量示波",
+      "familyKey": "digital",
+      "family": "数字屏幕与系统",
+      "visualMechanism": "连续发光线与轨迹余辉构成图形，波形使用真实音频或明确标为示意",
+      "profiles": {
+        "layout": "L07",
+        "motion": "M14",
+        "editing": "E04",
+        "sound": "S09"
+      },
+      "suitableFor": [
+        "声音",
+        "科技"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A97",
+      "key": "led-dot-matrix",
+      "name": "低帧点阵",
+      "familyKey": "digital",
+      "family": "数字屏幕与系统",
+      "visualMechanism": "单色圆点阵列、字模和分段更新，区别于像素游戏的场景与方形贴图",
+      "profiles": {
+        "layout": "L05",
+        "motion": "M14",
+        "editing": "E04",
+        "sound": "S09"
+      },
+      "suitableFor": [
+        "简报",
+        "趣味"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A98",
+      "key": "early-desktop",
+      "name": "早期桌面",
+      "familyKey": "digital",
+      "family": "数字屏幕与系统",
+      "visualMechanism": "窗口、位图图标与明确层级组织任务，不复制未经授权的系统品牌界面",
+      "profiles": {
+        "layout": "L13",
+        "motion": "M14",
+        "editing": "E03",
+        "sound": "S09"
+      },
+      "suitableFor": [
+        "技术史",
+        "流程"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A99",
+      "key": "spatial-pointcloud",
+      "name": "空间点云",
+      "familyKey": "digital",
+      "family": "数字屏幕与系统",
+      "visualMechanism": "稀疏到密集的空间采样、点的前后关系和剖切观察；不把真人点云化",
+      "profiles": {
+        "layout": "L14",
+        "motion": "M13",
+        "editing": "E10",
+        "sound": "S08"
+      },
+      "suitableFor": [
+        "空间",
+        "机制"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    },
+    {
+      "id": "A100",
+      "key": "holographic-volume",
+      "name": "全息投影",
+      "familyKey": "digital",
+      "family": "数字屏幕与系统",
+      "visualMechanism": "局部发光体积、投影平面与空间层次，区别于实体硬表和普通透明UI",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M13",
+        "editing": "E08",
+        "sound": "S09"
+      },
+      "suitableFor": [
+        "概念",
+        "科技"
+      ],
+      "status": "candidate-planned",
+      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": []
+    }
+  ],
+  "plannedCount": 80,
+  "totalCount": 100,
+  "families": [
+    {
+      "key": "photo",
+      "name": "真实摄影与现场",
+      "principle": "真实空间、景别、光线和物件关系；人物维持原片颜色"
+    },
+    {
+      "key": "editorial",
+      "name": "编辑与信息印刷",
+      "principle": "阅读载体、资料关系和编辑秩序"
+    },
+    {
+      "key": "graphic",
+      "name": "字体与现代平面",
+      "principle": "字形、几何、比例和图底关系"
+    },
+    {
+      "key": "drawing",
+      "name": "手绘与书写",
+      "principle": "笔触、描画、擦除和推导过程"
+    },
+    {
+      "key": "illustration",
+      "name": "插画与叙事",
+      "principle": "图形角色、情境与连续叙事"
+    },
+    {
+      "key": "fiber",
+      "name": "纸与纤维",
+      "principle": "切口、折叠、纤维和实体遮挡"
+    },
+    {
+      "key": "painting",
+      "name": "传统绘画与东方",
+      "principle": "笔墨、设色、虚实及画面展开方式"
+    },
+    {
+      "key": "craft",
+      "name": "工艺表面与印制",
+      "principle": "印痕、嵌片、雕刻和光照下的表面"
+    },
+    {
+      "key": "volume",
+      "name": "立体与模型",
+      "principle": "体积、材料、相机和空间变化"
+    },
+    {
+      "key": "digital",
+      "name": "数字屏幕与系统",
+      "principle": "像素、界面状态、字符和空间采样"
+    }
+  ],
+  "profileLibrary": "profiles.json",
+  "researchBoundary": "100项为本项目可组合的视觉方向，含材料、传统风格与创意配方；不是100个互斥行业标准。20项已认可，80项未制作样片。"
+}

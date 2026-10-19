@@ -1,0 +1,910 @@
+{
+  "goal": "100个实际画风视频与正式插件整合",
+  "total": 100,
+  "userApproved": 20,
+  "productionVerified": 0,
+  "inProduction": 3,
+  "queued": 77,
+  "styles": [
+    {
+      "id": "A01",
+      "key": "minimal",
+      "name": "写实极简",
+      "family": "photo",
+      "stage": "user-approved",
+      "formal": true,
+      "userApproved": true
+    },
+    {
+      "id": "A02",
+      "key": "paper",
+      "name": "纸本批注",
+      "family": "editorial",
+      "stage": "user-approved",
+      "formal": true,
+      "userApproved": true
+    },
+    {
+      "id": "A03",
+      "key": "geometry",
+      "name": "几何印刷",
+      "family": "graphic",
+      "stage": "user-approved",
+      "formal": true,
+      "userApproved": true
+    },
+    {
+      "id": "A04",
+      "key": "magazine",
+      "name": "杂志编辑",
+      "family": "editorial",
+      "stage": "user-approved",
+      "formal": true,
+      "userApproved": true
+    },
+    {
+      "id": "A05",
+      "key": "collage",
+      "name": "剪贴拼贴",
+      "family": "editorial",
+      "stage": "user-approved",
+      "formal": true,
+      "userApproved": true
+    },
+    {
+      "id": "A06",
+      "key": "line",
+      "name": "单线手绘",
+      "family": "drawing",
+      "stage": "user-approved",
+      "formal": true,
+      "userApproved": true
+    },
+    {
+      "id": "A07",
+      "key": "illustration",
+      "name": "图形插画",
+      "family": "illustration",
+      "stage": "user-approved",
+      "formal": true,
+      "userApproved": true
+    },
+    {
+      "id": "A08",
+      "key": "precision",
+      "name": "精密界面",
+      "family": "digital",
+      "stage": "user-approved",
+      "formal": true,
+      "userApproved": true
+    },
+    {
+      "id": "A09",
+      "key": "blueprint",
+      "name": "技术蓝图",
+      "family": "digital",
+      "stage": "user-approved",
+      "formal": true,
+      "userApproved": true
+    },
+    {
+      "id": "A10",
+      "key": "halftone",
+      "name": "复古网点",
+      "family": "editorial",
+      "stage": "user-approved",
+      "formal": true,
+      "userApproved": true
+    },
+    {
+      "id": "A11",
+      "key": "comic",
+      "name": "漫画描线",
+      "family": "illustration",
+      "stage": "user-approved",
+      "formal": true,
+      "userApproved": true
+    },
+    {
+      "id": "A12",
+      "key": "film",
+      "name": "胶片影像",
+      "family": "photo",
+      "stage": "user-approved",
+      "formal": true,
+      "userApproved": true
+    },
+    {
+      "id": "A13",
+      "key": "ink",
+      "name": "水墨留白",
+      "family": "painting",
+      "stage": "user-approved",
+      "formal": true,
+      "userApproved": true
+    },
+    {
+      "id": "A14",
+      "key": "clay",
+      "name": "柔质立体",
+      "family": "volume",
+      "stage": "user-approved",
+      "formal": true,
+      "userApproved": true
+    },
+    {
+      "id": "A15",
+      "key": "pixel",
+      "name": "像素复古",
+      "family": "digital",
+      "stage": "user-approved",
+      "formal": true,
+      "userApproved": true
+    },
+    {
+      "id": "A16",
+      "key": "chalk",
+      "name": "黑板粉笔",
+      "family": "drawing",
+      "stage": "user-approved",
+      "formal": true,
+      "userApproved": true
+    },
+    {
+      "id": "A17",
+      "key": "paper-stage",
+      "name": "剪纸舞台",
+      "family": "fiber",
+      "stage": "user-approved",
+      "formal": true,
+      "userApproved": true
+    },
+    {
+      "id": "A18",
+      "key": "type-poster",
+      "name": "巨字海报",
+      "family": "graphic",
+      "stage": "user-approved",
+      "formal": true,
+      "userApproved": true
+    },
+    {
+      "id": "A19",
+      "key": "cel",
+      "name": "赛璐璐",
+      "family": "illustration",
+      "stage": "user-approved",
+      "formal": true,
+      "userApproved": true
+    },
+    {
+      "id": "A20",
+      "key": "sci-fi-wireframe",
+      "name": "科幻线框／硬表立体",
+      "family": "digital",
+      "stage": "user-approved",
+      "formal": true,
+      "userApproved": true
+    },
+    {
+      "id": "A21",
+      "key": "documentary",
+      "name": "纪实现场",
+      "family": "photo",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A22",
+      "key": "tabletop-stilllife",
+      "name": "桌面静物",
+      "family": "photo",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A23",
+      "key": "macro-material",
+      "name": "微距材质",
+      "family": "photo",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A24",
+      "key": "overhead-workbench",
+      "name": "俯拍操作台",
+      "family": "photo",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A25",
+      "key": "architectural-light",
+      "name": "建筑光影",
+      "family": "photo",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A26",
+      "key": "everyday-story",
+      "name": "生活场景叙事",
+      "family": "photo",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A27",
+      "key": "spotlight-stage",
+      "name": "舞台聚光",
+      "family": "photo",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A28",
+      "key": "darkroom-prints",
+      "name": "黑白暗房",
+      "family": "photo",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A29",
+      "key": "newspaper",
+      "name": "新闻报纸",
+      "family": "editorial",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A30",
+      "key": "archive-dossier",
+      "name": "档案卷宗",
+      "family": "editorial",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A31",
+      "key": "photo-book",
+      "name": "摄影画册",
+      "family": "editorial",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A32",
+      "key": "dictionary-entry",
+      "name": "字典辞条",
+      "family": "editorial",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A33",
+      "key": "lab-notebook",
+      "name": "实验记录",
+      "family": "editorial",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A34",
+      "key": "timeline-almanac",
+      "name": "时间轴年鉴",
+      "family": "editorial",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A35",
+      "key": "swiss-grid",
+      "name": "瑞士网格",
+      "family": "graphic",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A36",
+      "key": "constructivist",
+      "name": "构成主义",
+      "family": "graphic",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A37",
+      "key": "art-deco",
+      "name": "装饰艺术",
+      "family": "graphic",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A38",
+      "key": "art-nouveau",
+      "name": "新艺术曲线",
+      "family": "graphic",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A39",
+      "key": "memphis",
+      "name": "孟菲斯几何",
+      "family": "graphic",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A40",
+      "key": "brutalist-type",
+      "name": "粗野排印",
+      "family": "graphic",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A41",
+      "key": "optical-graphic",
+      "name": "动势错视",
+      "family": "graphic",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A42",
+      "key": "negative-space",
+      "name": "负空间图形",
+      "family": "graphic",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A43",
+      "key": "pencil-sketch",
+      "name": "铅笔素描",
+      "family": "drawing",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A44",
+      "key": "colored-pencil",
+      "name": "彩铅笔记",
+      "family": "drawing",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A45",
+      "key": "charcoal",
+      "name": "炭笔擦绘",
+      "family": "drawing",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A46",
+      "key": "pen-hatching",
+      "name": "钢笔排线",
+      "family": "drawing",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A47",
+      "key": "wax-crayon",
+      "name": "蜡笔涂绘",
+      "family": "drawing",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A48",
+      "key": "soft-pastel",
+      "name": "粉彩晕染",
+      "family": "drawing",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A49",
+      "key": "marker-sketch",
+      "name": "记号笔速写",
+      "family": "drawing",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A50",
+      "key": "brush-lettering",
+      "name": "刷笔字形",
+      "family": "drawing",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A51",
+      "key": "picture-book",
+      "name": "儿童绘本",
+      "family": "illustration",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A52",
+      "key": "natural-history",
+      "name": "科学博物插画",
+      "family": "illustration",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A53",
+      "key": "isometric-city",
+      "name": "等距城市插画",
+      "family": "illustration",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A54",
+      "key": "faceted-vector",
+      "name": "低多边形平涂",
+      "family": "illustration",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A55",
+      "key": "editorial-metaphor",
+      "name": "讽刺社论插画",
+      "family": "illustration",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A56",
+      "key": "silhouette-fable",
+      "name": "剪影寓言",
+      "family": "illustration",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A57",
+      "key": "illustrated-map",
+      "name": "地图旅行插画",
+      "family": "illustration",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A58",
+      "key": "origami",
+      "name": "折纸结构",
+      "family": "fiber",
+      "stage": "design-in-progress",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A59",
+      "key": "pop-up-book",
+      "name": "立体书机关",
+      "family": "fiber",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A60",
+      "key": "corrugated-model",
+      "name": "瓦楞纸模型",
+      "family": "fiber",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A61",
+      "key": "torn-paper",
+      "name": "撕纸肌理",
+      "family": "fiber",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A62",
+      "key": "felt-applique",
+      "name": "毛毡贴画",
+      "family": "fiber",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A63",
+      "key": "embroidery",
+      "name": "刺绣针脚",
+      "family": "fiber",
+      "stage": "design-in-progress",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A64",
+      "key": "patchwork",
+      "name": "织物拼布",
+      "family": "fiber",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A65",
+      "key": "knotted-cord",
+      "name": "线绳编结",
+      "family": "fiber",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A66",
+      "key": "silk-layers",
+      "name": "绢纱叠层",
+      "family": "fiber",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A67",
+      "key": "gongbi",
+      "name": "工笔设色",
+      "family": "painting",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A68",
+      "key": "blue-green-landscape",
+      "name": "青绿山水",
+      "family": "painting",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A69",
+      "key": "mural",
+      "name": "敦煌壁画",
+      "family": "painting",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A70",
+      "key": "folk-woodblock",
+      "name": "版刻年画",
+      "family": "painting",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A71",
+      "key": "porcelain-painting",
+      "name": "蓝白瓷绘",
+      "family": "painting",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A72",
+      "key": "seal-carving",
+      "name": "篆印朱文",
+      "family": "painting",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A73",
+      "key": "lacquer-gold",
+      "name": "漆绘描金",
+      "family": "painting",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A74",
+      "key": "watercolor",
+      "name": "水彩洇染",
+      "family": "painting",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A75",
+      "key": "impasto",
+      "name": "厚涂油彩",
+      "family": "painting",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A76",
+      "key": "woodcut",
+      "name": "木刻刀痕",
+      "family": "craft",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A77",
+      "key": "etching",
+      "name": "蚀刻铜版",
+      "family": "craft",
+      "stage": "design-in-progress",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A78",
+      "key": "risograph",
+      "name": "孔版套印",
+      "family": "craft",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A79",
+      "key": "enamel-badge",
+      "name": "珐琅徽章",
+      "family": "craft",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A80",
+      "key": "cyanotype",
+      "name": "蓝晒图像",
+      "family": "craft",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A81",
+      "key": "foil-deboss",
+      "name": "烫金压凹",
+      "family": "craft",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A82",
+      "key": "mosaic",
+      "name": "马赛克拼片",
+      "family": "craft",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A83",
+      "key": "stained-glass",
+      "name": "彩绘玻璃",
+      "family": "craft",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A84",
+      "key": "sandstone-relief",
+      "name": "砂岩浮雕",
+      "family": "craft",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A85",
+      "key": "chased-metal",
+      "name": "金属錾刻",
+      "family": "craft",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A86",
+      "key": "miniature-puppet",
+      "name": "微缩木偶",
+      "family": "volume",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A87",
+      "key": "building-blocks",
+      "name": "硬质积木",
+      "family": "volume",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A88",
+      "key": "optical-glass",
+      "name": "透明玻璃",
+      "family": "volume",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A89",
+      "key": "ceramic-objects",
+      "name": "陶瓷物件",
+      "family": "volume",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A90",
+      "key": "liquid-chrome",
+      "name": "镀铬液态",
+      "family": "volume",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A91",
+      "key": "isometric-maquette",
+      "name": "等距白模",
+      "family": "volume",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A92",
+      "key": "inflatable-sculpture",
+      "name": "充气软雕",
+      "family": "volume",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A93",
+      "key": "viscous-gel",
+      "name": "流体凝胶",
+      "family": "volume",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A94",
+      "key": "mechanical-cutaway",
+      "name": "机械剖面",
+      "family": "volume",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A95",
+      "key": "terminal-ascii",
+      "name": "终端字符",
+      "family": "digital",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A96",
+      "key": "vector-oscilloscope",
+      "name": "矢量示波",
+      "family": "digital",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A97",
+      "key": "led-dot-matrix",
+      "name": "低帧点阵",
+      "family": "digital",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A98",
+      "key": "early-desktop",
+      "name": "早期桌面",
+      "family": "digital",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A99",
+      "key": "spatial-pointcloud",
+      "name": "空间点云",
+      "family": "digital",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    },
+    {
+      "id": "A100",
+      "key": "holographic-volume",
+      "name": "全息投影",
+      "family": "digital",
+      "stage": "queued",
+      "formal": false,
+      "userApproved": false
+    }
+  ]
+}

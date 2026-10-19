@@ -1,0 +1,4 @@
+interface:
+  display_name: "口播画风设计"
+  short_description: "为口播建立完整画风方案，协调人物、文字、资料和动效，支持多样化视觉表达"
+  default_prompt: "使用 $talking-head-art-direction，根据口播内容、现有素材与参考，设计协调的画风方案，并按任务范围制作样帧或验证片段。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "口播动效设计"
+  short_description: "承接画风与排版，编排人物让位、文字强调、图解展开和注意力交接，并验证真实视频"
+  default_prompt: "使用 $talking-head-motion，承接现有画风与排版，围绕真实口播语义设计动作与停留，输出可审看的动态片段和验证记录。"

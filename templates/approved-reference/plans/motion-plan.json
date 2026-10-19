@@ -1,0 +1,14 @@
+{
+  "module": "talking-head-motion",
+  "travelSeconds": 0.6,
+  "anchors": {
+    "consume": 176,
+    "invest": 198,
+    "loss": 310,
+    "pressure": 349,
+    "want": 563,
+    "risk": 686,
+    "speculation": 783
+  },
+  "timing": "shared-edit-plan"
+}

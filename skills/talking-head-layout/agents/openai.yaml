@@ -1,0 +1,4 @@
+interface:
+  display_name: "口播字体与画面排版"
+  short_description: "承接口播画风，设计人物、标题、字幕、图片和图解的阅读层级与构图关系"
+  default_prompt: "使用 $talking-head-layout，沿用当前画风，根据口播和实际素材设计清楚、有层次的画面排版，并按任务范围输出样帧或版式方案。"

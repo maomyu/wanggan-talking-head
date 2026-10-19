@@ -1,0 +1,13 @@
+runtime/node_modules/
+runtime/.venv/
+__pycache__/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+research/**/variants/
+research/**/smoke/
+research/**/outputs/
+research/**/qa/

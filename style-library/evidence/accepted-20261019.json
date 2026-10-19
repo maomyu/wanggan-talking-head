@@ -1,0 +1,312 @@
+{
+  "scope": "用户已认可15版完整视频；程序核验和作者自查，非独立盲审",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frameCount": 1100,
+  "duration": 36.666666666666664,
+  "allDecodedAudioIdentical": true,
+  "videos": [
+    {
+      "look": "minimal",
+      "sha256": "2a5c540145b6f54148623d3caedd0c6719da733850556c69b0ccb7fff337b97b",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "personColor": {
+        "meanRGBError": [
+          -2.1494152046783626,
+          -1.6183479532163743,
+          -1.7060672514619883
+        ],
+        "meanAbsoluteRGBError": 2.967056530214425,
+        "scope": "同一源帧脸部区域与实际编码区域；允许缩放与压缩误差"
+      },
+      "firstFramePresenter": {
+        "ok": true,
+        "meanAbsoluteRGBError": 1.9013478724369444
+      },
+      "denseFrames": 183,
+      "cutNeighbourFrames": 18
+    },
+    {
+      "look": "paper",
+      "sha256": "be017099b4145a202aa69b8a12d5a75c1a79ca20c829adfdc05f6903c8e5e75e",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "personColor": {
+        "meanRGBError": [
+          -2.0926169590643275,
+          -1.5526315789473684,
+          -1.8195906432748539
+        ],
+        "meanAbsoluteRGBError": 2.704117933723197,
+        "scope": "同一源帧脸部区域与实际编码区域；允许缩放与压缩误差"
+      },
+      "firstFramePresenter": {
+        "ok": true,
+        "meanAbsoluteRGBError": 2.6490178882420263
+      },
+      "denseFrames": 183,
+      "cutNeighbourFrames": 18
+    },
+    {
+      "look": "geometry",
+      "sha256": "20af3113c0417d22d925e77363098c3e1bba4e7b4d121b040f2c0bbd8d043d40",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "personColor": {
+        "meanRGBError": [
+          -2.0350146198830408,
+          -1.5497807017543859,
+          -1.7797514619883041
+        ],
+        "meanAbsoluteRGBError": 2.680238791423002,
+        "scope": "同一源帧脸部区域与实际编码区域；允许缩放与压缩误差"
+      },
+      "firstFramePresenter": {
+        "ok": true,
+        "meanAbsoluteRGBError": 2.537779365904366
+      },
+      "denseFrames": 183,
+      "cutNeighbourFrames": 18
+    },
+    {
+      "look": "magazine",
+      "sha256": "cd16c098c77223a4567aca739fed66d43a5bf327cd5b0ce466f64493c292532f",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "personColor": {
+        "meanRGBError": [
+          -2.0260233918128656,
+          -1.581578947368421,
+          -1.7423245614035088
+        ],
+        "meanAbsoluteRGBError": 2.6925194931773877,
+        "scope": "同一源帧脸部区域与实际编码区域；允许缩放与压缩误差"
+      },
+      "firstFramePresenter": {
+        "ok": true,
+        "meanAbsoluteRGBError": 2.5831246585321437
+      },
+      "denseFrames": 183,
+      "cutNeighbourFrames": 18
+    },
+    {
+      "look": "collage",
+      "sha256": "271889acf41646bbdc3f5f8d9c742a045646f00b35a5a837c1c11cf2910f8b35",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "personColor": {
+        "meanRGBError": [
+          -2.025,
+          -1.5948099415204677,
+          -1.8151315789473683
+        ],
+        "meanAbsoluteRGBError": 2.6762670565302145,
+        "scope": "同一源帧脸部区域与实际编码区域；允许缩放与压缩误差"
+      },
+      "firstFramePresenter": {
+        "ok": true,
+        "meanAbsoluteRGBError": 2.5344844434021265
+      },
+      "denseFrames": 183,
+      "cutNeighbourFrames": 18
+    },
+    {
+      "look": "line",
+      "sha256": "5ad46ecab7c70ad3dc091715e558943666e55d8db0afc7e73b8d187ec5a1adb1",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "personColor": {
+        "meanRGBError": [
+          -2.013961988304094,
+          -1.5871345029239765,
+          -1.7860380116959065
+        ],
+        "meanAbsoluteRGBError": 2.679970760233918,
+        "scope": "同一源帧脸部区域与实际编码区域；允许缩放与压缩误差"
+      },
+      "firstFramePresenter": {
+        "ok": true,
+        "meanAbsoluteRGBError": 2.5882504704668245
+      },
+      "denseFrames": 183,
+      "cutNeighbourFrames": 18
+    },
+    {
+      "look": "illustration",
+      "sha256": "70823d832a35acefd6364490260084068d897dafe1da764ea5694fb8e56fd74a",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "personColor": {
+        "meanRGBError": [
+          -2.025292397660819,
+          -1.597953216374269,
+          -1.8194444444444444
+        ],
+        "meanAbsoluteRGBError": 2.683089668615984,
+        "scope": "同一源帧脸部区域与实际编码区域；允许缩放与压缩误差"
+      },
+      "firstFramePresenter": {
+        "ok": true,
+        "meanAbsoluteRGBError": 2.542366886116886
+      },
+      "denseFrames": 183,
+      "cutNeighbourFrames": 18
+    },
+    {
+      "look": "precision",
+      "sha256": "68c1ed827c66ac4d26f63af2295f67a01cbfafd4706e56f7dce8073ac2dce777",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "personColor": {
+        "meanRGBError": [
+          -2.071125730994152,
+          -1.5819444444444444,
+          -1.818859649122807
+        ],
+        "meanAbsoluteRGBError": 2.67958089668616,
+        "scope": "同一源帧脸部区域与实际编码区域；允许缩放与压缩误差"
+      },
+      "firstFramePresenter": {
+        "ok": true,
+        "meanAbsoluteRGBError": 2.5949660049778425
+      },
+      "denseFrames": 183,
+      "cutNeighbourFrames": 18
+    },
+    {
+      "look": "blueprint",
+      "sha256": "a45e466a72eb2ea7474f8e0a953b358b9ed3fcf60757d1ac73fbba20e7267cff",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "personColor": {
+        "meanRGBError": [
+          -2.1316520467836257,
+          -1.5616959064327485,
+          -1.7925438596491228
+        ],
+        "meanAbsoluteRGBError": 3.286427875243665,
+        "scope": "同一源帧脸部区域与实际编码区域；允许缩放与压缩误差"
+      },
+      "firstFramePresenter": {
+        "ok": true,
+        "meanAbsoluteRGBError": 2.8017082475994513
+      },
+      "denseFrames": 183,
+      "cutNeighbourFrames": 18
+    },
+    {
+      "look": "halftone",
+      "sha256": "4ef3f8a42fd2f176be4e0938211bb69c1b0190154df4673fab8bfb1e29c93fd2",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "personColor": {
+        "meanRGBError": [
+          -2.1126461988304093,
+          -1.5623538011695906,
+          -1.8346491228070176
+        ],
+        "meanAbsoluteRGBError": 2.70458089668616,
+        "scope": "同一源帧脸部区域与实际编码区域；允许缩放与压缩误差"
+      },
+      "firstFramePresenter": {
+        "ok": true,
+        "meanAbsoluteRGBError": 2.505375388189555
+      },
+      "denseFrames": 183,
+      "cutNeighbourFrames": 18
+    },
+    {
+      "look": "comic",
+      "sha256": "70c51e24ddf58758bb2ef66bd84eeb0189c5952c1af7f9b7ab42eb426c943228",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "personColor": {
+        "meanRGBError": [
+          -2.0089912280701756,
+          -1.568421052631579,
+          -1.7948830409356724
+        ],
+        "meanAbsoluteRGBError": 2.6451023391812867,
+        "scope": "同一源帧脸部区域与实际编码区域；允许缩放与压缩误差"
+      },
+      "firstFramePresenter": {
+        "ok": true,
+        "meanAbsoluteRGBError": 2.537832890348134
+      },
+      "denseFrames": 183,
+      "cutNeighbourFrames": 18
+    },
+    {
+      "look": "film",
+      "sha256": "6ca789661cc7edf3da29147910a7af2c73bdb40074d5183dcfccba626b39aa00",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "personColor": {
+        "meanRGBError": [
+          -2.0039473684210525,
+          -1.5828947368421054,
+          -1.664985380116959
+        ],
+        "meanAbsoluteRGBError": 2.7376949317738792,
+        "scope": "同一源帧脸部区域与实际编码区域；允许缩放与压缩误差"
+      },
+      "firstFramePresenter": {
+        "ok": true,
+        "meanAbsoluteRGBError": 2.460696881091618
+      },
+      "denseFrames": 183,
+      "cutNeighbourFrames": 18
+    },
+    {
+      "look": "ink",
+      "sha256": "de2692da68238a94aca7c17b50a2d83b1d30838217f259df36db412627a51b2a",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "personColor": {
+        "meanRGBError": [
+          -2.0733187134502926,
+          -1.5682748538011695,
+          -1.752046783625731
+        ],
+        "meanAbsoluteRGBError": 2.7082602339181285,
+        "scope": "同一源帧脸部区域与实际编码区域；允许缩放与压缩误差"
+      },
+      "firstFramePresenter": {
+        "ok": true,
+        "meanAbsoluteRGBError": 2.66000268528464
+      },
+      "denseFrames": 183,
+      "cutNeighbourFrames": 18
+    },
+    {
+      "look": "clay",
+      "sha256": "1c8e2bede431e00b4d8d75f397950ab5cb450ca60a11055aa1cf4788167fb25b",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "personColor": {
+        "meanRGBError": [
+          -2.019152046783626,
+          -1.6087719298245613,
+          -1.7632309941520468
+        ],
+        "meanAbsoluteRGBError": 3.0521686159844053,
+        "scope": "同一源帧脸部区域与实际编码区域；允许缩放与压缩误差"
+      },
+      "firstFramePresenter": {
+        "ok": true,
+        "meanAbsoluteRGBError": 2.6466899885345008
+      },
+      "denseFrames": 183,
+      "cutNeighbourFrames": 18
+    },
+    {
+      "look": "pixel",
+      "sha256": "30e1238cac95e83a8b533da7793099dcc7c3f65f2e04c4acede07a26b0393266",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "personColor": {
+        "meanRGBError": [
+          -1.9998538011695906,
+          -1.5625,
+          -1.6918859649122806
+        ],
+        "meanAbsoluteRGBError": 2.651608187134503,
+        "scope": "同一源帧脸部区域与实际编码区域；允许缩放与压缩误差"
+      },
+      "firstFramePresenter": {
+        "ok": true,
+        "meanAbsoluteRGBError": 2.582369629244629
+      },
+      "denseFrames": 183,
+      "cutNeighbourFrames": 18
+    }
+  ],
+  "sourceSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03"
+}

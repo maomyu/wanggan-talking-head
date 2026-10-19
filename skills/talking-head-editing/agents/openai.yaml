@@ -1,0 +1,4 @@
+interface:
+  display_name: "口播剪辑与转场"
+  short_description: "承接画风排版与动效，完成口播取舍、语义剪点、景别衔接、声画剪辑和转场验证"
+  default_prompt: "使用 $talking-head-editing，承接现有画风、排版与动效，按真实口播完成素材取舍和剪辑转场，并交付视频与剪点验证记录。"
