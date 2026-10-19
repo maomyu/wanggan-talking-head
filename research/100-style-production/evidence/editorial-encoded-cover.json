@@ -1,0 +1,47 @@
+{
+  "ok": true,
+  "sha256": "bb9c56056e91e696982fbf0c12e7f9d7e6384bcbef05cccab5485f635068fc3e",
+  "target": "actual encoded art region; full cut neighbours after presenter settles outside region",
+  "results": [
+    {
+      "frame": 387,
+      "artColorCoverage": 1.0,
+      "colorMAE": 1.33330884033833
+    },
+    {
+      "frame": 388,
+      "artColorCoverage": 1.0,
+      "colorMAE": 1.33330884033833
+    },
+    {
+      "frame": 460,
+      "artColorCoverage": 1.0,
+      "colorMAE": 1.3333098608797884
+    },
+    {
+      "frame": 461,
+      "artColorCoverage": 1.0,
+      "colorMAE": 1.3333098608797884
+    },
+    {
+      "frame": 615,
+      "artColorCoverage": 1.0,
+      "colorMAE": 1.33330884033833
+    },
+    {
+      "frame": 616,
+      "artColorCoverage": 1.0,
+      "colorMAE": 1.33330884033833
+    },
+    {
+      "frame": 855,
+      "artColorCoverage": 1.0,
+      "colorMAE": 1.33330884033833
+    },
+    {
+      "frame": 856,
+      "artColorCoverage": 1.0,
+      "colorMAE": 1.33330884033833
+    }
+  ]
+}

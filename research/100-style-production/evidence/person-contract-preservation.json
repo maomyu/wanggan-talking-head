@@ -1,0 +1,69 @@
+{
+  "ok": true,
+  "results": [
+    {
+      "key": "origami",
+      "oldSha256": "c83cce4f9f0b47e1975bb54136a377968f2c33712f7f45dd4f05b705fc633008",
+      "currentSha256": "db3b013140b9f9ce3bf50ad42a763060656a06233f6922986b160a352e3671ac",
+      "sampledPixelsMAE": 0.001769825380936492,
+      "p99": 0.0,
+      "decodedVoiceIdentical": true,
+      "scope": "每秒一帧的实际编码缩小图像比较，36.7秒完整语音解码哈希相同；保护默认视觉，不声称逐像素全帧等同"
+    },
+    {
+      "key": "felt-applique",
+      "oldSha256": "83598b4892fc8a34fa1a6235127cf3f266ff393291ab990cc0eed87e2fd61ec4",
+      "currentSha256": "8ef9964c843efb701404b891e980d224144a262770e3cb64f1cd6eb64f4ff572",
+      "sampledPixelsMAE": 0.00020131242353464576,
+      "p99": 0.0,
+      "decodedVoiceIdentical": true,
+      "scope": "每秒一帧的实际编码缩小图像比较，36.7秒完整语音解码哈希相同；保护默认视觉，不声称逐像素全帧等同"
+    },
+    {
+      "key": "embroidery",
+      "oldSha256": "93122d37b90640a5edeb2ebd7e0f71f0597199795788afc558b052ce8e33d6e3",
+      "currentSha256": "9b60886d0ab6b0e71fa5e3cfa4d85afca1e88f225f25b109391a044c860f741a",
+      "sampledPixelsMAE": 0.007788135357579802,
+      "p99": 0.0,
+      "decodedVoiceIdentical": true,
+      "scope": "每秒一帧的实际编码缩小图像比较，36.7秒完整语音解码哈希相同；保护默认视觉，不声称逐像素全帧等同"
+    },
+    {
+      "key": "gongbi",
+      "oldSha256": "67c67c2e7b8260a7254a16e41b7295dc5d891cac25eb099cf1af68c595f88756",
+      "currentSha256": "2bda19a3eeb55f61318a44e4f1a738bd88c22f14cc446507bb1e74fc0f1cdc60",
+      "sampledPixelsMAE": 0.0,
+      "p99": 0.0,
+      "decodedVoiceIdentical": true,
+      "scope": "每秒一帧的实际编码缩小图像比较，36.7秒完整语音解码哈希相同；保护默认视觉，不声称逐像素全帧等同"
+    },
+    {
+      "key": "etching",
+      "oldSha256": "1bf7d2a1daf5a330f7eec7e13c91b9edb54b54a041758d99c060bd85799fafbe",
+      "currentSha256": "125b85bae86c2db38582e56021ac0bb9bdbb9fa7f83dfc99ef4d5da9ef14c852",
+      "sampledPixelsMAE": 7.229451673896118e-06,
+      "p99": 0.0,
+      "decodedVoiceIdentical": true,
+      "scope": "每秒一帧的实际编码缩小图像比较，36.7秒完整语音解码哈希相同；保护默认视觉，不声称逐像素全帧等同"
+    },
+    {
+      "key": "mechanical-cutaway",
+      "oldSha256": "79170d791d1b44a0563608d79c58106607d254ab8d31ec9388457863a7398f6c",
+      "currentSha256": "32714b286f66a9ee6da48c1f943f11759f7ccdcd9c656c2510136a9ae9e45138",
+      "sampledPixelsMAE": 1.4293777110443777,
+      "p99": 42.0,
+      "decodedVoiceIdentical": true,
+      "scope": "每秒一帧的实际编码缩小图像比较，36.7秒完整语音解码哈希相同；保护默认视觉，不声称逐像素全帧等同",
+      "intendedGraphicCorrection": "风险保险柜模型上移0.65场景单位，给结论让出间距；原人物几何/0.55秒让位和完整解码原声保持。差异已实际审看，不声称此模型像素不变。"
+    },
+    {
+      "key": "spatial-pointcloud",
+      "oldSha256": "41f4e0d836b35c706c25d7e365c9442e5d794dd9b02fa81a31266a4087b7ea96",
+      "currentSha256": "afb0cd76e05d94950c8bfe217c37dec37651ff732f2a7020325b50ca37619dad",
+      "sampledPixelsMAE": 0.0056537092648203755,
+      "p99": 0.0,
+      "decodedVoiceIdentical": true,
+      "scope": "每秒一帧的实际编码缩小图像比较，36.7秒完整语音解码哈希相同；保护默认视觉，不声称逐像素全帧等同"
+    }
+  ]
+}

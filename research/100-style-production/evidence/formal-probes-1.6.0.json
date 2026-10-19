@@ -1,0 +1,186 @@
+{
+  "ok": true,
+  "version": "1.6.0",
+  "results": [
+    {
+      "key": "origami",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.6.0/origami",
+      "base": [
+        196,
+        585,
+        688,
+        688
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "felt-applique",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.6.0/felt-applique",
+      "base": [
+        220,
+        585,
+        640,
+        640
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "embroidery",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.6.0/embroidery",
+      "base": [
+        215,
+        585,
+        650,
+        650
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "gongbi",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.6.0/gongbi",
+      "base": [
+        225,
+        585,
+        630,
+        630
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "etching",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.6.0/etching",
+      "base": [
+        235,
+        585,
+        610,
+        610
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "mechanical-cutaway",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.6.0/mechanical-cutaway",
+      "base": [
+        205,
+        580,
+        670,
+        670
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "spatial-pointcloud",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.6.0/spatial-pointcloud",
+      "base": [
+        210,
+        585,
+        660,
+        660
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "newspaper",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.6.0/newspaper",
+      "base": [
+        220,
+        585,
+        640,
+        640
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "archive-dossier",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.6.0/archive-dossier",
+      "base": [
+        220,
+        585,
+        640,
+        640
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "dictionary-entry",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.6.0/dictionary-entry",
+      "base": [
+        230,
+        590,
+        620,
+        620
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "lab-notebook",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.6.0/lab-notebook",
+      "base": [
+        228,
+        590,
+        624,
+        624
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "swiss-grid",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.6.0/swiss-grid",
+      "base": [
+        130,
+        580,
+        660,
+        660
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "constructivist",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.6.0/constructivist",
+      "base": [
+        200,
+        585,
+        680,
+        680
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "art-deco",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.6.0/art-deco",
+      "base": [
+        230,
+        585,
+        620,
+        620
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "art-nouveau",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.6.0/art-nouveau",
+      "base": [
+        225,
+        590,
+        630,
+        630
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    }
+  ]
+}

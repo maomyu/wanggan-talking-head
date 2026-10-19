@@ -1,0 +1,31 @@
+{
+  "batch": "editorial-graphic-03",
+  "reviewedAt": "2026-10-20T01:42:23.013774+08:00",
+  "sources": [
+    {
+      "id": "R03",
+      "title": "V&A · Art Nouveau – an international style",
+      "url": "https://www.vam.ac.uk/articles/art-nouveau-an-international-style",
+      "scope": "有机曲线与结构/装饰关系"
+    },
+    {
+      "id": "R04",
+      "title": "V&A · An introduction to Art Deco",
+      "url": "https://www.vam.ac.uk/articles/an-introduction-to-art-deco",
+      "scope": "几何与装饰艺术的来源；本目录不是艺术史分类全集"
+    },
+    {
+      "id": "R06",
+      "title": "Cooper Hewitt · A Harmony of Contrasts",
+      "url": "https://www.cooperhewitt.org/2018/08/05/aharmonyofcontrasts/",
+      "scope": "瑞士平面中的网格、字体、摄影与对比关系"
+    },
+    {
+      "id": "R10",
+      "title": "MoMA · Rediscovering The New Typography",
+      "url": "https://production-gcp.moma.org/explore/inside_out/2010/02/12/rediscovering-the-new-typography/",
+      "scope": "构成主义延伸到非对称排印、几何块面、图文组织的参考；本项目原创财经示意，不复制作品或政治宣传"
+    }
+  ],
+  "interpretation": "提炼阅读结构与图形原则；报纸、档案、字典、记录本为原创信息编排，不冒充历史报刊或真实科学实验记录。"
+}

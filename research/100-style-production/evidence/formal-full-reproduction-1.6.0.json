@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "scope": "A29从正式插件独立init/build/check/render/verify生成完整1100帧；与研究成片逐秒像素和完整解码音频比较",
+  "sourceSha256": "ca41b3e27cdfaaea34d006ce859319d38d0534b77b78eb5ce387db976b2e930d",
+  "formalSha256": "f1d3f132827a692078323a90e105e95ffbd7941188ebb2871721f05ce0c12904",
+  "identicalEncodedFile": false,
+  "pixelMetrics": {
+    "sampledFrames": 37,
+    "mean": 0.0,
+    "max": 0.0
+  },
+  "decodedVoiceIdentical": true
+}

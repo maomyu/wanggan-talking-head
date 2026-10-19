@@ -1,0 +1,76 @@
+{
+  "ok": true,
+  "look": "lab-notebook",
+  "width": 1080,
+  "height": 1920,
+  "fps": "30/1",
+  "frames": 1100,
+  "duration": 36.666666666666664,
+  "bytes": 30653868,
+  "sha256": "558f5019b646b380d724f067f4d8eeaafaee36fd8391f97d0efd0d83197c161a",
+  "decodedAudioHash": "f61d6839ef185edd3268011f553bc8ee2f7ad6afd261cbf596e02d416d7da70b",
+  "sourceSpeech": [
+    {
+      "time": 2,
+      "zeroLagCorrelation": 0.9999941772964133
+    },
+    {
+      "time": 8,
+      "zeroLagCorrelation": 0.9999978102677761
+    },
+    {
+      "time": 24,
+      "zeroLagCorrelation": 0.9999980662827164
+    },
+    {
+      "time": 34,
+      "zeroLagCorrelation": 0.9999969180075337
+    }
+  ],
+  "personColor": {
+    "meanRGBError": [
+      -2.038011695906433,
+      -1.5913742690058479,
+      -1.804093567251462
+    ],
+    "meanAbsoluteRGBError": 2.718664717348928,
+    "scope": "同一源帧脸部区域与实际编码区域；允许缩放与压缩误差"
+  },
+  "cornerPixels": [
+    {
+      "u": 0.04,
+      "v": 0.04,
+      "sourceDifference": 64.87925170068026,
+      "reviewedBackgroundError": 3.0
+    },
+    {
+      "u": 0.94,
+      "v": 0.04,
+      "sourceDifference": 94.34353741496598,
+      "reviewedBackgroundError": 3.0
+    },
+    {
+      "u": 0.04,
+      "v": 0.94,
+      "sourceDifference": 165.2585034013605,
+      "reviewedBackgroundError": 3.0
+    },
+    {
+      "u": 0.94,
+      "v": 0.94,
+      "sourceDifference": 136.8843537414966,
+      "reviewedBackgroundError": 3.0
+    }
+  ],
+  "denseFrames": 183,
+  "cutNeighbourFrames": 18,
+  "firstFramePresenter": {
+    "ok": true,
+    "meanAbsoluteRGBError": 2.739746835443038
+  },
+  "lastFramePresenter": {
+    "ok": true,
+    "frame": 1099,
+    "meanAbsoluteRGBError": 1.8714374120956399
+  }
+}

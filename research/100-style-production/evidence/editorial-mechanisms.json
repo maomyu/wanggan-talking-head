@@ -1,0 +1,85 @@
+{
+  "ok": true,
+  "scope": "actual DOM geometry at cut neighbours and local material/time anchors; encoded proof checked separately",
+  "cover": [
+    {
+      "frame": 387,
+      "x": 0,
+      "width": 952,
+      "height": 700,
+      "target": "art region; presenter and captions protected separately"
+    },
+    {
+      "frame": 388,
+      "x": 0,
+      "width": 952,
+      "height": 700,
+      "target": "art region; presenter and captions protected separately"
+    },
+    {
+      "frame": 460,
+      "x": 0,
+      "width": 952,
+      "height": 700,
+      "target": "art region; presenter and captions protected separately"
+    },
+    {
+      "frame": 461,
+      "x": 0,
+      "width": 952,
+      "height": 700,
+      "target": "art region; presenter and captions protected separately"
+    },
+    {
+      "frame": 615,
+      "x": 0,
+      "width": 952,
+      "height": 700,
+      "target": "art region; presenter and captions protected separately"
+    },
+    {
+      "frame": 616,
+      "x": 0,
+      "width": 952,
+      "height": 700,
+      "target": "art region; presenter and captions protected separately"
+    },
+    {
+      "frame": 855,
+      "x": 0,
+      "width": 952,
+      "height": 700,
+      "target": "art region; presenter and captions protected separately"
+    },
+    {
+      "frame": 856,
+      "x": 0,
+      "width": 952,
+      "height": 700,
+      "target": "art region; presenter and captions protected separately"
+    }
+  ],
+  "graphicTextContrast": 4.765911695841792,
+  "light": [
+    {
+      "t": 5.5,
+      "clipX": -57.763954213658465,
+      "presenterFilter": "none"
+    },
+    {
+      "t": 6.3,
+      "clipX": 320.10890271245296,
+      "presenterFilter": "none"
+    }
+  ],
+  "noteCheck": [
+    {
+      "frame": 560,
+      "opacity": 0
+    },
+    {
+      "frame": 580,
+      "opacity": 1
+    }
+  ]
+}

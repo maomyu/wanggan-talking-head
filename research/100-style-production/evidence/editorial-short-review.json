@@ -1,0 +1,94 @@
+{
+  "ok": true,
+  "records": [
+    {
+      "key": "newspaper",
+      "shortEncodeSha256": "c391d14d20e22c840d9f1e7ce3e7427445e651a44f47d3ec71301345e90cfd62",
+      "sourceWindow": [
+        4.5,
+        8.5
+      ],
+      "viewed": "实际编码2fps八帧拼版：首段人物让位、图注及对象依语义出现",
+      "judgment": "通过短片，等待完整成片验证"
+    },
+    {
+      "key": "archive-dossier",
+      "shortEncodeSha256": "e2af622838be90c6535519934281d47a5c38e8eef06c2c2287b2ead336939f87",
+      "sourceWindow": [
+        4.5,
+        8.5
+      ],
+      "viewed": "实际编码2fps八帧拼版：首段人物让位、图注及对象依语义出现",
+      "judgment": "通过短片，等待完整成片验证"
+    },
+    {
+      "key": "dictionary-entry",
+      "shortEncodeSha256": "e888cf20b45aef190befca52864c4312724f7c06ac9fdab53d004f7a7d36fd97",
+      "sourceWindow": [
+        4.5,
+        8.5
+      ],
+      "viewed": "实际编码2fps八帧拼版：首段人物让位、图注及对象依语义出现",
+      "judgment": "通过短片，等待完整成片验证"
+    },
+    {
+      "key": "lab-notebook",
+      "shortEncodeSha256": "db3fada84838d25a4834737437f3d87aa4b07f63a39589fb61dbe9118d0da1aa",
+      "sourceWindow": [
+        4.5,
+        8.5
+      ],
+      "viewed": "实际编码2fps八帧拼版：首段人物让位、图注及对象依语义出现",
+      "judgment": "通过短片，等待完整成片验证"
+    },
+    {
+      "key": "swiss-grid",
+      "shortEncodeSha256": "ecc1305ffb156df5dd2befd0408a638a54adb0d15dddd5b9e6345508c4653a3f",
+      "sourceWindow": [
+        4.5,
+        8.5
+      ],
+      "viewed": "实际编码2fps八帧拼版：首段人物让位、图注及对象依语义出现",
+      "judgment": "通过短片，等待完整成片验证"
+    },
+    {
+      "key": "constructivist",
+      "shortEncodeSha256": "866a9fa81ad667f8542b48d014f532f831a851bede8cd46495ada2993d895137",
+      "sourceWindow": [
+        4.5,
+        8.5
+      ],
+      "viewed": "实际编码2fps八帧拼版：首段人物让位、图注及对象依语义出现",
+      "judgment": "通过短片，等待完整成片验证"
+    },
+    {
+      "key": "art-deco",
+      "shortEncodeSha256": "f8e7c2caf8479f391c60f01ec365f86ef44c9752c2e0778721b1805d81d13df5",
+      "sourceWindow": [
+        4.5,
+        8.5
+      ],
+      "viewed": "实际编码2fps八帧拼版：首段人物让位、图注及对象依语义出现",
+      "judgment": "通过短片，等待完整成片验证"
+    },
+    {
+      "key": "art-nouveau",
+      "shortEncodeSha256": "dfcfa04fb5dd230f6ee7a4c39540db48b258840092be1acb62bb9f3239dfa598",
+      "sourceWindow": [
+        4.5,
+        8.5
+      ],
+      "viewed": "实际编码2fps八帧拼版：首段人物让位、图注及对象依语义出现",
+      "judgment": "通过短片，等待完整成片验证"
+    }
+  ],
+  "scope": "作者短片审看，无独立盲评；不是整片完成证明",
+  "mechanicalRevision": {
+    "ok": true,
+    "sourceWindow": [
+      20.5,
+      24.5
+    ],
+    "viewed": "实际编码八帧拼版与24.4秒原尺寸，门沿与文字分开，模型顶部保持在解释区"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "ok": true,
+  "version": "1.6.0",
+  "defaultBuilt": true,
+  "unsafeNumericReplacementRejected": true,
+  "scope": "历史默认模板保留；未声明速度参数时需要单模块custom实现，不会静默改其他曲线"
+}

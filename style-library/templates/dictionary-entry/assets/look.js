@@ -1,0 +1,3 @@
+import{makeEditorial}from'./editorial-stage.js';
+export const LOOK={"key": "dictionary-entry", "name": "字典辞条", "palette": {"bg": "#f4f0e3", "fg": "#232c24", "muted": "#535a4e", "accent": "#7d4536", "caption": "#f8f5eb", "portrait": "#f4f0e3"}, "base": {"x": 230, "y": 590, "w": 620}, "css": "#title{font-family:Serif;font-weight:700}#heading{border-bottom:2px solid var(--fg);padding-bottom:20px}#subtitle{font-family:Serif;font-size:47px}#captions{background:transparent;border-top:2px solid var(--fg);border-bottom:2px solid var(--fg)}"};
+export async function buildArt(ctx){return makeEditorial(ctx,"dictionary-entry")}

@@ -1,0 +1,3 @@
+import{makeEditorial}from'./editorial-stage.js';
+export const LOOK={"key": "constructivist", "name": "构成主义", "palette": {"bg": "#ece4ce", "fg": "#202722", "muted": "#4d5447", "accent": "#bd3928", "caption": "#f6edd7", "portrait": "#ece4ce"}, "base": {"x": 200, "y": 585, "w": 680}, "css": "#title{font-size:99px;letter-spacing:-3px}#subtitle{display:inline-block;background:#f6edd7;padding:4px 16px;font-size:45px}#captions{border-top:0;border-left:14px solid #202722}#person-mask{outline:9px solid #f6edd7;box-shadow:0 0 0 3px #202722}#scene-labels{background:#ece4ce;padding:8px 12px}"};
+export async function buildArt(ctx){return makeEditorial(ctx,"constructivist")}

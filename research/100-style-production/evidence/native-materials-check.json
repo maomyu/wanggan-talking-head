@@ -3,163 +3,186 @@
   "scope": "actual art-region PNG comparison after nonsequential seeks; computed opaque reading-role contrast",
   "results": [
     {
-      "key": "woodcut",
+      "key": "newspaper",
       "artPixelReverseSeek": true,
-      "artSha256": "afb108ba3bab8dbcb0f9829e9a0199cc30a82b451d737fa6755b718d98967b62",
+      "artSha256": "4a1ba7f8b069db2ecfc923cff75b4170b1758430e95f1561b1c4ef3e34f6ae76",
       "contrast": [
         {
           "role": "#title",
-          "ratio": 13.0864334417329
+          "ratio": 12.203822925495286
         },
         {
           "role": "#subtitle",
-          "ratio": 13.0864334417329
+          "ratio": 12.203822925495286
         },
         {
           "role": "#caption-text",
-          "ratio": 13.0864334417329
+          "ratio": 13.129260523002634
         },
         {
           "role": "#scene-labels",
-          "ratio": 13.0864334417329
+          "ratio": 12.203822925495286
         }
       ]
     },
     {
-      "key": "risograph",
+      "key": "archive-dossier",
       "artPixelReverseSeek": true,
-      "artSha256": "c04e3b0fb5e10ac582390a9cd7bc80147e7cc8c3d3bbd4f40b50b4bd3ed97c54",
+      "artSha256": "87a4efa422302b20c4073540f23c2f9f9d3c64e05f408cdbd8a6885695030dbf",
       "contrast": [
         {
           "role": "#title",
-          "ratio": 9.284760117635596
+          "ratio": 7.882552622480993
         },
         {
           "role": "#subtitle",
-          "ratio": 9.284760117635596
+          "ratio": 7.882552622480993
         },
         {
           "role": "#caption-text",
-          "ratio": 10.004571408871083
+          "ratio": 11.872190019785881
         },
         {
           "role": "#scene-labels",
-          "ratio": 9.284760117635596
+          "ratio": 7.882552622480993
         }
       ]
     },
     {
-      "key": "cyanotype",
+      "key": "dictionary-entry",
       "artPixelReverseSeek": true,
-      "artSha256": "1d415c2834b8dcb184c0bcf2f00c5fb9b9e6159e101e6d285ad2d6a260f8a8ac",
+      "artSha256": "e457ef31abe19cc66b855cbd47482882405228ae0d25f3c9976dfa4d9e0cc8fe",
       "contrast": [
         {
           "role": "#title",
-          "ratio": 9.347559819753823
+          "ratio": 12.640477110986998
         },
         {
           "role": "#subtitle",
-          "ratio": 9.347559819753823
+          "ratio": 12.640477110986998
         },
         {
           "role": "#caption-text",
-          "ratio": 9.358498411155697
+          "ratio": 12.640477110986998
         },
         {
           "role": "#scene-labels",
-          "ratio": 9.347559819753823
+          "ratio": 12.640477110986998
         }
       ]
     },
     {
-      "key": "terminal-ascii",
+      "key": "lab-notebook",
       "artPixelReverseSeek": true,
-      "artSha256": "0aaceb9f43891250b8f5135699a81e26cad4ac382689adadf46d36685e63c016",
+      "artSha256": "9d693e2a79f5d801a61cd512e85fc196db19196a21af3840d37949488727ce27",
       "contrast": [
         {
           "role": "#title",
-          "ratio": 13.896202134331116
+          "ratio": 7.569449862345699
         },
         {
           "role": "#subtitle",
-          "ratio": 13.896202134331116
+          "ratio": 7.569449862345699
         },
         {
           "role": "#caption-text",
-          "ratio": 11.49139537146097
+          "ratio": 8.532866562604633
         },
         {
           "role": "#scene-labels",
-          "ratio": 13.896202134331116
+          "ratio": 7.569449862345699
         }
       ]
     },
     {
-      "key": "vector-oscilloscope",
+      "key": "swiss-grid",
       "artPixelReverseSeek": true,
-      "artSha256": "cceca0702fe18ee091c57514bd359451d0158e6854c4fc4ac2ec167856967bf6",
+      "artSha256": "92bad65f5797685b4ff036d9f7901d5dedb2bb4d22b4c64ac88957cff35d6428",
       "contrast": [
         {
           "role": "#title",
-          "ratio": 15.558011656558332
+          "ratio": 15.381911832964615
         },
         {
           "role": "#subtitle",
-          "ratio": 15.558011656558332
+          "ratio": 15.381911832964615
         },
         {
           "role": "#caption-text",
-          "ratio": 12.191768068593682
+          "ratio": 15.381911832964615
         },
         {
           "role": "#scene-labels",
-          "ratio": 15.558011656558332
+          "ratio": 15.381911832964615
         }
       ]
     },
     {
-      "key": "led-dot-matrix",
+      "key": "constructivist",
       "artPixelReverseSeek": true,
-      "artSha256": "45db945986cf87100cd28c49bb0572e867d6af4ab6b94e0f6a5af5aaac6b2486",
+      "artSha256": "77ec9fa51a131b6170327223291911b89020db1bf8a8210a5977d08f37d60036",
       "contrast": [
         {
           "role": "#title",
-          "ratio": 13.512709539623984
+          "ratio": 12.042570780505978
         },
         {
           "role": "#subtitle",
-          "ratio": 13.512709539623984
+          "ratio": 13.103381586595308
         },
         {
           "role": "#caption-text",
-          "ratio": 10.638506167623532
+          "ratio": 13.103381586595308
         },
         {
           "role": "#scene-labels",
-          "ratio": 13.512709539623984
+          "ratio": 12.042570780505978
         }
       ]
     },
     {
-      "key": "early-desktop",
+      "key": "art-deco",
       "artPixelReverseSeek": true,
-      "artSha256": "cad53cda1e3fe65e681e70c9f960e3031ecea9bf08771533b41882fca258fac1",
+      "artSha256": "675e4be0da50c1a0e702e8c99edafc0ec687d1c865834fea794e74ad33d1a125",
       "contrast": [
         {
           "role": "#title",
-          "ratio": 10.813652982273249
+          "ratio": 12.372751742480233
         },
         {
           "role": "#subtitle",
-          "ratio": 10.813652982273249
+          "ratio": 12.372751742480233
         },
         {
           "role": "#caption-text",
-          "ratio": 10.813652982273249
+          "ratio": 11.769118984373838
         },
         {
           "role": "#scene-labels",
-          "ratio": 5.260172585498801
+          "ratio": 12.372751742480233
+        }
+      ]
+    },
+    {
+      "key": "art-nouveau",
+      "artPixelReverseSeek": true,
+      "artSha256": "8be0ca9b0ea5b2d1b00fa0fe0121c5ca1b3a5f5e0bc3dfffb3e6589de2230d46",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 7.861475037625535
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 7.861475037625535
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 8.620563503539435
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 7.861475037625535
         }
       ]
     }

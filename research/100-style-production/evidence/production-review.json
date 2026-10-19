@@ -2,27 +2,87 @@
   "ok": true,
   "playback": [
     {
+      "name": "新闻报纸",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "档案卷宗",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "字典辞条",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "实验记录",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "瑞士网格",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "构成主义",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "装饰艺术",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "新艺术曲线",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
       "name": "折纸结构",
-      "range": 206,
-      "seek": 18.9,
-      "width": 1080,
-      "height": 1920,
-      "duration": 36.666667,
-      "muted": false,
-      "volume": 1
-    },
-    {
-      "name": "刺绣针脚",
-      "range": 206,
-      "seek": 18.9,
-      "width": 1080,
-      "height": 1920,
-      "duration": 36.666667,
-      "muted": false,
-      "volume": 1
-    },
-    {
-      "name": "蚀刻铜版",
       "range": 206,
       "seek": 18.9,
       "width": 1080,
@@ -42,6 +102,16 @@
       "volume": 1
     },
     {
+      "name": "刺绣针脚",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
       "name": "工笔设色",
       "range": 206,
       "seek": 18.9,
@@ -52,27 +122,17 @@
       "volume": 1
     },
     {
-      "name": "机械剖面",
-      "range": 206,
-      "seek": 18.9,
-      "width": 1080,
-      "height": 1920,
-      "duration": 36.666667,
-      "muted": false,
-      "volume": 1
-    },
-    {
-      "name": "空间点云",
-      "range": 206,
-      "seek": 18.9,
-      "width": 1080,
-      "height": 1920,
-      "duration": 36.666667,
-      "muted": false,
-      "volume": 1
-    },
-    {
       "name": "木刻刀痕",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "蚀刻铜版",
       "range": 206,
       "seek": 18.9,
       "width": 1080,
@@ -93,6 +153,16 @@
     },
     {
       "name": "蓝晒图像",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "机械剖面",
       "range": 206,
       "seek": 18.9,
       "width": 1080,
@@ -133,6 +203,16 @@
     },
     {
       "name": "早期桌面",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "空间点云",
       "range": 206,
       "seek": 18.9,
       "width": 1080,
