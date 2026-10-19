@@ -1,0 +1,3 @@
+import{makePaperConstruction}from'./paper-construction-stage.js';
+export const LOOK={"key": "pop-up-book", "name": "立体书机关", "palette": {"bg": "#e2e6d7", "fg": "#2c4036", "muted": "#536653", "accent": "#8c4f32", "caption": "#f8f1df", "portrait": "#e2e6d7"}, "base": {"x": 222, "y": 585, "w": 636}, "css": "#title{font-family:Serif;font-weight:700;font-size:98px}#architecture{inset:505px 36px 675px;border-top:2px solid #b8bdab;border-bottom:2px solid #b8bdab;background:#eff0e5}#art canvas{position:absolute;left:0;top:0;width:952px;height:400px;z-index:0}#art svg{position:absolute;inset:0;z-index:2}#captions{border-top:3px solid #8c4f32}"};
+export async function buildArt(ctx){return makePaperConstruction(ctx,'book')}

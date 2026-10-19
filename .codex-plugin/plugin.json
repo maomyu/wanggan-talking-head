@@ -1,15 +1,15 @@
 {
   "name": "wanggan-talking-head",
-  "version": "1.6.0",
-  "description": "网感口播：42种已实现画风（20用户认可、22制作验证）、100种创意方向；四个完整专业skill协作。",
+  "version": "1.7.0",
+  "description": "网感口播：50种已实现画风（20用户认可、30制作验证）、100种创意方向；四个完整专业skill协作。",
   "author": {
     "name": "Maoyu"
   },
   "skills": "./skills/",
   "interface": {
     "displayName": "网感口播",
-    "shortDescription": "42种已实现画风与100种方向协作",
-    "longDescription": "保留四个完整专家skill与统筹入口，42种可复用画风含20用户认可与22制作验证，另58种待完成；人物原色、角落圆窗、字幕上移。",
+    "shortDescription": "50种已实现画风与100种方向协作",
+    "longDescription": "保留四个完整专家skill与统筹入口，50种可复用画风含20用户认可与30制作验证，另50种待完成；人物原色、角落圆窗、字幕上移。",
     "developerName": "Maoyu",
     "category": "Productivity",
     "capabilities": [

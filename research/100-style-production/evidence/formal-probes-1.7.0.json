@@ -1,0 +1,102 @@
+{
+  "ok": true,
+  "version": "1.7.0",
+  "results": [
+    {
+      "key": "photo-book",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.7.0/photo-book",
+      "base": [
+        220,
+        585,
+        640,
+        640
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "timeline-almanac",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.7.0/timeline-almanac",
+      "base": [
+        225,
+        585,
+        630,
+        630
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "memphis",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.7.0/memphis",
+      "base": [
+        220,
+        585,
+        640,
+        640
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "brutalist-type",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.7.0/brutalist-type",
+      "base": [
+        200,
+        580,
+        680,
+        680
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "optical-graphic",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.7.0/optical-graphic",
+      "base": [
+        230,
+        585,
+        620,
+        620
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "negative-space",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.7.0/negative-space",
+      "base": [
+        220,
+        585,
+        640,
+        640
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "pop-up-book",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.7.0/pop-up-book",
+      "base": [
+        222,
+        585,
+        636,
+        636
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "corrugated-model",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.7.0/corrugated-model",
+      "base": [
+        225,
+        585,
+        630,
+        630
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    }
+  ]
+}

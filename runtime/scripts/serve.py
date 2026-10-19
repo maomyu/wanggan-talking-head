@@ -23,8 +23,12 @@ class Handler(SimpleHTTPRequestHandler):
   self.end_headers();return f
  def copyfile(self,source,output):
   if self.remaining is None:return super().copyfile(source,output)
-  while self.remaining:
-   data=source.read(min(262144,self.remaining))
-   if not data:break
-   output.write(data);self.remaining-=len(data)
+  try:
+   while self.remaining:
+    data=source.read(min(262144,self.remaining))
+    if not data:break
+    output.write(data);self.remaining-=len(data)
+  except (BrokenPipeError,ConnectionResetError):
+   # Closing or seeking a player can intentionally cancel its current range.
+   pass
 server=ThreadingHTTPServer(('127.0.0.1',args.port),Handler);(root/'qa/preview-server.json').write_text(json.dumps({'pid':os.getpid(),'port':server.server_address[1],'projectId':project['id'],'url':f'http://127.0.0.1:{server.server_address[1]}/'},indent=2));server.serve_forever()

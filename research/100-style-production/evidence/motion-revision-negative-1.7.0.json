@@ -1,0 +1,38 @@
+{
+  "ok": true,
+  "scope": "only person travel .55 to 1 second; actual in-flight geometry changed, settled art pixels, voice PCM reference and captions/frame count unchanged; not a revised full-film render",
+  "results": [
+    {
+      "project": "portability/formal-1.7.0/negative-space",
+      "during": {
+        "x": 545.7255859375,
+        "y": 1024.9921875,
+        "width": 416.7239990234375,
+        "height": 416.7239990234375
+      },
+      "noteHandoff": {
+        "movingNote": 0.5295,
+        "settledNote": 1
+      },
+      "artSha256": "9c40038bc935b1b05593151bca6a81a236b8a16596753370cd85961c3a56c47f",
+      "voiceSha256": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+      "timingSha256": "d9991ae0fb0552b18aa6249e26af5b145e8ffad0b0eec526c2981b79fadf98c7"
+    },
+    {
+      "project": "portability/negative-motion-1.7.0",
+      "during": {
+        "x": 348.59259033203125,
+        "y": 758.7036743164062,
+        "width": 551.8800048828125,
+        "height": 551.8800659179688
+      },
+      "noteHandoff": {
+        "movingNote": 0,
+        "settledNote": 1
+      },
+      "artSha256": "9c40038bc935b1b05593151bca6a81a236b8a16596753370cd85961c3a56c47f",
+      "voiceSha256": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+      "timingSha256": "d9991ae0fb0552b18aa6249e26af5b145e8ffad0b0eec526c2981b79fadf98c7"
+    }
+  ]
+}

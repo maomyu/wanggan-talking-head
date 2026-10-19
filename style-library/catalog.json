@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "1.6.0",
+  "version": "1.7.0",
   "approvedCount": 20,
   "styles": [
     {
@@ -714,6 +714,55 @@
       ]
     },
     {
+      "id": "A31",
+      "key": "photo-book",
+      "name": "摄影画册",
+      "familyKey": "editorial",
+      "family": "编辑与信息印刷",
+      "visualMechanism": "大幅照片、跨页留白与简短图注，镜头停留为看清照片服务",
+      "profiles": {
+        "layout": "L02",
+        "motion": "M03",
+        "editing": "E08",
+        "sound": "S10"
+      },
+      "suitableFor": [
+        "人物",
+        "旅行"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [],
+      "assetDisclosure": "AI-generated still-life concept imagery; not documentary evidence; presenter source unchanged",
+      "preview": "previews/photo-book.jpg",
+      "implementation": "templates/photo-book/index.html",
+      "evidence": "evidence/production-20261020-a31-a34-a39-a40-a41-a42-a59-a60.json",
+      "videoSha256": "f293e37eb844751128620ede06bd0097cdea985ca41c3dddcfc8d1da19183128",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        220,
+        585,
+        640,
+        640
+      ]
+    },
+    {
       "id": "A32",
       "key": "dictionary-entry",
       "name": "字典辞条",
@@ -806,6 +855,54 @@
         590,
         624,
         624
+      ]
+    },
+    {
+      "id": "A34",
+      "key": "timeline-almanac",
+      "name": "时间轴年鉴",
+      "familyKey": "editorial",
+      "family": "编辑与信息印刷",
+      "visualMechanism": "以可核对的日期或时间点、事件组成时间带；本例明确采用口播视频分秒，未来节点不冒充已经发生的历史",
+      "profiles": {
+        "layout": "L11",
+        "motion": "M03",
+        "editing": "E09",
+        "sound": "S10"
+      },
+      "suitableFor": [
+        "历史",
+        "发展"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [],
+      "preview": "previews/timeline-almanac.jpg",
+      "implementation": "templates/timeline-almanac/index.html",
+      "evidence": "evidence/production-20261020-a31-a34-a39-a40-a41-a42-a59-a60.json",
+      "videoSha256": "37fac83732fce33599787a71bc93c994837e0d41bb55d3d27e8eba334ae35ea7",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        225,
+        585,
+        630,
+        630
       ]
     },
     {
@@ -1009,6 +1106,201 @@
       ]
     },
     {
+      "id": "A39",
+      "key": "memphis",
+      "name": "孟菲斯几何",
+      "familyKey": "graphic",
+      "family": "字体与现代平面",
+      "visualMechanism": "互相制衡的几何纹样、错位尺度与轻快物件感，正文仍有稳定底面",
+      "profiles": {
+        "layout": "L06",
+        "motion": "M05",
+        "editing": "E04",
+        "sound": "S05"
+      },
+      "suitableFor": [
+        "轻松知识"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [
+        "R11"
+      ],
+      "preview": "previews/memphis.jpg",
+      "implementation": "templates/memphis/index.html",
+      "evidence": "evidence/production-20261020-a31-a34-a39-a40-a41-a42-a59-a60.json",
+      "videoSha256": "10a8c3b23ee46027849d64afe5a60eb3d82c291e869807be9e5a37a3f6c17580",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        220,
+        585,
+        640,
+        640
+      ]
+    },
+    {
+      "id": "A40",
+      "key": "brutalist-type",
+      "name": "粗野排印",
+      "familyKey": "graphic",
+      "family": "字体与现代平面",
+      "visualMechanism": "直接暴露网格和强字重，以粗线和不修饰的结构承载冲突观点",
+      "profiles": {
+        "layout": "L05",
+        "motion": "M04",
+        "editing": "E01",
+        "sound": "S05"
+      },
+      "suitableFor": [
+        "态度",
+        "反思"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [],
+      "preview": "previews/brutalist-type.jpg",
+      "implementation": "templates/brutalist-type/index.html",
+      "evidence": "evidence/production-20261020-a31-a34-a39-a40-a41-a42-a59-a60.json",
+      "videoSha256": "b85069d91e859fca7eb6d7a125abc84f25b83d9d66b3aabfbdf230b1f49dc352",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        200,
+        580,
+        680,
+        680
+      ]
+    },
+    {
+      "id": "A41",
+      "key": "optical-graphic",
+      "name": "动势错视",
+      "familyKey": "graphic",
+      "family": "字体与现代平面",
+      "visualMechanism": "粗尺度黑白图底产生静态方向错觉；不使用高频闪烁或细密频闪纹",
+      "profiles": {
+        "layout": "L06",
+        "motion": "M05",
+        "editing": "E06",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "感知",
+        "设计"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [
+        "R12"
+      ],
+      "preview": "previews/optical-graphic.jpg",
+      "implementation": "templates/optical-graphic/index.html",
+      "evidence": "evidence/production-20261020-a31-a34-a39-a40-a41-a42-a59-a60.json",
+      "videoSha256": "edd142359d9c6b0c84d490bf19e19bd11e89756c0624cc38d7c9ee0e3d7d7427",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        230,
+        585,
+        620,
+        620
+      ]
+    },
+    {
+      "id": "A42",
+      "key": "negative-space",
+      "name": "负空间图形",
+      "familyKey": "graphic",
+      "family": "字体与现代平面",
+      "visualMechanism": "借轮廓之间留下的空白显示另一层意义，图与底依次被辨认",
+      "profiles": {
+        "layout": "L06",
+        "motion": "M05",
+        "editing": "E04",
+        "sound": "S07"
+      },
+      "suitableFor": [
+        "概念",
+        "反转"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [],
+      "preview": "previews/negative-space.jpg",
+      "implementation": "templates/negative-space/index.html",
+      "evidence": "evidence/production-20261020-a31-a34-a39-a40-a41-a42-a59-a60.json",
+      "videoSha256": "b931a3d112ad19e967aa68045f1b71944d0db37bb2d0a37a02764e4e218f8ade",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        220,
+        585,
+        640,
+        640
+      ]
+    },
+    {
       "id": "A58",
       "key": "origami",
       "name": "折纸结构",
@@ -1056,6 +1348,106 @@
         585,
         688,
         688
+      ]
+    },
+    {
+      "id": "A59",
+      "key": "pop-up-book",
+      "name": "立体书机关",
+      "familyKey": "fiber",
+      "family": "纸与纤维",
+      "visualMechanism": "书脊、两页、铰链与相连V形支撑使纸形立起；不透明翻页只覆盖需要换图的模型条带",
+      "profiles": {
+        "layout": "L10",
+        "motion": "M09",
+        "editing": "E05",
+        "sound": "S03"
+      },
+      "suitableFor": [
+        "故事",
+        "科普"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [
+        "R13"
+      ],
+      "preview": "previews/pop-up-book.jpg",
+      "implementation": "templates/pop-up-book/index.html",
+      "evidence": "evidence/production-20261020-a31-a34-a39-a40-a41-a42-a59-a60.json",
+      "videoSha256": "3e1bd60059c25d13218c98df5dbf9328b8d79a78951d9bbcd5fe2eb4dc46c768",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        222,
+        585,
+        636,
+        636
+      ]
+    },
+    {
+      "id": "A60",
+      "key": "corrugated-model",
+      "name": "瓦楞纸模型",
+      "familyKey": "fiber",
+      "family": "纸与纤维",
+      "visualMechanism": "两层薄面纸、真正空心波纹芯与厚边构成微型物件，孔洞和接触阴影体现瓦楞结构",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M13",
+        "editing": "E02",
+        "sound": "S06"
+      },
+      "suitableFor": [
+        "工程",
+        "手作"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [
+        "R14"
+      ],
+      "preview": "previews/corrugated-model.jpg",
+      "implementation": "templates/corrugated-model/index.html",
+      "evidence": "evidence/production-20261020-a31-a34-a39-a40-a41-a42-a59-a60.json",
+      "videoSha256": "43a4883034ec2c0395e46040fca70e0e495712ce41db3e7f8dbc47ddbc9c549c",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        225,
+        585,
+        630,
+        630
       ]
     },
     {
@@ -1875,143 +2267,6 @@
       "references": []
     },
     {
-      "id": "A31",
-      "key": "photo-book",
-      "name": "摄影画册",
-      "familyKey": "editorial",
-      "family": "编辑与信息印刷",
-      "visualMechanism": "大幅照片、跨页留白与简短图注，镜头停留为看清照片服务",
-      "profiles": {
-        "layout": "L02",
-        "motion": "M03",
-        "editing": "E08",
-        "sound": "S10"
-      },
-      "suitableFor": [
-        "人物",
-        "旅行"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A34",
-      "key": "timeline-almanac",
-      "name": "时间轴年鉴",
-      "familyKey": "editorial",
-      "family": "编辑与信息印刷",
-      "visualMechanism": "以真实日期、事件和同期图像组成时间带，避免虚构历史空白",
-      "profiles": {
-        "layout": "L11",
-        "motion": "M03",
-        "editing": "E09",
-        "sound": "S10"
-      },
-      "suitableFor": [
-        "历史",
-        "发展"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A39",
-      "key": "memphis",
-      "name": "孟菲斯几何",
-      "familyKey": "graphic",
-      "family": "字体与现代平面",
-      "visualMechanism": "互相制衡的几何纹样、错位尺度与轻快物件感，正文仍有稳定底面",
-      "profiles": {
-        "layout": "L06",
-        "motion": "M05",
-        "editing": "E04",
-        "sound": "S05"
-      },
-      "suitableFor": [
-        "轻松知识"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A40",
-      "key": "brutalist-type",
-      "name": "粗野排印",
-      "familyKey": "graphic",
-      "family": "字体与现代平面",
-      "visualMechanism": "直接暴露网格和强字重，以粗线和不修饰的结构承载冲突观点",
-      "profiles": {
-        "layout": "L05",
-        "motion": "M04",
-        "editing": "E01",
-        "sound": "S05"
-      },
-      "suitableFor": [
-        "态度",
-        "反思"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A41",
-      "key": "optical-graphic",
-      "name": "动势错视",
-      "familyKey": "graphic",
-      "family": "字体与现代平面",
-      "visualMechanism": "粗尺度黑白图底产生静态方向错觉；不使用高频闪烁或细密频闪纹",
-      "profiles": {
-        "layout": "L06",
-        "motion": "M05",
-        "editing": "E06",
-        "sound": "S01"
-      },
-      "suitableFor": [
-        "感知",
-        "设计"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A42",
-      "key": "negative-space",
-      "name": "负空间图形",
-      "familyKey": "graphic",
-      "family": "字体与现代平面",
-      "visualMechanism": "借轮廓之间留下的空白显示另一层意义，图与底依次被辨认",
-      "profiles": {
-        "layout": "L06",
-        "motion": "M05",
-        "editing": "E04",
-        "sound": "S07"
-      },
-      "suitableFor": [
-        "概念",
-        "反转"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
       "id": "A43",
       "key": "pencil-sketch",
       "name": "铅笔素描",
@@ -2349,54 +2604,6 @@
       "suitableFor": [
         "旅行",
         "历史"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A59",
-      "key": "pop-up-book",
-      "name": "立体书机关",
-      "familyKey": "fiber",
-      "family": "纸与纤维",
-      "visualMechanism": "书脊、拉页和立起的纸形共同带出信息，机关方向具有真实连接",
-      "profiles": {
-        "layout": "L10",
-        "motion": "M09",
-        "editing": "E05",
-        "sound": "S03"
-      },
-      "suitableFor": [
-        "故事",
-        "科普"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": [
-        "R02"
-      ]
-    },
-    {
-      "id": "A60",
-      "key": "corrugated-model",
-      "name": "瓦楞纸模型",
-      "familyKey": "fiber",
-      "family": "纸与纤维",
-      "visualMechanism": "可见夹层、厚边和插接结构构成微型物件，与薄纸拼贴拉开厚度差异",
-      "profiles": {
-        "layout": "L12",
-        "motion": "M09",
-        "editing": "E02",
-        "sound": "S06"
-      },
-      "suitableFor": [
-        "工程",
-        "手作"
       ],
       "status": "candidate-planned",
       "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
@@ -3031,7 +3238,7 @@
       "references": []
     }
   ],
-  "plannedCount": 58,
+  "plannedCount": 50,
   "totalCount": 100,
   "families": [
     {
@@ -3086,8 +3293,8 @@
     }
   ],
   "profileLibrary": "profiles.json",
-  "researchBoundary": "100项为可组合视觉方向，含材料、传统风格与原创配方；20种用户认可，22种制作验证，58种尚未完成。不是100个互斥行业标准。",
-  "implementedCount": 42,
+  "researchBoundary": "100项为可组合视觉方向，含材料、传统风格与原创配方；20种用户认可，30种制作验证，50种尚未完成。不是100个互斥行业标准。",
+  "implementedCount": 50,
   "userApprovedCount": 20,
-  "productionVerifiedCount": 22
+  "productionVerifiedCount": 30
 }

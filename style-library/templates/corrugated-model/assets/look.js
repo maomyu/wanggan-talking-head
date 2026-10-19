@@ -1,0 +1,3 @@
+import{makePaperConstruction}from'./paper-construction-stage.js';
+export const LOOK={"key": "corrugated-model", "name": "瓦楞纸模型", "palette": {"bg": "#eee4d0", "fg": "#473b27", "muted": "#67583d", "accent": "#765033", "caption": "#faf2df", "portrait": "#eee4d0"}, "base": {"x": 225, "y": 585, "w": 630}, "css": "#title{font-size:100px}#architecture{inset:505px 36px 675px;border:3px dashed #9d8a62;background:#e3d7bd}#art canvas{position:absolute;left:0;top:0;width:952px;height:400px;z-index:0}#art svg{position:absolute;inset:0;z-index:2}#person-mask{outline:7px solid #faf2df;box-shadow:0 0 0 3px #9d8a62}#captions{border-top:4px solid #765033}"};
+export async function buildArt(ctx){return makePaperConstruction(ctx,'corrugated')}

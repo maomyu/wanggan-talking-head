@@ -1,0 +1,17 @@
+import{buildStage}from'./material-stage.js';
+export async function makePhotoBook(ctx,geometry){
+ const atlas=new Image();atlas.src='assets/atlas.png';await atlas.decode();let n=0;
+ function object(kind){const b=geometry.boxes[kind],s=260/Math.max(b[2],b[3]),x=20+(260-b[2]*s)/2,y=20+(260-b[3]*s)/2,id='photo-crop-'+n++;return`<defs><clipPath id="${id}"><rect x="${x}" y="${y}" width="${b[2]*s}" height="${b[3]*s}"/></clipPath></defs><rect width="300" height="300" fill="#f7f7f0" stroke="#b5b9af" stroke-width="1.4"/><g clip-path="url(#${id})"><image href="assets/atlas.png" x="${x-b[0]*s}" y="${y-b[1]*s}" width="${geometry.width*s}" height="${geometry.height*s}"/></g>`}
+ ctx.architecture.innerHTML='<svg viewBox="0 0 1080 1920" width="1080" height="1920"><path d="M34 510H1046V1252H34Z" fill="#fffefa" stroke="#b9bbaf" stroke-width="1.5"/><path d="M540 510V1252" stroke="#e2e0d6" stroke-width="7"/></svg>';
+ document.querySelector('#credit').textContent='人物原色 · 角落圆窗 · 原声保留\n静物为AI生成概念图，依据原声作解释示意';document.querySelector('#style-label').textContent='摄影画册 · AI静物概念图';
+ const stage=buildStage({...ctx,object});await Promise.all([...ctx.container.querySelectorAll('image')].map(el=>new Promise((resolve,reject)=>{el.addEventListener('load',resolve,{once:true});el.addEventListener('error',reject,{once:true});})));
+ return{render(t,id,age,frame){stage.render(t,id,age,frame);}};
+}
+export function makeTimeline(ctx){
+ const{P,container,out}=ctx,stamp=f=>{const s=f/P.fps;return String(Math.floor(s/60)).padStart(2,'0')+':'+(s%60).toFixed(2).padStart(5,'0')},T=(x,y,s,size=50,fill='var(--fg)')=>`<text x="${x}" y="${y}" font-family="Body" font-weight="700" font-size="${size}" fill="${fill}">${s}</text>`;
+ const rows={chain:[[149,'跟风消费'],[198,'盲目投资'],[224,'透支负债'],[310,'本金受损']],overview:[[461,'砍掉无效消费'],[616,'守住本金'],[856,'减少负债']],spend:[[461,'砍掉无效消费'],[516,'戒掉冲动购物'],[563,'分清想要需要']],risk:[[616,'本金永远优先'],[686,'夸大收益暗藏风险'],[783,'远离投机炒作']],debt:[[856,'减少负债']]};
+ container.innerHTML=`<svg viewBox="0 0 952 700" xmlns="http://www.w3.org/2000/svg">${Object.entries(rows).map(([id,list])=>{const gap=list.length===4?151:list.length===3?204:204;return`<g data-scene="${id}"><path d="M80 20H952M80 700V20" stroke="#9aab9e" stroke-width="2"/>${T(110,0,'本段导航 · 视频时间',28,'var(--muted)')}${list.map(([f,s],i)=>{const y=110+i*gap;return`<g data-entry data-frame="${f}" data-preview="${id==='overview'}"><circle cx="80" cy="${y-14}" r="17" fill="var(--bg)" stroke="var(--accent)" stroke-width="4"/>${T(122,y-8,stamp(f),35,'var(--muted)')}${T(328,y,s,s.length>7?50:58)}<path d="M328 ${y+30}H952" stroke="#b9c2b7" stroke-width="1.5"/></g>`}).join('')}</g>`}).join('')}</svg>`;
+ ctx.architecture.innerHTML='<svg viewBox="0 0 1080 1920" width="1080" height="1920"><path d="M34 506H1046V1245H34Z" fill="#f8f4e7" stroke="#a8b3a4" stroke-width="2"/><path d="M48 514H1040M45 521H1036" stroke="#c6c8b8" stroke-width="2"/></svg>';
+ const panels=[...container.querySelectorAll('[data-scene]')],entries=[...container.querySelectorAll('[data-entry]')];
+ return{render(t,id,age,frame){panels.forEach(p=>p.style.opacity=p.dataset.scene===id?'1':'0');for(const e of entries){const preview=e.dataset.preview==='true',u=preview?out((age-.6)/.3):out((frame-Number(e.dataset.frame))/10);e.style.opacity=u;const dot=e.querySelector('circle');dot.setAttribute('fill',u>.9?'var(--accent)':'var(--bg)');e.setAttribute('transform',`translate(${10*(1-u)} 0)`);}}};
+}

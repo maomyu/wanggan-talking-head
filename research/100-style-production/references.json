@@ -36,5 +36,33 @@
   {
     "style": "A95—A98",
     "scope": "原创屏幕视觉配方：字符单元构成图形、矢量路径与光束头、圆形离散点阵、早期桌面窗口及可见选择结果。不复刻品牌界面，不将真人处理为字符或点阵。"
+  },
+  {
+    "style": "A39",
+    "id": "R11",
+    "title": "Design Museum · Memphis",
+    "url": "https://designmuseum.org/memphis",
+    "scope": "完整阅读馆方文字，提炼几何、纹样和错位物件关系；原创财经解释图，不复制馆藏作品"
+  },
+  {
+    "style": "A41",
+    "id": "R12",
+    "title": "MoMA · Op art",
+    "url": "https://www.moma.org/collection/terms/op-art",
+    "scope": "核对馆方搜索摘录中的几何黑白、感知与视错觉定义；未声称审看原作全展。本片用粗尺度图底与缓慢小幅位移"
+  },
+  {
+    "style": "A59",
+    "id": "R13",
+    "title": "Smithsonian Libraries · Paper Engineering",
+    "url": "https://library.si.edu/digital-library/exhibition/paper-engineering/page-turners-paper-engineering-fold-pull-pop-turn",
+    "scope": "核对馆方搜索摘录的折、拉、立起机关主题；页面完整打开失败，不声称看过全部机关结构图。本片书脊与V形支撑为原创三维构建"
+  },
+  {
+    "style": "A60",
+    "id": "R14",
+    "title": "FEFCO · What is corrugated?",
+    "url": "https://www.fefco.org/node/1588",
+    "scope": "完整阅读两面纸与中间波纹芯的单瓦楞结构说明，实际建模为空心波纹层；不冒充实物摄影"
   }
 ]

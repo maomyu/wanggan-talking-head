@@ -1,0 +1,47 @@
+{
+  "ok": true,
+  "sha256": "3e1bd60059c25d13218c98df5dbf9328b8d79a78951d9bbcd5fe2eb4dc46c768",
+  "target": "actual encoded 952x400 model strip only; full cut neighbours after presenter settles outside region; does not cover presenter, captions or lower SVG labels",
+  "results": [
+    {
+      "frame": 387,
+      "artColorCoverage": 1.0,
+      "colorMAE": 1.0
+    },
+    {
+      "frame": 388,
+      "artColorCoverage": 1.0,
+      "colorMAE": 1.0
+    },
+    {
+      "frame": 460,
+      "artColorCoverage": 1.0,
+      "colorMAE": 0.9999972976478727
+    },
+    {
+      "frame": 461,
+      "artColorCoverage": 1.0,
+      "colorMAE": 0.9999972976478727
+    },
+    {
+      "frame": 615,
+      "artColorCoverage": 1.0,
+      "colorMAE": 1.0
+    },
+    {
+      "frame": 616,
+      "artColorCoverage": 1.0,
+      "colorMAE": 1.0
+    },
+    {
+      "frame": 855,
+      "artColorCoverage": 1.0,
+      "colorMAE": 1.0
+    },
+    {
+      "frame": 856,
+      "artColorCoverage": 1.0,
+      "colorMAE": 1.0
+    }
+  ]
+}

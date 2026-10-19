@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "key": "pop-up-book",
+  "version": "1.7.0",
+  "scope": "从正式插件独立init/build/check/render/verify生成完整1100帧；与研究成片逐秒像素和完整解码音频比较",
+  "sourceSha256": "3e1bd60059c25d13218c98df5dbf9328b8d79a78951d9bbcd5fe2eb4dc46c768",
+  "formalSha256": "72acc7f8926d5f5a14adb725fca20ca09ffcbb03b40cdf60bb4246ca5a3b3da3",
+  "identicalEncodedFile": false,
+  "pixelMetrics": {
+    "sampledFrames": 37,
+    "mean": 0.0004858330552774996,
+    "max": 0.005967078189300412
+  },
+  "decodedVoiceIdentical": true
+}

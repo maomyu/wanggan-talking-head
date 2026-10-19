@@ -2,9 +2,9 @@
   "goal": "100个实际画风视频与正式插件整合",
   "total": 100,
   "userApproved": 20,
-  "productionVerified": 22,
+  "productionVerified": 30,
   "inProduction": 0,
-  "queued": 58,
+  "queued": 50,
   "styles": [
     {
       "id": "A01",
@@ -283,9 +283,10 @@
       "key": "photo-book",
       "name": "摄影画册",
       "family": "editorial",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/photo-book/outputs/final.mp4"
     },
     {
       "id": "A32",
@@ -312,9 +313,10 @@
       "key": "timeline-almanac",
       "name": "时间轴年鉴",
       "family": "editorial",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/timeline-almanac/outputs/final.mp4"
     },
     {
       "id": "A35",
@@ -361,36 +363,40 @@
       "key": "memphis",
       "name": "孟菲斯几何",
       "family": "graphic",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/memphis/outputs/final.mp4"
     },
     {
       "id": "A40",
       "key": "brutalist-type",
       "name": "粗野排印",
       "family": "graphic",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/brutalist-type/outputs/final.mp4"
     },
     {
       "id": "A41",
       "key": "optical-graphic",
       "name": "动势错视",
       "family": "graphic",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/optical-graphic/outputs/final.mp4"
     },
     {
       "id": "A42",
       "key": "negative-space",
       "name": "负空间图形",
       "family": "graphic",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/negative-space/outputs/final.mp4"
     },
     {
       "id": "A43",
@@ -542,18 +548,20 @@
       "key": "pop-up-book",
       "name": "立体书机关",
       "family": "fiber",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/pop-up-book/outputs/final.mp4"
     },
     {
       "id": "A60",
       "key": "corrugated-model",
       "name": "瓦楞纸模型",
       "family": "fiber",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/corrugated-model/outputs/final.mp4"
     },
     {
       "id": "A61",

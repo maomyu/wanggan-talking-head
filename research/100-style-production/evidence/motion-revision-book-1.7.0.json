@@ -1,0 +1,38 @@
+{
+  "ok": true,
+  "scope": "only person travel .55 to 1 second; actual in-flight geometry changed, settled art pixels, voice PCM reference and captions/frame count unchanged; not a revised full-film render",
+  "results": [
+    {
+      "project": "portability/formal-1.7.0/pop-up-book",
+      "during": {
+        "x": 546.4121704101562,
+        "y": 1024.9921875,
+        "width": 415.3800048828125,
+        "height": 415.3800048828125
+      },
+      "noteHandoff": {
+        "movingNote": 0.5295,
+        "settledNote": 1
+      },
+      "artSha256": "71a508445f2beba5349e7727b1359153616c59f2a2a9dc18bf7162d71e864428",
+      "voiceSha256": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+      "timingSha256": "d9991ae0fb0552b18aa6249e26af5b145e8ffad0b0eec526c2981b79fadf98c7"
+    },
+    {
+      "project": "portability/book-motion-1.7.0",
+      "during": {
+        "x": 350.0740966796875,
+        "y": 758.7036743164062,
+        "width": 548.8560180664062,
+        "height": 548.8560180664062
+      },
+      "noteHandoff": {
+        "movingNote": 0,
+        "settledNote": 1
+      },
+      "artSha256": "71a508445f2beba5349e7727b1359153616c59f2a2a9dc18bf7162d71e864428",
+      "voiceSha256": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+      "timingSha256": "d9991ae0fb0552b18aa6249e26af5b145e8ffad0b0eec526c2981b79fadf98c7"
+    }
+  ]
+}

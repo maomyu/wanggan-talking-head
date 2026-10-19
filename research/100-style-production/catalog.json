@@ -1,0 +1,1465 @@
+[
+  {
+    "id": "A29",
+    "key": "newspaper",
+    "name": "新闻报纸",
+    "familyKey": "editorial",
+    "family": "编辑与信息印刷",
+    "visualMechanism": "密度有秩序的栏组、标题与图片说明共同建立新闻阅读面",
+    "profiles": {
+      "layout": "L03",
+      "motion": "M03",
+      "editing": "E03",
+      "sound": "S01"
+    },
+    "suitableFor": [
+      "新闻解释"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [],
+    "preview": "previews/newspaper.jpg",
+    "implementation": "templates/newspaper/index.html",
+    "evidence": "evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json",
+    "videoSha256": "ca41b3e27cdfaaea34d006ce859319d38d0534b77b78eb5ce387db976b2e930d",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      220,
+      585,
+      640,
+      640
+    ]
+  },
+  {
+    "id": "A30",
+    "key": "archive-dossier",
+    "name": "档案卷宗",
+    "familyKey": "editorial",
+    "family": "编辑与信息印刷",
+    "visualMechanism": "来源页、页签和交叉引用组织材料，真实证据与解释示意分开标明",
+    "profiles": {
+      "layout": "L04",
+      "motion": "M03",
+      "editing": "E09",
+      "sound": "S03"
+    },
+    "suitableFor": [
+      "调查",
+      "复盘"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [],
+    "preview": "previews/archive-dossier.jpg",
+    "implementation": "templates/archive-dossier/index.html",
+    "evidence": "evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json",
+    "videoSha256": "d11b2315e476748647aeb376fbd92041618625950d1953d234c39980563cff92",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      220,
+      585,
+      640,
+      640
+    ]
+  },
+  {
+    "id": "A31",
+    "key": "photo-book",
+    "name": "摄影画册",
+    "familyKey": "editorial",
+    "family": "编辑与信息印刷",
+    "visualMechanism": "大幅照片、跨页留白与简短图注，镜头停留为看清照片服务",
+    "profiles": {
+      "layout": "L02",
+      "motion": "M03",
+      "editing": "E08",
+      "sound": "S10"
+    },
+    "suitableFor": [
+      "人物",
+      "旅行"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [],
+    "assetDisclosure": "AI-generated still-life concept imagery; not documentary evidence; presenter source unchanged",
+    "preview": "previews/photo-book.jpg",
+    "implementation": "templates/photo-book/index.html",
+    "evidence": "evidence/production-20261020-a31-a34-a39-a40-a41-a42-a59-a60.json",
+    "videoSha256": "f293e37eb844751128620ede06bd0097cdea985ca41c3dddcfc8d1da19183128",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      220,
+      585,
+      640,
+      640
+    ]
+  },
+  {
+    "id": "A32",
+    "key": "dictionary-entry",
+    "name": "字典辞条",
+    "familyKey": "editorial",
+    "family": "编辑与信息印刷",
+    "visualMechanism": "术语、释义、例子和对应小图形成可查阅条目，重点由定义展开",
+    "profiles": {
+      "layout": "L03",
+      "motion": "M04",
+      "editing": "E03",
+      "sound": "S01"
+    },
+    "suitableFor": [
+      "术语科普"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [],
+    "preview": "previews/dictionary-entry.jpg",
+    "implementation": "templates/dictionary-entry/index.html",
+    "evidence": "evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json",
+    "videoSha256": "b29f269547dfd0de8a75e4c85fbc9f836aac5830c7776239a6c103c20ae1c293",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      230,
+      590,
+      620,
+      620
+    ]
+  },
+  {
+    "id": "A33",
+    "key": "lab-notebook",
+    "name": "实验记录",
+    "familyKey": "editorial",
+    "family": "编辑与信息印刷",
+    "visualMechanism": "步骤、观察和结论分别落在记录区，量尺及数据仅在有来源时出现",
+    "profiles": {
+      "layout": "L07",
+      "motion": "M06",
+      "editing": "E03",
+      "sound": "S04"
+    },
+    "suitableFor": [
+      "科学",
+      "方法"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [],
+    "preview": "previews/lab-notebook.jpg",
+    "implementation": "templates/lab-notebook/index.html",
+    "evidence": "evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json",
+    "videoSha256": "558f5019b646b380d724f067f4d8eeaafaee36fd8391f97d0efd0d83197c161a",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      228,
+      590,
+      624,
+      624
+    ]
+  },
+  {
+    "id": "A34",
+    "key": "timeline-almanac",
+    "name": "时间轴年鉴",
+    "familyKey": "editorial",
+    "family": "编辑与信息印刷",
+    "visualMechanism": "以可核对的日期或时间点、事件组成时间带；本例明确采用口播视频分秒，未来节点不冒充已经发生的历史",
+    "profiles": {
+      "layout": "L11",
+      "motion": "M03",
+      "editing": "E09",
+      "sound": "S10"
+    },
+    "suitableFor": [
+      "历史",
+      "发展"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [],
+    "preview": "previews/timeline-almanac.jpg",
+    "implementation": "templates/timeline-almanac/index.html",
+    "evidence": "evidence/production-20261020-a31-a34-a39-a40-a41-a42-a59-a60.json",
+    "videoSha256": "37fac83732fce33599787a71bc93c994837e0d41bb55d3d27e8eba334ae35ea7",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      225,
+      585,
+      630,
+      630
+    ]
+  },
+  {
+    "id": "A35",
+    "key": "swiss-grid",
+    "name": "瑞士网格",
+    "familyKey": "graphic",
+    "family": "字体与现代平面",
+    "visualMechanism": "严密网格、非对称排印和字距控制，以对齐而非容器形成秩序",
+    "profiles": {
+      "layout": "L03",
+      "motion": "M04",
+      "editing": "E01",
+      "sound": "S01"
+    },
+    "suitableFor": [
+      "商业",
+      "知识"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [
+      "R06"
+    ],
+    "preview": "previews/swiss-grid.jpg",
+    "implementation": "templates/swiss-grid/index.html",
+    "evidence": "evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json",
+    "videoSha256": "b11008c08836130adfd205be4f761982c15007b6448a8b76bccb4ee019d939d3",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      130,
+      580,
+      660,
+      660
+    ]
+  },
+  {
+    "id": "A36",
+    "key": "constructivist",
+    "name": "构成主义",
+    "familyKey": "graphic",
+    "family": "字体与现代平面",
+    "visualMechanism": "斜向轴线、摄影片段与几何张力组织观点；不借用历史政治口号",
+    "profiles": {
+      "layout": "L06",
+      "motion": "M05",
+      "editing": "E05",
+      "sound": "S05"
+    },
+    "suitableFor": [
+      "观点",
+      "机制"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [
+      "R10"
+    ],
+    "preview": "previews/constructivist.jpg",
+    "implementation": "templates/constructivist/index.html",
+    "evidence": "evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json",
+    "videoSha256": "bb9c56056e91e696982fbf0c12e7f9d7e6384bcbef05cccab5485f635068fc3e",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      200,
+      585,
+      680,
+      680
+    ]
+  },
+  {
+    "id": "A37",
+    "key": "art-deco",
+    "name": "装饰艺术",
+    "familyKey": "graphic",
+    "family": "字体与现代平面",
+    "visualMechanism": "阶梯几何、对称门框和金属细节营造秩序，段落像逐级展开的立面",
+    "profiles": {
+      "layout": "L06",
+      "motion": "M12",
+      "editing": "E04",
+      "sound": "S07"
+    },
+    "suitableFor": [
+      "品牌",
+      "文化"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [
+      "R04"
+    ],
+    "preview": "previews/art-deco.jpg",
+    "implementation": "templates/art-deco/index.html",
+    "evidence": "evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json",
+    "videoSha256": "413a9d2b53d852711de85d2d16b44d698ea5c4f0bb936a54673642f9945ce175",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      230,
+      585,
+      620,
+      620
+    ]
+  },
+  {
+    "id": "A38",
+    "key": "art-nouveau",
+    "name": "新艺术曲线",
+    "familyKey": "graphic",
+    "family": "字体与现代平面",
+    "visualMechanism": "植物式曲线、连贯边缘和有机框架构成阅读路径，不只贴花边",
+    "profiles": {
+      "layout": "L11",
+      "motion": "M06",
+      "editing": "E04",
+      "sound": "S07"
+    },
+    "suitableFor": [
+      "自然",
+      "文化"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [
+      "R03"
+    ],
+    "preview": "previews/art-nouveau.jpg",
+    "implementation": "templates/art-nouveau/index.html",
+    "evidence": "evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json",
+    "videoSha256": "e9be9998ac65fac1111ee998fa74cbd03cd2378852520da04b828288ca4fcfd5",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      225,
+      590,
+      630,
+      630
+    ]
+  },
+  {
+    "id": "A39",
+    "key": "memphis",
+    "name": "孟菲斯几何",
+    "familyKey": "graphic",
+    "family": "字体与现代平面",
+    "visualMechanism": "互相制衡的几何纹样、错位尺度与轻快物件感，正文仍有稳定底面",
+    "profiles": {
+      "layout": "L06",
+      "motion": "M05",
+      "editing": "E04",
+      "sound": "S05"
+    },
+    "suitableFor": [
+      "轻松知识"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [
+      "R11"
+    ],
+    "preview": "previews/memphis.jpg",
+    "implementation": "templates/memphis/index.html",
+    "evidence": "evidence/production-20261020-a31-a34-a39-a40-a41-a42-a59-a60.json",
+    "videoSha256": "10a8c3b23ee46027849d64afe5a60eb3d82c291e869807be9e5a37a3f6c17580",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      220,
+      585,
+      640,
+      640
+    ]
+  },
+  {
+    "id": "A40",
+    "key": "brutalist-type",
+    "name": "粗野排印",
+    "familyKey": "graphic",
+    "family": "字体与现代平面",
+    "visualMechanism": "直接暴露网格和强字重，以粗线和不修饰的结构承载冲突观点",
+    "profiles": {
+      "layout": "L05",
+      "motion": "M04",
+      "editing": "E01",
+      "sound": "S05"
+    },
+    "suitableFor": [
+      "态度",
+      "反思"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [],
+    "preview": "previews/brutalist-type.jpg",
+    "implementation": "templates/brutalist-type/index.html",
+    "evidence": "evidence/production-20261020-a31-a34-a39-a40-a41-a42-a59-a60.json",
+    "videoSha256": "b85069d91e859fca7eb6d7a125abc84f25b83d9d66b3aabfbdf230b1f49dc352",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      200,
+      580,
+      680,
+      680
+    ]
+  },
+  {
+    "id": "A41",
+    "key": "optical-graphic",
+    "name": "动势错视",
+    "familyKey": "graphic",
+    "family": "字体与现代平面",
+    "visualMechanism": "粗尺度黑白图底产生静态方向错觉；不使用高频闪烁或细密频闪纹",
+    "profiles": {
+      "layout": "L06",
+      "motion": "M05",
+      "editing": "E06",
+      "sound": "S01"
+    },
+    "suitableFor": [
+      "感知",
+      "设计"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [
+      "R12"
+    ],
+    "preview": "previews/optical-graphic.jpg",
+    "implementation": "templates/optical-graphic/index.html",
+    "evidence": "evidence/production-20261020-a31-a34-a39-a40-a41-a42-a59-a60.json",
+    "videoSha256": "edd142359d9c6b0c84d490bf19e19bd11e89756c0624cc38d7c9ee0e3d7d7427",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      230,
+      585,
+      620,
+      620
+    ]
+  },
+  {
+    "id": "A42",
+    "key": "negative-space",
+    "name": "负空间图形",
+    "familyKey": "graphic",
+    "family": "字体与现代平面",
+    "visualMechanism": "借轮廓之间留下的空白显示另一层意义，图与底依次被辨认",
+    "profiles": {
+      "layout": "L06",
+      "motion": "M05",
+      "editing": "E04",
+      "sound": "S07"
+    },
+    "suitableFor": [
+      "概念",
+      "反转"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [],
+    "preview": "previews/negative-space.jpg",
+    "implementation": "templates/negative-space/index.html",
+    "evidence": "evidence/production-20261020-a31-a34-a39-a40-a41-a42-a59-a60.json",
+    "videoSha256": "b931a3d112ad19e967aa68045f1b71944d0db37bb2d0a37a02764e4e218f8ade",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      220,
+      585,
+      640,
+      640
+    ]
+  },
+  {
+    "id": "A58",
+    "key": "origami",
+    "name": "折纸结构",
+    "familyKey": "fiber",
+    "family": "纸与纤维",
+    "visualMechanism": "一张纸围绕折线形成可辨认结构，展开与折合解释部分和整体",
+    "profiles": {
+      "layout": "L10",
+      "motion": "M09",
+      "editing": "E04",
+      "sound": "S03"
+    },
+    "suitableFor": [
+      "结构",
+      "方法"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [
+      "R02"
+    ],
+    "preview": "previews/origami.jpg",
+    "implementation": "templates/origami/index.html",
+    "evidence": "evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json",
+    "videoSha256": "db3b013140b9f9ce3bf50ad42a763060656a06233f6922986b160a352e3671ac",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      196,
+      585,
+      688,
+      688
+    ]
+  },
+  {
+    "id": "A59",
+    "key": "pop-up-book",
+    "name": "立体书机关",
+    "familyKey": "fiber",
+    "family": "纸与纤维",
+    "visualMechanism": "书脊、两页、铰链与相连V形支撑使纸形立起；不透明翻页只覆盖需要换图的模型条带",
+    "profiles": {
+      "layout": "L10",
+      "motion": "M09",
+      "editing": "E05",
+      "sound": "S03"
+    },
+    "suitableFor": [
+      "故事",
+      "科普"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [
+      "R13"
+    ],
+    "preview": "previews/pop-up-book.jpg",
+    "implementation": "templates/pop-up-book/index.html",
+    "evidence": "evidence/production-20261020-a31-a34-a39-a40-a41-a42-a59-a60.json",
+    "videoSha256": "3e1bd60059c25d13218c98df5dbf9328b8d79a78951d9bbcd5fe2eb4dc46c768",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      222,
+      585,
+      636,
+      636
+    ]
+  },
+  {
+    "id": "A60",
+    "key": "corrugated-model",
+    "name": "瓦楞纸模型",
+    "familyKey": "fiber",
+    "family": "纸与纤维",
+    "visualMechanism": "两层薄面纸、真正空心波纹芯与厚边构成微型物件，孔洞和接触阴影体现瓦楞结构",
+    "profiles": {
+      "layout": "L12",
+      "motion": "M13",
+      "editing": "E02",
+      "sound": "S06"
+    },
+    "suitableFor": [
+      "工程",
+      "手作"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [
+      "R14"
+    ],
+    "preview": "previews/corrugated-model.jpg",
+    "implementation": "templates/corrugated-model/index.html",
+    "evidence": "evidence/production-20261020-a31-a34-a39-a40-a41-a42-a59-a60.json",
+    "videoSha256": "43a4883034ec2c0395e46040fca70e0e495712ce41db3e7f8dbc47ddbc9c549c",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      225,
+      585,
+      630,
+      630
+    ]
+  },
+  {
+    "id": "A62",
+    "key": "felt-applique",
+    "name": "毛毡贴画",
+    "familyKey": "fiber",
+    "family": "纸与纤维",
+    "visualMechanism": "柔软毛边、厚片和缝接构成物件，运动有轻微阻尼和压缩",
+    "profiles": {
+      "layout": "L09",
+      "motion": "M08",
+      "editing": "E07",
+      "sound": "S06"
+    },
+    "suitableFor": [
+      "亲和科普"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [],
+    "preview": "previews/felt-applique.jpg",
+    "implementation": "templates/felt-applique/index.html",
+    "evidence": "evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json",
+    "videoSha256": "8ef9964c843efb701404b891e980d224144a262770e3cb64f1cd6eb64f4ff572",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      220,
+      585,
+      640,
+      640
+    ]
+  },
+  {
+    "id": "A63",
+    "key": "embroidery",
+    "name": "刺绣针脚",
+    "familyKey": "fiber",
+    "family": "纸与纤维",
+    "visualMechanism": "线迹的方向和疏密组成图形，节点像逐针建立的联系",
+    "profiles": {
+      "layout": "L07",
+      "motion": "M10",
+      "editing": "E04",
+      "sound": "S06"
+    },
+    "suitableFor": [
+      "关系",
+      "手艺"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [],
+    "preview": "previews/embroidery.jpg",
+    "implementation": "templates/embroidery/index.html",
+    "evidence": "evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json",
+    "videoSha256": "9b60886d0ab6b0e71fa5e3cfa4d85afca1e88f225f25b109391a044c860f741a",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      215,
+      585,
+      650,
+      650
+    ]
+  },
+  {
+    "id": "A67",
+    "key": "gongbi",
+    "name": "工笔设色",
+    "familyKey": "painting",
+    "family": "传统绘画与东方",
+    "visualMechanism": "细线立骨、多层淡设色和局部放大，解释对象边界清楚而不靠墨块",
+    "profiles": {
+      "layout": "L02",
+      "motion": "M11",
+      "editing": "E02",
+      "sound": "S07"
+    },
+    "suitableFor": [
+      "文化",
+      "自然"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [
+      "R05"
+    ],
+    "preview": "previews/gongbi.jpg",
+    "implementation": "templates/gongbi/index.html",
+    "evidence": "evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json",
+    "videoSha256": "2bda19a3eeb55f61318a44e4f1a738bd88c22f14cc446507bb1e74fc0f1cdc60",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      225,
+      585,
+      630,
+      630
+    ]
+  },
+  {
+    "id": "A76",
+    "key": "woodcut",
+    "name": "木刻刀痕",
+    "familyKey": "craft",
+    "family": "工艺表面与印制",
+    "visualMechanism": "单色刀痕、强黑白和刻除方向构成物件，与年画的叙事套色分开",
+    "profiles": {
+      "layout": "L06",
+      "motion": "M07",
+      "editing": "E04",
+      "sound": "S04"
+    },
+    "suitableFor": [
+      "观点",
+      "历史"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [
+      "R07"
+    ],
+    "preview": "previews/woodcut.jpg",
+    "implementation": "templates/woodcut/index.html",
+    "evidence": "evidence/production-20261020-a76-a78-a80-a95-a96-a97-a98.json",
+    "videoSha256": "1922f51c7f1c49c79351937dcb7284f47c1f339fa0f669dc606c2489cb169402",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      225,
+      582,
+      630,
+      630
+    ]
+  },
+  {
+    "id": "A77",
+    "key": "etching",
+    "name": "蚀刻铜版",
+    "familyKey": "craft",
+    "family": "工艺表面与印制",
+    "visualMechanism": "细密刻线、版面边界和受控灰调表现对象，细节放大后才可读",
+    "profiles": {
+      "layout": "L02",
+      "motion": "M06",
+      "editing": "E02",
+      "sound": "S04"
+    },
+    "suitableFor": [
+      "工艺",
+      "知识"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [],
+    "preview": "previews/etching.jpg",
+    "implementation": "templates/etching/index.html",
+    "evidence": "evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json",
+    "videoSha256": "125b85bae86c2db38582e56021ac0bb9bdbb9fa7f83dfc99ef4d5da9ef14c852",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      235,
+      585,
+      610,
+      610
+    ]
+  },
+  {
+    "id": "A78",
+    "key": "risograph",
+    "name": "孔版套印",
+    "familyKey": "craft",
+    "family": "工艺表面与印制",
+    "visualMechanism": "大面积孔版色层、轻微套版错位和油墨颗粒；不是照片上统一加网点",
+    "profiles": {
+      "layout": "L06",
+      "motion": "M05",
+      "editing": "E04",
+      "sound": "S05"
+    },
+    "suitableFor": [
+      "文化",
+      "创意"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [
+      "R08"
+    ],
+    "preview": "previews/risograph.jpg",
+    "implementation": "templates/risograph/index.html",
+    "evidence": "evidence/production-20261020-a76-a78-a80-a95-a96-a97-a98.json",
+    "videoSha256": "18819130f47aa724167a8a629eb85a8704e646a1b00d49c7fbe27c85014948d0",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      220,
+      580,
+      640,
+      640
+    ]
+  },
+  {
+    "id": "A80",
+    "key": "cyanotype",
+    "name": "蓝晒图像",
+    "familyKey": "craft",
+    "family": "工艺表面与印制",
+    "visualMechanism": "实物遮挡留下的负形与感光纸肌理，重点在影像生成关系而非工程蓝图",
+    "profiles": {
+      "layout": "L02",
+      "motion": "M11",
+      "editing": "E04",
+      "sound": "S02"
+    },
+    "suitableFor": [
+      "自然",
+      "摄影"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [
+      "R09"
+    ],
+    "preview": "previews/cyanotype.jpg",
+    "implementation": "templates/cyanotype/index.html",
+    "evidence": "evidence/production-20261020-a76-a78-a80-a95-a96-a97-a98.json",
+    "videoSha256": "f806f97779ed3b5ff84c78be8782ed5fa0e2836c9a5138f51dd346ed317ef368",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      232,
+      585,
+      615,
+      615
+    ]
+  },
+  {
+    "id": "A94",
+    "key": "mechanical-cutaway",
+    "name": "机械剖面",
+    "familyKey": "volume",
+    "family": "立体与模型",
+    "visualMechanism": "真实或明确示意的剖切体、分解结构和稳定标注，展示内部因果",
+    "profiles": {
+      "layout": "L14",
+      "motion": "M13",
+      "editing": "E10",
+      "sound": "S08"
+    },
+    "suitableFor": [
+      "工程",
+      "原理"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [],
+    "preview": "previews/mechanical-cutaway.jpg",
+    "implementation": "templates/mechanical-cutaway/index.html",
+    "evidence": "evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json",
+    "videoSha256": "32714b286f66a9ee6da48c1f943f11759f7ccdcd9c656c2510136a9ae9e45138",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      205,
+      580,
+      670,
+      670
+    ]
+  },
+  {
+    "id": "A95",
+    "key": "terminal-ascii",
+    "name": "终端字符",
+    "familyKey": "digital",
+    "family": "数字屏幕与系统",
+    "visualMechanism": "等宽字符组成状态和结构，实际文字逐段输出；不伪装真实系统日志",
+    "profiles": {
+      "layout": "L13",
+      "motion": "M14",
+      "editing": "E04",
+      "sound": "S09"
+    },
+    "suitableFor": [
+      "编程",
+      "机制"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [],
+    "preview": "previews/terminal-ascii.jpg",
+    "implementation": "templates/terminal-ascii/index.html",
+    "evidence": "evidence/production-20261020-a76-a78-a80-a95-a96-a97-a98.json",
+    "videoSha256": "6f240ef26aa6c9cef642f4431cb9795c4113efdff86919c0762c4e3ad2dc19f2",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      225,
+      585,
+      630,
+      630
+    ]
+  },
+  {
+    "id": "A96",
+    "key": "vector-oscilloscope",
+    "name": "矢量示波",
+    "familyKey": "digital",
+    "family": "数字屏幕与系统",
+    "visualMechanism": "连续发光线与轨迹余辉构成图形，波形使用真实音频或明确标为示意",
+    "profiles": {
+      "layout": "L07",
+      "motion": "M14",
+      "editing": "E04",
+      "sound": "S09"
+    },
+    "suitableFor": [
+      "声音",
+      "科技"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [],
+    "preview": "previews/vector-oscilloscope.jpg",
+    "implementation": "templates/vector-oscilloscope/index.html",
+    "evidence": "evidence/production-20261020-a76-a78-a80-a95-a96-a97-a98.json",
+    "videoSha256": "141b28776a93fe7a0ca414336534d123c273bb11e603e553ae3e953873baff2b",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      226,
+      585,
+      628,
+      628
+    ]
+  },
+  {
+    "id": "A97",
+    "key": "led-dot-matrix",
+    "name": "低帧点阵",
+    "familyKey": "digital",
+    "family": "数字屏幕与系统",
+    "visualMechanism": "单色圆点阵列、字模和分段更新，区别于像素游戏的场景与方形贴图",
+    "profiles": {
+      "layout": "L05",
+      "motion": "M14",
+      "editing": "E04",
+      "sound": "S09"
+    },
+    "suitableFor": [
+      "简报",
+      "趣味"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [],
+    "preview": "previews/led-dot-matrix.jpg",
+    "implementation": "templates/led-dot-matrix/index.html",
+    "evidence": "evidence/production-20261020-a76-a78-a80-a95-a96-a97-a98.json",
+    "videoSha256": "e3e56e7df8cc9613374c47c98ad1c1480e53b66d85f41fd54211790299568756",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      224,
+      585,
+      632,
+      632
+    ]
+  },
+  {
+    "id": "A98",
+    "key": "early-desktop",
+    "name": "早期桌面",
+    "familyKey": "digital",
+    "family": "数字屏幕与系统",
+    "visualMechanism": "窗口、位图图标与明确层级组织任务，不复制未经授权的系统品牌界面",
+    "profiles": {
+      "layout": "L13",
+      "motion": "M14",
+      "editing": "E03",
+      "sound": "S09"
+    },
+    "suitableFor": [
+      "技术史",
+      "流程"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [],
+    "preview": "previews/early-desktop.jpg",
+    "implementation": "templates/early-desktop/index.html",
+    "evidence": "evidence/production-20261020-a76-a78-a80-a95-a96-a97-a98.json",
+    "videoSha256": "2a799ab3fd56b48ff2594597411bec24140e1159507a0423a1e2b4d08b078fb5",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      223,
+      590,
+      634,
+      634
+    ]
+  },
+  {
+    "id": "A99",
+    "key": "spatial-pointcloud",
+    "name": "空间点云",
+    "familyKey": "digital",
+    "family": "数字屏幕与系统",
+    "visualMechanism": "稀疏到密集的空间采样、点的前后关系和剖切观察；不把真人点云化",
+    "profiles": {
+      "layout": "L14",
+      "motion": "M13",
+      "editing": "E10",
+      "sound": "S08"
+    },
+    "suitableFor": [
+      "空间",
+      "机制"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [],
+    "preview": "previews/spatial-pointcloud.jpg",
+    "implementation": "templates/spatial-pointcloud/index.html",
+    "evidence": "evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json",
+    "videoSha256": "afb0cd76e05d94950c8bfe217c37dec37651ff732f2a7020325b50ca37619dad",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      210,
+      585,
+      660,
+      660
+    ]
+  }
+]

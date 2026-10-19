@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "playwright": "1.59.1",
+  "hyperframes": "0.8.174",
+  "relativeRuntimeDependency": true,
+  "formalGalleryActualStreams": 50,
+  "productionRendererUnchanged": true,
+  "scope": "正式包中的QA模块以本包锁定的开发依赖完成50条实际视频的UI/Range/跳转检查；首次研究浏览器准备另有文档说明"
+}

@@ -1,0 +1,106 @@
+{
+  "ok": true,
+  "unchanged": 20,
+  "results": [
+    {
+      "key": "minimal",
+      "source": "/Users/maoyu/个人项目/客户/插件/输出/网感口播/已认可画风_20261019/outputs/minimal.mp4",
+      "sha256": "2a5c540145b6f54148623d3caedd0c6719da733850556c69b0ccb7fff337b97b"
+    },
+    {
+      "key": "paper",
+      "source": "/Users/maoyu/个人项目/客户/插件/输出/网感口播/已认可画风_20261019/outputs/paper.mp4",
+      "sha256": "be017099b4145a202aa69b8a12d5a75c1a79ca20c829adfdc05f6903c8e5e75e"
+    },
+    {
+      "key": "geometry",
+      "source": "/Users/maoyu/个人项目/客户/插件/输出/网感口播/已认可画风_20261019/outputs/geometry.mp4",
+      "sha256": "20af3113c0417d22d925e77363098c3e1bba4e7b4d121b040f2c0bbd8d043d40"
+    },
+    {
+      "key": "magazine",
+      "source": "/Users/maoyu/个人项目/客户/插件/输出/网感口播/已认可画风_20261019/outputs/magazine.mp4",
+      "sha256": "cd16c098c77223a4567aca739fed66d43a5bf327cd5b0ce466f64493c292532f"
+    },
+    {
+      "key": "collage",
+      "source": "/Users/maoyu/个人项目/客户/插件/输出/网感口播/已认可画风_20261019/outputs/collage.mp4",
+      "sha256": "271889acf41646bbdc3f5f8d9c742a045646f00b35a5a837c1c11cf2910f8b35"
+    },
+    {
+      "key": "line",
+      "source": "/Users/maoyu/个人项目/客户/插件/输出/网感口播/已认可画风_20261019/outputs/line.mp4",
+      "sha256": "5ad46ecab7c70ad3dc091715e558943666e55d8db0afc7e73b8d187ec5a1adb1"
+    },
+    {
+      "key": "illustration",
+      "source": "/Users/maoyu/个人项目/客户/插件/输出/网感口播/已认可画风_20261019/outputs/illustration.mp4",
+      "sha256": "70823d832a35acefd6364490260084068d897dafe1da764ea5694fb8e56fd74a"
+    },
+    {
+      "key": "precision",
+      "source": "/Users/maoyu/个人项目/客户/插件/输出/网感口播/已认可画风_20261019/outputs/precision.mp4",
+      "sha256": "68c1ed827c66ac4d26f63af2295f67a01cbfafd4706e56f7dce8073ac2dce777"
+    },
+    {
+      "key": "blueprint",
+      "source": "/Users/maoyu/个人项目/客户/插件/输出/网感口播/已认可画风_20261019/outputs/blueprint.mp4",
+      "sha256": "a45e466a72eb2ea7474f8e0a953b358b9ed3fcf60757d1ac73fbba20e7267cff"
+    },
+    {
+      "key": "halftone",
+      "source": "/Users/maoyu/个人项目/客户/插件/输出/网感口播/已认可画风_20261019/outputs/halftone.mp4",
+      "sha256": "4ef3f8a42fd2f176be4e0938211bb69c1b0190154df4673fab8bfb1e29c93fd2"
+    },
+    {
+      "key": "comic",
+      "source": "/Users/maoyu/个人项目/客户/插件/输出/网感口播/已认可画风_20261019/outputs/comic.mp4",
+      "sha256": "70c51e24ddf58758bb2ef66bd84eeb0189c5952c1af7f9b7ab42eb426c943228"
+    },
+    {
+      "key": "film",
+      "source": "/Users/maoyu/个人项目/客户/插件/输出/网感口播/已认可画风_20261019/outputs/film.mp4",
+      "sha256": "6ca789661cc7edf3da29147910a7af2c73bdb40074d5183dcfccba626b39aa00"
+    },
+    {
+      "key": "ink",
+      "source": "/Users/maoyu/个人项目/客户/插件/输出/网感口播/已认可画风_20261019/outputs/ink.mp4",
+      "sha256": "de2692da68238a94aca7c17b50a2d83b1d30838217f259df36db412627a51b2a"
+    },
+    {
+      "key": "clay",
+      "source": "/Users/maoyu/个人项目/客户/插件/输出/网感口播/已认可画风_20261019/outputs/clay.mp4",
+      "sha256": "1c8e2bede431e00b4d8d75f397950ab5cb450ca60a11055aa1cf4788167fb25b"
+    },
+    {
+      "key": "pixel",
+      "source": "/Users/maoyu/个人项目/客户/插件/输出/网感口播/已认可画风_20261019/outputs/pixel.mp4",
+      "sha256": "30e1238cac95e83a8b533da7793099dcc7c3f65f2e04c4acede07a26b0393266"
+    },
+    {
+      "key": "chalk",
+      "source": "/Users/maoyu/个人项目/客户/插件/输出/网感口播/二十画风对照_20261019/outputs/chalk.mp4",
+      "sha256": "da364dfc25418adcf76f16140957bc583dfd547bce952df0ab8dbc85ef9046e7"
+    },
+    {
+      "key": "paper-stage",
+      "source": "/Users/maoyu/个人项目/客户/插件/输出/网感口播/二十画风对照_20261019/outputs/paper-stage.mp4",
+      "sha256": "72cefa991b3a85a3de3257f1b4ae8d16ef7007fca5de23e89168ab137a27a119"
+    },
+    {
+      "key": "type-poster",
+      "source": "/Users/maoyu/个人项目/客户/插件/输出/网感口播/二十画风对照_20261019/outputs/type-poster.mp4",
+      "sha256": "0a7f4f853ad6fb903543815417dea417a7881d74f78a6b24e6d7704003652e17"
+    },
+    {
+      "key": "cel",
+      "source": "/Users/maoyu/个人项目/客户/插件/输出/网感口播/二十画风对照_20261019/outputs/cel.mp4",
+      "sha256": "2235ffbad61f3021ca4443c439a693920431e6090cbe59c0376ddc72b4a4df0d"
+    },
+    {
+      "key": "sci-fi-wireframe",
+      "source": "/Users/maoyu/个人项目/客户/插件/输出/网感口播/二十画风对照_20261019/outputs/sci-fi-wireframe.mp4",
+      "sha256": "cc88b8bc5d968b5542df9598ab6fbfa4523bfc1643fd7e296741abe1c1979670"
+    }
+  ]
+}

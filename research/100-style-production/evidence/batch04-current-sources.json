@@ -1,0 +1,186 @@
+{
+  "ok": true,
+  "results": [
+    {
+      "key": "newspaper",
+      "inputFiles": 16,
+      "sha256": "ca41b3e27cdfaaea34d006ce859319d38d0534b77b78eb5ce387db976b2e930d",
+      "allCurrent": true
+    },
+    {
+      "key": "archive-dossier",
+      "inputFiles": 16,
+      "sha256": "d11b2315e476748647aeb376fbd92041618625950d1953d234c39980563cff92",
+      "allCurrent": true
+    },
+    {
+      "key": "photo-book",
+      "inputFiles": 19,
+      "sha256": "f293e37eb844751128620ede06bd0097cdea985ca41c3dddcfc8d1da19183128",
+      "allCurrent": true
+    },
+    {
+      "key": "dictionary-entry",
+      "inputFiles": 16,
+      "sha256": "b29f269547dfd0de8a75e4c85fbc9f836aac5830c7776239a6c103c20ae1c293",
+      "allCurrent": true
+    },
+    {
+      "key": "lab-notebook",
+      "inputFiles": 16,
+      "sha256": "558f5019b646b380d724f067f4d8eeaafaee36fd8391f97d0efd0d83197c161a",
+      "allCurrent": true
+    },
+    {
+      "key": "timeline-almanac",
+      "inputFiles": 16,
+      "sha256": "37fac83732fce33599787a71bc93c994837e0d41bb55d3d27e8eba334ae35ea7",
+      "allCurrent": true
+    },
+    {
+      "key": "swiss-grid",
+      "inputFiles": 16,
+      "sha256": "b11008c08836130adfd205be4f761982c15007b6448a8b76bccb4ee019d939d3",
+      "allCurrent": true
+    },
+    {
+      "key": "constructivist",
+      "inputFiles": 16,
+      "sha256": "bb9c56056e91e696982fbf0c12e7f9d7e6384bcbef05cccab5485f635068fc3e",
+      "allCurrent": true
+    },
+    {
+      "key": "art-deco",
+      "inputFiles": 16,
+      "sha256": "413a9d2b53d852711de85d2d16b44d698ea5c4f0bb936a54673642f9945ce175",
+      "allCurrent": true
+    },
+    {
+      "key": "art-nouveau",
+      "inputFiles": 16,
+      "sha256": "e9be9998ac65fac1111ee998fa74cbd03cd2378852520da04b828288ca4fcfd5",
+      "allCurrent": true
+    },
+    {
+      "key": "memphis",
+      "inputFiles": 16,
+      "sha256": "10a8c3b23ee46027849d64afe5a60eb3d82c291e869807be9e5a37a3f6c17580",
+      "allCurrent": true
+    },
+    {
+      "key": "brutalist-type",
+      "inputFiles": 16,
+      "sha256": "b85069d91e859fca7eb6d7a125abc84f25b83d9d66b3aabfbdf230b1f49dc352",
+      "allCurrent": true
+    },
+    {
+      "key": "optical-graphic",
+      "inputFiles": 16,
+      "sha256": "edd142359d9c6b0c84d490bf19e19bd11e89756c0624cc38d7c9ee0e3d7d7427",
+      "allCurrent": true
+    },
+    {
+      "key": "negative-space",
+      "inputFiles": 16,
+      "sha256": "b931a3d112ad19e967aa68045f1b71944d0db37bb2d0a37a02764e4e218f8ade",
+      "allCurrent": true
+    },
+    {
+      "key": "origami",
+      "inputFiles": 15,
+      "sha256": "db3b013140b9f9ce3bf50ad42a763060656a06233f6922986b160a352e3671ac",
+      "allCurrent": true
+    },
+    {
+      "key": "pop-up-book",
+      "inputFiles": 31,
+      "sha256": "3e1bd60059c25d13218c98df5dbf9328b8d79a78951d9bbcd5fe2eb4dc46c768",
+      "allCurrent": true
+    },
+    {
+      "key": "corrugated-model",
+      "inputFiles": 31,
+      "sha256": "43a4883034ec2c0395e46040fca70e0e495712ce41db3e7f8dbc47ddbc9c549c",
+      "allCurrent": true
+    },
+    {
+      "key": "felt-applique",
+      "inputFiles": 19,
+      "sha256": "8ef9964c843efb701404b891e980d224144a262770e3cb64f1cd6eb64f4ff572",
+      "allCurrent": true
+    },
+    {
+      "key": "embroidery",
+      "inputFiles": 15,
+      "sha256": "9b60886d0ab6b0e71fa5e3cfa4d85afca1e88f225f25b109391a044c860f741a",
+      "allCurrent": true
+    },
+    {
+      "key": "gongbi",
+      "inputFiles": 19,
+      "sha256": "2bda19a3eeb55f61318a44e4f1a738bd88c22f14cc446507bb1e74fc0f1cdc60",
+      "allCurrent": true
+    },
+    {
+      "key": "woodcut",
+      "inputFiles": 16,
+      "sha256": "1922f51c7f1c49c79351937dcb7284f47c1f339fa0f669dc606c2489cb169402",
+      "allCurrent": true
+    },
+    {
+      "key": "etching",
+      "inputFiles": 15,
+      "sha256": "125b85bae86c2db38582e56021ac0bb9bdbb9fa7f83dfc99ef4d5da9ef14c852",
+      "allCurrent": true
+    },
+    {
+      "key": "risograph",
+      "inputFiles": 16,
+      "sha256": "18819130f47aa724167a8a629eb85a8704e646a1b00d49c7fbe27c85014948d0",
+      "allCurrent": true
+    },
+    {
+      "key": "cyanotype",
+      "inputFiles": 16,
+      "sha256": "f806f97779ed3b5ff84c78be8782ed5fa0e2836c9a5138f51dd346ed317ef368",
+      "allCurrent": true
+    },
+    {
+      "key": "mechanical-cutaway",
+      "inputFiles": 30,
+      "sha256": "32714b286f66a9ee6da48c1f943f11759f7ccdcd9c656c2510136a9ae9e45138",
+      "allCurrent": true
+    },
+    {
+      "key": "terminal-ascii",
+      "inputFiles": 17,
+      "sha256": "6f240ef26aa6c9cef642f4431cb9795c4113efdff86919c0762c4e3ad2dc19f2",
+      "allCurrent": true
+    },
+    {
+      "key": "vector-oscilloscope",
+      "inputFiles": 16,
+      "sha256": "141b28776a93fe7a0ca414336534d123c273bb11e603e553ae3e953873baff2b",
+      "allCurrent": true
+    },
+    {
+      "key": "led-dot-matrix",
+      "inputFiles": 16,
+      "sha256": "e3e56e7df8cc9613374c47c98ad1c1480e53b66d85f41fd54211790299568756",
+      "allCurrent": true
+    },
+    {
+      "key": "early-desktop",
+      "inputFiles": 16,
+      "sha256": "2a799ab3fd56b48ff2594597411bec24140e1159507a0423a1e2b4d08b078fb5",
+      "allCurrent": true
+    },
+    {
+      "key": "spatial-pointcloud",
+      "inputFiles": 30,
+      "sha256": "afb0cd76e05d94950c8bfe217c37dec37651ff732f2a7020325b50ca37619dad",
+      "allCurrent": true
+    }
+  ],
+  "scope": "当前项目所有已编码30种的构建输入和实际MP4精确哈希匹配，不沿用旧源通过记录"
+}

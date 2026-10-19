@@ -31,3 +31,5 @@ render使用固定CLI，输出outputs/final.mp4；verify读取实际编码规格
 已声明data-person-travel的模板，由init按目录portraitBase和personTravelSeconds写入真实初始几何及移动时长；构建与附属说明显现读取同一参数。没有声明这项参数的旧模板仍需按本片实现处理，不能把任意字段写入方案便宣称自动生效。调整时长后仍检查路径、阅读窗口、字幕与原声保护。
 
 历史模板保留默认复现。若要改变未声明的人物速度，复现器明确拒绝，交给动效skill在原有单模块保护范围内实现custom构建；不对整段代码的相同小数做全局替换。已声明参数的模板继续支持方案驱动的独立修改。
+
+研究浏览QA另用runtime开发依赖Playwright1.59.1（固定版本）；正式成片渲染仍由HyperFrames执行。研究浏览器首次准备可运行`node runtime/node_modules/playwright/cli.js install chromium`，不再读取花叔或其他技能的安装目录。

@@ -1,0 +1,10 @@
+{
+  "provider": "built-in image_gen; imagegen skill",
+  "sourcePath": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-e63f9969-a63f-420f-8694-0667f330c342.png",
+  "projectPath": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/shared/rasters/photo-atlas.png",
+  "sha256": "24061235f0207f1ab2fb8f76fea67daee81219fc4278c376520eed37a1371c4d",
+  "alphaPreserved": true,
+  "prompt": "Premium photographic still-life sprite atlas, four isolated tangible objects in 2x2 grid: cognac leather tote, blank brass discs, sage metal shield with check, graphite iron weight. Consistent soft daylight, real material detail and soft shadows, high-resolution transparent RGBA. No human, currency text, numbers, brand, extra props, divider or quadrant overlap. Clearly disclosed AI concept still-life in final video.",
+  "use": "摄影画册的AI静物概念图；不是现场实拍或事实证据",
+  "geometryMethod": "Read original alpha bounds by semantic region; no pixel editing. Explicit SVG region clips prevent neighbouring subject fragments."
+}

@@ -22,11 +22,19 @@
     "constructivist",
     "art-deco",
     "art-nouveau",
-    "dictionary-entry"
+    "dictionary-entry",
+    "photo-book",
+    "timeline-almanac",
+    "memphis",
+    "brutalist-type",
+    "optical-graphic",
+    "negative-space",
+    "pop-up-book",
+    "corrugated-model"
   ],
-  "needsRevision": {},
-  "sourceVersion": "第三批最终修订，旧7参数合同与新8编辑/平面；精确成片SHA绑定",
-  "reviewedAt": "2026-10-20T02:15:42.992935+08:00",
+  "needsRevision": [],
+  "sourceVersion": "batch04-final-1.7.0",
+  "reviewedAt": "2026-10-20T03:02:11.585243+08:00",
   "videoSha256": {
     "woodcut": "1922f51c7f1c49c79351937dcb7284f47c1f339fa0f669dc606c2489cb169402",
     "risograph": "18819130f47aa724167a8a629eb85a8704e646a1b00d49c7fbe27c85014948d0",
@@ -49,6 +57,14 @@
     "art-deco": "413a9d2b53d852711de85d2d16b44d698ea5c4f0bb936a54673642f9945ce175",
     "art-nouveau": "e9be9998ac65fac1111ee998fa74cbd03cd2378852520da04b828288ca4fcfd5",
     "mechanical-cutaway": "32714b286f66a9ee6da48c1f943f11759f7ccdcd9c656c2510136a9ae9e45138",
-    "dictionary-entry": "b29f269547dfd0de8a75e4c85fbc9f836aac5830c7776239a6c103c20ae1c293"
+    "dictionary-entry": "b29f269547dfd0de8a75e4c85fbc9f836aac5830c7776239a6c103c20ae1c293",
+    "photo-book": "f293e37eb844751128620ede06bd0097cdea985ca41c3dddcfc8d1da19183128",
+    "timeline-almanac": "37fac83732fce33599787a71bc93c994837e0d41bb55d3d27e8eba334ae35ea7",
+    "memphis": "10a8c3b23ee46027849d64afe5a60eb3d82c291e869807be9e5a37a3f6c17580",
+    "brutalist-type": "b85069d91e859fca7eb6d7a125abc84f25b83d9d66b3aabfbdf230b1f49dc352",
+    "optical-graphic": "edd142359d9c6b0c84d490bf19e19bd11e89756c0624cc38d7c9ee0e3d7d7427",
+    "negative-space": "b931a3d112ad19e967aa68045f1b71944d0db37bb2d0a37a02764e4e218f8ade",
+    "pop-up-book": "3e1bd60059c25d13218c98df5dbf9328b8d79a78951d9bbcd5fe2eb4dc46c768",
+    "corrugated-model": "43a4883034ec2c0395e46040fca70e0e495712ce41db3e7f8dbc47ddbc9c549c"
   }
 }
