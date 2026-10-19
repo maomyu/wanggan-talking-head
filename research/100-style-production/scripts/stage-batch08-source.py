@@ -1,0 +1,57 @@
+from pathlib import Path
+import json,shutil
+
+R=Path(__file__).resolve().parents[1];APP=Path.home()/'plugins/wanggan-talking-head'
+A=R.parent/'百种画风图谱研究_20261019';D=R.parents[1]/'输出/网感口播/正式画风总览';T=APP/'research/100-style-production'
+read=lambda p:json.loads(p.read_text())
+keys=['lacquer-gold','watercolor','impasto','enamel-badge','foil-deboss','mosaic','stained-glass','sandstone-relief']
+C=read(APP/'style-library/catalog.json');version=C['version']
+assert version=='1.11.0'and C['implementedCount']==82 and C['productionVerifiedCount']==62 and C['plannedCount']==18
+for name in ['batch08-author-review.json','batch08-clearance-encoded.json','batch08-native-final.json','batch08-recipe-alignment.json']:
+ assert read(R/'qa'/name)['ok'],name
+current=read(R/'qa/batch08-current-sources.json');assert current['ok']and len(current['results'])==62
+probes=read(R/f'qa/formal-probes-{version}.json');assert probes['ok']and {s['key']for s in probes['results']}==set(keys)
+native=read(R/f'qa/formal-native-{version}.json');assert native['ok']and {s['key']for s in native['records']}==set(keys)
+assert read(R/f'qa/formal-full-reproduction-{version}.json')['ok']
+for tag in ['mosaic-1.11.0','enamel-1.11.0']:assert read(R/f'qa/motion-revision-{tag}.json')['ok']
+gallery=read(D/'qa/formal-gallery-qa.json');assert gallery['ok']and gallery['implemented']==82 and len(gallery['playback'])==82
+atlas=read(A/'qa/atlas-qa.json');assert atlas['ok']and atlas['implemented']==82 and len(atlas['playback'])==68
+production=read(R/'qa/production-review.json');assert production['ok']and len(production['playback'])==62
+for p in (R/'scripts').iterdir():
+ if p.suffix in ['.py','.mjs']:shutil.copy2(p,T/'scripts'/p.name)
+for name in ['catalog.json','edit-plan.json']:shutil.copy2(R/name,T/name)
+for name in ['app.js','style.css','review.html','qa-atlas.mjs']:shutil.copy2(A/name,T/'gallery-source'/name)
+for p in (R/'qa').glob('batch08-*'):
+ if p.suffix in ['.json','.md']:shutil.copy2(p,T/'evidence'/p.name)
+for p in (R/'qa').glob('*1.11.0.json'):shutil.copy2(p,T/'evidence'/p.name)
+for name in ['production-review.json','design-qa.json','next-volume-technical-research.json']:shutil.copy2(R/'qa'/name,T/'evidence'/name)
+shutil.copy2(D/'qa/formal-gallery-qa.json',T/'evidence/formal-gallery-1.11.0.json')
+shutil.copy2(A/'qa/atlas-qa.json',T/'evidence/atlas-1.11.0.json')
+for name in ['batch08-decisions.md','next-volume-plan.md']:shutil.copy2(R/'qa'/name,T/'batches'/name)
+for p in (R/'qa').glob('batch09-*.json'):shutil.copy2(p,T/'evidence'/p.name)
+for folder in ['smoke-batch08','smoke-batch08-mosaic-v2','smoke-batch08-mosaic-v3']:
+ for case in (R/folder).iterdir():
+  p=case/'qa/smoke.json'
+  if p.is_file():shutil.copy2(p,T/'evidence'/f'{case.name}-{folder}.json')
+
+(T/'README.md').write_text('''# 100种画风生产进度
+
+当前正式源1.11.0，82种实现：20种用户认可、62种制作验证；另18种尚未完成。100条实际视频与正式整合目标继续active，原始材料和配方不计完成。
+
+第八批新增A73漆绘描金、A74水彩洇染、A75厚涂油彩、A79珐琅徽章、A81烫金压凹、A82马赛克拼片、A83彩绘玻璃、A84砂岩浮雕。全部1080×1920/30fps/1100帧，人物原色、全程正圆、1600位置字幕与单一原声。8幅原始AI材料保留完整提示词、源像素、几何和SHA，并在画面声明，不冒充工艺操作录像或古物。
+
+实际样帧发现漆绘细线穿词，删线；删油彩/珐琅没有连接作用的挂点；纸箔三项校样改纵排，保证与砂岩等并排方式有区别。马赛克真实短测先发现区域显现过快，18帧补测又像大块图片缺失，最终撤掉粗块空洞，改为完整图版8px轻落位、随后读标签；最终v3真实短片已看并重新完整编码，各旧版保留且不借旧通过。水彩/油彩推荐名称调整后，归一化HTML、图形代码、时序与WAV哈希未变；没有为元数据变更重复短测。
+
+作者实际看过8个当前4秒短测拼版、完整成片12帧拼版及记录中的代表原尺寸。程序另查183密集帧、18剪点邻帧、首末/左右人色与原声、正圆/字幕、反向寻址和风险图字的实际空行。原生最窄珐琅25px，编码数据见对应报告；不以DOM行盒代替墨迹。八版完整解码人声相同，全部62研究case的源输入/verified状态/MP4证据SHA匹配。没有逐帧人工听看或独立盲评声明，不把制作验证冒充用户逐条视觉认可。
+
+8模板经正式入口独立init/build，三个语义状态的解释区PNG、标题和字幕精确匹配研究源，无脚本或资源错误。纸箔另做完整独立重建，比较逐秒像素与全长原声；马赛克/珐琅motion-only .55→1秒实际改变途中几何，保持停稳图、声音与字幕时序。四个完整专家正文和旧74稳定模板保留。
+
+独立总览含82个实体相对MP4/封面/证据，逐条SHA匹配，全部播放/Range206/拖动/筛选/配方/对比/390手机检查通过；研究页62流，图谱82张实际图与68流。18候选没有虚假视频入口。
+
+下一批只有5类原始AI材料准备（金属、木偶、积木、陶瓷、充气），没有模板或视频，不计完成。木偶身体完整但控制线出上缘，应作为出画舞台线，不虚称完整操纵装置；金属为薄板成形器物而非平牌，积木重物是配重环。其他体积/光学方案及8个真实摄影方向尚需落实。
+
+shared/存场景与原始材料，scripts/为研究工具，batches/记判断，evidence/绑定实际验证；正式模板在../../style-library/。馆方参考图只作本机研究，不入生产或Git。大批MP4、中间帧与运行环境不进Git；正式fixture、原始生成资产和可重建源码在私有库。新内容仍由四完整模块重新设计，固定财经案例不等于自动适配任意素材。
+
+HF0.8.174、Playwright1.59.1、当前8个本地字体固定。每批按当前实际门槛stage、seal、验证、私有推送并核对远端HEAD，再封包安装。缓存复用必须源输入匹配且project.status=verified，check/build不能认证旧片。
+''')
+print('Batch08 verified source and evidence staged; 18 candidates remain, no bulk MP4 or museum images included')

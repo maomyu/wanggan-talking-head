@@ -1,0 +1,3 @@
+import{makeCraftPaint}from'./craft-paint-stage.js';import geometry from'./atlas-geometry.js';
+export const LOOK={"key": "watercolor", "name": "水彩洇染", "palette": {"bg": "#f5f0e4", "fg": "#354c48", "muted": "#62706a", "accent": "#9c5b3e", "caption": "#fff9ed", "portrait": "#f5f0e4"}, "base": {"x": 225, "y": 580, "w": 630}, "css": "#title{font-family:Serif;font-weight:700;font-size:100px}#subtitle{font-size:46px}#captions{border-left:4px solid #9c5b3e;border-top:0}#person-mask{outline:7px solid #fff9ed}"};
+export async function buildArt(ctx){return makeCraftPaint(ctx,{mode:"watercolor",geometry})}

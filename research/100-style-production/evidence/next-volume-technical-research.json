@@ -1,0 +1,33 @@
+{
+  "status": "research-only",
+  "sourceFiles": [
+    {
+      "file": "three.core.js",
+      "sha256": "03fb6e9fa08628385a9096948593251ae473239c7039496d7c280cba73d84631",
+      "revision": 181
+    },
+    {
+      "file": "three.module.js",
+      "sha256": "1bb0b770bac5da2b59b21aa5fff4c547eeb864d4e408e4c36fbc6ced1dce0e9e",
+      "revision": 181
+    }
+  ],
+  "primarySources": [
+    "https://github.com/mrdoob/three.js/blob/r181/src/materials/MeshPhysicalMaterial.js",
+    "https://github.com/mrdoob/three.js/blob/r181/src/extras/PMREMGenerator.js"
+  ],
+  "confirmedFromPinnedLocalSource": [
+    "MeshPhysicalMaterial的thickness=0为薄壁，非零表示体积边界，默认ior=1.5",
+    "PMREMGenerator.fromScene支持本地代码构造环境Scene，不必新增联网HDR资源",
+    "官方源码说明Physical材质部分效果有额外成本，应只启用需要的参数"
+  ],
+  "proposedNotImplemented": [
+    "透明玻璃需实际背景折射/厚度的代表帧，文字与人物在独立层",
+    "液态铬需连续曲面/受控环境反射，不能只给机械模型换金属色",
+    "白模用正交白体块和接触阴影，区别于彩色等距城市",
+    "凝胶需几何缓慢回流，仍仅为确定性视觉意象",
+    "全息用透明切片/投影平面和体积光层次，区别于点云"
+  ],
+  "implemented": false,
+  "scope": "仅记录真实读过的固定版本本机API与后续设计意图；没有新case、3D输出或物理实验/流体模拟声明"
+}

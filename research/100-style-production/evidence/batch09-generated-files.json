@@ -1,0 +1,90 @@
+[
+  {
+    "key": "chased-metal",
+    "generatedSource": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-6b2a1348-4380-4b1e-864a-0b8d8bb43163.png",
+    "file": "shared/rasters/chased-metal-atlas.png",
+    "sha256": "759ea3851c66434ca5f5678efb4af8205db2ac29d0cc2cb238dc68aedb362b3c",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "prompt": "Use case: stylized-concept. Asset: ORIGINAL modern metal craft atlas for an explanatory video, square 2 by 2. Four COMPLETE separate thin patinated warm bronze/silver metal plaques on TRUE transparent background. Fixed order top-left a simple shopping tote bag, top-right two overlapping generic blank coin discs, bottom-left a shield with one simple checkmark, bottom-right a compact lifting weight with a round hole. Motifs formed from chased and shallow hammered metal: recessed fine contour channels, low raised planes, clusters of tiny irregular hammer dimples, directional tool traces, burnished high points and darker depressions. One coherent METAL material throughout each plaque, no colorful enamel infill, no printed pigment, no paper, no stone. Consistent raking studio light from upper left reveals metal plane changes without a giant blown reflection obscuring the motifs. Nearly front-facing slight three-quarter view enough to show thin metal edges. These are original contemporary conceptual plaques, not authentic antiques, no historical inscriptions or maker identity. Keep forms simple and readable at small video size. Wide transparent outer margin and an empty transparent central cross at least 12 percent of canvas width, no objects touching or crossing gaps, no cropped edges. No text, letters, numerals, currency signs, stamps, brands, watermarks, people, hands or tools.",
+    "generatedWith": "built-in image_gen",
+    "pixelsUnmodified": true,
+    "actualImageViewed": true,
+    "status": "candidate-material-only-not-a-video",
+    "scope": "Original illustrative concepts, not real products, artifacts, manufacturing footage or physically validated builds",
+    "visualBoundary": "Generated metal objects have formed thin walls/edges and chased/hammered surfaces, not four flat plaques; describe actual surface geometry rather than the initial request"
+  },
+  {
+    "key": "miniature-puppet",
+    "generatedSource": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-b47dcf81-e019-443d-b363-ab009fe74d0f.png",
+    "file": "shared/rasters/miniature-puppet-atlas.png",
+    "sha256": "16780b62dc861b881b961c253fb1c171b8c00875decaafa92520af6380bf6afb",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "prompt": "Use case: stylized-concept. Create an ORIGINAL square 2 by 2 atlas of FOUR complete miniature wooden marionette poses with props, isolated on TRUE transparent background. The SAME friendly original puppet appears once in each quadrant, consistent plain rounded beechwood head with tiny carved bead eyes and a small mouth, visible hinged spherical shoulder/elbow/knee joints, small wooden hands and boots, simple deep forest-green cloth tunic and warm linen trousers. No resemblance to a real person or existing fictional character. Fine short control strings above each hand/head ending WITHIN each quadrant; no cross-quadrant strings. Four fixed narrative poses: top-left puppet holds a small russet shopping tote at waist level; top-right puppet studies two large plain ochre coin discs in its hands; bottom-left puppet braces a forest-green shield with a clear checkmark in front; bottom-right puppet leans and bends its knees while gripping a compact heavy gray weight with one round lifting hole, visible effort in the body pose. All puppets shown HEAD TO TOE with no cropped strings, props, feet or fingers; joints and prop contact physically readable. Front three-quarter tabletop miniature lighting from upper left, original handmade theatrical model with real wood grain and cloth weave, not a human photograph, not a cartoon vector or plastic toy. Four independent complete poses within quadrants, generous transparent outer margins and at least 12 percent empty transparent central cross. Props large enough to recognize, no written text, numerals, symbols of currency, logos, signatures, stage scenery, hands of puppeteer, watermarks or extra figures. Conceptual miniature poses, not actual recorded puppetry footage.",
+    "generatedWith": "built-in image_gen",
+    "pixelsUnmodified": true,
+    "actualImageViewed": true,
+    "status": "candidate-material-only-not-a-video",
+    "scope": "Original illustrative concepts, not real products, artifacts, manufacturing footage or physically validated builds",
+    "visualBoundary": "Four full puppet bodies and props visible, upper control strings intentionally exit source image; future stage should treat strings as extending offstage, never claim complete control rig or real puppetry footage"
+  },
+  {
+    "key": "building-blocks",
+    "generatedSource": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-b1850675-016d-4110-9894-7e889d5292fa.png",
+    "file": "shared/rasters/building-blocks-atlas.png",
+    "sha256": "2422b0424faaf224be4d877541ad62dd788ffe862f863d9e89d4322398ca970f",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "prompt": "Use case: stylized-concept. An original square 2 by 2 atlas of FOUR physical hard modular building-block sculptures isolated on TRUE transparent background. Fixed subjects: top-left a simple shopping tote bag, top-right two overlapping generic blank coin discs, bottom-left shield with one clear checkmark, bottom-right compact lifting weight with round hole. Build each recognizable silhouette from coherent interlocking small rectangular and curved plastic blocks: visibly separate pieces, seams, a few round connector pegs and sockets, believable connected construction, rigid hard edges, slight molded plastic sheen. Primary palette warm red, cobalt, ivory and yellow with forest green shield; no brand color formula or trademark toy character. Three-quarter near-front view with consistent softbox light from upper left and small contact shading, enough depth to see actual blocks rather than flat voxel art or pixels. Handles and circular holes are structurally connected, no loose floating bricks. Do not fuse the model into one smooth clay or inflated form. All four sculptures complete and independently centered in quadrants, wide transparent exterior margin and an EMPTY transparent central cross at least 12 percent canvas width. No cropped pegs or edges, no text, brand marks, letters, currency denominations, numerals, watermarks, people, hands, tools or background scene. Contemporary original conceptual construction, not a claim of a physically buildable product or an official toy set.",
+    "generatedWith": "built-in image_gen",
+    "pixelsUnmodified": true,
+    "actualImageViewed": true,
+    "status": "candidate-material-only-not-a-video",
+    "scope": "Original illustrative concepts, not real products, artifacts, manufacturing footage or physically validated builds",
+    "visualBoundary": "Weight appears as a ring-shaped block weight, not a kettlebell; no official toy-brand or physically buildable-kit claim"
+  },
+  {
+    "key": "ceramic-objects",
+    "generatedSource": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-719a8eb7-096e-4722-9eb9-5ed3f46514c9.png",
+    "file": "shared/rasters/ceramic-objects-atlas.png",
+    "sha256": "3bba1fd248cb9899b13094d1035efe6ccf4bdc11f8e7e65bedd4bc0494dc242f",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "prompt": "Use case: stylized-concept. Create an ORIGINAL square 2 by 2 atlas of FOUR independent small solid stoneware ceramic sculptures isolated on TRUE transparent background. Fixed order: top-left a stylized sculptural shopping tote bag with thick hard ceramic handle and hollow mouth; top-right two overlapping thick blank ceramic coin-like discs; bottom-left an upright sculptural shield with one incised simple checkmark and a small integral foot; bottom-right a compact heavy-looking ceramic lifting weight with a circular opening in its thick handle. These are symbolic clay objects, not functional bags or real currency, no text or denomination. HARD kiln-fired body, slightly irregular hand-shaped silhouette, restrained glaze pooling, subtle firing color variation and pinprick speckles; clear thick rims/feet and thin controlled glossy highlights prove glazed ceramic rather than soft clay, chalk, rubber or plastic. Palette warm ivory, slate blue, ochre and deep olive, selective natural clay edge exposure. Front three-quarter product-studio camera and consistent upper-left soft light, small contact shading included within generous margins. All complete objects fit safely inside their quadrants, with an empty transparent central cross at least 12 percent canvas width and generous transparent outer margin. No plates bearing painted illustrations, no logos, written text, numbers, stamps, signatures, hands, people, tools, watermarks or exterior scenery. Original imaginary ceramic pieces, not actual retail products or known artists' work.",
+    "generatedWith": "built-in image_gen",
+    "pixelsUnmodified": true,
+    "actualImageViewed": true,
+    "status": "candidate-material-only-not-a-video",
+    "scope": "Original illustrative concepts, not real products, artifacts, manufacturing footage or physically validated builds"
+  },
+  {
+    "key": "inflatable-sculpture",
+    "generatedSource": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-58e6dc81-f3c9-4e9d-a431-8a2a2a12d4e8.png",
+    "file": "shared/rasters/inflatable-sculpture-atlas.png",
+    "sha256": "b764248b3f7f2104d8f40c8859f77877cd2e12c35e0b4f46b122a3ceb0f0dc9a",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "prompt": "Use case: stylized-concept. ORIGINAL square 2 by 2 atlas of FOUR separate large-looking inflatable soft sculptures isolated on TRUE transparent background. Fixed order top-left shopping tote bag silhouette with closed inflated body and chunky loop handles; top-right two overlapping blank inflated coin-disc cushions; bottom-left shield silhouette with one clear thick checkmark; bottom-right compact weight silhouette with a round lifting-hole loop. Every shape is made from pressurized flexible welded coated fabric/PVC: bulging broad lobes, visibly pinched welded perimeter seams, a few gentle tension wrinkles near handles/corners, a small unobtrusive air valve on each sculpture. Rounded air pressure surfaces with wide soft highlights and slight fabric grain, restrained coral-orange, cream, muted blue and pale yellow palette. Forms feel hollow and full of air, not solid clay, ceramic, polished metal, gelatin or ordinary flat icons. No claim the weight has real mass; all are playful original symbolic soft sculptures. Front three-quarter studio camera and consistent upper-left diffuse light, no extreme fisheye, no floating unrelated balloon strings. Four complete independent sculptures, wide empty transparent central cross at least 12 percent of canvas width, generous transparent outer margin, no clipped valves or handles, no objects touching across quadrants. No text, numerals, currency marks, brand logos, signatures, people, hands, equipment, scenery or watermarks.",
+    "generatedWith": "built-in image_gen",
+    "pixelsUnmodified": true,
+    "actualImageViewed": true,
+    "status": "candidate-material-only-not-a-video",
+    "scope": "Original illustrative concepts, not real products, artifacts, manufacturing footage or physically validated builds"
+  }
+]

@@ -1,0 +1,3 @@
+import{makeCraftPaint}from'./craft-paint-stage.js';import geometry from'./atlas-geometry.js';
+export const LOOK={"key": "stained-glass", "name": "彩绘玻璃", "palette": {"bg": "#18252c", "fg": "#f1e7ce", "muted": "#cec3a6", "accent": "#ddae68", "caption": "#23373d", "portrait": "#18252c"}, "base": {"x": 225, "y": 580, "w": 630}, "css": "#title{font-family:Serif;font-weight:700;font-size:100px}#subtitle{font-size:46px}#captions{border-top:5px solid #10191f;border-bottom:5px solid #10191f}#person-mask{outline:7px solid #10191f;box-shadow:0 0 0 9px #9d7b43}#heading{border-bottom:2px solid #79603d;padding-bottom:10px}"};
+export async function buildArt(ctx){return makeCraftPaint(ctx,{mode:"stained-glass",geometry})}

@@ -1,0 +1,18 @@
+{
+  "key": "miniature-puppet",
+  "generatedSource": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-b47dcf81-e019-443d-b363-ab009fe74d0f.png",
+  "file": "shared/rasters/miniature-puppet-atlas.png",
+  "sha256": "16780b62dc861b881b961c253fb1c171b8c00875decaafa92520af6380bf6afb",
+  "size": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "prompt": "Use case: stylized-concept. Create an ORIGINAL square 2 by 2 atlas of FOUR complete miniature wooden marionette poses with props, isolated on TRUE transparent background. The SAME friendly original puppet appears once in each quadrant, consistent plain rounded beechwood head with tiny carved bead eyes and a small mouth, visible hinged spherical shoulder/elbow/knee joints, small wooden hands and boots, simple deep forest-green cloth tunic and warm linen trousers. No resemblance to a real person or existing fictional character. Fine short control strings above each hand/head ending WITHIN each quadrant; no cross-quadrant strings. Four fixed narrative poses: top-left puppet holds a small russet shopping tote at waist level; top-right puppet studies two large plain ochre coin discs in its hands; bottom-left puppet braces a forest-green shield with a clear checkmark in front; bottom-right puppet leans and bends its knees while gripping a compact heavy gray weight with one round lifting hole, visible effort in the body pose. All puppets shown HEAD TO TOE with no cropped strings, props, feet or fingers; joints and prop contact physically readable. Front three-quarter tabletop miniature lighting from upper left, original handmade theatrical model with real wood grain and cloth weave, not a human photograph, not a cartoon vector or plastic toy. Four independent complete poses within quadrants, generous transparent outer margins and at least 12 percent empty transparent central cross. Props large enough to recognize, no written text, numerals, symbols of currency, logos, signatures, stage scenery, hands of puppeteer, watermarks or extra figures. Conceptual miniature poses, not actual recorded puppetry footage.",
+  "generatedWith": "built-in image_gen",
+  "pixelsUnmodified": true,
+  "actualImageViewed": true,
+  "status": "candidate-material-only-not-a-video",
+  "scope": "Original illustrative concepts, not real products, artifacts, manufacturing footage or physically validated builds",
+  "visualBoundary": "Four full puppet bodies and props visible, upper control strings intentionally exit source image; future stage should treat strings as extending offstage, never claim complete control rig or real puppetry footage"
+}

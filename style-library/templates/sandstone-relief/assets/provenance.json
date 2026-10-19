@@ -1,0 +1,17 @@
+{
+  "key": "sandstone-relief",
+  "generatedSource": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-09996407-669b-4415-97ac-32ba0901385c.png",
+  "file": "shared/rasters/sandstone-relief-atlas.png",
+  "sha256": "1e07d9e3f50a6b1b0fb231eed0355fa500eab6675800fec71ce94b630d197b86",
+  "size": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "prompt": "Use case: stylized-concept. Make an original square 2 by 2 material atlas of FOUR separate buff sandstone low-relief slabs isolated on transparent background. Fixed subjects top-left shopping tote bag, top-right two overlapping generic blank coins, bottom-left shield with a plain checkmark, bottom-right compact heavy lifting weight with round hole. These are actual carved stone relief concepts: remove the stone field around the motif to a lower plane; clearly show the higher but shallow motif surface, sloping carved wall, recessed field, tiny granular stone pores continuing through all planes, a few restrained tool traces. The raised shallow shapes and lowered field must be structurally visible with consistent low raking light from upper left producing real relief shadows, not ink outlines, not painted or textured flat icons. All stone is ONE material with subtle buff tonal variations, no colored paint, no metal, no marble gloss. Nearly front-facing slight three-quarter camera so both top and relief sidewalls can be seen, matched across all slabs. Four complete rectangular slabs safely inside quadrants, generous transparent margin and an EMPTY transparent central cross at least 12 percent canvas width. No letters, numerals, currency marks, names, ancient inscriptions, signatures, logos, people, tools, architectural ruins or extra objects. Contemporary original carvings, not real artifacts or a named sculptor's work. Real transparency outside each complete slab, never crop edges.",
+  "generatedWith": "built-in image_gen",
+  "pixelsUnmodified": true,
+  "actualImageViewed": true,
+  "status": "candidate-material-only-not-a-video",
+  "scope": "Original imaginary material concepts; no actual artwork/artifact claim; no batch08 project yet"
+}

@@ -54,11 +54,19 @@
     "mural",
     "folk-woodblock",
     "porcelain-painting",
-    "seal-carving"
+    "seal-carving",
+    "lacquer-gold",
+    "watercolor",
+    "impasto",
+    "enamel-badge",
+    "foil-deboss",
+    "mosaic",
+    "stained-glass",
+    "sandstone-relief"
   ],
   "needsRevision": [],
-  "sourceVersion": "batch07-final-1.10.0",
-  "reviewedAt": "2026-10-20T05:38:32.165034+08:00",
+  "sourceVersion": "batch08-final-1.11.0",
+  "reviewedAt": "2026-10-20T06:21:51.531104+08:00",
   "videoSha256": {
     "woodcut": "1922f51c7f1c49c79351937dcb7284f47c1f339fa0f669dc606c2489cb169402",
     "risograph": "18819130f47aa724167a8a629eb85a8704e646a1b00d49c7fbe27c85014948d0",
@@ -113,6 +121,14 @@
     "mural": "778bf7c7c3bbde2c0ee63f3631c779281718e3b9d50564d87d73e316ed2523a5",
     "folk-woodblock": "367489912b0b3343aa1fad6f456342dd24849109d244d8816d634c06d156f1cf",
     "porcelain-painting": "af2fd7394f76812906287f211f27155ff7b3921c84e5434c77bbabad51f6c0a9",
-    "seal-carving": "5342003184fb4f1acf5cafde0f0cf4aa9efa690e91bf62e050402a13b99ca0ea"
+    "seal-carving": "5342003184fb4f1acf5cafde0f0cf4aa9efa690e91bf62e050402a13b99ca0ea",
+    "lacquer-gold": "51291786f91b863ae106397588e1a75cec013f51a543d242d89ee0521ce4cc0c",
+    "watercolor": "67f5f5f18e67abcb9f34b34ed308bf1277fb6af691837d62183a34bcdf332660",
+    "impasto": "6bcb6079d35531627a2dc99cfe156ce2bf8e753e818893a3a01e1381989716cd",
+    "enamel-badge": "4a820a582062f34963e4f2ef795223ce9488407744de7bd787a364b586956fe9",
+    "foil-deboss": "4e1aecfb15de13fcb8f25cd31fac0c8fc18e0e603d5fce7e2ce7c515028d81a7",
+    "mosaic": "f104b6a00d1ec5a64d70c88746aae0c5ced7d62031a561bcd094cb4c1d34544d",
+    "stained-glass": "e55082c5184daecb371dd782b3993e12a2560c86c255e03399f3c1979f053cd9",
+    "sandstone-relief": "8bd858af81a65b666cdc95e5e70d8564dbb47d734113fed8f34e98e704abffd6"
   }
 }

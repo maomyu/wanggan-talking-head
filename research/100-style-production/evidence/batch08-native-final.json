@@ -1,0 +1,190 @@
+{
+  "ok": true,
+  "results": [
+    {
+      "key": "lacquer-gold",
+      "artPixelReverseSeek": true,
+      "artSha256": "de5863ea169e7d49150d52fb4d0b47e808f6adc3f0144dc393294a405a5d53be",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 14.877542298264858
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 14.877542298264858
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 13.284473959083948
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 14.877542298264858
+        }
+      ]
+    },
+    {
+      "key": "watercolor",
+      "artPixelReverseSeek": true,
+      "artSha256": "e9781da7eea9378de15bbf14a6e02fe1ae785c5daa13a2b2165af1a4eb40c055",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 8.103998288405586
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 8.103998288405586
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 8.787861725503449
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 8.103998288405586
+        }
+      ]
+    },
+    {
+      "key": "impasto",
+      "artPixelReverseSeek": true,
+      "artSha256": "f27b8680ebb8bb457ab4050dc9d0ad72211e044cc718741975af7e386f37b9db",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 8.786203568742847
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 8.786203568742847
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 10.769412017296261
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 8.786203568742847
+        }
+      ]
+    },
+    {
+      "key": "enamel-badge",
+      "artPixelReverseSeek": true,
+      "artSha256": "4776ee49e73e2071a5c5c1f9a0e6e08c8581ad39084b2f9062c6c662261b88da",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 12.071324242787574
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 12.071324242787574
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 10.399818100353297
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 12.071324242787574
+        }
+      ]
+    },
+    {
+      "key": "foil-deboss",
+      "artPixelReverseSeek": true,
+      "artSha256": "21c6c4493779f81501032c48468d37aa9eadb200ddc85414827d9e4d6f864e2a",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 8.034228432775858
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 8.034228432775858
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 9.058211389186612
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 8.034228432775858
+        }
+      ]
+    },
+    {
+      "key": "mosaic",
+      "artPixelReverseSeek": true,
+      "artSha256": "830a2aa9c4fbc8ba0e007e82a0fee35099d5a35f1bf3fba283162949e337fba7",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 8.257846272972975
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 8.257846272972975
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 10.191989704094555
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 8.257846272972975
+        }
+      ]
+    },
+    {
+      "key": "stained-glass",
+      "artPixelReverseSeek": true,
+      "artSha256": "0eae52e1987e8ac48b41244aa17d5317433b553fe6712c2bf41a36abd1503004",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 12.734229497640202
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 12.734229497640202
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 10.123726601945654
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 12.734229497640202
+        }
+      ]
+    },
+    {
+      "key": "sandstone-relief",
+      "artPixelReverseSeek": true,
+      "artSha256": "73d3eec97c9f0aab04b35533cb139fed5a4110c6c4423573d8bb2e3caa83cb15",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 6.760964703327308
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 6.760964703327308
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 8.661983765288047
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 6.760964703327308
+        }
+      ]
+    }
+  ],
+  "scope": "修后7版与马赛克v3的当前真实原生PNG/对比检查；水彩/油彩仅配方元数据对齐，渲染输入哈希未变"
+}

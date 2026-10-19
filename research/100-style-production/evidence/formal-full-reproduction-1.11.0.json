@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "key": "foil-deboss",
+  "version": "1.11.0",
+  "scope": "从正式插件独立init/build/check/render/verify生成完整1100帧；与研究成片逐秒像素和完整解码音频比较",
+  "sourceSha256": "4e1aecfb15de13fcb8f25cd31fac0c8fc18e0e603d5fce7e2ce7c515028d81a7",
+  "formalSha256": "e63128508d3009b605a226618b72171dc9604d55b30ff43d2dfaa5782bf09a60",
+  "identicalEncodedFile": false,
+  "pixelMetrics": {
+    "sampledFrames": 37,
+    "mean": 4.657435212990769e-06,
+    "max": 0.00017232510288065845
+  },
+  "decodedVoiceIdentical": true
+}

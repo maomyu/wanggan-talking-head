@@ -1,0 +1,223 @@
+{
+  "ok": true,
+  "version": "1.11.0",
+  "records": [
+    {
+      "key": "lacquer-gold",
+      "matchedNativeArtPixels": true,
+      "frames": [
+        {
+          "time": 18.9,
+          "artSha256": "de5863ea169e7d49150d52fb4d0b47e808f6adc3f0144dc393294a405a5d53be",
+          "title": "无效消费",
+          "caption": "分清楚想要和需要",
+          "frame": 567
+        },
+        {
+          "time": 24.4,
+          "artSha256": "720f31cc76bf2f160a9f4170e860e6636035841b16e3601b1aba4463565da9c1",
+          "title": "守住本金",
+          "caption": "市面上夸大收益理财的\n都暗藏风险",
+          "frame": 732
+        },
+        {
+          "time": 29.3,
+          "artSha256": "01de022c44345f03f77c8bd8c5c1c89ad396a210dc3202918e65e28724cc80a8",
+          "title": "减少负债",
+          "caption": "第三减少负债",
+          "frame": 879
+        }
+      ]
+    },
+    {
+      "key": "watercolor",
+      "matchedNativeArtPixels": true,
+      "frames": [
+        {
+          "time": 18.9,
+          "artSha256": "e9781da7eea9378de15bbf14a6e02fe1ae785c5daa13a2b2165af1a4eb40c055",
+          "title": "无效消费",
+          "caption": "分清楚想要和需要",
+          "frame": 567
+        },
+        {
+          "time": 24.4,
+          "artSha256": "de27c1c7e043e9100a7f7a1b3ee5f3d1d4a7e6759e7cff7c60a8c954fb1aee73",
+          "title": "守住本金",
+          "caption": "市面上夸大收益理财的\n都暗藏风险",
+          "frame": 732
+        },
+        {
+          "time": 29.3,
+          "artSha256": "7cd9efd388d8dbf61e8d9b2c2304ffa31f60ea43b81942f97e8236aa6346dee6",
+          "title": "减少负债",
+          "caption": "第三减少负债",
+          "frame": 879
+        }
+      ]
+    },
+    {
+      "key": "impasto",
+      "matchedNativeArtPixels": true,
+      "frames": [
+        {
+          "time": 18.9,
+          "artSha256": "f27b8680ebb8bb457ab4050dc9d0ad72211e044cc718741975af7e386f37b9db",
+          "title": "无效消费",
+          "caption": "分清楚想要和需要",
+          "frame": 567
+        },
+        {
+          "time": 24.4,
+          "artSha256": "99a50fad8e9822024aa05a57abd5d63343a94356223d865d58a40591d2ff0fb5",
+          "title": "守住本金",
+          "caption": "市面上夸大收益理财的\n都暗藏风险",
+          "frame": 732
+        },
+        {
+          "time": 29.3,
+          "artSha256": "c7159100ca57060874a9953de36a3d00244739352504c74f05f087e75276b42e",
+          "title": "减少负债",
+          "caption": "第三减少负债",
+          "frame": 879
+        }
+      ]
+    },
+    {
+      "key": "enamel-badge",
+      "matchedNativeArtPixels": true,
+      "frames": [
+        {
+          "time": 18.9,
+          "artSha256": "4776ee49e73e2071a5c5c1f9a0e6e08c8581ad39084b2f9062c6c662261b88da",
+          "title": "无效消费",
+          "caption": "分清楚想要和需要",
+          "frame": 567
+        },
+        {
+          "time": 24.4,
+          "artSha256": "af80e0ef023542146eba2080897be3c027a2e8b6ed2df9ae004e70083606469d",
+          "title": "守住本金",
+          "caption": "市面上夸大收益理财的\n都暗藏风险",
+          "frame": 732
+        },
+        {
+          "time": 29.3,
+          "artSha256": "7c4efff28fea606c89cf2a46fe526bce83686e8290873ed7fdcbb404a9ac3f4a",
+          "title": "减少负债",
+          "caption": "第三减少负债",
+          "frame": 879
+        }
+      ]
+    },
+    {
+      "key": "foil-deboss",
+      "matchedNativeArtPixels": true,
+      "frames": [
+        {
+          "time": 18.9,
+          "artSha256": "21c6c4493779f81501032c48468d37aa9eadb200ddc85414827d9e4d6f864e2a",
+          "title": "无效消费",
+          "caption": "分清楚想要和需要",
+          "frame": 567
+        },
+        {
+          "time": 24.4,
+          "artSha256": "19f1e368a0c35510deb37830df8fadcb8998bb80acf3552ac7c22ec13c000a01",
+          "title": "守住本金",
+          "caption": "市面上夸大收益理财的\n都暗藏风险",
+          "frame": 732
+        },
+        {
+          "time": 29.3,
+          "artSha256": "c8a44d861258a760aaa86a67551eb73fca5415240638440fac6553eba25bf422",
+          "title": "减少负债",
+          "caption": "第三减少负债",
+          "frame": 879
+        }
+      ]
+    },
+    {
+      "key": "mosaic",
+      "matchedNativeArtPixels": true,
+      "frames": [
+        {
+          "time": 18.9,
+          "artSha256": "830a2aa9c4fbc8ba0e007e82a0fee35099d5a35f1bf3fba283162949e337fba7",
+          "title": "无效消费",
+          "caption": "分清楚想要和需要",
+          "frame": 567
+        },
+        {
+          "time": 24.4,
+          "artSha256": "0815d00eccc2f118afcd226fbdde34d8d071bac5984a5ca348b66c38ff8dd625",
+          "title": "守住本金",
+          "caption": "市面上夸大收益理财的\n都暗藏风险",
+          "frame": 732
+        },
+        {
+          "time": 29.3,
+          "artSha256": "30f10ec4a5b88b5d37f9cd29b6a9c6a8c024e0ee36a364172568ef6e1b31de26",
+          "title": "减少负债",
+          "caption": "第三减少负债",
+          "frame": 879
+        }
+      ]
+    },
+    {
+      "key": "stained-glass",
+      "matchedNativeArtPixels": true,
+      "frames": [
+        {
+          "time": 18.9,
+          "artSha256": "0eae52e1987e8ac48b41244aa17d5317433b553fe6712c2bf41a36abd1503004",
+          "title": "无效消费",
+          "caption": "分清楚想要和需要",
+          "frame": 567
+        },
+        {
+          "time": 24.4,
+          "artSha256": "4fc11e0d0f1eb959498a58d5c65627a0074f953695cbd71cc9c5d8ee1c864583",
+          "title": "守住本金",
+          "caption": "市面上夸大收益理财的\n都暗藏风险",
+          "frame": 732
+        },
+        {
+          "time": 29.3,
+          "artSha256": "062a7356f3a85df6bb25595c336e832192e2d5223dc5ab28a266c2d17d606afa",
+          "title": "减少负债",
+          "caption": "第三减少负债",
+          "frame": 879
+        }
+      ]
+    },
+    {
+      "key": "sandstone-relief",
+      "matchedNativeArtPixels": true,
+      "frames": [
+        {
+          "time": 18.9,
+          "artSha256": "73d3eec97c9f0aab04b35533cb139fed5a4110c6c4423573d8bb2e3caa83cb15",
+          "title": "无效消费",
+          "caption": "分清楚想要和需要",
+          "frame": 567
+        },
+        {
+          "time": 24.4,
+          "artSha256": "7c21082b5fc8f64905fdff5b44d792511eebd3e42dc33ac67e7221b92bdd8102",
+          "title": "守住本金",
+          "caption": "市面上夸大收益理财的\n都暗藏风险",
+          "frame": 732
+        },
+        {
+          "time": 29.3,
+          "artSha256": "753cb502133770d4b0aadfaa5a7ac6d79ab61e00396eb5b3a73d9f36d5c17365",
+          "title": "减少负债",
+          "caption": "第三减少负债",
+          "frame": 879
+        }
+      ]
+    }
+  ],
+  "scope": "独立正式init/build工程真实浏览；三种语义状态解释区PNG精确一致，标题与字幕同帧，无资源/脚本错误。该项不代替完整MP4复现。"
+}

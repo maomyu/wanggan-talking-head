@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "encoded": true,
+  "records": [
+    {
+      "key": "lacquer-gold",
+      "time": 24.4,
+      "emptyFromY": 1080,
+      "firstNextInkY": 1150,
+      "visibleGapPixels": 70,
+      "sha256": "51291786f91b863ae106397588e1a75cec013f51a543d242d89ee0521ce4cc0c"
+    },
+    {
+      "key": "watercolor",
+      "time": 24.4,
+      "emptyFromY": 1080,
+      "firstNextInkY": 1146,
+      "visibleGapPixels": 66,
+      "sha256": "67f5f5f18e67abcb9f34b34ed308bf1277fb6af691837d62183a34bcdf332660"
+    },
+    {
+      "key": "impasto",
+      "time": 24.4,
+      "emptyFromY": 1093,
+      "firstNextInkY": 1151,
+      "visibleGapPixels": 58,
+      "sha256": "6bcb6079d35531627a2dc99cfe156ce2bf8e753e818893a3a01e1381989716cd"
+    },
+    {
+      "key": "enamel-badge",
+      "time": 24.4,
+      "emptyFromY": 1126,
+      "firstNextInkY": 1151,
+      "visibleGapPixels": 25,
+      "sha256": "4a820a582062f34963e4f2ef795223ce9488407744de7bd787a364b586956fe9"
+    },
+    {
+      "key": "foil-deboss",
+      "time": 24.4,
+      "emptyFromY": 1092,
+      "firstNextInkY": 1151,
+      "visibleGapPixels": 59,
+      "sha256": "4e1aecfb15de13fcb8f25cd31fac0c8fc18e0e603d5fce7e2ce7c515028d81a7"
+    },
+    {
+      "key": "mosaic",
+      "time": 24.4,
+      "emptyFromY": 1087,
+      "firstNextInkY": 1144,
+      "visibleGapPixels": 57,
+      "sha256": "f104b6a00d1ec5a64d70c88746aae0c5ced7d62031a561bcd094cb4c1d34544d"
+    },
+    {
+      "key": "stained-glass",
+      "time": 24.4,
+      "emptyFromY": 1082,
+      "firstNextInkY": 1150,
+      "visibleGapPixels": 68,
+      "sha256": "e55082c5184daecb371dd782b3993e12a2560c86c255e03399f3c1979f053cd9"
+    },
+    {
+      "key": "sandstone-relief",
+      "time": 24.4,
+      "emptyFromY": 1092,
+      "firstNextInkY": 1151,
+      "visibleGapPixels": 59,
+      "sha256": "8bd858af81a65b666cdc95e5e70d8564dbb47d734113fed8f34e98e704abffd6"
+    }
+  ],
+  "scope": "实际像素相对同帧空底色差超过12的可见边界，取主材料与风险重点词之间横跨780px的完整空行，不是DOM行盒；细微低对比纸边不等于有信息墨迹。代表帧抽样，不声称全帧碰撞证明"
+}

@@ -1,0 +1,17 @@
+{
+  "key": "watercolor",
+  "generatedSource": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-1e99df01-c1f4-4218-88e0-1de9929e1a97.png",
+  "file": "shared/rasters/watercolor-atlas.png",
+  "sha256": "b9b28382e13dc322ded45090e0f58012500bcad7e3b96ec4cfa8c0b4120db4ad",
+  "size": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "prompt": "Use case: stylized-concept. Create an ORIGINAL square 2 by 2 atlas of FOUR independent watercolor illustration fragments, not a complete screen design. Fixed order: top-left simple shopping tote bag; top-right two overlapping generic blank coins; bottom-left a shield with one simple checkmark; bottom-right a compact heavy lifting weight with round hole. No letters, text, numerals, currency marks or logos. Real luminous transparent watercolor washes on visible textured white watercolor paper, granulated pigment, wet-in-wet diffusion, irregular dried tidelines, a few dry-brush broken edges, preserved paper-white highlights. Colors muted rust, ochre, forest green and slate blue. Each object is clearly recognizable with controlled soft and hard edges, not outlined with black vectors. NOT thick opaque gouache, impasto, colored pencil, plastic or fuzzy digital blur. Each complete painted fragment includes a modest irregular white paper support around its image and is isolated on a true transparent background outside that fragment. Four fragments fit safely within separate quadrants, generous outer margins and at least 12 percent width EMPTY transparent central cross, no touching or clipped paper or subject. Straight-on natural neutral light, no external tabletop, no cast shadows across central gap. Original conceptual modern symbols, not actual artwork by an artist. No people, tools, signatures, watermarks, decorative flowers or extra objects.",
+  "generatedWith": "built-in image_gen",
+  "pixelsUnmodified": true,
+  "actualImageViewed": true,
+  "status": "candidate-material-only-not-a-video",
+  "scope": "Original imaginary material concepts; no actual artwork/artifact claim; no batch08 project yet"
+}

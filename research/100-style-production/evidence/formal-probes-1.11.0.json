@@ -1,0 +1,102 @@
+{
+  "ok": true,
+  "version": "1.11.0",
+  "results": [
+    {
+      "key": "lacquer-gold",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.11.0/lacquer-gold",
+      "base": [
+        225,
+        580,
+        630,
+        630
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "watercolor",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.11.0/watercolor",
+      "base": [
+        225,
+        580,
+        630,
+        630
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "impasto",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.11.0/impasto",
+      "base": [
+        225,
+        580,
+        630,
+        630
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "enamel-badge",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.11.0/enamel-badge",
+      "base": [
+        225,
+        580,
+        630,
+        630
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "foil-deboss",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.11.0/foil-deboss",
+      "base": [
+        225,
+        580,
+        630,
+        630
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "mosaic",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.11.0/mosaic",
+      "base": [
+        225,
+        580,
+        630,
+        630
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "stained-glass",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.11.0/stained-glass",
+      "base": [
+        225,
+        580,
+        630,
+        630
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "sandstone-relief",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.11.0/sandstone-relief",
+      "base": [
+        225,
+        580,
+        630,
+        630
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    }
+  ]
+}

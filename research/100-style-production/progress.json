@@ -2,9 +2,9 @@
   "goal": "100个实际画风视频与正式插件整合",
   "total": 100,
   "userApproved": 20,
-  "productionVerified": 54,
+  "productionVerified": 62,
   "inProduction": 0,
-  "queued": 26,
+  "queued": 18,
   "styles": [
     {
       "id": "A01",
@@ -703,27 +703,30 @@
       "key": "lacquer-gold",
       "name": "漆绘描金",
       "family": "painting",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/lacquer-gold/outputs/final.mp4"
     },
     {
       "id": "A74",
       "key": "watercolor",
       "name": "水彩洇染",
       "family": "painting",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/watercolor/outputs/final.mp4"
     },
     {
       "id": "A75",
       "key": "impasto",
       "name": "厚涂油彩",
       "family": "painting",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/impasto/outputs/final.mp4"
     },
     {
       "id": "A76",
@@ -760,9 +763,10 @@
       "key": "enamel-badge",
       "name": "珐琅徽章",
       "family": "craft",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/enamel-badge/outputs/final.mp4"
     },
     {
       "id": "A80",
@@ -779,36 +783,40 @@
       "key": "foil-deboss",
       "name": "烫金压凹",
       "family": "craft",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/foil-deboss/outputs/final.mp4"
     },
     {
       "id": "A82",
       "key": "mosaic",
       "name": "马赛克拼片",
       "family": "craft",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/mosaic/outputs/final.mp4"
     },
     {
       "id": "A83",
       "key": "stained-glass",
       "name": "彩绘玻璃",
       "family": "craft",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/stained-glass/outputs/final.mp4"
     },
     {
       "id": "A84",
       "key": "sandstone-relief",
       "name": "砂岩浮雕",
       "family": "craft",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/sandstone-relief/outputs/final.mp4"
     },
     {
       "id": "A85",

@@ -2193,6 +2193,159 @@
     ]
   },
   {
+    "id": "A73",
+    "key": "lacquer-gold",
+    "name": "漆绘描金",
+    "familyKey": "painting",
+    "family": "传统绘画与东方",
+    "visualMechanism": "深黑红漆片上的细金线、金粉密度和受控高光形成两联/三联比较；配重圆盘作负担意象，不把材料显现称作撒金制作过程",
+    "profiles": {
+      "layout": "L03",
+      "motion": "M01",
+      "editing": "E04",
+      "sound": "S01"
+    },
+    "suitableFor": [
+      "工艺",
+      "品牌"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [
+      "R30"
+    ],
+    "assetDisclosure": "Original AI concept material pixels preserved; presenter unchanged; not actual manufacturing footage or a historic object",
+    "preview": "previews/lacquer-gold.jpg",
+    "implementation": "templates/lacquer-gold/index.html",
+    "evidence": "evidence/production-20261020-a73-a74-a75-a79-a81-a82-a83-a84.json",
+    "videoSha256": "51291786f91b863ae106397588e1a75cec013f51a543d242d89ee0521ce4cc0c",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      225,
+      580,
+      630,
+      630
+    ]
+  },
+  {
+    "id": "A74",
+    "key": "watercolor",
+    "name": "水彩洇染",
+    "familyKey": "painting",
+    "family": "传统绘画与东方",
+    "visualMechanism": "松散纸边、纸白和透明洗色承载四个可读物件；无硬框，图注与湿边分离，完整画作逐层显露而非物理扩散模拟",
+    "profiles": {
+      "layout": "L02",
+      "motion": "M01",
+      "editing": "E02",
+      "sound": "S01"
+    },
+    "suitableFor": [
+      "自然",
+      "情绪"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [
+      "R31"
+    ],
+    "assetDisclosure": "Original AI concept material pixels preserved; presenter unchanged; not actual manufacturing footage or a historic object",
+    "preview": "previews/watercolor.jpg",
+    "implementation": "templates/watercolor/index.html",
+    "evidence": "evidence/production-20261020-a73-a74-a75-a79-a81-a82-a83-a84.json",
+    "videoSha256": "67f5f5f18e67abcb9f34b34ed308bf1277fb6af691837d62183a34bcdf332660",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      225,
+      580,
+      630,
+      630
+    ]
+  },
+  {
+    "id": "A75",
+    "key": "impasto",
+    "name": "厚涂油彩",
+    "familyKey": "painting",
+    "family": "传统绘画与东方",
+    "visualMechanism": "可辨厚刀脊、覆盖关系与统一侧光让原始画布片成为展陈单元；整幅落位后读标签，人物不进入油彩媒介",
+    "profiles": {
+      "layout": "L12",
+      "motion": "M01",
+      "editing": "E04",
+      "sound": "S01"
+    },
+    "suitableFor": [
+      "艺术",
+      "情绪"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [
+      "R32"
+    ],
+    "assetDisclosure": "Original AI concept material pixels preserved; presenter unchanged; not actual manufacturing footage or a historic object",
+    "preview": "previews/impasto.jpg",
+    "implementation": "templates/impasto/index.html",
+    "evidence": "evidence/production-20261020-a73-a74-a75-a79-a81-a82-a83-a84.json",
+    "videoSha256": "6bcb6079d35531627a2dc99cfe156ce2bf8e753e818893a3a01e1381989716cd",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      225,
+      580,
+      630,
+      630
+    ]
+  },
+  {
     "id": "A76",
     "key": "woodcut",
     "name": "木刻刀痕",
@@ -2341,6 +2494,57 @@
     ]
   },
   {
+    "id": "A79",
+    "key": "enamel-badge",
+    "name": "珐琅徽章",
+    "familyKey": "craft",
+    "family": "工艺表面与印制",
+    "visualMechanism": "不透明釉色、金属围边和薄侧壁形成独立小物件，深色底板和轻微倾角区分并列，标签始终在物件外",
+    "profiles": {
+      "layout": "L12",
+      "motion": "M01",
+      "editing": "E04",
+      "sound": "S01"
+    },
+    "suitableFor": [
+      "品牌",
+      "文化"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [
+      "R35"
+    ],
+    "assetDisclosure": "Original AI concept material pixels preserved; presenter unchanged; not actual manufacturing footage or a historic object",
+    "preview": "previews/enamel-badge.jpg",
+    "implementation": "templates/enamel-badge/index.html",
+    "evidence": "evidence/production-20261020-a73-a74-a75-a79-a81-a82-a83-a84.json",
+    "videoSha256": "4a820a582062f34963e4f2ef795223ce9488407744de7bd787a364b586956fe9",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      225,
+      580,
+      630,
+      630
+    ]
+  },
+  {
     "id": "A80",
     "key": "cyanotype",
     "name": "蓝晒图像",
@@ -2388,6 +2592,206 @@
       585,
       615,
       615
+    ]
+  },
+  {
+    "id": "A81",
+    "key": "foil-deboss",
+    "name": "烫金压凹",
+    "familyKey": "craft",
+    "family": "工艺表面与印制",
+    "visualMechanism": "纤维纸内凹槽、压缩边和局部薄箔形成低起伏图记，三项校样纵排，纸片与正文平视；没有伪造可变灯光或实际压印录像",
+    "profiles": {
+      "layout": "L03",
+      "motion": "M01",
+      "editing": "E06",
+      "sound": "S01"
+    },
+    "suitableFor": [
+      "品牌",
+      "工艺"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [],
+    "assetDisclosure": "Original AI concept material pixels preserved; presenter unchanged; not actual manufacturing footage or a historic object",
+    "preview": "previews/foil-deboss.jpg",
+    "implementation": "templates/foil-deboss/index.html",
+    "evidence": "evidence/production-20261020-a73-a74-a75-a79-a81-a82-a83-a84.json",
+    "videoSha256": "4e1aecfb15de13fcb8f25cd31fac0c8fc18e0e603d5fce7e2ce7c515028d81a7",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      225,
+      580,
+      630,
+      630
+    ]
+  },
+  {
+    "id": "A82",
+    "key": "mosaic",
+    "name": "马赛克拼片",
+    "familyKey": "craft",
+    "family": "工艺表面与印制",
+    "visualMechanism": "真实可辨的独立嵌片、砂浆缝和随形铺排组成图版；完整图版有限落位后保留，不以粗块空洞模拟逐片嵌装",
+    "profiles": {
+      "layout": "L03",
+      "motion": "M01",
+      "editing": "E04",
+      "sound": "S01"
+    },
+    "suitableFor": [
+      "历史",
+      "结构"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [
+      "R34"
+    ],
+    "assetDisclosure": "Original AI concept material pixels preserved; presenter unchanged; not actual manufacturing footage or a historic object",
+    "preview": "previews/mosaic.jpg",
+    "implementation": "templates/mosaic/index.html",
+    "evidence": "evidence/production-20261020-a73-a74-a75-a79-a81-a82-a83-a84.json",
+    "videoSha256": "f104b6a00d1ec5a64d70c88746aae0c5ced7d62031a561bcd094cb4c1d34544d",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      225,
+      580,
+      630,
+      630
+    ]
+  },
+  {
+    "id": "A83",
+    "key": "stained-glass",
+    "name": "彩绘玻璃",
+    "familyKey": "craft",
+    "family": "工艺表面与印制",
+    "visualMechanism": "连通的深铅条、纹理玻块和背光形成固定拼窗，连续窗棂组织双联/三联关系；不透明字幕与真实人物独立在前",
+    "profiles": {
+      "layout": "L08",
+      "motion": "M01",
+      "editing": "E06",
+      "sound": "S01"
+    },
+    "suitableFor": [
+      "文化",
+      "空间"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [
+      "R33"
+    ],
+    "assetDisclosure": "Original AI concept material pixels preserved; presenter unchanged; not actual manufacturing footage or a historic object",
+    "preview": "previews/stained-glass.jpg",
+    "implementation": "templates/stained-glass/index.html",
+    "evidence": "evidence/production-20261020-a73-a74-a75-a79-a81-a82-a83-a84.json",
+    "videoSha256": "e55082c5184daecb371dd782b3993e12a2560c86c255e03399f3c1979f053cd9",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      225,
+      580,
+      630,
+      630
+    ]
+  },
+  {
+    "id": "A84",
+    "key": "sandstone-relief",
+    "name": "砂岩浮雕",
+    "familyKey": "craft",
+    "family": "工艺表面与印制",
+    "visualMechanism": "同一砂岩材质的浅凸台、下凹场和低角度阴影构成浮雕关系，整块石面有限位移后停稳，不只是石纹背景",
+    "profiles": {
+      "layout": "L12",
+      "motion": "M01",
+      "editing": "E04",
+      "sound": "S01"
+    },
+    "suitableFor": [
+      "历史",
+      "建筑"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [],
+    "assetDisclosure": "Original AI concept material pixels preserved; presenter unchanged; not actual manufacturing footage or a historic object",
+    "preview": "previews/sandstone-relief.jpg",
+    "implementation": "templates/sandstone-relief/index.html",
+    "evidence": "evidence/production-20261020-a73-a74-a75-a79-a81-a82-a83-a84.json",
+    "videoSha256": "8bd858af81a65b666cdc95e5e70d8564dbb47d734113fed8f34e98e704abffd6",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      225,
+      580,
+      630,
+      630
     ]
   },
   {

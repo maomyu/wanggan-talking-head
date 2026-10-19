@@ -1,0 +1,35 @@
+{
+  "width": 1254,
+  "height": 1254,
+  "boxes": {
+    "bag": [
+      50,
+      16,
+      494,
+      578
+    ],
+    "coin": [
+      697,
+      97,
+      528,
+      464
+    ],
+    "shield": [
+      69,
+      664,
+      472,
+      537
+    ],
+    "weight": [
+      755,
+      675,
+      450,
+      539
+    ]
+  },
+  "regionBoundaries": [
+    631,
+    628
+  ],
+  "method": "Read the actual shared zero-alpha valleys above threshold 80, then isolate four whole regions with low-alpha edge padding. No production pixels altered."
+}

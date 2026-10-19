@@ -1,0 +1,18 @@
+{
+  "key": "chased-metal",
+  "generatedSource": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-6b2a1348-4380-4b1e-864a-0b8d8bb43163.png",
+  "file": "shared/rasters/chased-metal-atlas.png",
+  "sha256": "759ea3851c66434ca5f5678efb4af8205db2ac29d0cc2cb238dc68aedb362b3c",
+  "size": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "prompt": "Use case: stylized-concept. Asset: ORIGINAL modern metal craft atlas for an explanatory video, square 2 by 2. Four COMPLETE separate thin patinated warm bronze/silver metal plaques on TRUE transparent background. Fixed order top-left a simple shopping tote bag, top-right two overlapping generic blank coin discs, bottom-left a shield with one simple checkmark, bottom-right a compact lifting weight with a round hole. Motifs formed from chased and shallow hammered metal: recessed fine contour channels, low raised planes, clusters of tiny irregular hammer dimples, directional tool traces, burnished high points and darker depressions. One coherent METAL material throughout each plaque, no colorful enamel infill, no printed pigment, no paper, no stone. Consistent raking studio light from upper left reveals metal plane changes without a giant blown reflection obscuring the motifs. Nearly front-facing slight three-quarter view enough to show thin metal edges. These are original contemporary conceptual plaques, not authentic antiques, no historical inscriptions or maker identity. Keep forms simple and readable at small video size. Wide transparent outer margin and an empty transparent central cross at least 12 percent of canvas width, no objects touching or crossing gaps, no cropped edges. No text, letters, numerals, currency signs, stamps, brands, watermarks, people, hands or tools.",
+  "generatedWith": "built-in image_gen",
+  "pixelsUnmodified": true,
+  "actualImageViewed": true,
+  "status": "candidate-material-only-not-a-video",
+  "scope": "Original illustrative concepts, not real products, artifacts, manufacturing footage or physically validated builds",
+  "visualBoundary": "Generated metal objects have formed thin walls/edges and chased/hammered surfaces, not four flat plaques; describe actual surface geometry rather than the initial request"
+}

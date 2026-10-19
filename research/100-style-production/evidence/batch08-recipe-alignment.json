@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "records": [
+    {
+      "key": "watercolor",
+      "module": "layout",
+      "profile": "L02",
+      "identicalRenderInputs": {
+        "html": "3ab6489b130052c1ed77cbe4ddedbfd8a970fd98a25a7b974b9314d0ccc354a2",
+        "assets/edited-voice.wav": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+        "timing.json": "82ad023d60feeb3ee5800f252f6566cb5d87d917516544bf90d399a2406cbe69",
+        "assets/look.js": "ce9a635ad81ed59a00b33e0fb20e9907d2eadfc7b7a42c6d6cdc8ebb128e2886",
+        "assets/craft-paint-stage.js": "42a41ccc7152ccae405fc47a77e59b400605bd9ca6a9785386fc2923d8cae620"
+      }
+    },
+    {
+      "key": "impasto",
+      "module": "motion",
+      "profile": "M01",
+      "identicalRenderInputs": {
+        "html": "42c6c416f2a73ef1023d7bff63a080b1ac8ef45aa0157ebad35579cbb017a9a1",
+        "assets/edited-voice.wav": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+        "timing.json": "c0cb2aed0bd68c167e2c163a0a80b99b456d58b0cf414ca1711bbe9e28e023de",
+        "assets/look.js": "f1da5032ad69446685bf695f41bd4922f514219963f19aa447a502e6b6d31249",
+        "assets/craft-paint-stage.js": "dc9f5f845999b1d19b52661574acc11440eb7be4af6aa2617ead80c492e02d4b"
+      }
+    }
+  ],
+  "scope": "推荐配方名称与实际完整图注/克制落位行为对齐；归一化HTML、实际渲染代码、时间表和WAV哈希完全不变，已有短测不重渲染；尚无完整MP4"
+}

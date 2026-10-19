@@ -1,0 +1,3 @@
+import{makeCraftPaint}from'./craft-paint-stage.js';import geometry from'./atlas-geometry.js';
+export const LOOK={"key": "lacquer-gold", "name": "漆绘描金", "palette": {"bg": "#1d1115", "fg": "#f4e6c9", "muted": "#d1bb96", "accent": "#d6af6b", "caption": "#2b1b20", "portrait": "#1d1115"}, "base": {"x": 225, "y": 580, "w": 630}, "css": "#title{font-family:Serif;font-weight:700;font-size:100px}#subtitle{font-size:46px}#captions{border:1px solid #997242}#heading{border-bottom:1px solid #614936;padding-bottom:12px}#person-mask{outline:5px solid #997242}#architecture{inset:514px 42px 674px;border:1px solid #614936}"};
+export async function buildArt(ctx){return makeCraftPaint(ctx,{mode:"lacquer-gold",geometry})}

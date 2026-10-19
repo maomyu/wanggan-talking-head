@@ -1,0 +1,38 @@
+{
+  "ok": true,
+  "results": [
+    {
+      "key": "lacquer-gold",
+      "ok": true
+    },
+    {
+      "key": "watercolor",
+      "ok": true
+    },
+    {
+      "key": "impasto",
+      "ok": true
+    },
+    {
+      "key": "enamel-badge",
+      "ok": true
+    },
+    {
+      "key": "foil-deboss",
+      "ok": true
+    },
+    {
+      "key": "mosaic",
+      "ok": true
+    },
+    {
+      "key": "stained-glass",
+      "ok": true
+    },
+    {
+      "key": "sandstone-relief",
+      "ok": true
+    }
+  ],
+  "scope": "四个修订case已重跑，其余四个源不变"
+}

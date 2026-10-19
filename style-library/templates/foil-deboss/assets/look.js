@@ -1,0 +1,3 @@
+import{makeCraftPaint}from'./craft-paint-stage.js';import geometry from'./atlas-geometry.js';
+export const LOOK={"key": "foil-deboss", "name": "烫金压凹", "palette": {"bg": "#f0eadf", "fg": "#4b4438", "muted": "#716656", "accent": "#8a6840", "caption": "#fbf8ef", "portrait": "#f0eadf"}, "base": {"x": 225, "y": 580, "w": 630}, "css": "#title{font-family:Serif;font-weight:700;font-size:100px}#subtitle{font-size:46px}#captions{border-top:1px solid #a08a68;border-bottom:1px solid #a08a68}#person-mask{outline:6px solid #e2d6c0}#heading{border-bottom:1px solid #baa98c;padding-bottom:10px}"};
+export async function buildArt(ctx){return makeCraftPaint(ctx,{mode:"foil-deboss",geometry})}

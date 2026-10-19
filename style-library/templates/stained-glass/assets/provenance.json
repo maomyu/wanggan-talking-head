@@ -1,0 +1,17 @@
+{
+  "key": "stained-glass",
+  "generatedSource": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-5c9a3fd4-128f-4889-8ff0-542ce7145721.png",
+  "file": "shared/rasters/stained-glass-atlas.png",
+  "sha256": "2ea48c2a8eb4fcb26fb647fa7a48d2ae32038f3dc8c722953e9b8f77ac883992",
+  "size": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "prompt": "Use case: stylized-concept. Create an original square 2 by 2 atlas of FOUR completely separate small rectangular stained glass panels, with a wide TRANSPARENT central cross and generous transparent outer margins, no cropped panel edges. Each panel is a genuinely assembled backlit colored-glass artwork: thick dark lead cames form connected closed boundaries, pieces of softly textured colored translucent glass held within them, subtle ripples/bubbles and bright transmitted daylight show glass material. Not enamel and not opaque ceramic. Panel subjects in fixed order: top-left shopping tote bag, top-right two overlapping generic blank coin discs, bottom-left shield with simple checkmark, bottom-right compact heavy lifting weight with a circular hole. Original contemporary diagrammatic silhouettes, no religious symbols. Surrounding glass fields cream/very pale amber, object pieces rich cobalt, amber and muted jade with limited warm vermilion accents; irregular supportive glass subdivisions continue logically to outer lead frame. Keep all subject silhouettes easy to read at small size. Straight-on camera, matching daylight from behind, no environment seen through panels, no cast colored lights outside panel bounds. The four complete rectangular glass panels must NOT touch; each sits well inside its own quadrant. No words, letters, numerals, currency marks, signatures, churches, people, tools, watermarks or logos. Transparent background OUTSIDE each full panel; glass itself remains luminous colored material with visible internal texture, not blank holes. Original imaginary studio glass concepts, not a genuine historic object.",
+  "generatedWith": "built-in image_gen",
+  "pixelsUnmodified": true,
+  "actualImageViewed": true,
+  "status": "candidate-material-only-not-a-video",
+  "scope": "Four complete original generated material objects, no real artifact or actual event claim; no batch08 case implemented yet"
+}

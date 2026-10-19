@@ -1,0 +1,17 @@
+{
+  "key": "mosaic",
+  "generatedSource": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-a34a907b-8014-465e-a854-9fe7c8df3563.png",
+  "file": "shared/rasters/mosaic-atlas.png",
+  "sha256": "357dcb890e2303f7d553ea84a9b7dbbf3a0ec95015e24c759109366c77cfa4c2",
+  "size": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "prompt": "Use case: stylized-concept. Create an ORIGINAL square 2 by 2 atlas of FOUR independent physical stone-and-ceramic mosaic panels isolated on transparent background. Top-left shopping tote bag, top-right two overlapping generic blank coin discs, bottom-left shield with simple checkmark, bottom-right compact lifting weight with round hole. The ENTIRE imagery is constructed from visibly separate hand-cut tesserae set in pale warm mortar, including the off-white background field. Each tile is visibly distinct in size, tiny irregular trapezoids and squares, natural ceramic glaze / stone texture and slightly uneven surface; laying directions turn to follow the object contours rather than a uniform pixel grid. Warm terracotta for bag, ochre for coins, forest-green for shield, slate-gray for weight, cream field, restrained charcoal contour tiles. Objects simple and readable, no invented letters, inscriptions, currency marks or logos. Consistent side light reveals subtle tile height differences and real mortar gaps. NOT a photograph with a mesh overlay, not pixels or tiny decorative dots, not stained glass or grout painted on a smooth vector icon. Four small rectangular panels each complete, well within its quadrant, with generous transparent outside margin and at least 12 percent canvas-width EMPTY transparent central cross. No touching, cropped edges, people, ancient scenes, tools, signatures or watermarks. Contemporary original conceptual panels, no claim of being real antiquities.",
+  "generatedWith": "built-in image_gen",
+  "pixelsUnmodified": true,
+  "actualImageViewed": true,
+  "status": "candidate-material-only-not-a-video",
+  "scope": "Original imaginary material concepts; no actual artwork/artifact claim; no batch08 project yet"
+}

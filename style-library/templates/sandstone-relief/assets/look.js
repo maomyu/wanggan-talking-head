@@ -1,0 +1,3 @@
+import{makeCraftPaint}from'./craft-paint-stage.js';import geometry from'./atlas-geometry.js';
+export const LOOK={"key": "sandstone-relief", "name": "砂岩浮雕", "palette": {"bg": "#ded3bb", "fg": "#4d4030", "muted": "#705b43", "accent": "#947049", "caption": "#f8edda", "portrait": "#ded3bb"}, "base": {"x": 225, "y": 580, "w": 630}, "css": "#title{font-family:Serif;font-weight:700;font-size:100px}#subtitle{font-size:46px}#captions{border-top:4px solid #947049}#person-mask{outline:7px solid #bba17b}#heading{border-left:6px solid #947049;padding-left:22px}"};
+export async function buildArt(ctx){return makeCraftPaint(ctx,{mode:"sandstone-relief",geometry})}

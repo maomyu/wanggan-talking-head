@@ -1,0 +1,17 @@
+{
+  "key": "impasto",
+  "generatedSource": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-9bb95086-6698-498d-a277-ac44a3add4dc.png",
+  "file": "shared/rasters/impasto-atlas.png",
+  "sha256": "a145260354ab8f569d4593beb7aaafdb186425d9c8f22b7647f1b5d9b5b70b5d",
+  "size": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "prompt": "Use case: stylized-concept. Asset: original material illustration atlas for a Chinese talking-head explainer, never applied to the person. Create a square 2 by 2 atlas of FOUR SEPARATE hand-painted thick oil impasto miniatures on separate small ivory canvas fragments. Order: top-left a simple shopping tote bag, top-right two overlapping generic blank coins, bottom-left a shield with one simple checkmark, bottom-right a heavy compact iron weight with one round lifting hole. All four subjects are original conceptual symbols, no brands, no currency denominations, no numbers, no writing. Strong physical paint material: thick opaque pigment deposited by a palette knife, distinctly raised ridges and broken bristle furrows, visible overlapping masses, consistently raking light from upper left giving tiny ridge shadows. Bag russet and cream, coins ochre, shield muted forest green, weight deep blue-gray. Flat-on camera, no perspective warping of entire paintings. Paint ridges must visibly build the actual object forms, NOT a texture overlay on smooth vector icons, NOT plastic clay sculptures. Four complete miniatures entirely separated with at least 12 percent empty transparent gap both vertically and horizontally and wide transparent exterior margin. Transparent background outside each canvas fragment, preserve real pigment edge irregularity within each fragment. No titles, panels, framing graphics, watermarks, hands, people or tools. This is a carefully lit photograph-like rendering of original imaginary painted surfaces, not a claim of a real artwork or named artist. Each complete fragment fits within its quadrant with generous safe margin, never touches or crosses the central gap.",
+  "generatedWith": "built-in image_gen",
+  "pixelsUnmodified": true,
+  "actualImageViewed": true,
+  "status": "candidate-material-only-not-a-video",
+  "scope": "Four complete original generated material objects, no real artifact or actual event claim; no batch08 case implemented yet"
+}

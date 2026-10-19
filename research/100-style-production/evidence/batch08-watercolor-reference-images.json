@@ -1,0 +1,38 @@
+[
+  {
+    "name": "homer-leaf",
+    "url": "https://cdn.sanity.io/images/cctd4ker/production/953230724695941846dc1d9a805589dc907800dd-5120x4440.jpg?auto=format&fit=max&q=75&w=1000",
+    "file": "qa/reference-study/batch08/homer-leaf.jpg",
+    "size": [
+      1000,
+      868
+    ],
+    "sha256": "7895101945a82824b7564bd30e637759f9e359fd7c7cc303b9207f5021a3a30b",
+    "sourcePage": "https://www.metmuseum.org/perspectives/materials-and-techniques-drawing-watercolor",
+    "scope": "Official article detail at requested1000px, local research only; not a production asset"
+  },
+  {
+    "name": "heinrich-mountain",
+    "url": "https://cdn.sanity.io/images/cctd4ker/production/adf52f969c6109ca09bd17cf632f1d8db54fecbd-5120x4440.jpg?auto=format&fit=max&q=75&w=1000",
+    "file": "qa/reference-study/batch08/heinrich-mountain.jpg",
+    "size": [
+      1000,
+      868
+    ],
+    "sha256": "cef1840bd52b0637dc650277ab11ac63829c0b909eb5b16efe5f4b4fd9ca906e",
+    "sourcePage": "https://www.metmuseum.org/perspectives/materials-and-techniques-drawing-watercolor",
+    "scope": "Official article detail at requested1000px, local research only; not a production asset"
+  },
+  {
+    "name": "turner-water",
+    "url": "https://cdn.sanity.io/images/cctd4ker/production/36a97377e8cf7be25f71206f50128b7633906485-5120x2938.jpg?auto=format&fit=max&q=75&w=1000",
+    "file": "qa/reference-study/batch08/turner-water.jpg",
+    "size": [
+      1000,
+      574
+    ],
+    "sha256": "07918af57506795efb64734b5cd2f0a32a635cdbc756e73467bbd0eed4133051",
+    "sourcePage": "https://www.metmuseum.org/perspectives/materials-and-techniques-drawing-watercolor",
+    "scope": "Official article detail at requested1000px, local research only; not a production asset"
+  }
+]
