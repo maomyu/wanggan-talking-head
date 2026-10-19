@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "1.9.0",
+  "version": "1.10.0",
   "approvedCount": 20,
   "styles": [
     {
@@ -2357,6 +2357,155 @@
       ]
     },
     {
+      "id": "A64",
+      "key": "patchwork",
+      "name": "织物拼布",
+      "familyKey": "fiber",
+      "family": "纸与纤维",
+      "visualMechanism": "经纬织纹、不同织片和拼缝共同组织双格/三格布面；完整图记有限姿态落定，不声称逐针手作录像",
+      "profiles": {
+        "layout": "L03",
+        "motion": "M08",
+        "editing": "E04",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "故事",
+        "文化"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [
+        "R24"
+      ],
+      "assetDisclosure": "Original AI concept material pixels preserved; illustrative only; presenter unchanged",
+      "preview": "previews/patchwork.jpg",
+      "implementation": "templates/patchwork/index.html",
+      "evidence": "evidence/production-20261020-a64-a65-a66-a68-a69-a70-a71-a72.json",
+      "videoSha256": "bdfd72a9a1226daa659a731f9749a575f209b913ca53d10660e633c6f024ebbb",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        225,
+        580,
+        630,
+        630
+      ]
+    },
+    {
+      "id": "A65",
+      "key": "knotted-cord",
+      "name": "线绳编结",
+      "familyKey": "fiber",
+      "family": "纸与纤维",
+      "visualMechanism": "确定性绳股按深度投影交叉，独立结点表示并列建议；上环保留本金图记、下方挂具体重物，不是打结教程",
+      "profiles": {
+        "layout": "L07",
+        "motion": "M01",
+        "editing": "E04",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "关系",
+        "方法"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [],
+      "assetDisclosure": "Original deterministic SVG illustration; readable modern glyphs, not historical calligraphy or an authentic seal",
+      "preview": "previews/knotted-cord.jpg",
+      "implementation": "templates/knotted-cord/index.html",
+      "evidence": "evidence/production-20261020-a64-a65-a66-a68-a69-a70-a71-a72.json",
+      "videoSha256": "a2c2ddbd686a2e5bfc03bfddfe1dd3c76981fbb1c3ca9ddd9ead0e19679c351c",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        220,
+        585,
+        640,
+        640
+      ]
+    },
+    {
+      "id": "A66",
+      "key": "silk-layers",
+      "name": "绢纱叠层",
+      "familyKey": "fiber",
+      "family": "纸与纤维",
+      "visualMechanism": "半透明纱片的细织纹和软褶皱按整层叠合，清晰图记在前，阅读标签保持在布层外；不模拟折射",
+      "profiles": {
+        "layout": "L10",
+        "motion": "M01",
+        "editing": "E02",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "情绪",
+        "工艺"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [],
+      "assetDisclosure": "Original AI concept material pixels preserved; illustrative only; presenter unchanged",
+      "preview": "previews/silk-layers.jpg",
+      "implementation": "templates/silk-layers/index.html",
+      "evidence": "evidence/production-20261020-a64-a65-a66-a68-a69-a70-a71-a72.json",
+      "videoSha256": "2173223db61509cc784cd7473ae1b414a73af990f3f22a6898375367d4416dcd",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        225,
+        580,
+        630,
+        630
+      ]
+    },
+    {
       "id": "A67",
       "key": "gongbi",
       "name": "工笔设色",
@@ -2384,6 +2533,262 @@
       "implementation": "templates/gongbi/index.html",
       "evidence": "evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json",
       "videoSha256": "2bda19a3eeb55f61318a44e4f1a738bd88c22f14cc446507bb1e74fc0f1cdc60",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        225,
+        585,
+        630,
+        630
+      ]
+    },
+    {
+      "id": "A68",
+      "key": "blue-green-landscape",
+      "name": "青绿山水",
+      "familyKey": "painting",
+      "family": "传统绘画与东方",
+      "visualMechanism": "原创青绿长卷以山体分组、矿物色层、留水和路径维持空间，随语义有限位聚焦；是意象而非真实地理",
+      "profiles": {
+        "layout": "L11",
+        "motion": "M13",
+        "editing": "E07",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "地理",
+        "文化"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [
+        "R26"
+      ],
+      "assetDisclosure": "Original AI concept material pixels preserved; illustrative only; presenter unchanged",
+      "preview": "previews/blue-green-landscape.jpg",
+      "implementation": "templates/blue-green-landscape/index.html",
+      "evidence": "evidence/production-20261020-a64-a65-a66-a68-a69-a70-a71-a72.json",
+      "videoSha256": "acfda5afc73edd4a36226f6c3e6abba7dd208e90438cadc2911e17dcb26f6e2f",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        225,
+        580,
+        630,
+        630
+      ]
+    },
+    {
+      "id": "A69",
+      "key": "mural",
+      "name": "敦煌壁画",
+      "familyKey": "painting",
+      "family": "传统绘画与东方",
+      "visualMechanism": "原创双画带壁面以矿物土色和薄色磨损容纳同一组物件；取景保留本段需要的完整对照，不冒称古代文物",
+      "profiles": {
+        "layout": "L09",
+        "motion": "M13",
+        "editing": "E07",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "艺术",
+        "历史"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [
+        "R27"
+      ],
+      "assetDisclosure": "Original AI concept material pixels preserved; illustrative only; presenter unchanged",
+      "preview": "previews/mural.jpg",
+      "implementation": "templates/mural/index.html",
+      "evidence": "evidence/production-20261020-a64-a65-a66-a68-a69-a70-a71-a72.json",
+      "videoSha256": "778bf7c7c3bbde2c0ee63f3631c779281718e3b9d50564d87d73e316ed2523a5",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        220,
+        580,
+        640,
+        640
+      ]
+    },
+    {
+      "id": "A70",
+      "key": "folk-woodblock",
+      "name": "版刻年画",
+      "familyKey": "painting",
+      "family": "传统绘画与东方",
+      "visualMechanism": "多色木版图记进入双联/三联弧顶画屏，墨线、套色和刻白形成印面；现代原创题材不伪称传统吉祥意义",
+      "profiles": {
+        "layout": "L08",
+        "motion": "M01",
+        "editing": "E06",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "民俗",
+        "节庆"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [
+        "R28"
+      ],
+      "assetDisclosure": "Original AI concept material pixels preserved; illustrative only; presenter unchanged",
+      "preview": "previews/folk-woodblock.jpg",
+      "implementation": "templates/folk-woodblock/index.html",
+      "evidence": "evidence/production-20261020-a64-a65-a66-a68-a69-a70-a71-a72.json",
+      "videoSha256": "367489912b0b3343aa1fad6f456342dd24849109d244d8816d634c06d156f1cf",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        225,
+        580,
+        630,
+        630
+      ]
+    },
+    {
+      "id": "A71",
+      "key": "porcelain-painting",
+      "name": "蓝白瓷绘",
+      "familyKey": "painting",
+      "family": "传统绘画与东方",
+      "visualMechanism": "完整浅盘的器口、白釉高光与凹曲面承载钴蓝笔绘，器外文字平视；独盘重点保留清晰边界与阅读空白",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M01",
+        "editing": "E04",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "工艺",
+        "文化"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [
+        "R25"
+      ],
+      "assetDisclosure": "Original AI concept material pixels preserved; illustrative only; presenter unchanged",
+      "preview": "previews/porcelain-painting.jpg",
+      "implementation": "templates/porcelain-painting/index.html",
+      "evidence": "evidence/production-20261020-a64-a65-a66-a68-a69-a70-a71-a72.json",
+      "videoSha256": "af2fd7394f76812906287f211f27155ff7b3921c84e5434c77bbabad51f6c0a9",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        225,
+        580,
+        630,
+        630
+      ]
+    },
+    {
+      "id": "A72",
+      "key": "seal-carving",
+      "name": "篆印朱文",
+      "familyKey": "painting",
+      "family": "传统绘画与东方",
+      "visualMechanism": "现代可读字组成朱白正负印面，以竖排、图记边款、破口边框和细印泥孔隙成形；不伪造篆书或真实印章",
+      "profiles": {
+        "layout": "L03",
+        "motion": "M01",
+        "editing": "E06",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "文字",
+        "文化"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [
+        "R26",
+        "R29"
+      ],
+      "assetDisclosure": "Original deterministic SVG illustration; readable modern glyphs, not historical calligraphy or an authentic seal",
+      "preview": "previews/seal-carving.jpg",
+      "implementation": "templates/seal-carving/index.html",
+      "evidence": "evidence/production-20261020-a64-a65-a66-a68-a69-a70-a71-a72.json",
+      "videoSha256": "5342003184fb4f1acf5cafde0f0cf4aa9efa690e91bf62e050402a13b99ca0ea",
       "compatibleModules": [
         "art-direction",
         "layout",
@@ -3078,192 +3483,6 @@
       "references": []
     },
     {
-      "id": "A64",
-      "key": "patchwork",
-      "name": "织物拼布",
-      "familyKey": "fiber",
-      "family": "纸与纤维",
-      "visualMechanism": "布纹、拼缝和不同织片共同组织并列材料，连接处承担信息分组",
-      "profiles": {
-        "layout": "L10",
-        "motion": "M10",
-        "editing": "E05",
-        "sound": "S06"
-      },
-      "suitableFor": [
-        "故事",
-        "文化"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A65",
-      "key": "knotted-cord",
-      "name": "线绳编结",
-      "familyKey": "fiber",
-      "family": "纸与纤维",
-      "visualMechanism": "绳结、缠绕和松开解释关系，标签位于不被线团穿过的空区",
-      "profiles": {
-        "layout": "L07",
-        "motion": "M10",
-        "editing": "E04",
-        "sound": "S06"
-      },
-      "suitableFor": [
-        "关系",
-        "方法"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A66",
-      "key": "silk-layers",
-      "name": "绢纱叠层",
-      "familyKey": "fiber",
-      "family": "纸与纤维",
-      "visualMechanism": "半透明织层、褶皱与透光形成前后关系，关键信息不藏在透明叠色中",
-      "profiles": {
-        "layout": "L10",
-        "motion": "M12",
-        "editing": "E08",
-        "sound": "S07"
-      },
-      "suitableFor": [
-        "情绪",
-        "工艺"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A68",
-      "key": "blue-green-landscape",
-      "name": "青绿山水",
-      "familyKey": "painting",
-      "family": "传统绘画与东方",
-      "visualMechanism": "层叠山形、矿物色面与长卷路径构成空间，人物不染成青绿",
-      "profiles": {
-        "layout": "L11",
-        "motion": "M11",
-        "editing": "E07",
-        "sound": "S07"
-      },
-      "suitableFor": [
-        "地理",
-        "文化"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": [
-        "R05"
-      ]
-    },
-    {
-      "id": "A69",
-      "key": "mural",
-      "name": "敦煌壁画",
-      "familyKey": "painting",
-      "family": "传统绘画与东方",
-      "visualMechanism": "壁面肌理、连续画带与平面设色组织故事，纹样使用需核对来源与语境",
-      "profiles": {
-        "layout": "L11",
-        "motion": "M11",
-        "editing": "E09",
-        "sound": "S07"
-      },
-      "suitableFor": [
-        "艺术",
-        "历史"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A70",
-      "key": "folk-woodblock",
-      "name": "版刻年画",
-      "familyKey": "painting",
-      "family": "传统绘画与东方",
-      "visualMechanism": "民间叙事构图、层次套色和有力轮廓形成节庆图像，避免文化符号乱拼",
-      "profiles": {
-        "layout": "L09",
-        "motion": "M05",
-        "editing": "E07",
-        "sound": "S05"
-      },
-      "suitableFor": [
-        "民俗",
-        "节庆"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A71",
-      "key": "porcelain-painting",
-      "name": "蓝白瓷绘",
-      "familyKey": "painting",
-      "family": "传统绘画与东方",
-      "visualMechanism": "釉面上的蓝色笔绘、器形曲面与留白构成解释载体，不只换成蓝白配色",
-      "profiles": {
-        "layout": "L12",
-        "motion": "M12",
-        "editing": "E02",
-        "sound": "S07"
-      },
-      "suitableFor": [
-        "工艺",
-        "文化"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A72",
-      "key": "seal-carving",
-      "name": "篆印朱文",
-      "familyKey": "painting",
-      "family": "传统绘画与东方",
-      "visualMechanism": "朱白正负形、边款与印面建立关系，长句不强改为难读篆字",
-      "profiles": {
-        "layout": "L06",
-        "motion": "M05",
-        "editing": "E04",
-        "sound": "S04"
-      },
-      "suitableFor": [
-        "文字",
-        "文化"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
       "id": "A73",
       "key": "lacquer-gold",
       "name": "漆绘描金",
@@ -3681,7 +3900,7 @@
       "references": []
     }
   ],
-  "plannedCount": 34,
+  "plannedCount": 26,
   "totalCount": 100,
   "families": [
     {
@@ -3736,8 +3955,8 @@
     }
   ],
   "profileLibrary": "profiles.json",
-  "researchBoundary": "100项为可组合视觉方向，含材料、传统风格与原创配方；20种用户认可，46种制作验证，34种尚未完成。不是100个互斥行业标准。",
-  "implementedCount": 66,
+  "researchBoundary": "100项为可组合视觉方向，含材料、传统风格与原创配方；20种用户认可，54种制作验证，26种尚未完成。不是100个互斥行业标准。",
+  "implementedCount": 74,
   "userApprovedCount": 20,
-  "productionVerifiedCount": 46
+  "productionVerifiedCount": 54
 }

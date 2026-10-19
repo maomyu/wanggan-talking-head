@@ -1,0 +1,16 @@
+{
+  "key": "mural",
+  "stem": "scene",
+  "source": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-1a4a5f3e-9bdd-4520-98f0-3a3ff5d6a3d7.png",
+  "prompt": "Use case: stylized-concept. Production bitmap asset for a Chinese finance talking-head explainer. Entirely original conceptual illustration, not evidence or a museum reproduction. No people, logos, currency numerals, text, letters, UI, watermark or labels. Nothing touches an outer edge. Rich visible material behavior at phone viewing scale, clear silhouette, elegant restrained composition. The real presenter is supplied separately and must not appear in this asset. Wide 3:2 original narrative wall painting inspired by earth-pigment mural craft, not a historical artifact. A substantial warm worn plaster slab painted in two horizontal story registers with simple mineral terracotta red, muted turquoise, ochre and soot outlines. Upper register shows a large shopping bag beside blank coin circles on the left, a protective checked shield in the middle, a plain stone weight with a loop on the right; objects substantial and clearly separated across the register. Lower register is a quieter continuous band of stylized low mountains, winding ground and tiny abstract plants, tying the story horizontally. Bold planar drawing, weathered thin pigment, visible plaster cracks and paint loss localized around edges, occasional delicate double-line borders. No religious beings, copied cave motifs, dragons, sacred symbols, inscriptions, faux ancient writing or human figures. This is an original modern financial allegory, not an archaeological document. Avoid 3D gloss, paper collage, digital gradients, decorative particle noise.",
+  "mode": "built-in-imagegen",
+  "pixelsUnmodified": true,
+  "file": "mural-scene.png",
+  "sha256": "d90821dc5ec6f2b091e1205552ad8607713026c736488838aaadc62490d5daf3",
+  "size": [
+    1536,
+    1024
+  ],
+  "imageMode": "RGB",
+  "disclosure": "AI概念图；解释示意，人物原色不变"
+}

@@ -1,0 +1,123 @@
+{
+  "stage": "all-eight-full-contacts-and-representative-states-viewed",
+  "records": [
+    {
+      "key": "patchwork",
+      "sourceWindow": [
+        4.5,
+        8.5
+      ],
+      "actualEncodedContactViewed": true,
+      "scope": "仅4秒真实编码拼版，非整片审看",
+      "actualFullContactViewed": true,
+      "fullVideoSha256": "bdfd72a9a1226daa659a731f9749a575f209b913ca53d10660e633c6f024ebbb",
+      "fullJudgment": "整片12帧拼版未发现阻塞；人物/字幕与解释区保持分离"
+    },
+    {
+      "key": "silk-layers",
+      "sourceWindow": [
+        12.4,
+        16.4
+      ],
+      "actualEncodedContactViewed": true,
+      "scope": "仅4秒真实编码拼版，非整片审看",
+      "actualFullContactViewed": true,
+      "fullVideoSha256": "2173223db61509cc784cd7473ae1b414a73af990f3f22a6898375367d4416dcd",
+      "fullJudgment": "整片拼版显示纱片叠合有织纹，图记清晰，标签均在布区外，未见新阻塞"
+    },
+    {
+      "key": "blue-green-landscape",
+      "sourceWindow": [
+        14.9,
+        18.9
+      ],
+      "actualEncodedContactViewed": true,
+      "scope": "仅4秒真实编码拼版，非整片审看",
+      "actualFullContactViewed": true,
+      "fullVideoSha256": "acfda5afc73edd4a36226f6c3e6abba7dd208e90438cadc2911e17dcb26f6e2f",
+      "fullOriginalSizeViewed": [
+        24.4
+      ],
+      "fullJudgment": "整片拼版及24.4秒原尺寸山体/留水与轻聚焦成立，图画与标签分开，未见阻塞；山水仅作意象"
+    },
+    {
+      "key": "mural",
+      "sourceWindow": [
+        14.9,
+        18.9
+      ],
+      "actualEncodedContactViewed": true,
+      "scope": "仅4秒真实编码拼版，非整片审看",
+      "revisionRequired": "14.9—18.9实际短测发现想要/需要画面切掉一部分盾；新取景保留消费袋与完整盾，旧短测不算新源通过",
+      "revisionResolved": true,
+      "revisedShort": "smoke-batch07-mural-v2/mural/outputs/smoke.mp4",
+      "revisedActualContactViewed": true,
+      "judgment": "修后停稳画面包含完整消费袋和盾，无重物残片；过渡中来自旧全图的自然裁切保留",
+      "actualFullContactViewed": true,
+      "fullVideoSha256": "778bf7c7c3bbde2c0ee63f3631c779281718e3b9d50564d87d73e316ed2523a5",
+      "fullJudgment": "实际整片与18.9秒原尺寸显示修后袋/盾完整、无重物残片，壁面画带与阅读区分开；其他段有限位取景保留",
+      "fullOriginalSizeViewed": [
+        18.9
+      ]
+    },
+    {
+      "key": "seal-carving",
+      "sourceWindow": [
+        4.5,
+        8.5
+      ],
+      "actualEncodedContactViewed": true,
+      "scope": "仅4秒真实编码拼版，非整片审看",
+      "actualFullContactViewed": true,
+      "fullVideoSha256": "5342003184fb4f1acf5cafde0f0cf4aa9efa690e91bf62e050402a13b99ca0ea",
+      "fullOriginalSizeViewed": [
+        18.9
+      ],
+      "fullJudgment": "完整拼版及18.9秒原尺寸中现代字竖排、朱白正负与边款保持可读，不冒称真实篆书，未见新阻塞"
+    },
+    {
+      "key": "knotted-cord",
+      "sourceWindow": [
+        20.1,
+        24.1
+      ],
+      "actualEncodedContactViewed": true,
+      "scope": "4秒真实编码拼版，非整片审看",
+      "actualFullContactViewed": true,
+      "fullVideoSha256": "a2c2ddbd686a2e5bfc03bfddfe1dd3c76981fbb1c3ca9ddd9ead0e19679c351c",
+      "fullJudgment": "整片12帧拼版未发现阻塞；人物/字幕与解释区保持分离",
+      "fullOriginalSizeViewed": [
+        28.7
+      ]
+    },
+    {
+      "key": "folk-woodblock",
+      "sourceWindow": [
+        12.4,
+        16.4
+      ],
+      "actualEncodedContactViewed": true,
+      "scope": "4秒真实编码拼版，非整片审看",
+      "actualFullContactViewed": true,
+      "fullVideoSha256": "367489912b0b3343aa1fad6f456342dd24849109d244d8816d634c06d156f1cf",
+      "fullJudgment": "整片拼版中双/三联画屏、套色刻白明确，词字与框线分开，未见新阻塞"
+    },
+    {
+      "key": "porcelain-painting",
+      "sourceWindow": [
+        20.1,
+        24.1
+      ],
+      "actualEncodedContactViewed": true,
+      "scope": "4秒真实编码拼版，非整片审看",
+      "actualFullContactViewed": true,
+      "fullVideoSha256": "af2fd7394f76812906287f211f27155ff7b3921c84e5434c77bbabad51f6c0a9",
+      "fullOriginalSizeViewed": [
+        24.4
+      ],
+      "fullJudgment": "整片拼版及24.4秒原尺寸有完整盘口、釉面和钴蓝笔绘，删risk横线后重点词与盘图保留空白，未见新阻塞"
+    }
+  ],
+  "scope": "作者抽看当前8个完整成片拼版与所列代表原尺寸；程序另查实际编码，不宣称逐帧人工听看或独立盲评",
+  "needsRevision": []
+}

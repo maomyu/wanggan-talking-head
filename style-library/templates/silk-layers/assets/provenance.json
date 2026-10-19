@@ -1,0 +1,16 @@
+{
+  "key": "silk-layers",
+  "stem": "atlas",
+  "source": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-df83f5f6-7482-4f63-ac74-6173c358776e.png",
+  "prompt": "Use case: stylized-concept. Production bitmap asset for a Chinese finance talking-head explainer. Entirely original conceptual illustration, not evidence or a museum reproduction. No people, logos, currency numerals, text, letters, UI, watermark or labels. Nothing touches an outer edge. Rich visible material behavior at phone viewing scale, clear silhouette, elegant restrained composition. The real presenter is supplied separately and must not appear in this asset. Square transparent RGBA material atlas, four separate sheer silk-organza swatches on a 2 by 2 grid with broad empty transparent gutters and margins. Top left warm saffron-gold swatch, top right muted celadon green swatch, bottom left slate teal-blue swatch, bottom right warm ivory swatch. Each swatch is an irregular nearly rectangular long soft sheet seen almost from above, held open with delicate shallow folds and a few curled edges. Photoreal fine visible woven threads, soft transmitted light, translucent airy centers and denser rolled hems; genuine transparency within fabric where possible, no checkerboard painted into image. Each cloth has a distinct broad folding rhythm; no rigid glass surfaces, resin slabs, opaque satin, plastic, symbols or props. All four sheets separated, no overlap between quadrants. The animation will overlap them later, and text is outside the material.",
+  "mode": "built-in-imagegen",
+  "pixelsUnmodified": true,
+  "file": "silk-layers-atlas.png",
+  "sha256": "353086e5a0783e9cebf95e7bdaa66b1231c41c468df116aef055187af0c267c5",
+  "size": [
+    1254,
+    1254
+  ],
+  "imageMode": "RGBA",
+  "disclosure": "AI概念图；解释示意，人物原色不变"
+}

@@ -1,0 +1,17 @@
+{
+  "key": "foil-deboss",
+  "generatedSource": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-1bf5f49f-4d9a-4331-bd7f-727c1be0c873.png",
+  "file": "shared/rasters/foil-deboss-atlas.png",
+  "sha256": "ca1d0e2d2f1097ef25725963e093d2572509a569a85c48e64da2b2f78b0a65f2",
+  "size": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "prompt": "Use case: stylized-concept. Make a square 2 by 2 ORIGINAL material atlas of FOUR separate thick ivory cotton paper squares, each with one deeply DEBOSSED illustration and restrained thin gold foil on part of the recessed contour. Top-left shopping tote bag, top-right two overlapping generic blank coins, bottom-left shield with one plain checkmark, bottom-right compact heavy weight with round lifting hole. The designs are SUNK INTO the fibrous paper plane, not raised or embossed above it; show actual concave stepped inner edges, directional inner shadow, compressed paper fibers at the lower contour. Foil is thin metallic film pressed into selected grooves, subtle and imperfect; remaining design is blind deboss with no ink. Consistent low raking light from upper left makes depressions legible, nearly front-facing camera without dramatic perspective. Elegant original contemporary stationery craftsmanship, not a flat golden vector overlay, not 3D metal badges, not carved stone. Make all four complete paper squares independent with wide transparent outer margin and an EMPTY transparent central cross at least 12 percent of canvas width. No text, letters, numbers, seals, currency symbols, logos, signatures, watermarks, hands, people, equipment or tabletop. Actual transparency outside paper squares. Preserve visible fibrous texture and correct inward relief; all paper edges completely inside their quadrant.",
+  "generatedWith": "built-in image_gen",
+  "pixelsUnmodified": true,
+  "actualImageViewed": true,
+  "status": "candidate-material-only-not-a-video",
+  "scope": "Original imaginary material concepts; no actual artwork/artifact claim; no batch08 project yet"
+}

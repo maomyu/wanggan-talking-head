@@ -1,0 +1,8 @@
+[
+  {"id":"R24","title":"V&A · Quilting and patchwork","url":"https://www.vam.ac.uk/collections/quilting-and-patchwork","scope":"读取馆方拼布/绗缝区分并实际查看集合页320px织物图，只能观察中心放射图案与外围几何块面，不足以判断细针法；本片采用原创AI织片拼接图记，不复制原作构图"},
+  {"id":"R25","title":"Met · Jar with dragon, 37.191.1","url":"https://www.metmuseum.org/art/collection/search/39666","scope":"读馆方透明釉下钴蓝笔绘说明并实际看900×1200器物照，观察器口、肩腹曲面、分带笔绘与高光；本片生成原创浅盘及现代图记，不复制龙纹、款识或文物身份"},
+  {"id":"R26","title":"故宫 · 王希孟千里江山图卷","url":"https://www.dpm.org.cn/collection/paint/228354.html","scope":"读馆方长卷/多点观察/青绿材料说明并实际看1258×500局部，观察山体分组、留水、近远尺度与边角红印；只看该局部，不声称看完11米长卷或读清印文；本片是原创AI山水意象，不作真实地理"},
+  {"id":"R27","title":"敦煌研究院 · 莫高窟第217窟","url":"https://www.dha.ac.cn/info/1425/3604.htm","scope":"读馆方具体画面说明，实际看450×314整壁及450×307山水两图，观察中央/周缘故事空间、矿物平涂、不同观察距离与壁面磨损；低分辨率不能支持精细笔法判断，本片不用宗教图像或旧壁画，做原创现代物件双画带解释示意"},
+  {"id":"R28","title":"故宫 · 印版五子夺莲年画","url":"https://www.dpm.org.cn/collection/paint/232053.html","scope":"读馆方说明并实际看1024×577原作，观察简练曲线、有限色面、疏密与叙事关系；这件的颜色较柔和，本片红绿黄粗版是原创取舍，不称所有年画固定如此；不复制童子或把现代盾/包说成传统吉祥纹样"},
+  {"id":"R29","title":"Met · Xie Zhiliu exhibition, The Art of Seal Carving","url":"https://www.metmuseum.org/exhibitions/listings/2010/xie-zhiliu","scope":"读取朱白正负印、印面与边界关系说明；单件72868页禁止下载/放大，未绕过限制获取图。实际视觉观察仅来自R26局部边角可见红印，不声称读清印文或查看Met具体印面；本片原生SVG现代图记和可读字，不伪造篆字或名家/机构印章"}
+]

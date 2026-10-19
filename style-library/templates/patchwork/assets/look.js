@@ -1,0 +1,3 @@
+import{makeFiberEast}from'./fiber-east-stage.js';import geometry from'./atlas-geometry.js';
+export const LOOK={"key": "patchwork", "name": "织物拼布", "palette": {"bg": "#e9e0ce", "fg": "#473b2d", "muted": "#72624d", "accent": "#97563e", "caption": "#fcf3df", "portrait": "#e9e0ce"}, "base": {"x": 225, "y": 580, "w": 630}, "css": "#title{font-family:Serif;font-weight:700;font-size:100px}#subtitle{font-size:46px}#captions{border:3px dashed #a18b67;background:#fcf3df}#person-mask{outline:9px solid #d4bea0}#architecture{inset:510px 36px 672px;border:2px dashed #a18b67}"};
+export async function buildArt(ctx){return makeFiberEast(ctx,{mode:"patchwork",geometry})}

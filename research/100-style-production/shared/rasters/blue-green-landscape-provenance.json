@@ -1,0 +1,16 @@
+{
+  "key": "blue-green-landscape",
+  "stem": "scene",
+  "source": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-163efc2e-e1b4-472e-b094-8e066d88046b.png",
+  "prompt": "Use case: stylized-concept. Production bitmap asset for a Chinese finance talking-head explainer. Entirely original conceptual illustration, not evidence or a museum reproduction. No people, logos, currency numerals, text, letters, UI, watermark or labels. Nothing touches an outer edge. Rich visible material behavior at phone viewing scale, clear silhouette, elegant restrained composition. The real presenter is supplied separately and must not appear in this asset. Wide 2:1 panoramic original Chinese blue-green landscape handscroll on warm pale silk. Three connected mountain groups separated by generous pale winding water, linked by small footpaths and modest bridges; mineral azurite and malachite opaque layers, fine dark rock contours, tiny trees, ochre lower ridges, pale distant peaks. First group on left, central stronger island on middle, final sloping pass on right. Contours and mineral brush texture must be clearly visible. Rich steep silhouettes, multiple depths and wandering viewpoints with a spacious continuous horizontal rhythm, not an isometric map or green watercolor wash. No replicas of any named painting, no seals, calligraphy, landmarks, people, animals, treasure, icons or charts. The video will overlay its own sparse three finance labels outside the painted landscape; leave quiet pale water in the lower middle. Paint the full composition as one coherent landscape; avoid decorative gold UI frames.",
+  "mode": "built-in-imagegen",
+  "pixelsUnmodified": true,
+  "file": "blue-green-landscape-scene.png",
+  "sha256": "4c98fa9798e4d47a16f671f3fe8f1079604a2868cc65573f75af89c3fbe34480",
+  "size": [
+    1774,
+    887
+  ],
+  "imageMode": "RGB",
+  "disclosure": "AI概念图；解释示意，人物原色不变"
+}

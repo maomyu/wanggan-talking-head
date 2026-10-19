@@ -1,0 +1,3 @@
+import{makeFiberEast}from'./fiber-east-stage.js';
+export const LOOK={"key": "seal-carving", "name": "篆印朱文", "palette": {"bg": "#eee3cf", "fg": "#4f3c2e", "muted": "#75624f", "accent": "#a23b2c", "caption": "#fff5e1", "portrait": "#eee3cf"}, "base": {"x": 225, "y": 585, "w": 630}, "css": "#title{font-family:Serif;font-weight:700;font-size:100px}#subtitle{font-size:46px}#captions{border-left:7px solid #a23b2c;border-top:0}#person-mask{outline:5px solid #a23b2c;outline-offset:7px}#kicker{border:2px solid #a23b2c;padding:6px;width:112px}"};
+export async function buildArt(ctx){return makeFiberEast(ctx,{mode:"seal-carving"})}

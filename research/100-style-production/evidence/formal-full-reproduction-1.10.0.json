@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "key": "blue-green-landscape",
+  "version": "1.10.0",
+  "scope": "从正式插件独立init/build/check/render/verify生成完整1100帧；与研究成片逐秒像素和完整解码音频比较",
+  "sourceSha256": "acfda5afc73edd4a36226f6c3e6abba7dd208e90438cadc2911e17dcb26f6e2f",
+  "formalSha256": "fef737c6e6c89da60691b35998e301a81a6ff8af17662a6de1f073ee4af305c1",
+  "identicalEncodedFile": false,
+  "pixelMetrics": {
+    "sampledFrames": 37,
+    "mean": 0.0017718412857301745,
+    "max": 0.011484053497942386
+  },
+  "decodedVoiceIdentical": true
+}

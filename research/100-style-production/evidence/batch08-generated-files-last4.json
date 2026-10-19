@@ -1,0 +1,70 @@
+[
+  {
+    "key": "watercolor",
+    "generatedSource": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-1e99df01-c1f4-4218-88e0-1de9929e1a97.png",
+    "file": "shared/rasters/watercolor-atlas.png",
+    "sha256": "b9b28382e13dc322ded45090e0f58012500bcad7e3b96ec4cfa8c0b4120db4ad",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "prompt": "Use case: stylized-concept. Create an ORIGINAL square 2 by 2 atlas of FOUR independent watercolor illustration fragments, not a complete screen design. Fixed order: top-left simple shopping tote bag; top-right two overlapping generic blank coins; bottom-left a shield with one simple checkmark; bottom-right a compact heavy lifting weight with round hole. No letters, text, numerals, currency marks or logos. Real luminous transparent watercolor washes on visible textured white watercolor paper, granulated pigment, wet-in-wet diffusion, irregular dried tidelines, a few dry-brush broken edges, preserved paper-white highlights. Colors muted rust, ochre, forest green and slate blue. Each object is clearly recognizable with controlled soft and hard edges, not outlined with black vectors. NOT thick opaque gouache, impasto, colored pencil, plastic or fuzzy digital blur. Each complete painted fragment includes a modest irregular white paper support around its image and is isolated on a true transparent background outside that fragment. Four fragments fit safely within separate quadrants, generous outer margins and at least 12 percent width EMPTY transparent central cross, no touching or clipped paper or subject. Straight-on natural neutral light, no external tabletop, no cast shadows across central gap. Original conceptual modern symbols, not actual artwork by an artist. No people, tools, signatures, watermarks, decorative flowers or extra objects.",
+    "generatedWith": "built-in image_gen",
+    "pixelsUnmodified": true,
+    "actualImageViewed": true,
+    "status": "candidate-material-only-not-a-video",
+    "scope": "Original imaginary material concepts; no actual artwork/artifact claim; no batch08 project yet"
+  },
+  {
+    "key": "foil-deboss",
+    "generatedSource": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-1bf5f49f-4d9a-4331-bd7f-727c1be0c873.png",
+    "file": "shared/rasters/foil-deboss-atlas.png",
+    "sha256": "ca1d0e2d2f1097ef25725963e093d2572509a569a85c48e64da2b2f78b0a65f2",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "prompt": "Use case: stylized-concept. Make a square 2 by 2 ORIGINAL material atlas of FOUR separate thick ivory cotton paper squares, each with one deeply DEBOSSED illustration and restrained thin gold foil on part of the recessed contour. Top-left shopping tote bag, top-right two overlapping generic blank coins, bottom-left shield with one plain checkmark, bottom-right compact heavy weight with round lifting hole. The designs are SUNK INTO the fibrous paper plane, not raised or embossed above it; show actual concave stepped inner edges, directional inner shadow, compressed paper fibers at the lower contour. Foil is thin metallic film pressed into selected grooves, subtle and imperfect; remaining design is blind deboss with no ink. Consistent low raking light from upper left makes depressions legible, nearly front-facing camera without dramatic perspective. Elegant original contemporary stationery craftsmanship, not a flat golden vector overlay, not 3D metal badges, not carved stone. Make all four complete paper squares independent with wide transparent outer margin and an EMPTY transparent central cross at least 12 percent of canvas width. No text, letters, numbers, seals, currency symbols, logos, signatures, watermarks, hands, people, equipment or tabletop. Actual transparency outside paper squares. Preserve visible fibrous texture and correct inward relief; all paper edges completely inside their quadrant.",
+    "generatedWith": "built-in image_gen",
+    "pixelsUnmodified": true,
+    "actualImageViewed": true,
+    "status": "candidate-material-only-not-a-video",
+    "scope": "Original imaginary material concepts; no actual artwork/artifact claim; no batch08 project yet"
+  },
+  {
+    "key": "mosaic",
+    "generatedSource": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-a34a907b-8014-465e-a854-9fe7c8df3563.png",
+    "file": "shared/rasters/mosaic-atlas.png",
+    "sha256": "357dcb890e2303f7d553ea84a9b7dbbf3a0ec95015e24c759109366c77cfa4c2",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "prompt": "Use case: stylized-concept. Create an ORIGINAL square 2 by 2 atlas of FOUR independent physical stone-and-ceramic mosaic panels isolated on transparent background. Top-left shopping tote bag, top-right two overlapping generic blank coin discs, bottom-left shield with simple checkmark, bottom-right compact lifting weight with round hole. The ENTIRE imagery is constructed from visibly separate hand-cut tesserae set in pale warm mortar, including the off-white background field. Each tile is visibly distinct in size, tiny irregular trapezoids and squares, natural ceramic glaze / stone texture and slightly uneven surface; laying directions turn to follow the object contours rather than a uniform pixel grid. Warm terracotta for bag, ochre for coins, forest-green for shield, slate-gray for weight, cream field, restrained charcoal contour tiles. Objects simple and readable, no invented letters, inscriptions, currency marks or logos. Consistent side light reveals subtle tile height differences and real mortar gaps. NOT a photograph with a mesh overlay, not pixels or tiny decorative dots, not stained glass or grout painted on a smooth vector icon. Four small rectangular panels each complete, well within its quadrant, with generous transparent outside margin and at least 12 percent canvas-width EMPTY transparent central cross. No touching, cropped edges, people, ancient scenes, tools, signatures or watermarks. Contemporary original conceptual panels, no claim of being real antiquities.",
+    "generatedWith": "built-in image_gen",
+    "pixelsUnmodified": true,
+    "actualImageViewed": true,
+    "status": "candidate-material-only-not-a-video",
+    "scope": "Original imaginary material concepts; no actual artwork/artifact claim; no batch08 project yet"
+  },
+  {
+    "key": "sandstone-relief",
+    "generatedSource": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-09996407-669b-4415-97ac-32ba0901385c.png",
+    "file": "shared/rasters/sandstone-relief-atlas.png",
+    "sha256": "1e07d9e3f50a6b1b0fb231eed0355fa500eab6675800fec71ce94b630d197b86",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "prompt": "Use case: stylized-concept. Make an original square 2 by 2 material atlas of FOUR separate buff sandstone low-relief slabs isolated on transparent background. Fixed subjects top-left shopping tote bag, top-right two overlapping generic blank coins, bottom-left shield with a plain checkmark, bottom-right compact heavy lifting weight with round hole. These are actual carved stone relief concepts: remove the stone field around the motif to a lower plane; clearly show the higher but shallow motif surface, sloping carved wall, recessed field, tiny granular stone pores continuing through all planes, a few restrained tool traces. The raised shallow shapes and lowered field must be structurally visible with consistent low raking light from upper left producing real relief shadows, not ink outlines, not painted or textured flat icons. All stone is ONE material with subtle buff tonal variations, no colored paint, no metal, no marble gloss. Nearly front-facing slight three-quarter camera so both top and relief sidewalls can be seen, matched across all slabs. Four complete rectangular slabs safely inside quadrants, generous transparent margin and an EMPTY transparent central cross at least 12 percent canvas width. No letters, numerals, currency marks, names, ancient inscriptions, signatures, logos, people, tools, architectural ruins or extra objects. Contemporary original carvings, not real artifacts or a named sculptor's work. Real transparency outside each complete slab, never crop edges.",
+    "generatedWith": "built-in image_gen",
+    "pixelsUnmodified": true,
+    "actualImageViewed": true,
+    "status": "candidate-material-only-not-a-video",
+    "scope": "Original imaginary material concepts; no actual artwork/artifact claim; no batch08 project yet"
+  }
+]

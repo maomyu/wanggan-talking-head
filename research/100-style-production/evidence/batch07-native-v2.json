@@ -1,0 +1,190 @@
+{
+  "ok": true,
+  "scope": "actual art-region PNG comparison after nonsequential seeks; computed opaque reading-role contrast",
+  "results": [
+    {
+      "key": "patchwork",
+      "artPixelReverseSeek": true,
+      "artSha256": "39970df10f34e43a0567adc8083a065d9660c12654fcb27658723f2ae438d9cc",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 8.293601758674024
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 8.293601758674024
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 9.850316130128162
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 8.293601758674024
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "artPixelReverseSeek": true,
+      "artSha256": "fb6421e1948f93b5b1bcb57e3c08a231a059dadc84dbfd10c5a154bd5c5b9e22",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 7.506322938095384
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 7.506322938095384
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 8.980895746575099
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 7.506322938095384
+        }
+      ]
+    },
+    {
+      "key": "silk-layers",
+      "artPixelReverseSeek": true,
+      "artSha256": "07d317a828529df6637c414698bedebb2bd03ad3b86e72092f1c06c6266d73b7",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 8.360390961034916
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 8.360390961034916
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 9.327218274013301
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 8.360390961034916
+        }
+      ]
+    },
+    {
+      "key": "blue-green-landscape",
+      "artPixelReverseSeek": true,
+      "artSha256": "8048c3a61fb5f50ad7c461dae24d6cceeaad3df12d22918859bc7c92b5baf4ab",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 7.06375496502213
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 7.06375496502213
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 8.42968899143308
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 7.06375496502213
+        }
+      ]
+    },
+    {
+      "key": "mural",
+      "artPixelReverseSeek": true,
+      "artSha256": "3559e60ee6fe43fb67d59ff1bf5bf29002712b38ac49d7bc0ddc9541b204a48a",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 7.383496526336977
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 7.383496526336977
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 9.313949565548397
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 7.383496526336977
+        }
+      ]
+    },
+    {
+      "key": "folk-woodblock",
+      "artPixelReverseSeek": true,
+      "artSha256": "66dc0945a2b82ddafe683fda283548515b615cdc1614f0f1aac417f905be3149",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 10.216912330672653
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 10.216912330672653
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 12.125556799658808
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 10.216912330672653
+        }
+      ]
+    },
+    {
+      "key": "porcelain-painting",
+      "artPixelReverseSeek": true,
+      "artSha256": "87f3dedf327d3aaf880aa7f7f623d920ecca1a9382ae256f312b13ea5ed89e1d",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 8.691254827546707
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 8.691254827546707
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 9.806811331991028
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 8.691254827546707
+        }
+      ]
+    },
+    {
+      "key": "seal-carving",
+      "artPixelReverseSeek": true,
+      "artSha256": "4e681b9781747681d2b1ec2771cf1ea719c103211868b48691189f3423a7f2f1",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 8.187330502148482
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 8.187330502148482
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 9.612403458160209
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 8.187330502148482
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "ok": true,
+  "assets": [
+    {
+      "key": "patchwork",
+      "boxes": {
+        "bag": [
+          73,
+          14,
+          522,
+          585
+        ],
+        "coin": [
+          674,
+          68,
+          522,
+          491
+        ],
+        "shield": [
+          103,
+          646,
+          474,
+          550
+        ],
+        "weight": [
+          702,
+          643,
+          477,
+          573
+        ]
+      },
+      "transparentPixels": 783753,
+      "partialAlphaPixels": 787260,
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "key": "silk-layers",
+      "boxes": {
+        "bag": [
+          43,
+          33,
+          584,
+          565
+        ],
+        "coin": [
+          627,
+          47,
+          603,
+          553
+        ],
+        "shield": [
+          20,
+          644,
+          607,
+          570
+        ],
+        "weight": [
+          627,
+          655,
+          620,
+          574
+        ]
+      },
+      "transparentPixels": 523059,
+      "partialAlphaPixels": 1048736,
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "key": "blue-green-landscape",
+      "size": [
+        1774,
+        887
+      ],
+      "wholeOriginalScene": true
+    },
+    {
+      "key": "mural",
+      "size": [
+        1536,
+        1024
+      ],
+      "wholeOriginalScene": true
+    },
+    {
+      "key": "folk-woodblock",
+      "boxes": {
+        "bag": [
+          52,
+          30,
+          526,
+          597
+        ],
+        "coin": [
+          674,
+          92,
+          549,
+          521
+        ],
+        "shield": [
+          80,
+          627,
+          493,
+          589
+        ],
+        "weight": [
+          653,
+          669,
+          568,
+          550
+        ]
+      },
+      "transparentPixels": 724764,
+      "partialAlphaPixels": 847000,
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "key": "porcelain-painting",
+      "boxes": {
+        "bag": [
+          42,
+          40,
+          570,
+          569
+        ],
+        "coin": [
+          643,
+          40,
+          575,
+          570
+        ],
+        "shield": [
+          44,
+          639,
+          567,
+          561
+        ],
+        "weight": [
+          645,
+          640,
+          563,
+          562
+        ]
+      },
+      "transparentPixels": 541758,
+      "partialAlphaPixels": 1030246,
+      "size": [
+        1254,
+        1254
+      ]
+    }
+  ],
+  "scope": "原始PNG复制、alpha区域与象限边界测量；无图像编辑，几何仅供SVG裁切定位"
+}

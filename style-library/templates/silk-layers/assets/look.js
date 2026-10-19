@@ -1,0 +1,3 @@
+import{makeFiberEast}from'./fiber-east-stage.js';import geometry from'./atlas-geometry.js';
+export const LOOK={"key": "silk-layers", "name": "绢纱叠层", "palette": {"bg": "#e9eee4", "fg": "#33483b", "muted": "#5c6e60", "accent": "#806642", "caption": "#fbf9ed", "portrait": "#e9eee4"}, "base": {"x": 225, "y": 580, "w": 630}, "css": "#title{font-family:Serif;font-weight:700;font-size:100px}#subtitle{font-size:46px}#captions{border-left:6px solid #806642;border-top:0}#person-mask{outline:6px solid #f5f1db}"};
+export async function buildArt(ctx){return makeFiberEast(ctx,{mode:"silk-layers",geometry})}

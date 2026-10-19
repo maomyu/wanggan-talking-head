@@ -1,0 +1,16 @@
+{
+  "key": "folk-woodblock",
+  "stem": "atlas",
+  "source": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-ba3e0a6f-32d3-423c-9e35-aba79474b1f9.png",
+  "prompt": "Use case: stylized-concept. Production bitmap asset for a Chinese finance talking-head explainer. Entirely original conceptual illustration, not evidence or a museum reproduction. No people, logos, currency numerals, text, letters, UI, watermark or labels. Nothing touches an outer edge. Rich visible material behavior at phone viewing scale, clear silhouette, elegant restrained composition. The real presenter is supplied separately and must not appear in this asset. Square transparent RGBA sprite atlas. Exactly four fully separate objects on a 2 by 2 grid, large transparent cross gutters and generous transparent outer margin: top left a simple shopping tote bag with handle; top right two overlapping blank coins; bottom left a shield with a single check cutout or mark; bottom right a heavy round-holed weight. These four objects do not overlap each other; no secondary fragments in the gaps. Front readable view, unified soft top-left light. Medium: original multicolor folk woodblock print on lightly visible warm fibrous paper within each object. Strong uneven black keyblock contours, confident simplified curving forms, limited vermilion red, pine green and golden yellow separate color impressions, tiny irregular registration offsets and clearly carved white notches. Lively symmetrical internal ornament follows the form without becoming symbols or words. Bag, two coins, protective shield and load are modern explanatory motifs inspired by printmaking, not claims of traditional auspicious meaning. The silhouettes should look like robust hand-printed festive sheets, not photoreal objects, comic halftone, ink-wash, monochrome engraving or risograph dots. Clear carved highlight gaps, absolutely no paper rectangle behind the entire atlas.",
+  "mode": "built-in-imagegen",
+  "pixelsUnmodified": true,
+  "file": "folk-woodblock-atlas.png",
+  "sha256": "3ae866e973f86217aeb39493051f03537f24adab577b1a35429e0f50cf1ec6d1",
+  "size": [
+    1254,
+    1254
+  ],
+  "imageMode": "RGBA",
+  "disclosure": "AI概念图；解释示意，人物原色不变"
+}

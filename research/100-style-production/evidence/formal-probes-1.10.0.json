@@ -1,0 +1,102 @@
+{
+  "ok": true,
+  "version": "1.10.0",
+  "results": [
+    {
+      "key": "patchwork",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.10.0/patchwork",
+      "base": [
+        225,
+        580,
+        630,
+        630
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "knotted-cord",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.10.0/knotted-cord",
+      "base": [
+        220,
+        585,
+        640,
+        640
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "silk-layers",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.10.0/silk-layers",
+      "base": [
+        225,
+        580,
+        630,
+        630
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "blue-green-landscape",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.10.0/blue-green-landscape",
+      "base": [
+        225,
+        580,
+        630,
+        630
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "mural",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.10.0/mural",
+      "base": [
+        220,
+        580,
+        640,
+        640
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "folk-woodblock",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.10.0/folk-woodblock",
+      "base": [
+        225,
+        580,
+        630,
+        630
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "porcelain-painting",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.10.0/porcelain-painting",
+      "base": [
+        225,
+        580,
+        630,
+        630
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "seal-carving",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.10.0/seal-carving",
+      "base": [
+        225,
+        585,
+        630,
+        630
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    }
+  ]
+}

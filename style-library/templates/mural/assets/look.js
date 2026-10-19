@@ -1,0 +1,3 @@
+import{makeFiberEast}from'./fiber-east-stage.js';import geometry from'./atlas-geometry.js';
+export const LOOK={"key": "mural", "name": "敦煌壁画", "palette": {"bg": "#e6d8c1", "fg": "#4d3d30", "muted": "#75604c", "accent": "#985b3d", "caption": "#fff1dc", "portrait": "#e6d8c1"}, "base": {"x": 220, "y": 580, "w": 640}, "css": "#title{font-family:Serif;font-weight:700;font-size:100px}#subtitle{font-size:46px}#captions{border-top:5px solid #985b3d}#heading{border-top:2px solid #985b3d;padding-top:8px}#person-mask{outline:6px solid #b89a72}"};
+export async function buildArt(ctx){return makeFiberEast(ctx,{mode:"mural",geometry})}

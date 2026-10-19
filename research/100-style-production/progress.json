@@ -2,9 +2,9 @@
   "goal": "100个实际画风视频与正式插件整合",
   "total": 100,
   "userApproved": 20,
-  "productionVerified": 46,
+  "productionVerified": 54,
   "inProduction": 0,
-  "queued": 34,
+  "queued": 26,
   "styles": [
     {
       "id": "A01",
@@ -613,27 +613,30 @@
       "key": "patchwork",
       "name": "织物拼布",
       "family": "fiber",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/patchwork/outputs/final.mp4"
     },
     {
       "id": "A65",
       "key": "knotted-cord",
       "name": "线绳编结",
       "family": "fiber",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/knotted-cord/outputs/final.mp4"
     },
     {
       "id": "A66",
       "key": "silk-layers",
       "name": "绢纱叠层",
       "family": "fiber",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/silk-layers/outputs/final.mp4"
     },
     {
       "id": "A67",
@@ -650,45 +653,50 @@
       "key": "blue-green-landscape",
       "name": "青绿山水",
       "family": "painting",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/blue-green-landscape/outputs/final.mp4"
     },
     {
       "id": "A69",
       "key": "mural",
       "name": "敦煌壁画",
       "family": "painting",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/mural/outputs/final.mp4"
     },
     {
       "id": "A70",
       "key": "folk-woodblock",
       "name": "版刻年画",
       "family": "painting",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/folk-woodblock/outputs/final.mp4"
     },
     {
       "id": "A71",
       "key": "porcelain-painting",
       "name": "蓝白瓷绘",
       "family": "painting",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/porcelain-painting/outputs/final.mp4"
     },
     {
       "id": "A72",
       "key": "seal-carving",
       "name": "篆印朱文",
       "family": "painting",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/seal-carving/outputs/final.mp4"
     },
     {
       "id": "A73",

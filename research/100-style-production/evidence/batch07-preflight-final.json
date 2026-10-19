@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "records": [
+    {
+      "key": "patchwork",
+      "ok": true,
+      "checkSource": "variants/patchwork/qa/check.json"
+    },
+    {
+      "key": "knotted-cord",
+      "ok": true,
+      "checkSource": "variants/knotted-cord/qa/check.json"
+    },
+    {
+      "key": "silk-layers",
+      "ok": true,
+      "checkSource": "variants/silk-layers/qa/check.json"
+    },
+    {
+      "key": "blue-green-landscape",
+      "ok": true,
+      "checkSource": "variants/blue-green-landscape/qa/check.json"
+    },
+    {
+      "key": "mural",
+      "ok": true,
+      "checkSource": "variants/mural/qa/check.json"
+    },
+    {
+      "key": "folk-woodblock",
+      "ok": true,
+      "checkSource": "variants/folk-woodblock/qa/check.json"
+    },
+    {
+      "key": "porcelain-painting",
+      "ok": true,
+      "checkSource": "variants/porcelain-painting/qa/check.json"
+    },
+    {
+      "key": "seal-carving",
+      "ok": true,
+      "checkSource": "variants/seal-carving/qa/check.json"
+    }
+  ],
+  "scope": "八工程各自最后一次固定CLI check；不把静态成功冒充动效或实际编码验收"
+}

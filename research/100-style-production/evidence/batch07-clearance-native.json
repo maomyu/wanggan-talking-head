@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "encoded": false,
+  "records": [
+    {
+      "key": "folk-woodblock",
+      "time": 14.4,
+      "actualFirstInkY": 1081.0,
+      "actualLastInkY": 1134.0,
+      "edgeY": 1062.5,
+      "wordSide": "after",
+      "gapPixels": 18.5,
+      "sha256": null
+    },
+    {
+      "key": "folk-woodblock",
+      "time": 11.5,
+      "actualFirstInkY": 1009.0,
+      "actualLastInkY": 1058.0,
+      "edgeY": 1077.5,
+      "wordSide": "before",
+      "gapPixels": 19.5,
+      "sha256": null
+    },
+    {
+      "key": "porcelain-painting",
+      "time": 24.4,
+      "actualFirstInkY": 1153.0,
+      "actualLastInkY": 1226.0,
+      "edgeY": 1135,
+      "wordSide": "after",
+      "gapPixels": 18.0,
+      "sha256": null
+    }
+  ],
+  "scope": "实际PNG字形墨迹至画屏边线的空白；瓷绘风险段已删除无作用横线，以完整盘图600px下界作保守边界。非DOM文字框，普通读字与实际成片另查"
+}

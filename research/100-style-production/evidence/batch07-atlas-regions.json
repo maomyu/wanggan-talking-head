@@ -1,0 +1,174 @@
+{
+  "ok": true,
+  "records": [
+    {
+      "key": "patchwork",
+      "cuts": [
+        633,
+        620
+      ],
+      "verticalGutter": [
+        594,
+        673
+      ],
+      "horizontalGutter": [
+        598,
+        643
+      ],
+      "boxes": {
+        "bag": [
+          70,
+          11,
+          528,
+          591
+        ],
+        "coin": [
+          671,
+          67,
+          528,
+          493
+        ],
+        "shield": [
+          100,
+          643,
+          480,
+          556
+        ],
+        "weight": [
+          699,
+          641,
+          483,
+          577
+        ]
+      },
+      "opaquePixelsOnBothCuts": 0
+    },
+    {
+      "key": "silk-layers",
+      "cuts": [
+        651,
+        621
+      ],
+      "verticalGutter": [
+        639,
+        663
+      ],
+      "horizontalGutter": [
+        599,
+        643
+      ],
+      "boxes": {
+        "bag": [
+          40,
+          30,
+          592,
+          571
+        ],
+        "coin": [
+          660,
+          44,
+          573,
+          559
+        ],
+        "shield": [
+          17,
+          641,
+          625,
+          575
+        ],
+        "weight": [
+          670,
+          653,
+          580,
+          578
+        ]
+      },
+      "opaquePixelsOnBothCuts": 0
+    },
+    {
+      "key": "folk-woodblock",
+      "cuts": [
+        614,
+        637
+      ],
+      "verticalGutter": [
+        577,
+        652
+      ],
+      "horizontalGutter": [
+        629,
+        646
+      ],
+      "boxes": {
+        "bag": [
+          49,
+          27,
+          532,
+          605
+        ],
+        "coin": [
+          671,
+          89,
+          555,
+          527
+        ],
+        "shield": [
+          78,
+          643,
+          497,
+          575
+        ],
+        "weight": [
+          650,
+          666,
+          574,
+          555
+        ]
+      },
+      "opaquePixelsOnBothCuts": 0
+    },
+    {
+      "key": "porcelain-painting",
+      "cuts": [
+        627,
+        624
+      ],
+      "verticalGutter": [
+        612,
+        642
+      ],
+      "horizontalGutter": [
+        609,
+        639
+      ],
+      "boxes": {
+        "bag": [
+          39,
+          37,
+          576,
+          575
+        ],
+        "coin": [
+          640,
+          37,
+          579,
+          575
+        ],
+        "shield": [
+          41,
+          636,
+          573,
+          567
+        ],
+        "weight": [
+          642,
+          637,
+          569,
+          566
+        ]
+      },
+      "opaquePixelsOnBothCuts": 0
+    }
+  ],
+  "scope": "测原始透明图集的实际间隙；避免简单四等分切掉宽纱片或带入邻区碎片，保留全部原始像素"
+}

@@ -1,0 +1,342 @@
+{
+  "ok": true,
+  "records": [
+    {
+      "key": "lacquer-gold",
+      "cuts": [
+        626,
+        628
+      ],
+      "verticalGutter": [
+        581,
+        672
+      ],
+      "horizontalGutter": [
+        580,
+        677
+      ],
+      "boxes": {
+        "bag": [
+          109,
+          122,
+          476,
+          462
+        ],
+        "coin": [
+          670,
+          120,
+          479,
+          464
+        ],
+        "shield": [
+          107,
+          674,
+          475,
+          467
+        ],
+        "weight": [
+          670,
+          674,
+          481,
+          467
+        ]
+      },
+      "opaquePixelsOnBothCuts": 0
+    },
+    {
+      "key": "watercolor",
+      "cuts": [
+        636,
+        617
+      ],
+      "verticalGutter": [
+        567,
+        705
+      ],
+      "horizontalGutter": [
+        578,
+        657
+      ],
+      "boxes": {
+        "bag": [
+          50,
+          35,
+          520,
+          546
+        ],
+        "coin": [
+          702,
+          113,
+          525,
+          455
+        ],
+        "shield": [
+          67,
+          654,
+          467,
+          553
+        ],
+        "weight": [
+          729,
+          656,
+          477,
+          560
+        ]
+      },
+      "opaquePixelsOnBothCuts": 0
+    },
+    {
+      "key": "impasto",
+      "cuts": [
+        629,
+        619
+      ],
+      "verticalGutter": [
+        585,
+        673
+      ],
+      "horizontalGutter": [
+        584,
+        654
+      ],
+      "boxes": {
+        "bag": [
+          85,
+          71,
+          504,
+          512
+        ],
+        "coin": [
+          672,
+          78,
+          499,
+          510
+        ],
+        "shield": [
+          76,
+          651,
+          505,
+          508
+        ],
+        "weight": [
+          670,
+          668,
+          509,
+          493
+        ]
+      },
+      "opaquePixelsOnBothCuts": 0
+    },
+    {
+      "key": "enamel-badge",
+      "cuts": [
+        639,
+        631
+      ],
+      "verticalGutter": [
+        564,
+        714
+      ],
+      "horizontalGutter": [
+        564,
+        698
+      ],
+      "boxes": {
+        "bag": [
+          88,
+          57,
+          448,
+          508
+        ],
+        "coin": [
+          731,
+          144,
+          459,
+          390
+        ],
+        "shield": [
+          109,
+          695,
+          410,
+          471
+        ],
+        "weight": [
+          754,
+          707,
+          424,
+          439
+        ]
+      },
+      "opaquePixelsOnBothCuts": 0
+    },
+    {
+      "key": "foil-deboss",
+      "cuts": [
+        627,
+        629
+      ],
+      "verticalGutter": [
+        584,
+        671
+      ],
+      "horizontalGutter": [
+        589,
+        669
+      ],
+      "boxes": {
+        "bag": [
+          46,
+          42,
+          542,
+          550
+        ],
+        "coin": [
+          668,
+          41,
+          547,
+          550
+        ],
+        "shield": [
+          43,
+          668,
+          544,
+          544
+        ],
+        "weight": [
+          670,
+          667,
+          542,
+          546
+        ]
+      },
+      "opaquePixelsOnBothCuts": 0
+    },
+    {
+      "key": "mosaic",
+      "cuts": [
+        630,
+        626
+      ],
+      "verticalGutter": [
+        566,
+        694
+      ],
+      "horizontalGutter": [
+        565,
+        687
+      ],
+      "boxes": {
+        "bag": [
+          42,
+          43,
+          521,
+          526
+        ],
+        "coin": [
+          691,
+          43,
+          523,
+          522
+        ],
+        "shield": [
+          44,
+          684,
+          526,
+          515
+        ],
+        "weight": [
+          691,
+          686,
+          523,
+          514
+        ]
+      },
+      "opaquePixelsOnBothCuts": 0
+    },
+    {
+      "key": "stained-glass",
+      "cuts": [
+        626,
+        621
+      ],
+      "verticalGutter": [
+        600,
+        653
+      ],
+      "horizontalGutter": [
+        591,
+        652
+      ],
+      "boxes": {
+        "bag": [
+          55,
+          53,
+          548,
+          542
+        ],
+        "coin": [
+          651,
+          53,
+          549,
+          543
+        ],
+        "shield": [
+          52,
+          650,
+          550,
+          541
+        ],
+        "weight": [
+          651,
+          651,
+          551,
+          540
+        ]
+      },
+      "opaquePixelsOnBothCuts": 0
+    },
+    {
+      "key": "sandstone-relief",
+      "cuts": [
+        632,
+        626
+      ],
+      "verticalGutter": [
+        567,
+        698
+      ],
+      "horizontalGutter": [
+        578,
+        675
+      ],
+      "boxes": {
+        "bag": [
+          56,
+          64,
+          513,
+          517
+        ],
+        "coin": [
+          695,
+          64,
+          513,
+          517
+        ],
+        "shield": [
+          56,
+          672,
+          515,
+          514
+        ],
+        "weight": [
+          698,
+          673,
+          512,
+          513
+        ]
+      },
+      "opaquePixelsOnBothCuts": 0
+    }
+  ],
+  "scope": "测原始透明图集的实际间隙；避免简单四等分切掉完整对象或带入邻区碎片，保留全部原始像素。原图区域测量不代表已完成视频。"
+}

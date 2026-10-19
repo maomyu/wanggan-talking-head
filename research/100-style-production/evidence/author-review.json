@@ -46,11 +46,19 @@
     "silhouette-fable",
     "illustrated-map",
     "torn-paper",
-    "natural-history"
+    "natural-history",
+    "patchwork",
+    "knotted-cord",
+    "silk-layers",
+    "blue-green-landscape",
+    "mural",
+    "folk-woodblock",
+    "porcelain-painting",
+    "seal-carving"
   ],
   "needsRevision": [],
-  "sourceVersion": "batch04-final-1.7.0",
-  "reviewedAt": "2026-10-20T03:02:11.585243+08:00",
+  "sourceVersion": "batch07-final-1.10.0",
+  "reviewedAt": "2026-10-20T05:38:32.165034+08:00",
   "videoSha256": {
     "woodcut": "1922f51c7f1c49c79351937dcb7284f47c1f339fa0f669dc606c2489cb169402",
     "risograph": "18819130f47aa724167a8a629eb85a8704e646a1b00d49c7fbe27c85014948d0",
@@ -97,6 +105,14 @@
     "silhouette-fable": "fd06ab875f65cc6f8bba91d599f7eb6763fce7dfae22cf3d09e608ad83dcda7d",
     "illustrated-map": "265f7243bf886583893784745453d9cae1024ef60b386e95e6d55b625177952c",
     "torn-paper": "464a6c12b5e0232c72f1ae6dc348ce213a156e5390bdfc0471dc5c684c35061a",
-    "natural-history": "0aa66a8c67b7619f45b8f6dd322ea5f62815af40783e4a4b5aaae7897b847176"
+    "natural-history": "0aa66a8c67b7619f45b8f6dd322ea5f62815af40783e4a4b5aaae7897b847176",
+    "patchwork": "bdfd72a9a1226daa659a731f9749a575f209b913ca53d10660e633c6f024ebbb",
+    "knotted-cord": "a2c2ddbd686a2e5bfc03bfddfe1dd3c76981fbb1c3ca9ddd9ead0e19679c351c",
+    "silk-layers": "2173223db61509cc784cd7473ae1b414a73af990f3f22a6898375367d4416dcd",
+    "blue-green-landscape": "acfda5afc73edd4a36226f6c3e6abba7dd208e90438cadc2911e17dcb26f6e2f",
+    "mural": "778bf7c7c3bbde2c0ee63f3631c779281718e3b9d50564d87d73e316ed2523a5",
+    "folk-woodblock": "367489912b0b3343aa1fad6f456342dd24849109d244d8816d634c06d156f1cf",
+    "porcelain-painting": "af2fd7394f76812906287f211f27155ff7b3921c84e5434c77bbabad51f6c0a9",
+    "seal-carving": "5342003184fb4f1acf5cafde0f0cf4aa9efa690e91bf62e050402a13b99ca0ea"
   }
 }

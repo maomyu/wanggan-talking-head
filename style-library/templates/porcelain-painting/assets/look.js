@@ -1,0 +1,3 @@
+import{makeFiberEast}from'./fiber-east-stage.js';import geometry from'./atlas-geometry.js';
+export const LOOK={"key": "porcelain-painting", "name": "蓝白瓷绘", "palette": {"bg": "#e8eef0", "fg": "#2a4264", "muted": "#5c6d7d", "accent": "#355c8d", "caption": "#fbfbf5", "portrait": "#e8eef0"}, "base": {"x": 225, "y": 580, "w": 630}, "css": "#title{font-family:Serif;font-weight:700;font-size:100px}#subtitle{font-size:46px}#captions{border-top:3px solid #355c8d}#person-mask{outline:9px solid #fafbf6;box-shadow:0 0 0 12px #7794b0}#heading{border-bottom:1px solid #7794b0;padding-bottom:12px}"};
+export async function buildArt(ctx){return makeFiberEast(ctx,{mode:"porcelain-painting",geometry})}

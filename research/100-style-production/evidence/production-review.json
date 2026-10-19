@@ -352,7 +352,87 @@
       "volume": 1
     },
     {
+      "name": "织物拼布",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "线绳编结",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "绢纱叠层",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
       "name": "工笔设色",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "青绿山水",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "敦煌壁画",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "版刻年画",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "蓝白瓷绘",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "篆印朱文",
       "range": 206,
       "seek": 18.9,
       "width": 1080,

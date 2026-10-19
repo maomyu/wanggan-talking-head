@@ -1,0 +1,16 @@
+{
+  "key": "porcelain-painting",
+  "stem": "atlas",
+  "source": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-e9d85d7b-f127-41b9-aaee-608c740ee8e9.png",
+  "prompt": "Use case: stylized-concept. Production bitmap asset for a Chinese finance talking-head explainer. Entirely original conceptual illustration, not evidence or a museum reproduction. No people, logos, currency numerals, text, letters, UI, watermark or labels. Nothing touches an outer edge. Rich visible material behavior at phone viewing scale, clear silhouette, elegant restrained composition. The real presenter is supplied separately and must not appear in this asset. Square transparent RGBA atlas of four separate original white porcelain plates in 2 by 2 grid, broad transparent gutters and margins. Each is a complete gently curved shallow porcelain dish photographed from only 12 degrees off frontal, round in reading with tangible thick rim, small foot/contact shadow, subtle blue-white glaze highlights and porcelain thickness. Top-left plate has a simple hand-painted cobalt-blue shopping bag in its central well. Top-right plate has two overlapping blank cobalt coin circles. Bottom-left plate has a large cobalt-blue protective shield with a white check. Bottom-right plate has one plain cobalt weight with a round hole. Fine freehand blue brush edges under a clear glaze, sparse original curved abstract blue rim strokes; visible concavity and brush painting conforming to the dish surface. No dragon, palace, museum mark, characters, logos or imitation antique seal. Motifs must be clearly distinguishable, prominent, and painted into the actual ceramic surface, not floating flat stickers. Unified soft studio light; no square white backdrop. Avoid glass, soft clay, flat blue-and-white UI or overdecorated floral frames.",
+  "mode": "built-in-imagegen",
+  "pixelsUnmodified": true,
+  "file": "porcelain-painting-atlas.png",
+  "sha256": "c29f338ee71ffa0184f03fd203498533af56579c66b6280e092833e3b4b005ff",
+  "size": [
+    1254,
+    1254
+  ],
+  "imageMode": "RGBA",
+  "disclosure": "AI概念图；解释示意，人物原色不变"
+}

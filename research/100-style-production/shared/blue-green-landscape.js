@@ -1,0 +1,3 @@
+import{makeFiberEast}from'./fiber-east-stage.js';import geometry from'./atlas-geometry.js';
+export const LOOK={"key": "blue-green-landscape", "name": "青绿山水", "palette": {"bg": "#e7dec8", "fg": "#344b3d", "muted": "#637054", "accent": "#8c5d37", "caption": "#faf1df", "portrait": "#e7dec8"}, "base": {"x": 225, "y": 580, "w": 630}, "css": "#title{font-family:Serif;font-weight:700;font-size:100px}#subtitle{font-size:46px}#heading{border-left:5px solid #8c5d37;padding-left:22px}#captions{border-top:2px solid #8c5d37;border-bottom:2px solid #8c5d37}"};
+export async function buildArt(ctx){return makeFiberEast(ctx,{mode:"blue-green-landscape",geometry})}

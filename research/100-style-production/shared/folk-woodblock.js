@@ -1,0 +1,3 @@
+import{makeFiberEast}from'./fiber-east-stage.js';import geometry from'./atlas-geometry.js';
+export const LOOK={"key": "folk-woodblock", "name": "版刻年画", "palette": {"bg": "#f0e2bb", "fg": "#343025", "muted": "#6c5c3f", "accent": "#a03f2e", "caption": "#fff5dc", "portrait": "#f0e2bb"}, "base": {"x": 225, "y": 580, "w": 630}, "css": "#title{font-family:Serif;font-weight:700;font-size:100px}#subtitle{font-size:46px}#captions{border:3px solid #a03f2e}#heading{border-left:7px solid #a03f2e;padding-left:22px}#person-mask{outline:8px solid #ecd38b}"};
+export async function buildArt(ctx){return makeFiberEast(ctx,{mode:"folk-woodblock",geometry})}
