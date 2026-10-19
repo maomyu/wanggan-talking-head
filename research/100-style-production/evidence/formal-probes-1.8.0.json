@@ -1,0 +1,102 @@
+{
+  "ok": true,
+  "version": "1.8.0",
+  "results": [
+    {
+      "key": "pencil-sketch",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.8.0/pencil-sketch",
+      "base": [
+        220,
+        585,
+        640,
+        640
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "colored-pencil",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.8.0/colored-pencil",
+      "base": [
+        225,
+        585,
+        630,
+        630
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "charcoal",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.8.0/charcoal",
+      "base": [
+        220,
+        585,
+        640,
+        640
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "pen-hatching",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.8.0/pen-hatching",
+      "base": [
+        225,
+        585,
+        630,
+        630
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "wax-crayon",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.8.0/wax-crayon",
+      "base": [
+        225,
+        580,
+        630,
+        630
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "soft-pastel",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.8.0/soft-pastel",
+      "base": [
+        220,
+        585,
+        640,
+        640
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "marker-sketch",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.8.0/marker-sketch",
+      "base": [
+        225,
+        585,
+        630,
+        630
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "brush-lettering",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.8.0/brush-lettering",
+      "base": [
+        220,
+        585,
+        640,
+        640
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    }
+  ]
+}

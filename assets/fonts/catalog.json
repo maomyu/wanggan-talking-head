@@ -26,5 +26,9 @@
   {
     "file": "NotoSerifSC-700.woff",
     "sha256": "1a80a9564cf35315471634801238799851eaafeb713dae5449426c62867ad311"
+  },
+  {
+    "file": "MaShanZheng-Regular.ttf",
+    "sha256": "6d2546bb189c732a8ca29af9e22457b152387d158aa459e4ac2ce1e51788b7fb"
   }
 ]

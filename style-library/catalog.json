@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "1.7.0",
+  "version": "1.8.0",
   "approvedCount": 20,
   "styles": [
     {
@@ -1301,6 +1301,416 @@
       ]
     },
     {
+      "id": "A43",
+      "key": "pencil-sketch",
+      "name": "铅笔素描",
+      "familyKey": "drawing",
+      "family": "手绘与书写",
+      "visualMechanism": "石墨灰阶、细排线与结构辅助线建立体积，原始透明概念图按局部区域建立后停稳；不伪称真实笔顺",
+      "profiles": {
+        "layout": "L07",
+        "motion": "M06",
+        "editing": "E02",
+        "sound": "S04"
+      },
+      "suitableFor": [
+        "结构",
+        "观察"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [
+        "R15"
+      ],
+      "assetDisclosure": "Original AI-generated drawing concept atlas; unmodified source pixels, region clipping/reveal; not documentary artwork or real drawing process; presenter unchanged",
+      "preview": "previews/pencil-sketch.jpg",
+      "implementation": "templates/pencil-sketch/index.html",
+      "evidence": "evidence/production-20261020-a43-a44-a45-a46-a47-a48-a49-a50.json",
+      "videoSha256": "366af69754b1e5e87005e75c0b4d20940000de02dd89c8d99d8fe6dd5df65eb7",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        220,
+        585,
+        640,
+        640
+      ]
+    },
+    {
+      "id": "A44",
+      "key": "colored-pencil",
+      "name": "彩铅笔记",
+      "familyKey": "drawing",
+      "family": "手绘与书写",
+      "visualMechanism": "细彩色线交叠、纸白间隙、笔记页与文楷图注；图像区域和注释错开显现",
+      "profiles": {
+        "layout": "L03",
+        "motion": "M06",
+        "editing": "E03",
+        "sound": "S04"
+      },
+      "suitableFor": [
+        "学习",
+        "生活"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [
+        "R15"
+      ],
+      "assetDisclosure": "Original AI-generated drawing concept atlas; unmodified source pixels, region clipping/reveal; not documentary artwork or real drawing process; presenter unchanged",
+      "preview": "previews/colored-pencil.jpg",
+      "implementation": "templates/colored-pencil/index.html",
+      "evidence": "evidence/production-20261020-a43-a44-a45-a46-a47-a48-a49-a50.json",
+      "videoSha256": "304669d989136da6f0c1b0c3c74cae1787cbe74bdbc81014265d412aa5575c03",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff",
+        "LXGWWenKai-500.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        225,
+        585,
+        630,
+        630
+      ]
+    },
+    {
+      "id": "A45",
+      "key": "charcoal",
+      "name": "炭笔擦绘",
+      "familyKey": "drawing",
+      "family": "手绘与书写",
+      "visualMechanism": "宽幅松散炭迹、失边与擦出的白面构成形体；不透明灰纸仅在解释区擦除换图",
+      "profiles": {
+        "layout": "L02",
+        "motion": "M07",
+        "editing": "E05",
+        "sound": "S04"
+      },
+      "suitableFor": [
+        "情绪",
+        "形体"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [
+        "R16"
+      ],
+      "assetDisclosure": "Original AI-generated drawing concept atlas; unmodified source pixels, region clipping/reveal; not documentary artwork or real drawing process; presenter unchanged",
+      "preview": "previews/charcoal.jpg",
+      "implementation": "templates/charcoal/index.html",
+      "evidence": "evidence/production-20261020-a43-a44-a45-a46-a47-a48-a49-a50.json",
+      "videoSha256": "49ef69fd26598c5afa704a313333ab728ba2139670616282eff02e4b2f7ddf62",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        220,
+        585,
+        640,
+        640
+      ]
+    },
+    {
+      "id": "A46",
+      "key": "pen-hatching",
+      "name": "钢笔排线",
+      "familyKey": "drawing",
+      "family": "手绘与书写",
+      "visualMechanism": "清楚而稀疏的黑色平行与交叉排线、细轮廓和大块纸白，与密集版画刻线区分；分区域建立",
+      "profiles": {
+        "layout": "L07",
+        "motion": "M06",
+        "editing": "E02",
+        "sound": "S04"
+      },
+      "suitableFor": [
+        "工艺",
+        "建筑"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [
+        "R18"
+      ],
+      "assetDisclosure": "Original AI-generated drawing concept atlas; unmodified source pixels, region clipping/reveal; not documentary artwork or real drawing process; presenter unchanged",
+      "preview": "previews/pen-hatching.jpg",
+      "implementation": "templates/pen-hatching/index.html",
+      "evidence": "evidence/production-20261020-a43-a44-a45-a46-a47-a48-a49-a50.json",
+      "videoSha256": "1e9903a7b76d48f95381cacdef5211b1ac1b125a590a243167d75d0bdfc9ff05",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        225,
+        585,
+        630,
+        630
+      ]
+    },
+    {
+      "id": "A47",
+      "key": "wax-crayon",
+      "name": "蜡笔涂绘",
+      "familyKey": "drawing",
+      "family": "手绘与书写",
+      "visualMechanism": "明快蜡色、粗断线和纸白孔隙组成图形；并列比较用双底块，三项概览用整体底面，有限步显现",
+      "profiles": {
+        "layout": "L09",
+        "motion": "M08",
+        "editing": "E07",
+        "sound": "S06"
+      },
+      "suitableFor": [
+        "亲子",
+        "趣味"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [],
+      "assetDisclosure": "Original AI-generated drawing concept atlas; unmodified source pixels, region clipping/reveal; not documentary artwork or real drawing process; presenter unchanged",
+      "preview": "previews/wax-crayon.jpg",
+      "implementation": "templates/wax-crayon/index.html",
+      "evidence": "evidence/production-20261020-a43-a44-a45-a46-a47-a48-a49-a50.json",
+      "videoSha256": "bf8c95715a55fc6b05c086057936f777830b8d1f6f80d9c6cf0bf3e2a9659a62",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff",
+        "LXGWWenKai-500.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        225,
+        580,
+        630,
+        630
+      ]
+    },
+    {
+      "id": "A48",
+      "key": "soft-pastel",
+      "name": "粉彩晕染",
+      "familyKey": "drawing",
+      "family": "手绘与书写",
+      "visualMechanism": "粉状不透明色面、纸齿和柔边描绘物件，以柔和区域显现保持材质；人物与文字清晰",
+      "profiles": {
+        "layout": "L02",
+        "motion": "M11",
+        "editing": "E08",
+        "sound": "S07"
+      },
+      "suitableFor": [
+        "情绪",
+        "自然"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [
+        "R17"
+      ],
+      "assetDisclosure": "Original AI-generated drawing concept atlas; unmodified source pixels, region clipping/reveal; not documentary artwork or real drawing process; presenter unchanged",
+      "preview": "previews/soft-pastel.jpg",
+      "implementation": "templates/soft-pastel/index.html",
+      "evidence": "evidence/production-20261020-a43-a44-a45-a46-a47-a48-a49-a50.json",
+      "videoSha256": "3ef476af50586a8f6914e37173b13c65e4a6ae9dd57bc38c893621fd314e4559",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        220,
+        585,
+        640,
+        640
+      ]
+    },
+    {
+      "id": "A49",
+      "key": "marker-sketch",
+      "name": "记号笔速写",
+      "familyKey": "drawing",
+      "family": "手绘与书写",
+      "visualMechanism": "有方向的宽笔叠色带、留白高光和粗细轮廓体现速写；色面分组显现而非统一滤镜",
+      "profiles": {
+        "layout": "L07",
+        "motion": "M06",
+        "editing": "E04",
+        "sound": "S04"
+      },
+      "suitableFor": [
+        "方法",
+        "产品"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [
+        "R18"
+      ],
+      "assetDisclosure": "Original AI-generated drawing concept atlas; unmodified source pixels, region clipping/reveal; not documentary artwork or real drawing process; presenter unchanged",
+      "preview": "previews/marker-sketch.jpg",
+      "implementation": "templates/marker-sketch/index.html",
+      "evidence": "evidence/production-20261020-a43-a44-a45-a46-a47-a48-a49-a50.json",
+      "videoSha256": "f86142527d4499d7e1ccb49918ee6eb17be2012a7117816d56b8ba0eff9939f7",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        225,
+        585,
+        630,
+        630
+      ]
+    },
+    {
+      "id": "A50",
+      "key": "brush-lettering",
+      "name": "刷笔字形",
+      "familyKey": "drawing",
+      "family": "手绘与书写",
+      "visualMechanism": "真实毛笔字体的短词、压力形态笔势与大片留白；整词显现，辅助字随后进入，字幕用清晰正字",
+      "profiles": {
+        "layout": "L05",
+        "motion": "M06",
+        "editing": "E04",
+        "sound": "S07"
+      },
+      "suitableFor": [
+        "态度",
+        "文学"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [
+        "R18",
+        "R19"
+      ],
+      "assetDisclosure": "Actual unmodified OFL brush font; geometric ink marks and whole-word reveal; not authentic handwriting stroke order",
+      "preview": "previews/brush-lettering.jpg",
+      "implementation": "templates/brush-lettering/index.html",
+      "evidence": "evidence/production-20261020-a43-a44-a45-a46-a47-a48-a49-a50.json",
+      "videoSha256": "20dffc73edee30910883541a1b6039d48e69f06a804413865557aba672040fd4",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff",
+        "MaShanZheng-Regular.ttf"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        220,
+        585,
+        640,
+        640
+      ]
+    },
+    {
       "id": "A58",
       "key": "origami",
       "name": "折纸结构",
@@ -2267,190 +2677,6 @@
       "references": []
     },
     {
-      "id": "A43",
-      "key": "pencil-sketch",
-      "name": "铅笔素描",
-      "familyKey": "drawing",
-      "family": "手绘与书写",
-      "visualMechanism": "石墨线重、留白和结构辅助线共同解释体积，关键边缘由轻到重",
-      "profiles": {
-        "layout": "L07",
-        "motion": "M06",
-        "editing": "E02",
-        "sound": "S04"
-      },
-      "suitableFor": [
-        "结构",
-        "观察"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A44",
-      "key": "colored-pencil",
-      "name": "彩铅笔记",
-      "familyKey": "drawing",
-      "family": "手绘与书写",
-      "visualMechanism": "可见叠笔与局部色层，图注像边看边补充的学习记录",
-      "profiles": {
-        "layout": "L03",
-        "motion": "M06",
-        "editing": "E03",
-        "sound": "S04"
-      },
-      "suitableFor": [
-        "学习",
-        "生活"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A45",
-      "key": "charcoal",
-      "name": "炭笔擦绘",
-      "familyKey": "drawing",
-      "family": "手绘与书写",
-      "visualMechanism": "宽幅炭迹、明暗块和擦出的高光建立形体，转场由擦绘区让出信息",
-      "profiles": {
-        "layout": "L02",
-        "motion": "M07",
-        "editing": "E05",
-        "sound": "S04"
-      },
-      "suitableFor": [
-        "情绪",
-        "形体"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A46",
-      "key": "pen-hatching",
-      "name": "钢笔排线",
-      "familyKey": "drawing",
-      "family": "手绘与书写",
-      "visualMechanism": "密度有方向的排线刻画解释物件，文字留白避免与细线竞争",
-      "profiles": {
-        "layout": "L07",
-        "motion": "M06",
-        "editing": "E02",
-        "sound": "S04"
-      },
-      "suitableFor": [
-        "工艺",
-        "建筑"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A47",
-      "key": "wax-crayon",
-      "name": "蜡笔涂绘",
-      "familyKey": "drawing",
-      "family": "手绘与书写",
-      "visualMechanism": "不均匀蜡质边缘、叠色和大胆轮廓建立亲近感，真人不被涂绘",
-      "profiles": {
-        "layout": "L09",
-        "motion": "M08",
-        "editing": "E07",
-        "sound": "S06"
-      },
-      "suitableFor": [
-        "亲子",
-        "趣味"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A48",
-      "key": "soft-pastel",
-      "name": "粉彩晕染",
-      "familyKey": "drawing",
-      "family": "手绘与书写",
-      "visualMechanism": "粉状色面、柔边和局部擦拭形成重点，字幕位于不受晕染的清晰层",
-      "profiles": {
-        "layout": "L02",
-        "motion": "M11",
-        "editing": "E08",
-        "sound": "S07"
-      },
-      "suitableFor": [
-        "情绪",
-        "自然"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A49",
-      "key": "marker-sketch",
-      "name": "记号笔速写",
-      "familyKey": "drawing",
-      "family": "手绘与书写",
-      "visualMechanism": "宽窄一致的标记线与透视草图，像快速抓住一个物件的用途",
-      "profiles": {
-        "layout": "L07",
-        "motion": "M06",
-        "editing": "E04",
-        "sound": "S04"
-      },
-      "suitableFor": [
-        "方法",
-        "产品"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A50",
-      "key": "brush-lettering",
-      "name": "刷笔字形",
-      "familyKey": "drawing",
-      "family": "手绘与书写",
-      "visualMechanism": "有起落的粗笔短词与大面积空白形成口气，长句仍用清晰正文字体",
-      "profiles": {
-        "layout": "L05",
-        "motion": "M06",
-        "editing": "E04",
-        "sound": "S07"
-      },
-      "suitableFor": [
-        "态度",
-        "文学"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
       "id": "A51",
       "key": "picture-book",
       "name": "儿童绘本",
@@ -3238,7 +3464,7 @@
       "references": []
     }
   ],
-  "plannedCount": 50,
+  "plannedCount": 42,
   "totalCount": 100,
   "families": [
     {
@@ -3293,8 +3519,8 @@
     }
   ],
   "profileLibrary": "profiles.json",
-  "researchBoundary": "100项为可组合视觉方向，含材料、传统风格与原创配方；20种用户认可，30种制作验证，50种尚未完成。不是100个互斥行业标准。",
-  "implementedCount": 50,
+  "researchBoundary": "100项为可组合视觉方向，含材料、传统风格与原创配方；20种用户认可，38种制作验证，42种尚未完成。不是100个互斥行业标准。",
+  "implementedCount": 58,
   "userApprovedCount": 20,
-  "productionVerifiedCount": 30
+  "productionVerifiedCount": 38
 }

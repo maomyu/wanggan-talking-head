@@ -1,0 +1,9 @@
+{
+  "provider": "built-in image_gen; imagegen skill",
+  "sourcePath": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-b5ed236e-8a6d-4449-8b0d-495f65cf66ff.png",
+  "projectPath": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/shared/rasters/pen-hatching-atlas.png",
+  "sha256": "0fa2226361e228e45e49797f597629fad3e2c6d1eccee169d539e5162c7fec51",
+  "prompt": "Use case: stylized-concept. Production transparent RGBA illustration atlas, square canvas. Strict 2x2 arrangement of FOUR separate original explanatory object studies: top-left everyday tote bag with two handles, top-right two unmarked overlapping coin discs, bottom-left shield with one clear check symbol, bottom-right squat iron weight with ring handle. Keep EACH entire subject inside its own quadrant with wide transparent gaps; subjects occupy at most 75% of quadrant width/height. No paper sheet or opaque backing outside the drawing, no page layout, extra objects, hands, people, text, currency signs, numbers, logos, grids or dividers. No copied artwork. Technical pen-and-ink drawing, black ink only. Extremely clean narrow nib contours, curved parallel hatching that follows each object's volume, directional cross-hatching only in deep shadows, crisp white highlights. Controlled intricate structural detail and deliberate open white zones; no gray wash, no charcoal, no pencil smudge. Everyday objects from an observational design sketchbook, not antique engraved plates and not generic flat icons. All marks genuinely ink-like and slightly varied by hand.",
+  "alphaPreserved": true,
+  "use": "AI生成手绘概念图，作为口播解释示意；不是真实绘画过程或金融证据"
+}

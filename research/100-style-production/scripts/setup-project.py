@@ -10,6 +10,16 @@ for key in sys.argv[1:]:
  put(P/'source-info.json',json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(P/'assets/master.mp4')])));put(P/'hyperframes.json',dict(paths=dict(blocks='compositions',components='compositions/components',assets='assets'),media=dict(autoProxy=True),authoringSkill='general-video'))
  for rel in ['base.css','scene.js','material-stage.js'] :shutil.copy2(R/'shared'/rel,P/'assets'/rel)
  shutil.copy2(R/'shared'/f'{key}.js',P/'assets/look.js')
+ if key in ['pencil-sketch','colored-pencil','charcoal','pen-hatching','wax-crayon','soft-pastel','marker-sketch']:
+  shutil.copy2(R/'shared/drawing-stage.js',P/'assets/drawing-stage.js')
+  suffix='-v2'if key in ['charcoal','pen-hatching']else''
+  shutil.copy2(R/'shared/rasters'/f'{key}-atlas{suffix}.png',P/'assets/atlas.png')
+  shutil.copy2(R/'shared/rasters'/f'{key}-provenance{suffix}.json',P/'assets/provenance.json')
+  (P/'assets/atlas-geometry.js').write_text('export default '+(R/'shared/rasters'/f'{key}-geometry{suffix}.json').read_text()+';\n')
+ if key=='brush-lettering':
+  (P/'assets/fonts').mkdir(exist_ok=True,parents=True)
+  shutil.copy2(R/'shared/brush-stage.js',P/'assets/brush-stage.js')
+  for f in ['MaShanZheng-Regular.ttf','MaShanZheng-OFL.txt','MaShanZheng-source.json']:shutil.copy2(R/'shared/fonts'/f,P/'assets/fonts'/f)
  if key in ['memphis','brutalist-type','optical-graphic','negative-space']:shutil.copy2(R/'shared/graphic-stage.js',P/'assets/graphic-stage.js')
  if key in ['photo-book','timeline-almanac']:shutil.copy2(R/'shared/editorial-extra.js',P/'assets/editorial-extra.js')
  if key in ['pop-up-book','corrugated-model']:

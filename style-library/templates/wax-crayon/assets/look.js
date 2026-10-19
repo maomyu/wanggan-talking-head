@@ -1,0 +1,3 @@
+import{makeDrawing}from'./drawing-stage.js';import geometry from'./atlas-geometry.js';
+export const LOOK={"key": "wax-crayon", "name": "蜡笔涂绘", "palette": {"bg": "#f7eedb", "fg": "#293a41", "muted": "#56635f", "accent": "#99402e", "caption": "#fff9eb", "portrait": "#f7eedb"}, "base": {"x": 225, "y": 580, "w": 630}, "css": "@font-face{font-family:Pen;src:url('assets/fonts/LXGWWenKai-500.woff');font-weight:500;ascent-override:90%;descent-override:20%;line-gap-override:0%}#title{font-family:Pen;font-weight:500;font-size:112px}#subtitle{font-size:48px}#captions{border:0;border-bottom:4px solid #99402e}#person-mask{outline:10px solid #fff9eb}"};
+export async function buildArt(ctx){return makeDrawing(ctx,{mode:"wax-crayon",geometry})}

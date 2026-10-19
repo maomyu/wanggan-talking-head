@@ -1,0 +1,11 @@
+{
+  "provider": "built-in image_gen edit; imagegen skill",
+  "sourcePath": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-73a09587-6ac8-40e0-a0a0-a490932b1038.png",
+  "projectPath": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/shared/rasters/charcoal-atlas-v2.png",
+  "reference": "shared/rasters/charcoal-atlas.png",
+  "sha256": "0c8e281e5c2ef59d604b653e6d3cf4440316368978e460b65a772632de6a5649",
+  "prompt": "Edit this transparent four-object atlas. Preserve the same four identifiable subjects, 2x2 order and check symbol, and keep genuine transparency outside the drawings. Completely change the rendering from detailed polished metal/photographic shading to BOLD GESTURAL CHARCOAL DRAWING: each object constructed from perhaps 12 to 25 broad side-of-charcoal strokes, large matte black and midgray patches, visibly dragged and broken dry edges, rubbed gray shadows and wide erased white highlights. Let parts of contours disappear and reappear. Rough lively observed drawing with simplified details, no leather seam rendering, metallic bevel, smooth glossy highlight, silver finish, fine pencil hairs, engraver hatching or perfect vector outline. The bag must still read as a bag with handles, coins as two plain discs, shield with check, weight with loop. Charcoal marks rather than objects coated in charcoal texture. Monochrome only. Enlarge transparent gutters and keep each entire drawing with its stray marks at least 40px away from quadrant borders. No background paper rectangle, text, digits, tools, hands, people or extra objects. Final asset is explicitly an AI concept drawing.",
+  "alphaPreserved": true,
+  "use": "AI炭笔概念图；非实拍绘画过程、非金融证据",
+  "revision": "宽幅炭迹、失边与擦亮代替金属般高光，保留v1原图"
+}

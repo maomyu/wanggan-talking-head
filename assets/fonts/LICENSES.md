@@ -38,3 +38,5 @@ The fonts in this directory are NOT covered by the repository's MIT license. Eac
 | `NotoSerifJP-600.woff` | Noto Serif JP | © 2017-2024 Adobe | Google Fonts |
 
 带 Reserved Font Name 的字体，改动过的版本不能沿用保留名。本目录里带保留名的这几款（拉丁字体）内部字体名都是原名（按 Google Fonts 发行的 woff 使用）；如果你要对它们抽子集或改字形，请同时改掉 family 名。
+
+Ma Shan Zheng Regular：原始TTF，SIL OFL 1.1；版权与许可见MaShanZheng-OFL.txt，源及哈希见MaShanZheng-source.json。

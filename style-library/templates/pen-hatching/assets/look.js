@@ -1,0 +1,3 @@
+import{makeDrawing}from'./drawing-stage.js';import geometry from'./atlas-geometry.js';
+export const LOOK={"key": "pen-hatching", "name": "钢笔排线", "palette": {"bg": "#f7f5eb", "fg": "#172d32", "muted": "#52656a", "accent": "#8b4a31", "caption": "#fffdf4", "portrait": "#f7f5eb"}, "base": {"x": 225, "y": 585, "w": 630}, "css": "#title{font-family:Serif;font-size:102px;font-weight:700}#subtitle{font-size:46px}#heading{border-bottom:1px solid #172d32;padding-bottom:18px}#captions{border-top:1px solid #172d32;border-bottom:1px solid #172d32}"};
+export async function buildArt(ctx){return makeDrawing(ctx,{mode:"pen-hatching",geometry})}

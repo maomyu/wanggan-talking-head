@@ -1,0 +1,6 @@
+{
+  "ok": true,
+  "looks": 8,
+  "completeDecodedPCMHash": "f61d6839ef185edd3268011f553bc8ee2f7ad6afd261cbf596e02d416d7da70b",
+  "scope": "八条整片解码人声相同；每条另与原片核对四个零偏移窗口及完整参考轨"
+}

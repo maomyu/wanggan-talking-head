@@ -1,0 +1,9 @@
+{
+  "provider": "built-in image_gen; imagegen skill",
+  "sourcePath": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-20911efd-110d-42e0-93a3-f1943bfd1d1a.png",
+  "projectPath": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/shared/rasters/colored-pencil-atlas.png",
+  "sha256": "ba037aed57d3f8dbb39f8de9daaf865c255f344a7c0f4ef97e0c583b7428e5b2",
+  "prompt": "Use case: stylized-concept. Production transparent RGBA illustration atlas, square canvas. Strict 2x2 arrangement of FOUR separate original explanatory object studies: top-left everyday tote bag with two handles, top-right two unmarked overlapping coin discs, bottom-left shield with one clear check symbol, bottom-right squat iron weight with ring handle. Keep EACH entire subject inside its own quadrant with wide transparent gaps; subjects occupy at most 75% of quadrant width/height. No paper sheet or opaque backing outside the drawing, no page layout, extra objects, hands, people, text, currency signs, numbers, logos, grids or dividers. No copied artwork. Authentic colored-pencil notebook drawing: fine directional layers of red-brown, olive, ochre and blue pencil lines interwoven over visible pale paper-white gaps. Slight searching outlines, tactile colored lead grain, individual thin strokes and some accents beyond a precise contour. Dimensional small object studies with hand observations, not smooth vector fills and not fluffy pastel. A few small loose pencil hatches beside each object, no annotations.",
+  "alphaPreserved": true,
+  "use": "AI生成手绘概念图，作为口播解释示意；不是真实绘画过程或金融证据"
+}

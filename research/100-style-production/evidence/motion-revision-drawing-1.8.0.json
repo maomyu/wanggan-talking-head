@@ -1,0 +1,38 @@
+{
+  "ok": true,
+  "scope": "only person travel .55 to 1 second; actual in-flight geometry changed, settled art pixels, voice PCM reference and captions/frame count unchanged; not a revised full-film render",
+  "results": [
+    {
+      "project": "portability/formal-1.8.0/colored-pencil",
+      "during": {
+        "x": 547.4420776367188,
+        "y": 1024.9921875,
+        "width": 413.27996826171875,
+        "height": 413.280029296875
+      },
+      "noteHandoff": {
+        "movingNote": 0.5295,
+        "settledNote": 1
+      },
+      "artSha256": "bd1fdbfe0250c4f4020c92bb963ea4355c62ffd49788aebd9b8da87c5fae6c25",
+      "voiceSha256": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+      "timingSha256": "d9991ae0fb0552b18aa6249e26af5b145e8ffad0b0eec526c2981b79fadf98c7"
+    },
+    {
+      "project": "portability/motion-colored-pencil-1.8.0",
+      "during": {
+        "x": 352.2962951660156,
+        "y": 758.7036743164062,
+        "width": 544.404052734375,
+        "height": 544.4039916992188
+      },
+      "noteHandoff": {
+        "movingNote": 0,
+        "settledNote": 1
+      },
+      "artSha256": "bd1fdbfe0250c4f4020c92bb963ea4355c62ffd49788aebd9b8da87c5fae6c25",
+      "voiceSha256": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+      "timingSha256": "d9991ae0fb0552b18aa6249e26af5b145e8ffad0b0eec526c2981b79fadf98c7"
+    }
+  ]
+}

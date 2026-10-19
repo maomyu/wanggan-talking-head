@@ -1,0 +1,36 @@
+export default {
+  "width": 1254,
+  "height": 1254,
+  "boxes": {
+    "bag": [
+      45,
+      14,
+      582,
+      613
+    ],
+    "shield": [
+      93,
+      640,
+      478,
+      561
+    ],
+    "coin": [
+      627,
+      201,
+      602,
+      380
+    ],
+    "weight": [
+      715,
+      635,
+      518,
+      578
+    ]
+  },
+  "regionBoundaries": [
+    632,
+    606
+  ],
+  "method": "Read original alpha inside author-selected separation valleys; preserve silhouettes and nearby construction marks. SVG regional clips isolate drawings; source pixels unchanged."
+}
+;

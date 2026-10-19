@@ -1,0 +1,3 @@
+import{makeDrawing}from'./drawing-stage.js';import geometry from'./atlas-geometry.js';
+export const LOOK={"key": "pencil-sketch", "name": "铅笔素描", "palette": {"bg": "#f1eee6", "fg": "#30383b", "muted": "#586062", "accent": "#83533d", "caption": "#faf8f0", "portrait": "#f1eee6"}, "base": {"x": 220, "y": 585, "w": 640}, "css": "#title{font-family:Serif;font-size:100px;font-weight:700}#subtitle{font-size:46px}#captions{border-top:1px solid #7f8177}#architecture{inset:505px 36px 675px;border-top:1px solid #a3a598;border-bottom:1px solid #a3a598}"};
+export async function buildArt(ctx){return makeDrawing(ctx,{mode:"pencil-sketch",geometry})}

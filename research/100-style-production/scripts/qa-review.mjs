@@ -8,7 +8,12 @@ try {
  page.on('pageerror',e=>errors.push(e.message));
  page.on('response',r=>{if(r.url().startsWith(base)&&r.status()>=400)errors.push(`${r.status()} ${r.url()}`)});
  await page.goto(base+'review.html');
- await page.evaluate(async()=>Promise.all([...document.images].map(i=>i.decode())));
+ for(const img of await page.locator('article img').all()){
+  await img.scrollIntoViewIfNeeded();
+  await img.evaluate(i=>new Promise((resolve,reject)=>{if(i.complete){i.naturalWidth?resolve():reject(new Error('Image failed: '+i.src));return}i.addEventListener('load',resolve,{once:true});i.addEventListener('error',()=>reject(new Error('Image failed: '+i.src)),{once:true})}));
+  await img.evaluate(async i=>{try{await i.decode()}catch(e){throw Error('Image decode failed: '+i.src+' '+String(e))}if(i.naturalWidth!==1080)throw Error('Unexpected image width: '+i.src)});
+ }
+ await page.evaluate(()=>scrollTo(0,0));
  const cards=await page.locator('[data-play]').evaluateAll(els=>els.map(e=>({...e.dataset}))),playback=[];
  for(const c of cards){
   const range=await page.request.get(base+c.play,{headers:{Range:'bytes=0-127'}});

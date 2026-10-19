@@ -1,0 +1,9 @@
+{
+  "provider": "built-in image_gen; imagegen skill",
+  "sourcePath": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-fcc5cea3-688a-41f2-9b72-d554f613248d.png",
+  "projectPath": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/shared/rasters/wax-crayon-atlas.png",
+  "sha256": "6d68d99c3449128bd00271bf7eab1dde57e869dc39c996913a941d5b8b32ce48",
+  "prompt": "Use case: stylized-concept. Production transparent RGBA illustration atlas, square canvas. Strict 2x2 arrangement of FOUR separate original explanatory object studies: top-left everyday tote bag with two handles, top-right two unmarked overlapping coin discs, bottom-left shield with one clear check symbol, bottom-right squat iron weight with ring handle. Keep EACH entire subject inside its own quadrant with wide transparent gaps; subjects occupy at most 75% of quadrant width/height. No paper sheet or opaque backing outside the drawing, no page layout, extra objects, hands, people, text, currency signs, numbers, logos, grids or dividers. No copied artwork. Bold handmade wax-crayon drawings: chunky scarlet, cobalt, golden ochre and forest green strokes, waxy ridges, coarse skipped toothy patches and broken white gaps, imperfect repeated thick contours. Slightly naive, friendly stout shapes with clear handles and check. Playful decisive shapes, not elegant thin colored pencils, not smooth vector, not soft blended pastels. Each subject strong and readable when small.",
+  "alphaPreserved": true,
+  "use": "AI生成手绘概念图，作为口播解释示意；不是真实绘画过程或金融证据"
+}

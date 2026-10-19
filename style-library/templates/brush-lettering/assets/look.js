@@ -1,0 +1,3 @@
+import{makeBrush}from'./brush-stage.js';
+export const LOOK={"key": "brush-lettering", "name": "刷笔字形", "palette": {"bg": "#eee8da", "fg": "#242e2a", "muted": "#57655b", "accent": "#87513b", "caption": "#f8f3e9", "portrait": "#eee8da"}, "base": {"x": 220, "y": 585, "w": 640}, "css": "@font-face{font-family:Brush;src:url('assets/fonts/MaShanZheng-Regular.ttf');font-weight:400;ascent-override:90%;descent-override:20%;line-gap-override:0%}#title{font-family:Brush;font-weight:400;font-size:118px;line-height:1.2}#subtitle{font-size:46px}#captions{border-top:2px solid #87513b}"};
+export async function buildArt(ctx){return makeBrush(ctx)}

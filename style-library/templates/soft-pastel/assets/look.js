@@ -1,0 +1,3 @@
+import{makeDrawing}from'./drawing-stage.js';import geometry from'./atlas-geometry.js';
+export const LOOK={"key": "soft-pastel", "name": "粉彩晕染", "palette": {"bg": "#e9e4dc", "fg": "#354046", "muted": "#606667", "accent": "#795647", "caption": "#f6f3ed", "portrait": "#e9e4dc"}, "base": {"x": 220, "y": 585, "w": 640}, "css": "#title{font-family:Serif;font-size:103px;font-weight:700}#subtitle{font-size:46px}#captions{border-top:1px solid #857b70}#person-mask{outline:10px solid #faf7f0;box-shadow:0 8px 22px #3b3b2420}"};
+export async function buildArt(ctx){return makeDrawing(ctx,{mode:"soft-pastel",geometry})}

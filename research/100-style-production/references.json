@@ -64,5 +64,40 @@
     "title": "FEFCO · What is corrugated?",
     "url": "https://www.fefco.org/node/1588",
     "scope": "完整阅读两面纸与中间波纹芯的单瓦楞结构说明，实际建模为空心波纹层；不冒充实物摄影"
+  },
+  {
+    "style": "A43",
+    "id": "R15",
+    "title": "The Met · Graphite",
+    "url": "https://www.metmuseum.org/perspectives/materials-and-techniques-drawing-graphite",
+    "scope": "完整阅读材料说明，参考细线、排线、擦亮与软硬线重；原创AI概念图和局部显现，不复制馆藏或声称实拍绘画"
+  },
+  {
+    "style": "A45",
+    "id": "R16",
+    "title": "The Met · Charcoal",
+    "url": "https://www.metmuseum.org/perspectives/materials-and-techniques-drawing-charcoal",
+    "scope": "完整阅读宽线、块面、揉擦和提亮机制；以宽幅松散炭迹区分铅笔，不声称还原真实绘画过程"
+  },
+  {
+    "style": "A48",
+    "id": "R17",
+    "title": "The Met · Pastel",
+    "url": "https://www.metmuseum.org/perspectives/materials-and-techniques-drawing-pastel",
+    "scope": "完整阅读粉状不透明色层与纸齿、侧笔和局部揉擦说明；本片用AI概念图表现，人物与正文不受晕染"
+  },
+  {
+    "style": "A46/A49",
+    "id": "R18",
+    "title": "The Met · Ink",
+    "url": "https://www.metmuseum.org/perspectives/materials-and-techniques-drawing-ink",
+    "scope": "完整阅读钢笔、记号笔与刷笔的线性/色面关系，提炼笔迹差异，不复制作品或编造绘画时序"
+  },
+  {
+    "style": "A50",
+    "id": "R19",
+    "title": "Google Fonts · Ma Shan Zheng",
+    "url": "https://github.com/google/fonts/tree/main/ofl/mashanzheng",
+    "scope": "实际读取官方METADATA与OFL，下载未修改TTF并核对所用汉字覆盖；保存版权许可和精确SHA，正文字幕仍用清晰本地字体"
   }
 ]

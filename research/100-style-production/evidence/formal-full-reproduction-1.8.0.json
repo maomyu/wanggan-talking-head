@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "key": "brush-lettering",
+  "version": "1.8.0",
+  "scope": "从正式插件独立init/build/check/render/verify生成完整1100帧；与研究成片逐秒像素和完整解码音频比较",
+  "sourceSha256": "20dffc73edee30910883541a1b6039d48e69f06a804413865557aba672040fd4",
+  "formalSha256": "8f0d44b315ffe90928e0b115bd8346212411b45386fa4a2c370856dd1d0a184b",
+  "identicalEncodedFile": false,
+  "pixelMetrics": {
+    "sampledFrames": 37,
+    "mean": 5.102324546768992e-05,
+    "max": 0.000720164609053498
+  },
+  "decodedVoiceIdentical": true
+}

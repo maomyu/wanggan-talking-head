@@ -1,0 +1,532 @@
+{
+  "version": "1.8.0",
+  "implemented": 58,
+  "userApproved": 20,
+  "productionVerified": 38,
+  "pending": 42,
+  "videos": [
+    {
+      "id": "A01",
+      "key": "minimal",
+      "status": "approved-video",
+      "video": "videos/minimal.mp4",
+      "sha256": "2a5c540145b6f54148623d3caedd0c6719da733850556c69b0ccb7fff337b97b",
+      "poster": "assets/minimal.jpg",
+      "evidence": "evidence/accepted-20261019.json"
+    },
+    {
+      "id": "A02",
+      "key": "paper",
+      "status": "approved-video",
+      "video": "videos/paper.mp4",
+      "sha256": "be017099b4145a202aa69b8a12d5a75c1a79ca20c829adfdc05f6903c8e5e75e",
+      "poster": "assets/paper.jpg",
+      "evidence": "evidence/accepted-20261019.json"
+    },
+    {
+      "id": "A03",
+      "key": "geometry",
+      "status": "approved-video",
+      "video": "videos/geometry.mp4",
+      "sha256": "20af3113c0417d22d925e77363098c3e1bba4e7b4d121b040f2c0bbd8d043d40",
+      "poster": "assets/geometry.jpg",
+      "evidence": "evidence/accepted-20261019.json"
+    },
+    {
+      "id": "A04",
+      "key": "magazine",
+      "status": "approved-video",
+      "video": "videos/magazine.mp4",
+      "sha256": "cd16c098c77223a4567aca739fed66d43a5bf327cd5b0ce466f64493c292532f",
+      "poster": "assets/magazine.jpg",
+      "evidence": "evidence/accepted-20261019.json"
+    },
+    {
+      "id": "A05",
+      "key": "collage",
+      "status": "approved-video",
+      "video": "videos/collage.mp4",
+      "sha256": "271889acf41646bbdc3f5f8d9c742a045646f00b35a5a837c1c11cf2910f8b35",
+      "poster": "assets/collage.jpg",
+      "evidence": "evidence/accepted-20261019.json"
+    },
+    {
+      "id": "A06",
+      "key": "line",
+      "status": "approved-video",
+      "video": "videos/line.mp4",
+      "sha256": "5ad46ecab7c70ad3dc091715e558943666e55d8db0afc7e73b8d187ec5a1adb1",
+      "poster": "assets/line.jpg",
+      "evidence": "evidence/accepted-20261019.json"
+    },
+    {
+      "id": "A07",
+      "key": "illustration",
+      "status": "approved-video",
+      "video": "videos/illustration.mp4",
+      "sha256": "70823d832a35acefd6364490260084068d897dafe1da764ea5694fb8e56fd74a",
+      "poster": "assets/illustration.jpg",
+      "evidence": "evidence/accepted-20261019.json"
+    },
+    {
+      "id": "A08",
+      "key": "precision",
+      "status": "approved-video",
+      "video": "videos/precision.mp4",
+      "sha256": "68c1ed827c66ac4d26f63af2295f67a01cbfafd4706e56f7dce8073ac2dce777",
+      "poster": "assets/precision.jpg",
+      "evidence": "evidence/accepted-20261019.json"
+    },
+    {
+      "id": "A09",
+      "key": "blueprint",
+      "status": "approved-video",
+      "video": "videos/blueprint.mp4",
+      "sha256": "a45e466a72eb2ea7474f8e0a953b358b9ed3fcf60757d1ac73fbba20e7267cff",
+      "poster": "assets/blueprint.jpg",
+      "evidence": "evidence/accepted-20261019.json"
+    },
+    {
+      "id": "A10",
+      "key": "halftone",
+      "status": "approved-video",
+      "video": "videos/halftone.mp4",
+      "sha256": "4ef3f8a42fd2f176be4e0938211bb69c1b0190154df4673fab8bfb1e29c93fd2",
+      "poster": "assets/halftone.jpg",
+      "evidence": "evidence/accepted-20261019.json"
+    },
+    {
+      "id": "A11",
+      "key": "comic",
+      "status": "approved-video",
+      "video": "videos/comic.mp4",
+      "sha256": "70c51e24ddf58758bb2ef66bd84eeb0189c5952c1af7f9b7ab42eb426c943228",
+      "poster": "assets/comic.jpg",
+      "evidence": "evidence/accepted-20261019.json"
+    },
+    {
+      "id": "A12",
+      "key": "film",
+      "status": "approved-video",
+      "video": "videos/film.mp4",
+      "sha256": "6ca789661cc7edf3da29147910a7af2c73bdb40074d5183dcfccba626b39aa00",
+      "poster": "assets/film.jpg",
+      "evidence": "evidence/accepted-20261019.json"
+    },
+    {
+      "id": "A13",
+      "key": "ink",
+      "status": "approved-video",
+      "video": "videos/ink.mp4",
+      "sha256": "de2692da68238a94aca7c17b50a2d83b1d30838217f259df36db412627a51b2a",
+      "poster": "assets/ink.jpg",
+      "evidence": "evidence/accepted-20261019.json"
+    },
+    {
+      "id": "A14",
+      "key": "clay",
+      "status": "approved-video",
+      "video": "videos/clay.mp4",
+      "sha256": "1c8e2bede431e00b4d8d75f397950ab5cb450ca60a11055aa1cf4788167fb25b",
+      "poster": "assets/clay.jpg",
+      "evidence": "evidence/accepted-20261019.json"
+    },
+    {
+      "id": "A15",
+      "key": "pixel",
+      "status": "approved-video",
+      "video": "videos/pixel.mp4",
+      "sha256": "30e1238cac95e83a8b533da7793099dcc7c3f65f2e04c4acede07a26b0393266",
+      "poster": "assets/pixel.jpg",
+      "evidence": "evidence/accepted-20261019.json"
+    },
+    {
+      "id": "A16",
+      "key": "chalk",
+      "status": "approved-video",
+      "video": "videos/chalk.mp4",
+      "sha256": "da364dfc25418adcf76f16140957bc583dfd547bce952df0ab8dbc85ef9046e7",
+      "poster": "assets/chalk.jpg",
+      "evidence": "evidence/accepted-five-20261019.json"
+    },
+    {
+      "id": "A17",
+      "key": "paper-stage",
+      "status": "approved-video",
+      "video": "videos/paper-stage.mp4",
+      "sha256": "72cefa991b3a85a3de3257f1b4ae8d16ef7007fca5de23e89168ab137a27a119",
+      "poster": "assets/paper-stage.jpg",
+      "evidence": "evidence/accepted-five-20261019.json"
+    },
+    {
+      "id": "A18",
+      "key": "type-poster",
+      "status": "approved-video",
+      "video": "videos/type-poster.mp4",
+      "sha256": "0a7f4f853ad6fb903543815417dea417a7881d74f78a6b24e6d7704003652e17",
+      "poster": "assets/type-poster.jpg",
+      "evidence": "evidence/accepted-five-20261019.json"
+    },
+    {
+      "id": "A19",
+      "key": "cel",
+      "status": "approved-video",
+      "video": "videos/cel.mp4",
+      "sha256": "2235ffbad61f3021ca4443c439a693920431e6090cbe59c0376ddc72b4a4df0d",
+      "poster": "assets/cel.jpg",
+      "evidence": "evidence/accepted-five-20261019.json"
+    },
+    {
+      "id": "A20",
+      "key": "sci-fi-wireframe",
+      "status": "approved-video",
+      "video": "videos/sci-fi-wireframe.mp4",
+      "sha256": "cc88b8bc5d968b5542df9598ab6fbfa4523bfc1643fd7e296741abe1c1979670",
+      "poster": "assets/sci-fi-wireframe.jpg",
+      "evidence": "evidence/accepted-five-20261019.json"
+    },
+    {
+      "id": "A29",
+      "key": "newspaper",
+      "status": "verified-video",
+      "video": "videos/newspaper.mp4",
+      "sha256": "ca41b3e27cdfaaea34d006ce859319d38d0534b77b78eb5ce387db976b2e930d",
+      "poster": "assets/newspaper.jpg",
+      "evidence": "evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json"
+    },
+    {
+      "id": "A30",
+      "key": "archive-dossier",
+      "status": "verified-video",
+      "video": "videos/archive-dossier.mp4",
+      "sha256": "d11b2315e476748647aeb376fbd92041618625950d1953d234c39980563cff92",
+      "poster": "assets/archive-dossier.jpg",
+      "evidence": "evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json"
+    },
+    {
+      "id": "A31",
+      "key": "photo-book",
+      "status": "verified-video",
+      "video": "videos/photo-book.mp4",
+      "sha256": "f293e37eb844751128620ede06bd0097cdea985ca41c3dddcfc8d1da19183128",
+      "poster": "assets/photo-book.jpg",
+      "evidence": "evidence/production-20261020-a31-a34-a39-a40-a41-a42-a59-a60.json"
+    },
+    {
+      "id": "A32",
+      "key": "dictionary-entry",
+      "status": "verified-video",
+      "video": "videos/dictionary-entry.mp4",
+      "sha256": "b29f269547dfd0de8a75e4c85fbc9f836aac5830c7776239a6c103c20ae1c293",
+      "poster": "assets/dictionary-entry.jpg",
+      "evidence": "evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json"
+    },
+    {
+      "id": "A33",
+      "key": "lab-notebook",
+      "status": "verified-video",
+      "video": "videos/lab-notebook.mp4",
+      "sha256": "558f5019b646b380d724f067f4d8eeaafaee36fd8391f97d0efd0d83197c161a",
+      "poster": "assets/lab-notebook.jpg",
+      "evidence": "evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json"
+    },
+    {
+      "id": "A34",
+      "key": "timeline-almanac",
+      "status": "verified-video",
+      "video": "videos/timeline-almanac.mp4",
+      "sha256": "37fac83732fce33599787a71bc93c994837e0d41bb55d3d27e8eba334ae35ea7",
+      "poster": "assets/timeline-almanac.jpg",
+      "evidence": "evidence/production-20261020-a31-a34-a39-a40-a41-a42-a59-a60.json"
+    },
+    {
+      "id": "A35",
+      "key": "swiss-grid",
+      "status": "verified-video",
+      "video": "videos/swiss-grid.mp4",
+      "sha256": "b11008c08836130adfd205be4f761982c15007b6448a8b76bccb4ee019d939d3",
+      "poster": "assets/swiss-grid.jpg",
+      "evidence": "evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json"
+    },
+    {
+      "id": "A36",
+      "key": "constructivist",
+      "status": "verified-video",
+      "video": "videos/constructivist.mp4",
+      "sha256": "bb9c56056e91e696982fbf0c12e7f9d7e6384bcbef05cccab5485f635068fc3e",
+      "poster": "assets/constructivist.jpg",
+      "evidence": "evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json"
+    },
+    {
+      "id": "A37",
+      "key": "art-deco",
+      "status": "verified-video",
+      "video": "videos/art-deco.mp4",
+      "sha256": "413a9d2b53d852711de85d2d16b44d698ea5c4f0bb936a54673642f9945ce175",
+      "poster": "assets/art-deco.jpg",
+      "evidence": "evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json"
+    },
+    {
+      "id": "A38",
+      "key": "art-nouveau",
+      "status": "verified-video",
+      "video": "videos/art-nouveau.mp4",
+      "sha256": "e9be9998ac65fac1111ee998fa74cbd03cd2378852520da04b828288ca4fcfd5",
+      "poster": "assets/art-nouveau.jpg",
+      "evidence": "evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json"
+    },
+    {
+      "id": "A39",
+      "key": "memphis",
+      "status": "verified-video",
+      "video": "videos/memphis.mp4",
+      "sha256": "10a8c3b23ee46027849d64afe5a60eb3d82c291e869807be9e5a37a3f6c17580",
+      "poster": "assets/memphis.jpg",
+      "evidence": "evidence/production-20261020-a31-a34-a39-a40-a41-a42-a59-a60.json"
+    },
+    {
+      "id": "A40",
+      "key": "brutalist-type",
+      "status": "verified-video",
+      "video": "videos/brutalist-type.mp4",
+      "sha256": "b85069d91e859fca7eb6d7a125abc84f25b83d9d66b3aabfbdf230b1f49dc352",
+      "poster": "assets/brutalist-type.jpg",
+      "evidence": "evidence/production-20261020-a31-a34-a39-a40-a41-a42-a59-a60.json"
+    },
+    {
+      "id": "A41",
+      "key": "optical-graphic",
+      "status": "verified-video",
+      "video": "videos/optical-graphic.mp4",
+      "sha256": "edd142359d9c6b0c84d490bf19e19bd11e89756c0624cc38d7c9ee0e3d7d7427",
+      "poster": "assets/optical-graphic.jpg",
+      "evidence": "evidence/production-20261020-a31-a34-a39-a40-a41-a42-a59-a60.json"
+    },
+    {
+      "id": "A42",
+      "key": "negative-space",
+      "status": "verified-video",
+      "video": "videos/negative-space.mp4",
+      "sha256": "b931a3d112ad19e967aa68045f1b71944d0db37bb2d0a37a02764e4e218f8ade",
+      "poster": "assets/negative-space.jpg",
+      "evidence": "evidence/production-20261020-a31-a34-a39-a40-a41-a42-a59-a60.json"
+    },
+    {
+      "id": "A43",
+      "key": "pencil-sketch",
+      "status": "verified-video",
+      "video": "videos/pencil-sketch.mp4",
+      "sha256": "366af69754b1e5e87005e75c0b4d20940000de02dd89c8d99d8fe6dd5df65eb7",
+      "poster": "assets/pencil-sketch.jpg",
+      "evidence": "evidence/production-20261020-a43-a44-a45-a46-a47-a48-a49-a50.json"
+    },
+    {
+      "id": "A44",
+      "key": "colored-pencil",
+      "status": "verified-video",
+      "video": "videos/colored-pencil.mp4",
+      "sha256": "304669d989136da6f0c1b0c3c74cae1787cbe74bdbc81014265d412aa5575c03",
+      "poster": "assets/colored-pencil.jpg",
+      "evidence": "evidence/production-20261020-a43-a44-a45-a46-a47-a48-a49-a50.json"
+    },
+    {
+      "id": "A45",
+      "key": "charcoal",
+      "status": "verified-video",
+      "video": "videos/charcoal.mp4",
+      "sha256": "49ef69fd26598c5afa704a313333ab728ba2139670616282eff02e4b2f7ddf62",
+      "poster": "assets/charcoal.jpg",
+      "evidence": "evidence/production-20261020-a43-a44-a45-a46-a47-a48-a49-a50.json"
+    },
+    {
+      "id": "A46",
+      "key": "pen-hatching",
+      "status": "verified-video",
+      "video": "videos/pen-hatching.mp4",
+      "sha256": "1e9903a7b76d48f95381cacdef5211b1ac1b125a590a243167d75d0bdfc9ff05",
+      "poster": "assets/pen-hatching.jpg",
+      "evidence": "evidence/production-20261020-a43-a44-a45-a46-a47-a48-a49-a50.json"
+    },
+    {
+      "id": "A47",
+      "key": "wax-crayon",
+      "status": "verified-video",
+      "video": "videos/wax-crayon.mp4",
+      "sha256": "bf8c95715a55fc6b05c086057936f777830b8d1f6f80d9c6cf0bf3e2a9659a62",
+      "poster": "assets/wax-crayon.jpg",
+      "evidence": "evidence/production-20261020-a43-a44-a45-a46-a47-a48-a49-a50.json"
+    },
+    {
+      "id": "A48",
+      "key": "soft-pastel",
+      "status": "verified-video",
+      "video": "videos/soft-pastel.mp4",
+      "sha256": "3ef476af50586a8f6914e37173b13c65e4a6ae9dd57bc38c893621fd314e4559",
+      "poster": "assets/soft-pastel.jpg",
+      "evidence": "evidence/production-20261020-a43-a44-a45-a46-a47-a48-a49-a50.json"
+    },
+    {
+      "id": "A49",
+      "key": "marker-sketch",
+      "status": "verified-video",
+      "video": "videos/marker-sketch.mp4",
+      "sha256": "f86142527d4499d7e1ccb49918ee6eb17be2012a7117816d56b8ba0eff9939f7",
+      "poster": "assets/marker-sketch.jpg",
+      "evidence": "evidence/production-20261020-a43-a44-a45-a46-a47-a48-a49-a50.json"
+    },
+    {
+      "id": "A50",
+      "key": "brush-lettering",
+      "status": "verified-video",
+      "video": "videos/brush-lettering.mp4",
+      "sha256": "20dffc73edee30910883541a1b6039d48e69f06a804413865557aba672040fd4",
+      "poster": "assets/brush-lettering.jpg",
+      "evidence": "evidence/production-20261020-a43-a44-a45-a46-a47-a48-a49-a50.json"
+    },
+    {
+      "id": "A58",
+      "key": "origami",
+      "status": "verified-video",
+      "video": "videos/origami.mp4",
+      "sha256": "db3b013140b9f9ce3bf50ad42a763060656a06233f6922986b160a352e3671ac",
+      "poster": "assets/origami.jpg",
+      "evidence": "evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json"
+    },
+    {
+      "id": "A59",
+      "key": "pop-up-book",
+      "status": "verified-video",
+      "video": "videos/pop-up-book.mp4",
+      "sha256": "3e1bd60059c25d13218c98df5dbf9328b8d79a78951d9bbcd5fe2eb4dc46c768",
+      "poster": "assets/pop-up-book.jpg",
+      "evidence": "evidence/production-20261020-a31-a34-a39-a40-a41-a42-a59-a60.json"
+    },
+    {
+      "id": "A60",
+      "key": "corrugated-model",
+      "status": "verified-video",
+      "video": "videos/corrugated-model.mp4",
+      "sha256": "43a4883034ec2c0395e46040fca70e0e495712ce41db3e7f8dbc47ddbc9c549c",
+      "poster": "assets/corrugated-model.jpg",
+      "evidence": "evidence/production-20261020-a31-a34-a39-a40-a41-a42-a59-a60.json"
+    },
+    {
+      "id": "A62",
+      "key": "felt-applique",
+      "status": "verified-video",
+      "video": "videos/felt-applique.mp4",
+      "sha256": "8ef9964c843efb701404b891e980d224144a262770e3cb64f1cd6eb64f4ff572",
+      "poster": "assets/felt-applique.jpg",
+      "evidence": "evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json"
+    },
+    {
+      "id": "A63",
+      "key": "embroidery",
+      "status": "verified-video",
+      "video": "videos/embroidery.mp4",
+      "sha256": "9b60886d0ab6b0e71fa5e3cfa4d85afca1e88f225f25b109391a044c860f741a",
+      "poster": "assets/embroidery.jpg",
+      "evidence": "evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json"
+    },
+    {
+      "id": "A67",
+      "key": "gongbi",
+      "status": "verified-video",
+      "video": "videos/gongbi.mp4",
+      "sha256": "2bda19a3eeb55f61318a44e4f1a738bd88c22f14cc446507bb1e74fc0f1cdc60",
+      "poster": "assets/gongbi.jpg",
+      "evidence": "evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json"
+    },
+    {
+      "id": "A76",
+      "key": "woodcut",
+      "status": "verified-video",
+      "video": "videos/woodcut.mp4",
+      "sha256": "1922f51c7f1c49c79351937dcb7284f47c1f339fa0f669dc606c2489cb169402",
+      "poster": "assets/woodcut.jpg",
+      "evidence": "evidence/production-20261020-a76-a78-a80-a95-a96-a97-a98.json"
+    },
+    {
+      "id": "A77",
+      "key": "etching",
+      "status": "verified-video",
+      "video": "videos/etching.mp4",
+      "sha256": "125b85bae86c2db38582e56021ac0bb9bdbb9fa7f83dfc99ef4d5da9ef14c852",
+      "poster": "assets/etching.jpg",
+      "evidence": "evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json"
+    },
+    {
+      "id": "A78",
+      "key": "risograph",
+      "status": "verified-video",
+      "video": "videos/risograph.mp4",
+      "sha256": "18819130f47aa724167a8a629eb85a8704e646a1b00d49c7fbe27c85014948d0",
+      "poster": "assets/risograph.jpg",
+      "evidence": "evidence/production-20261020-a76-a78-a80-a95-a96-a97-a98.json"
+    },
+    {
+      "id": "A80",
+      "key": "cyanotype",
+      "status": "verified-video",
+      "video": "videos/cyanotype.mp4",
+      "sha256": "f806f97779ed3b5ff84c78be8782ed5fa0e2836c9a5138f51dd346ed317ef368",
+      "poster": "assets/cyanotype.jpg",
+      "evidence": "evidence/production-20261020-a76-a78-a80-a95-a96-a97-a98.json"
+    },
+    {
+      "id": "A94",
+      "key": "mechanical-cutaway",
+      "status": "verified-video",
+      "video": "videos/mechanical-cutaway.mp4",
+      "sha256": "32714b286f66a9ee6da48c1f943f11759f7ccdcd9c656c2510136a9ae9e45138",
+      "poster": "assets/mechanical-cutaway.jpg",
+      "evidence": "evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json"
+    },
+    {
+      "id": "A95",
+      "key": "terminal-ascii",
+      "status": "verified-video",
+      "video": "videos/terminal-ascii.mp4",
+      "sha256": "6f240ef26aa6c9cef642f4431cb9795c4113efdff86919c0762c4e3ad2dc19f2",
+      "poster": "assets/terminal-ascii.jpg",
+      "evidence": "evidence/production-20261020-a76-a78-a80-a95-a96-a97-a98.json"
+    },
+    {
+      "id": "A96",
+      "key": "vector-oscilloscope",
+      "status": "verified-video",
+      "video": "videos/vector-oscilloscope.mp4",
+      "sha256": "141b28776a93fe7a0ca414336534d123c273bb11e603e553ae3e953873baff2b",
+      "poster": "assets/vector-oscilloscope.jpg",
+      "evidence": "evidence/production-20261020-a76-a78-a80-a95-a96-a97-a98.json"
+    },
+    {
+      "id": "A97",
+      "key": "led-dot-matrix",
+      "status": "verified-video",
+      "video": "videos/led-dot-matrix.mp4",
+      "sha256": "e3e56e7df8cc9613374c47c98ad1c1480e53b66d85f41fd54211790299568756",
+      "poster": "assets/led-dot-matrix.jpg",
+      "evidence": "evidence/production-20261020-a76-a78-a80-a95-a96-a97-a98.json"
+    },
+    {
+      "id": "A98",
+      "key": "early-desktop",
+      "status": "verified-video",
+      "video": "videos/early-desktop.mp4",
+      "sha256": "2a799ab3fd56b48ff2594597411bec24140e1159507a0423a1e2b4d08b078fb5",
+      "poster": "assets/early-desktop.jpg",
+      "evidence": "evidence/production-20261020-a76-a78-a80-a95-a96-a97-a98.json"
+    },
+    {
+      "id": "A99",
+      "key": "spatial-pointcloud",
+      "status": "verified-video",
+      "video": "videos/spatial-pointcloud.mp4",
+      "sha256": "afb0cd76e05d94950c8bfe217c37dec37651ff732f2a7020325b50ca37619dad",
+      "poster": "assets/spatial-pointcloud.jpg",
+      "evidence": "evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json"
+    }
+  ],
+  "scope": "所有完成视频为实体相对文件，精确SHA对应正式目录；不依赖研究服务器。未完成方向仍显示候选。"
+}

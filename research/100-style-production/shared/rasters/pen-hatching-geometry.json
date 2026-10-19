@@ -1,0 +1,35 @@
+{
+  "width": 1254,
+  "height": 1254,
+  "boxes": {
+    "bag": [
+      85,
+      26,
+      475,
+      596
+    ],
+    "shield": [
+      105,
+      651,
+      425,
+      532
+    ],
+    "coin": [
+      688,
+      192,
+      516,
+      321
+    ],
+    "weight": [
+      744,
+      664,
+      406,
+      509
+    ]
+  },
+  "regionBoundaries": [
+    635,
+    588
+  ],
+  "method": "Read original alpha inside author-selected separation valleys; preserve silhouettes and nearby construction marks. SVG regional clips isolate drawings; source pixels unchanged."
+}

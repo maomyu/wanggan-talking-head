@@ -1,0 +1,9 @@
+{
+  "provider": "built-in image_gen; imagegen skill",
+  "sourcePath": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-b93eb632-d6e2-4706-8181-eaf601afaa97.png",
+  "projectPath": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/shared/rasters/soft-pastel-atlas.png",
+  "sha256": "0a4dac4b836c37d39d6152cfba15fb2a8410fe5c5ea961506cde7b28b454cd20",
+  "prompt": "Use case: stylized-concept. Production transparent RGBA illustration atlas, square canvas. Strict 2x2 arrangement of FOUR separate original explanatory object studies: top-left everyday tote bag with two handles, top-right two unmarked overlapping coin discs, bottom-left shield with one clear check symbol, bottom-right squat iron weight with ring handle. Keep EACH entire subject inside its own quadrant with wide transparent gaps; subjects occupy at most 75% of quadrant width/height. No paper sheet or opaque backing outside the drawing, no page layout, extra objects, hands, people, text, currency signs, numbers, logos, grids or dividers. No copied artwork. Soft dry pastel paintings of the four objects: painterly sculptural powdery color masses, dusty pigment crumbs at edges, broad side-of-stick strokes, selectively blended lost edges and strong opaque light highlights. Cognac and terracotta bag, ochre discs, sage green shield, muted blue iron weight. No ink contours, no thin pencil outlines, no watercolor transparency; thick opaque powder with a few visibly separate color strokes. Keep enough dark/light structure for small-screen reading.",
+  "alphaPreserved": true,
+  "use": "AI生成手绘概念图，作为口播解释示意；不是真实绘画过程或金融证据"
+}

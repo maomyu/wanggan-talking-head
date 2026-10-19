@@ -30,7 +30,15 @@
     "optical-graphic",
     "negative-space",
     "pop-up-book",
-    "corrugated-model"
+    "corrugated-model",
+    "pencil-sketch",
+    "colored-pencil",
+    "charcoal",
+    "pen-hatching",
+    "wax-crayon",
+    "soft-pastel",
+    "marker-sketch",
+    "brush-lettering"
   ],
   "needsRevision": [],
   "sourceVersion": "batch04-final-1.7.0",
@@ -65,6 +73,14 @@
     "optical-graphic": "edd142359d9c6b0c84d490bf19e19bd11e89756c0624cc38d7c9ee0e3d7d7427",
     "negative-space": "b931a3d112ad19e967aa68045f1b71944d0db37bb2d0a37a02764e4e218f8ade",
     "pop-up-book": "3e1bd60059c25d13218c98df5dbf9328b8d79a78951d9bbcd5fe2eb4dc46c768",
-    "corrugated-model": "43a4883034ec2c0395e46040fca70e0e495712ce41db3e7f8dbc47ddbc9c549c"
+    "corrugated-model": "43a4883034ec2c0395e46040fca70e0e495712ce41db3e7f8dbc47ddbc9c549c",
+    "pencil-sketch": "366af69754b1e5e87005e75c0b4d20940000de02dd89c8d99d8fe6dd5df65eb7",
+    "colored-pencil": "304669d989136da6f0c1b0c3c74cae1787cbe74bdbc81014265d412aa5575c03",
+    "charcoal": "49ef69fd26598c5afa704a313333ab728ba2139670616282eff02e4b2f7ddf62",
+    "pen-hatching": "1e9903a7b76d48f95381cacdef5211b1ac1b125a590a243167d75d0bdfc9ff05",
+    "wax-crayon": "bf8c95715a55fc6b05c086057936f777830b8d1f6f80d9c6cf0bf3e2a9659a62",
+    "soft-pastel": "3ef476af50586a8f6914e37173b13c65e4a6ae9dd57bc38c893621fd314e4559",
+    "marker-sketch": "f86142527d4499d7e1ccb49918ee6eb17be2012a7117816d56b8ba0eff9939f7",
+    "brush-lettering": "20dffc73edee30910883541a1b6039d48e69f06a804413865557aba672040fd4"
   }
 }

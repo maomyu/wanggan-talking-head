@@ -1,0 +1,11 @@
+{
+  "provider": "built-in image_gen edit; imagegen skill",
+  "sourcePath": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-a0b07e83-7593-4962-bdf0-d0cdbf1c02d2.png",
+  "projectPath": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/shared/rasters/pen-hatching-atlas-v2.png",
+  "reference": "shared/rasters/pen-hatching-atlas.png",
+  "sha256": "e39992510e216c2389806547a4eae1ab4ca138e5a33d3fabfbb71d09475e2076",
+  "prompt": "Edit the four-object transparent atlas, keep the same four subjects and strict 2x2 order (bag, two blank coins, checked shield, ring-handled weight), their recognizability, no text, and true transparency. Make this unmistakably SPARSE PEN-AND-INK HATCH DRAWING that reads at thumbnail size. Remove photorealistic metal shine, continuous shaded gradients, stippled texture, fine engraver mesh and tiny ornamental rivets. Instead use black nib outlines with purposeful broken edges; inside each object use roughly 15 to 30 individual clearly visible curved parallel hatching strokes, widely spaced with lots of completely white intervals. Use only two short sets of crossing hatches in deepest shadows. Bold hand-drawn structural contour lines and clear white open interiors. Each interior hatch stroke should be 3 to 5 pixels wide at this full resolution with 10 to 16 pixels between strokes, varying slightly by hand, so discrete lines remain visible in a 300px object. Monochrome black ink and opaque white paper highlights only, no grayscale wash. Keep generous transparent gutters. It must look like a pen drawing being developed in a design sketchbook, distinctly different from soft graphite shading and detailed antique etching. No people, tools, labels, numbers, currency symbols, borders or backing paper rectangle.",
+  "alphaPreserved": true,
+  "use": "AI钢笔排线概念图；非实拍过程或金融证据",
+  "revision": "疏而可辨的排线代替过密的雕版般灰调，保留v1原图"
+}

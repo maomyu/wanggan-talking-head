@@ -1,0 +1,9 @@
+{
+  "provider": "built-in image_gen; imagegen skill",
+  "sourcePath": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-63c79fdb-380f-4aed-9de7-0dad42a3bd2c.png",
+  "projectPath": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/shared/rasters/pencil-sketch-atlas.png",
+  "sha256": "2a32bcaf99b30845c1e47f0a23f0b43c1648a4c1bb9f836f87fc3f25423d1479",
+  "prompt": "Use case: stylized-concept. Asset type: production transparent illustration atlas for a Chinese talking-head explainer. Create FOUR original graphite pencil object studies, clean strict 2x2 arrangement: top-left a three-quarter view everyday tote shopping bag with handles and seams; top-right two plain unmarked metal coin discs slightly overlapping; bottom-left a simple shield with a clearly hand-drawn check mark; bottom-right a squat iron calibration weight with a loop handle. Each object entirely in its quadrant with at least 70px clear transparent separation, square image. Authentic observed graphite drawing: construction ellipses and faint perspective guides near each object, repeated searching contours, clearly varied pressure, fine HB hatching turning with volume, some dark 4B accents and lifted paper-white highlights. Restrained black and silvery gray only; high enough contrast to read at 300px object size. Real hand-drawn volumetric objects, NOT generic flat icons, no vector-perfect outlines. Transparent background with genuinely empty alpha outside the drawing; no paper rectangles, page, frame, art tools, labels, letters, currency signs, digits, logos or people. No museum work imitation. All four are explanatory concept illustrations rather than factual evidence.",
+  "alphaPreserved": true,
+  "use": "AI生成手绘概念图，作为口播解释示意；不是真实绘画过程或金融证据"
+}

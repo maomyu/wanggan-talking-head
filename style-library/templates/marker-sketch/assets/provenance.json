@@ -1,0 +1,9 @@
+{
+  "provider": "built-in image_gen; imagegen skill",
+  "sourcePath": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-76e99e7f-eda1-4094-9fab-a312523f2270.png",
+  "projectPath": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/shared/rasters/marker-sketch-atlas.png",
+  "sha256": "aabcf0d6e0a00de14505e3611a46c7ecf27c11a1c5c40f888d1d1b07f68cc4bc",
+  "prompt": "Use case: stylized-concept. Production transparent RGBA illustration atlas, square canvas. Strict 2x2 arrangement of FOUR separate original explanatory object studies: top-left everyday tote bag with two handles, top-right two unmarked overlapping coin discs, bottom-left shield with one clear check symbol, bottom-right squat iron weight with ring handle. Keep EACH entire subject inside its own quadrant with wide transparent gaps; subjects occupy at most 75% of quadrant width/height. No paper sheet or opaque backing outside the drawing, no page layout, extra objects, hands, people, text, currency signs, numbers, logos, grids or dividers. No copied artwork. Professional product-designer marker sketches of the four objects: assured black felt-tip contour strokes with slightly rounded ends, angular translucent broad marker passes, visible overlap bands, crisp unpainted white highlights and a few perspective construction extensions. Rust-red bag, ochre coin discs, cool teal shield, steel blue weight. Slight three-quarter perspectives, decisive broad plane-based shading, no photorealism, no fuzzy pastel texture or fine cross-hatching, no glossy computer gradients.",
+  "alphaPreserved": true,
+  "use": "AI生成手绘概念图，作为口播解释示意；不是真实绘画过程或金融证据"
+}

@@ -1,0 +1,54 @@
+{
+  "ok": true,
+  "encoded": false,
+  "results": [
+    {
+      "key": "pencil-sketch",
+      "time": 11.5,
+      "separationPixels": 19,
+      "scope": "实际像素中强调线与字形的垂直留白；不以DOM框代替字形"
+    },
+    {
+      "key": "colored-pencil",
+      "time": 11.5,
+      "separationPixels": 21,
+      "scope": "实际像素中强调线与字形的垂直留白；不以DOM框代替字形"
+    },
+    {
+      "key": "charcoal",
+      "time": 11.5,
+      "separationPixels": 19,
+      "scope": "实际像素中强调线与字形的垂直留白；不以DOM框代替字形"
+    },
+    {
+      "key": "pen-hatching",
+      "time": 11.5,
+      "separationPixels": 19,
+      "scope": "实际像素中强调线与字形的垂直留白；不以DOM框代替字形"
+    },
+    {
+      "key": "wax-crayon",
+      "time": 11.5,
+      "separationPixels": 21,
+      "scope": "实际像素中强调线与字形的垂直留白；不以DOM框代替字形"
+    },
+    {
+      "key": "soft-pastel",
+      "time": 11.5,
+      "separationPixels": 19,
+      "scope": "实际像素中强调线与字形的垂直留白；不以DOM框代替字形"
+    },
+    {
+      "key": "marker-sketch",
+      "time": 11.5,
+      "separationPixels": 19,
+      "scope": "实际像素中强调线与字形的垂直留白；不以DOM框代替字形"
+    },
+    {
+      "key": "brush-lettering",
+      "time": 24.4,
+      "separationPixels": 16,
+      "scope": "实际像素中强调线与字形的垂直留白；不以DOM框代替字形"
+    }
+  ]
+}

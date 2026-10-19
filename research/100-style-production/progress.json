@@ -2,9 +2,9 @@
   "goal": "100个实际画风视频与正式插件整合",
   "total": 100,
   "userApproved": 20,
-  "productionVerified": 30,
+  "productionVerified": 38,
   "inProduction": 0,
-  "queued": 50,
+  "queued": 42,
   "styles": [
     {
       "id": "A01",
@@ -403,72 +403,80 @@
       "key": "pencil-sketch",
       "name": "铅笔素描",
       "family": "drawing",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/pencil-sketch/outputs/final.mp4"
     },
     {
       "id": "A44",
       "key": "colored-pencil",
       "name": "彩铅笔记",
       "family": "drawing",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/colored-pencil/outputs/final.mp4"
     },
     {
       "id": "A45",
       "key": "charcoal",
       "name": "炭笔擦绘",
       "family": "drawing",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/charcoal/outputs/final.mp4"
     },
     {
       "id": "A46",
       "key": "pen-hatching",
       "name": "钢笔排线",
       "family": "drawing",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/pen-hatching/outputs/final.mp4"
     },
     {
       "id": "A47",
       "key": "wax-crayon",
       "name": "蜡笔涂绘",
       "family": "drawing",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/wax-crayon/outputs/final.mp4"
     },
     {
       "id": "A48",
       "key": "soft-pastel",
       "name": "粉彩晕染",
       "family": "drawing",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/soft-pastel/outputs/final.mp4"
     },
     {
       "id": "A49",
       "key": "marker-sketch",
       "name": "记号笔速写",
       "family": "drawing",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/marker-sketch/outputs/final.mp4"
     },
     {
       "id": "A50",
       "key": "brush-lettering",
       "name": "刷笔字形",
       "family": "drawing",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/brush-lettering/outputs/final.mp4"
     },
     {
       "id": "A51",
