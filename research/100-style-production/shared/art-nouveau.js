@@ -1,0 +1,3 @@
+import{makeEditorial}from'./editorial-stage.js';
+export const LOOK={"key": "art-nouveau", "name": "新艺术曲线", "palette": {"bg": "#eee5c6", "fg": "#344832", "muted": "#526548", "accent": "#7d5c38", "caption": "#f6efd9", "portrait": "#eee5c6"}, "base": {"x": 225, "y": 590, "w": 630}, "css": "#style-label{left:180px;width:720px;text-align:center}#heading{text-align:center;left:84px;width:912px}#title{font-family:Serif;font-weight:700;font-size:94px;letter-spacing:3px}#subtitle{font-family:Serif;font-size:46px}#captions{border:2px solid #65734e;border-radius:36px 5px 36px 5px}#person-mask{outline:8px solid #eee5c6;box-shadow:0 0 0 3px #65734e}"};
+export async function buildArt(ctx){return makeEditorial(ctx,"art-nouveau")}

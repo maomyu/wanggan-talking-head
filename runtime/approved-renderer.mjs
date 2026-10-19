@@ -18,9 +18,11 @@ if(motion.travelSeconds!==undefined){if(!(motion.travelSeconds>.05&&motion.trave
 fs.writeFileSync(path.join(root,'index.html'),html);put('timing.json',timing);put('edit-plan.json',edit);put('facts.json',{source:timing.source,claims:timing.captions.map(c=>({text:c.text,sourceStart:c.sourceStart,sourceEnd:c.sourceEnd})),graphics:'已认可财经原稿的解释示意；不作新素材自动内容模板'});
 const materialKeys=['chalk','paper-stage','type-poster','cel','sci-fi-wireframe'];
 if(materialKeys.includes(style.key)||style.fontRoles){
- const text=[...new Set(Array.from(html+JSON.stringify(timing)).filter(c=>/[\u4e00-\u9fff\u3000-\u303f\uff00-\uffef\u0020-\u007e]/u.test(c)))].join('');
+ // Text can be authored in a local helper module as well as the entry HTML.
+ let fontText=html+JSON.stringify(timing);function fontModules(dir){for(const n of fs.readdirSync(dir)){const f=path.join(dir,n);if(fs.statSync(f).isDirectory()){if(!['fonts','vendor'].includes(n))fontModules(f)}else if(n.endsWith('.js')&&!['gsap.min.js','timing.js','ascii-glyphs.js'].includes(n))fontText+=fs.readFileSync(f,'utf8')}}fontModules(path.join(root,'assets'));
+ const text=[...new Set(Array.from(fontText).filter(c=>/[\u4e00-\u9fff\u3000-\u303f\uff00-\uffef\u0020-\u007e]/u.test(c)||c==='→'))].join('');
  const fonts=style.fontRoles?Object.fromEntries(style.fontRoles.map(name=>[name,text])):{'NotoSansSC-700.woff':text,'NotoSansSC-900.woff':text};if(style.key==='chalk')fonts['LXGWWenKai-500.woff']=text;
- put('font-usage.json',{scope:'approved-reference-declared-font-roles',fonts,note:'Noto700/900为Study正文与标题；仅粉笔画风使用Pen。字符集包含HTML、内嵌图解与完整动态时间轴，后续仍检查实际渲染。'});
+ put('font-usage.json',{scope:'approved-reference-declared-font-roles',fonts,note:'Noto700/900为Study正文与标题；仅粉笔画风使用Pen。字符集包含HTML、本地图解脚本与动态时间轴，后续仍检查实际渲染。'});
 }else if(fs.existsSync(path.join(root,'font-usage.json')))fs.rmSync(path.join(root,'font-usage.json'));
 const generated=[];function walk(dir){for(const n of fs.readdirSync(dir)){const f=path.join(dir,n);if(fs.statSync(f).isDirectory())walk(f);else if(!['master.mp4','canonical-native.srt','edited-voice.wav','gsap.min.js'].includes(n))generated.push(path.relative(root,f));}}walk(path.join(root,'assets'));put('qa/generated-assets.json',{files:generated});
 put('run-record.json',{renderer:'approved-style-reference',style:style.key,modules:['art-direction','layout','motion','editing'].map((name,i)=>{const rel='plans/'+['art-direction','layout-plan','motion-plan','edit-plan'][i]+'.json';return {module:name,input:rel,sha256:sha(path.join(root,rel))};}),frameCount:timing.frameCount,sourceSha256:timing.source.sha256,captionCount:timing.captions.length,outputHtmlSha256:sha(path.join(root,'index.html'))});

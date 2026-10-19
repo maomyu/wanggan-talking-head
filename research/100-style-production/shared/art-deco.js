@@ -1,0 +1,3 @@
+import{makeEditorial}from'./editorial-stage.js';
+export const LOOK={"key": "art-deco", "name": "装饰艺术", "palette": {"bg": "#13282b", "fg": "#f1e6c9", "muted": "#cbbd99", "accent": "#cfb171", "caption": "#172c2e", "portrait": "#13282b"}, "base": {"x": 230, "y": 585, "w": 620}, "css": "#style-label{left:180px;width:720px;text-align:center}#heading{text-align:center;left:88px;width:904px}#title{font-family:Serif;font-size:94px;font-weight:700;letter-spacing:6px}#subtitle{font-family:Serif;font-size:46px}#kicker{letter-spacing:7px}#captions{border:2px solid var(--accent);border-left-width:7px;border-right-width:7px}#person-mask{outline:7px solid #13282b;box-shadow:0 0 0 3px #cfb171}"};
+export async function buildArt(ctx){return makeEditorial(ctx,"art-deco")}

@@ -1610,7 +1610,9 @@
       "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
       "humanTreatment": "original-color; circular-corners; raised-captions",
       "sourceKind": "creative-proposal",
-      "references": []
+      "references": [
+        "R10"
+      ]
     },
     {
       "id": "A37",

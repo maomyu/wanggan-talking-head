@@ -18,5 +18,14 @@
   ],
   "needsRevision": {},
   "sourceVersion": "native print/screen v2; motion-linked notes; outlined ASCII graphic glyphs; current source hashes verified",
-  "reviewedAt": "2026-10-20T01:20:31.478254+08:00"
+  "reviewedAt": "2026-10-20T01:20:31.478254+08:00",
+  "videoSha256": {
+    "woodcut": "1922f51c7f1c49c79351937dcb7284f47c1f339fa0f669dc606c2489cb169402",
+    "risograph": "18819130f47aa724167a8a629eb85a8704e646a1b00d49c7fbe27c85014948d0",
+    "cyanotype": "f806f97779ed3b5ff84c78be8782ed5fa0e2836c9a5138f51dd346ed317ef368",
+    "terminal-ascii": "6f240ef26aa6c9cef642f4431cb9795c4113efdff86919c0762c4e3ad2dc19f2",
+    "vector-oscilloscope": "141b28776a93fe7a0ca414336534d123c273bb11e603e553ae3e953873baff2b",
+    "led-dot-matrix": "e3e56e7df8cc9613374c47c98ad1c1480e53b66d85f41fd54211790299568756",
+    "early-desktop": "2a799ab3fd56b48ff2594597411bec24140e1159507a0423a1e2b4d08b078fb5"
+  }
 }

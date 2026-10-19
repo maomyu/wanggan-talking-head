@@ -263,7 +263,7 @@
       "key": "newspaper",
       "name": "新闻报纸",
       "family": "editorial",
-      "stage": "queued",
+      "stage": "design-preview",
       "formal": false,
       "userApproved": false
     },
@@ -272,7 +272,7 @@
       "key": "archive-dossier",
       "name": "档案卷宗",
       "family": "editorial",
-      "stage": "queued",
+      "stage": "design-preview",
       "formal": false,
       "userApproved": false
     },
@@ -290,7 +290,7 @@
       "key": "dictionary-entry",
       "name": "字典辞条",
       "family": "editorial",
-      "stage": "queued",
+      "stage": "design-preview",
       "formal": false,
       "userApproved": false
     },
@@ -299,7 +299,7 @@
       "key": "lab-notebook",
       "name": "实验记录",
       "family": "editorial",
-      "stage": "queued",
+      "stage": "design-preview",
       "formal": false,
       "userApproved": false
     },
@@ -317,7 +317,7 @@
       "key": "swiss-grid",
       "name": "瑞士网格",
       "family": "graphic",
-      "stage": "queued",
+      "stage": "design-preview",
       "formal": false,
       "userApproved": false
     },
@@ -326,7 +326,7 @@
       "key": "constructivist",
       "name": "构成主义",
       "family": "graphic",
-      "stage": "queued",
+      "stage": "design-preview",
       "formal": false,
       "userApproved": false
     },
@@ -335,7 +335,7 @@
       "key": "art-deco",
       "name": "装饰艺术",
       "family": "graphic",
-      "stage": "queued",
+      "stage": "design-preview",
       "formal": false,
       "userApproved": false
     },
@@ -344,7 +344,7 @@
       "key": "art-nouveau",
       "name": "新艺术曲线",
       "family": "graphic",
-      "stage": "queued",
+      "stage": "design-preview",
       "formal": false,
       "userApproved": false
     },
@@ -524,7 +524,7 @@
       "key": "origami",
       "name": "折纸结构",
       "family": "fiber",
-      "stage": "formal-production-verified",
+      "stage": "full-video-program-verified-awaiting-author-review",
       "formal": true,
       "userApproved": false,
       "video": "variants/origami/outputs/final.mp4"
@@ -561,7 +561,7 @@
       "key": "felt-applique",
       "name": "毛毡贴画",
       "family": "fiber",
-      "stage": "formal-production-verified",
+      "stage": "full-video-program-verified-awaiting-author-review",
       "formal": true,
       "userApproved": false,
       "video": "variants/felt-applique/outputs/final.mp4"
@@ -571,7 +571,7 @@
       "key": "embroidery",
       "name": "刺绣针脚",
       "family": "fiber",
-      "stage": "formal-production-verified",
+      "stage": "full-video-program-verified-awaiting-author-review",
       "formal": true,
       "userApproved": false,
       "video": "variants/embroidery/outputs/final.mp4"
@@ -608,7 +608,7 @@
       "key": "gongbi",
       "name": "工笔设色",
       "family": "painting",
-      "stage": "formal-production-verified",
+      "stage": "full-video-program-verified-awaiting-author-review",
       "formal": true,
       "userApproved": false,
       "video": "variants/gongbi/outputs/final.mp4"
@@ -700,7 +700,7 @@
       "key": "etching",
       "name": "蚀刻铜版",
       "family": "craft",
-      "stage": "formal-production-verified",
+      "stage": "full-video-program-verified-awaiting-author-review",
       "formal": true,
       "userApproved": false,
       "video": "variants/etching/outputs/final.mp4"
@@ -856,7 +856,7 @@
       "key": "mechanical-cutaway",
       "name": "机械剖面",
       "family": "volume",
-      "stage": "formal-production-verified",
+      "stage": "full-video-program-verified-awaiting-author-review",
       "formal": true,
       "userApproved": false,
       "video": "variants/mechanical-cutaway/outputs/final.mp4"
@@ -906,7 +906,7 @@
       "key": "spatial-pointcloud",
       "name": "空间点云",
       "family": "digital",
-      "stage": "formal-production-verified",
+      "stage": "full-video-program-verified-awaiting-author-review",
       "formal": true,
       "userApproved": false,
       "video": "variants/spatial-pointcloud/outputs/final.mp4"

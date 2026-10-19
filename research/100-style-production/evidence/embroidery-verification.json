@@ -6,8 +6,8 @@
   "fps": "30/1",
   "frames": 1100,
   "duration": 36.666666666666664,
-  "bytes": 47303587,
-  "sha256": "93122d37b90640a5edeb2ebd7e0f71f0597199795788afc558b052ce8e33d6e3",
+  "bytes": 47295523,
+  "sha256": "9b60886d0ab6b0e71fa5e3cfa4d85afca1e88f225f25b109391a044c860f741a",
   "decodedAudioHash": "f61d6839ef185edd3268011f553bc8ee2f7ad6afd261cbf596e02d416d7da70b",
   "sourceSpeech": [
     {
@@ -67,5 +67,10 @@
   "firstFramePresenter": {
     "ok": true,
     "meanAbsoluteRGBError": 2.6710993459981314
+  },
+  "lastFramePresenter": {
+    "ok": true,
+    "frame": 1099,
+    "meanAbsoluteRGBError": 1.9805460396553514
   }
 }
