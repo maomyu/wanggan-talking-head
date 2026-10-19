@@ -1,0 +1,3 @@
+import{makeVectorIllustration}from'./illustration-vector-stage.js';
+export const LOOK={"key": "silhouette-fable", "name": "剪影寓言", "palette": {"bg": "#172235", "fg": "#f4e7c8", "muted": "#cfbea0", "accent": "#dcc399", "caption": "#233348", "portrait": "#172235"}, "base": {"x": 225, "y": 580, "w": 630}, "css": "#title{font-family:Serif;font-size:103px;font-weight:700}#subtitle{font-size:46px}#caption-text{color:#f4e7c8}#captions{border-top:2px solid #dcc399}#person-mask{outline:9px solid #f4e7c8}"};
+export async function buildArt(ctx){return makeVectorIllustration(ctx,{mode:"silhouette-fable"})}

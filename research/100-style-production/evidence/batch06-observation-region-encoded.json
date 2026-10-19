@@ -1,0 +1,181 @@
+{
+  "ok": true,
+  "sha256": "0aa66a8c67b7619f45b8f6dd322ea5f62815af40783e4a4b5aaae7897b847176",
+  "results": [
+    {
+      "time": 18.9,
+      "kind": "bag",
+      "sourceCenter": [
+        326.05,
+        238.2
+      ],
+      "mainCenter": [
+        347.72076271186444,
+        797.9
+      ],
+      "insetCenter": [
+        794,
+        775
+      ],
+      "magnification": 1.9780219780219779,
+      "sourceCircleRadius": 61.67777777777779,
+      "metrics": [
+        {
+          "role": "main",
+          "meanAbsoluteRGBError": 12.302001953125,
+          "structuralMAE": 2.90576171875,
+          "meanRGBError": [
+            -1.5390625,
+            -1.4326171875,
+            -1.474365234375
+          ],
+          "ok": true
+        },
+        {
+          "role": "inset",
+          "meanAbsoluteRGBError": 7.580078125,
+          "structuralMAE": 3.8826497395833335,
+          "meanRGBError": [
+            -1.575439453125,
+            -1.3154296875,
+            -1.253173828125
+          ],
+          "ok": true
+        }
+      ]
+    },
+    {
+      "time": 24.4,
+      "kind": "shield",
+      "sourceCenter": [
+        328.47,
+        856.22
+      ],
+      "mainCenter": [
+        348.47073813708266,
+        797.9
+      ],
+      "insetCenter": [
+        794,
+        775
+      ],
+      "magnification": 1.9780219780219779,
+      "sourceCircleRadius": 61.677777777777784,
+      "metrics": [
+        {
+          "role": "main",
+          "meanAbsoluteRGBError": 4.716959635416667,
+          "structuralMAE": 2.014892578125,
+          "meanRGBError": [
+            -1.78857421875,
+            -1.033935546875,
+            -1.809326171875
+          ],
+          "ok": true
+        },
+        {
+          "role": "inset",
+          "meanAbsoluteRGBError": 3.116455078125,
+          "structuralMAE": 2.002685546875,
+          "meanRGBError": [
+            -1.684814453125,
+            -0.93994140625,
+            -1.59423828125
+          ],
+          "ok": true
+        }
+      ]
+    }
+  ],
+  "negativeControl": {
+    "sha256": "0de67847f089796415273bae4c0198b4b0c636186b371f0c6424b851be1ddf86",
+    "bothOldInsetsRejected": true,
+    "results": [
+      {
+        "time": 18.9,
+        "kind": "bag",
+        "sourceCenter": [
+          326.05,
+          238.2
+        ],
+        "mainCenter": [
+          347.72076271186444,
+          797.9
+        ],
+        "insetCenter": [
+          794,
+          775
+        ],
+        "magnification": 1.9780219780219779,
+        "sourceCircleRadius": 61.67777777777779,
+        "metrics": [
+          {
+            "role": "main",
+            "meanAbsoluteRGBError": 12.290283203125,
+            "structuralMAE": 2.8961588541666665,
+            "meanRGBError": [
+              -1.45458984375,
+              -1.4921875,
+              -1.471435546875
+            ],
+            "ok": true
+          },
+          {
+            "role": "inset",
+            "meanAbsoluteRGBError": 45.85302734375,
+            "structuralMAE": 31.901774088541668,
+            "meanRGBError": [
+              10.5947265625,
+              13.271240234375,
+              15.534912109375
+            ],
+            "ok": false
+          }
+        ]
+      },
+      {
+        "time": 24.4,
+        "kind": "shield",
+        "sourceCenter": [
+          328.47,
+          856.22
+        ],
+        "mainCenter": [
+          348.47073813708266,
+          797.9
+        ],
+        "insetCenter": [
+          794,
+          775
+        ],
+        "magnification": 1.9780219780219779,
+        "sourceCircleRadius": 61.677777777777784,
+        "metrics": [
+          {
+            "role": "main",
+            "meanAbsoluteRGBError": 4.722981770833333,
+            "structuralMAE": 2.004150390625,
+            "meanRGBError": [
+              -1.740966796875,
+              -1.032470703125,
+              -1.8056640625
+            ],
+            "ok": true
+          },
+          {
+            "role": "inset",
+            "meanAbsoluteRGBError": 17.568033854166668,
+            "structuralMAE": 13.523844401041666,
+            "meanRGBError": [
+              -6.2890625,
+              -5.863525390625,
+              -8.350341796875
+            ],
+            "ok": false
+          }
+        ]
+      }
+    ]
+  },
+  "scope": "两次完整显现的实际编码，主图与局部各取64px内区，与同一源图区域的独立仿射映射比较；1px分析滤波抑制不同重采样核的细颗粒差异，同时约束原始均色，旧版两处局部均必须拒绝。仅QA数值分析，不修改生产图片。"
+}

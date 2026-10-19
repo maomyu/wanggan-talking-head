@@ -1,0 +1,9 @@
+{
+  "stage": "reencoded-and-actual-pixels-verified",
+  "key": "natural-history",
+  "previousProof": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/variants/natural-history/qa/revisions/observation-before/natural-history-verification.json",
+  "issue": "引线锚点为常数，未与真实局部中心绑定；原inset只有1.1倍",
+  "fix": "源区域中心与半径从同一geometry计算，主圈半径=122*455/900，放大约1.978倍，引线接主圈与观察窗边缘，原始图像像素保持",
+  "guard": "只有已完成且无活动渲染的natural-history工程被修；其他7工程输入不改",
+  "finalSha256": "0aa66a8c67b7619f45b8f6dd322ea5f62815af40783e4a4b5aaae7897b847176"
+}

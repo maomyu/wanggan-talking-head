@@ -1,0 +1,43 @@
+{
+  "kind": "original-AI-concept-illustration",
+  "source": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-d6c0812e-f9b2-496c-9345-d7bff6338955.png",
+  "file": "torn-paper-atlas.png",
+  "prompt": "Use case: stylized-concept. Asset type: original transparent atlas of FOUR handmade torn-paper relief illustrations. Square canvas, strict 2 by 2 grid with wide transparent gutters. Top-left: unbranded red-orange shopping tote with readable handle opening. Top-right: two overlapping plain golden paper coins, NO symbols. Bottom-left: deep teal shield with cream checkmark. Bottom-right: charcoal blue iron-weight shape with loop handle. Objects constructed entirely from torn colored art-paper layers: unmistakable irregular fibrous torn edges exposing pale inner pulp, chunky flat color patches, small overlap shadows and visible paper thickness, visibly ripped rather than cut with scissors, no drawn outlines or pencil hatching. Each object fully isolated within its quadrant, all edges stay away from canvas edges and central gutters. Genuine transparent alpha, no square background, no cast shadows extending into neighbouring quadrants, no text, currency marks, numbers, branding, people or unrelated decorations. Tangible paper-layer craft, not a photograph of a real handmade product; original conceptual material study.",
+  "sha256": "9d6629ec70a3fb502a4f7fe48352d9ed0cd514bc5e3d6346a8c16e7742880508",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "sourcePixelsUnmodified": true,
+  "disclosure": "AI概念图，解释示意；人物使用原视频",
+  "geometry": {
+    "width": 1254,
+    "height": 1254,
+    "boxes": {
+      "bag": [
+        74,
+        36,
+        514,
+        575
+      ],
+      "coin": [
+        666,
+        105,
+        546,
+        493
+      ],
+      "shield": [
+        90,
+        662,
+        458,
+        547
+      ],
+      "weight": [
+        669,
+        678,
+        525,
+        520
+      ]
+    }
+  }
+}

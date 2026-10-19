@@ -1,6 +1,6 @@
 # 随包运行合同
 
-默认渲染器HyperFrames0.8.174，依赖树由runtime/package-lock.json固定；GSAP3.14.2和7个字体文件固定到本地。Python依赖锁定numpy2.4.4、Pillow12.1.0、fonttools4.62.1。用doctor读取实际状态，不猜测依赖已装好。首次setup可能需要包下载及渲染器浏览器准备，之后素材和字体不依赖渲染时联网。
+默认渲染器HyperFrames0.8.174，依赖树由runtime/package-lock.json固定；GSAP3.14.2与assets/fonts/catalog.json清单中的字体文件固定到本地（当前8个）。Python依赖锁定numpy2.4.4、Pillow12.1.0、fonttools4.62.1。用doctor读取实际状态，不猜测依赖已装好。首次setup可能需要包下载及渲染器浏览器准备，之后素材和字体不依赖渲染时联网。
 
 ## HTML与时间
 

@@ -142,6 +142,156 @@
       "volume": 1
     },
     {
+      "name": "铅笔素描",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "彩铅笔记",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "炭笔擦绘",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "钢笔排线",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "蜡笔涂绘",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "粉彩晕染",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "记号笔速写",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "刷笔字形",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "儿童绘本",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "科学博物插画",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "等距城市插画",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "低多边形平涂",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "讽刺社论插画",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "剪影寓言",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "地图旅行插画",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
       "name": "折纸结构",
       "range": 206,
       "seek": 18.9,
@@ -163,6 +313,16 @@
     },
     {
       "name": "瓦楞纸模型",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "撕纸肌理",
       "range": 206,
       "seek": 18.9,
       "width": 1080,

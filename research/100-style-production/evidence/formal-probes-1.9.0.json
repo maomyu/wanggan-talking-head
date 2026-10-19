@@ -1,0 +1,102 @@
+{
+  "ok": true,
+  "version": "1.9.0",
+  "results": [
+    {
+      "key": "picture-book",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.9.0/picture-book",
+      "base": [
+        225,
+        580,
+        630,
+        630
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "natural-history",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.9.0/natural-history",
+      "base": [
+        220,
+        585,
+        640,
+        640
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "isometric-city",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.9.0/isometric-city",
+      "base": [
+        225,
+        580,
+        630,
+        630
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "faceted-vector",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.9.0/faceted-vector",
+      "base": [
+        225,
+        585,
+        630,
+        630
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "editorial-metaphor",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.9.0/editorial-metaphor",
+      "base": [
+        220,
+        580,
+        640,
+        640
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "silhouette-fable",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.9.0/silhouette-fable",
+      "base": [
+        225,
+        580,
+        630,
+        630
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "illustrated-map",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.9.0/illustrated-map",
+      "base": [
+        225,
+        580,
+        630,
+        630
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    },
+    {
+      "key": "torn-paper",
+      "project": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.9.0/torn-paper",
+      "base": [
+        225,
+        580,
+        630,
+        630
+      ],
+      "travel": 0.55,
+      "builtWithFormalRuntime": true
+    }
+  ]
+}

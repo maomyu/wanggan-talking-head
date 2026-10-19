@@ -1,0 +1,3 @@
+import{makeVectorIllustration}from'./illustration-vector-stage.js';
+export const LOOK={"key": "faceted-vector", "name": "低多边形平涂", "palette": {"bg": "#ede8d8", "fg": "#293e46", "muted": "#58666b", "accent": "#8e4c37", "caption": "#fbf7eb", "portrait": "#ede8d8"}, "base": {"x": 225, "y": 585, "w": 630}, "css": "#title{font-size:100px;letter-spacing:-2px}#subtitle{font-size:46px}#captions{border:0;border-left:8px solid #8e4c37}#architecture{inset:515px 36px 672px;background:#dce3df;clip-path:polygon(0 0,100% 0,100% 84%,75% 100%,0 100%)}"};
+export async function buildArt(ctx){return makeVectorIllustration(ctx,{mode:"faceted-vector"})}

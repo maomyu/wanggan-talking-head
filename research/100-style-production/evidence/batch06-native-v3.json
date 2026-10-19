@@ -1,0 +1,190 @@
+{
+  "ok": true,
+  "scope": "actual art-region PNG comparison after nonsequential seeks; computed opaque reading-role contrast",
+  "results": [
+    {
+      "key": "picture-book",
+      "artPixelReverseSeek": true,
+      "artSha256": "d2efb2ba98af243601d5f5a56ca587c379d5176ab72e7490ada1af8374ab2b3b",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 8.64219113676837
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 8.64219113676837
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 10.079487211901471
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 8.64219113676837
+        }
+      ]
+    },
+    {
+      "key": "natural-history",
+      "artPixelReverseSeek": true,
+      "artSha256": "fe05037a899ff35e9db76f5c09d4cf123648b089cf561223b08f51a2ef6e5f5c",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 9.699098024734193
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 9.699098024734193
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 11.069765450218314
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 9.699098024734193
+        }
+      ]
+    },
+    {
+      "key": "isometric-city",
+      "artPixelReverseSeek": true,
+      "artSha256": "3fcd9baa34018c3bfb47398764e23eff7e167b1dc9d00c3d2928b5c6a414d87a",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 8.385463527100367
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 8.385463527100367
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 9.2836526450443
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 8.385463527100367
+        }
+      ]
+    },
+    {
+      "key": "faceted-vector",
+      "artPixelReverseSeek": true,
+      "artSha256": "1a92c81b2720b41aad8eaf0087ff7829d2acaff7043ff6d19e45c984e1d3ecd7",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 9.15449087304345
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 9.15449087304345
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 10.474448169101807
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 9.15449087304345
+        }
+      ]
+    },
+    {
+      "key": "editorial-metaphor",
+      "artPixelReverseSeek": true,
+      "artSha256": "2ee3e0cb1ad514871c683a808f39003e87e6829c1555d7fdfe8ead7eddccf0f9",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 10.397124067931035
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 10.397124067931035
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 11.553480200258608
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 10.397124067931035
+        }
+      ]
+    },
+    {
+      "key": "silhouette-fable",
+      "artPixelReverseSeek": true,
+      "artSha256": "746da1169e1cdba3314c3bb0379ad50d88b15fbc9e5ed1af0ca52e097d1aa5a4",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 12.995859719422576
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 12.995859719422576
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 10.442639490232946
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 12.995859719422576
+        }
+      ]
+    },
+    {
+      "key": "illustrated-map",
+      "artPixelReverseSeek": true,
+      "artSha256": "b7cdfc23a6b88e1309d810184bf21826a534a7304835762df69a7d5c806969c9",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 8.504757188406458
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 8.504757188406458
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 9.250393284428116
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 8.504757188406458
+        }
+      ]
+    },
+    {
+      "key": "torn-paper",
+      "artPixelReverseSeek": true,
+      "artSha256": "5102ae8c1c4967717424f285ad149c937fd17543f8d6d9855edc4f48d0df4517",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 8.35717318262038
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 8.35717318262038
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 9.740129167317521
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 8.35717318262038
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "records": [
+    {
+      "key": "picture-book",
+      "sha256": "f3717be45bde79ed819f528fb4bc4763dca51cbefca074b0b16249ba567af15e",
+      "viewed": [
+        "4秒实际编码拼版",
+        "整片12帧实际编码拼版",
+        "生成素材与原生代表状态"
+      ],
+      "judgment": "当前抽看未发现阻塞项"
+    },
+    {
+      "key": "isometric-city",
+      "sha256": "31aacae2e81ed8443364e44fbbb44c51dea6b8d521bd29db21e4bef50d356dde",
+      "viewed": [
+        "4秒实际编码拼版",
+        "整片12帧实际编码拼版",
+        "修后原生代表状态"
+      ],
+      "judgment": "当前抽看未发现阻塞项"
+    },
+    {
+      "key": "faceted-vector",
+      "sha256": "8a61a2af6748b8874b93e4222c794d649bf031ace7b5dabb5df7c7cebd94fa12",
+      "viewed": [
+        "4秒实际编码拼版",
+        "整片12帧实际编码拼版",
+        "修后原生代表状态"
+      ],
+      "judgment": "当前抽看未发现阻塞项"
+    },
+    {
+      "key": "editorial-metaphor",
+      "sha256": "b3791cffe0587ee87ae97acc9a4f4a85e0804ec6c29b4e4d89f59f7fac60e062",
+      "viewed": [
+        "4秒实际编码拼版",
+        "整片12帧实际编码拼版",
+        "修后原生代表状态",
+        "20.1—24.1实际编码补测拼版"
+      ],
+      "judgment": "当前抽看未发现阻塞项"
+    },
+    {
+      "key": "silhouette-fable",
+      "sha256": "fd06ab875f65cc6f8bba91d599f7eb6763fce7dfae22cf3d09e608ad83dcda7d",
+      "viewed": [
+        "4秒实际编码拼版",
+        "整片12帧实际编码拼版",
+        "修后原生代表状态",
+        "24.4秒实际编码原尺寸，亮幕与大字间距34px"
+      ],
+      "judgment": "当前抽看未发现阻塞项"
+    },
+    {
+      "key": "illustrated-map",
+      "sha256": "265f7243bf886583893784745453d9cae1024ef60b386e95e6d55b625177952c",
+      "viewed": [
+        "4秒实际编码拼版",
+        "整片12帧实际编码拼版",
+        "24.4秒实际编码原尺寸"
+      ],
+      "judgment": "当前抽看未发现阻塞项；非重点站退为背景"
+    },
+    {
+      "key": "torn-paper",
+      "sha256": "464a6c12b5e0232c72f1ae6dc348ce213a156e5390bdfc0471dc5c684c35061a",
+      "viewed": [
+        "4秒实际编码拼版",
+        "整片12帧实际编码拼版",
+        "18.9秒实际编码原尺寸"
+      ],
+      "judgment": "当前抽看未发现阻塞项；原纸纤维边缘可辨，整片层落定"
+    }
+  ],
+  "needsRevision": [
+    "natural-history"
+  ],
+  "scope": "作者逐条累积，未完成项不提前晋级"
+}

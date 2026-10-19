@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "observedOldRuleIncorrectlyReuses": true,
+  "buildStateAlreadyUpdated": true,
+  "oldEncodeStillPresent": true,
+  "projectStatus": "built",
+  "newRuleRejects": true,
+  "previousVideoSha256": "0de67847f089796415273bae4c0198b4b0c636186b371f0c6424b851be1ddf86",
+  "scope": "实际修订后的工程：helper已变，预检已改写build-state，原视频未变；要求运行状态verified后才允许复用，built状态拒绝",
+  "positiveControlVerifiedEncodeReused": true,
+  "newVideoSha256": "0aa66a8c67b7619f45b8f6dd322ea5f62815af40783e4a4b5aaae7897b847176",
+  "videoUnchangedByCorrectReuse": true
+}

@@ -1,0 +1,43 @@
+{
+  "kind": "original-AI-concept-illustration",
+  "source": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-5a6f46cd-cefb-48e1-8202-4339bc1b0d02.png",
+  "file": "natural-history-atlas.png",
+  "prompt": "Use case: scientific-educational. Asset type: original transparent atlas of FOUR observational illustrations of ordinary symbolic objects, for an explicitly labelled conceptual financial explainer, not a biological or engineering claim. Square canvas, strict 2 by 2 grid, transparent background and broad transparent gutters, each isolated object fully inside its quadrant: top-left a simple unbranded fabric shopping tote with clear handle opening; top-right exactly two plain overlapping coins without symbols; bottom-left a simple shield with a checkmark; bottom-right a round cast iron calibration-style weight with loop handle but NO numerals. Natural-history specimen-plate treatment applied to these everyday objects: extremely attentive contours, delicate sepia ink stipple and translucent restrained mineral colors, mostly planar specimen presentation, visible structure with ample unpainted light areas, elegant copper/olive/dusty blue, no cinematic shading or glossy 3D. Each object separately isolated, no floor, shadows contained immediately under each. No lines connecting quadrants, no text, letters, labels, numbers, plants, humans, logos, or invented measurement details. Genuine transparent alpha.",
+  "sha256": "eb47243e633037f6034d6deb9ba30ed7b007c582a74d250f631a134aaf89e88d",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "sourcePixelsUnmodified": true,
+  "disclosure": "AI概念图，解释示意；人物使用原视频",
+  "geometry": {
+    "width": 1254,
+    "height": 1254,
+    "boxes": {
+      "bag": [
+        69,
+        14,
+        485,
+        590
+      ],
+      "coin": [
+        666,
+        116,
+        551,
+        443
+      ],
+      "shield": [
+        64,
+        640,
+        499,
+        569
+      ],
+      "weight": [
+        739,
+        644,
+        435,
+        557
+      ]
+    }
+  }
+}

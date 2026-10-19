@@ -1,0 +1,3 @@
+import{makeRasterIllustration}from'./illustration-raster-stage.js';import geometry from'./atlas-geometry.js';
+export const LOOK={"key": "natural-history", "name": "科学博物插画", "palette": {"bg": "#f1eedf", "fg": "#2f3e34", "muted": "#596759", "accent": "#835b39", "caption": "#fffdf2", "portrait": "#f1eedf"}, "base": {"x": 220, "y": 585, "w": 640}, "css": "#title{font-family:Serif;font-size:101px;font-weight:700}#subtitle{font-size:46px}#heading{border-bottom:1px solid #65705d;padding-bottom:18px}#captions{border-top:1px solid #65705d;border-bottom:1px solid #65705d}#architecture{inset:510px 36px 674px;background:#fcf9ee;border:1px solid #c1bcaa}"};
+export async function buildArt(ctx){return makeRasterIllustration(ctx,{mode:"natural-history",geometry})}

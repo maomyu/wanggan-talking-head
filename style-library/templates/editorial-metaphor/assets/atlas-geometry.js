@@ -1,0 +1,5 @@
+export default {
+  "width": 1536,
+  "height": 1024
+}
+;

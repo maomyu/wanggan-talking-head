@@ -1,0 +1,3 @@
+import{makeVectorIllustration}from'./illustration-vector-stage.js';
+export const LOOK={"key": "illustrated-map", "name": "地图旅行插画", "palette": {"bg": "#eaf0df", "fg": "#2d4937", "muted": "#566b52", "accent": "#8b5b35", "caption": "#fcf7e8", "portrait": "#eaf0df"}, "base": {"x": 225, "y": 580, "w": 630}, "css": "#title{font-family:Serif;font-size:102px;font-weight:700}#subtitle{font-size:46px}#captions{border-left:5px solid #8b5b35;border-top:0}#architecture{inset:510px 36px 672px;border:1px solid #b2bfa3;background:#f2f4e8}"};
+export async function buildArt(ctx){return makeVectorIllustration(ctx,{mode:"illustrated-map"})}

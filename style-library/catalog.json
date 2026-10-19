@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "1.8.0",
+  "version": "1.9.0",
   "approvedCount": 20,
   "styles": [
     {
@@ -1711,6 +1711,356 @@
       ]
     },
     {
+      "id": "A51",
+      "key": "picture-book",
+      "name": "儿童绘本",
+      "familyKey": "illustration",
+      "family": "插画与叙事",
+      "visualMechanism": "连续水粉故事场景横跨书页，同一条路径与物件维持空间；按讲述作有限位的画面聚焦，页外留短句",
+      "profiles": {
+        "layout": "L09",
+        "motion": "M13",
+        "editing": "E07",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "亲子",
+        "故事"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [
+        "R20"
+      ],
+      "assetDisclosure": "Original AI concept pixels preserved; illustrative only; not real geography/scientific measurements/events; presenter unchanged",
+      "preview": "previews/picture-book.jpg",
+      "implementation": "templates/picture-book/index.html",
+      "evidence": "evidence/production-20261020-a51-a52-a53-a54-a55-a56-a57-a61.json",
+      "videoSha256": "f3717be45bde79ed819f528fb4bc4763dca51cbefca074b0b16249ba567af15e",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff",
+        "LXGWWenKai-500.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        225,
+        580,
+        630,
+        630
+      ]
+    },
+    {
+      "id": "A52",
+      "key": "natural-history",
+      "name": "科学博物插画",
+      "familyKey": "illustration",
+      "family": "插画与叙事",
+      "visualMechanism": "借用博物观察图版的主物件、同源像素局部圆窗与细引线；本片AI日常物件类比，不宣称物种或真实科学测量",
+      "profiles": {
+        "layout": "L14",
+        "motion": "M01",
+        "editing": "E02",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "自然",
+        "科学"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [
+        "R21"
+      ],
+      "assetDisclosure": "Original AI concept pixels preserved; illustrative only; not real geography/scientific measurements/events; presenter unchanged",
+      "preview": "previews/natural-history.jpg",
+      "implementation": "templates/natural-history/index.html",
+      "evidence": "evidence/production-20261020-a51-a52-a53-a54-a55-a56-a57-a61.json",
+      "videoSha256": "0aa66a8c67b7619f45b8f6dd322ea5f62815af40783e4a4b5aaae7897b847176",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        220,
+        585,
+        640,
+        640
+      ]
+    },
+    {
+      "id": "A53",
+      "key": "isometric-city",
+      "name": "等距城市插画",
+      "familyKey": "illustration",
+      "family": "插画与叙事",
+      "visualMechanism": "原创彩色等距街区以完整屋顶、两侧立面、窗与道路组织三节点；当前节点加重，其他位置退为背景",
+      "profiles": {
+        "layout": "L11",
+        "motion": "M01",
+        "editing": "E07",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "城市",
+        "系统"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [],
+      "assetDisclosure": "Original deterministic SVG explanatory geometry; presenter unchanged; no real financial or geographic data",
+      "preview": "previews/isometric-city.jpg",
+      "implementation": "templates/isometric-city/index.html",
+      "evidence": "evidence/production-20261020-a51-a52-a53-a54-a55-a56-a57-a61.json",
+      "videoSha256": "31aacae2e81ed8443364e44fbbb44c51dea6b8d521bd29db21e4bef50d356dde",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        225,
+        580,
+        630,
+        630
+      ]
+    },
+    {
+      "id": "A54",
+      "key": "faceted-vector",
+      "name": "低多边形平涂",
+      "familyKey": "illustration",
+      "family": "插画与叙事",
+      "visualMechanism": "有限硬边多边形色面塑造物件，面组逐层显现；无纸厚、纤维或光滑曲面，以二维切面区别折纸",
+      "profiles": {
+        "layout": "L07",
+        "motion": "M01",
+        "editing": "E04",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "概念",
+        "科技"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [],
+      "assetDisclosure": "Original deterministic SVG explanatory geometry; presenter unchanged; no real financial or geographic data",
+      "preview": "previews/faceted-vector.jpg",
+      "implementation": "templates/faceted-vector/index.html",
+      "evidence": "evidence/production-20261020-a51-a52-a53-a54-a55-a56-a57-a61.json",
+      "videoSha256": "8a61a2af6748b8874b93e4222c794d649bf031ace7b5dabb5df7c7cebd94fa12",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        225,
+        585,
+        630,
+        630
+      ]
+    },
+    {
+      "id": "A55",
+      "key": "editorial-metaphor",
+      "name": "讽刺社论插画",
+      "familyKey": "illustration",
+      "family": "插画与叙事",
+      "visualMechanism": "巨大消费袋、小本金与沉重砝码形成一个夸张的视觉比喻；完整关系与局部聚焦交替，明确AI示意身份",
+      "profiles": {
+        "layout": "L09",
+        "motion": "M13",
+        "editing": "E07",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "社会",
+        "商业"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [],
+      "assetDisclosure": "Original AI concept pixels preserved; illustrative only; not real geography/scientific measurements/events; presenter unchanged",
+      "preview": "previews/editorial-metaphor.jpg",
+      "implementation": "templates/editorial-metaphor/index.html",
+      "evidence": "evidence/production-20261020-a51-a52-a53-a54-a55-a56-a57-a61.json",
+      "videoSha256": "b3791cffe0587ee87ae97acc9a4f4a85e0804ec6c29b4e4d89f59f7fac60e062",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        220,
+        580,
+        640,
+        640
+      ]
+    },
+    {
+      "id": "A56",
+      "key": "silhouette-fable",
+      "name": "剪影寓言",
+      "familyKey": "illustration",
+      "family": "插画与叙事",
+      "visualMechanism": "拱形背光舞台、少色明度层、轮廓与孔洞讲述；大字独立于亮幕，原色人物在外层伴随",
+      "profiles": {
+        "layout": "L09",
+        "motion": "M01",
+        "editing": "E07",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "故事",
+        "寓意"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [
+        "R23"
+      ],
+      "assetDisclosure": "Original deterministic SVG explanatory geometry; presenter unchanged; no real financial or geographic data",
+      "preview": "previews/silhouette-fable.jpg",
+      "implementation": "templates/silhouette-fable/index.html",
+      "evidence": "evidence/production-20261020-a51-a52-a53-a54-a55-a56-a57-a61.json",
+      "videoSha256": "fd06ab875f65cc6f8bba91d599f7eb6763fce7dfae22cf3d09e608ad83dcda7d",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        225,
+        580,
+        630,
+        630
+      ]
+    },
+    {
+      "id": "A57",
+      "key": "illustrated-map",
+      "name": "地图旅行插画",
+      "familyKey": "illustration",
+      "family": "插画与叙事",
+      "visualMechanism": "非真实地理的选择示意地图，以有机地形、河流、路线与三站保持空间记忆；按口播显现并聚焦节点",
+      "profiles": {
+        "layout": "L11",
+        "motion": "M01",
+        "editing": "E04",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "旅行",
+        "历史"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [],
+      "assetDisclosure": "Original deterministic SVG explanatory geometry; presenter unchanged; no real financial or geographic data",
+      "preview": "previews/illustrated-map.jpg",
+      "implementation": "templates/illustrated-map/index.html",
+      "evidence": "evidence/production-20261020-a51-a52-a53-a54-a55-a56-a57-a61.json",
+      "videoSha256": "265f7243bf886583893784745453d9cae1024ef60b386e95e6d55b625177952c",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        225,
+        580,
+        630,
+        630
+      ]
+    },
+    {
       "id": "A58",
       "key": "origami",
       "name": "折纸结构",
@@ -1856,6 +2206,57 @@
       "portraitBase": [
         225,
         585,
+        630,
+        630
+      ]
+    },
+    {
+      "id": "A61",
+      "key": "torn-paper",
+      "name": "撕纸肌理",
+      "familyKey": "fiber",
+      "family": "纸与纤维",
+      "visualMechanism": "不规则纸纤维撕口与暴露内层塑造物件，宽色片按比较和并列关系组织，完整片层以有限姿态落定",
+      "profiles": {
+        "layout": "L10",
+        "motion": "M08",
+        "editing": "E04",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "情绪",
+        "历史"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [
+        "R22"
+      ],
+      "assetDisclosure": "Original AI concept pixels preserved; illustrative only; not real geography/scientific measurements/events; presenter unchanged",
+      "preview": "previews/torn-paper.jpg",
+      "implementation": "templates/torn-paper/index.html",
+      "evidence": "evidence/production-20261020-a51-a52-a53-a54-a55-a56-a57-a61.json",
+      "videoSha256": "464a6c12b5e0232c72f1ae6dc348ce213a156e5390bdfc0471dc5c684c35061a",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        225,
+        580,
         630,
         630
       ]
@@ -2677,190 +3078,6 @@
       "references": []
     },
     {
-      "id": "A51",
-      "key": "picture-book",
-      "name": "儿童绘本",
-      "familyKey": "illustration",
-      "family": "插画与叙事",
-      "visualMechanism": "场景跨页、简单比例和细节发现形成叙事，不把人物原片改成插画",
-      "profiles": {
-        "layout": "L09",
-        "motion": "M08",
-        "editing": "E08",
-        "sound": "S07"
-      },
-      "suitableFor": [
-        "亲子",
-        "故事"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A52",
-      "key": "natural-history",
-      "name": "科学博物插画",
-      "familyKey": "illustration",
-      "family": "插画与叙事",
-      "visualMechanism": "对象的结构、局部和标注共同解释；品种、部位和比例需有资料依据",
-      "profiles": {
-        "layout": "L14",
-        "motion": "M06",
-        "editing": "E02",
-        "sound": "S01"
-      },
-      "suitableFor": [
-        "自然",
-        "科学"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A53",
-      "key": "isometric-city",
-      "name": "等距城市插画",
-      "familyKey": "illustration",
-      "family": "插画与叙事",
-      "visualMechanism": "等距街区和楼层关系承载系统解释，图注随真实对应的节点出现",
-      "profiles": {
-        "layout": "L14",
-        "motion": "M05",
-        "editing": "E07",
-        "sound": "S09"
-      },
-      "suitableFor": [
-        "城市",
-        "系统"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A54",
-      "key": "faceted-vector",
-      "name": "低多边形平涂",
-      "familyKey": "illustration",
-      "family": "插画与叙事",
-      "visualMechanism": "由有限平面切分建立形体和受光方向；保持二维切面而非光滑立体",
-      "profiles": {
-        "layout": "L09",
-        "motion": "M05",
-        "editing": "E04",
-        "sound": "S05"
-      },
-      "suitableFor": [
-        "概念",
-        "科技"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A55",
-      "key": "editorial-metaphor",
-      "name": "讽刺社论插画",
-      "familyKey": "illustration",
-      "family": "插画与叙事",
-      "visualMechanism": "物件比例与情境反差承载观点，类比保持解释身份而非假证据",
-      "profiles": {
-        "layout": "L09",
-        "motion": "M08",
-        "editing": "E07",
-        "sound": "S01"
-      },
-      "suitableFor": [
-        "社会",
-        "商业"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A56",
-      "key": "silhouette-fable",
-      "name": "剪影寓言",
-      "familyKey": "illustration",
-      "family": "插画与叙事",
-      "visualMechanism": "解释物件以清楚轮廓和负空间叙事，真人依然是原色圆窗",
-      "profiles": {
-        "layout": "L09",
-        "motion": "M08",
-        "editing": "E07",
-        "sound": "S10"
-      },
-      "suitableFor": [
-        "故事",
-        "寓意"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A57",
-      "key": "illustrated-map",
-      "name": "地图旅行插画",
-      "familyKey": "illustration",
-      "family": "插画与叙事",
-      "visualMechanism": "地形、路线和地点小场景构成可探索的画布，实际地理信息另行核对",
-      "profiles": {
-        "layout": "L11",
-        "motion": "M02",
-        "editing": "E09",
-        "sound": "S02"
-      },
-      "suitableFor": [
-        "旅行",
-        "历史"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A61",
-      "key": "torn-paper",
-      "name": "撕纸肌理",
-      "familyKey": "fiber",
-      "family": "纸与纤维",
-      "visualMechanism": "不规则纸纤维边缘与大色面叠接，轮廓由撕口而非笔线构成",
-      "profiles": {
-        "layout": "L10",
-        "motion": "M03",
-        "editing": "E05",
-        "sound": "S03"
-      },
-      "suitableFor": [
-        "情绪",
-        "历史"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
       "id": "A64",
       "key": "patchwork",
       "name": "织物拼布",
@@ -3464,7 +3681,7 @@
       "references": []
     }
   ],
-  "plannedCount": 42,
+  "plannedCount": 34,
   "totalCount": 100,
   "families": [
     {
@@ -3519,8 +3736,8 @@
     }
   ],
   "profileLibrary": "profiles.json",
-  "researchBoundary": "100项为可组合视觉方向，含材料、传统风格与原创配方；20种用户认可，38种制作验证，42种尚未完成。不是100个互斥行业标准。",
-  "implementedCount": 58,
+  "researchBoundary": "100项为可组合视觉方向，含材料、传统风格与原创配方；20种用户认可，46种制作验证，34种尚未完成。不是100个互斥行业标准。",
+  "implementedCount": 66,
   "userApprovedCount": 20,
-  "productionVerifiedCount": 38
+  "productionVerifiedCount": 46
 }

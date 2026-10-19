@@ -1,0 +1,193 @@
+{
+  "ok": true,
+  "records": [
+    {
+      "key": "newspaper",
+      "status": "verified"
+    },
+    {
+      "key": "archive-dossier",
+      "status": "verified"
+    },
+    {
+      "key": "photo-book",
+      "status": "verified"
+    },
+    {
+      "key": "dictionary-entry",
+      "status": "verified"
+    },
+    {
+      "key": "lab-notebook",
+      "status": "verified"
+    },
+    {
+      "key": "timeline-almanac",
+      "status": "verified"
+    },
+    {
+      "key": "swiss-grid",
+      "status": "verified"
+    },
+    {
+      "key": "constructivist",
+      "status": "verified"
+    },
+    {
+      "key": "art-deco",
+      "status": "verified"
+    },
+    {
+      "key": "art-nouveau",
+      "status": "verified"
+    },
+    {
+      "key": "memphis",
+      "status": "verified"
+    },
+    {
+      "key": "brutalist-type",
+      "status": "verified"
+    },
+    {
+      "key": "optical-graphic",
+      "status": "verified"
+    },
+    {
+      "key": "negative-space",
+      "status": "verified"
+    },
+    {
+      "key": "pencil-sketch",
+      "status": "verified"
+    },
+    {
+      "key": "colored-pencil",
+      "status": "verified"
+    },
+    {
+      "key": "charcoal",
+      "status": "verified"
+    },
+    {
+      "key": "pen-hatching",
+      "status": "verified"
+    },
+    {
+      "key": "wax-crayon",
+      "status": "verified"
+    },
+    {
+      "key": "soft-pastel",
+      "status": "verified"
+    },
+    {
+      "key": "marker-sketch",
+      "status": "verified"
+    },
+    {
+      "key": "brush-lettering",
+      "status": "verified"
+    },
+    {
+      "key": "picture-book",
+      "status": "verified"
+    },
+    {
+      "key": "natural-history",
+      "status": "built"
+    },
+    {
+      "key": "isometric-city",
+      "status": "verified"
+    },
+    {
+      "key": "faceted-vector",
+      "status": "verified"
+    },
+    {
+      "key": "editorial-metaphor",
+      "status": "verified"
+    },
+    {
+      "key": "silhouette-fable",
+      "status": "verified"
+    },
+    {
+      "key": "illustrated-map",
+      "status": "verified"
+    },
+    {
+      "key": "origami",
+      "status": "verified"
+    },
+    {
+      "key": "pop-up-book",
+      "status": "verified"
+    },
+    {
+      "key": "corrugated-model",
+      "status": "verified"
+    },
+    {
+      "key": "torn-paper",
+      "status": "verified"
+    },
+    {
+      "key": "felt-applique",
+      "status": "verified"
+    },
+    {
+      "key": "embroidery",
+      "status": "verified"
+    },
+    {
+      "key": "gongbi",
+      "status": "verified"
+    },
+    {
+      "key": "woodcut",
+      "status": "verified"
+    },
+    {
+      "key": "etching",
+      "status": "verified"
+    },
+    {
+      "key": "risograph",
+      "status": "verified"
+    },
+    {
+      "key": "cyanotype",
+      "status": "verified"
+    },
+    {
+      "key": "mechanical-cutaway",
+      "status": "verified"
+    },
+    {
+      "key": "terminal-ascii",
+      "status": "verified"
+    },
+    {
+      "key": "vector-oscilloscope",
+      "status": "verified"
+    },
+    {
+      "key": "led-dot-matrix",
+      "status": "verified"
+    },
+    {
+      "key": "early-desktop",
+      "status": "verified"
+    },
+    {
+      "key": "spatial-pointcloud",
+      "status": "verified"
+    }
+  ],
+  "expectedPending": [
+    "natural-history"
+  ],
+  "scope": "检查全部46研究工程状态，只有待重编码的博物版仍built；其余45为真实run完成后的verified"
+}

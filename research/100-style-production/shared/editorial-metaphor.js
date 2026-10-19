@@ -1,0 +1,3 @@
+import{makeRasterIllustration}from'./illustration-raster-stage.js';import geometry from'./atlas-geometry.js';
+export const LOOK={"key": "editorial-metaphor", "name": "讽刺社论插画", "palette": {"bg": "#f0ebdf", "fg": "#223744", "muted": "#59656b", "accent": "#a33824", "caption": "#fbf7ec", "portrait": "#f0ebdf"}, "base": {"x": 220, "y": 580, "w": 640}, "css": "#title{font-size:101px;letter-spacing:-3px}#subtitle{font-size:46px}#kicker{border-top:6px solid #a33824;padding-top:12px;width:90px}#captions{border-top:5px solid #a33824}"};
+export async function buildArt(ctx){return makeRasterIllustration(ctx,{mode:"editorial-metaphor",geometry})}

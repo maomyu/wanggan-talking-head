@@ -2,9 +2,9 @@
   "goal": "100个实际画风视频与正式插件整合",
   "total": 100,
   "userApproved": 20,
-  "productionVerified": 38,
+  "productionVerified": 46,
   "inProduction": 0,
-  "queued": 42,
+  "queued": 34,
   "styles": [
     {
       "id": "A01",
@@ -483,63 +483,70 @@
       "key": "picture-book",
       "name": "儿童绘本",
       "family": "illustration",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/picture-book/outputs/final.mp4"
     },
     {
       "id": "A52",
       "key": "natural-history",
       "name": "科学博物插画",
       "family": "illustration",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "full-video-program-verified-awaiting-author-review",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/natural-history/outputs/final.mp4"
     },
     {
       "id": "A53",
       "key": "isometric-city",
       "name": "等距城市插画",
       "family": "illustration",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/isometric-city/outputs/final.mp4"
     },
     {
       "id": "A54",
       "key": "faceted-vector",
       "name": "低多边形平涂",
       "family": "illustration",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/faceted-vector/outputs/final.mp4"
     },
     {
       "id": "A55",
       "key": "editorial-metaphor",
       "name": "讽刺社论插画",
       "family": "illustration",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/editorial-metaphor/outputs/final.mp4"
     },
     {
       "id": "A56",
       "key": "silhouette-fable",
       "name": "剪影寓言",
       "family": "illustration",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/silhouette-fable/outputs/final.mp4"
     },
     {
       "id": "A57",
       "key": "illustrated-map",
       "name": "地图旅行插画",
       "family": "illustration",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/illustrated-map/outputs/final.mp4"
     },
     {
       "id": "A58",
@@ -576,9 +583,10 @@
       "key": "torn-paper",
       "name": "撕纸肌理",
       "family": "fiber",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/torn-paper/outputs/final.mp4"
     },
     {
       "id": "A62",

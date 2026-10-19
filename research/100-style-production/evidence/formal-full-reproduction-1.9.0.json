@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "key": "editorial-metaphor",
+  "version": "1.9.0",
+  "scope": "从正式插件独立init/build/check/render/verify生成完整1100帧；与研究成片逐秒像素和完整解码音频比较",
+  "sourceSha256": "b3791cffe0587ee87ae97acc9a4f4a85e0804ec6c29b4e4d89f59f7fac60e062",
+  "formalSha256": "d37828e54842da81abaa784583e53f99ee12ae3439abf79eb43422b91cdc524b",
+  "identicalEncodedFile": false,
+  "pixelMetrics": {
+    "sampledFrames": 37,
+    "mean": 8.967300633967302e-05,
+    "max": 0.0013477366255144033
+  },
+  "decodedVoiceIdentical": true
+}

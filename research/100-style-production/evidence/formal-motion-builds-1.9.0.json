@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "records": [
+    {
+      "key": "picture-book",
+      "base": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.9.0/picture-book",
+      "revision": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/book-motion-1.9.0",
+      "travelSeconds": 1
+    },
+    {
+      "key": "isometric-city",
+      "base": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/formal-1.9.0/isometric-city",
+      "revision": "/Users/maoyu/个人项目/客户/插件/test/百种画风落地_20261019/portability/city-motion-1.9.0",
+      "travelSeconds": 1
+    }
+  ]
+}

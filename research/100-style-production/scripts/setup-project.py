@@ -10,6 +10,13 @@ for key in sys.argv[1:]:
  put(P/'source-info.json',json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(P/'assets/master.mp4')])));put(P/'hyperframes.json',dict(paths=dict(blocks='compositions',components='compositions/components',assets='assets'),media=dict(autoProxy=True),authoringSkill='general-video'))
  for rel in ['base.css','scene.js','material-stage.js'] :shutil.copy2(R/'shared'/rel,P/'assets'/rel)
  shutil.copy2(R/'shared'/f'{key}.js',P/'assets/look.js')
+ if key in ['picture-book','natural-history','editorial-metaphor','torn-paper']:
+  shutil.copy2(R/'shared/illustration-raster-stage.js',P/'assets/illustration-raster-stage.js')
+  stem='scene'if key in ['picture-book','editorial-metaphor']else'atlas'
+  shutil.copy2(R/'shared/rasters'/f'{key}-{stem}.png',P/'assets'/f'{stem}.png')
+  shutil.copy2(R/'shared/rasters'/f'{key}-provenance.json',P/'assets/provenance.json')
+  (P/'assets/atlas-geometry.js').write_text('export default '+(R/'shared/rasters'/f'{key}-geometry.json').read_text()+';\n')
+ if key in ['isometric-city','faceted-vector','silhouette-fable','illustrated-map']:shutil.copy2(R/'shared/illustration-vector-stage.js',P/'assets/illustration-vector-stage.js')
  if key in ['pencil-sketch','colored-pencil','charcoal','pen-hatching','wax-crayon','soft-pastel','marker-sketch']:
   shutil.copy2(R/'shared/drawing-stage.js',P/'assets/drawing-stage.js')
   suffix='-v2'if key in ['charcoal','pen-hatching']else''

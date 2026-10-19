@@ -1,0 +1,68 @@
+{
+  "ready": true,
+  "checks": [
+    {
+      "name": "node",
+      "ok": true,
+      "value": "v23.10.0"
+    },
+    {
+      "name": "hyperframes",
+      "ok": true,
+      "value": "0.8.174"
+    },
+    {
+      "name": "python",
+      "ok": true,
+      "value": {
+        "python": "3.14.1",
+        "executable": "/Users/maoyu/plugins/wanggan-talking-head/runtime/.venv/bin/python",
+        "prefix": "/Users/maoyu/plugins/wanggan-talking-head/runtime/.venv",
+        "numpy": "2.4.4",
+        "Pillow": "12.1.0",
+        "fonttools": "4.62.1"
+      }
+    },
+    {
+      "name": "ffmpeg",
+      "ok": true,
+      "value": "ffmpeg version 9.0.1 Copyright (c) 2000-2026 the FFmpeg developers"
+    },
+    {
+      "name": "ffprobe",
+      "ok": true,
+      "value": "ffprobe version 9.0.1 Copyright (c) 2007-2026 the FFmpeg developers"
+    },
+    {
+      "name": "fonts",
+      "ok": true,
+      "value": 8
+    },
+    {
+      "name": "four-full-skills",
+      "ok": true,
+      "value": 4
+    },
+    {
+      "name": "implemented-style-library",
+      "ok": true,
+      "value": {
+        "implemented": 58,
+        "userApproved": 20,
+        "productionVerified": 38
+      }
+    },
+    {
+      "name": "style-recipes",
+      "ok": true,
+      "value": {
+        "implemented": 58,
+        "userApproved": 20,
+        "productionVerified": 38,
+        "planned": 42,
+        "total": 100
+      }
+    }
+  ],
+  "setup": "node scripts/studio.mjs setup（仅安装本包runtime依赖，不注册插件）"
+}

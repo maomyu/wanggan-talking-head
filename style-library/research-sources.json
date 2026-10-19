@@ -112,5 +112,29 @@
     "title": "Google Fonts · Ma Shan Zheng",
     "url": "https://github.com/google/fonts/tree/main/ofl/mashanzheng",
     "scope": "实际读取官方METADATA与OFL，下载未修改TTF并核对所用汉字覆盖；保存版权许可和精确SHA，正文字幕仍用清晰本地字体"
+  },
+  {
+    "id": "R20",
+    "title": "V&A · Illustration",
+    "url": "https://www.vam.ac.uk/collections/illustration",
+    "scope": "完整读取集合说明，实际查看Rolf Brandt书籍插画的320px馆方图，观察连续地形与路径组织；具体藏品页受限，不声称看过完整原作或其动画"
+  },
+  {
+    "id": "R21",
+    "title": "Smithsonian · Science to Go botanical illustration",
+    "url": "https://naturalhistory.si.edu/research/botany/news/plant-press/science-go-features-lesson-botanical-illustration",
+    "scope": "完整读取说明并查看实际多视图观察资料页，提炼对象/局部对应；本片日常物件只借观察图版语法，AI示意不冒充真实物种、科学测量或实物准确记录"
+  },
+  {
+    "id": "R22",
+    "title": "MoMA · Arp torn-and-pasted paper",
+    "url": "https://www.moma.org/collection/works/37013",
+    "scope": "完整读取馆方撕纸与纸内纤维说明，原作图片获取403，未作原图视觉比对；本片用原创AI纸层概念图，不复制构图、不声称真正手撕实拍"
+  },
+  {
+    "id": "R23",
+    "title": "BFI · Cinderella cut-out figures and backgrounds",
+    "url": "https://www.bfi.org.uk/inside-the-archive/features/object-week-lotte-reiniger-cut-out-figures-backgrounds-cinderella",
+    "scope": "完整读取并实际查看人物关节纸片与分层背景两图，提炼背光轮廓、负空间和明度层；本片为原创SVG物件寓言，不复制人物、布景或声称复刻完整电影"
   }
 ]
