@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "checks": [
+    {
+      "key": "origami",
+      "ok": true,
+      "source": "formal plugin template with copied local dependencies",
+      "scope": "build and runtime check; not a duplicate full render"
+    },
+    {
+      "key": "mechanical-cutaway",
+      "ok": true,
+      "source": "formal plugin template with copied local dependencies",
+      "scope": "build and runtime check; not a duplicate full render"
+    },
+    {
+      "key": "gongbi",
+      "ok": true,
+      "source": "formal plugin template with copied local dependencies",
+      "scope": "build and runtime check; not a duplicate full render"
+    }
+  ]
+}

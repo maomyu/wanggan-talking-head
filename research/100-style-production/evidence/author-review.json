@@ -1,13 +1,15 @@
 {
-  "scope": "作者查看最终编码12帧拼版与风险/负债交接窗口真实编码8帧拼版，结合17人物姿态、21字幕、反向寻址、5fps解码与18切点邻帧程序证据；没有独立盲评，也未宣称逐帧人工观看整片。",
+  "scope": "作者查看最终编码12帧拼版、4秒交接编码拼版和负债段实际抽帧；结合17人物姿态、21字幕、反向寻址、5fps解码与18切点邻帧程序证据。没有独立盲评；AI原创图解与原色视频人物分开标注。",
   "passed": [
     "origami",
     "embroidery",
     "etching",
     "mechanical-cutaway",
-    "spatial-pointcloud"
+    "spatial-pointcloud",
+    "felt-applique",
+    "gongbi"
   ],
   "needsRevision": {},
-  "sourceVersion": "font metrics fixed; cutaway/type spacing and point visibility revision; actual final encode",
-  "reviewedAt": "2026-10-20T00:34:32.271225+08:00"
+  "sourceVersion": "source-color/circle/caption; font metrics; volume composition revision; clipped sprite regions and flat gongbi repaint",
+  "reviewedAt": "2026-10-20T00:42:29.110502+08:00"
 }

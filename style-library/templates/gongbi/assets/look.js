@@ -1,0 +1,4 @@
+import{makeRaster}from'./raster-stage.js';
+import geometry from './atlas-geometry.js';
+export const LOOK={key:'gongbi',name:'工笔设色',palette:{bg:'#efe8d5',fg:'#3e4d3e',muted:'#64705b',accent:'#9d4834',caption:'#faf4e5',portrait:'#ad9367'},base:{x:225,y:585,w:630},css:'#title{font-family:Serif,serif;font-weight:700;font-size:98px}#style-label{font-family:Serif,serif;font-weight:700}#architecture{inset:510px 42px 680px;border-top:2px solid #b6a27c;border-bottom:2px solid #b6a27c;background:#f7f1df}#person-mask{outline:3px solid #ad9367;outline-offset:8px}#caption-text{font-family:Body,sans-serif}#recap span{border-top-width:2px}'};
+export async function buildArt(ctx){document.querySelector('#credit').textContent='人物原色 · 角落圆窗 · 原声保留\nAI绘制图解，依据本段口播作解释示意';return makeRaster(ctx,{geometry,motion:'paint'});}

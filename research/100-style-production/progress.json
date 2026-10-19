@@ -2,8 +2,8 @@
   "goal": "100个实际画风视频与正式插件整合",
   "total": 100,
   "userApproved": 20,
-  "productionVerified": 5,
-  "inProduction": 2,
+  "productionVerified": 7,
+  "inProduction": 0,
   "queued": 73,
   "styles": [
     {
@@ -561,9 +561,10 @@
       "key": "felt-applique",
       "name": "毛毡贴画",
       "family": "fiber",
-      "stage": "raster-asset-generated-build-in-progress",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/felt-applique/outputs/final.mp4"
     },
     {
       "id": "A63",
@@ -607,9 +608,10 @@
       "key": "gongbi",
       "name": "工笔设色",
       "family": "painting",
-      "stage": "raster-asset-generated-build-in-progress",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/gongbi/outputs/final.mp4"
     },
     {
       "id": "A68",

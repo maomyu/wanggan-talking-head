@@ -1727,1156 +1727,6 @@
       "errors": []
     },
     {
-      "look": "mechanical-cutaway",
-      "poses": [
-        {
-          "frame": 0,
-          "scene": "hook",
-          "video": {
-            "x": 205,
-            "y": 580,
-            "width": 669.9839477539062,
-            "height": 669.98388671875
-          },
-          "mask": {
-            "x": 205,
-            "y": 580,
-            "width": 669.9839477539062,
-            "height": 669.98388671875
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 188.59375
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1619,
-            "width": 904,
-            "height": 153.59375
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "为什么越努力上班\n越存不到钱"
-        },
-        {
-          "frame": 153,
-          "scene": "chain",
-          "video": {
-            "x": 280.5331115722656,
-            "y": 679.7745971679688,
-            "width": 615.300048828125,
-            "height": 615.2999877929688
-          },
-          "mask": {
-            "x": 280.5331115722656,
-            "y": 679.7745971679688,
-            "width": 615.300048828125,
-            "height": 615.2999877929688
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 111.796875
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1619,
-            "width": 904,
-            "height": 76.796875
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "很多人习惯跟风消费"
-        },
-        {
-          "frame": 159,
-          "scene": "chain",
-          "video": {
-            "x": 540.5761108398438,
-            "y": 1023.2756958007812,
-            "width": 427.0560302734375,
-            "height": 427.05609130859375
-          },
-          "mask": {
-            "x": 540.5761108398438,
-            "y": 1023.2756958007812,
-            "width": 427.0560302734375,
-            "height": 427.05609130859375
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 111.796875
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1619,
-            "width": 904,
-            "height": 76.796875
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "很多人习惯跟风消费"
-        },
-        {
-          "frame": 168,
-          "scene": "chain",
-          "video": {
-            "x": 716,
-            "y": 1255,
-            "width": 299.9639892578125,
-            "height": 299.9639892578125
-          },
-          "mask": {
-            "x": 716,
-            "y": 1255,
-            "width": 299.9639892578125,
-            "height": 299.9639892578125
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 111.796875
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1619,
-            "width": 904,
-            "height": 76.796875
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "很多人习惯跟风消费"
-        },
-        {
-          "frame": 388,
-          "scene": "overview",
-          "video": {
-            "x": 714.2401123046875,
-            "y": 1255,
-            "width": 299.9639892578125,
-            "height": 299.9639892578125
-          },
-          "mask": {
-            "x": 714.2401123046875,
-            "y": 1255,
-            "width": 299.9639892578125,
-            "height": 299.9639892578125
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 188.59375
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1619,
-            "width": 904,
-            "height": 153.59375
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "给大家三个普通人的\n财经底线"
-        },
-        {
-          "frame": 396,
-          "scene": "overview",
-          "video": {
-            "x": 404.8135986328125,
-            "y": 1255,
-            "width": 299.9639892578125,
-            "height": 299.9639892578125
-          },
-          "mask": {
-            "x": 404.8135986328125,
-            "y": 1255,
-            "width": 299.9639892578125,
-            "height": 299.9639892578125
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 188.59375
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1619,
-            "width": 904,
-            "height": 153.59375
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "给大家三个普通人的\n财经底线"
-        },
-        {
-          "frame": 462,
-          "scene": "spend",
-          "video": {
-            "x": 70.89430236816406,
-            "y": 1255,
-            "width": 299.96405029296875,
-            "height": 299.9639892578125
-          },
-          "mask": {
-            "x": 70.89430236816406,
-            "y": 1255,
-            "width": 299.96405029296875,
-            "height": 299.9639892578125
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 111.796875
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1619,
-            "width": 904,
-            "height": 76.796875
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "第一，砍掉无效消费"
-        },
-        {
-          "frame": 471,
-          "scene": "spend",
-          "video": {
-            "x": 492.1715087890625,
-            "y": 1255,
-            "width": 299.9639892578125,
-            "height": 299.9639892578125
-          },
-          "mask": {
-            "x": 492.1715087890625,
-            "y": 1255,
-            "width": 299.9639892578125,
-            "height": 299.9639892578125
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 111.796875
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1619,
-            "width": 904,
-            "height": 76.796875
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "第一，砍掉无效消费"
-        },
-        {
-          "frame": 567,
-          "scene": "spend",
-          "video": {
-            "x": 716,
-            "y": 1255,
-            "width": 299.9639892578125,
-            "height": 299.9639892578125
-          },
-          "mask": {
-            "x": 716,
-            "y": 1255,
-            "width": 299.9639892578125,
-            "height": 299.9639892578125
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 111.796875
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1619,
-            "width": 904,
-            "height": 76.796875
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "分清楚想要和需要"
-        },
-        {
-          "frame": 618,
-          "scene": "risk",
-          "video": {
-            "x": 689.583984375,
-            "y": 1255,
-            "width": 299.9639892578125,
-            "height": 299.9639892578125
-          },
-          "mask": {
-            "x": 689.583984375,
-            "y": 1255,
-            "width": 299.9639892578125,
-            "height": 299.9639892578125
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 111.796875
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1619,
-            "width": 904,
-            "height": 76.796875
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "第二守住本金永远优先"
-        },
-        {
-          "frame": 627,
-          "scene": "risk",
-          "video": {
-            "x": 233.03700256347656,
-            "y": 1255,
-            "width": 299.96405029296875,
-            "height": 299.9639892578125
-          },
-          "mask": {
-            "x": 233.03700256347656,
-            "y": 1255,
-            "width": 299.96405029296875,
-            "height": 299.9639892578125
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 111.796875
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1619,
-            "width": 904,
-            "height": 76.796875
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "第二守住本金永远优先"
-        },
-        {
-          "frame": 861,
-          "scene": "debt",
-          "video": {
-            "x": 64,
-            "y": 1255,
-            "width": 299.9640197753906,
-            "height": 299.9639892578125
-          },
-          "mask": {
-            "x": 64,
-            "y": 1255,
-            "width": 299.9640197753906,
-            "height": 299.9639892578125
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 111.796875
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1619,
-            "width": 904,
-            "height": 76.796875
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "第三减少负债"
-        },
-        {
-          "frame": 898,
-          "scene": "recap",
-          "video": {
-            "x": 64,
-            "y": 1255,
-            "width": 299.9640197753906,
-            "height": 299.9639892578125
-          },
-          "mask": {
-            "x": 64,
-            "y": 1255,
-            "width": 299.9640197753906,
-            "height": 299.9639892578125
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 111.796875
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1619,
-            "width": 904,
-            "height": 76.796875
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "财富从来不是靠蛮力争取的"
-        },
-        {
-          "frame": 906,
-          "scene": "recap",
-          "video": {
-            "x": 90.5947036743164,
-            "y": 1127.6851806640625,
-            "width": 369.76800537109375,
-            "height": 369.7679443359375
-          },
-          "mask": {
-            "x": 90.5947036743164,
-            "y": 1127.6851806640625,
-            "width": 369.76800537109375,
-            "height": 369.7679443359375
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 111.796875
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1619,
-            "width": 904,
-            "height": 76.796875
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "财富从来不是靠蛮力争取的"
-        },
-        {
-          "frame": 915,
-          "scene": "recap",
-          "video": {
-            "x": 187.20579528808594,
-            "y": 665.1851806640625,
-            "width": 623.2799682617188,
-            "height": 623.2799072265625
-          },
-          "mask": {
-            "x": 187.20579528808594,
-            "y": 665.1851806640625,
-            "width": 623.2799682617188,
-            "height": 623.2799072265625
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 111.796875
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1619,
-            "width": 904,
-            "height": 76.796875
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "财富从来不是靠蛮力争取的"
-        },
-        {
-          "frame": 930,
-          "scene": "recap",
-          "video": {
-            "x": 205,
-            "y": 580,
-            "width": 669.9839477539062,
-            "height": 669.98388671875
-          },
-          "mask": {
-            "x": 205,
-            "y": 580,
-            "width": 669.9839477539062,
-            "height": 669.98388671875
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 111.796875
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1619,
-            "width": 904,
-            "height": 76.796875
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "财富从来不是靠蛮力争取的"
-        },
-        {
-          "frame": 1095,
-          "scene": "recap",
-          "video": {
-            "x": 205,
-            "y": 580,
-            "width": 669.9839477539062,
-            "height": 669.98388671875
-          },
-          "mask": {
-            "x": 205,
-            "y": 580,
-            "width": 669.9839477539062,
-            "height": 669.98388671875
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 111.796875
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1619,
-            "width": 904,
-            "height": 76.796875
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "才是普通人该走的路"
-        }
-      ],
-      "pixelPose": {
-        "x": 716,
-        "y": 1255,
-        "width": 299.9639892578125,
-        "height": 299.9639892578125
-      },
-      "captions": 21,
-      "reverseSeekStable": true,
-      "errors": []
-    },
-    {
-      "look": "spatial-pointcloud",
-      "poses": [
-        {
-          "frame": 0,
-          "scene": "hook",
-          "video": {
-            "x": 210,
-            "y": 585,
-            "width": 659.988037109375,
-            "height": 659.988037109375
-          },
-          "mask": {
-            "x": 210,
-            "y": 585,
-            "width": 659.988037109375,
-            "height": 659.988037109375
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 187.59375
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1618,
-            "width": 904,
-            "height": 153.59375
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "为什么越努力上班\n越存不到钱"
-        },
-        {
-          "frame": 153,
-          "scene": "chain",
-          "video": {
-            "x": 284.79400634765625,
-            "y": 684.0355224609375,
-            "width": 606.8159790039062,
-            "height": 606.8160400390625
-          },
-          "mask": {
-            "x": 284.79400634765625,
-            "y": 684.0355224609375,
-            "width": 606.8159790039062,
-            "height": 606.8160400390625
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 110.796875
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1618,
-            "width": 904,
-            "height": 76.796875
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "很多人习惯跟风消费"
-        },
-        {
-          "frame": 159,
-          "scene": "chain",
-          "video": {
-            "x": 542.2926025390625,
-            "y": 1024.9921875,
-            "width": 423.61199951171875,
-            "height": 423.612060546875
-          },
-          "mask": {
-            "x": 542.2926025390625,
-            "y": 1024.9921875,
-            "width": 423.61199951171875,
-            "height": 423.612060546875
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 110.796875
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1618,
-            "width": 904,
-            "height": 76.796875
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "很多人习惯跟风消费"
-        },
-        {
-          "frame": 168,
-          "scene": "chain",
-          "video": {
-            "x": 716,
-            "y": 1255,
-            "width": 299.9639892578125,
-            "height": 299.9639892578125
-          },
-          "mask": {
-            "x": 716,
-            "y": 1255,
-            "width": 299.9639892578125,
-            "height": 299.9639892578125
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 110.796875
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1618,
-            "width": 904,
-            "height": 76.796875
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "很多人习惯跟风消费"
-        },
-        {
-          "frame": 388,
-          "scene": "overview",
-          "video": {
-            "x": 714.2401123046875,
-            "y": 1255,
-            "width": 299.9639892578125,
-            "height": 299.9639892578125
-          },
-          "mask": {
-            "x": 714.2401123046875,
-            "y": 1255,
-            "width": 299.9639892578125,
-            "height": 299.9639892578125
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 187.59375
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1618,
-            "width": 904,
-            "height": 153.59375
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "给大家三个普通人的\n财经底线"
-        },
-        {
-          "frame": 396,
-          "scene": "overview",
-          "video": {
-            "x": 404.8135986328125,
-            "y": 1255,
-            "width": 299.9639892578125,
-            "height": 299.9639892578125
-          },
-          "mask": {
-            "x": 404.8135986328125,
-            "y": 1255,
-            "width": 299.9639892578125,
-            "height": 299.9639892578125
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 187.59375
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1618,
-            "width": 904,
-            "height": 153.59375
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "给大家三个普通人的\n财经底线"
-        },
-        {
-          "frame": 462,
-          "scene": "spend",
-          "video": {
-            "x": 70.89430236816406,
-            "y": 1255,
-            "width": 299.96405029296875,
-            "height": 299.9639892578125
-          },
-          "mask": {
-            "x": 70.89430236816406,
-            "y": 1255,
-            "width": 299.96405029296875,
-            "height": 299.9639892578125
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 110.796875
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1618,
-            "width": 904,
-            "height": 76.796875
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "第一，砍掉无效消费"
-        },
-        {
-          "frame": 471,
-          "scene": "spend",
-          "video": {
-            "x": 492.1715087890625,
-            "y": 1255,
-            "width": 299.9639892578125,
-            "height": 299.9639892578125
-          },
-          "mask": {
-            "x": 492.1715087890625,
-            "y": 1255,
-            "width": 299.9639892578125,
-            "height": 299.9639892578125
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 110.796875
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1618,
-            "width": 904,
-            "height": 76.796875
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "第一，砍掉无效消费"
-        },
-        {
-          "frame": 567,
-          "scene": "spend",
-          "video": {
-            "x": 716,
-            "y": 1255,
-            "width": 299.9639892578125,
-            "height": 299.9639892578125
-          },
-          "mask": {
-            "x": 716,
-            "y": 1255,
-            "width": 299.9639892578125,
-            "height": 299.9639892578125
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 110.796875
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1618,
-            "width": 904,
-            "height": 76.796875
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "分清楚想要和需要"
-        },
-        {
-          "frame": 618,
-          "scene": "risk",
-          "video": {
-            "x": 689.583984375,
-            "y": 1255,
-            "width": 299.9639892578125,
-            "height": 299.9639892578125
-          },
-          "mask": {
-            "x": 689.583984375,
-            "y": 1255,
-            "width": 299.9639892578125,
-            "height": 299.9639892578125
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 110.796875
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1618,
-            "width": 904,
-            "height": 76.796875
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "第二守住本金永远优先"
-        },
-        {
-          "frame": 627,
-          "scene": "risk",
-          "video": {
-            "x": 233.03700256347656,
-            "y": 1255,
-            "width": 299.96405029296875,
-            "height": 299.9639892578125
-          },
-          "mask": {
-            "x": 233.03700256347656,
-            "y": 1255,
-            "width": 299.96405029296875,
-            "height": 299.9639892578125
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 110.796875
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1618,
-            "width": 904,
-            "height": 76.796875
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "第二守住本金永远优先"
-        },
-        {
-          "frame": 861,
-          "scene": "debt",
-          "video": {
-            "x": 64,
-            "y": 1255,
-            "width": 299.9640197753906,
-            "height": 299.9639892578125
-          },
-          "mask": {
-            "x": 64,
-            "y": 1255,
-            "width": 299.9640197753906,
-            "height": 299.9639892578125
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 110.796875
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1618,
-            "width": 904,
-            "height": 76.796875
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "第三减少负债"
-        },
-        {
-          "frame": 898,
-          "scene": "recap",
-          "video": {
-            "x": 64,
-            "y": 1255,
-            "width": 299.9640197753906,
-            "height": 299.9639892578125
-          },
-          "mask": {
-            "x": 64,
-            "y": 1255,
-            "width": 299.9640197753906,
-            "height": 299.9639892578125
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 110.796875
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1618,
-            "width": 904,
-            "height": 76.796875
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "财富从来不是靠蛮力争取的"
-        },
-        {
-          "frame": 906,
-          "scene": "recap",
-          "video": {
-            "x": 91.5376968383789,
-            "y": 1128.6282958984375,
-            "width": 367.91998291015625,
-            "height": 367.9200439453125
-          },
-          "mask": {
-            "x": 91.5376968383789,
-            "y": 1128.6282958984375,
-            "width": 367.91998291015625,
-            "height": 367.9200439453125
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 110.796875
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1618,
-            "width": 904,
-            "height": 76.796875
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "财富从来不是靠蛮力争取的"
-        },
-        {
-          "frame": 915,
-          "scene": "recap",
-          "video": {
-            "x": 191.57479858398438,
-            "y": 669.55419921875,
-            "width": 614.5439453125,
-            "height": 614.5439453125
-          },
-          "mask": {
-            "x": 191.57479858398438,
-            "y": 669.55419921875,
-            "width": 614.5439453125,
-            "height": 614.5439453125
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 110.796875
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1618,
-            "width": 904,
-            "height": 76.796875
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "财富从来不是靠蛮力争取的"
-        },
-        {
-          "frame": 930,
-          "scene": "recap",
-          "video": {
-            "x": 210,
-            "y": 585,
-            "width": 659.988037109375,
-            "height": 659.988037109375
-          },
-          "mask": {
-            "x": 210,
-            "y": 585,
-            "width": 659.988037109375,
-            "height": 659.988037109375
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 110.796875
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1618,
-            "width": 904,
-            "height": 76.796875
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "财富从来不是靠蛮力争取的"
-        },
-        {
-          "frame": 1095,
-          "scene": "recap",
-          "video": {
-            "x": 210,
-            "y": 585,
-            "width": 659.988037109375,
-            "height": 659.988037109375
-          },
-          "mask": {
-            "x": 210,
-            "y": 585,
-            "width": 659.988037109375,
-            "height": 659.988037109375
-          },
-          "borderRadius": "50%",
-          "videoFilter": "none",
-          "videoBlend": "normal",
-          "caption": {
-            "x": 64,
-            "y": 1600,
-            "width": 952,
-            "height": 110.796875
-          },
-          "captionText": {
-            "x": 88,
-            "y": 1618,
-            "width": 904,
-            "height": 76.796875
-          },
-          "captionOverflow": false,
-          "visibleGlyphs": "才是普通人该走的路"
-        }
-      ],
-      "pixelPose": {
-        "x": 716,
-        "y": 1255,
-        "width": 299.9639892578125,
-        "height": 299.9639892578125
-      },
-      "captions": 21,
-      "reverseSeekStable": true,
-      "errors": []
-    },
-    {
       "look": "felt-applique",
       "poses": [
         {
@@ -4009,6 +2859,1156 @@
           "captionText": {
             "x": 88,
             "y": 1619,
+            "width": 904,
+            "height": 76.796875
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "才是普通人该走的路"
+        }
+      ],
+      "pixelPose": {
+        "x": 716,
+        "y": 1255,
+        "width": 299.9639892578125,
+        "height": 299.9639892578125
+      },
+      "captions": 21,
+      "reverseSeekStable": true,
+      "errors": []
+    },
+    {
+      "look": "mechanical-cutaway",
+      "poses": [
+        {
+          "frame": 0,
+          "scene": "hook",
+          "video": {
+            "x": 205,
+            "y": 580,
+            "width": 669.9839477539062,
+            "height": 669.98388671875
+          },
+          "mask": {
+            "x": 205,
+            "y": 580,
+            "width": 669.9839477539062,
+            "height": 669.98388671875
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 188.59375
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1619,
+            "width": 904,
+            "height": 153.59375
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "为什么越努力上班\n越存不到钱"
+        },
+        {
+          "frame": 153,
+          "scene": "chain",
+          "video": {
+            "x": 280.5331115722656,
+            "y": 679.7745971679688,
+            "width": 615.300048828125,
+            "height": 615.2999877929688
+          },
+          "mask": {
+            "x": 280.5331115722656,
+            "y": 679.7745971679688,
+            "width": 615.300048828125,
+            "height": 615.2999877929688
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 111.796875
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1619,
+            "width": 904,
+            "height": 76.796875
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "很多人习惯跟风消费"
+        },
+        {
+          "frame": 159,
+          "scene": "chain",
+          "video": {
+            "x": 540.5761108398438,
+            "y": 1023.2756958007812,
+            "width": 427.0560302734375,
+            "height": 427.05609130859375
+          },
+          "mask": {
+            "x": 540.5761108398438,
+            "y": 1023.2756958007812,
+            "width": 427.0560302734375,
+            "height": 427.05609130859375
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 111.796875
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1619,
+            "width": 904,
+            "height": 76.796875
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "很多人习惯跟风消费"
+        },
+        {
+          "frame": 168,
+          "scene": "chain",
+          "video": {
+            "x": 716,
+            "y": 1255,
+            "width": 299.9639892578125,
+            "height": 299.9639892578125
+          },
+          "mask": {
+            "x": 716,
+            "y": 1255,
+            "width": 299.9639892578125,
+            "height": 299.9639892578125
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 111.796875
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1619,
+            "width": 904,
+            "height": 76.796875
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "很多人习惯跟风消费"
+        },
+        {
+          "frame": 388,
+          "scene": "overview",
+          "video": {
+            "x": 714.2401123046875,
+            "y": 1255,
+            "width": 299.9639892578125,
+            "height": 299.9639892578125
+          },
+          "mask": {
+            "x": 714.2401123046875,
+            "y": 1255,
+            "width": 299.9639892578125,
+            "height": 299.9639892578125
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 188.59375
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1619,
+            "width": 904,
+            "height": 153.59375
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "给大家三个普通人的\n财经底线"
+        },
+        {
+          "frame": 396,
+          "scene": "overview",
+          "video": {
+            "x": 404.8135986328125,
+            "y": 1255,
+            "width": 299.9639892578125,
+            "height": 299.9639892578125
+          },
+          "mask": {
+            "x": 404.8135986328125,
+            "y": 1255,
+            "width": 299.9639892578125,
+            "height": 299.9639892578125
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 188.59375
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1619,
+            "width": 904,
+            "height": 153.59375
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "给大家三个普通人的\n财经底线"
+        },
+        {
+          "frame": 462,
+          "scene": "spend",
+          "video": {
+            "x": 70.89430236816406,
+            "y": 1255,
+            "width": 299.96405029296875,
+            "height": 299.9639892578125
+          },
+          "mask": {
+            "x": 70.89430236816406,
+            "y": 1255,
+            "width": 299.96405029296875,
+            "height": 299.9639892578125
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 111.796875
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1619,
+            "width": 904,
+            "height": 76.796875
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "第一，砍掉无效消费"
+        },
+        {
+          "frame": 471,
+          "scene": "spend",
+          "video": {
+            "x": 492.1715087890625,
+            "y": 1255,
+            "width": 299.9639892578125,
+            "height": 299.9639892578125
+          },
+          "mask": {
+            "x": 492.1715087890625,
+            "y": 1255,
+            "width": 299.9639892578125,
+            "height": 299.9639892578125
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 111.796875
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1619,
+            "width": 904,
+            "height": 76.796875
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "第一，砍掉无效消费"
+        },
+        {
+          "frame": 567,
+          "scene": "spend",
+          "video": {
+            "x": 716,
+            "y": 1255,
+            "width": 299.9639892578125,
+            "height": 299.9639892578125
+          },
+          "mask": {
+            "x": 716,
+            "y": 1255,
+            "width": 299.9639892578125,
+            "height": 299.9639892578125
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 111.796875
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1619,
+            "width": 904,
+            "height": 76.796875
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "分清楚想要和需要"
+        },
+        {
+          "frame": 618,
+          "scene": "risk",
+          "video": {
+            "x": 689.583984375,
+            "y": 1255,
+            "width": 299.9639892578125,
+            "height": 299.9639892578125
+          },
+          "mask": {
+            "x": 689.583984375,
+            "y": 1255,
+            "width": 299.9639892578125,
+            "height": 299.9639892578125
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 111.796875
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1619,
+            "width": 904,
+            "height": 76.796875
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "第二守住本金永远优先"
+        },
+        {
+          "frame": 627,
+          "scene": "risk",
+          "video": {
+            "x": 233.03700256347656,
+            "y": 1255,
+            "width": 299.96405029296875,
+            "height": 299.9639892578125
+          },
+          "mask": {
+            "x": 233.03700256347656,
+            "y": 1255,
+            "width": 299.96405029296875,
+            "height": 299.9639892578125
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 111.796875
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1619,
+            "width": 904,
+            "height": 76.796875
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "第二守住本金永远优先"
+        },
+        {
+          "frame": 861,
+          "scene": "debt",
+          "video": {
+            "x": 64,
+            "y": 1255,
+            "width": 299.9640197753906,
+            "height": 299.9639892578125
+          },
+          "mask": {
+            "x": 64,
+            "y": 1255,
+            "width": 299.9640197753906,
+            "height": 299.9639892578125
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 111.796875
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1619,
+            "width": 904,
+            "height": 76.796875
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "第三减少负债"
+        },
+        {
+          "frame": 898,
+          "scene": "recap",
+          "video": {
+            "x": 64,
+            "y": 1255,
+            "width": 299.9640197753906,
+            "height": 299.9639892578125
+          },
+          "mask": {
+            "x": 64,
+            "y": 1255,
+            "width": 299.9640197753906,
+            "height": 299.9639892578125
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 111.796875
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1619,
+            "width": 904,
+            "height": 76.796875
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "财富从来不是靠蛮力争取的"
+        },
+        {
+          "frame": 906,
+          "scene": "recap",
+          "video": {
+            "x": 90.5947036743164,
+            "y": 1127.6851806640625,
+            "width": 369.76800537109375,
+            "height": 369.7679443359375
+          },
+          "mask": {
+            "x": 90.5947036743164,
+            "y": 1127.6851806640625,
+            "width": 369.76800537109375,
+            "height": 369.7679443359375
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 111.796875
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1619,
+            "width": 904,
+            "height": 76.796875
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "财富从来不是靠蛮力争取的"
+        },
+        {
+          "frame": 915,
+          "scene": "recap",
+          "video": {
+            "x": 187.20579528808594,
+            "y": 665.1851806640625,
+            "width": 623.2799682617188,
+            "height": 623.2799072265625
+          },
+          "mask": {
+            "x": 187.20579528808594,
+            "y": 665.1851806640625,
+            "width": 623.2799682617188,
+            "height": 623.2799072265625
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 111.796875
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1619,
+            "width": 904,
+            "height": 76.796875
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "财富从来不是靠蛮力争取的"
+        },
+        {
+          "frame": 930,
+          "scene": "recap",
+          "video": {
+            "x": 205,
+            "y": 580,
+            "width": 669.9839477539062,
+            "height": 669.98388671875
+          },
+          "mask": {
+            "x": 205,
+            "y": 580,
+            "width": 669.9839477539062,
+            "height": 669.98388671875
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 111.796875
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1619,
+            "width": 904,
+            "height": 76.796875
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "财富从来不是靠蛮力争取的"
+        },
+        {
+          "frame": 1095,
+          "scene": "recap",
+          "video": {
+            "x": 205,
+            "y": 580,
+            "width": 669.9839477539062,
+            "height": 669.98388671875
+          },
+          "mask": {
+            "x": 205,
+            "y": 580,
+            "width": 669.9839477539062,
+            "height": 669.98388671875
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 111.796875
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1619,
+            "width": 904,
+            "height": 76.796875
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "才是普通人该走的路"
+        }
+      ],
+      "pixelPose": {
+        "x": 716,
+        "y": 1255,
+        "width": 299.9639892578125,
+        "height": 299.9639892578125
+      },
+      "captions": 21,
+      "reverseSeekStable": true,
+      "errors": []
+    },
+    {
+      "look": "spatial-pointcloud",
+      "poses": [
+        {
+          "frame": 0,
+          "scene": "hook",
+          "video": {
+            "x": 210,
+            "y": 585,
+            "width": 659.988037109375,
+            "height": 659.988037109375
+          },
+          "mask": {
+            "x": 210,
+            "y": 585,
+            "width": 659.988037109375,
+            "height": 659.988037109375
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 187.59375
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1618,
+            "width": 904,
+            "height": 153.59375
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "为什么越努力上班\n越存不到钱"
+        },
+        {
+          "frame": 153,
+          "scene": "chain",
+          "video": {
+            "x": 284.79400634765625,
+            "y": 684.0355224609375,
+            "width": 606.8159790039062,
+            "height": 606.8160400390625
+          },
+          "mask": {
+            "x": 284.79400634765625,
+            "y": 684.0355224609375,
+            "width": 606.8159790039062,
+            "height": 606.8160400390625
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 110.796875
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1618,
+            "width": 904,
+            "height": 76.796875
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "很多人习惯跟风消费"
+        },
+        {
+          "frame": 159,
+          "scene": "chain",
+          "video": {
+            "x": 542.2926025390625,
+            "y": 1024.9921875,
+            "width": 423.61199951171875,
+            "height": 423.612060546875
+          },
+          "mask": {
+            "x": 542.2926025390625,
+            "y": 1024.9921875,
+            "width": 423.61199951171875,
+            "height": 423.612060546875
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 110.796875
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1618,
+            "width": 904,
+            "height": 76.796875
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "很多人习惯跟风消费"
+        },
+        {
+          "frame": 168,
+          "scene": "chain",
+          "video": {
+            "x": 716,
+            "y": 1255,
+            "width": 299.9639892578125,
+            "height": 299.9639892578125
+          },
+          "mask": {
+            "x": 716,
+            "y": 1255,
+            "width": 299.9639892578125,
+            "height": 299.9639892578125
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 110.796875
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1618,
+            "width": 904,
+            "height": 76.796875
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "很多人习惯跟风消费"
+        },
+        {
+          "frame": 388,
+          "scene": "overview",
+          "video": {
+            "x": 714.2401123046875,
+            "y": 1255,
+            "width": 299.9639892578125,
+            "height": 299.9639892578125
+          },
+          "mask": {
+            "x": 714.2401123046875,
+            "y": 1255,
+            "width": 299.9639892578125,
+            "height": 299.9639892578125
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 187.59375
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1618,
+            "width": 904,
+            "height": 153.59375
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "给大家三个普通人的\n财经底线"
+        },
+        {
+          "frame": 396,
+          "scene": "overview",
+          "video": {
+            "x": 404.8135986328125,
+            "y": 1255,
+            "width": 299.9639892578125,
+            "height": 299.9639892578125
+          },
+          "mask": {
+            "x": 404.8135986328125,
+            "y": 1255,
+            "width": 299.9639892578125,
+            "height": 299.9639892578125
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 187.59375
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1618,
+            "width": 904,
+            "height": 153.59375
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "给大家三个普通人的\n财经底线"
+        },
+        {
+          "frame": 462,
+          "scene": "spend",
+          "video": {
+            "x": 70.89430236816406,
+            "y": 1255,
+            "width": 299.96405029296875,
+            "height": 299.9639892578125
+          },
+          "mask": {
+            "x": 70.89430236816406,
+            "y": 1255,
+            "width": 299.96405029296875,
+            "height": 299.9639892578125
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 110.796875
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1618,
+            "width": 904,
+            "height": 76.796875
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "第一，砍掉无效消费"
+        },
+        {
+          "frame": 471,
+          "scene": "spend",
+          "video": {
+            "x": 492.1715087890625,
+            "y": 1255,
+            "width": 299.9639892578125,
+            "height": 299.9639892578125
+          },
+          "mask": {
+            "x": 492.1715087890625,
+            "y": 1255,
+            "width": 299.9639892578125,
+            "height": 299.9639892578125
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 110.796875
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1618,
+            "width": 904,
+            "height": 76.796875
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "第一，砍掉无效消费"
+        },
+        {
+          "frame": 567,
+          "scene": "spend",
+          "video": {
+            "x": 716,
+            "y": 1255,
+            "width": 299.9639892578125,
+            "height": 299.9639892578125
+          },
+          "mask": {
+            "x": 716,
+            "y": 1255,
+            "width": 299.9639892578125,
+            "height": 299.9639892578125
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 110.796875
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1618,
+            "width": 904,
+            "height": 76.796875
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "分清楚想要和需要"
+        },
+        {
+          "frame": 618,
+          "scene": "risk",
+          "video": {
+            "x": 689.583984375,
+            "y": 1255,
+            "width": 299.9639892578125,
+            "height": 299.9639892578125
+          },
+          "mask": {
+            "x": 689.583984375,
+            "y": 1255,
+            "width": 299.9639892578125,
+            "height": 299.9639892578125
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 110.796875
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1618,
+            "width": 904,
+            "height": 76.796875
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "第二守住本金永远优先"
+        },
+        {
+          "frame": 627,
+          "scene": "risk",
+          "video": {
+            "x": 233.03700256347656,
+            "y": 1255,
+            "width": 299.96405029296875,
+            "height": 299.9639892578125
+          },
+          "mask": {
+            "x": 233.03700256347656,
+            "y": 1255,
+            "width": 299.96405029296875,
+            "height": 299.9639892578125
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 110.796875
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1618,
+            "width": 904,
+            "height": 76.796875
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "第二守住本金永远优先"
+        },
+        {
+          "frame": 861,
+          "scene": "debt",
+          "video": {
+            "x": 64,
+            "y": 1255,
+            "width": 299.9640197753906,
+            "height": 299.9639892578125
+          },
+          "mask": {
+            "x": 64,
+            "y": 1255,
+            "width": 299.9640197753906,
+            "height": 299.9639892578125
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 110.796875
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1618,
+            "width": 904,
+            "height": 76.796875
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "第三减少负债"
+        },
+        {
+          "frame": 898,
+          "scene": "recap",
+          "video": {
+            "x": 64,
+            "y": 1255,
+            "width": 299.9640197753906,
+            "height": 299.9639892578125
+          },
+          "mask": {
+            "x": 64,
+            "y": 1255,
+            "width": 299.9640197753906,
+            "height": 299.9639892578125
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 110.796875
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1618,
+            "width": 904,
+            "height": 76.796875
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "财富从来不是靠蛮力争取的"
+        },
+        {
+          "frame": 906,
+          "scene": "recap",
+          "video": {
+            "x": 91.5376968383789,
+            "y": 1128.6282958984375,
+            "width": 367.91998291015625,
+            "height": 367.9200439453125
+          },
+          "mask": {
+            "x": 91.5376968383789,
+            "y": 1128.6282958984375,
+            "width": 367.91998291015625,
+            "height": 367.9200439453125
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 110.796875
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1618,
+            "width": 904,
+            "height": 76.796875
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "财富从来不是靠蛮力争取的"
+        },
+        {
+          "frame": 915,
+          "scene": "recap",
+          "video": {
+            "x": 191.57479858398438,
+            "y": 669.55419921875,
+            "width": 614.5439453125,
+            "height": 614.5439453125
+          },
+          "mask": {
+            "x": 191.57479858398438,
+            "y": 669.55419921875,
+            "width": 614.5439453125,
+            "height": 614.5439453125
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 110.796875
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1618,
+            "width": 904,
+            "height": 76.796875
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "财富从来不是靠蛮力争取的"
+        },
+        {
+          "frame": 930,
+          "scene": "recap",
+          "video": {
+            "x": 210,
+            "y": 585,
+            "width": 659.988037109375,
+            "height": 659.988037109375
+          },
+          "mask": {
+            "x": 210,
+            "y": 585,
+            "width": 659.988037109375,
+            "height": 659.988037109375
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 110.796875
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1618,
+            "width": 904,
+            "height": 76.796875
+          },
+          "captionOverflow": false,
+          "visibleGlyphs": "财富从来不是靠蛮力争取的"
+        },
+        {
+          "frame": 1095,
+          "scene": "recap",
+          "video": {
+            "x": 210,
+            "y": 585,
+            "width": 659.988037109375,
+            "height": 659.988037109375
+          },
+          "mask": {
+            "x": 210,
+            "y": 585,
+            "width": 659.988037109375,
+            "height": 659.988037109375
+          },
+          "borderRadius": "50%",
+          "videoFilter": "none",
+          "videoBlend": "normal",
+          "caption": {
+            "x": 64,
+            "y": 1600,
+            "width": 952,
+            "height": 110.796875
+          },
+          "captionText": {
+            "x": 88,
+            "y": 1618,
             "width": 904,
             "height": 76.796875
           },

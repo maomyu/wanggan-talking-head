@@ -1,0 +1,11 @@
+{
+  "styleId": "A67",
+  "key": "gongbi",
+  "purpose": "工笔细线、淡彩与平面绘制修订；旧版偏金属和石材已停用",
+  "generator": "built-in image_gen",
+  "asset": "gongbi-atlas-v2.png",
+  "prompt": "Chinese meticulous brush painting, fine controlled ink contours, pale translucent mineral pigment, flat painted depiction, botanical and cloud motifs within objects; no photography, no glossy 3D, no metallic bevels or marble; four isolated bag, blank coins, shield and weight in two by two alpha atlas, no text or people.",
+  "humanGenerated": false,
+  "notice": "人物仍为用户原色原视频；本图为AI生成的图解示意，非真实金融证据。",
+  "revision": "flat-painting-v2"
+}

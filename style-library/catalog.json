@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "1.3.0",
+  "version": "1.4.0",
   "approvedCount": 20,
   "styles": [
     {
@@ -638,7 +638,7 @@
       "status": "verified-video",
       "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
       "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
+      "sourceKind": "original-production-adaptation",
       "references": [
         "R02"
       ],
@@ -646,6 +646,45 @@
       "implementation": "templates/origami/index.html",
       "evidence": "evidence/production-20261020-a58-a63-a77.json",
       "videoSha256": "c83cce4f9f0b47e1975bb54136a377968f2c33712f7f45dd4f05b705fc633008",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified"
+    },
+    {
+      "id": "A62",
+      "key": "felt-applique",
+      "name": "毛毡贴画",
+      "familyKey": "fiber",
+      "family": "纸与纤维",
+      "visualMechanism": "柔软毛边、厚片和缝接构成物件，运动有轻微阻尼和压缩",
+      "profiles": {
+        "layout": "L09",
+        "motion": "M08",
+        "editing": "E07",
+        "sound": "S06"
+      },
+      "suitableFor": [
+        "亲和科普"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [],
+      "preview": "previews/felt-applique.jpg",
+      "implementation": "templates/felt-applique/index.html",
+      "evidence": "evidence/production-20261020-a62-a67.json",
+      "videoSha256": "83598b4892fc8a34fa1a6235127cf3f266ff393291ab990cc0eed87e2fd61ec4",
       "compatibleModules": [
         "art-direction",
         "layout",
@@ -680,12 +719,54 @@
       "status": "verified-video",
       "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
       "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
+      "sourceKind": "original-production-adaptation",
       "references": [],
       "preview": "previews/embroidery.jpg",
       "implementation": "templates/embroidery/index.html",
       "evidence": "evidence/production-20261020-a58-a63-a77.json",
       "videoSha256": "93122d37b90640a5edeb2ebd7e0f71f0597199795788afc558b052ce8e33d6e3",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified"
+    },
+    {
+      "id": "A67",
+      "key": "gongbi",
+      "name": "工笔设色",
+      "familyKey": "painting",
+      "family": "传统绘画与东方",
+      "visualMechanism": "细线立骨、多层淡设色和局部放大，解释对象边界清楚而不靠墨块",
+      "profiles": {
+        "layout": "L02",
+        "motion": "M11",
+        "editing": "E02",
+        "sound": "S07"
+      },
+      "suitableFor": [
+        "文化",
+        "自然"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [
+        "R05"
+      ],
+      "preview": "previews/gongbi.jpg",
+      "implementation": "templates/gongbi/index.html",
+      "evidence": "evidence/production-20261020-a62-a67.json",
+      "videoSha256": "67c67c2e7b8260a7254a16e41b7295dc5d891cac25eb099cf1af68c595f88756",
       "compatibleModules": [
         "art-direction",
         "layout",
@@ -720,7 +801,7 @@
       "status": "verified-video",
       "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
       "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
+      "sourceKind": "original-production-adaptation",
       "references": [],
       "preview": "previews/etching.jpg",
       "implementation": "templates/etching/index.html",
@@ -760,9 +841,8 @@
       "status": "verified-video",
       "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
       "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
+      "sourceKind": "original-production-adaptation",
       "references": [],
-      "productionStage": "composition-revision",
       "preview": "previews/mechanical-cutaway.jpg",
       "implementation": "templates/mechanical-cutaway/index.html",
       "evidence": "evidence/production-20261020-a94-a99.json",
@@ -801,9 +881,8 @@
       "status": "verified-video",
       "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
       "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
+      "sourceKind": "original-production-adaptation",
       "references": [],
-      "productionStage": "composition-revision",
       "preview": "previews/spatial-pointcloud.jpg",
       "implementation": "templates/spatial-pointcloud/index.html",
       "evidence": "evidence/production-20261020-a94-a99.json",
@@ -1749,29 +1828,6 @@
       "references": []
     },
     {
-      "id": "A62",
-      "key": "felt-applique",
-      "name": "毛毡贴画",
-      "familyKey": "fiber",
-      "family": "纸与纤维",
-      "visualMechanism": "柔软毛边、厚片和缝接构成物件，运动有轻微阻尼和压缩",
-      "profiles": {
-        "layout": "L09",
-        "motion": "M08",
-        "editing": "E07",
-        "sound": "S06"
-      },
-      "suitableFor": [
-        "亲和科普"
-      ],
-      "status": "candidate-planned",
-      "validation": "已进入实际制作，仍在修正或验证；尚无正式完整模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": [],
-      "productionStage": "raster-asset-generated-build-in-progress"
-    },
-    {
       "id": "A64",
       "key": "patchwork",
       "name": "织物拼布",
@@ -1839,32 +1895,6 @@
       "humanTreatment": "original-color; circular-corners; raised-captions",
       "sourceKind": "creative-proposal",
       "references": []
-    },
-    {
-      "id": "A67",
-      "key": "gongbi",
-      "name": "工笔设色",
-      "familyKey": "painting",
-      "family": "传统绘画与东方",
-      "visualMechanism": "细线立骨、多层淡设色和局部放大，解释对象边界清楚而不靠墨块",
-      "profiles": {
-        "layout": "L02",
-        "motion": "M11",
-        "editing": "E02",
-        "sound": "S07"
-      },
-      "suitableFor": [
-        "文化",
-        "自然"
-      ],
-      "status": "candidate-planned",
-      "validation": "已进入实际制作，仍在修正或验证；尚无正式完整模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": [
-        "R05"
-      ],
-      "productionStage": "raster-asset-generated-build-in-progress"
     },
     {
       "id": "A68",
@@ -2562,7 +2592,7 @@
       "references": []
     }
   ],
-  "plannedCount": 75,
+  "plannedCount": 73,
   "totalCount": 100,
   "families": [
     {
@@ -2617,8 +2647,8 @@
     }
   ],
   "profileLibrary": "profiles.json",
-  "researchBoundary": "100项为可组合视觉方向，含材料、传统风格与原创配方；20种用户认可，5种制作验证，75种尚未完成。不是100个互斥行业标准。",
-  "implementedCount": 25,
+  "researchBoundary": "100项为可组合视觉方向，含材料、传统风格与原创配方；20种用户认可，7种制作验证，73种尚未完成。不是100个互斥行业标准。",
+  "implementedCount": 27,
   "userApprovedCount": 20,
-  "productionVerifiedCount": 5
+  "productionVerifiedCount": 7
 }

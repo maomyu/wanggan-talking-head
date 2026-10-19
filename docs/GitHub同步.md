@@ -1,6 +1,6 @@
 # GitHub私有仓库同步
 
-用户已于2026-10-19授权“及时更新这个插件到GitHub私有仓库，没有仓库就建立，有的话就推送”。当前正式源目录作为Git工作区，仓库为maomyu/wanggan-talking-head。
+用户已在本任务授权“及时更新这个插件到GitHub私有仓库，没有仓库就建立，有的话就推送”。当前正式源目录作为Git工作区，仓库为maomyu/wanggan-talking-head。
 
 每批完成后：先核对实际产物和进度，更新正式目录或明确研究状态，运行seal与validate-package，检查Git变更，然后提交推送并核对远端HEAD。不得将未完成候选标为用户认可或正式完成。
 

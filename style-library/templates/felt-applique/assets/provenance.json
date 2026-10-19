@@ -1,0 +1,10 @@
+{
+  "styleId": "A62",
+  "key": "felt-applique",
+  "purpose": "原创毛毡贴画方向的解释物件素材，需检查透明背景与裁切",
+  "generator": "built-in image_gen",
+  "asset": "felt-atlas.png",
+  "prompt": "Use case: stylized-concept. Create one original premium craft-photography sprite atlas on genuinely transparent background: exactly four separate small handmade felt-applique objects in an exact 2x2 grid, with generous transparent central gutters and outer margins. Top left an upright shopping bag with a simple felt handle; top right two round blank felt coins; bottom left a simple protective shield with a stitched checkmark; bottom right a heavy balance-weight silhouette with a felt loop handle. No humans. Each object stays fully inside its own quarter and has a clear silhouette at small video scale. All four objects must visibly be made of thick wool FELT: fuzzy cut fibers at the edges, layered cutout pieces, slight raised thickness, short hand-sewn blanket stitches, muted terracotta, dusty sage, cream and mustard cloth. Tactile macro-level fibers and soft contact shadows contained close to each object. Overhead or very mild three-quarter view, no dramatic perspective. This must look like photographed handmade wool appliques, not flat vector icons, not clay, not embroidery cross-stitch and not painted paper. No background scene, tabletop, paper panel, fabric square behind the objects, grid lines, text, labels, numbers, brand or currency symbols, logo or watermark. Original conceptual educational props. Preserve real alpha transparency around every object and through the handle openings.",
+  "humanGenerated": false,
+  "notice": "人物仍为用户原色原视频；本图为AI生成的图解示意，非真实金融证据。"
+}

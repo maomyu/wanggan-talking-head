@@ -1,0 +1,78 @@
+{
+  "ok": true,
+  "playback": [
+    {
+      "name": "折纸结构",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "刺绣针脚",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "蚀刻铜版",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "毛毡贴画",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "工笔设色",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "机械剖面",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "空间点云",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    }
+  ],
+  "mobileOverflow": 0,
+  "dialogOverflow": 0,
+  "errors": []
+}
