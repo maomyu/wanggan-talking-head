@@ -1,0 +1,121 @@
+{
+  "ok": true,
+  "scope": "actual art-region PNG comparison after nonsequential seeks; computed opaque reading-role contrast",
+  "results": [
+    {
+      "key": "miniature-puppet",
+      "artPixelReverseSeek": true,
+      "artSha256": "7ef4baa96850bb6ab78900f24761cd23134d99db89a0f177c13e977c6378c797",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 8.395063862739695
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 8.395063862739695
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 10.300281932657894
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 8.395063862739695
+        }
+      ]
+    },
+    {
+      "key": "inflatable-sculpture",
+      "artPixelReverseSeek": true,
+      "artSha256": "bccece421b77942bb1a002c268c50cfe97730b31538d56795ada181d6a19dc54",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 8.723335198548154
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 8.723335198548154
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 10.266385278099383
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 8.723335198548154
+        }
+      ]
+    },
+    {
+      "key": "liquid-chrome",
+      "artPixelReverseSeek": true,
+      "artSha256": "60c8099ebd2ff027d0ff965768885d79e8681a4746e87201cc021f74db50d667",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 13.460514142416026
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 13.460514142416026
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 10.27305441749918
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 13.460514142416026
+        }
+      ]
+    },
+    {
+      "key": "viscous-gel",
+      "artPixelReverseSeek": true,
+      "artSha256": "2f75119c6f84e5931bc5f5235d43bd6bc9b7bce8e88642e0b6d8be8162afd2a6",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 8.418646848612068
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 8.418646848612068
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 10.064170812292982
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 8.418646848612068
+        }
+      ]
+    },
+    {
+      "key": "holographic-volume",
+      "artPixelReverseSeek": true,
+      "artSha256": "c96e573e3ab41fb2d147064cd61e50543e176699817af61ff0aa14ac399b6946",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 12.829076884813931
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 12.829076884813931
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 9.948396004529643
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 12.829076884813931
+        }
+      ]
+    }
+  ]
+}

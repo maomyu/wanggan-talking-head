@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "key": "liquid-chrome",
+  "sourceWindow": [
+    14.9,
+    18.9
+  ],
+  "frames": 120,
+  "width": 1080,
+  "height": 1920,
+  "actualEncoded": true,
+  "scope": "指定4秒窗口的真实编码，非整片验证"
+}

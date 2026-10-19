@@ -1,0 +1,3 @@
+import{makeVolumeStage}from'./volume-lab-stage.js';
+export const LOOK={"key": "optical-glass", "name": "透明玻璃", "palette": {"bg": "#e6efec", "fg": "#233f3f", "muted": "#5a7270", "accent": "#2a7272", "caption": "#f6faf4", "portrait": "#e6efec"}, "base": {"x": 225, "y": 580, "w": 630}, "css": "#title{font-family:Serif;font-size:100px;font-weight:700}#subtitle{font-size:46px}#art canvas{position:absolute;left:0;top:0;width:952px;height:535px;z-index:0}#art svg{position:absolute;inset:0;z-index:2;pointer-events:none}#captions{border-top:3px solid #2a7272}#person-mask{outline:7px solid #c2d8d0}"};
+export async function buildArt(ctx){return makeVolumeStage(ctx,{mode:"optical-glass"})}

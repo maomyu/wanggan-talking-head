@@ -1,0 +1,167 @@
+{
+  "ok": true,
+  "scope": "actual art-region PNG comparison after nonsequential seeks; computed opaque reading-role contrast",
+  "results": [
+    {
+      "key": "miniature-puppet",
+      "artPixelReverseSeek": true,
+      "artSha256": "6b93c02c4dcc03b34fa05674b748e9a32597aa85c2e36396aaf5019a2f56c968",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 8.395063862739695
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 8.395063862739695
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 10.300281932657894
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 8.395063862739695
+        }
+      ]
+    },
+    {
+      "key": "ceramic-objects",
+      "artPixelReverseSeek": true,
+      "artSha256": "59c1cff083a159704e5504fbfbf43b76c3abe20c1ae6229c3f2bc6de23e5e3d2",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 7.6320843586487355
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 7.6320843586487355
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 9.191676613067543
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 7.6320843586487355
+        }
+      ]
+    },
+    {
+      "key": "optical-glass",
+      "artPixelReverseSeek": true,
+      "artSha256": "f27b0eb160393acf19cda17368c5f99f2abc07ca8352410e0719e120cea09a76",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 9.66562424139973
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 9.66562424139973
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 10.731672871855396
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 9.66562424139973
+        }
+      ]
+    },
+    {
+      "key": "liquid-chrome",
+      "artPixelReverseSeek": true,
+      "artSha256": "f1f95841055023a4f3f311be12b6d40479f9436955ff649dcf1262cdd384e800",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 13.460514142416026
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 13.460514142416026
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 10.27305441749918
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 13.460514142416026
+        }
+      ]
+    },
+    {
+      "key": "isometric-maquette",
+      "artPixelReverseSeek": true,
+      "artSha256": "7dbe7e73a3661af2aa2617c49a3af4f34a46e0709ad17b309304d10b6118200a",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 8.834245370369159
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 8.834245370369159
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 10.58109476313032
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 8.834245370369159
+        }
+      ]
+    },
+    {
+      "key": "viscous-gel",
+      "artPixelReverseSeek": true,
+      "artSha256": "79c2b340144164079ebae8fd00c80a452e89df2354a5e807806468c09de4be7c",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 8.418646848612068
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 8.418646848612068
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 10.064170812292982
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 8.418646848612068
+        }
+      ]
+    },
+    {
+      "key": "holographic-volume",
+      "artPixelReverseSeek": true,
+      "artSha256": "16133b6896775f11572c5edb1ab056f4bfa8bd6eb10d19abb3718d9cb4441861",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 12.829076884813931
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 12.829076884813931
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 9.948396004529643
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 12.829076884813931
+        }
+      ]
+    }
+  ]
+}

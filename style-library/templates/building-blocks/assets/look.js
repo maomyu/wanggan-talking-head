@@ -1,0 +1,3 @@
+import{makeObjectTheatre}from'./object-theatre-stage.js';import geometry from'./atlas-geometry.js';
+export const LOOK={"key": "building-blocks", "name": "硬质积木", "palette": {"bg": "#edf1e5", "fg": "#263e3e", "muted": "#556c62", "accent": "#ac3e2d", "caption": "#fff9e9", "portrait": "#edf1e5"}, "base": {"x": 225, "y": 580, "w": 630}, "css": "#title{font-size:98px}#captions{border-top:6px solid #ac3e2d}#person-mask{outline:7px solid #d7d9bf}#heading{border-left:8px solid #d5b34e;padding-left:20px}"};
+export async function buildArt(ctx){return makeObjectTheatre(ctx,{mode:"building-blocks",geometry})}

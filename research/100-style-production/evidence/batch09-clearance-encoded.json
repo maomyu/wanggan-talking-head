@@ -1,0 +1,87 @@
+{
+  "ok": true,
+  "encoded": true,
+  "records": [
+    {
+      "key": "chased-metal",
+      "time": 24.4,
+      "emptyFromY": 1071,
+      "firstNextInkY": 1151,
+      "visibleGapPixels": 80,
+      "sha256": "34ee059f96732446c34e41ebec812b46d3a1abee2db0a46dc51c82f49ff24690"
+    },
+    {
+      "key": "miniature-puppet",
+      "time": 24.4,
+      "emptyFromY": 1114,
+      "firstNextInkY": 1151,
+      "visibleGapPixels": 37,
+      "sha256": "f9e7e5e2e564aab4e5c8efb5f478d222c0bf2b69fd3fd37d0506764f64850996"
+    },
+    {
+      "key": "building-blocks",
+      "time": 24.4,
+      "emptyFromY": 1094,
+      "firstNextInkY": 1151,
+      "visibleGapPixels": 57,
+      "sha256": "a97ebdb9e0732e916af5fe5f4744485ac58d44ba84bc1369f4d24c8d851f6e05"
+    },
+    {
+      "key": "optical-glass",
+      "time": 24.4,
+      "emptyFromY": 1070,
+      "firstNextInkY": 1151,
+      "visibleGapPixels": 81,
+      "sha256": "5ef256f65d261824d836d98f9473025e6741e7c77a5b01eb3d2866653ebbec0b"
+    },
+    {
+      "key": "ceramic-objects",
+      "time": 24.4,
+      "emptyFromY": 1072,
+      "firstNextInkY": 1151,
+      "visibleGapPixels": 79,
+      "sha256": "653c5a22ac0b9c1530e1ffca12b3ed2c1f67f0bb0372dafb7747eadea5504e5e"
+    },
+    {
+      "key": "liquid-chrome",
+      "time": 24.4,
+      "emptyFromY": 1032,
+      "firstNextInkY": 1151,
+      "visibleGapPixels": 119,
+      "sha256": "7bee8f39143c4371d38d982798d7581dce01ede34ee8ad21d3a5394b165c1580"
+    },
+    {
+      "key": "isometric-maquette",
+      "time": 24.4,
+      "emptyFromY": 1070,
+      "firstNextInkY": 1151,
+      "visibleGapPixels": 81,
+      "sha256": "82402987c56991cb51ed3822c2ed84e2ded9d9051820e9f7b16d2840a3a8bb2d"
+    },
+    {
+      "key": "inflatable-sculpture",
+      "time": 24.4,
+      "emptyFromY": 1092,
+      "firstNextInkY": 1151,
+      "visibleGapPixels": 59,
+      "sha256": "121d9a211d602ff26eca58ca75130c98347e97d33abcecb1d088b6fcf445d62b"
+    },
+    {
+      "key": "viscous-gel",
+      "time": 24.4,
+      "emptyFromY": 999,
+      "firstNextInkY": 1151,
+      "visibleGapPixels": 152,
+      "sha256": "8040cdac9da20ff6acb507bac3fdd53174788fb0116c496e0fa079b2b096d8e7"
+    },
+    {
+      "key": "holographic-volume",
+      "time": 24.4,
+      "emptyFromY": 1041,
+      "firstNextInkY": 1151,
+      "visibleGapPixels": 110,
+      "sha256": "09c69073ce40875b96178c2253535e724c904afac50498e643b289445ca6a5d9"
+    }
+  ],
+  "scope": "实际像素相对同帧空底色差超过12的可见边界，取主材料与风险重点词之间横跨780px的完整空行，不是DOM行盒；细微低对比纸边不等于有信息墨迹。代表帧抽样，不声称全帧碰撞证明"
+}

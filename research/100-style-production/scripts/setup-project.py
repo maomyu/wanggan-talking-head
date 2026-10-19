@@ -10,6 +10,15 @@ for key in sys.argv[1:]:
  put(P/'source-info.json',json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(P/'assets/master.mp4')])));put(P/'hyperframes.json',dict(paths=dict(blocks='compositions',components='compositions/components',assets='assets'),media=dict(autoProxy=True),authoringSkill='general-video'))
  for rel in ['base.css','scene.js','material-stage.js'] :shutil.copy2(R/'shared'/rel,P/'assets'/rel)
  shutil.copy2(R/'shared'/f'{key}.js',P/'assets/look.js')
+ if key in ['chased-metal','miniature-puppet','building-blocks','ceramic-objects','inflatable-sculpture']:
+  shutil.copy2(R/'shared/object-theatre-stage.js',P/'assets/object-theatre-stage.js')
+  shutil.copy2(R/'shared/rasters'/f'{key}-atlas.png',P/'assets/atlas.png')
+  shutil.copy2(R/'shared/rasters'/f'{key}-provenance.json',P/'assets/provenance.json')
+  (P/'assets/atlas-geometry.js').write_text('export default '+(R/'shared/rasters'/f'{key}-geometry.json').read_text()+';\n')
+ if key in ['optical-glass','liquid-chrome','isometric-maquette','viscous-gel','holographic-volume']:
+  for f in ['volume-lab.js','volume-lab-stage.js','round-box.js']:shutil.copy2(R/'shared'/f,P/'assets'/f)
+  shutil.copy2(R/'shared/three-LICENSE.txt',P/'assets/three-LICENSE.txt')
+  shutil.copytree(APP/'style-library/runtime/vendor',P/'assets/vendor',dirs_exist_ok=True)
  if key in ['lacquer-gold','watercolor','impasto','enamel-badge','foil-deboss','mosaic','stained-glass','sandstone-relief']:
   shutil.copy2(R/'shared/craft-paint-stage.js',P/'assets/craft-paint-stage.js')
   shutil.copy2(R/'shared/rasters'/f'{key}-atlas.png',P/'assets/atlas.png')

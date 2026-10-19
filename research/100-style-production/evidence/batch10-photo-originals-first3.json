@@ -1,0 +1,203 @@
+{
+  "status": "two original photographic candidates actually viewed; no production style or video counted",
+  "records": [
+    {
+      "key": "desk",
+      "title": "File:Desktop with laptop and calculator (Unsplash).jpg",
+      "file": "shared/photos/desk.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Desktop_with_laptop_and_calculator_%28Unsplash%29.jpg",
+      "descriptionPage": "https://commons.wikimedia.org/wiki/File:Desktop_with_laptop_and_calculator_(Unsplash).jpg",
+      "width": 4032,
+      "height": 3024,
+      "sha256": "af589f564954f165c05c138b03585c7bb92b824239adfe815416c78e0055f5b0",
+      "license": "CC0",
+      "metadata": {
+        "DateTime": {
+          "value": "2019-04-01 16:22:02",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Desktop with laptop and calculator (Unsplash)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Images uploaded by Fæ|Desktop calculators|Images from Unsplash|2010s laptops|MacBook Pro (Intel-based)|Office desks",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Desk",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-10-03",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<p><a rel=\"nofollow\" class=\"external free\" href=\"https://unsplash.com/photos/U_5BNLNfPn4\">https://unsplash.com/photos/U_5BNLNfPn4</a>\n</p>\n<ul><li><bdi lang=\"en\" dir=\"ltr\" title=\"archived on 5 May 2017 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170505083848/https%3A//unsplash.com/photos/U_5BNLNfPn4\">archive copy</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi></li></ul>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<span lang=\"en\">Anonymous</span><span style=\"display:none\">Unknown author</span>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "viewed": true,
+      "scope": "Unselected photographic candidate, no style/video yet",
+      "visualObservation": "实拍斜视工作台，有计算器/纸笔/笔记本电脑/桌面及椅子；不是俯拍图，也不把纸内数字当本段金融数据"
+    },
+    {
+      "key": "architecture",
+      "title": "File:Dubai building shadow (Unsplash).jpg",
+      "file": "shared/photos/architecture.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Dubai_building_shadow_%28Unsplash%29.jpg",
+      "descriptionPage": "https://commons.wikimedia.org/wiki/File:Dubai_building_shadow_(Unsplash).jpg",
+      "width": 5203,
+      "height": 2977,
+      "sha256": "28949ded87bce78c0af48e61031ff7f4aa62b065e00c8667e9caab5c2dfec71a",
+      "license": "CC0",
+      "metadata": {
+        "DateTime": {
+          "value": "2017-08-22 05:47:22",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Dubai building shadow (Unsplash)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Dubai|Downtown Dubai|Images uploaded by Fæ|Images from Unsplash|Files with coordinates missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "25.204849",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "55.270783",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Dubai, United Arab Emirates",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-07-08",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<p><a rel=\"nofollow\" class=\"external free\" href=\"https://unsplash.com/photos/Y9Bd2rvQLng\">https://unsplash.com/photos/Y9Bd2rvQLng</a>\n<bdi lang=\"en\" dir=\"ltr\" title=\"archived on 18 July 2017 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170718093112/https%3A//images.unsplash.com/photo-1468001225795-5fd7e8cf2b18\">Image</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>\n</p>\n<bdi lang=\"en\" dir=\"ltr\" title=\"archived on 5 May 2017 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170505193529/https%3A//unsplash.com/photos/Y9Bd2rvQLng\">Gallery</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "RKTKN <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@rktkn\">rktkn</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "viewed": true,
+      "scope": "Unselected photographic candidate, no style/video yet",
+      "visualObservation": "实际只看见横向百叶纹理和三角光面；不足以单独证明大尺度建筑空间，不作为完整建筑光影方向已选素材"
+    }
+  ],
+  "unavailable": {
+    "title": "File:Shopping bags grey color.jpg",
+    "status": 429,
+    "downloaded": false,
+    "sourceHost": "upload.wikimedia.org",
+    "retryPolicy": "No guessed quota or alternate-host bypass; postpone until server permits"
+  }
+}

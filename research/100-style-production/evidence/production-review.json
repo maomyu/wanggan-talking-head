@@ -562,6 +562,96 @@
       "volume": 1
     },
     {
+      "name": "金属錾刻",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "微缩木偶",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "硬质积木",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "透明玻璃",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "陶瓷物件",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "镀铬液态",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "等距白模",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "充气软雕",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "流体凝胶",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
       "name": "机械剖面",
       "range": 206,
       "seek": 18.9,
@@ -613,6 +703,16 @@
     },
     {
       "name": "空间点云",
+      "range": 206,
+      "seek": 18.9,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.666667,
+      "muted": false,
+      "volume": 1
+    },
+    {
+      "name": "全息投影",
       "range": 206,
       "seek": 18.9,
       "width": 1080,

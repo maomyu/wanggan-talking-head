@@ -1,0 +1,1448 @@
+{
+  "status": "metadata only; not selected production",
+  "records": [
+    {
+      "query": "Shanghai intitle:Unsplash filetype:bitmap",
+      "api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=Shanghai+intitle%3AUnsplash+filetype%3Abitmap&gsrnamespace=6&gsrlimit=5&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata",
+      "results": [
+        {
+          "title": "File:Geometric pattern Shanghai (Unsplash).jpg",
+          "imageinfo": {
+            "size": 9268476,
+            "width": 4000,
+            "height": 3000,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Geometric_pattern_Shanghai_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Geometric_pattern_Shanghai_(Unsplash).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=62188347",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-09-04 22:05:39",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Geometric pattern Shanghai (Unsplash)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Images uploaded by Fæ|Images from Unsplash|Images from Unsplash (review needed)|Art in Shanghai|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "31.230416",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "121.473701",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Shanghai, China",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-05-23",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p><a rel=\"nofollow\" class=\"external free\" href=\"https://unsplash.com/photos/35bE_njbG9E\">https://unsplash.com/photos/35bE_njbG9E</a>\n<bdi lang=\"en\" dir=\"ltr\" title=\"archived on 29 July 2017 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170729045458/https%3A//images.unsplash.com/photo-1463995439889-6cc080aaf7dd\">Image</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>\n</p>\n<bdi lang=\"en\" dir=\"ltr\" title=\"archived on 3 May 2017 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170503021101/https%3A//unsplash.com/photos/35bE_njbG9E\">Gallery</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Caroline Grondin <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@caroline_grondin\">caroline_grondin</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        },
+        {
+          "title": "File:Shanghai, China (Unsplash lohK4mWig70).jpg",
+          "imageinfo": {
+            "size": 6446736,
+            "width": 5184,
+            "height": 3456,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Shanghai%2C_China_%28Unsplash_lohK4mWig70%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Shanghai,_China_(Unsplash_lohK4mWig70).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=61877927",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-08-23 06:31:28",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Shanghai, China (Unsplash lohK4mWig70)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "People of Shanghai|CC-Zero|Images uploaded by Fæ|Images from Unsplash|Motorcycles in Shanghai|Images from Unsplash (review needed)|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "31.230416",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "121.473701",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Shanghai, China",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-11-09",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p><a rel=\"nofollow\" class=\"external free\" href=\"https://unsplash.com/photos/lohK4mWig70\">https://unsplash.com/photos/lohK4mWig70</a>\n</p>\n<ul><li><bdi lang=\"en\" dir=\"ltr\" title=\"archived on 12 April 2016 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20160412074123/https%3A//unsplash.com/photos/lohK4mWig70\">archive copy</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi></li></ul>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Pablo Garcia Saldaña <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@pagsa_\">pagsa_</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        },
+        {
+          "title": "File:Shanghai, China (Unsplash xujscwNWN2M).jpg",
+          "imageinfo": {
+            "size": 3673243,
+            "width": 4362,
+            "height": 2459,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Shanghai%2C_China_%28Unsplash_xujscwNWN2M%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Shanghai,_China_(Unsplash_xujscwNWN2M).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=62091704",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-09-02 01:06:48",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Shanghai, China (Unsplash xujscwNWN2M)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Images uploaded by Fæ|Images from Unsplash|Images from Unsplash (review needed)|Files with coordinates missing SDC location of creation|Visitors in Shanghai",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "31.230416",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "121.473701",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Shanghai, China",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-11-30",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p><a rel=\"nofollow\" class=\"external free\" href=\"https://unsplash.com/photos/xujscwNWN2M\">https://unsplash.com/photos/xujscwNWN2M</a>\n<bdi lang=\"en\" dir=\"ltr\" title=\"archived on 8 July 2017 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170708233708/https%3A//images.unsplash.com/photo-1480525100650-e920a969d9f4\">Image</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>\n</p>\n<bdi lang=\"en\" dir=\"ltr\" title=\"archived on 29 April 2017 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170429010219/https%3A//unsplash.com/photos/xujscwNWN2M\">Gallery</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Adi Constantin <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@idoevolve\">idoevolve</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        },
+        {
+          "title": "File:Wai Tan, Shanghai, China (Unsplash).jpg",
+          "imageinfo": {
+            "size": 15353559,
+            "width": 4704,
+            "height": 3136,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Wai_Tan%2C_Shanghai%2C_China_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Wai_Tan,_Shanghai,_China_(Unsplash).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=62077400",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-09-01 14:31:14",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Wai Tan, Shanghai, China (Unsplash)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Long exposure photographs of China|Water reflections of lights in China|China photographs taken on 2014-02-03|CC-Zero|Images uploaded by Fæ|Images from Unsplash|Images from Unsplash (review needed)|February 2014 in Shanghai|Exposure time 25 sec|Reflections in rivers|Lujiazui from the Bund in night",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Wai Tan, Shanghai, China",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 3 February 2014,2016-09-18",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p><a rel=\"nofollow\" class=\"external free\" href=\"https://unsplash.com/photos/5h_dMuX_7RE\">https://unsplash.com/photos/5h_dMuX_7RE</a>\n<bdi lang=\"en\" dir=\"ltr\" title=\"archived on 5 May 2017 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170505191902/https%3A//unsplash.com/photos/5h_dMuX_7RE\">archive copy</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>\n</p>\n<bdi lang=\"en\" dir=\"ltr\" title=\"archived on 1 July 2017 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170701150759/https%3A//images.unsplash.com/photo-1474181487882-5abf3f0ba6c2\">Image</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Li Yang <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@ly0ns\">ly0ns</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<table class=\"layouttemplate sourcetemplate\" style=\"width:100%; clear:both; text-align:center; margin:0.5em auto; box-sizing: border-box; padding: 0; border-spacing: 8px; background-color: var(--background-color-neutral-subtle, #f6f7f5); color: var(--color-base, #202122); border: var(--border-subtle, 1px solid #555555);\" dir=\"ltr\" lang=\"en\">\n\n<tbody><tr>\n<td width=\"62px\"><span class=\"skin-invert-image\" typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:High-contrast-camera-photo.svg\" class=\"mw-file-description\" title=\"Unsplash\"><img alt=\"Unsplash\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/High-contrast-camera-photo.svg/120px-High-contrast-camera-photo.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"62\" height=\"62\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/High-contrast-camera-photo.svg/250px-High-contrast-camera-photo.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"48\" data-file-height=\"48\"></a></span>\n</td>\n<td>This image is from <b><a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/\">Unsplash</a></b> and was published <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170403233634/https://unsplash.com/license\">prior to 5 June 2017</a> under the <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/publicdomain/zero/1.0/\">Creative Commons CC0 1.0 Universal Public Domain Dedication</a>.<br><hr><div style=\"font-size:0.85em; line-height:1.6em;\"><b>Note</b>: On 5 June 2017, Unsplash switched <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170403233634/https://unsplash.com/license\">the old sitewide license for all uploads</a> from Creative Commons CC0 to <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/license\">a custom license arrangement</a> which does not meet the <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Licensing\" title=\"Special:MyLanguage/Commons:Licensing\">free content licensing requirements</a> for Commons. <b>Therefore, media published on Unsplash from 5 June 2017 onwards is <i>not</i> considered to be freely licensed and can't be accepted on Commons.</b> Files uploaded to Commons after this date should be subject to careful <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:License_review\" title=\"Special:MyLanguage/Commons:License review\">license review</a>, verifying that the publication date on Unsplash is prior to 5 June 2017.</div>\n</td></tr>\n</tbody></table>\n<table style=\"width:100%; clear:both; text-align:center; margin:0.5em auto; background-color:var(--background-color-neutral-subtle, #f8f9fa); border:var(--border-subtle, 2px solid #c8ccd1); padding: 0; border-spacing: 8px; color:var(--color-base, #202122);\" dir=\"ltr\" class=\"layouttemplate licensetpl\" lang=\"en\">\n<tbody><tr>\n<td style=\"width:90px;\" rowspan=\"2\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"Creative Commons\"><img alt=\"Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Cc.logo.circle.svg/40px-Cc.logo.circle.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"28\" height=\"28\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Cc.logo.circle.svg/60px-Cc.logo.circle.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span> <span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"CC-Zero\"><img alt=\"CC-Zero\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Cc-zero.svg/40px-Cc-zero.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"28\" height=\"28\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Cc-zero.svg/60px-Cc-zero.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span>\n</td>\n<td>This file is made available under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"https://creativecommons.org/publicdomain/zero/1.0/deed.en\" class=\"extiw\" title=\"ccorg:publicdomain/zero/1.0/deed.en\">CC0 1.0 Universal Public Domain Dedication</a>.\n</td></tr>\n<tr style=\"text-align:left;\">\n<td>The person who associated a work with this deed has dedicated the work to the <a href=\"https://en.wikipedia.org/wiki/en:public_domain\" class=\"extiw\" title=\"w:en:public domain\">public domain</a> by waiving all of their rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.\n<p><span class=\"licensetpl_link\" style=\"display:none;\">http://creativecommons.org/publicdomain/zero/1.0/deed.en</span><span class=\"licensetpl_short\" style=\"display:none;\">CC0</span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Zero, Public Domain Dedication</span><span class=\"licensetpl_link_req\" style=\"display:none;\">false</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">false</span>\n</p>\n</td></tr></tbody></table>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        },
+        {
+          "title": "File:Yan'an East Road Interchange, Shanghai, China (Unsplash).jpg",
+          "imageinfo": {
+            "size": 6606224,
+            "width": 3992,
+            "height": 2992,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Yan%27an_East_Road_Interchange%2C_Shanghai%2C_China_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Yan%27an_East_Road_Interchange,_Shanghai,_China_(Unsplash).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=61361276",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-07-29 10:11:32",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Yan'an East Road Interchange, Shanghai, China (Unsplash)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with DJI FC300S|CC-Zero|Expressways in Shanghai|Files from external sources with reviewed licenses|Stack interchanges|Images uploaded by Fæ|Picture of week on the Czech Wikipedia|Images from Unsplash|Featured pictures on Wikipedia, Chinese|Interchanges in Shanghai|June 2015 in Shanghai|Autumn in Shanghai|Files with coordinates missing SDC location of creation|Aerial photographs of Shanghai|Files with Assessments template missing SDC Commons no value quality assessment|Yanzhong Green Land|Aerial photographs of interchanges",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "31.226283",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "121.464530",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The Yan'an East Road Interchange in Shanghai, China. North is on the right side of photo.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-06-09",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p><a rel=\"nofollow\" class=\"external free\" href=\"https://unsplash.com/photos/7nrsVjvALnA\">https://unsplash.com/photos/7nrsVjvALnA</a>\n<bdi lang=\"en\" dir=\"ltr\" title=\"archived on 12 August 2016 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20160812171419/https%3A//unsplash.com/photos/7nrsVjvALnA\">archive copy</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>\n</p>\n<bdi lang=\"en\" dir=\"ltr\" title=\"archived on 24 April 2017 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170424090259/https%3A//images.unsplash.com/photo-1465447142348-e9952c393450\">Image</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Denys Nevozhai <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@dnevozhai\">dnevozhai</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "query": "shopping intitle:Unsplash filetype:bitmap",
+      "api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=shopping+intitle%3AUnsplash+filetype%3Abitmap&gsrnamespace=6&gsrlimit=5&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata",
+      "results": [
+        {
+          "title": "File:ELNÒS Shopping mall pattern (Unsplash).jpg",
+          "imageinfo": {
+            "size": 5946727,
+            "width": 4977,
+            "height": 3110,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/ELN%C3%92S_Shopping_mall_pattern_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:ELN%C3%92S_Shopping_mall_pattern_(Unsplash).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=61849833",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-08-22 05:47:53",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "ELNÒS Shopping mall pattern (Unsplash)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Images uploaded by Fæ|Images from Unsplash|Images from Unsplash (review needed)|Files with coordinates missing SDC location of creation|February 2017 in Lombardy|Elnòs Shopping Center",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "45.532771",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "10.165843",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "ELNÒS SHOPPING, Roncadelle, Italy",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-02-12",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p><a rel=\"nofollow\" class=\"external free\" href=\"https://unsplash.com/photos/xnqVGsbXgV4\">https://unsplash.com/photos/xnqVGsbXgV4</a>\n<bdi lang=\"en\" dir=\"ltr\" title=\"archived on 9 May 2017 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170509173014/https%3A//images.unsplash.com/photo-1486927181919-3ac1fc3a8082\">Image</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>\n</p>\n<bdi lang=\"en\" dir=\"ltr\" title=\"archived on 29 April 2017 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170429091300/https%3A//unsplash.com/photos/xnqVGsbXgV4\">Gallery</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Luca Bravo <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@lucabravo\">lucabravo</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        },
+        {
+          "title": "File:Glamorous Grocery Shopping (Unsplash).jpg",
+          "imageinfo": {
+            "size": 18131820,
+            "width": 5184,
+            "height": 3456,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Glamorous_Grocery_Shopping_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Glamorous_Grocery_Shopping_(Unsplash).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=61832793",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-08-21 13:35:56",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Glamorous Grocery Shopping (Unsplash)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Shopping|CC-Zero|Images uploaded by Fæ|Images from Unsplash|Images from Unsplash (review needed)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Allef Vinicius 2017-03-18",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-03-18",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p><a rel=\"nofollow\" class=\"external free\" href=\"https://unsplash.com/photos/LB9n5-3BmBY\">https://unsplash.com/photos/LB9n5-3BmBY</a>\n<bdi lang=\"en\" dir=\"ltr\" title=\"archived on 27 April 2017 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170427041028/https%3A//images.unsplash.com/photo-1489872450582-22e3b49ad471\">Image</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>\n</p>\n<bdi lang=\"en\" dir=\"ltr\" title=\"archived on 27 April 2017 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170427041929/https%3A//unsplash.com/photos/LB9n5-3BmBY\">Gallery</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Allef Vinicius <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@seteales\">seteales</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        },
+        {
+          "title": "File:One World Trade Center, New York.jpg",
+          "imageinfo": {
+            "size": 2213336,
+            "width": 3088,
+            "height": 2048,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/One_World_Trade_Center%2C_New_York.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:One_World_Trade_Center,_New_York.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=61752353",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-08-17 22:16:44",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "One World Trade Center, New York",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Images uploaded by Fæ|Images from Unsplash|Images from Unsplash (review needed)|Files with coordinates missing SDC location of creation|Remote views of One World Trade Center",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "40.721786",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-74.009447",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "10013",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-08-05",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p><a rel=\"nofollow\" class=\"external free\" href=\"https://unsplash.com/photos/7YEUGxWQkcE\">https://unsplash.com/photos/7YEUGxWQkcE</a>\n<bdi lang=\"en\" dir=\"ltr\" title=\"archived on 8 July 2017 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170708021541/https%3A//images.unsplash.com/photo-1438806159316-e14e7cc7d393\">Image</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>\n</p>\n<bdi lang=\"en\" dir=\"ltr\" title=\"archived on 4 May 2017 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170504014557/https%3A//unsplash.com/photos/7YEUGxWQkcE\">Gallery</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "alex tapia <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@alexwavve\">alexwavve</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        },
+        {
+          "title": "File:One World Trade Center (Unsplash).jpg",
+          "imageinfo": {
+            "size": 8084471,
+            "width": 5472,
+            "height": 3648,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/One_World_Trade_Center_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:One_World_Trade_Center_(Unsplash).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=61899080",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-08-24 04:44:37",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "One World Trade Center (Unsplash)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon EOS 6D|CC-Zero|Images uploaded by Fæ|Images from Unsplash|Images from Unsplash (review needed)|Files with coordinates missing SDC location of creation|One World Trade Center at night",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "40.713008",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-74.013169",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "One World Trade Center, New York, United States",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-01-28",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p><a rel=\"nofollow\" class=\"external free\" href=\"https://unsplash.com/photos/SkFots7_6oE\">https://unsplash.com/photos/SkFots7_6oE</a>\n<bdi lang=\"en\" dir=\"ltr\" title=\"archived on 8 May 2017 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170508112451/https%3A//images.unsplash.com/photo-1485628422839-535cff5a812c\">Image</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>\n</p>\n<bdi lang=\"en\" dir=\"ltr\" title=\"archived on 28 April 2017 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170428181407/https%3A//unsplash.com/photos/SkFots7_6oE\">Gallery</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Tim Trad <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@timtrad\">timtrad</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        },
+        {
+          "title": "File:Window Shopping (Unsplash).jpg",
+          "imageinfo": {
+            "size": 10220924,
+            "width": 4134,
+            "height": 2325,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Window_Shopping_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Window_Shopping_(Unsplash).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=61743265",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-08-17 14:50:25",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Window Shopping (Unsplash)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Images uploaded by Fæ|Window reflections in Australia|Images from Unsplash|Images from Unsplash (review needed)|Clothing shops in Australia|Shop windows in Australia|Files with coordinates missing SDC location of creation|Australia photographs taken on 2016-07-04|Male fashion in the 2010s|July 2016 in Adelaide|Clothing shops in 2016|Chinatown, Adelaide|Shops in Adelaide|Headless mannequins in Australia",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "-34.928969",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "138.595928",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "China town, Adelaide, Australia",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-07-04",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://unsplash.com/photos/YxTd2rOq7Rs\">https://unsplash.com/photos/YxTd2rOq7Rs</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Mike Wilson <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@mkwlsn\">mkwlsn</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "query": "grocery intitle:Unsplash filetype:bitmap",
+      "api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=grocery+intitle%3AUnsplash+filetype%3Abitmap&gsrnamespace=6&gsrlimit=5&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata",
+      "results": [
+        {
+          "title": "File:Best Cheeseburger ever (Unsplash).jpg",
+          "imageinfo": {
+            "size": 8304498,
+            "width": 5472,
+            "height": 3648,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Best_Cheeseburger_ever_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Best_Cheeseburger_ever_(Unsplash).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=61661930",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-08-13 20:32:38",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Best Cheeseburger ever (Unsplash)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Images uploaded by Fæ|Burgers and fries in the United States|Cheeseburgers with American cheese|New York City photographs taken on 2016-12-14|Images from Unsplash|Bacon cheeseburgers|Restaurants in the United States photographed in 2016|Files with coordinates missing SDC location of creation|Midtown Manhattan in 2016|Plates with food in New York City|December 2016 in Manhattan, New York City|Cheeseburgers and fries|Shake Shack products in the United States|Shake Shack (Theater District, Manhattan)|Food products of restaurants in New York City",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "40.758483",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-73.989248",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Shake Shack, New York, United States",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-01-06",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p><a rel=\"nofollow\" class=\"external free\" href=\"https://unsplash.com/photos/MjMLAst5pUI\">https://unsplash.com/photos/MjMLAst5pUI</a>\n<bdi lang=\"en\" dir=\"ltr\" title=\"archived on 9 July 2017 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170709031107/https%3A//images.unsplash.com/photo-1483732594212-58fdd5ef8f31\">Image</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>\n</p>\n<bdi lang=\"en\" dir=\"ltr\" title=\"archived on 29 April 2017 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170429030550/https%3A//unsplash.com/photos/MjMLAst5pUI\">Gallery</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Thomas Habr <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@thomashabr\">thomashabr</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        },
+        {
+          "title": "File:Clark Young 2016-09-30 (Unsplash ueZXMrZFFKQ).jpg",
+          "imageinfo": {
+            "size": 4163497,
+            "width": 3398,
+            "height": 2261,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Clark_Young_2016-09-30_%28Unsplash_ueZXMrZFFKQ%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Clark_Young_2016-09-30_(Unsplash_ueZXMrZFFKQ).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=61905946",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-08-24 13:07:18",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Clark Young 2016-09-30 (Unsplash ueZXMrZFFKQ)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Shopping carts|Images uploaded by Fæ|Images from Unsplash|Images from Unsplash (review needed)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Clark Young 2016-09-30",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-09-30",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p><a rel=\"mw:ExtLink nofollow\" href=\"https://unsplash.com/photos/ueZXMrZFFKQ\" class=\"external free\">https://unsplash.com/photos/ueZXMrZFFKQ</a>\n<bdi lang=\"en\" dir=\"ltr\" title=\"archived on 7 July 2017 at the Wayback Machine\"><a rel=\"mw:ExtLink nofollow\" href=\"https://web.archive.org/web/20170707173845/https%3A//images.unsplash.com/photo-1475275083424-b4ff81625b60\" class=\"external text\">Image</a> at the <span lang=\"en\" dir=\"ltr\"><a rel=\"mw:WikiLink/Interwiki\" href=\"https://en.wikipedia.org/wiki/Wayback%20Machine\" title=\"en:Wayback Machine\" class=\"extiw\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi></p>\n<bdi lang=\"en\" dir=\"ltr\" title=\"archived on 5 May 2017 at the Wayback Machine\"><a rel=\"mw:ExtLink nofollow\" href=\"https://web.archive.org/web/20170505062931/https%3A//unsplash.com/photos/ueZXMrZFFKQ\" class=\"external text\">Gallery</a> at the <span lang=\"en\" dir=\"ltr\"><a rel=\"mw:WikiLink/Interwiki\" href=\"https://en.wikipedia.org/wiki/Wayback%20Machine\" title=\"en:Wayback Machine\" class=\"extiw\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Clark Young <a rel=\"mw:ExtLink nofollow\" href=\"https://unsplash.com/@clark1\" class=\"external text\">clark1</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        },
+        {
+          "title": "File:Glamorous Grocery Shopping (Unsplash).jpg",
+          "imageinfo": {
+            "size": 18131820,
+            "width": 5184,
+            "height": 3456,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Glamorous_Grocery_Shopping_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Glamorous_Grocery_Shopping_(Unsplash).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=61832793",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-08-21 13:35:56",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Glamorous Grocery Shopping (Unsplash)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Shopping|CC-Zero|Images uploaded by Fæ|Images from Unsplash|Images from Unsplash (review needed)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Allef Vinicius 2017-03-18",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-03-18",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p><a rel=\"nofollow\" class=\"external free\" href=\"https://unsplash.com/photos/LB9n5-3BmBY\">https://unsplash.com/photos/LB9n5-3BmBY</a>\n<bdi lang=\"en\" dir=\"ltr\" title=\"archived on 27 April 2017 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170427041028/https%3A//images.unsplash.com/photo-1489872450582-22e3b49ad471\">Image</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>\n</p>\n<bdi lang=\"en\" dir=\"ltr\" title=\"archived on 27 April 2017 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170427041929/https%3A//unsplash.com/photos/LB9n5-3BmBY\">Gallery</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Allef Vinicius <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@seteales\">seteales</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        },
+        {
+          "title": "File:Healthy Grocery Shopping (Unsplash).jpg",
+          "imageinfo": {
+            "size": 6304294,
+            "width": 5616,
+            "height": 3744,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Healthy_Grocery_Shopping_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Healthy_Grocery_Shopping_(Unsplash).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=61757972",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-08-18 07:35:07",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Healthy Grocery Shopping (Unsplash)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Images uploaded by Fæ|Images from Unsplash|Photographs taken on 2014-12-15|Mixed vegetables|Vegetable baskets",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "leonie wise 2014",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 15 December 2014",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p><a rel=\"nofollow\" class=\"external free\" href=\"https://unsplash.com/photos/NLU117HCVuc\">https://unsplash.com/photos/NLU117HCVuc</a>\n<bdi lang=\"en\" dir=\"ltr\" title=\"archived on 5 July 2017 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170705222616/https%3A//images.unsplash.com/photo-1418669112725-fb499fb61127\">Image</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>\n</p>\n<bdi lang=\"en\" dir=\"ltr\" title=\"archived on 30 March 2016 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20160330173424/https%3A//unsplash.com/photos/NLU117HCVuc\">Gallery</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "leonie wise <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@leoniewise\">leoniewise</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        },
+        {
+          "title": "File:Woman with outstretched arms (Unsplash).jpg",
+          "imageinfo": {
+            "size": 4382122,
+            "width": 5184,
+            "height": 3456,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Woman_with_outstretched_arms_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Woman_with_outstretched_arms_(Unsplash).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=61837850",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-08-21 16:59:06",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Woman with outstretched arms (Unsplash)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Vival by Casino|Images uploaded by Fæ|Images from Unsplash|Images from Unsplash (review needed)|Files with coordinates missing SDC location of creation|Grocery stores in Toulouse",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "43.604652",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "1.444209",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Toulouse, France",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-09-30",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p><a rel=\"nofollow\" class=\"external free\" href=\"https://unsplash.com/photos/fmQh9ouUofY\">https://unsplash.com/photos/fmQh9ouUofY</a>\n<bdi lang=\"en\" dir=\"ltr\" title=\"archived on 5 May 2017 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170505102426/https%3A//unsplash.com/photos/fmQh9ouUofY\">archive copy</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>\n</p>\n<bdi lang=\"en\" dir=\"ltr\" title=\"archived on 31 July 2017 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20170731052740/https%3A//images.unsplash.com/photo-1475266568596-c0fe4004800e\">Image</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Toa Heftiba <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@heftiba\">heftiba</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

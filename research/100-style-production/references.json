@@ -195,5 +195,11 @@
     "title": "Enamels — Explore the Collections",
     "url": "https://www.vam.ac.uk/collections/enamels",
     "scope": "集合正文已读；下一批金属围边与釉色凸物仍为原创现代意象，无馆藏身份。具体分隔工艺待继续研究"
+  },
+  {
+    "id": "R36",
+    "title": "Three.js r181: physical material, PMREM and rounded geometry",
+    "url": "https://github.com/mrdoob/three.js/tree/r181",
+    "scope": "已读本机固定r181物理材质/厚度/PMREM接口与RoundedBox源码，原始MIT许可来自同版本官方文件；仅作为实现接口依据，不冒称制作工艺、流体或真实光学实验。实际视觉/寻址与整片证据另记"
   }
 ]

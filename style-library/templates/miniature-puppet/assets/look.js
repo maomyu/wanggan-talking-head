@@ -1,0 +1,3 @@
+import{makeObjectTheatre}from'./object-theatre-stage.js';import geometry from'./atlas-geometry.js';
+export const LOOK={"key": "miniature-puppet", "name": "微缩木偶", "palette": {"bg": "#e2ddcc", "fg": "#343c33", "muted": "#5e6a58", "accent": "#8c4d32", "caption": "#f8f3e6", "portrait": "#e2ddcc"}, "base": {"x": 225, "y": 580, "w": 630}, "css": "#title{font-size:98px}#subtitle{font-size:46px}#architecture{inset:515px 40px 675px;border-top:10px solid #655640;border-bottom:10px solid #655640;background:#e9e1ce}#captions{border-left:5px solid #8c4d32}#person-mask{outline:6px solid #cbb896}"};
+export async function buildArt(ctx){return makeObjectTheatre(ctx,{mode:"miniature-puppet",geometry})}

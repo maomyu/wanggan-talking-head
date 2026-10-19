@@ -1,0 +1,236 @@
+{
+  "ok": true,
+  "scope": "actual art-region PNG comparison after nonsequential seeks; computed opaque reading-role contrast",
+  "results": [
+    {
+      "key": "chased-metal",
+      "artPixelReverseSeek": true,
+      "artSha256": "0bad619a80f3437e34d06d6df64c24d6f1d6d93b61bcee2a334ace0d6d9debf3",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 11.706226131856411
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 11.706226131856411
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 9.638380428796111
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 11.706226131856411
+        }
+      ]
+    },
+    {
+      "key": "miniature-puppet",
+      "artPixelReverseSeek": true,
+      "artSha256": "ea5dd73e0c40111a981c20b25a8b61ffbe6a33e2abddec3db7fe972b3f323e72",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 8.395063862739695
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 8.395063862739695
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 10.300281932657894
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 8.395063862739695
+        }
+      ]
+    },
+    {
+      "key": "building-blocks",
+      "artPixelReverseSeek": true,
+      "artSha256": "b18937c91efaf0b1e16429c9528d569b582f4927d825e21453d14e20e229fb1e",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 9.947972124745915
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 9.947972124745915
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 10.852066323694197
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 9.947972124745915
+        }
+      ]
+    },
+    {
+      "key": "optical-glass",
+      "artPixelReverseSeek": true,
+      "artSha256": "f27b0eb160393acf19cda17368c5f99f2abc07ca8352410e0719e120cea09a76",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 9.66562424139973
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 9.66562424139973
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 10.731672871855396
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 9.66562424139973
+        }
+      ]
+    },
+    {
+      "key": "ceramic-objects",
+      "artPixelReverseSeek": true,
+      "artSha256": "5d7fcb9655db1a95bbfc0667f408e8234656e357477e7d9c05636e7355814dc4",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 7.6320843586487355
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 7.6320843586487355
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 9.191676613067543
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 7.6320843586487355
+        }
+      ]
+    },
+    {
+      "key": "liquid-chrome",
+      "artPixelReverseSeek": true,
+      "artSha256": "778667198f448a99ddd31d4c1c82e115fd9cdc432794407016505449d12e97e2",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 13.460514142416026
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 13.460514142416026
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 10.27305441749918
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 13.460514142416026
+        }
+      ]
+    },
+    {
+      "key": "isometric-maquette",
+      "artPixelReverseSeek": true,
+      "artSha256": "7dbe7e73a3661af2aa2617c49a3af4f34a46e0709ad17b309304d10b6118200a",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 8.834245370369159
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 8.834245370369159
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 10.58109476313032
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 8.834245370369159
+        }
+      ]
+    },
+    {
+      "key": "inflatable-sculpture",
+      "artPixelReverseSeek": true,
+      "artSha256": "353046b34313ebcde473ff37b4c2b4b83e028ad6d45d5cee3be1937a3c833e0e",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 8.723335198548154
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 8.723335198548154
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 10.266385278099383
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 8.723335198548154
+        }
+      ]
+    },
+    {
+      "key": "viscous-gel",
+      "artPixelReverseSeek": true,
+      "artSha256": "9a3f68b834ccfba017b6f159b042d45567cab23a8cd5f2c9b020b5fa4d5f89cd",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 8.418646848612068
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 8.418646848612068
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 10.064170812292982
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 8.418646848612068
+        }
+      ]
+    },
+    {
+      "key": "holographic-volume",
+      "artPixelReverseSeek": true,
+      "artSha256": "795f5eb5bc3f886fb075413d43414b9044a6c7903dd53044c0eb9453b8332833",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 12.829076884813931
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 12.829076884813931
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 9.948396004529643
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 12.829076884813931
+        }
+      ]
+    }
+  ]
+}

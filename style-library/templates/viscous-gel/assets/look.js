@@ -1,0 +1,3 @@
+import{makeVolumeStage}from'./volume-lab-stage.js';
+export const LOOK={"key": "viscous-gel", "name": "流体凝胶", "palette": {"bg": "#eee1e1", "fg": "#473a45", "muted": "#76616c", "accent": "#8c4e67", "caption": "#fff6f2", "portrait": "#eee1e1"}, "base": {"x": 225, "y": 580, "w": 630}, "css": "#title{font-family:Serif;font-size:100px;font-weight:700}#subtitle{font-size:46px}#art canvas{position:absolute;left:0;top:0;width:952px;height:535px;z-index:0}#art svg{position:absolute;inset:0;z-index:2;pointer-events:none}#captions{border-top:3px solid #8c4e67}#person-mask{outline:8px solid #d2b3bc}"};
+export async function buildArt(ctx){return makeVolumeStage(ctx,{mode:"viscous-gel"})}

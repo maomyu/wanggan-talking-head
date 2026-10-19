@@ -1,0 +1,53 @@
+from pathlib import Path
+import json,shutil
+R=Path(__file__).resolve().parents[1];APP=Path.home()/'plugins/wanggan-talking-head'
+A=R.parent/'百种画风图谱研究_20261019';D=R.parents[1]/'输出/网感口播/正式画风总览';T=APP/'research/100-style-production'
+read=lambda p:json.loads(p.read_text())
+keys=['chased-metal','miniature-puppet','building-blocks','optical-glass','ceramic-objects','liquid-chrome','isometric-maquette','inflatable-sculpture','viscous-gel','holographic-volume']
+C=read(APP/'style-library/catalog.json');version=C['version']
+assert version=='1.12.0'and C['implementedCount']==92 and C['productionVerifiedCount']==72 and C['plannedCount']==8
+for name in ['batch09-author-review.json','batch09-clearance-encoded.json','batch09-native-final.json','batch09-preflight-final.json']:
+ assert read(R/'qa'/name)['ok'],name
+q=read(R/'qa/batch09-current-sources.json');assert q['ok']and len(q['results'])==72
+q=read(R/f'qa/formal-probes-{version}.json');assert q['ok']and {s['key']for s in q['results']}==set(keys)
+q=read(R/f'qa/formal-native-{version}.json');assert q['ok']and {s['key']for s in q['records']}==set(keys)
+assert read(R/f'qa/formal-full-reproduction-{version}.json')['ok']
+for tag in ['puppet-1.12.0','glass-1.12.0']:assert read(R/f'qa/motion-revision-{tag}.json')['ok']
+q=read(D/'qa/formal-gallery-qa.json');assert q['ok']and q['implemented']==92 and len(q['playback'])==92
+q=read(A/'qa/atlas-qa.json');assert q['ok']and q['implemented']==92 and len(q['playback'])==78
+q=read(R/'qa/production-review.json');assert q['ok']and len(q['playback'])==72
+for p in (R/'scripts').iterdir():
+ if p.suffix in ['.py','.mjs']:shutil.copy2(p,T/'scripts'/p.name)
+for name in ['catalog.json','edit-plan.json']:shutil.copy2(R/name,T/name)
+for name in ['app.js','style.css','review.html','qa-atlas.mjs']:shutil.copy2(A/name,T/'gallery-source'/name)
+for pattern in ['batch09-*','batch10-*','*1.12.0.json']:
+ for p in (R/'qa').glob(pattern):
+  if p.suffix in ['.json','.md']:shutil.copy2(p,T/'evidence'/p.name)
+for name in ['production-review.json','design-qa.json']:shutil.copy2(R/'qa'/name,T/'evidence'/name)
+shutil.copy2(D/'qa/formal-gallery-qa.json',T/'evidence/formal-gallery-1.12.0.json')
+shutil.copy2(A/'qa/atlas-qa.json',T/'evidence/atlas-1.12.0.json')
+for name in ['batch09-decisions.md','next-photo-plan.md']:shutil.copy2(R/'qa'/name,T/'batches'/name)
+for key in keys:shutil.copy2(R/'smoke-batch09'/key/'qa/smoke.json',T/'evidence'/f'{key}-smoke-batch09.json')
+native=read(R/'qa/batch09-clearance-native.json');encoded=read(R/'qa/batch09-clearance-encoded.json')
+gaps=lambda q:', '.join(s['key']+' '+str(s['visibleGapPixels'])+'px'for s in q['records'])
+(T/'README.md').write_text('''# 100种画风生产进度
+
+正式源1.12.0，92种实现：20种用户认可、72种制作验证；另8种摄影方向尚未完成。100条实际视频与正式整合目标继续active，原始材料、照片候选和配方不计完成。
+
+第九批新增A85金属錾刻、A86微缩木偶、A87硬质积木、A88透明玻璃、A89陶瓷物件、A90镀铬液态、A91等距白模、A92充气软雕、A93流体凝胶、A100全息投影。全部1080×1920/30fps/1100帧，人物原色、全程正圆、1600位置字幕与单一原声保持。五幅原始AI材料保留原像素/完整prompt/geometry/provenance/SHA；五种立体代码固定Three r181，保留完整MIT许可和RoundedBox本机源SHA。没有升级依赖。
+
+木偶用完整原始姿态切换及有限轻摆，控制线出画，不虚称关节绑定或真实定格。金属是成形薄板器物，积木重物是配重环，不冒用品牌或可照图搭建。陶瓷去掉悬空假台面；充气只做有限图像形变，不当真实质量演示。玻璃有非零厚度/透射与条纹折射；白模正交白体块/台阶/接触影；铬面是连续圆曲面与本地灯板反射；凝胶是透明包裹内芯的解析回流；全息用相应轮廓切片/发射盘/弱光锥，不用随机点云。这些是概念图解，不是工艺、流体、光学或全息设备实验。
+
+实际审看修掉陶瓷台面悬空、木偶重复底注、3D文字压背景板、铬勾埋进倒角、凝胶内部不清、全息发射盘截断。袋身与圆负重做区分，木偶/充气微摆明确归零。各旧版源/原生拼版在本机研究历史中保留，最终10条都重做真实4秒/120帧实测和完整1100帧编码，没有借旧源通过。
+
+作者实际看了当前10个8状态原生拼版、10个真实4秒拼版、10个整片12抽帧拼版及记录中的原尺寸。程序另查183密集帧、18邻帧、首末/左右人色与原声、正圆/字幕/逆向像素，短测/整片的保护渲染输入也精确相同。原生风险重点词前整行空白：'''+gaps(native)+'''；编码：'''+gaps(encoded)+'''。16px门槛保持，实际像素测量不等于所有帧碰撞证明，DOM行盒也不代替字形。10条全长解码原声相同，72研究工程全部verified、当前输入与实际MP4证据精确SHA匹配。没有逐帧人工听看或独立盲评声明，不把制作验证当用户逐条视觉认可。
+
+10模板正式入口独立init/build后三个语义状态解释区PNG/标题/字幕精确匹配。全息另独立完整重建，逐秒像素/全长原声比较见证据。木偶与玻璃motion-only .55→1秒实际改变途中几何，13.7辅助字等待、14.6停稳，18.9解释区/WAV/字幕时序保持。四个完整专家正文和旧82稳定模板保留。
+
+正式总览92个实体相对MP4/封面/证据，逐条SHA匹配，全部播放/Range206/拖动/筛选/配方/对比/390手机通过；研究页72流，图谱92实际图/78流。8个摄影候选无假视频。未来照片的原始像素/来源/许可与观看范围在batch10研究证据中，未制作的方向不计完成。摄影不拿AI照片冒充真实现场，也不将资料照片视为本段人物或事件。
+
+shared/为场景和原始素材，scripts/为研究工具，batches/记录判断，evidence/绑定实际验证；正式模板在../../style-library/。大批MP4、中间帧、运行依赖和馆方仅供研究图片不进Git；固定原声fixture、原创源和可重建模板进私有库。新内容由四个完整模块重新设计，固定财经例子不等于自动适配任意素材。
+
+HF0.8.174、Playwright1.59.1、8本地字体固定。分批stage/seal/validate/privatepush并核对远端HEAD，再封包安装；缓存复用要求verified状态、当前输入和精确MP4证据一致，build/check不能认证旧片。
+''')
+print('Batch09 source/evidence staged with strict92/72/8 and actual gallery gates; 100 goal active')

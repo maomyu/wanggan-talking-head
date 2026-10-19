@@ -1,0 +1,9 @@
+{
+  "source": "/Users/maoyu/plugins/wanggan-talking-head/style-library/runtime/vendor/addons/geometries/RoundedBoxGeometry.js",
+  "sourceSha256": "c1b7c9bd2cddff2e3f3a0723f618a3d364a47450e3d25771d21faed88410bec8",
+  "derived": "shared/round-box.js",
+  "derivedSha256": "79f17b27693a42fbf989738b954764a915fd77e969eb15856f3d368c7c690756",
+  "revision": 181,
+  "license": "MIT; same bundled Three.js source; local import specifier adaptation only",
+  "scope": "No dependency upgrade or new download; not a new physical simulator"
+}

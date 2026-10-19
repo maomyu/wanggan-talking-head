@@ -62,11 +62,21 @@
     "foil-deboss",
     "mosaic",
     "stained-glass",
-    "sandstone-relief"
+    "sandstone-relief",
+    "chased-metal",
+    "miniature-puppet",
+    "building-blocks",
+    "optical-glass",
+    "ceramic-objects",
+    "liquid-chrome",
+    "isometric-maquette",
+    "inflatable-sculpture",
+    "viscous-gel",
+    "holographic-volume"
   ],
   "needsRevision": [],
-  "sourceVersion": "batch08-final-1.11.0",
-  "reviewedAt": "2026-10-20T06:21:51.531104+08:00",
+  "sourceVersion": "batch09-final-1.12.0",
+  "reviewedAt": "2026-10-20T07:11:19.214331+08:00",
   "videoSha256": {
     "woodcut": "1922f51c7f1c49c79351937dcb7284f47c1f339fa0f669dc606c2489cb169402",
     "risograph": "18819130f47aa724167a8a629eb85a8704e646a1b00d49c7fbe27c85014948d0",
@@ -129,6 +139,16 @@
     "foil-deboss": "4e1aecfb15de13fcb8f25cd31fac0c8fc18e0e603d5fce7e2ce7c515028d81a7",
     "mosaic": "f104b6a00d1ec5a64d70c88746aae0c5ced7d62031a561bcd094cb4c1d34544d",
     "stained-glass": "e55082c5184daecb371dd782b3993e12a2560c86c255e03399f3c1979f053cd9",
-    "sandstone-relief": "8bd858af81a65b666cdc95e5e70d8564dbb47d734113fed8f34e98e704abffd6"
+    "sandstone-relief": "8bd858af81a65b666cdc95e5e70d8564dbb47d734113fed8f34e98e704abffd6",
+    "chased-metal": "34ee059f96732446c34e41ebec812b46d3a1abee2db0a46dc51c82f49ff24690",
+    "miniature-puppet": "f9e7e5e2e564aab4e5c8efb5f478d222c0bf2b69fd3fd37d0506764f64850996",
+    "building-blocks": "a97ebdb9e0732e916af5fe5f4744485ac58d44ba84bc1369f4d24c8d851f6e05",
+    "optical-glass": "5ef256f65d261824d836d98f9473025e6741e7c77a5b01eb3d2866653ebbec0b",
+    "ceramic-objects": "653c5a22ac0b9c1530e1ffca12b3ed2c1f67f0bb0372dafb7747eadea5504e5e",
+    "liquid-chrome": "7bee8f39143c4371d38d982798d7581dce01ede34ee8ad21d3a5394b165c1580",
+    "isometric-maquette": "82402987c56991cb51ed3822c2ed84e2ded9d9051820e9f7b16d2840a3a8bb2d",
+    "inflatable-sculpture": "121d9a211d602ff26eca58ca75130c98347e97d33abcecb1d088b6fcf445d62b",
+    "viscous-gel": "8040cdac9da20ff6acb507bac3fdd53174788fb0116c496e0fa079b2b096d8e7",
+    "holographic-volume": "09c69073ce40875b96178c2253535e724c904afac50498e643b289445ca6a5d9"
   }
 }

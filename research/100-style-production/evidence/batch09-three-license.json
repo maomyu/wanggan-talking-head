@@ -1,0 +1,7 @@
+{
+  "source": "https://raw.githubusercontent.com/mrdoob/three.js/r181/LICENSE",
+  "revision": 181,
+  "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+  "stored": "shared/three-LICENSE.txt",
+  "scope": "Preserve complete MIT notice with the pinned source; no code/dependency upgrade or rendered-pixel change"
+}

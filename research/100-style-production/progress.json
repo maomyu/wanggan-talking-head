@@ -2,9 +2,9 @@
   "goal": "100个实际画风视频与正式插件整合",
   "total": 100,
   "userApproved": 20,
-  "productionVerified": 62,
+  "productionVerified": 72,
   "inProduction": 0,
-  "queued": 18,
+  "queued": 8,
   "styles": [
     {
       "id": "A01",
@@ -823,81 +823,90 @@
       "key": "chased-metal",
       "name": "金属錾刻",
       "family": "craft",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/chased-metal/outputs/final.mp4"
     },
     {
       "id": "A86",
       "key": "miniature-puppet",
       "name": "微缩木偶",
       "family": "volume",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/miniature-puppet/outputs/final.mp4"
     },
     {
       "id": "A87",
       "key": "building-blocks",
       "name": "硬质积木",
       "family": "volume",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/building-blocks/outputs/final.mp4"
     },
     {
       "id": "A88",
       "key": "optical-glass",
       "name": "透明玻璃",
       "family": "volume",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/optical-glass/outputs/final.mp4"
     },
     {
       "id": "A89",
       "key": "ceramic-objects",
       "name": "陶瓷物件",
       "family": "volume",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/ceramic-objects/outputs/final.mp4"
     },
     {
       "id": "A90",
       "key": "liquid-chrome",
       "name": "镀铬液态",
       "family": "volume",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/liquid-chrome/outputs/final.mp4"
     },
     {
       "id": "A91",
       "key": "isometric-maquette",
       "name": "等距白模",
       "family": "volume",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/isometric-maquette/outputs/final.mp4"
     },
     {
       "id": "A92",
       "key": "inflatable-sculpture",
       "name": "充气软雕",
       "family": "volume",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/inflatable-sculpture/outputs/final.mp4"
     },
     {
       "id": "A93",
       "key": "viscous-gel",
       "name": "流体凝胶",
       "family": "volume",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/viscous-gel/outputs/final.mp4"
     },
     {
       "id": "A94",
@@ -964,9 +973,10 @@
       "key": "holographic-volume",
       "name": "全息投影",
       "family": "digital",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/holographic-volume/outputs/final.mp4"
     }
   ]
 }

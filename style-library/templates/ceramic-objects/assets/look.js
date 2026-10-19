@@ -1,0 +1,3 @@
+import{makeObjectTheatre}from'./object-theatre-stage.js';import geometry from'./atlas-geometry.js';
+export const LOOK={"key": "ceramic-objects", "name": "陶瓷物件", "palette": {"bg": "#e4e2d4", "fg": "#39463b", "muted": "#616b5b", "accent": "#77623f", "caption": "#faf6e9", "portrait": "#e4e2d4"}, "base": {"x": 225, "y": 580, "w": 630}, "css": "#title{font-family:Serif;font-size:100px;font-weight:700}#subtitle{font-size:46px}#captions{border-top:3px solid #77623f}#person-mask{outline:7px solid #bdc3aa}"};
+export async function buildArt(ctx){return makeObjectTheatre(ctx,{mode:"ceramic-objects",geometry})}

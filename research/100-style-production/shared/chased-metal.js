@@ -1,0 +1,3 @@
+import{makeObjectTheatre}from'./object-theatre-stage.js';import geometry from'./atlas-geometry.js';
+export const LOOK={"key": "chased-metal", "name": "金属錾刻", "palette": {"bg": "#272c2b", "fg": "#f0e9d7", "muted": "#c1c5ba", "accent": "#d0ae75", "caption": "#333a36", "portrait": "#272c2b"}, "base": {"x": 225, "y": 580, "w": 630}, "css": "#title{font-family:Serif;font-size:100px;font-weight:700}#subtitle{font-size:46px}#captions{border-top:2px solid #d0ae75}#person-mask{outline:6px solid #9e8d68}"};
+export async function buildArt(ctx){return makeObjectTheatre(ctx,{mode:"chased-metal",geometry})}

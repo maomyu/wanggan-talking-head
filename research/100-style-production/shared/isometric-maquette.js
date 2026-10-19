@@ -1,0 +1,3 @@
+import{makeVolumeStage}from'./volume-lab-stage.js';
+export const LOOK={"key": "isometric-maquette", "name": "等距白模", "palette": {"bg": "#e5e6df", "fg": "#343e38", "muted": "#606a60", "accent": "#7d7861", "caption": "#fafaf2", "portrait": "#e5e6df"}, "base": {"x": 225, "y": 580, "w": 630}, "css": "#title{font-family:Serif;font-size:100px;font-weight:700}#subtitle{font-size:46px}#art canvas{position:absolute;left:0;top:0;width:952px;height:535px;z-index:0}#art svg{position:absolute;inset:0;z-index:2;pointer-events:none}#captions{border-top:3px solid #7d7861}#person-mask{outline:7px solid #ced0c1}"};
+export async function buildArt(ctx){return makeVolumeStage(ctx,{mode:"isometric-maquette"})}

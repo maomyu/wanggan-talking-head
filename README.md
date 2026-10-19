@@ -1,6 +1,6 @@
-# 网感口播 1.11.0
+# 网感口播 1.12.0
 
-正式本地插件，包含82种已实现画风（20用户认可、62制作验证）、四个完整专业skill和一个整片统筹入口。100种创意目录分10个家族；其中另外18种尚未完成，分别标记候选或制作中。人物保持原色、角落正圆窗、字幕上移。
+正式本地插件，包含92种已实现画风（20用户认可、72制作验证）、四个完整专业skill和一个整片统筹入口。100种创意目录分10个家族；其中另外8种尚未完成，分别标记候选或制作中。人物保持原色、角落正圆窗、字幕上移。
 
 - [整片统筹](skills/talking-head-video/SKILL.md)
 - [画风](skills/talking-head-art-direction/SKILL.md) · [排版](skills/talking-head-layout/SKILL.md) · [动效](skills/talking-head-motion/SKILL.md) · [剪辑转场](skills/talking-head-editing/SKILL.md)
@@ -26,4 +26,5 @@
 
 
 
-当前库：82种已实现（20用户认可，62制作验证），18种未完成。`styles --status implemented`查询可用实现，`--status approved`仅查询用户认可，`--status production`仅查询制作验证。`--example approved`为兼容沿用的固定素材复现命令，两类已实现模板均可使用，不表示都获用户逐条视觉认可。
+
+当前库：92种已实现（20用户认可，72制作验证），8种未完成。`styles --status implemented`查询可用实现，`--status approved`仅查询用户认可，`--status production`仅查询制作验证。`--example approved`为兼容沿用的固定素材复现命令，两类已实现模板均可使用，不表示都获用户逐条视觉认可。

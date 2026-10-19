@@ -1,0 +1,38 @@
+{
+  "ok": true,
+  "scope": "only person travel .55 to 1 second; actual in-flight geometry changed, settled art pixels, voice PCM reference and captions/frame count unchanged; not a revised full-film render",
+  "results": [
+    {
+      "project": "portability/formal-1.12.0/miniature-puppet",
+      "during": {
+        "x": 547.4420776367188,
+        "y": 1023.2756958007812,
+        "width": 413.27996826171875,
+        "height": 413.27996826171875
+      },
+      "noteHandoff": {
+        "movingNote": 0.5295,
+        "settledNote": 1
+      },
+      "artSha256": "7ef4baa96850bb6ab78900f24761cd23134d99db89a0f177c13e977c6378c797",
+      "voiceSha256": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+      "timingSha256": "d9991ae0fb0552b18aa6249e26af5b145e8ffad0b0eec526c2981b79fadf98c7"
+    },
+    {
+      "project": "portability/motion-puppet-1.12.0",
+      "during": {
+        "x": 352.2962951660156,
+        "y": 755,
+        "width": 544.404052734375,
+        "height": 544.404052734375
+      },
+      "noteHandoff": {
+        "movingNote": 0,
+        "settledNote": 1
+      },
+      "artSha256": "7ef4baa96850bb6ab78900f24761cd23134d99db89a0f177c13e977c6378c797",
+      "voiceSha256": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+      "timingSha256": "d9991ae0fb0552b18aa6249e26af5b145e8ffad0b0eec526c2981b79fadf98c7"
+    }
+  ]
+}

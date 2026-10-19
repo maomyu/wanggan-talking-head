@@ -1,0 +1,3 @@
+import{makeVolumeStage}from'./volume-lab-stage.js';
+export const LOOK={"key": "holographic-volume", "name": "全息投影", "palette": {"bg": "#122b35", "fg": "#e3f3e8", "muted": "#adccc5", "accent": "#80dadd", "caption": "#1c3e49", "portrait": "#122b35"}, "base": {"x": 225, "y": 580, "w": 630}, "css": "#art canvas{position:absolute;left:0;top:0;width:952px;height:535px;z-index:0}#art svg{position:absolute;inset:0;z-index:2;pointer-events:none}#title{font-size:98px}#captions{border-top:3px solid #80dadd}#person-mask{outline:7px solid #507f81}"};
+export async function buildArt(ctx){return makeVolumeStage(ctx,{mode:"holographic-volume"})}

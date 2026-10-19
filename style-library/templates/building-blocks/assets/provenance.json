@@ -1,0 +1,18 @@
+{
+  "key": "building-blocks",
+  "generatedSource": "/Users/maoyu/.codex/generated_images/01a14ed8-81a6-7e41-a4a2-ca72530e7989/exec-b1850675-016d-4110-9894-7e889d5292fa.png",
+  "file": "shared/rasters/building-blocks-atlas.png",
+  "sha256": "2422b0424faaf224be4d877541ad62dd788ffe862f863d9e89d4322398ca970f",
+  "size": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "prompt": "Use case: stylized-concept. An original square 2 by 2 atlas of FOUR physical hard modular building-block sculptures isolated on TRUE transparent background. Fixed subjects: top-left a simple shopping tote bag, top-right two overlapping generic blank coin discs, bottom-left shield with one clear checkmark, bottom-right compact lifting weight with round hole. Build each recognizable silhouette from coherent interlocking small rectangular and curved plastic blocks: visibly separate pieces, seams, a few round connector pegs and sockets, believable connected construction, rigid hard edges, slight molded plastic sheen. Primary palette warm red, cobalt, ivory and yellow with forest green shield; no brand color formula or trademark toy character. Three-quarter near-front view with consistent softbox light from upper left and small contact shading, enough depth to see actual blocks rather than flat voxel art or pixels. Handles and circular holes are structurally connected, no loose floating bricks. Do not fuse the model into one smooth clay or inflated form. All four sculptures complete and independently centered in quadrants, wide transparent exterior margin and an EMPTY transparent central cross at least 12 percent canvas width. No cropped pegs or edges, no text, brand marks, letters, currency denominations, numerals, watermarks, people, hands, tools or background scene. Contemporary original conceptual construction, not a claim of a physically buildable product or an official toy set.",
+  "generatedWith": "built-in image_gen",
+  "pixelsUnmodified": true,
+  "actualImageViewed": true,
+  "status": "candidate-material-only-not-a-video",
+  "scope": "Original illustrative concepts, not real products, artifacts, manufacturing footage or physically validated builds",
+  "visualBoundary": "Weight appears as a ring-shaped block weight, not a kettlebell; no official toy-brand or physically buildable-kit claim"
+}

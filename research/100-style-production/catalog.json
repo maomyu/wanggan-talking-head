@@ -2795,6 +2795,458 @@
     ]
   },
   {
+    "id": "A85",
+    "key": "chased-metal",
+    "name": "金属錾刻",
+    "familyKey": "craft",
+    "family": "工艺表面与印制",
+    "visualMechanism": "成形金属薄板的锤痕、刮痕、暗包浆和固定高光构成器物，纵排目录与双物比较交替；原始图像有限落位，不伪造动态錾刻过程",
+    "profiles": {
+      "layout": "L02",
+      "motion": "M01",
+      "editing": "E02",
+      "sound": "S01"
+    },
+    "suitableFor": [
+      "工艺",
+      "制造"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [],
+    "assetDisclosure": "原创AI器物/木偶概念图，非实物制作录像",
+    "preview": "previews/chased-metal.jpg",
+    "implementation": "templates/chased-metal/index.html",
+    "evidence": "evidence/production-20261020-a85-a86-a87-a88-a89-a90-a91-a92-a93-a100.json",
+    "videoSha256": "34ee059f96732446c34e41ebec812b46d3a1abee2db0a46dc51c82f49ff24690",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      225,
+      580,
+      630,
+      630
+    ]
+  },
+  {
+    "id": "A86",
+    "key": "miniature-puppet",
+    "name": "微缩木偶",
+    "familyKey": "volume",
+    "family": "立体与模型",
+    "visualMechanism": "同一木质关节/布衣小演员在袋、币、盾、负重四姿态间切换，整姿态轻摆与场外控制线建立微缩舞台；不是关节绑定或嘴型表演，真人保持原色独立",
+    "profiles": {
+      "layout": "L09",
+      "motion": "M01",
+      "editing": "E07",
+      "sound": "S01"
+    },
+    "suitableFor": [
+      "故事",
+      "机制"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [
+      "R02"
+    ],
+    "assetDisclosure": "原创AI器物/木偶概念图，非实物制作录像",
+    "preview": "previews/miniature-puppet.jpg",
+    "implementation": "templates/miniature-puppet/index.html",
+    "evidence": "evidence/production-20261020-a85-a86-a87-a88-a89-a90-a91-a92-a93-a100.json",
+    "videoSha256": "f9e7e5e2e564aab4e5c8efb5f478d222c0bf2b69fd3fd37d0506764f64850996",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      225,
+      580,
+      630,
+      630
+    ]
+  },
+  {
+    "id": "A87",
+    "key": "building-blocks",
+    "name": "硬质积木",
+    "familyKey": "volume",
+    "family": "立体与模型",
+    "visualMechanism": "硬质拼块、清晰接缝和圆凸点组成物件，平直基线与短距离就位体现硬结构；配重环仅作负担意象，不冒用品牌或声称可照图搭建",
+    "profiles": {
+      "layout": "L14",
+      "motion": "M02",
+      "editing": "E04",
+      "sound": "S01"
+    },
+    "suitableFor": [
+      "组织",
+      "工程"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [
+      "R02"
+    ],
+    "assetDisclosure": "原创AI器物/木偶概念图，非实物制作录像",
+    "preview": "previews/building-blocks.jpg",
+    "implementation": "templates/building-blocks/index.html",
+    "evidence": "evidence/production-20261020-a85-a86-a87-a88-a89-a90-a91-a92-a93-a100.json",
+    "videoSha256": "a97ebdb9e0732e916af5fe5f4744485ac58d44ba84bc1369f4d24c8d851f6e05",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      225,
+      580,
+      630,
+      630
+    ]
+  },
+  {
+    "id": "A88",
+    "key": "optical-glass",
+    "name": "透明玻璃",
+    "familyKey": "volume",
+    "family": "立体与模型",
+    "visualMechanism": "代码实体具有非零厚度、透射与折射背景条纹，控制环境反射形成透明边界；文字和真人在独立平面，不作为真实光学实验",
+    "profiles": {
+      "layout": "L12",
+      "motion": "M13",
+      "editing": "E02",
+      "sound": "S01"
+    },
+    "suitableFor": [
+      "概念",
+      "科技"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [
+      "R36"
+    ],
+    "assetDisclosure": "代码原创立体意象，非真实物理实验",
+    "preview": "previews/optical-glass.jpg",
+    "implementation": "templates/optical-glass/index.html",
+    "evidence": "evidence/production-20261020-a85-a86-a87-a88-a89-a90-a91-a92-a93-a100.json",
+    "videoSha256": "5ef256f65d261824d836d98f9473025e6741e7c77a5b01eb3d2866653ebbec0b",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      225,
+      580,
+      630,
+      630
+    ]
+  },
+  {
+    "id": "A89",
+    "key": "ceramic-objects",
+    "name": "陶瓷物件",
+    "familyKey": "volume",
+    "family": "立体与模型",
+    "visualMechanism": "完整硬釉器物具有厚壁、足部、烧成斑点与灰蓝釉色差，器物自身足部与独立图注组织阅读；整件停稳而不软糖回弹，非真实窑烧录像",
+    "profiles": {
+      "layout": "L12",
+      "motion": "M01",
+      "editing": "E07",
+      "sound": "S01"
+    },
+    "suitableFor": [
+      "生活",
+      "产品"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [],
+    "assetDisclosure": "原创AI器物/木偶概念图，非实物制作录像",
+    "preview": "previews/ceramic-objects.jpg",
+    "implementation": "templates/ceramic-objects/index.html",
+    "evidence": "evidence/production-20261020-a85-a86-a87-a88-a89-a90-a91-a92-a93-a100.json",
+    "videoSha256": "653c5a22ac0b9c1530e1ffca12b3ed2c1f67f0bb0372dafb7747eadea5504e5e",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      225,
+      580,
+      630,
+      630
+    ]
+  },
+  {
+    "id": "A90",
+    "key": "liquid-chrome",
+    "name": "镀铬液态",
+    "familyKey": "volume",
+    "family": "立体与模型",
+    "visualMechanism": "无接缝的连续圆曲面与本地灯板环境反射构成液态铬意象，几何在入场后回归稳定形体，镜面明暗跟随曲面；不是流体求解或机械剖面换色",
+    "profiles": {
+      "layout": "L12",
+      "motion": "M13",
+      "editing": "E04",
+      "sound": "S01"
+    },
+    "suitableFor": [
+      "概念",
+      "品牌"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [
+      "R36"
+    ],
+    "assetDisclosure": "代码原创立体意象，非真实物理实验",
+    "preview": "previews/liquid-chrome.jpg",
+    "implementation": "templates/liquid-chrome/index.html",
+    "evidence": "evidence/production-20261020-a85-a86-a87-a88-a89-a90-a91-a92-a93-a100.json",
+    "videoSha256": "7bee8f39143c4371d38d982798d7581dce01ede34ee8ad21d3a5394b165c1580",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      225,
+      580,
+      630,
+      630
+    ]
+  },
+  {
+    "id": "A91",
+    "key": "isometric-maquette",
+    "name": "等距白模",
+    "familyKey": "volume",
+    "family": "立体与模型",
+    "visualMechanism": "正交机位下的白色体块、底座、台阶和接触阴影把物件做成建筑小模型；相同斜投影贯穿比较，不使用彩色城市或仅给图标加投影",
+    "profiles": {
+      "layout": "L14",
+      "motion": "M13",
+      "editing": "E10",
+      "sound": "S01"
+    },
+    "suitableFor": [
+      "建筑",
+      "系统"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [
+      "R36"
+    ],
+    "assetDisclosure": "代码原创立体意象，非真实物理实验",
+    "preview": "previews/isometric-maquette.jpg",
+    "implementation": "templates/isometric-maquette/index.html",
+    "evidence": "evidence/production-20261020-a85-a86-a87-a88-a89-a90-a91-a92-a93-a100.json",
+    "videoSha256": "82402987c56991cb51ed3822c2ed84e2ded9d9051820e9f7b16d2840a3a8bb2d",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      225,
+      580,
+      630,
+      630
+    ]
+  },
+  {
+    "id": "A92",
+    "key": "inflatable-sculpture",
+    "name": "充气软雕",
+    "familyKey": "volume",
+    "family": "立体与模型",
+    "visualMechanism": "PVC鼓胀体积、焊缝、张力皱纹与气阀形成软壳物件；小幅图像形变后停稳，文字不变形，黄色负重物仅为意象而非真实质量演示",
+    "profiles": {
+      "layout": "L12",
+      "motion": "M13",
+      "editing": "E04",
+      "sound": "S01"
+    },
+    "suitableFor": [
+      "轻松概念"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [],
+    "assetDisclosure": "原创AI器物/木偶概念图，非实物制作录像",
+    "preview": "previews/inflatable-sculpture.jpg",
+    "implementation": "templates/inflatable-sculpture/index.html",
+    "evidence": "evidence/production-20261020-a85-a86-a87-a88-a89-a90-a91-a92-a93-a100.json",
+    "videoSha256": "121d9a211d602ff26eca58ca75130c98347e97d33abcecb1d088b6fcf445d62b",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      225,
+      580,
+      630,
+      630
+    ]
+  },
+  {
+    "id": "A93",
+    "key": "viscous-gel",
+    "name": "流体凝胶",
+    "familyKey": "volume",
+    "family": "立体与模型",
+    "visualMechanism": "有色半透明体积慢慢回流并包裹稳定内芯，轮廓几何按绝对帧回归；图注与人物保持清晰稳定，不将解析形变称为真实流体模拟",
+    "profiles": {
+      "layout": "L12",
+      "motion": "M13",
+      "editing": "E07",
+      "sound": "S01"
+    },
+    "suitableFor": [
+      "机制",
+      "感知"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [
+      "R36"
+    ],
+    "assetDisclosure": "代码原创立体意象，非真实物理实验",
+    "preview": "previews/viscous-gel.jpg",
+    "implementation": "templates/viscous-gel/index.html",
+    "evidence": "evidence/production-20261020-a85-a86-a87-a88-a89-a90-a91-a92-a93-a100.json",
+    "videoSha256": "8040cdac9da20ff6acb507bac3fdd53174788fb0116c496e0fa079b2b096d8e7",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      225,
+      580,
+      630,
+      630
+    ]
+  },
+  {
     "id": "A94",
     "key": "mechanical-cutaway",
     "name": "机械剖面",
@@ -3080,6 +3532,57 @@
       585,
       660,
       660
+    ]
+  },
+  {
+    "id": "A100",
+    "key": "holographic-volume",
+    "name": "全息投影",
+    "familyKey": "digital",
+    "family": "数字屏幕与系统",
+    "visualMechanism": "局部发光轮廓、前后分离的透光切片与发射底座形成投影层次，没有随机点云；原色人物和不透明正文在投影之外，图解不是实际全息设备展示",
+    "profiles": {
+      "layout": "L12",
+      "motion": "M13",
+      "editing": "E08",
+      "sound": "S01"
+    },
+    "suitableFor": [
+      "概念",
+      "科技"
+    ],
+    "status": "verified-video",
+    "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+    "humanTreatment": "original-color; circular-corners; raised-captions",
+    "sourceKind": "original-production-adaptation",
+    "references": [
+      "R36"
+    ],
+    "assetDisclosure": "代码原创立体意象，非真实物理实验",
+    "preview": "previews/holographic-volume.jpg",
+    "implementation": "templates/holographic-volume/index.html",
+    "evidence": "evidence/production-20261020-a85-a86-a87-a88-a89-a90-a91-a92-a93-a100.json",
+    "videoSha256": "09c69073ce40875b96178c2253535e724c904afac50498e643b289445ca6a5d9",
+    "compatibleModules": [
+      "art-direction",
+      "layout",
+      "motion",
+      "editing"
+    ],
+    "personTreatment": "source-color; true-circle-in-corners",
+    "fontRoles": [
+      "NotoSansSC-700.woff",
+      "NotoSansSC-900.woff",
+      "NotoSerifSC-700.woff"
+    ],
+    "approvalBasis": "user-authorized-100-style-goal; production-verified",
+    "motionParameter": "data-person-travel",
+    "personTravelSeconds": 0.55,
+    "portraitBase": [
+      225,
+      580,
+      630,
+      630
     ]
   }
 ]

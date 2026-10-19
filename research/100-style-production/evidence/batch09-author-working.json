@@ -1,0 +1,185 @@
+{
+  "stage": "ten-current-full-encodes-viewed",
+  "records": [
+    {
+      "key": "chased-metal",
+      "initialNativeContactViewed": true,
+      "currentNativeContactViewed": true,
+      "actualEncodedContactViewed": true,
+      "actualFullContactViewed": true,
+      "nativeContactSha256": "719366eed83a3d86c57de7849445eb9a9d63532c7ec2f38467a29e6193c40c42",
+      "sourceWindow": [
+        14.9,
+        18.9
+      ],
+      "shortVideoSha256": "4849d007cff30d9d62a6b3fcf48b59037bef62b42d5cfc8ee2b36e20670598d2",
+      "shortContactSha256": "5154fd252cd24a0aeec1f7168a1fe9e47d56ad78cea96e19cc8936ccb976bb7f",
+      "fullVideoSha256": "34ee059f96732446c34e41ebec812b46d3a1abee2db0a46dc51c82f49ff24690",
+      "fullJudgment": "实际整片12抽帧拼版已看，金属锤痕、纵排目录和双物比较清楚，未见新阻塞"
+    },
+    {
+      "key": "miniature-puppet",
+      "initialNativeContactViewed": true,
+      "currentNativeContactViewed": true,
+      "actualEncodedContactViewed": true,
+      "actualFullContactViewed": true,
+      "nativeContactSha256": "6e08e4d8a137f4f396ac05cf4f89d0f152ca04e6ff2080026444497b726852ea",
+      "sourceWindow": [
+        4.5,
+        8.5
+      ],
+      "shortVideoSha256": "9a1d32c1830084b32898f9e66ccfcf4873c65ba571a26d6048adc4968b983e69",
+      "shortContactSha256": "aef1505beeb3761a56964a0361866d679f7326c8449b9b3cfd2e00eacd9f2047",
+      "fullVideoSha256": "f9e7e5e2e564aab4e5c8efb5f478d222c0bf2b69fd3fd37d0506764f64850996",
+      "fullJudgment": "实际整片12抽帧拼版及24.4原尺寸已看；同一木偶持物姿态可辨，控制线出画与有限摆动有交代，完整身体/文字/人物圆窗无新冲突",
+      "fullOriginalSizeViewed": [
+        24.4
+      ]
+    },
+    {
+      "key": "building-blocks",
+      "initialNativeContactViewed": true,
+      "currentNativeContactViewed": true,
+      "actualEncodedContactViewed": true,
+      "actualFullContactViewed": true,
+      "nativeContactSha256": "a328b3d0946f51abb87548711a0bbd99f9913b2d96d8e2a104a396eb3a33a5fb",
+      "sourceWindow": [
+        12.4,
+        16.4
+      ],
+      "shortVideoSha256": "309a942dbe6660609a8c0ceb9bf35d5f27c65c70c1e7f59e8d37638bae148dee",
+      "shortContactSha256": "e743b997f92825452d97f87b97c31efa80cceb193ca62b979c95cbdd83fb68bb",
+      "fullVideoSha256": "a97ebdb9e0732e916af5fe5f4744485ac58d44ba84bc1369f4d24c8d851f6e05",
+      "fullJudgment": "实际整片12抽帧拼版已看；硬质拼块/配重环与平直基线清楚，未见新阻塞"
+    },
+    {
+      "key": "optical-glass",
+      "initialNativeContactViewed": true,
+      "currentNativeContactViewed": true,
+      "actualEncodedContactViewed": true,
+      "actualFullContactViewed": true,
+      "nativeContactSha256": "3be6ba9b472673abcc7e64ceb2e1995a8f5a234ea26a701ce3507964305b7ffd",
+      "sourceWindow": [
+        20.1,
+        24.1
+      ],
+      "shortVideoSha256": "4b81f2081b1dcb1f07f2dfd9c99885d6fea0a6363c872fb803cbaf37fd1a1107",
+      "shortContactSha256": "944c4d2a29ccfa6bb68b669355ab929f36943d4821e733ccabddfc2afae0218f",
+      "fullVideoSha256": "5ef256f65d261824d836d98f9473025e6741e7c77a5b01eb3d2866653ebbec0b",
+      "fullJudgment": "实际整片12抽帧拼版及24.4原尺寸已看；玻璃边界/条纹折射可辨，图注在板外、负债词有独立干净底，人物圆窗和字幕保持清楚",
+      "fullOriginalSizeViewed": [
+        24.4
+      ]
+    },
+    {
+      "key": "ceramic-objects",
+      "initialNativeContactViewed": true,
+      "currentNativeContactViewed": true,
+      "actualEncodedContactViewed": true,
+      "actualFullContactViewed": true,
+      "nativeContactSha256": "cf9f10003d1f60a5643fd56a4bc61695a6ff597cd601e41484ec488aaca1f5c2",
+      "sourceWindow": [
+        14.9,
+        18.9
+      ],
+      "shortVideoSha256": "298b5b831acbdfa644e518f41f883c1aaa6be3c0d1f3037bf62705847f26309f",
+      "shortContactSha256": "b388c17e6df1e904a3d836777a72f4037303f72cb124e46ec272826c3da1139e",
+      "fullVideoSha256": "653c5a22ac0b9c1530e1ffca12b3ed2c1f67f0bb0372dafb7747eadea5504e5e",
+      "fullJudgment": "实际整片12抽帧拼版已看，完整釉面与器物足部清楚，悬空假台面已去除；未见新阻塞"
+    },
+    {
+      "key": "liquid-chrome",
+      "initialNativeContactViewed": true,
+      "currentNativeContactViewed": true,
+      "actualEncodedContactViewed": true,
+      "actualFullContactViewed": true,
+      "nativeContactSha256": "bd4dce4e04f0edc2243abb8e6f687e9b2712711cbc5200866206be17759fadd7",
+      "sourceWindow": [
+        14.9,
+        18.9
+      ],
+      "shortVideoSha256": "d6ec026e5205b5b0822cf4eab83a2336c46eca5f4c3a93e553ddcffcb5e3f305",
+      "shortContactSha256": "ccf934ceccf66c5b5f2bcec92f32ac0012d52afe9e03042dafa614f10ee17bc1",
+      "fullVideoSha256": "7bee8f39143c4371d38d982798d7581dce01ede34ee8ad21d3a5394b165c1580",
+      "fullJudgment": "实际整片12抽帧拼版与24.4原尺寸已看；镜面盾的勾位于面前，袋身与圆负重可分，图文和人物圆窗无新冲突",
+      "fullOriginalSizeViewed": [
+        24.4
+      ]
+    },
+    {
+      "key": "isometric-maquette",
+      "initialNativeContactViewed": true,
+      "currentNativeContactViewed": true,
+      "actualEncodedContactViewed": true,
+      "actualFullContactViewed": true,
+      "nativeContactSha256": "859f7ad61a973f5476e69f030400a53b63402d94b481b5a79c2dff56d3f3b3a9",
+      "sourceWindow": [
+        12.4,
+        16.4
+      ],
+      "shortVideoSha256": "626688851bbace25c66e6c34d889dc6d7f7fdad07e34173698d14bbff904d4d6",
+      "shortContactSha256": "d9ffca5c8570ad158f4c9d6a8b6a7c31679abdcd301741c0edb019602711c19d",
+      "fullVideoSha256": "82402987c56991cb51ed3822c2ed84e2ded9d9051820e9f7b16d2840a3a8bb2d",
+      "fullJudgment": "实际整片12抽帧拼版及24.4原尺寸已看；白模台阶/接地阴影/盾面清楚，图字有空行，无新阻塞",
+      "fullOriginalSizeViewed": [
+        24.4
+      ]
+    },
+    {
+      "key": "inflatable-sculpture",
+      "initialNativeContactViewed": true,
+      "currentNativeContactViewed": true,
+      "actualEncodedContactViewed": true,
+      "actualFullContactViewed": true,
+      "nativeContactSha256": "47fc1e8c886546902b2ff100da9351726dce6c0d6f9173e1df699bf8501ffb15",
+      "sourceWindow": [
+        14.9,
+        18.9
+      ],
+      "shortVideoSha256": "4bef71a3aeebe5ae5abf5b045994ad3b1afbfd3062a23d097525641dcd97138f",
+      "shortContactSha256": "61f36210cfcb7292eba3773db16af59c0a78ccf95fc06a73cb456f8b715c10c8",
+      "fullVideoSha256": "121d9a211d602ff26eca58ca75130c98347e97d33abcecb1d088b6fcf445d62b",
+      "fullJudgment": "实际整片12抽帧拼版已看；焊缝、褶皱、阀嘴形成软雕语汇，主体与文字、圆窗无新冲突"
+    },
+    {
+      "key": "viscous-gel",
+      "initialNativeContactViewed": true,
+      "currentNativeContactViewed": true,
+      "actualEncodedContactViewed": true,
+      "actualFullContactViewed": true,
+      "nativeContactSha256": "5a6acb6db5757357e0e51036193ab0cefd6af3ddf60a535e7d58705b2218f3a2",
+      "sourceWindow": [
+        20.1,
+        24.1
+      ],
+      "shortVideoSha256": "23e0e6c57e339a0b9916d8a9abe6f877501aa94ce1af7e1f1dd80f9e7b4117e2",
+      "shortContactSha256": "9ef011143217cfc08516514be3a118c912267acfa08a4e941a3895edd738c109",
+      "fullVideoSha256": "8040cdac9da20ff6acb507bac3fdd53174788fb0116c496e0fa079b2b096d8e7",
+      "fullJudgment": "实际整片12抽帧拼版及24.4原尺寸已看；透明软壳与圆内芯可辨，受控回流稳态清楚，无新阻塞",
+      "fullOriginalSizeViewed": [
+        24.4
+      ]
+    },
+    {
+      "key": "holographic-volume",
+      "initialNativeContactViewed": true,
+      "currentNativeContactViewed": true,
+      "actualEncodedContactViewed": true,
+      "actualFullContactViewed": true,
+      "nativeContactSha256": "213ac3dd6c2e255dc3d26986284ab307485db926741d7af3021beb44c96652a3",
+      "sourceWindow": [
+        20.1,
+        24.1
+      ],
+      "shortVideoSha256": "ba9ccaa048a79c8742cb97838ce8addc69a8ce6a496c7e1344c04b63c98bb1f9",
+      "shortContactSha256": "752bde623e2329b91b5af6f696e88e663876e50a8dd325791c9669b0394fed9f",
+      "fullVideoSha256": "09c69073ce40875b96178c2253535e724c904afac50498e643b289445ca6a5d9",
+      "fullJudgment": "实际整片12抽帧拼版及24.4原尺寸已看；对应物形的深度切片和完整投影盘清楚，未见底部截断或图字碰撞",
+      "fullOriginalSizeViewed": [
+        24.4
+      ]
+    }
+  ],
+  "needsRevision": [],
+  "scope": "十条真实完整编码的12抽帧拼版均已实际看过，另有风险原尺寸；作者自查，不是逐帧人工审片或独立盲评。"
+}

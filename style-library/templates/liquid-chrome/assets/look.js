@@ -1,0 +1,3 @@
+import{makeVolumeStage}from'./volume-lab-stage.js';
+export const LOOK={"key": "liquid-chrome", "name": "镀铬液态", "palette": {"bg": "#1c252e", "fg": "#f1efe5", "muted": "#b9c6cb", "accent": "#a7c2d0", "caption": "#2c3943", "portrait": "#1c252e"}, "base": {"x": 225, "y": 580, "w": 630}, "css": "#art canvas{position:absolute;left:0;top:0;width:952px;height:535px;z-index:0}#art svg{position:absolute;inset:0;z-index:2;pointer-events:none}#title{font-size:98px}#captions{border-top:3px solid #a7c2d0}#person-mask{outline:7px solid #687f8b}"};
+export async function buildArt(ctx){return makeVolumeStage(ctx,{mode:"liquid-chrome"})}

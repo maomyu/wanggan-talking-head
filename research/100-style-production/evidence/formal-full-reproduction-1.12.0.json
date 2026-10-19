@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "key": "holographic-volume",
+  "version": "1.12.0",
+  "scope": "从正式插件独立init/build/check/render/verify生成完整1100帧；与研究成片逐秒像素和完整解码音频比较",
+  "sourceSha256": "09c69073ce40875b96178c2253535e724c904afac50498e643b289445ca6a5d9",
+  "formalSha256": "0da2cc74fe589795405b73d25aa051fe8a6f5b9a70c8bb05a884d1ddf16a0d55",
+  "identicalEncodedFile": false,
+  "pixelMetrics": {
+    "sampledFrames": 37,
+    "mean": 3.0586141697252807e-06,
+    "max": 0.00011316872427983539
+  },
+  "decodedVoiceIdentical": true
+}

@@ -1,0 +1,87 @@
+{
+  "ok": true,
+  "encoded": false,
+  "records": [
+    {
+      "key": "chased-metal",
+      "time": 24.4,
+      "emptyFromY": 1071,
+      "firstNextInkY": 1150,
+      "visibleGapPixels": 79,
+      "sha256": null
+    },
+    {
+      "key": "miniature-puppet",
+      "time": 24.4,
+      "emptyFromY": 1114,
+      "firstNextInkY": 1150,
+      "visibleGapPixels": 36,
+      "sha256": null
+    },
+    {
+      "key": "building-blocks",
+      "time": 24.4,
+      "emptyFromY": 1093,
+      "firstNextInkY": 1150,
+      "visibleGapPixels": 57,
+      "sha256": null
+    },
+    {
+      "key": "optical-glass",
+      "time": 24.4,
+      "emptyFromY": 1070,
+      "firstNextInkY": 1150,
+      "visibleGapPixels": 80,
+      "sha256": null
+    },
+    {
+      "key": "ceramic-objects",
+      "time": 24.4,
+      "emptyFromY": 1072,
+      "firstNextInkY": 1150,
+      "visibleGapPixels": 78,
+      "sha256": null
+    },
+    {
+      "key": "liquid-chrome",
+      "time": 24.4,
+      "emptyFromY": 1032,
+      "firstNextInkY": 1150,
+      "visibleGapPixels": 118,
+      "sha256": null
+    },
+    {
+      "key": "isometric-maquette",
+      "time": 24.4,
+      "emptyFromY": 1070,
+      "firstNextInkY": 1150,
+      "visibleGapPixels": 80,
+      "sha256": null
+    },
+    {
+      "key": "inflatable-sculpture",
+      "time": 24.4,
+      "emptyFromY": 1092,
+      "firstNextInkY": 1150,
+      "visibleGapPixels": 58,
+      "sha256": null
+    },
+    {
+      "key": "viscous-gel",
+      "time": 24.4,
+      "emptyFromY": 999,
+      "firstNextInkY": 1150,
+      "visibleGapPixels": 151,
+      "sha256": null
+    },
+    {
+      "key": "holographic-volume",
+      "time": 24.4,
+      "emptyFromY": 1041,
+      "firstNextInkY": 1150,
+      "visibleGapPixels": 109,
+      "sha256": null
+    }
+  ],
+  "scope": "实际像素相对同帧空底色差超过12的可见边界，取主材料与风险重点词之间横跨780px的完整空行，不是DOM行盒；细微低对比纸边不等于有信息墨迹。代表帧抽样，不声称全帧碰撞证明"
+}

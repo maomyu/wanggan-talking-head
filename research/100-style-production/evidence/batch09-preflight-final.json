@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "results": [
+    {
+      "key": "chased-metal",
+      "ok": true
+    },
+    {
+      "key": "miniature-puppet",
+      "ok": true
+    },
+    {
+      "key": "building-blocks",
+      "ok": true
+    },
+    {
+      "key": "optical-glass",
+      "ok": true
+    },
+    {
+      "key": "ceramic-objects",
+      "ok": true
+    },
+    {
+      "key": "liquid-chrome",
+      "ok": true
+    },
+    {
+      "key": "isometric-maquette",
+      "ok": true
+    },
+    {
+      "key": "inflatable-sculpture",
+      "ok": true
+    },
+    {
+      "key": "viscous-gel",
+      "ok": true
+    },
+    {
+      "key": "holographic-volume",
+      "ok": true
+    }
+  ]
+}
