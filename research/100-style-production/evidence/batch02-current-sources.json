@@ -1,0 +1,86 @@
+{
+  "ok": true,
+  "results": [
+    {
+      "key": "woodcut",
+      "sha256": "1922f51c7f1c49c79351937dcb7284f47c1f339fa0f669dc606c2489cb169402",
+      "rgbMAE": 2.6859892787524364,
+      "lastFrame": {
+        "ok": true,
+        "frame": 1099,
+        "meanAbsoluteRGBError": 2.123502911159815
+      },
+      "voiceMin": 0.9999941772964133
+    },
+    {
+      "key": "risograph",
+      "sha256": "18819130f47aa724167a8a629eb85a8704e646a1b00d49c7fbe27c85014948d0",
+      "rgbMAE": 2.7083333333333335,
+      "lastFrame": {
+        "ok": true,
+        "frame": 1099,
+        "meanAbsoluteRGBError": 2.005594135802469
+      },
+      "voiceMin": 0.9999941772964133
+    },
+    {
+      "key": "cyanotype",
+      "sha256": "f806f97779ed3b5ff84c78be8782ed5fa0e2836c9a5138f51dd346ed317ef368",
+      "rgbMAE": 2.692690058479532,
+      "lastFrame": {
+        "ok": true,
+        "frame": 1099,
+        "meanAbsoluteRGBError": 2.1526069534199617
+      },
+      "voiceMin": 0.9999941772964133
+    },
+    {
+      "key": "terminal-ascii",
+      "sha256": "6f240ef26aa6c9cef642f4431cb9795c4113efdff86919c0762c4e3ad2dc19f2",
+      "rgbMAE": 2.69208089668616,
+      "lastFrame": {
+        "ok": true,
+        "frame": 1099,
+        "meanAbsoluteRGBError": 2.137184255385092,
+        "scope": "supplement to exact existing encode proof; actual final frame compared with source at the settled portrait base"
+      },
+      "voiceMin": 0.9999941772964133
+    },
+    {
+      "key": "vector-oscilloscope",
+      "sha256": "141b28776a93fe7a0ca414336534d123c273bb11e603e553ae3e953873baff2b",
+      "rgbMAE": 2.691569200779727,
+      "lastFrame": {
+        "ok": true,
+        "frame": 1099,
+        "meanAbsoluteRGBError": 2.1116260203259487,
+        "scope": "supplement to exact existing encode proof; actual final frame compared with source at the settled portrait base"
+      },
+      "voiceMin": 0.9999941772964133
+    },
+    {
+      "key": "led-dot-matrix",
+      "sha256": "e3e56e7df8cc9613374c47c98ad1c1480e53b66d85f41fd54211790299568756",
+      "rgbMAE": 2.679775828460039,
+      "lastFrame": {
+        "ok": true,
+        "frame": 1099,
+        "meanAbsoluteRGBError": 2.2085693895476504,
+        "scope": "supplement to exact existing encode proof; actual final frame compared with source at the settled portrait base"
+      },
+      "voiceMin": 0.9999941772964133
+    },
+    {
+      "key": "early-desktop",
+      "sha256": "2a799ab3fd56b48ff2594597411bec24140e1159507a0423a1e2b4d08b078fb5",
+      "rgbMAE": 2.70687134502924,
+      "lastFrame": {
+        "ok": true,
+        "frame": 1099,
+        "meanAbsoluteRGBError": 1.8805338648021694,
+        "scope": "supplement to exact existing encode proof; actual final frame compared with source at the settled portrait base"
+      },
+      "voiceMin": 0.9999941772964133
+    }
+  ]
+}

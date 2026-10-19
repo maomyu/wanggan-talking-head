@@ -1,0 +1,567 @@
+{
+  "kind": "production-verified-under-authorized-goal",
+  "date": "2026-10-20T01:20:31.778170+08:00",
+  "authorization": "设定目标帮我完成这100种画风并正式并入插件",
+  "userVisualApproval": false,
+  "authorReview": {
+    "scope": "作者自查，分批证据见batch02-author-review.json等；实际检查与视觉认可分开。",
+    "passed": [
+      "origami",
+      "embroidery",
+      "etching",
+      "mechanical-cutaway",
+      "spatial-pointcloud",
+      "felt-applique",
+      "gongbi",
+      "woodcut",
+      "risograph",
+      "cyanotype",
+      "terminal-ascii",
+      "vector-oscilloscope",
+      "led-dot-matrix",
+      "early-desktop"
+    ],
+    "needsRevision": {},
+    "sourceVersion": "native print/screen v2; motion-linked notes; outlined ASCII graphic glyphs; current source hashes verified",
+    "reviewedAt": "2026-10-20T01:20:31.478254+08:00"
+  },
+  "programProofs": [
+    {
+      "ok": true,
+      "look": "woodcut",
+      "width": 1080,
+      "height": 1920,
+      "fps": "30/1",
+      "frames": 1100,
+      "duration": 36.666666666666664,
+      "bytes": 33236357,
+      "sha256": "1922f51c7f1c49c79351937dcb7284f47c1f339fa0f669dc606c2489cb169402",
+      "decodedAudioHash": "f61d6839ef185edd3268011f553bc8ee2f7ad6afd261cbf596e02d416d7da70b",
+      "sourceSpeech": [
+        {
+          "time": 2,
+          "zeroLagCorrelation": 0.9999941772964133
+        },
+        {
+          "time": 8,
+          "zeroLagCorrelation": 0.9999978102677761
+        },
+        {
+          "time": 24,
+          "zeroLagCorrelation": 0.9999980662827164
+        },
+        {
+          "time": 34,
+          "zeroLagCorrelation": 0.9999969180075337
+        }
+      ],
+      "personColor": {
+        "meanRGBError": [
+          -2.011549707602339,
+          -1.587061403508772,
+          -1.7662280701754387
+        ],
+        "meanAbsoluteRGBError": 2.6859892787524364,
+        "scope": "同一源帧脸部区域与实际编码区域；允许缩放与压缩误差"
+      },
+      "cornerPixels": [
+        {
+          "u": 0.04,
+          "v": 0.04,
+          "sourceDifference": 69.87925170068026,
+          "reviewedBackgroundError": 2.0
+        },
+        {
+          "u": 0.94,
+          "v": 0.04,
+          "sourceDifference": 99.34353741496598,
+          "reviewedBackgroundError": 2.0
+        },
+        {
+          "u": 0.04,
+          "v": 0.94,
+          "sourceDifference": 170.2585034013605,
+          "reviewedBackgroundError": 2.0
+        },
+        {
+          "u": 0.94,
+          "v": 0.94,
+          "sourceDifference": 141.8843537414966,
+          "reviewedBackgroundError": 2.0
+        }
+      ],
+      "denseFrames": 183,
+      "cutNeighbourFrames": 18,
+      "firstFramePresenter": {
+        "ok": true,
+        "meanAbsoluteRGBError": 2.7917967279891966
+      },
+      "lastFramePresenter": {
+        "ok": true,
+        "frame": 1099,
+        "meanAbsoluteRGBError": 2.123502911159815
+      }
+    },
+    {
+      "ok": true,
+      "look": "risograph",
+      "width": 1080,
+      "height": 1920,
+      "fps": "30/1",
+      "frames": 1100,
+      "duration": 36.666666666666664,
+      "bytes": 36534522,
+      "sha256": "18819130f47aa724167a8a629eb85a8704e646a1b00d49c7fbe27c85014948d0",
+      "decodedAudioHash": "f61d6839ef185edd3268011f553bc8ee2f7ad6afd261cbf596e02d416d7da70b",
+      "sourceSpeech": [
+        {
+          "time": 2,
+          "zeroLagCorrelation": 0.9999941772964133
+        },
+        {
+          "time": 8,
+          "zeroLagCorrelation": 0.9999978102677761
+        },
+        {
+          "time": 24,
+          "zeroLagCorrelation": 0.9999980662827164
+        },
+        {
+          "time": 34,
+          "zeroLagCorrelation": 0.9999969180075337
+        }
+      ],
+      "personColor": {
+        "meanRGBError": [
+          -2.021198830409357,
+          -1.5929093567251462,
+          -1.776827485380117
+        ],
+        "meanAbsoluteRGBError": 2.7083333333333335,
+        "scope": "同一源帧脸部区域与实际编码区域；允许缩放与压缩误差"
+      },
+      "cornerPixels": [
+        {
+          "u": 0.04,
+          "v": 0.04,
+          "sourceDifference": 69.87925170068026,
+          "reviewedBackgroundError": 2.0
+        },
+        {
+          "u": 0.94,
+          "v": 0.04,
+          "sourceDifference": 99.34353741496598,
+          "reviewedBackgroundError": 2.0
+        },
+        {
+          "u": 0.04,
+          "v": 0.94,
+          "sourceDifference": 170.2585034013605,
+          "reviewedBackgroundError": 2.0
+        },
+        {
+          "u": 0.94,
+          "v": 0.94,
+          "sourceDifference": 141.8843537414966,
+          "reviewedBackgroundError": 2.0
+        }
+      ],
+      "denseFrames": 183,
+      "cutNeighbourFrames": 18,
+      "firstFramePresenter": {
+        "ok": true,
+        "meanAbsoluteRGBError": 2.6891664523319614
+      },
+      "lastFramePresenter": {
+        "ok": true,
+        "frame": 1099,
+        "meanAbsoluteRGBError": 2.005594135802469
+      }
+    },
+    {
+      "ok": true,
+      "look": "cyanotype",
+      "width": 1080,
+      "height": 1920,
+      "fps": "30/1",
+      "frames": 1100,
+      "duration": 36.666666666666664,
+      "bytes": 37405713,
+      "sha256": "f806f97779ed3b5ff84c78be8782ed5fa0e2836c9a5138f51dd346ed317ef368",
+      "decodedAudioHash": "f61d6839ef185edd3268011f553bc8ee2f7ad6afd261cbf596e02d416d7da70b",
+      "sourceSpeech": [
+        {
+          "time": 2,
+          "zeroLagCorrelation": 0.9999941772964133
+        },
+        {
+          "time": 8,
+          "zeroLagCorrelation": 0.9999978102677761
+        },
+        {
+          "time": 24,
+          "zeroLagCorrelation": 0.9999980662827164
+        },
+        {
+          "time": 34,
+          "zeroLagCorrelation": 0.9999969180075337
+        }
+      ],
+      "personColor": {
+        "meanRGBError": [
+          -2.074561403508772,
+          -1.5752923976608186,
+          -1.7950292397660819
+        ],
+        "meanAbsoluteRGBError": 2.692690058479532,
+        "scope": "同一源帧脸部区域与实际编码区域；允许缩放与压缩误差"
+      },
+      "cornerPixels": [
+        {
+          "u": 0.04,
+          "v": 0.04,
+          "sourceDifference": 92.76074829931973,
+          "reviewedBackgroundError": 2.293333333333333
+        },
+        {
+          "u": 0.94,
+          "v": 0.04,
+          "sourceDifference": 64.65646258503402,
+          "reviewedBackgroundError": 1.0
+        },
+        {
+          "u": 0.04,
+          "v": 0.94,
+          "sourceDifference": 35.04081632653061,
+          "reviewedBackgroundError": 2.186666666666665
+        },
+        {
+          "u": 0.94,
+          "v": 0.94,
+          "sourceDifference": 42.465986394557824,
+          "reviewedBackgroundError": 1.0
+        }
+      ],
+      "denseFrames": 183,
+      "cutNeighbourFrames": 18,
+      "firstFramePresenter": {
+        "ok": true,
+        "meanAbsoluteRGBError": 2.739495749658351
+      },
+      "lastFramePresenter": {
+        "ok": true,
+        "frame": 1099,
+        "meanAbsoluteRGBError": 2.1526069534199617
+      }
+    },
+    {
+      "ok": true,
+      "look": "terminal-ascii",
+      "width": 1080,
+      "height": 1920,
+      "fps": "30/1",
+      "frames": 1100,
+      "duration": 36.666666666666664,
+      "bytes": 35033736,
+      "sha256": "6f240ef26aa6c9cef642f4431cb9795c4113efdff86919c0762c4e3ad2dc19f2",
+      "decodedAudioHash": "f61d6839ef185edd3268011f553bc8ee2f7ad6afd261cbf596e02d416d7da70b",
+      "sourceSpeech": [
+        {
+          "time": 2,
+          "zeroLagCorrelation": 0.9999941772964133
+        },
+        {
+          "time": 8,
+          "zeroLagCorrelation": 0.9999978102677761
+        },
+        {
+          "time": 24,
+          "zeroLagCorrelation": 0.9999980662827164
+        },
+        {
+          "time": 34,
+          "zeroLagCorrelation": 0.9999969180075337
+        }
+      ],
+      "personColor": {
+        "meanRGBError": [
+          -2.021125730994152,
+          -1.5716374269005848,
+          -1.7735380116959065
+        ],
+        "meanAbsoluteRGBError": 2.69208089668616,
+        "scope": "同一源帧脸部区域与实际编码区域；允许缩放与压缩误差"
+      },
+      "cornerPixels": [
+        {
+          "u": 0.04,
+          "v": 0.04,
+          "sourceDifference": 140.78741496598641,
+          "reviewedBackgroundError": 1.6666666666666667
+        },
+        {
+          "u": 0.94,
+          "v": 0.04,
+          "sourceDifference": 111.32312925170068,
+          "reviewedBackgroundError": 1.6666666666666667
+        },
+        {
+          "u": 0.04,
+          "v": 0.94,
+          "sourceDifference": 40.40816326530612,
+          "reviewedBackgroundError": 1.6666666666666667
+        },
+        {
+          "u": 0.94,
+          "v": 0.94,
+          "sourceDifference": 68.78231292517007,
+          "reviewedBackgroundError": 1.6666666666666667
+        }
+      ],
+      "denseFrames": 183,
+      "cutNeighbourFrames": 18,
+      "firstFramePresenter": {
+        "ok": true,
+        "meanAbsoluteRGBError": 2.7887195324433818
+      },
+      "lastFramePresenter": {
+        "ok": true,
+        "frame": 1099,
+        "meanAbsoluteRGBError": 2.137184255385092,
+        "scope": "supplement to exact existing encode proof; actual final frame compared with source at the settled portrait base"
+      }
+    },
+    {
+      "ok": true,
+      "look": "vector-oscilloscope",
+      "width": 1080,
+      "height": 1920,
+      "fps": "30/1",
+      "frames": 1100,
+      "duration": 36.666666666666664,
+      "bytes": 32711098,
+      "sha256": "141b28776a93fe7a0ca414336534d123c273bb11e603e553ae3e953873baff2b",
+      "decodedAudioHash": "f61d6839ef185edd3268011f553bc8ee2f7ad6afd261cbf596e02d416d7da70b",
+      "sourceSpeech": [
+        {
+          "time": 2,
+          "zeroLagCorrelation": 0.9999941772964133
+        },
+        {
+          "time": 8,
+          "zeroLagCorrelation": 0.9999978102677761
+        },
+        {
+          "time": 24,
+          "zeroLagCorrelation": 0.9999980662827164
+        },
+        {
+          "time": 34,
+          "zeroLagCorrelation": 0.9999969180075337
+        }
+      ],
+      "personColor": {
+        "meanRGBError": [
+          -2.028654970760234,
+          -1.5900584795321637,
+          -1.7404970760233918
+        ],
+        "meanAbsoluteRGBError": 2.691569200779727,
+        "scope": "同一源帧脸部区域与实际编码区域；允许缩放与压缩误差"
+      },
+      "cornerPixels": [
+        {
+          "u": 0.04,
+          "v": 0.04,
+          "sourceDifference": 138.45408163265307,
+          "reviewedBackgroundError": 2.0
+        },
+        {
+          "u": 0.94,
+          "v": 0.04,
+          "sourceDifference": 108.98979591836735,
+          "reviewedBackgroundError": 2.0
+        },
+        {
+          "u": 0.04,
+          "v": 0.94,
+          "sourceDifference": 38.07482993197279,
+          "reviewedBackgroundError": 2.0
+        },
+        {
+          "u": 0.94,
+          "v": 0.94,
+          "sourceDifference": 66.44897959183673,
+          "reviewedBackgroundError": 2.0
+        }
+      ],
+      "denseFrames": 183,
+      "cutNeighbourFrames": 18,
+      "firstFramePresenter": {
+        "ok": true,
+        "meanAbsoluteRGBError": 2.749070662954875
+      },
+      "lastFramePresenter": {
+        "ok": true,
+        "frame": 1099,
+        "meanAbsoluteRGBError": 2.1116260203259487,
+        "scope": "supplement to exact existing encode proof; actual final frame compared with source at the settled portrait base"
+      }
+    },
+    {
+      "ok": true,
+      "look": "led-dot-matrix",
+      "width": 1080,
+      "height": 1920,
+      "fps": "30/1",
+      "frames": 1100,
+      "duration": 36.666666666666664,
+      "bytes": 35330602,
+      "sha256": "e3e56e7df8cc9613374c47c98ad1c1480e53b66d85f41fd54211790299568756",
+      "decodedAudioHash": "f61d6839ef185edd3268011f553bc8ee2f7ad6afd261cbf596e02d416d7da70b",
+      "sourceSpeech": [
+        {
+          "time": 2,
+          "zeroLagCorrelation": 0.9999941772964133
+        },
+        {
+          "time": 8,
+          "zeroLagCorrelation": 0.9999978102677761
+        },
+        {
+          "time": 24,
+          "zeroLagCorrelation": 0.9999980662827164
+        },
+        {
+          "time": 34,
+          "zeroLagCorrelation": 0.9999969180075337
+        }
+      ],
+      "personColor": {
+        "meanRGBError": [
+          -2.0121345029239768,
+          -1.5703947368421052,
+          -1.823172514619883
+        ],
+        "meanAbsoluteRGBError": 2.679775828460039,
+        "scope": "同一源帧脸部区域与实际编码区域；允许缩放与压缩误差"
+      },
+      "cornerPixels": [
+        {
+          "u": 0.04,
+          "v": 0.04,
+          "sourceDifference": 133.12074829931973,
+          "reviewedBackgroundError": 1.3333333333333333
+        },
+        {
+          "u": 0.94,
+          "v": 0.04,
+          "sourceDifference": 103.65646258503402,
+          "reviewedBackgroundError": 1.3333333333333333
+        },
+        {
+          "u": 0.04,
+          "v": 0.94,
+          "sourceDifference": 32.74149659863946,
+          "reviewedBackgroundError": 1.3333333333333333
+        },
+        {
+          "u": 0.94,
+          "v": 0.94,
+          "sourceDifference": 61.1156462585034,
+          "reviewedBackgroundError": 1.3333333333333333
+        }
+      ],
+      "denseFrames": 183,
+      "cutNeighbourFrames": 18,
+      "firstFramePresenter": {
+        "ok": true,
+        "meanAbsoluteRGBError": 2.7090854194115064
+      },
+      "lastFramePresenter": {
+        "ok": true,
+        "frame": 1099,
+        "meanAbsoluteRGBError": 2.2085693895476504,
+        "scope": "supplement to exact existing encode proof; actual final frame compared with source at the settled portrait base"
+      }
+    },
+    {
+      "ok": true,
+      "look": "early-desktop",
+      "width": 1080,
+      "height": 1920,
+      "fps": "30/1",
+      "frames": 1100,
+      "duration": 36.666666666666664,
+      "bytes": 31206907,
+      "sha256": "2a799ab3fd56b48ff2594597411bec24140e1159507a0423a1e2b4d08b078fb5",
+      "decodedAudioHash": "f61d6839ef185edd3268011f553bc8ee2f7ad6afd261cbf596e02d416d7da70b",
+      "sourceSpeech": [
+        {
+          "time": 2,
+          "zeroLagCorrelation": 0.9999941772964133
+        },
+        {
+          "time": 8,
+          "zeroLagCorrelation": 0.9999978102677761
+        },
+        {
+          "time": 24,
+          "zeroLagCorrelation": 0.9999980662827164
+        },
+        {
+          "time": 34,
+          "zeroLagCorrelation": 0.9999969180075337
+        }
+      ],
+      "personColor": {
+        "meanRGBError": [
+          -2.050877192982456,
+          -1.5832602339181288,
+          -1.8304824561403508
+        ],
+        "meanAbsoluteRGBError": 2.70687134502924,
+        "scope": "同一源帧脸部区域与实际编码区域；允许缩放与压缩误差"
+      },
+      "cornerPixels": [
+        {
+          "u": 0.04,
+          "v": 0.04,
+          "sourceDifference": 72.12074829931974,
+          "reviewedBackgroundError": 2.6666666666666665
+        },
+        {
+          "u": 0.94,
+          "v": 0.04,
+          "sourceDifference": 42.656462585034014,
+          "reviewedBackgroundError": 2.6666666666666665
+        },
+        {
+          "u": 0.04,
+          "v": 0.94,
+          "sourceDifference": 32.374149659863946,
+          "reviewedBackgroundError": 2.6666666666666665
+        },
+        {
+          "u": 0.94,
+          "v": 0.94,
+          "sourceDifference": 22.843537414965983,
+          "reviewedBackgroundError": 2.6666666666666665
+        }
+      ],
+      "denseFrames": 183,
+      "cutNeighbourFrames": 18,
+      "firstFramePresenter": {
+        "ok": true,
+        "meanAbsoluteRGBError": 2.733966086189434
+      },
+      "lastFramePresenter": {
+        "ok": true,
+        "frame": 1099,
+        "meanAbsoluteRGBError": 1.8805338648021694,
+        "scope": "supplement to exact existing encode proof; actual final frame compared with source at the settled portrait base"
+      }
+    }
+  ],
+  "scope": "同一中文口播素材、1080×1920、30fps、1100帧；作者实际查看拼版和代表状态，程序核对原声、人物颜色、圆窗、字幕、反向寻址、5fps密集帧与切点邻帧。没有独立盲评。"
+}

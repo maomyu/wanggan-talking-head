@@ -2,9 +2,9 @@
   "goal": "100个实际画风视频与正式插件整合",
   "total": 100,
   "userApproved": 20,
-  "productionVerified": 7,
+  "productionVerified": 14,
   "inProduction": 0,
-  "queued": 73,
+  "queued": 66,
   "styles": [
     {
       "id": "A01",
@@ -690,9 +690,10 @@
       "key": "woodcut",
       "name": "木刻刀痕",
       "family": "craft",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/woodcut/outputs/final.mp4"
     },
     {
       "id": "A77",
@@ -709,9 +710,10 @@
       "key": "risograph",
       "name": "孔版套印",
       "family": "craft",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/risograph/outputs/final.mp4"
     },
     {
       "id": "A79",
@@ -727,9 +729,10 @@
       "key": "cyanotype",
       "name": "蓝晒图像",
       "family": "craft",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/cyanotype/outputs/final.mp4"
     },
     {
       "id": "A81",
@@ -863,36 +866,40 @@
       "key": "terminal-ascii",
       "name": "终端字符",
       "family": "digital",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/terminal-ascii/outputs/final.mp4"
     },
     {
       "id": "A96",
       "key": "vector-oscilloscope",
       "name": "矢量示波",
       "family": "digital",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/vector-oscilloscope/outputs/final.mp4"
     },
     {
       "id": "A97",
       "key": "led-dot-matrix",
       "name": "低帧点阵",
       "family": "digital",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/led-dot-matrix/outputs/final.mp4"
     },
     {
       "id": "A98",
       "key": "early-desktop",
       "name": "早期桌面",
       "family": "digital",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/early-desktop/outputs/final.mp4"
     },
     {
       "id": "A99",

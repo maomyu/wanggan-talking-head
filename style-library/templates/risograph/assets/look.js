@@ -1,0 +1,3 @@
+import {makePrint}from'./print-stage.js';
+export const LOOK={key:'risograph',name:'孔版套印',palette:{bg:'#f5ecd8',fg:'#253c68',muted:'#536775',accent:'#d64d68',caption:'#fff4df',portrait:'#fff4df'},base:{x:220,y:580,w:640},css:'#architecture{inset:510px 39px 670px;background:#efe6d1;border-top:5px solid #2c9ca8;border-bottom:5px solid #df526b;box-shadow:7px 5px 0 #df526b70,-6px -4px 0 #2c9ca850}#title{text-shadow:4px 2px 0 #df526b50}#style-label{color:#2b7c88;letter-spacing:2px}#captions{border-top:4px solid #df526b;box-shadow:4px 5px 0 #2c9ca866}#person-mask{outline:7px solid #fff4df;box-shadow:4px 5px 0 #df526b99}'};
+export async function buildArt(ctx){return makePrint(ctx,'risograph')}

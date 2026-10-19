@@ -1,0 +1,3 @@
+import{makeScreen}from'./screen-stage.js';
+export const LOOK={key:'vector-oscilloscope',name:'矢量示波',palette:{bg:'#0b201d',fg:'#d7ffe0',muted:'#9bc4ae',accent:'#81d4aa',caption:'#17352b',portrait:'#91b59c'},base:{x:226,y:585,w:628},css:'#architecture{inset:510px 40px 670px;background:#071915;border:3px solid #668f77;border-radius:30px}.scope-ticks{position:absolute;inset:22px;border:1px solid #82c39b22;background:linear-gradient(#76c59b18 1px,transparent 1px),linear-gradient(90deg,#76c59b18 1px,transparent 1px);background-size:95px 95px}#style-label{letter-spacing:4px}#captions{border-top:2px solid #81d4aa}#person-mask{outline:5px solid #91b59c;outline-offset:4px}'};
+export async function buildArt(ctx){return makeScreen(ctx,'vector')}

@@ -1,0 +1,3 @@
+import {makePrint}from'./print-stage.js';
+export const LOOK={key:'cyanotype',name:'蓝晒图像',palette:{bg:'#173e75',fg:'#f5f1df',muted:'#d1e1df',accent:'#b6d4dd',caption:'#f5f1df',portrait:'#f5f1df'},base:{x:232,y:585,w:615},css:'#surface{box-shadow:inset 0 0 0 14px #eee9d9;background:radial-gradient(ellipse at 30% 50%,#376b9c33,transparent 68%)}#architecture{inset:496px 30px 660px}#title{font-family:Serif,serif;font-weight:700;font-size:96px}#caption-text{color:#163e75}#captions{border:0}#recap span{color:#163e75}#person-mask{outline:5px solid #f5f1df;outline-offset:5px}'};
+export async function buildArt(ctx){return makePrint(ctx,'cyanotype')}

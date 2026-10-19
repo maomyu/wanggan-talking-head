@@ -1,0 +1,3 @@
+import{makeScreen}from'./screen-stage.js';
+export const LOOK={key:'terminal-ascii',name:'终端字符',palette:{bg:'#101d13',fg:'#d1efbb',muted:'#9ab48e',accent:'#b0db82',caption:'#1d2e1c',portrait:'#acc28d'},base:{x:225,y:585,w:630},css:'#architecture{inset:502px 39px 670px;background:#09150d;border:3px solid #536c49}.terminal-bar{font-size:25px;padding:13px 22px;border-bottom:2px solid #536c49;letter-spacing:5px}.terminal-cursor{position:absolute;right:24px;bottom:15px;width:17px;height:26px;background:#b0db82}#art{top:560px}#title{letter-spacing:2px}#captions{border:2px solid #799267}#person-mask{outline:5px solid #799267;outline-offset:4px}'};
+export async function buildArt(ctx){return makeScreen(ctx,'ascii')}

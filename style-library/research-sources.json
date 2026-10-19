@@ -34,5 +34,23 @@
     "title": "Cooper Hewitt · A Harmony of Contrasts",
     "url": "https://www.cooperhewitt.org/2018/08/05/aharmonyofcontrasts/",
     "scope": "瑞士平面中的网格、字体、摄影与对比关系"
+  },
+  {
+    "id": "R07",
+    "title": "MoMA · Woodcut",
+    "url": "https://www.moma.org/collection/terms/woodcut",
+    "scope": "凸起受墨与挖去留白的制作机制；原创解释图，不复制馆藏"
+  },
+  {
+    "id": "R08",
+    "title": "RISO · Corporate profile / stencil printing",
+    "url": "https://www.riso.co.uk/pdf/profile.pdf",
+    "scope": "官方孔版与墨层工艺说明；本次核对搜索摘录，PDF完整打开失败，不声称审看整份文档"
+  },
+  {
+    "id": "R09",
+    "title": "V&A · Photography processes and techniques / Cyanotype",
+    "url": "https://www.vam.ac.uk/info/collection-selection-boxes-photography-processes-and-techniques",
+    "scope": "感光纸与遮光负形机制；代码模拟原创示意，非实拍感光纸"
   }
 ]

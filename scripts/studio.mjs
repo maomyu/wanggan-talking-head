@@ -61,7 +61,7 @@ function init(o){
  if(source)fs.copyFileSync(source,path.join(r,'assets/master.mp4'));
  if(transcript)fs.copyFileSync(transcript,path.join(r,'assets/canonical-native.srt'));
  const isReference=Boolean(o.example&&!source&&!transcript);
- if(requestedStyle&&isReference){const a=read(path.join(r,'plans/art-direction.json'));a.styleId=requestedStyle.key;write(path.join(r,'plans/art-direction.json'),a);}
+ if(requestedStyle&&isReference){const a=read(path.join(r,'plans/art-direction.json'));a.styleId=requestedStyle.key;write(path.join(r,'plans/art-direction.json'),a);if(requestedStyle.portraitBase){const l=read(path.join(r,'plans/layout-plan.json'));l.portrait.baseBox=requestedStyle.portraitBase;write(path.join(r,'plans/layout-plan.json'),l)}if(requestedStyle.personTravelSeconds){const m=read(path.join(r,'plans/motion-plan.json'));m.travelSeconds=requestedStyle.personTravelSeconds;write(path.join(r,'plans/motion-plan.json'),m)}}
  const metadata=JSON.parse(run('ffprobe',['-v','error','-show_streams','-show_format','-of','json',path.join(r,'assets/master.mp4')]));
  const routeResult=route(o.request||'制作完整口播',o.mode);const project={schemaVersion:1,id:crypto.randomUUID(),name:path.basename(r),request:o.request||'',scope:routeResult.scope,modules:routeResult.modules,renderer:isReference?'approved-reference':'custom',status:isReference?'planned-reference':'awaiting-design',referenceFixture:isReference,sourceSha256:sha(path.join(r,'assets/master.mp4'))};
  write(path.join(r,'project.json'),project);write(path.join(r,'source-info.json'),metadata);write(path.join(r,'route.json'),routeResult);

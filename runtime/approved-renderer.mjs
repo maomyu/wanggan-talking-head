@@ -14,7 +14,7 @@ html=html.replace('</main>',`<audio id="voice" src="assets/edited-voice.wav" dat
 const c=layout.caption||{},num=(v,f)=>Number.isFinite(v)?v:f;for(const [k,v]of Object.entries(c))if(!Number.isFinite(v))throw Error('非数值排版参数:'+k);
 const css=`#captions{left:${num(c.x,64)}px;top:${num(c.y,1600)}px;width:${num(c.width,952)}px}#caption-text{font-size:${num(c.size,60)}px}`;
 html=html.replace('</head>','<style id="project-layout">'+css+'</style></head>');
-if(motion.travelSeconds!==undefined){if(!(motion.travelSeconds>.05&&motion.travelSeconds<=3))throw Error('人物交接时长超出有效范围');html=html.replace(/(?<!\d)\.6(?!\d)/g,String(motion.travelSeconds));}
+if(motion.travelSeconds!==undefined){if(!(motion.travelSeconds>.05&&motion.travelSeconds<=3))throw Error('人物交接时长超出有效范围');if(style.motionParameter==='data-person-travel'){if(!html.includes('data-person-travel='))throw Error('模板缺少已声明的人物运动参数');html=html.replace(/data-person-travel="[^"]*"/,`data-person-travel="${motion.travelSeconds}"`)}else html=html.replace(/(?<!\d)\.6(?!\d)/g,String(motion.travelSeconds));}
 fs.writeFileSync(path.join(root,'index.html'),html);put('timing.json',timing);put('edit-plan.json',edit);put('facts.json',{source:timing.source,claims:timing.captions.map(c=>({text:c.text,sourceStart:c.sourceStart,sourceEnd:c.sourceEnd})),graphics:'已认可财经原稿的解释示意；不作新素材自动内容模板'});
 const materialKeys=['chalk','paper-stage','type-poster','cel','sci-fi-wireframe'];
 if(materialKeys.includes(style.key)||style.fontRoles){

@@ -1,6 +1,6 @@
-# 网感口播 1.4.0
+# 网感口播 1.5.0
 
-正式本地插件，包含27种已实现画风（20用户认可、7制作验证）、四个完整专业skill和一个整片统筹入口。100种创意目录分10个家族；其中另外73种尚未完成，分别标记候选或制作中。人物保持原色、角落正圆窗、字幕上移。
+正式本地插件，包含34种已实现画风（20用户认可、14制作验证）、四个完整专业skill和一个整片统筹入口。100种创意目录分10个家族；其中另外66种尚未完成，分别标记候选或制作中。人物保持原色、角落正圆窗、字幕上移。
 
 - [整片统筹](skills/talking-head-video/SKILL.md)
 - [画风](skills/talking-head-art-direction/SKILL.md) · [排版](skills/talking-head-layout/SKILL.md) · [动效](skills/talking-head-motion/SKILL.md) · [剪辑转场](skills/talking-head-editing/SKILL.md)
@@ -17,4 +17,5 @@
 
 源码与进度同步到GitHub私有仓库maomyu/wanggan-talking-head；见[同步规范](docs/GitHub同步.md)与[100种落地进度](research/100-style-production/README.md)。
 
-当前库：27种已实现（20用户认可，7制作验证），73种未完成。`styles --status implemented`查询可用实现，`--status approved`仅查询用户认可，`--status production`仅查询制作验证。`--example approved`为兼容沿用的固定素材复现命令，两类已实现模板均可使用，不表示都获用户逐条视觉认可。
+
+当前库：34种已实现（20用户认可，14制作验证），66种未完成。`styles --status implemented`查询可用实现，`--status approved`仅查询用户认可，`--status production`仅查询制作验证。`--example approved`为兼容沿用的固定素材复现命令，两类已实现模板均可使用，不表示都获用户逐条视觉认可。

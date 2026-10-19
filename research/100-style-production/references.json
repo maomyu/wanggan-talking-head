@@ -17,5 +17,24 @@
   {
     "style": "A94/A99",
     "scope": "本项目原创金融解释模型与确定性三维表面采样；不声称为真实金融设备、数据扫描或实际收益证明。"
+  },
+  {
+    "style": "A76",
+    "url": "https://www.moma.org/collection/terms/woodcut",
+    "scope": "根据MoMA木刻术语中凸起受墨、挖去留白的制作原理，以大片黑白和粗刀口构成原创金融解释物件。不是复制馆藏或实拍木版。"
+  },
+  {
+    "style": "A78",
+    "url": "https://www.riso.co.uk/pdf/profile.pdf",
+    "scope": "根据RISO官方印制说明的孔版与墨层机制，制作双分色版、可见套准过程与重叠色。已检索官方文档摘录，PDF打开失败；不声称查看完整PDF或还原实物机型。"
+  },
+  {
+    "style": "A80",
+    "url": "https://www.vam.ac.uk/info/collection-selection-boxes-photography-processes-and-techniques",
+    "scope": "根据V&A蓝晒工艺说明，将遮光负形、白色印迹、蓝色感光纸和毛边用于原创示意。不是工程蓝图、实拍感光纸或Anna Atkins作品复制。"
+  },
+  {
+    "style": "A95—A98",
+    "scope": "原创屏幕视觉配方：字符单元构成图形、矢量路径与光束头、圆形离散点阵、早期桌面窗口及可见选择结果。不复刻品牌界面，不将真人处理为字符或点阵。"
   }
 ]

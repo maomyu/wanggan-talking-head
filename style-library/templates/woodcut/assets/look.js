@@ -1,0 +1,3 @@
+import {makePrint}from'./print-stage.js';
+export const LOOK={key:'woodcut',name:'木刻刀痕',palette:{bg:'#f5ecd8',fg:'#192820',muted:'#515b45',accent:'#974327',caption:'#f5ecd8',portrait:'#f5ecd8'},base:{x:225,y:582,w:630},css:'#architecture{inset:502px 38px 671px;border:9px solid #192820;clip-path:polygon(0 1%,99% 0,100% 99%,1% 100%)}#title{font-family:Serif,serif;font-weight:700;font-size:99px}#style-label{letter-spacing:3px}#captions{border:5px solid #192820;border-left-width:12px;padding-top:13px;padding-bottom:13px}#person-mask{outline:9px solid #f5ecd8;box-shadow:0 0 0 4px #192820}.art-large{font-family:Serif,serif;font-weight:700}'};
+export async function buildArt(ctx){return makePrint(ctx,'woodcut')}

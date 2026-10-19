@@ -1,5 +1,5 @@
 {
-  "scope": "作者查看最终编码12帧拼版、4秒交接编码拼版和负债段实际抽帧；结合17人物姿态、21字幕、反向寻址、5fps解码与18切点邻帧程序证据。没有独立盲评；AI原创图解与原色视频人物分开标注。",
+  "scope": "作者自查，分批证据见batch02-author-review.json等；实际检查与视觉认可分开。",
   "passed": [
     "origami",
     "embroidery",
@@ -7,9 +7,16 @@
     "mechanical-cutaway",
     "spatial-pointcloud",
     "felt-applique",
-    "gongbi"
+    "gongbi",
+    "woodcut",
+    "risograph",
+    "cyanotype",
+    "terminal-ascii",
+    "vector-oscilloscope",
+    "led-dot-matrix",
+    "early-desktop"
   ],
   "needsRevision": {},
-  "sourceVersion": "source-color/circle/caption; font metrics; volume composition revision; clipped sprite regions and flat gongbi repaint",
-  "reviewedAt": "2026-10-20T00:42:29.110502+08:00"
+  "sourceVersion": "native print/screen v2; motion-linked notes; outlined ASCII graphic glyphs; current source hashes verified",
+  "reviewedAt": "2026-10-20T01:20:31.478254+08:00"
 }
