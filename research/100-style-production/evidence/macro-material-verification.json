@@ -1,0 +1,96 @@
+{
+  "ok": true,
+  "look": "macro-material",
+  "width": 1080,
+  "height": 1920,
+  "fps": "30/1",
+  "frames": 1100,
+  "duration": 36.666666666666664,
+  "bytes": 43868216,
+  "sha256": "cf13eb580cebe85b2ad70b718061143b97e99308f8ebe163403102bb47df2ff2",
+  "decodedAudioHash": "f61d6839ef185edd3268011f553bc8ee2f7ad6afd261cbf596e02d416d7da70b",
+  "sourceSpeech": [
+    {
+      "time": 2,
+      "zeroLagCorrelation": 0.9999941772964133
+    },
+    {
+      "time": 8,
+      "zeroLagCorrelation": 0.9999978102677761
+    },
+    {
+      "time": 24,
+      "zeroLagCorrelation": 0.9999980662827164
+    },
+    {
+      "time": 34,
+      "zeroLagCorrelation": 0.9999969180075337
+    }
+  ],
+  "personColor": {
+    "meanRGBError": [
+      -2.0405701754385963,
+      -1.5910087719298245,
+      -1.789546783625731
+    ],
+    "meanAbsoluteRGBError": 2.711817738791423,
+    "scope": "同一源帧脸部区域与实际编码区域；允许缩放与压缩误差"
+  },
+  "cornerPixels": [
+    {
+      "u": 0.04,
+      "v": 0.04,
+      "sourceDifference": 62.21258503401359,
+      "reviewedBackgroundError": 3.0
+    },
+    {
+      "u": 0.94,
+      "v": 0.04,
+      "sourceDifference": 91.67687074829932,
+      "reviewedBackgroundError": 3.0
+    },
+    {
+      "u": 0.04,
+      "v": 0.94,
+      "sourceDifference": 162.59183673469386,
+      "reviewedBackgroundError": 3.0
+    },
+    {
+      "u": 0.94,
+      "v": 0.94,
+      "sourceDifference": 134.2176870748299,
+      "reviewedBackgroundError": 3.0
+    }
+  ],
+  "denseFrames": 183,
+  "cutNeighbourFrames": 18,
+  "extraSettledPresenter": [
+    {
+      "time": 14.4,
+      "meanRGBError": [
+        -2.15,
+        -1.5537280701754386,
+        -1.8087719298245615
+      ],
+      "meanAbsoluteRGBError": 2.692422027290448
+    },
+    {
+      "time": 24.4,
+      "meanRGBError": [
+        -2.126754385964912,
+        -1.545687134502924,
+        -1.8769736842105262
+      ],
+      "meanAbsoluteRGBError": 2.6215399610136454
+    }
+  ],
+  "firstFramePresenter": {
+    "ok": true,
+    "meanAbsoluteRGBError": 2.7631444953620687
+  },
+  "lastFramePresenter": {
+    "ok": true,
+    "frame": 1099,
+    "meanAbsoluteRGBError": 2.140682074782493
+  }
+}

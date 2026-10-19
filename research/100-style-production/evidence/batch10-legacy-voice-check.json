@@ -1,0 +1,287 @@
+{
+  "ok": true,
+  "records": [
+    {
+      "key": "minimal",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000,
+      "sameLengthAndPosition": true,
+      "signalEquivalent": true,
+      "groupMetrics": {
+        "samples": 1760000,
+        "zeroLagCorrelation": 0.9999725732375103,
+        "meanAbsoluteDifference": 0.00017455175289785157,
+        "rmsRatio": 1.0000836063441412
+      }
+    },
+    {
+      "key": "paper",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000,
+      "sameLengthAndPosition": true,
+      "signalEquivalent": true,
+      "groupMetrics": {
+        "samples": 1760000,
+        "zeroLagCorrelation": 0.9999725732375103,
+        "meanAbsoluteDifference": 0.00017455175289785157,
+        "rmsRatio": 1.0000836063441412
+      }
+    },
+    {
+      "key": "geometry",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000,
+      "sameLengthAndPosition": true,
+      "signalEquivalent": true,
+      "groupMetrics": {
+        "samples": 1760000,
+        "zeroLagCorrelation": 0.9999725732375103,
+        "meanAbsoluteDifference": 0.00017455175289785157,
+        "rmsRatio": 1.0000836063441412
+      }
+    },
+    {
+      "key": "magazine",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000,
+      "sameLengthAndPosition": true,
+      "signalEquivalent": true,
+      "groupMetrics": {
+        "samples": 1760000,
+        "zeroLagCorrelation": 0.9999725732375103,
+        "meanAbsoluteDifference": 0.00017455175289785157,
+        "rmsRatio": 1.0000836063441412
+      }
+    },
+    {
+      "key": "collage",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000,
+      "sameLengthAndPosition": true,
+      "signalEquivalent": true,
+      "groupMetrics": {
+        "samples": 1760000,
+        "zeroLagCorrelation": 0.9999725732375103,
+        "meanAbsoluteDifference": 0.00017455175289785157,
+        "rmsRatio": 1.0000836063441412
+      }
+    },
+    {
+      "key": "line",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000,
+      "sameLengthAndPosition": true,
+      "signalEquivalent": true,
+      "groupMetrics": {
+        "samples": 1760000,
+        "zeroLagCorrelation": 0.9999725732375103,
+        "meanAbsoluteDifference": 0.00017455175289785157,
+        "rmsRatio": 1.0000836063441412
+      }
+    },
+    {
+      "key": "illustration",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000,
+      "sameLengthAndPosition": true,
+      "signalEquivalent": true,
+      "groupMetrics": {
+        "samples": 1760000,
+        "zeroLagCorrelation": 0.9999725732375103,
+        "meanAbsoluteDifference": 0.00017455175289785157,
+        "rmsRatio": 1.0000836063441412
+      }
+    },
+    {
+      "key": "precision",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000,
+      "sameLengthAndPosition": true,
+      "signalEquivalent": true,
+      "groupMetrics": {
+        "samples": 1760000,
+        "zeroLagCorrelation": 0.9999725732375103,
+        "meanAbsoluteDifference": 0.00017455175289785157,
+        "rmsRatio": 1.0000836063441412
+      }
+    },
+    {
+      "key": "blueprint",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000,
+      "sameLengthAndPosition": true,
+      "signalEquivalent": true,
+      "groupMetrics": {
+        "samples": 1760000,
+        "zeroLagCorrelation": 0.9999725732375103,
+        "meanAbsoluteDifference": 0.00017455175289785157,
+        "rmsRatio": 1.0000836063441412
+      }
+    },
+    {
+      "key": "halftone",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000,
+      "sameLengthAndPosition": true,
+      "signalEquivalent": true,
+      "groupMetrics": {
+        "samples": 1760000,
+        "zeroLagCorrelation": 0.9999725732375103,
+        "meanAbsoluteDifference": 0.00017455175289785157,
+        "rmsRatio": 1.0000836063441412
+      }
+    },
+    {
+      "key": "comic",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000,
+      "sameLengthAndPosition": true,
+      "signalEquivalent": true,
+      "groupMetrics": {
+        "samples": 1760000,
+        "zeroLagCorrelation": 0.9999725732375103,
+        "meanAbsoluteDifference": 0.00017455175289785157,
+        "rmsRatio": 1.0000836063441412
+      }
+    },
+    {
+      "key": "film",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000,
+      "sameLengthAndPosition": true,
+      "signalEquivalent": true,
+      "groupMetrics": {
+        "samples": 1760000,
+        "zeroLagCorrelation": 0.9999725732375103,
+        "meanAbsoluteDifference": 0.00017455175289785157,
+        "rmsRatio": 1.0000836063441412
+      }
+    },
+    {
+      "key": "ink",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000,
+      "sameLengthAndPosition": true,
+      "signalEquivalent": true,
+      "groupMetrics": {
+        "samples": 1760000,
+        "zeroLagCorrelation": 0.9999725732375103,
+        "meanAbsoluteDifference": 0.00017455175289785157,
+        "rmsRatio": 1.0000836063441412
+      }
+    },
+    {
+      "key": "clay",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000,
+      "sameLengthAndPosition": true,
+      "signalEquivalent": true,
+      "groupMetrics": {
+        "samples": 1760000,
+        "zeroLagCorrelation": 0.9999725732375103,
+        "meanAbsoluteDifference": 0.00017455175289785157,
+        "rmsRatio": 1.0000836063441412
+      }
+    },
+    {
+      "key": "pixel",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000,
+      "sameLengthAndPosition": true,
+      "signalEquivalent": true,
+      "groupMetrics": {
+        "samples": 1760000,
+        "zeroLagCorrelation": 0.9999725732375103,
+        "meanAbsoluteDifference": 0.00017455175289785157,
+        "rmsRatio": 1.0000836063441412
+      }
+    },
+    {
+      "key": "chalk",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000,
+      "sameLengthAndPosition": true,
+      "signalEquivalent": true,
+      "groupMetrics": {
+        "samples": 1760000,
+        "zeroLagCorrelation": 0.9999725732375103,
+        "meanAbsoluteDifference": 0.00017455175289785157,
+        "rmsRatio": 1.0000836063441412
+      }
+    },
+    {
+      "key": "paper-stage",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000,
+      "sameLengthAndPosition": true,
+      "signalEquivalent": true,
+      "groupMetrics": {
+        "samples": 1760000,
+        "zeroLagCorrelation": 0.9999725732375103,
+        "meanAbsoluteDifference": 0.00017455175289785157,
+        "rmsRatio": 1.0000836063441412
+      }
+    },
+    {
+      "key": "type-poster",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000,
+      "sameLengthAndPosition": true,
+      "signalEquivalent": true,
+      "groupMetrics": {
+        "samples": 1760000,
+        "zeroLagCorrelation": 0.9999725732375103,
+        "meanAbsoluteDifference": 0.00017455175289785157,
+        "rmsRatio": 1.0000836063441412
+      }
+    },
+    {
+      "key": "cel",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000,
+      "sameLengthAndPosition": true,
+      "signalEquivalent": true,
+      "groupMetrics": {
+        "samples": 1760000,
+        "zeroLagCorrelation": 0.9999725732375103,
+        "meanAbsoluteDifference": 0.00017455175289785157,
+        "rmsRatio": 1.0000836063441412
+      }
+    },
+    {
+      "key": "sci-fi-wireframe",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000,
+      "sameLengthAndPosition": true,
+      "signalEquivalent": true,
+      "groupMetrics": {
+        "samples": 1760000,
+        "zeroLagCorrelation": 0.9999725732375103,
+        "meanAbsoluteDifference": 0.00017455175289785157,
+        "rmsRatio": 1.0000836063441412
+      }
+    }
+  ],
+  "scope": "20原认可片完整解码指纹相同；与新增片为两个AAC解码指纹，精确不同仍保留记录。1,760,000采样同长，零位移波形相关与MAE实测支持原声内容/时序一致，不冒称跨两组无损逐样本相同或人工听感验收。",
+  "exactDecodedMatch": false
+}

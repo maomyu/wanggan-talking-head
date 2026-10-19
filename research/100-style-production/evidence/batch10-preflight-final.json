@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "results": [
+    {
+      "key": "documentary",
+      "ok": true
+    },
+    {
+      "key": "tabletop-stilllife",
+      "ok": true
+    },
+    {
+      "key": "macro-material",
+      "ok": true
+    },
+    {
+      "key": "overhead-workbench",
+      "ok": true
+    },
+    {
+      "key": "architectural-light",
+      "ok": true
+    },
+    {
+      "key": "everyday-story",
+      "ok": true
+    },
+    {
+      "key": "spotlight-stage",
+      "ok": true
+    },
+    {
+      "key": "darkroom-prints",
+      "ok": true
+    }
+  ]
+}

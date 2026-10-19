@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "encoded": true,
+  "records": [
+    {
+      "key": "documentary",
+      "time": 24.4,
+      "emptyFromY": 1030,
+      "firstNextInkY": 1151,
+      "visibleGapPixels": 121,
+      "sha256": "2092fc6a0c8ed775f3f0740e8a369449634310bfa4f99f2d501199214c796072"
+    },
+    {
+      "key": "tabletop-stilllife",
+      "time": 24.4,
+      "emptyFromY": 1095,
+      "firstNextInkY": 1151,
+      "visibleGapPixels": 56,
+      "sha256": "e4adc93c7051d5e753e575afdead46e6fd7e4f0d1dd968f3bb04323c57200fc5"
+    },
+    {
+      "key": "macro-material",
+      "time": 24.4,
+      "emptyFromY": 1094,
+      "firstNextInkY": 1151,
+      "visibleGapPixels": 57,
+      "sha256": "cf13eb580cebe85b2ad70b718061143b97e99308f8ebe163403102bb47df2ff2"
+    },
+    {
+      "key": "overhead-workbench",
+      "time": 24.4,
+      "emptyFromY": 1090,
+      "firstNextInkY": 1151,
+      "visibleGapPixels": 61,
+      "sha256": "c0323fef94d4d0238d7623dbaee2c79b62e1fb6ff6cd89535dce81bd4848e85c"
+    },
+    {
+      "key": "architectural-light",
+      "time": 24.4,
+      "emptyFromY": 1095,
+      "firstNextInkY": 1151,
+      "visibleGapPixels": 56,
+      "sha256": "612ba5f1125593d12fb4fb584e4c85772eaee1197fa96186ef03bff5399c70fd"
+    },
+    {
+      "key": "everyday-story",
+      "time": 24.4,
+      "emptyFromY": 1070,
+      "firstNextInkY": 1151,
+      "visibleGapPixels": 81,
+      "sha256": "e420565fdea30a6308d2d762939f81c98b099f31afa53a1d0ca3cbb3312ba68e"
+    },
+    {
+      "key": "spotlight-stage",
+      "time": 24.4,
+      "emptyFromY": 1094,
+      "firstNextInkY": 1151,
+      "visibleGapPixels": 57,
+      "sha256": "99478a896b4e876707450e9a06c319bf5d49b21a3097490aa829c3b10623e89f"
+    },
+    {
+      "key": "darkroom-prints",
+      "time": 24.4,
+      "emptyFromY": 1068,
+      "firstNextInkY": 1151,
+      "visibleGapPixels": 83,
+      "sha256": "99a7db26d092c00083a99ff3e6bb1bdb8bb089397c1d70f9232f6a12543b6505"
+    }
+  ],
+  "scope": "实际像素相对同帧空底色差超过12的可见边界，取主材料与风险重点词之间横跨780px的完整空行，不是DOM行盒；细微低对比纸边不等于有信息墨迹。代表帧抽样，不声称全帧碰撞证明"
+}

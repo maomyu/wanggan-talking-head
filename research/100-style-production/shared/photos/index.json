@@ -1,5 +1,5 @@
 {
-  "status": "seven real photographic assets actually viewed; eight styles still unimplemented",
+  "status": "seven unmodified real photographic sources used in eight verified full video directions; production status lives in formal catalog",
   "assets": [
     {
       "key": "desk",
@@ -14,8 +14,13 @@
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "sha256": "af589f564954f165c05c138b03585c7bb92b824239adfe815416c78e0055f5b0",
       "actuallyViewed": true,
-      "status": "photographic-research-candidate; no style/video yet",
-      "sourceArtistRaw": "AnonymousUnknown author"
+      "status": "original-photograph-source-verified",
+      "sourceArtistRaw": "AnonymousUnknown author",
+      "usedBy": [
+        "tabletop-stilllife",
+        "everyday-story",
+        "darkroom-prints"
+      ]
     },
     {
       "key": "coins",
@@ -30,7 +35,13 @@
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "sha256": "de00e068aa6dfbcb6e1962d19a85192bcf853658508cd4f78a2401b364c8f140",
       "actuallyViewed": true,
-      "status": "photographic-research-candidate; no style/video yet"
+      "status": "original-photograph-source-verified",
+      "usedBy": [
+        "macro-material",
+        "everyday-story",
+        "spotlight-stage",
+        "darkroom-prints"
+      ]
     },
     {
       "key": "workbench",
@@ -45,7 +56,10 @@
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "sha256": "7ba81b25cbebd0d877feaea8ca6f9a1235c5f9fe79486e2ee1f102093a8e87f0",
       "actuallyViewed": true,
-      "status": "photographic-research-candidate; no style/video yet"
+      "status": "original-photograph-source-verified",
+      "usedBy": [
+        "overhead-workbench"
+      ]
     },
     {
       "key": "interior",
@@ -60,7 +74,10 @@
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "sha256": "6e67650ac6e1b4fd390b7a1f826cd46738e4571bc4f07bc22ee168eccf3f4149",
       "actuallyViewed": true,
-      "status": "photographic-research-candidate; no style/video yet"
+      "status": "original-photograph-source-verified",
+      "usedBy": [
+        "architectural-light"
+      ]
     },
     {
       "key": "stage",
@@ -75,7 +92,10 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "sha256": "903103af5f89eaadfd48e89f5eec068114631e35833b677488c3685de7e769d8",
       "actuallyViewed": true,
-      "status": "photographic-research-candidate; no style/video yet"
+      "status": "original-photograph-source-verified",
+      "usedBy": [
+        "spotlight-stage"
+      ]
     },
     {
       "key": "groceries",
@@ -90,7 +110,11 @@
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "sha256": "7e1e1a1d2d0aad2d04c6edd55f5bd28e74bd91b3538b8a9a26e603c452dbebee",
       "actuallyViewed": true,
-      "status": "photographic-research-candidate; no style/video yet"
+      "status": "original-photograph-source-verified",
+      "usedBy": [
+        "everyday-story",
+        "darkroom-prints"
+      ]
     },
     {
       "key": "street",
@@ -105,7 +129,10 @@
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "sha256": "d6f039039d4dad6a16eba58ec003ee4d7093e328b1bd2de9f10a84a5bcbc7f92",
       "actuallyViewed": true,
-      "status": "photographic-research-candidate; no style/video yet"
+      "status": "original-photograph-source-verified",
+      "usedBy": [
+        "documentary"
+      ]
     }
   ],
   "rejected": [

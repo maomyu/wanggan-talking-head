@@ -214,5 +214,68 @@
     "title": "Three.js r181: physical material, PMREM and rounded geometry",
     "url": "https://github.com/mrdoob/three.js/tree/r181",
     "scope": "已读本机固定r181物理材质/厚度/PMREM接口与RoundedBox源码，原始MIT许可来自同版本官方文件；仅作为实现接口依据，不冒称制作工艺、流体或真实光学实验。实际视觉/寻址与整片证据另记"
+  },
+  {
+    "id": "R37",
+    "title": "File:Desktop with laptop and calculator (Unsplash).jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Desktop_with_laptop_and_calculator_(Unsplash).jpg",
+    "scope": "本批真实摄影原始资料；作者未标明（Commons记录） / CC0。仅数字裁切/注释/合成，黑白方向照片灰度；不代表本段人物、事件、交易或观点背书",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sha256": "af589f564954f165c05c138b03585c7bb92b824239adfe815416c78e0055f5b0"
+  },
+  {
+    "id": "R38",
+    "title": "File:Two 20kr gold coins.png",
+    "url": "https://commons.wikimedia.org/wiki/File:Two_20kr_gold_coins.png",
+    "scope": "本批真实摄影原始资料；Anonimski / CC0。仅数字裁切/注释/合成，黑白方向照片灰度；不代表本段人物、事件、交易或观点背书",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sha256": "de00e068aa6dfbcb6e1962d19a85192bcf853658508cd4f78a2401b364c8f140"
+  },
+  {
+    "id": "R39",
+    "title": "File:Books, pencils, laptop, and iphone on a desk (Unsplash).jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Books,_pencils,_laptop,_and_iphone_on_a_desk_(Unsplash).jpg",
+    "scope": "本批真实摄影原始资料；Aleks Dorohovich aleksdorohovich / CC0。仅数字裁切/注释/合成，黑白方向照片灰度；不代表本段人物、事件、交易或观点背书",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sha256": "7ba81b25cbebd0d877feaea8ca6f9a1235c5f9fe79486e2ee1f102093a8e87f0"
+  },
+  {
+    "id": "R40",
+    "title": "File:Black white concrete interior (Unsplash).jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Black_white_concrete_interior_(Unsplash).jpg",
+    "scope": "本批真实摄影原始资料；Verne Ho verneho / CC0。仅数字裁切/注释/合成，黑白方向照片灰度；不代表本段人物、事件、交易或观点背书",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sha256": "6e67650ac6e1b4fd390b7a1f826cd46738e4571bc4f07bc22ee168eccf3f4149"
+  },
+  {
+    "id": "R41",
+    "title": "File:Spotlight stage August Wilson Center.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Spotlight_stage_August_Wilson_Center.jpg",
+    "scope": "本批真实摄影原始资料；daveynin from United States / CC BY 2.0。仅数字裁切/注释/合成，黑白方向照片灰度；不代表本段人物、事件、交易或观点背书",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sha256": "903103af5f89eaadfd48e89f5eec068114631e35833b677488c3685de7e769d8"
+  },
+  {
+    "id": "R42",
+    "title": "File:Healthy Grocery Shopping (Unsplash).jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Healthy_Grocery_Shopping_(Unsplash).jpg",
+    "scope": "本批真实摄影原始资料；leonie wise leoniewise / CC0。仅数字裁切/注释/合成，黑白方向照片灰度；不代表本段人物、事件、交易或观点背书",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sha256": "7e1e1a1d2d0aad2d04c6edd55f5bd28e74bd91b3538b8a9a26e603c452dbebee"
+  },
+  {
+    "id": "R43",
+    "title": "File:Yan'an East Road Interchange, Shanghai, China (Unsplash).jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Yan%27an_East_Road_Interchange,_Shanghai,_China_(Unsplash).jpg",
+    "scope": "本批真实摄影原始资料；Denys Nevozhai dnevozhai / CC0。仅数字裁切/注释/合成，黑白方向照片灰度；不代表本段人物、事件、交易或观点背书",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sha256": "d6f039039d4dad6a16eba58ec003ee4d7093e328b1bd2de9f10a84a5bcbc7f92"
   }
 ]

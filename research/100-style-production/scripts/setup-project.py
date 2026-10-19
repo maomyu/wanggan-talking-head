@@ -10,6 +10,8 @@ for key in sys.argv[1:]:
  put(P/'source-info.json',json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(P/'assets/master.mp4')])));put(P/'hyperframes.json',dict(paths=dict(blocks='compositions',components='compositions/components',assets='assets'),media=dict(autoProxy=True),authoringSkill='general-video'))
  for rel in ['base.css','scene.js','material-stage.js'] :shutil.copy2(R/'shared'/rel,P/'assets'/rel)
  shutil.copy2(R/'shared'/f'{key}.js',P/'assets/look.js')
+ if key in ['documentary','tabletop-stilllife','macro-material','overhead-workbench','architectural-light','everyday-story','spotlight-stage','darkroom-prints']:
+  shutil.copy2(R/'shared/photography-stage.js',P/'assets/photography-stage.js')
  if key in ['chased-metal','miniature-puppet','building-blocks','ceramic-objects','inflatable-sculpture']:
   shutil.copy2(R/'shared/object-theatre-stage.js',P/'assets/object-theatre-stage.js')
   shutil.copy2(R/'shared/rasters'/f'{key}-atlas.png',P/'assets/atlas.png')

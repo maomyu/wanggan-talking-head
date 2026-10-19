@@ -1,0 +1,839 @@
+{
+  "ok": true,
+  "records": [
+    {
+      "key": "documentary",
+      "sha256": "2092fc6a0c8ed775f3f0740e8a369449634310bfa4f99f2d501199214c796072",
+      "viewed": [
+        "当前8状态原生拼版",
+        "4秒/120帧真实编码拼版",
+        "1100帧整片的12个实际抽帧拼版"
+      ],
+      "judgment": "实际完整编码12抽帧拼版已看；城市资料完整上下文与图外标签清楚，debt换窄幅给重点留干净面，人物圆窗/字幕无新冲突",
+      "shortAndFullProtectedInputs": [
+        {
+          "file": "timing.json",
+          "sha256": "e06dca20f375955d9dbbe035edeedd03e4d1fc5c8fab374693391d5a1b1a5573"
+        },
+        {
+          "file": "assets/look.js",
+          "sha256": "8024ac45e9c711bb64febf5a1e4c514d5684afc8705d8d2494d53989503c52ab"
+        },
+        {
+          "file": "assets/photography-stage.js",
+          "sha256": "7135f9454a8f31ed067f15aefb4e76122cf569939f3fb084558d3a6f3d18a27e"
+        },
+        {
+          "file": "assets/gsap.min.js",
+          "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+        },
+        {
+          "file": "assets/composition.html",
+          "sha256": "90879fd89c43e939c45835e6436f5395e7263bb2b532c8fab0207cb4a8ad3396"
+        },
+        {
+          "file": "assets/photo-street.jpg",
+          "sha256": "d6f039039d4dad6a16eba58ec003ee4d7093e328b1bd2de9f10a84a5bcbc7f92"
+        },
+        {
+          "file": "assets/scene.js",
+          "sha256": "2f765ddb8bf60a09f441279bf01e5916a92cfd5dac4a1ad6ee9f9f8a3336ed0b"
+        },
+        {
+          "file": "assets/edited-voice.wav",
+          "sha256": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472"
+        },
+        {
+          "file": "assets/photography-NOTICE.md",
+          "sha256": "3d3b68630aeea8fdd97b255f4cbea29ffdeed697ce2865b45f5c2ee151ce7211"
+        },
+        {
+          "file": "assets/photo-sources.json",
+          "sha256": "9f44545c3b416c9853a04385ffd413af336f8d957bb419289f784f82d7862445"
+        },
+        {
+          "file": "assets/master.mp4",
+          "sha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58"
+        },
+        {
+          "file": "assets/timing.js",
+          "sha256": "a470df536989c1563dc8fb173050ff51d3e1831003f6120c7aaae665fd3dba5f"
+        },
+        {
+          "file": "assets/material-stage.js",
+          "sha256": "77bc1e8779e43a8c7677c98017c7d246d55f7114a861ffca6139735a436c3637"
+        },
+        {
+          "file": "assets/base.css",
+          "sha256": "fea0cf41dd8aeec5afc5e69fd1b2d4c188c90b7383b85a5a44a52e7984b8c52c"
+        },
+        {
+          "file": "assets/fonts/NotoSerifSC-700.woff",
+          "sha256": "1a80a9564cf35315471634801238799851eaafeb713dae5449426c62867ad311"
+        },
+        {
+          "file": "assets/fonts/NotoSansSC-900.woff",
+          "sha256": "d2d8a42438b18b65b6577434df4e41bb08c6b5051281757849af00ab743bb58f"
+        },
+        {
+          "file": "assets/fonts/NotoSansSC-500.woff",
+          "sha256": "928d841b1ec663ebce82593568cbc19749fe652f88b8ec960723b7d87b551512"
+        },
+        {
+          "file": "assets/fonts/LXGWWenKai-500.woff",
+          "sha256": "734bd187392579417ac83effe31d37b9de43c7b290bcb400800456511ed79e8f"
+        },
+        {
+          "file": "assets/fonts/NotoSansSC-700.woff",
+          "sha256": "dd0d39a9780eb995c499af0c20cca93b1dfdda865da70871a20890b3e406b968"
+        },
+        {
+          "file": "assets/fonts/ArchivoBlack-400.woff",
+          "sha256": "c029965cfbc3cbb79431babf56d0fee6bc185f366c4fc2a0957817137d374c95"
+        },
+        {
+          "file": "assets/fonts/MaShanZheng-Regular.ttf",
+          "sha256": "6d2546bb189c732a8ca29af9e22457b152387d158aa459e4ac2ce1e51788b7fb"
+        },
+        {
+          "file": "assets/fonts/NotoSansSC-800.woff",
+          "sha256": "b57f9c645b1a4967a3c8914ed41f24d109394a8175e36af08f93e40803e84664"
+        }
+      ],
+      "scope": "作者实际抽看，非独立盲评或逐帧人工听看；程序另查183密集帧、18切点邻帧、首末/左右人色与原声、正圆/字幕/逆向像素、实际风险图字空白"
+    },
+    {
+      "key": "tabletop-stilllife",
+      "sha256": "e4adc93c7051d5e753e575afdead46e6fd7e4f0d1dd968f3bb04323c57200fc5",
+      "viewed": [
+        "当前8状态原生拼版",
+        "4秒/120帧真实编码拼版",
+        "1100帧整片的12个实际抽帧拼版"
+      ],
+      "judgment": "实际完整编码12抽帧拼版已看；斜视桌面与独立侧注贯穿，debt字不再压照片，人物圆窗/上移字幕无新冲突",
+      "shortAndFullProtectedInputs": [
+        {
+          "file": "timing.json",
+          "sha256": "ca46a0f3c624663c0f7c250d4082826cc651eb0e18f49bba8093af985169f6c2"
+        },
+        {
+          "file": "assets/look.js",
+          "sha256": "37bc59a3d2b3afcc2fcd01ae02e1bb3a607e1dfd472e55f4318f55dd7fcef8ea"
+        },
+        {
+          "file": "assets/photography-stage.js",
+          "sha256": "7135f9454a8f31ed067f15aefb4e76122cf569939f3fb084558d3a6f3d18a27e"
+        },
+        {
+          "file": "assets/gsap.min.js",
+          "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+        },
+        {
+          "file": "assets/composition.html",
+          "sha256": "deb263689b7cab47663edcafda9f7d6e82cbbfefda51c9c0fc19a538279237c7"
+        },
+        {
+          "file": "assets/scene.js",
+          "sha256": "2f765ddb8bf60a09f441279bf01e5916a92cfd5dac4a1ad6ee9f9f8a3336ed0b"
+        },
+        {
+          "file": "assets/edited-voice.wav",
+          "sha256": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472"
+        },
+        {
+          "file": "assets/photography-NOTICE.md",
+          "sha256": "9258ba7c22111e602832b7a252f0fdcecaef2ba01f5f799bbf00bb2ff1e9c0cd"
+        },
+        {
+          "file": "assets/photo-sources.json",
+          "sha256": "f3a0d401f5f1bfd03708319c646d8083810fd95982043afe9508bfd3c349a4fe"
+        },
+        {
+          "file": "assets/master.mp4",
+          "sha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58"
+        },
+        {
+          "file": "assets/timing.js",
+          "sha256": "d2c3746fa51d81e8f7599b63ec22a7ff579f221fa2cf49b6e47f2d436f1eea66"
+        },
+        {
+          "file": "assets/material-stage.js",
+          "sha256": "77bc1e8779e43a8c7677c98017c7d246d55f7114a861ffca6139735a436c3637"
+        },
+        {
+          "file": "assets/base.css",
+          "sha256": "fea0cf41dd8aeec5afc5e69fd1b2d4c188c90b7383b85a5a44a52e7984b8c52c"
+        },
+        {
+          "file": "assets/photo-desk.jpg",
+          "sha256": "af589f564954f165c05c138b03585c7bb92b824239adfe815416c78e0055f5b0"
+        },
+        {
+          "file": "assets/fonts/NotoSerifSC-700.woff",
+          "sha256": "1a80a9564cf35315471634801238799851eaafeb713dae5449426c62867ad311"
+        },
+        {
+          "file": "assets/fonts/NotoSansSC-900.woff",
+          "sha256": "d2d8a42438b18b65b6577434df4e41bb08c6b5051281757849af00ab743bb58f"
+        },
+        {
+          "file": "assets/fonts/NotoSansSC-500.woff",
+          "sha256": "928d841b1ec663ebce82593568cbc19749fe652f88b8ec960723b7d87b551512"
+        },
+        {
+          "file": "assets/fonts/LXGWWenKai-500.woff",
+          "sha256": "734bd187392579417ac83effe31d37b9de43c7b290bcb400800456511ed79e8f"
+        },
+        {
+          "file": "assets/fonts/NotoSansSC-700.woff",
+          "sha256": "dd0d39a9780eb995c499af0c20cca93b1dfdda865da70871a20890b3e406b968"
+        },
+        {
+          "file": "assets/fonts/ArchivoBlack-400.woff",
+          "sha256": "c029965cfbc3cbb79431babf56d0fee6bc185f366c4fc2a0957817137d374c95"
+        },
+        {
+          "file": "assets/fonts/MaShanZheng-Regular.ttf",
+          "sha256": "6d2546bb189c732a8ca29af9e22457b152387d158aa459e4ac2ce1e51788b7fb"
+        },
+        {
+          "file": "assets/fonts/NotoSansSC-800.woff",
+          "sha256": "b57f9c645b1a4967a3c8914ed41f24d109394a8175e36af08f93e40803e84664"
+        }
+      ],
+      "scope": "作者实际抽看，非独立盲评或逐帧人工听看；程序另查183密集帧、18切点邻帧、首末/左右人色与原声、正圆/字幕/逆向像素、实际风险图字空白"
+    },
+    {
+      "key": "macro-material",
+      "sha256": "cf13eb580cebe85b2ad70b718061143b97e99308f8ebe163403102bb47df2ff2",
+      "viewed": [
+        "当前8状态原生拼版",
+        "4秒/120帧真实编码拼版",
+        "1100帧整片的12个实际抽帧拼版",
+        "24.4秒实际编码原尺寸"
+      ],
+      "judgment": "实际完整编码12抽帧拼版已看；微距细节与原图索引保持上下文，俯拍纸笔与叠加便笺可分；人物圆窗、图外重点和字幕无新冲突；另看24.4实际编码原尺寸，来源/金币局部/重点字空行清楚",
+      "shortAndFullProtectedInputs": [
+        {
+          "file": "timing.json",
+          "sha256": "85d0f04a575dba935c413299cd631ae1ff8aa2e2dadd134590664eaa1c05eb64"
+        },
+        {
+          "file": "assets/look.js",
+          "sha256": "484187aa6a6e7d7cd86bd48a6e928eea8641fd7d655e8f52c7f4f4f7cc324e81"
+        },
+        {
+          "file": "assets/photography-stage.js",
+          "sha256": "7135f9454a8f31ed067f15aefb4e76122cf569939f3fb084558d3a6f3d18a27e"
+        },
+        {
+          "file": "assets/gsap.min.js",
+          "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+        },
+        {
+          "file": "assets/composition.html",
+          "sha256": "8a6ec045824f7ffd884cf450e3b02ba40747b175e2298d52a1fd6e20eb026117"
+        },
+        {
+          "file": "assets/photo-coins.png",
+          "sha256": "de00e068aa6dfbcb6e1962d19a85192bcf853658508cd4f78a2401b364c8f140"
+        },
+        {
+          "file": "assets/scene.js",
+          "sha256": "2f765ddb8bf60a09f441279bf01e5916a92cfd5dac4a1ad6ee9f9f8a3336ed0b"
+        },
+        {
+          "file": "assets/edited-voice.wav",
+          "sha256": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472"
+        },
+        {
+          "file": "assets/photography-NOTICE.md",
+          "sha256": "8f31e5ac47655dac21aa0bf358fc519cc300793053553e75326dc85972e0b182"
+        },
+        {
+          "file": "assets/photo-sources.json",
+          "sha256": "3d0b5415fff30fc699d9d8364b8bd2d05675f0f09fc0efcf1d2a739731872ceb"
+        },
+        {
+          "file": "assets/master.mp4",
+          "sha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58"
+        },
+        {
+          "file": "assets/timing.js",
+          "sha256": "40c5f1fc0f640a986e54fee3996cd7b2205fe3e656d0d2186310d28a8301bfb8"
+        },
+        {
+          "file": "assets/material-stage.js",
+          "sha256": "77bc1e8779e43a8c7677c98017c7d246d55f7114a861ffca6139735a436c3637"
+        },
+        {
+          "file": "assets/base.css",
+          "sha256": "fea0cf41dd8aeec5afc5e69fd1b2d4c188c90b7383b85a5a44a52e7984b8c52c"
+        },
+        {
+          "file": "assets/fonts/NotoSerifSC-700.woff",
+          "sha256": "1a80a9564cf35315471634801238799851eaafeb713dae5449426c62867ad311"
+        },
+        {
+          "file": "assets/fonts/NotoSansSC-900.woff",
+          "sha256": "d2d8a42438b18b65b6577434df4e41bb08c6b5051281757849af00ab743bb58f"
+        },
+        {
+          "file": "assets/fonts/NotoSansSC-500.woff",
+          "sha256": "928d841b1ec663ebce82593568cbc19749fe652f88b8ec960723b7d87b551512"
+        },
+        {
+          "file": "assets/fonts/LXGWWenKai-500.woff",
+          "sha256": "734bd187392579417ac83effe31d37b9de43c7b290bcb400800456511ed79e8f"
+        },
+        {
+          "file": "assets/fonts/NotoSansSC-700.woff",
+          "sha256": "dd0d39a9780eb995c499af0c20cca93b1dfdda865da70871a20890b3e406b968"
+        },
+        {
+          "file": "assets/fonts/ArchivoBlack-400.woff",
+          "sha256": "c029965cfbc3cbb79431babf56d0fee6bc185f366c4fc2a0957817137d374c95"
+        },
+        {
+          "file": "assets/fonts/MaShanZheng-Regular.ttf",
+          "sha256": "6d2546bb189c732a8ca29af9e22457b152387d158aa459e4ac2ce1e51788b7fb"
+        },
+        {
+          "file": "assets/fonts/NotoSansSC-800.woff",
+          "sha256": "b57f9c645b1a4967a3c8914ed41f24d109394a8175e36af08f93e40803e84664"
+        }
+      ],
+      "scope": "作者实际抽看，非独立盲评或逐帧人工听看；程序另查183密集帧、18切点邻帧、首末/左右人色与原声、正圆/字幕/逆向像素、实际风险图字空白"
+    },
+    {
+      "key": "overhead-workbench",
+      "sha256": "c0323fef94d4d0238d7623dbaee2c79b62e1fb6ff6cd89535dce81bd4848e85c",
+      "viewed": [
+        "当前8状态原生拼版",
+        "4秒/120帧真实编码拼版",
+        "1100帧整片的12个实际抽帧拼版"
+      ],
+      "judgment": "实际完整编码12抽帧拼版已看；微距细节与原图索引保持上下文，俯拍纸笔与叠加便笺可分；人物圆窗、图外重点和字幕无新冲突",
+      "shortAndFullProtectedInputs": [
+        {
+          "file": "timing.json",
+          "sha256": "36c5cc2f162ace692731ccedb934c6c1bca58954ab37169c494ac813ca59713f"
+        },
+        {
+          "file": "assets/look.js",
+          "sha256": "5b73ad7ea8f51b6621bca7018d370ef8c015c674cd3c6b5adb3286d489c4c1af"
+        },
+        {
+          "file": "assets/photography-stage.js",
+          "sha256": "7135f9454a8f31ed067f15aefb4e76122cf569939f3fb084558d3a6f3d18a27e"
+        },
+        {
+          "file": "assets/gsap.min.js",
+          "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+        },
+        {
+          "file": "assets/composition.html",
+          "sha256": "82f8b31f1336153b6f84b635bb89bd748fc4b5cd1a0fab088bc8c38f434b558d"
+        },
+        {
+          "file": "assets/scene.js",
+          "sha256": "2f765ddb8bf60a09f441279bf01e5916a92cfd5dac4a1ad6ee9f9f8a3336ed0b"
+        },
+        {
+          "file": "assets/edited-voice.wav",
+          "sha256": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472"
+        },
+        {
+          "file": "assets/photography-NOTICE.md",
+          "sha256": "2e2bfeb83d5396e8c65b72cdce5740eb0ceee2cf4ee205f148cbff32faf3631e"
+        },
+        {
+          "file": "assets/photo-workbench.jpg",
+          "sha256": "7ba81b25cbebd0d877feaea8ca6f9a1235c5f9fe79486e2ee1f102093a8e87f0"
+        },
+        {
+          "file": "assets/photo-sources.json",
+          "sha256": "5696dce20c714fe157f4137cf1c556160322cc350e840c085507bbb9eaae83fa"
+        },
+        {
+          "file": "assets/master.mp4",
+          "sha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58"
+        },
+        {
+          "file": "assets/timing.js",
+          "sha256": "a180112f5008895c9e5ef26b0670708d23984529759a6cf7bc01866cc8874eb3"
+        },
+        {
+          "file": "assets/material-stage.js",
+          "sha256": "77bc1e8779e43a8c7677c98017c7d246d55f7114a861ffca6139735a436c3637"
+        },
+        {
+          "file": "assets/base.css",
+          "sha256": "fea0cf41dd8aeec5afc5e69fd1b2d4c188c90b7383b85a5a44a52e7984b8c52c"
+        },
+        {
+          "file": "assets/fonts/NotoSerifSC-700.woff",
+          "sha256": "1a80a9564cf35315471634801238799851eaafeb713dae5449426c62867ad311"
+        },
+        {
+          "file": "assets/fonts/NotoSansSC-900.woff",
+          "sha256": "d2d8a42438b18b65b6577434df4e41bb08c6b5051281757849af00ab743bb58f"
+        },
+        {
+          "file": "assets/fonts/NotoSansSC-500.woff",
+          "sha256": "928d841b1ec663ebce82593568cbc19749fe652f88b8ec960723b7d87b551512"
+        },
+        {
+          "file": "assets/fonts/LXGWWenKai-500.woff",
+          "sha256": "734bd187392579417ac83effe31d37b9de43c7b290bcb400800456511ed79e8f"
+        },
+        {
+          "file": "assets/fonts/NotoSansSC-700.woff",
+          "sha256": "dd0d39a9780eb995c499af0c20cca93b1dfdda865da70871a20890b3e406b968"
+        },
+        {
+          "file": "assets/fonts/ArchivoBlack-400.woff",
+          "sha256": "c029965cfbc3cbb79431babf56d0fee6bc185f366c4fc2a0957817137d374c95"
+        },
+        {
+          "file": "assets/fonts/MaShanZheng-Regular.ttf",
+          "sha256": "6d2546bb189c732a8ca29af9e22457b152387d158aa459e4ac2ce1e51788b7fb"
+        },
+        {
+          "file": "assets/fonts/NotoSansSC-800.woff",
+          "sha256": "b57f9c645b1a4967a3c8914ed41f24d109394a8175e36af08f93e40803e84664"
+        }
+      ],
+      "scope": "作者实际抽看，非独立盲评或逐帧人工听看；程序另查183密集帧、18切点邻帧、首末/左右人色与原声、正圆/字幕/逆向像素、实际风险图字空白"
+    },
+    {
+      "key": "architectural-light",
+      "sha256": "612ba5f1125593d12fb4fb584e4c85772eaee1197fa96186ef03bff5399c70fd",
+      "viewed": [
+        "当前8状态原生拼版",
+        "4秒/120帧真实编码拼版",
+        "1100帧整片的12个实际抽帧拼版"
+      ],
+      "judgment": "实际完整编码12抽帧拼版已看；建筑以主空间/顶光局部区分，生活组图在并列和单图中推进；资料身份、重点与字幕可读，人物圆窗原色无新冲突",
+      "shortAndFullProtectedInputs": [
+        {
+          "file": "timing.json",
+          "sha256": "48925604f62a21d23a4baed7ea03510f728cf892e17a775a222f0ce527e0e00d"
+        },
+        {
+          "file": "assets/look.js",
+          "sha256": "4b3400612253d81797588e6c226d4993106e8f83d4bee0c56eda3aca8c426b57"
+        },
+        {
+          "file": "assets/photography-stage.js",
+          "sha256": "7135f9454a8f31ed067f15aefb4e76122cf569939f3fb084558d3a6f3d18a27e"
+        },
+        {
+          "file": "assets/gsap.min.js",
+          "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+        },
+        {
+          "file": "assets/composition.html",
+          "sha256": "441832a89b31d7ae90deea1c562645f40a4a172bbf7b894acc1b72d22e0dccb9"
+        },
+        {
+          "file": "assets/scene.js",
+          "sha256": "2f765ddb8bf60a09f441279bf01e5916a92cfd5dac4a1ad6ee9f9f8a3336ed0b"
+        },
+        {
+          "file": "assets/edited-voice.wav",
+          "sha256": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472"
+        },
+        {
+          "file": "assets/photography-NOTICE.md",
+          "sha256": "abb8b778721398cea1ded02e0fe73386ecf7141c65413d44e5ffbf9d8a981fa5"
+        },
+        {
+          "file": "assets/photo-interior.jpg",
+          "sha256": "6e67650ac6e1b4fd390b7a1f826cd46738e4571bc4f07bc22ee168eccf3f4149"
+        },
+        {
+          "file": "assets/photo-sources.json",
+          "sha256": "5fb5febb09229c2a5e01ec5fd06e79710f15a35263aaafdc321cd035923b36f7"
+        },
+        {
+          "file": "assets/master.mp4",
+          "sha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58"
+        },
+        {
+          "file": "assets/timing.js",
+          "sha256": "46a03b9e63c72e47b76ca6bc08c4f215e1fec7ac5fdaba9dc8aaa4d523ef5473"
+        },
+        {
+          "file": "assets/material-stage.js",
+          "sha256": "77bc1e8779e43a8c7677c98017c7d246d55f7114a861ffca6139735a436c3637"
+        },
+        {
+          "file": "assets/base.css",
+          "sha256": "fea0cf41dd8aeec5afc5e69fd1b2d4c188c90b7383b85a5a44a52e7984b8c52c"
+        },
+        {
+          "file": "assets/fonts/NotoSerifSC-700.woff",
+          "sha256": "1a80a9564cf35315471634801238799851eaafeb713dae5449426c62867ad311"
+        },
+        {
+          "file": "assets/fonts/NotoSansSC-900.woff",
+          "sha256": "d2d8a42438b18b65b6577434df4e41bb08c6b5051281757849af00ab743bb58f"
+        },
+        {
+          "file": "assets/fonts/NotoSansSC-500.woff",
+          "sha256": "928d841b1ec663ebce82593568cbc19749fe652f88b8ec960723b7d87b551512"
+        },
+        {
+          "file": "assets/fonts/LXGWWenKai-500.woff",
+          "sha256": "734bd187392579417ac83effe31d37b9de43c7b290bcb400800456511ed79e8f"
+        },
+        {
+          "file": "assets/fonts/NotoSansSC-700.woff",
+          "sha256": "dd0d39a9780eb995c499af0c20cca93b1dfdda865da70871a20890b3e406b968"
+        },
+        {
+          "file": "assets/fonts/ArchivoBlack-400.woff",
+          "sha256": "c029965cfbc3cbb79431babf56d0fee6bc185f366c4fc2a0957817137d374c95"
+        },
+        {
+          "file": "assets/fonts/MaShanZheng-Regular.ttf",
+          "sha256": "6d2546bb189c732a8ca29af9e22457b152387d158aa459e4ac2ce1e51788b7fb"
+        },
+        {
+          "file": "assets/fonts/NotoSansSC-800.woff",
+          "sha256": "b57f9c645b1a4967a3c8914ed41f24d109394a8175e36af08f93e40803e84664"
+        }
+      ],
+      "scope": "作者实际抽看，非独立盲评或逐帧人工听看；程序另查183密集帧、18切点邻帧、首末/左右人色与原声、正圆/字幕/逆向像素、实际风险图字空白"
+    },
+    {
+      "key": "everyday-story",
+      "sha256": "e420565fdea30a6308d2d762939f81c98b099f31afa53a1d0ca3cbb3312ba68e",
+      "viewed": [
+        "当前8状态原生拼版",
+        "4秒/120帧真实编码拼版",
+        "1100帧整片的12个实际抽帧拼版"
+      ],
+      "judgment": "实际完整编码12抽帧拼版已看；建筑以主空间/顶光局部区分，生活组图在并列和单图中推进；资料身份、重点与字幕可读，人物圆窗原色无新冲突",
+      "shortAndFullProtectedInputs": [
+        {
+          "file": "timing.json",
+          "sha256": "e1a451b22198af508f335cab0c38b3b5b48a8433907a4b922b22c2998fd74e5d"
+        },
+        {
+          "file": "assets/look.js",
+          "sha256": "a47e090675af4514857f930278f25fdd8b4f1981febc10bb506dd2ea15a402dc"
+        },
+        {
+          "file": "assets/photography-stage.js",
+          "sha256": "7135f9454a8f31ed067f15aefb4e76122cf569939f3fb084558d3a6f3d18a27e"
+        },
+        {
+          "file": "assets/gsap.min.js",
+          "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+        },
+        {
+          "file": "assets/composition.html",
+          "sha256": "6e8430a4c571d7709206c0666ed8261580398861ed61ae1f0ec5108aea41d548"
+        },
+        {
+          "file": "assets/photo-coins.png",
+          "sha256": "de00e068aa6dfbcb6e1962d19a85192bcf853658508cd4f78a2401b364c8f140"
+        },
+        {
+          "file": "assets/scene.js",
+          "sha256": "2f765ddb8bf60a09f441279bf01e5916a92cfd5dac4a1ad6ee9f9f8a3336ed0b"
+        },
+        {
+          "file": "assets/edited-voice.wav",
+          "sha256": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472"
+        },
+        {
+          "file": "assets/photo-groceries.jpg",
+          "sha256": "7e1e1a1d2d0aad2d04c6edd55f5bd28e74bd91b3538b8a9a26e603c452dbebee"
+        },
+        {
+          "file": "assets/photography-NOTICE.md",
+          "sha256": "1cd0c1ff22fb29500a5b010c33989746f40f89852a602d9cd182a6e35aa37c3c"
+        },
+        {
+          "file": "assets/photo-sources.json",
+          "sha256": "1dd9fe8de54f1c9443fc4164ce50c9585ed4a436b6ac05b3a91312871dfed251"
+        },
+        {
+          "file": "assets/master.mp4",
+          "sha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58"
+        },
+        {
+          "file": "assets/timing.js",
+          "sha256": "955507c36ed8b49f649a635dc6ad3af5715733ac03e95f833e984e41cc4c7ffd"
+        },
+        {
+          "file": "assets/material-stage.js",
+          "sha256": "77bc1e8779e43a8c7677c98017c7d246d55f7114a861ffca6139735a436c3637"
+        },
+        {
+          "file": "assets/base.css",
+          "sha256": "fea0cf41dd8aeec5afc5e69fd1b2d4c188c90b7383b85a5a44a52e7984b8c52c"
+        },
+        {
+          "file": "assets/photo-desk.jpg",
+          "sha256": "af589f564954f165c05c138b03585c7bb92b824239adfe815416c78e0055f5b0"
+        },
+        {
+          "file": "assets/fonts/NotoSerifSC-700.woff",
+          "sha256": "1a80a9564cf35315471634801238799851eaafeb713dae5449426c62867ad311"
+        },
+        {
+          "file": "assets/fonts/NotoSansSC-900.woff",
+          "sha256": "d2d8a42438b18b65b6577434df4e41bb08c6b5051281757849af00ab743bb58f"
+        },
+        {
+          "file": "assets/fonts/NotoSansSC-500.woff",
+          "sha256": "928d841b1ec663ebce82593568cbc19749fe652f88b8ec960723b7d87b551512"
+        },
+        {
+          "file": "assets/fonts/LXGWWenKai-500.woff",
+          "sha256": "734bd187392579417ac83effe31d37b9de43c7b290bcb400800456511ed79e8f"
+        },
+        {
+          "file": "assets/fonts/NotoSansSC-700.woff",
+          "sha256": "dd0d39a9780eb995c499af0c20cca93b1dfdda865da70871a20890b3e406b968"
+        },
+        {
+          "file": "assets/fonts/ArchivoBlack-400.woff",
+          "sha256": "c029965cfbc3cbb79431babf56d0fee6bc185f366c4fc2a0957817137d374c95"
+        },
+        {
+          "file": "assets/fonts/MaShanZheng-Regular.ttf",
+          "sha256": "6d2546bb189c732a8ca29af9e22457b152387d158aa459e4ac2ce1e51788b7fb"
+        },
+        {
+          "file": "assets/fonts/NotoSansSC-800.woff",
+          "sha256": "b57f9c645b1a4967a3c8914ed41f24d109394a8175e36af08f93e40803e84664"
+        }
+      ],
+      "scope": "作者实际抽看，非独立盲评或逐帧人工听看；程序另查183密集帧、18切点邻帧、首末/左右人色与原声、正圆/字幕/逆向像素、实际风险图字空白"
+    },
+    {
+      "key": "spotlight-stage",
+      "sha256": "99478a896b4e876707450e9a06c319bf5d49b21a3097490aa829c3b10623e89f",
+      "viewed": [
+        "当前8状态原生拼版",
+        "4秒/120帧真实编码拼版",
+        "1100帧整片的12个实际抽帧拼版",
+        "24.4秒实际编码原尺寸"
+      ],
+      "judgment": "实际完整编码12抽帧拼版与24.4原尺寸已看；舞台摄影合成的来源/物件/重点字分开、片上署名清楚；黑白印样只灰度照片，人物保持原色正圆，未见新阻塞",
+      "shortAndFullProtectedInputs": [
+        {
+          "file": "timing.json",
+          "sha256": "10bf0943636641da9dc5a36e953db3390f55a3c0d0b6ef7049a4273bf85e8447"
+        },
+        {
+          "file": "assets/look.js",
+          "sha256": "ab2b5d946042c9b145ba55c7daaced2fe850ad9b8590a29c1b13751378b5c020"
+        },
+        {
+          "file": "assets/photography-stage.js",
+          "sha256": "7135f9454a8f31ed067f15aefb4e76122cf569939f3fb084558d3a6f3d18a27e"
+        },
+        {
+          "file": "assets/photo-stage.jpg",
+          "sha256": "903103af5f89eaadfd48e89f5eec068114631e35833b677488c3685de7e769d8"
+        },
+        {
+          "file": "assets/gsap.min.js",
+          "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+        },
+        {
+          "file": "assets/composition.html",
+          "sha256": "c2e45479d9f32d1e2f22e4527f5cffde7972c92d25145b14711753872fe41c79"
+        },
+        {
+          "file": "assets/photo-coins.png",
+          "sha256": "de00e068aa6dfbcb6e1962d19a85192bcf853658508cd4f78a2401b364c8f140"
+        },
+        {
+          "file": "assets/scene.js",
+          "sha256": "2f765ddb8bf60a09f441279bf01e5916a92cfd5dac4a1ad6ee9f9f8a3336ed0b"
+        },
+        {
+          "file": "assets/edited-voice.wav",
+          "sha256": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472"
+        },
+        {
+          "file": "assets/photography-NOTICE.md",
+          "sha256": "c9360a53f669517541b153d6f1ecfaa18f09f2e5e53c16bca103b69df428e21e"
+        },
+        {
+          "file": "assets/photo-sources.json",
+          "sha256": "a82f8fa022691d8cef04547ce3d7023cdba373d87dd5289bdbddb24414a0aa0d"
+        },
+        {
+          "file": "assets/master.mp4",
+          "sha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58"
+        },
+        {
+          "file": "assets/timing.js",
+          "sha256": "f6444ac4c459dd6038d5518dba478945dc5c51c61c5af4430bd3fc5f5e321a53"
+        },
+        {
+          "file": "assets/material-stage.js",
+          "sha256": "77bc1e8779e43a8c7677c98017c7d246d55f7114a861ffca6139735a436c3637"
+        },
+        {
+          "file": "assets/base.css",
+          "sha256": "fea0cf41dd8aeec5afc5e69fd1b2d4c188c90b7383b85a5a44a52e7984b8c52c"
+        },
+        {
+          "file": "assets/fonts/NotoSerifSC-700.woff",
+          "sha256": "1a80a9564cf35315471634801238799851eaafeb713dae5449426c62867ad311"
+        },
+        {
+          "file": "assets/fonts/NotoSansSC-900.woff",
+          "sha256": "d2d8a42438b18b65b6577434df4e41bb08c6b5051281757849af00ab743bb58f"
+        },
+        {
+          "file": "assets/fonts/NotoSansSC-500.woff",
+          "sha256": "928d841b1ec663ebce82593568cbc19749fe652f88b8ec960723b7d87b551512"
+        },
+        {
+          "file": "assets/fonts/LXGWWenKai-500.woff",
+          "sha256": "734bd187392579417ac83effe31d37b9de43c7b290bcb400800456511ed79e8f"
+        },
+        {
+          "file": "assets/fonts/NotoSansSC-700.woff",
+          "sha256": "dd0d39a9780eb995c499af0c20cca93b1dfdda865da70871a20890b3e406b968"
+        },
+        {
+          "file": "assets/fonts/ArchivoBlack-400.woff",
+          "sha256": "c029965cfbc3cbb79431babf56d0fee6bc185f366c4fc2a0957817137d374c95"
+        },
+        {
+          "file": "assets/fonts/MaShanZheng-Regular.ttf",
+          "sha256": "6d2546bb189c732a8ca29af9e22457b152387d158aa459e4ac2ce1e51788b7fb"
+        },
+        {
+          "file": "assets/fonts/NotoSansSC-800.woff",
+          "sha256": "b57f9c645b1a4967a3c8914ed41f24d109394a8175e36af08f93e40803e84664"
+        }
+      ],
+      "scope": "作者实际抽看，非独立盲评或逐帧人工听看；程序另查183密集帧、18切点邻帧、首末/左右人色与原声、正圆/字幕/逆向像素、实际风险图字空白"
+    },
+    {
+      "key": "darkroom-prints",
+      "sha256": "99a7db26d092c00083a99ff3e6bb1bdb8bb089397c1d70f9232f6a12543b6505",
+      "viewed": [
+        "当前8状态原生拼版",
+        "4秒/120帧真实编码拼版",
+        "1100帧整片的12个实际抽帧拼版",
+        "24.4秒实际编码原尺寸"
+      ],
+      "judgment": "实际完整编码12抽帧拼版与24.4原尺寸已看；舞台摄影合成的来源/物件/重点字分开、片上署名清楚；黑白印样只灰度照片，人物保持原色正圆，未见新阻塞",
+      "shortAndFullProtectedInputs": [
+        {
+          "file": "timing.json",
+          "sha256": "abff151d342fa46bbb239ad1ffcd56bcbac59eb60e5456fc974df43eb8b61633"
+        },
+        {
+          "file": "assets/look.js",
+          "sha256": "448f6e349639310dfe731aca207eb05a05773d78b98b057a6161a63a81c7174a"
+        },
+        {
+          "file": "assets/photography-stage.js",
+          "sha256": "7135f9454a8f31ed067f15aefb4e76122cf569939f3fb084558d3a6f3d18a27e"
+        },
+        {
+          "file": "assets/gsap.min.js",
+          "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+        },
+        {
+          "file": "assets/composition.html",
+          "sha256": "11f220e3a7d207b26a91911f6ae0915cddcadd08f73ea06cc19367b93fc2cc7a"
+        },
+        {
+          "file": "assets/photo-coins.png",
+          "sha256": "de00e068aa6dfbcb6e1962d19a85192bcf853658508cd4f78a2401b364c8f140"
+        },
+        {
+          "file": "assets/scene.js",
+          "sha256": "2f765ddb8bf60a09f441279bf01e5916a92cfd5dac4a1ad6ee9f9f8a3336ed0b"
+        },
+        {
+          "file": "assets/edited-voice.wav",
+          "sha256": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472"
+        },
+        {
+          "file": "assets/photo-groceries.jpg",
+          "sha256": "7e1e1a1d2d0aad2d04c6edd55f5bd28e74bd91b3538b8a9a26e603c452dbebee"
+        },
+        {
+          "file": "assets/photography-NOTICE.md",
+          "sha256": "84e1826bbde76fe3d8bc1e5b7bc4669da822aaae44a8d3bd5cfb7dd4767d89bf"
+        },
+        {
+          "file": "assets/photo-sources.json",
+          "sha256": "1dd9fe8de54f1c9443fc4164ce50c9585ed4a436b6ac05b3a91312871dfed251"
+        },
+        {
+          "file": "assets/master.mp4",
+          "sha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58"
+        },
+        {
+          "file": "assets/timing.js",
+          "sha256": "72151c004c6ea7120fd4e686416feec085bd4061b5cd6a92a66f5af65bd62de6"
+        },
+        {
+          "file": "assets/material-stage.js",
+          "sha256": "77bc1e8779e43a8c7677c98017c7d246d55f7114a861ffca6139735a436c3637"
+        },
+        {
+          "file": "assets/base.css",
+          "sha256": "fea0cf41dd8aeec5afc5e69fd1b2d4c188c90b7383b85a5a44a52e7984b8c52c"
+        },
+        {
+          "file": "assets/photo-desk.jpg",
+          "sha256": "af589f564954f165c05c138b03585c7bb92b824239adfe815416c78e0055f5b0"
+        },
+        {
+          "file": "assets/fonts/NotoSerifSC-700.woff",
+          "sha256": "1a80a9564cf35315471634801238799851eaafeb713dae5449426c62867ad311"
+        },
+        {
+          "file": "assets/fonts/NotoSansSC-900.woff",
+          "sha256": "d2d8a42438b18b65b6577434df4e41bb08c6b5051281757849af00ab743bb58f"
+        },
+        {
+          "file": "assets/fonts/NotoSansSC-500.woff",
+          "sha256": "928d841b1ec663ebce82593568cbc19749fe652f88b8ec960723b7d87b551512"
+        },
+        {
+          "file": "assets/fonts/LXGWWenKai-500.woff",
+          "sha256": "734bd187392579417ac83effe31d37b9de43c7b290bcb400800456511ed79e8f"
+        },
+        {
+          "file": "assets/fonts/NotoSansSC-700.woff",
+          "sha256": "dd0d39a9780eb995c499af0c20cca93b1dfdda865da70871a20890b3e406b968"
+        },
+        {
+          "file": "assets/fonts/ArchivoBlack-400.woff",
+          "sha256": "c029965cfbc3cbb79431babf56d0fee6bc185f366c4fc2a0957817137d374c95"
+        },
+        {
+          "file": "assets/fonts/MaShanZheng-Regular.ttf",
+          "sha256": "6d2546bb189c732a8ca29af9e22457b152387d158aa459e4ac2ce1e51788b7fb"
+        },
+        {
+          "file": "assets/fonts/NotoSansSC-800.woff",
+          "sha256": "b57f9c645b1a4967a3c8914ed41f24d109394a8175e36af08f93e40803e84664"
+        }
+      ],
+      "scope": "作者实际抽看，非独立盲评或逐帧人工听看；程序另查183密集帧、18切点邻帧、首末/左右人色与原声、正圆/字幕/逆向像素、实际风险图字空白"
+    }
+  ],
+  "needsRevision": [],
+  "sameDecodedAudioHash": "f61d6839ef185edd3268011f553bc8ee2f7ad6afd261cbf596e02d416d7da70b",
+  "userVisualApproval": false
+}

@@ -1,19 +1,13 @@
-# 100种画风生产进度
+# 100种画风实际落地
 
-正式源1.12.0，92种实现：20种用户认可、72种制作验证；另8种摄影方向尚未完成。100条实际视频与正式整合目标继续active，原始材料、照片候选和配方不计完成。
+正式源1.13.0，100种均有完整视频和可复用模板：20种用户认可、80种制作验证，0候选。100项是材料、摄影、传统媒介与原创配方的视觉方向，不是互斥行业标准或所有世界画风清单。每种配合四个完整专家模块与适当原声，统一中文财经fixture，1080×1920/30fps/1100帧，人物原色、全程正圆窗、字幕top1600与60px/两行，单一人声。
 
-第九批新增A85金属錾刻、A86微缩木偶、A87硬质积木、A88透明玻璃、A89陶瓷物件、A90镀铬液态、A91等距白模、A92充气软雕、A93流体凝胶、A100全息投影。全部1080×1920/30fps/1100帧，人物原色、全程正圆、1600位置字幕与单一原声保持。五幅原始AI材料保留原像素/完整prompt/geometry/provenance/SHA；五种立体代码固定Three r181，保留完整MIT许可和RoundedBox本机源SHA。没有升级依赖。
+最后八种A21纪实现场、A22桌面静物、A23微距材质、A24俯拍操作台、A25建筑光影、A26生活场景叙事、A27舞台聚光、A28黑白暗房使用七个真实摄影来源。原始摄影、精确SHA、作者/源页/许可及数字改编说明保存在每模板photo-sources.json/photography-NOTICE.md和shared/photos/index.json；stage只取无人地板，俯拍避广告图册，照片不指认本段人物、事件、经历、交易或背书。舞台daveynin/CCBY2.0有片上署名和完整附带来源/许可/裁切合成说明；其余为Commons记录CC0。黑白仅用于照片，原色人物不受灰度影响。历史币不是当代投资/价格/鉴定依据。
 
-木偶用完整原始姿态切换及有限轻摆，控制线出画，不虚称关节绑定或真实定格。金属是成形薄板器物，积木重物是配重环，不冒用品牌或可照图搭建。陶瓷去掉悬空假台面；充气只做有限图像形变，不当真实质量演示。玻璃有非零厚度/透射与条纹折射；白模正交白体块/台阶/接触影；铬面是连续圆曲面与本地灯板反射；凝胶是透明包裹内芯的解析回流；全息用相应轮廓切片/发射盘/弱光锥，不用随机点云。这些是概念图解，不是工艺、流体、光学或全息设备实验。
+当前8原生8状态拼版、真实4秒/120帧编码拼版和整片12抽帧拼版由作者实际看过，具体原尺寸与修正见batch10记录。程序183密集帧、18切点邻帧、首末/左右源人色、圆窗/字幕、逆向像素、实际图字空行与原声均检查；短测/整片HTML窗变换与真实渲染素材/图形代码/字体/时间轴逐一绑定，不借旧源通过。实际风险空行原生：documentary 120px, tabletop-stilllife 55px, macro-material 56px, overhead-workbench 60px, architectural-light 55px, everyday-story 80px, spotlight-stage 56px, darkroom-prints 82px；编码：documentary 121px, tabletop-stilllife 56px, macro-material 57px, overhead-workbench 61px, architectural-light 56px, everyday-story 81px, spotlight-stage 57px, darkroom-prints 83px。16px门槛保持，抽样不冒称全帧碰撞证明。8条解码原声一致；80研究工程均verified、全部当前输入与实际MP4精确SHA匹配。没有逐帧人工听看或独立盲评声明，不把制作验证等同用户逐条审美认可。
 
-实际审看修掉陶瓷台面悬空、木偶重复底注、3D文字压背景板、铬勾埋进倒角、凝胶内部不清、全息发射盘截断。袋身与圆负重做区分，木偶/充气微摆明确归零。各旧版源/原生拼版在本机研究历史中保留，最终10条都重做真实4秒/120帧实测和完整1100帧编码，没有借旧源通过。
+新8正式入口独立init/build三语义状态图像/标题/字幕精确相同，另独立完整摄影重建比对全长原声和逐秒像素；摄影/黑白两种motion-only .55→1秒探针验证途中改变与停稳图文/原声/字幕保护。正式总览100实体相对MP4/封面/证据全部播放/Range206/拖动/筛选/配方/对比/390手机通过；研究进度80流，图谱100真实图/86流。所有历史批次证据保留，四个完整专家正文保持。
 
-作者实际看了当前10个8状态原生拼版、10个真实4秒拼版、10个整片12抽帧拼版及记录中的原尺寸。程序另查183密集帧、18邻帧、首末/左右人色与原声、正圆/字幕/逆向像素，短测/整片的保护渲染输入也精确相同。原生风险重点词前整行空白：chased-metal 79px, miniature-puppet 36px, building-blocks 57px, optical-glass 80px, ceramic-objects 78px, liquid-chrome 118px, isometric-maquette 80px, inflatable-sculpture 58px, viscous-gel 151px, holographic-volume 109px；编码：chased-metal 80px, miniature-puppet 37px, building-blocks 57px, optical-glass 81px, ceramic-objects 79px, liquid-chrome 119px, isometric-maquette 81px, inflatable-sculpture 59px, viscous-gel 152px, holographic-volume 110px。16px门槛保持，实际像素测量不等于所有帧碰撞证明，DOM行盒也不代替字形。10条全长解码原声相同，72研究工程全部verified、当前输入与实际MP4证据精确SHA匹配。没有逐帧人工听看或独立盲评声明，不把制作验证当用户逐条视觉认可。
+shared/为场景和原始素材，scripts/为研究工具，batches/记录判断，evidence/绑定实际验证；正式模板在../../style-library/。大批MP4、中间帧、依赖缓存不进Git；固定原声fixture、原创源与可重建模板进私有库。用户授权的100方向已制作整合，后续新内容由四个完整模块重新设计，固定案例不等于自动适配任意新素材。声音按内容选择，本轮保留原声，无强制配乐或拟音。
 
-10模板正式入口独立init/build后三个语义状态解释区PNG/标题/字幕精确匹配。全息另独立完整重建，逐秒像素/全长原声比较见证据。木偶与玻璃motion-only .55→1秒实际改变途中几何，13.7辅助字等待、14.6停稳，18.9解释区/WAV/字幕时序保持。四个完整专家正文和旧82稳定模板保留。
-
-正式总览92个实体相对MP4/封面/证据，逐条SHA匹配，全部播放/Range206/拖动/筛选/配方/对比/390手机通过；研究页72流，图谱92实际图/78流。8个摄影候选无假视频。未来照片的原始像素/来源/许可与观看范围在batch10研究证据中，未制作的方向不计完成。摄影不拿AI照片冒充真实现场，也不将资料照片视为本段人物或事件。
-
-shared/为场景和原始素材，scripts/为研究工具，batches/记录判断，evidence/绑定实际验证；正式模板在../../style-library/。大批MP4、中间帧、运行依赖和馆方仅供研究图片不进Git；固定原声fixture、原创源和可重建模板进私有库。新内容由四个完整模块重新设计，固定财经例子不等于自动适配任意素材。
-
-HF0.8.174、Playwright1.59.1、8本地字体固定。分批stage/seal/validate/privatepush并核对远端HEAD，再封包安装；缓存复用要求verified状态、当前输入和精确MP4证据一致，build/check不能认证旧片。
+固定HF0.8.174、Playwright1.59.1、Three r181与8本地字体；不升级依赖。stage/seal/validate/privatepush核对远端HEAD后封包安装；缓存复用要求verified状态、当前输入和精确MP4一致，build/check不能认证旧片。

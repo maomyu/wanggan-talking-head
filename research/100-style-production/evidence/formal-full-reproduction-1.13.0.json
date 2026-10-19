@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "key": "spotlight-stage",
+  "version": "1.13.0",
+  "scope": "从正式插件独立init/build/check/render/verify生成完整1100帧；与研究成片逐秒像素和完整解码音频比较",
+  "sourceSha256": "99478a896b4e876707450e9a06c319bf5d49b21a3097490aa829c3b10623e89f",
+  "formalSha256": "24ec6def353fbd0d442526ddad6b093b83286b40ed3b02064afe55e990894b53",
+  "identicalEncodedFile": false,
+  "pixelMetrics": {
+    "sampledFrames": 37,
+    "mean": 4.86597708819931e-07,
+    "max": 1.800411522633745e-05
+  },
+  "decodedVoiceIdentical": true
+}

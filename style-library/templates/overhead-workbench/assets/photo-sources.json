@@ -1,0 +1,21 @@
+{
+  "originals": [
+    {
+      "key": "workbench",
+      "file": "shared/photos/workbench.jpg",
+      "title": "File:Books, pencils, laptop, and iphone on a desk (Unsplash).jpg",
+      "width": 3670,
+      "height": 2462,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Books%2C_pencils%2C_laptop%2C_and_iphone_on_a_desk_%28Unsplash%29.jpg",
+      "descriptionPage": "https://commons.wikimedia.org/wiki/File:Books,_pencils,_laptop,_and_iphone_on_a_desk_(Unsplash).jpg",
+      "artist": "Aleks Dorohovich aleksdorohovich",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sha256": "7ba81b25cbebd0d877feaea8ca6f9a1235c5f9fe79486e2ee1f102093a8e87f0",
+      "actuallyViewed": true,
+      "status": "photographic-research-candidate; no style/video yet"
+    }
+  ],
+  "changes": "Code-only crop, annotation, layout and optional photo-only grayscale; original image files unchanged",
+  "boundary": "Stock imagery, not this speaker or events/transactions in the narration"
+}

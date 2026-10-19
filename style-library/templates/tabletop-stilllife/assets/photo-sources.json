@@ -1,0 +1,22 @@
+{
+  "originals": [
+    {
+      "key": "desk",
+      "file": "shared/photos/desk.jpg",
+      "title": "File:Desktop with laptop and calculator (Unsplash).jpg",
+      "width": 4032,
+      "height": 3024,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Desktop_with_laptop_and_calculator_%28Unsplash%29.jpg",
+      "descriptionPage": "https://commons.wikimedia.org/wiki/File:Desktop_with_laptop_and_calculator_(Unsplash).jpg",
+      "artist": "作者未标明（Commons记录）",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sha256": "af589f564954f165c05c138b03585c7bb92b824239adfe815416c78e0055f5b0",
+      "actuallyViewed": true,
+      "status": "photographic-research-candidate; no style/video yet",
+      "sourceArtistRaw": "AnonymousUnknown author"
+    }
+  ],
+  "changes": "Code-only crop, annotation, layout and optional photo-only grayscale; original image files unchanged",
+  "boundary": "Stock imagery, not this speaker or events/transactions in the narration"
+}

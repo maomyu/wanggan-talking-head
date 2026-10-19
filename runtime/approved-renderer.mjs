@@ -15,7 +15,7 @@ const c=layout.caption||{},num=(v,f)=>Number.isFinite(v)?v:f;for(const [k,v]of O
 const css=`#captions{left:${num(c.x,64)}px;top:${num(c.y,1600)}px;width:${num(c.width,952)}px}#caption-text{font-size:${num(c.size,60)}px}`;
 html=html.replace('</head>','<style id="project-layout">'+css+'</style></head>');
 if(motion.travelSeconds!==undefined){if(!(motion.travelSeconds>.05&&motion.travelSeconds<=3))throw Error('人物交接时长超出有效范围');if(style.motionParameter==='data-person-travel'){if(!html.includes('data-person-travel='))throw Error('模板缺少已声明的人物运动参数');html=html.replace(/data-person-travel="[^"]*"/,`data-person-travel="${motion.travelSeconds}"`)}else if(motion.travelSeconds!==.6)throw Error('此历史模板未声明独立的人物速度参数。请由动效skill在单模块保护范围内实现custom构建，再验证人物路径与其他动画；不会全局替换相同数值。');}
-fs.writeFileSync(path.join(root,'index.html'),html);put('timing.json',timing);put('edit-plan.json',edit);put('facts.json',{source:timing.source,claims:timing.captions.map(c=>({text:c.text,sourceStart:c.sourceStart,sourceEnd:c.sourceEnd})),graphics:'已认可财经原稿的解释示意；不作新素材自动内容模板'});
+fs.writeFileSync(path.join(root,'index.html'),html);put('timing.json',timing);put('edit-plan.json',edit);put('facts.json',{source:timing.source,claims:timing.captions.map(c=>({text:c.text,sourceStart:c.sourceStart,sourceEnd:c.sourceEnd})),graphics:'已认可财经原稿的解释示意；不作新素材自动内容模板',...(fs.existsSync(path.join(root,'assets/photo-sources.json'))?{photographicSources:read(path.join(root,'assets/photo-sources.json'))}:{})});
 const materialKeys=['chalk','paper-stage','type-poster','cel','sci-fi-wireframe'];
 if(materialKeys.includes(style.key)||style.fontRoles){
  // Text can be authored in a local helper module as well as the entry HTML.

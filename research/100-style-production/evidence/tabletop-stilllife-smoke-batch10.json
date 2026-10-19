@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "key": "tabletop-stilllife",
+  "sourceWindow": [
+    27.0,
+    31.0
+  ],
+  "frames": 120,
+  "width": 1080,
+  "height": 1920,
+  "actualEncoded": true,
+  "scope": "指定4秒窗口的真实编码，非整片验证"
+}

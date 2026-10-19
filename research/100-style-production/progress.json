@@ -2,9 +2,9 @@
   "goal": "100个实际画风视频与正式插件整合",
   "total": 100,
   "userApproved": 20,
-  "productionVerified": 72,
+  "productionVerified": 80,
   "inProduction": 0,
-  "queued": 8,
+  "queued": 0,
   "styles": [
     {
       "id": "A01",
@@ -191,72 +191,80 @@
       "key": "documentary",
       "name": "纪实现场",
       "family": "photo",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/documentary/outputs/final.mp4"
     },
     {
       "id": "A22",
       "key": "tabletop-stilllife",
       "name": "桌面静物",
       "family": "photo",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/tabletop-stilllife/outputs/final.mp4"
     },
     {
       "id": "A23",
       "key": "macro-material",
       "name": "微距材质",
       "family": "photo",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/macro-material/outputs/final.mp4"
     },
     {
       "id": "A24",
       "key": "overhead-workbench",
       "name": "俯拍操作台",
       "family": "photo",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/overhead-workbench/outputs/final.mp4"
     },
     {
       "id": "A25",
       "key": "architectural-light",
       "name": "建筑光影",
       "family": "photo",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/architectural-light/outputs/final.mp4"
     },
     {
       "id": "A26",
       "key": "everyday-story",
       "name": "生活场景叙事",
       "family": "photo",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/everyday-story/outputs/final.mp4"
     },
     {
       "id": "A27",
       "key": "spotlight-stage",
       "name": "舞台聚光",
       "family": "photo",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/spotlight-stage/outputs/final.mp4"
     },
     {
       "id": "A28",
       "key": "darkroom-prints",
       "name": "黑白暗房",
       "family": "photo",
-      "stage": "queued",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/darkroom-prints/outputs/final.mp4"
     },
     {
       "id": "A29",

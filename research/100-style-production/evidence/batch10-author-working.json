@@ -1,0 +1,180 @@
+{
+  "stage": "eight-current-full-encodes-viewed",
+  "records": [
+    {
+      "key": "documentary",
+      "initialNativeContactViewed": true,
+      "currentNativeContactViewed": true,
+      "actualEncodedContactViewed": true,
+      "actualFullContactViewed": true,
+      "nativeContactSha256": "9c43b4c0880bae2b2417eae16f3669124ea50287d9afcfb99bd3277407931f02",
+      "sourceWindow": [
+        4.5,
+        8.5
+      ],
+      "shortVideoSha256": "bb8e2fc1ca87034777791900d5badf4f1ceae4458faf9c6e85180241098174db",
+      "shortContactSha256": "89e860f1b9c71d87140481a1277ef9fba5315bfb32953d42e01ae257b51f93f6",
+      "shortJudgment": "实际4秒编码拼版已看；人物右下让位后资料/标签依次显现，圆窗和字幕无新冲突",
+      "shortViewedAt": "2026-10-20T07:28:09.536582+08:00",
+      "fullVideoSha256": "2092fc6a0c8ed775f3f0740e8a369449634310bfa4f99f2d501199214c796072",
+      "fullJudgment": "实际完整编码12抽帧拼版已看；城市资料完整上下文与图外标签清楚，debt换窄幅给重点留干净面，人物圆窗/字幕无新冲突",
+      "fullViewedAt": "2026-10-20T07:35:00.479536+08:00"
+    },
+    {
+      "key": "tabletop-stilllife",
+      "initialNativeContactViewed": true,
+      "currentNativeContactViewed": true,
+      "actualEncodedContactViewed": true,
+      "actualFullContactViewed": true,
+      "nativeContactSha256": "becf57437a7f91c043bea0dd8ebd0aaf3513c3c968ec3ea9d6c9a152519f9f64",
+      "nativeOriginalSizeViewed": [
+        29.3
+      ],
+      "sourceWindow": [
+        27,
+        31
+      ],
+      "shortVideoSha256": "f42ebae7661c24b070d1bf36bf1315ac7b52987370629ae186270830e9cb0c10",
+      "shortContactSha256": "f0d9b8d0d1464a0bc6102a34e52d2c7c35d2af502bdbd48557e81c81686e7153",
+      "shortJudgment": "实际27–31秒编码拼版已看；risk到debt/recap，文字在干净侧面，返回主画面过程持续正圆",
+      "shortViewedAt": "2026-10-20T07:28:09.536628+08:00",
+      "fullVideoSha256": "e4adc93c7051d5e753e575afdead46e6fd7e4f0d1dd968f3bb04323c57200fc5",
+      "fullJudgment": "实际完整编码12抽帧拼版已看；斜视桌面与独立侧注贯穿，debt字不再压照片，人物圆窗/上移字幕无新冲突",
+      "fullViewedAt": "2026-10-20T07:34:24.377306+08:00"
+    },
+    {
+      "key": "macro-material",
+      "initialNativeContactViewed": true,
+      "currentNativeContactViewed": true,
+      "actualEncodedContactViewed": true,
+      "actualFullContactViewed": true,
+      "nativeContactSha256": "466d7607e8ddf81afc8da4cf45ef2aede5ba112d0ea28f131425c05247a45eb5",
+      "nativeOriginalSizeViewed": [
+        14.4
+      ],
+      "sourceWindow": [
+        12.4,
+        16.4
+      ],
+      "shortVideoSha256": "e1cb2466400a9c20ca2dd5b91cfdbb8c2c946acb76ffc4983bca7384057b3820",
+      "shortContactSha256": "1a9d5ad84519ac8fcb6fd3ae6c342657ca1a1900372e2f2b8f33f35259d3e786",
+      "shortJudgment": "实际12.4–16.4秒编码拼版已看；整体索引与局部、标签和人物交接清楚",
+      "shortViewedAt": "2026-10-20T07:28:09.536641+08:00",
+      "fullVideoSha256": "cf13eb580cebe85b2ad70b718061143b97e99308f8ebe163403102bb47df2ff2",
+      "fullJudgment": "实际完整编码12抽帧拼版已看；微距细节与原图索引保持上下文，俯拍纸笔与叠加便笺可分；人物圆窗、图外重点和字幕无新冲突；另看24.4实际编码原尺寸，来源/金币局部/重点字空行清楚",
+      "fullViewedAt": "2026-10-20T07:39:31.555516+08:00",
+      "fullOriginalSizeViewed": [
+        24.4
+      ]
+    },
+    {
+      "key": "overhead-workbench",
+      "initialNativeContactViewed": true,
+      "currentNativeContactViewed": true,
+      "actualEncodedContactViewed": true,
+      "actualFullContactViewed": true,
+      "nativeContactSha256": "3d9a5bdf26ea05f33cc70674381f8c2a515b8b724a788febe6343e58eb87136c",
+      "nativeOriginalSizeViewed": [
+        18.9
+      ],
+      "sourceWindow": [
+        14.9,
+        18.9
+      ],
+      "shortVideoSha256": "94da01d01edd97fef713af8c1d2cdd976dca345aadc828158c515b3295a4faeb",
+      "shortContactSha256": "fc1c44269622616b49ead7325e2dca416acbf354eb78b4446cae16c389da6723",
+      "shortJudgment": "实际14.9–18.9秒编码拼版已看；便笺停稳、俯拍纸笔与字幕独立，未见新阻塞",
+      "shortViewedAt": "2026-10-20T07:28:09.536651+08:00",
+      "fullVideoSha256": "c0323fef94d4d0238d7623dbaee2c79b62e1fb6ff6cd89535dce81bd4848e85c",
+      "fullJudgment": "实际完整编码12抽帧拼版已看；微距细节与原图索引保持上下文，俯拍纸笔与叠加便笺可分；人物圆窗、图外重点和字幕无新冲突",
+      "fullViewedAt": "2026-10-20T07:39:31.730517+08:00"
+    },
+    {
+      "key": "architectural-light",
+      "initialNativeContactViewed": true,
+      "currentNativeContactViewed": true,
+      "actualEncodedContactViewed": true,
+      "actualFullContactViewed": true,
+      "nativeContactSha256": "04494a62a4cbfd3ca83a264a9ef47bcad17112e1f5065c170f17321286d3a6fc",
+      "sourceWindow": [
+        14.9,
+        18.9
+      ],
+      "shortVideoSha256": "4af37b6eabcc7cb5a631266975688fed7d598fb8e7c93e02a8424ff73288c8a6",
+      "shortContactSha256": "33347fc5785a03eecd5eac9d9b2152ee3909aca6c6da0bf1d01fbc2e8f2442ae",
+      "shortViewedAt": "2026-10-20T07:28:42.005339+08:00",
+      "shortJudgment": "实际真实4秒编码拼版已看；人物让位后照片/数字注释停稳，进入下一语义镜时无新遮挡或阅读冲突",
+      "fullVideoSha256": "612ba5f1125593d12fb4fb584e4c85772eaee1197fa96186ef03bff5399c70fd",
+      "fullJudgment": "实际完整编码12抽帧拼版已看；建筑以主空间/顶光局部区分，生活组图在并列和单图中推进；资料身份、重点与字幕可读，人物圆窗原色无新冲突",
+      "fullViewedAt": "2026-10-20T07:44:22.552248+08:00"
+    },
+    {
+      "key": "everyday-story",
+      "initialNativeContactViewed": true,
+      "currentNativeContactViewed": true,
+      "actualEncodedContactViewed": true,
+      "actualFullContactViewed": true,
+      "nativeContactSha256": "673c9c41bad7bafb93529f1441bf2b7605216741affe008badaca7d61e71ed27",
+      "sourceWindow": [
+        12.4,
+        16.4
+      ],
+      "shortVideoSha256": "7c8ef91a2dd9230033c5509aa9b0ebc15d363c13720f3bbd6963c585bfd30b67",
+      "shortContactSha256": "40a79eab699646b4d9662e069a27bfe77d22aabe435a21fe251e7a0d114109ba",
+      "shortViewedAt": "2026-10-20T07:28:42.010565+08:00",
+      "shortJudgment": "实际真实4秒编码拼版已看；人物让位后照片/数字注释停稳，进入下一语义镜时无新遮挡或阅读冲突",
+      "fullVideoSha256": "e420565fdea30a6308d2d762939f81c98b099f31afa53a1d0ca3cbb3312ba68e",
+      "fullJudgment": "实际完整编码12抽帧拼版已看；建筑以主空间/顶光局部区分，生活组图在并列和单图中推进；资料身份、重点与字幕可读，人物圆窗原色无新冲突",
+      "fullViewedAt": "2026-10-20T07:44:23.092301+08:00"
+    },
+    {
+      "key": "spotlight-stage",
+      "initialNativeContactViewed": true,
+      "currentNativeContactViewed": true,
+      "actualEncodedContactViewed": true,
+      "actualFullContactViewed": true,
+      "nativeContactSha256": "8b5a65d3c84487a11b5587a1beab1d9d3160352565de0b6e9aac4ca6b169b8d9",
+      "nativeOriginalSizeViewed": [
+        24.4
+      ],
+      "sourceWindow": [
+        20.1,
+        24.1
+      ],
+      "shortVideoSha256": "e43e5cd54eb1639eb8a358af16d6b1c5d2b33fc155f628688909ddfd4e2aa70a",
+      "shortContactSha256": "263ef6582cb2adca61bb827ef644740302605aedfd0310388addfcf647df97dd",
+      "shortViewedAt": "2026-10-20T07:29:03.575088+08:00",
+      "shortJudgment": "当前真实4秒编码拼版已看；舞台risk来源/物件/重点字有空行；黑白印样只灰度照片、人物保持原色，未见新阻塞",
+      "fullVideoSha256": "99478a896b4e876707450e9a06c319bf5d49b21a3097490aa829c3b10623e89f",
+      "fullOriginalSizeViewed": [
+        24.4
+      ],
+      "fullJudgment": "实际完整编码12抽帧拼版与24.4原尺寸已看；舞台摄影合成的来源/物件/重点字分开、片上署名清楚；黑白印样只灰度照片，人物保持原色正圆，未见新阻塞",
+      "fullViewedAt": "2026-10-20T07:48:15.146041+08:00"
+    },
+    {
+      "key": "darkroom-prints",
+      "initialNativeContactViewed": true,
+      "currentNativeContactViewed": true,
+      "actualEncodedContactViewed": true,
+      "actualFullContactViewed": true,
+      "nativeContactSha256": "f54584605259b03bfaf91150545f0ae3df8ba9ad4c551b87dc04e569107f2ee7",
+      "sourceWindow": [
+        12.4,
+        16.4
+      ],
+      "shortVideoSha256": "a96a4535e1c1702fbee10b7e01885ececc6e81dc0999096af65318327a171ffa",
+      "shortContactSha256": "03d4b878f0e757ef105bbbd45d78abfc10b0352358bf1901fe09e050b38d2018",
+      "shortViewedAt": "2026-10-20T07:29:03.580221+08:00",
+      "shortJudgment": "当前真实4秒编码拼版已看；舞台risk来源/物件/重点字有空行；黑白印样只灰度照片、人物保持原色，未见新阻塞",
+      "fullVideoSha256": "99a7db26d092c00083a99ff3e6bb1bdb8bb089397c1d70f9232f6a12543b6505",
+      "fullOriginalSizeViewed": [
+        24.4
+      ],
+      "fullJudgment": "实际完整编码12抽帧拼版与24.4原尺寸已看；舞台摄影合成的来源/物件/重点字分开、片上署名清楚；黑白印样只灰度照片，人物保持原色正圆，未见新阻塞",
+      "fullViewedAt": "2026-10-20T07:48:15.206194+08:00"
+    }
+  ],
+  "needsRevision": [],
+  "scope": "8当前原生/真实4秒/完整1100帧编码抽帧均实际看，另看记录中的原尺寸；作者自查，非独立盲评或逐帧人工听看。"
+}

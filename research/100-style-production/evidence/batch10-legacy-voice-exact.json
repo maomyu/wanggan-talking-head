@@ -1,0 +1,126 @@
+{
+  "ok": false,
+  "records": [
+    {
+      "key": "minimal",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000
+    },
+    {
+      "key": "paper",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000
+    },
+    {
+      "key": "geometry",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000
+    },
+    {
+      "key": "magazine",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000
+    },
+    {
+      "key": "collage",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000
+    },
+    {
+      "key": "line",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000
+    },
+    {
+      "key": "illustration",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000
+    },
+    {
+      "key": "precision",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000
+    },
+    {
+      "key": "blueprint",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000
+    },
+    {
+      "key": "halftone",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000
+    },
+    {
+      "key": "comic",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000
+    },
+    {
+      "key": "film",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000
+    },
+    {
+      "key": "ink",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000
+    },
+    {
+      "key": "clay",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000
+    },
+    {
+      "key": "pixel",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000
+    },
+    {
+      "key": "chalk",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000
+    },
+    {
+      "key": "paper-stage",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000
+    },
+    {
+      "key": "type-poster",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000
+    },
+    {
+      "key": "cel",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000
+    },
+    {
+      "key": "sci-fi-wireframe",
+      "decodedAudioHash": "3e8167744007d7a4168b346a0323310e72c62ade281f6a9ba1f515ac388c37a7",
+      "sameDecodedVoice": false,
+      "samples": 1760000
+    }
+  ],
+  "scope": "原20用户认可视频与当前新增整片完整解码原声精确SHA核对，不是人工听感评审"
+}

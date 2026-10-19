@@ -1,0 +1,190 @@
+{
+  "ok": true,
+  "scope": "actual art-region PNG comparison after nonsequential seeks; computed opaque reading-role contrast",
+  "results": [
+    {
+      "key": "documentary",
+      "artPixelReverseSeek": true,
+      "artSha256": "53cd4622b73f6729775bed43bb5a48e424084fa61339b3054e96a8dc7aa948d4",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 10.1370767203472
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 10.1370767203472
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 11.96698314809966
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 10.1370767203472
+        }
+      ]
+    },
+    {
+      "key": "tabletop-stilllife",
+      "artPixelReverseSeek": true,
+      "artSha256": "92e43f6eae3058e64ba67d88cecd16926ecfd1928b4674809dc5914c5260b5f2",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 9.617488414973227
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 9.617488414973227
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 11.019361158439605
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 9.617488414973227
+        }
+      ]
+    },
+    {
+      "key": "macro-material",
+      "artPixelReverseSeek": true,
+      "artSha256": "a3bc547c6ef30248e9c6cdc96855aa29fb6cbd4c219297baa9787b2dda0bb3f2",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 9.269976515285292
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 9.269976515285292
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 11.028358263895736
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 9.269976515285292
+        }
+      ]
+    },
+    {
+      "key": "overhead-workbench",
+      "artPixelReverseSeek": true,
+      "artSha256": "ba845a0ce8a9ba9d04d5518f34cbeffb8c20a0403fac529dd3fa5ff9bfdfd8a7",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 8.58012000036043
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 8.58012000036043
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 10.061832885388904
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 8.58012000036043
+        }
+      ]
+    },
+    {
+      "key": "architectural-light",
+      "artPixelReverseSeek": true,
+      "artSha256": "8c2511c83fd4c1655ed24687008621b8d8032e89fc062c480c6ed03489260fdc",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 9.475570803291383
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 9.475570803291383
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 11.111047268518467
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 9.475570803291383
+        }
+      ]
+    },
+    {
+      "key": "everyday-story",
+      "artPixelReverseSeek": true,
+      "artSha256": "c3906d333125dca0f82af3b0f6979694cb890748d2558de2465651e6a5f60fab",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 8.874102507280558
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 8.874102507280558
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 10.210764082071936
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 8.874102507280558
+        }
+      ]
+    },
+    {
+      "key": "spotlight-stage",
+      "artPixelReverseSeek": true,
+      "artSha256": "8a8688c86747a76012bec8e7a49fbc291694737c34cf90e1cec47c11e8a733d8",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 14.273874129977772
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 14.273874129977772
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 11.00888104289243
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 14.273874129977772
+        }
+      ]
+    },
+    {
+      "key": "darkroom-prints",
+      "artPixelReverseSeek": true,
+      "artSha256": "2cdc3fda56edba930be64a3896125098ac63bcc4d9ccd6ae360ac6655c9c5e02",
+      "contrast": [
+        {
+          "role": "#title",
+          "ratio": 12.352603057509382
+        },
+        {
+          "role": "#subtitle",
+          "ratio": 12.352603057509382
+        },
+        {
+          "role": "#caption-text",
+          "ratio": 9.600325832947936
+        },
+        {
+          "role": "#scene-labels",
+          "ratio": 12.352603057509382
+        }
+      ]
+    }
+  ]
+}

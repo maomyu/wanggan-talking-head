@@ -57,5 +57,6 @@ read
 ''')
 (D/'启动预览.command').chmod(0o755)
 put(D/'manifest.json',dict(version=C['version'],implemented=len(records),userApproved=C['approvedCount'],productionVerified=C['productionVerifiedCount'],pending=C['plannedCount'],videos=records,scope='所有完成视频为实体相对文件，精确SHA对应正式目录；不依赖研究服务器。未完成方向仍显示候选。'))
-(D/'使用说明.md').write_text(f'# 网感口播画风总览 {C["version"]}\n\n当前{len(records)}种完成，{C["plannedCount"]}种尚未完成，100目标持续推进。点击画风卡后可播放完整实测视频、对比和调整协作配方；人物原色、角落圆窗、字幕上移及原声保留。\n\n视频、封面、目录和样例证据均为本目录中的实体文件，相对链接，不依赖test或旧端口。用已验证的Python3.14启动（其他3.11+也可）：\n\n```sh\npython3.14 serve.py --project . --port 52701\n```\n\n打开 http://127.0.0.1:52701/ 。直接双击HTML会受浏览器本地fetch限制，请通过上述本地服务打开。模板与四个完整skill在正式插件，音画文件按manifest的SHA验证。\n')
+progressText=('100种均已完成完整实测与正式模板。'if C['plannedCount']==0 else f"当前{len(records)}种完成，{C['plannedCount']}种尚未完成，100目标持续推进。")
+(D/'使用说明.md').write_text(f'# 网感口播画风总览 {C["version"]}\n\n{progressText}点击画风卡后可播放完整实测视频、对比和调整协作配方；人物原色、角落圆窗、字幕上移及原声保留。\n\n视频、封面、目录和样例证据均为本目录中的实体文件，相对链接，不依赖test或旧端口。用已验证的Python3.14启动（其他3.11+也可）：\n\n```sh\npython3.14 serve.py --project . --port 52701\n```\n\n打开 http://127.0.0.1:52701/ 。直接双击HTML会受浏览器本地fetch限制，请通过上述本地服务打开。模板与四个完整skill在正式插件，音画文件按manifest的SHA验证。\n')
 print(json.dumps(dict(output=str(D),implemented=len(records),pending=C['plannedCount'],relativeMedia=True,videoHashesVerified=True),ensure_ascii=False))

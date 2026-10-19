@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "1.12.0",
+  "version": "1.13.0",
   "approvedCount": 20,
   "styles": [
     {
@@ -616,6 +616,418 @@
       "suitableFor": [
         "科技",
         "机制"
+      ]
+    },
+    {
+      "id": "A21",
+      "key": "documentary",
+      "name": "纪实现场",
+      "familyKey": "photo",
+      "family": "真实摄影与现场",
+      "visualMechanism": "真实城市高位资料以宽幅上下文和记录式图注组织，随口播逐项标记消费与投资；不是本段人物或事件现场",
+      "profiles": {
+        "layout": "L01",
+        "motion": "M01",
+        "editing": "E01",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "行业观察"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [
+        "R43"
+      ],
+      "assetDisclosure": "真实摄影资料与数字注释/合成；非本段事件或交易",
+      "preview": "previews/documentary.jpg",
+      "implementation": "templates/documentary/index.html",
+      "evidence": "evidence/production-20261020-a21-a22-a23-a24-a25-a26-a27-a28.json",
+      "videoSha256": "2092fc6a0c8ed775f3f0740e8a369449634310bfa4f99f2d501199214c796072",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        225,
+        580,
+        630,
+        630
+      ]
+    },
+    {
+      "id": "A22",
+      "key": "tabletop-stilllife",
+      "name": "桌面静物",
+      "familyKey": "photo",
+      "family": "真实摄影与现场",
+      "visualMechanism": "真实斜视桌面的计算器、笔记本、电脑与光影保持自然关系，独立侧注与细分隔线承担解释；不伪造操作结果或原纸面金融数据",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M01",
+        "editing": "E02",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "生活",
+        "消费"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [
+        "R37"
+      ],
+      "assetDisclosure": "真实摄影资料与数字注释/合成；非本段事件或交易",
+      "preview": "previews/tabletop-stilllife.jpg",
+      "implementation": "templates/tabletop-stilllife/index.html",
+      "evidence": "evidence/production-20261020-a21-a22-a23-a24-a25-a26-a27-a28.json",
+      "videoSha256": "e4adc93c7051d5e753e575afdead46e6fd7e4f0d1dd968f3bb04323c57200fc5",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        225,
+        580,
+        630,
+        630
+      ]
+    },
+    {
+      "id": "A23",
+      "key": "macro-material",
+      "name": "微距材质",
+      "familyKey": "photo",
+      "family": "真实摄影与现场",
+      "visualMechanism": "历史币表面细节被圆形微距窗口放大，并保留原图索引或整体对照；真实纹理承担主视觉，不作为币种鉴定、现代投资或收益证据",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M01",
+        "editing": "E03",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "材料",
+        "工艺"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [
+        "R38"
+      ],
+      "assetDisclosure": "真实摄影资料与数字注释/合成；非本段事件或交易",
+      "preview": "previews/macro-material.jpg",
+      "implementation": "templates/macro-material/index.html",
+      "evidence": "evidence/production-20261020-a21-a22-a23-a24-a25-a26-a27-a28.json",
+      "videoSha256": "cf13eb580cebe85b2ad70b718061143b97e99308f8ebe163403102bb47df2ff2",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        225,
+        580,
+        630,
+        630
+      ]
+    },
+    {
+      "id": "A24",
+      "key": "overhead-workbench",
+      "name": "俯拍操作台",
+      "familyKey": "photo",
+      "family": "真实摄影与现场",
+      "visualMechanism": "真实俯拍网格本和铅笔构成操作载体，数字便笺在独立侧栏排列；裁去广告图册，不把叠加文字当原始手写或真实操作录像",
+      "profiles": {
+        "layout": "L09",
+        "motion": "M02",
+        "editing": "E07",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "教程",
+        "手作"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [
+        "R39"
+      ],
+      "assetDisclosure": "真实摄影资料与数字注释/合成；非本段事件或交易",
+      "preview": "previews/overhead-workbench.jpg",
+      "implementation": "templates/overhead-workbench/index.html",
+      "evidence": "evidence/production-20261020-a21-a22-a23-a24-a25-a26-a27-a28.json",
+      "videoSha256": "c0323fef94d4d0238d7623dbaee2c79b62e1fb6ff6cd89535dce81bd4848e85c",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        225,
+        580,
+        630,
+        630
+      ]
+    },
+    {
+      "id": "A25",
+      "key": "architectural-light",
+      "name": "建筑光影",
+      "familyKey": "photo",
+      "family": "真实摄影与现场",
+      "visualMechanism": "实际混凝土坡道、梁和光窗以不对称空间切片形成纵深，主空间与光影局部分开阅读；不靠一层纹理，也不指认本段人物地点",
+      "profiles": {
+        "layout": "L14",
+        "motion": "M01",
+        "editing": "E10",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "空间",
+        "思考"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [
+        "R40"
+      ],
+      "assetDisclosure": "真实摄影资料与数字注释/合成；非本段事件或交易",
+      "preview": "previews/architectural-light.jpg",
+      "implementation": "templates/architectural-light/index.html",
+      "evidence": "evidence/production-20261020-a21-a22-a23-a24-a25-a26-a27-a28.json",
+      "videoSha256": "612ba5f1125593d12fb4fb584e4c85772eaee1197fa96186ef03bff5399c70fd",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        225,
+        580,
+        630,
+        630
+      ]
+    },
+    {
+      "id": "A26",
+      "key": "everyday-story",
+      "name": "生活场景叙事",
+      "familyKey": "photo",
+      "family": "真实摄影与现场",
+      "visualMechanism": "真实购物篮、书桌与历史币资料在并列、整体和局部中换镜，建立消费与判断的生活语境；不虚构同一交易、个人经历、价格或产品背书",
+      "profiles": {
+        "layout": "L01",
+        "motion": "M01",
+        "editing": "E01",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "经验",
+        "关系"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [
+        "R37",
+        "R38",
+        "R42"
+      ],
+      "assetDisclosure": "真实摄影资料与数字注释/合成；非本段事件或交易",
+      "preview": "previews/everyday-story.jpg",
+      "implementation": "templates/everyday-story/index.html",
+      "evidence": "evidence/production-20261020-a21-a22-a23-a24-a25-a26-a27-a28.json",
+      "videoSha256": "e420565fdea30a6308d2d762939f81c98b099f31afa53a1d0ca3cbb3312ba68e",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        225,
+        580,
+        630,
+        630
+      ]
+    },
+    {
+      "id": "A27",
+      "key": "spotlight-stage",
+      "name": "舞台聚光",
+      "familyKey": "photo",
+      "family": "真实摄影与现场",
+      "visualMechanism": "真实舞台无人地板局部与单一硬币摄影叠加，局部聚光和暗区控制焦点；明确摄影合成，不冒充实物布景或使用原舞台发言者/投影",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M01",
+        "editing": "E07",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "观点",
+        "发布"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [
+        "R38",
+        "R41"
+      ],
+      "assetDisclosure": "真实摄影资料与数字注释/合成；非本段事件或交易",
+      "preview": "previews/spotlight-stage.jpg",
+      "implementation": "templates/spotlight-stage/index.html",
+      "evidence": "evidence/production-20261020-a21-a22-a23-a24-a25-a26-a27-a28.json",
+      "videoSha256": "99478a896b4e876707450e9a06c319bf5d49b21a3097490aa829c3b10623e89f",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        225,
+        580,
+        630,
+        630
+      ]
+    },
+    {
+      "id": "A28",
+      "key": "darkroom-prints",
+      "name": "黑白暗房",
+      "familyKey": "photo",
+      "family": "真实摄影与现场",
+      "visualMechanism": "仅真实资料照片做数字黑白，白边接触印样与图像索引组织多图阅读；主次由印样尺度变化，不伪造胶片曝光或真实暗房工艺，真人持续原色",
+      "profiles": {
+        "layout": "L02",
+        "motion": "M01",
+        "editing": "E02",
+        "sound": "S01"
+      },
+      "suitableFor": [
+        "历史",
+        "摄影"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "original-production-adaptation",
+      "references": [
+        "R37",
+        "R38",
+        "R42"
+      ],
+      "assetDisclosure": "真实摄影资料与数字注释/合成；非本段事件或交易",
+      "preview": "previews/darkroom-prints.jpg",
+      "implementation": "templates/darkroom-prints/index.html",
+      "evidence": "evidence/production-20261020-a21-a22-a23-a24-a25-a26-a27-a28.json",
+      "videoSha256": "99a7db26d092c00083a99ff3e6bb1bdb8bb089397c1d70f9232f6a12543b6505",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified",
+      "motionParameter": "data-person-travel",
+      "personTravelSeconds": 0.55,
+      "portraitBase": [
+        225,
+        580,
+        630,
+        630
       ]
     },
     {
@@ -4205,192 +4617,8 @@
       ]
     }
   ],
-  "extensions": [
-    {
-      "id": "A21",
-      "key": "documentary",
-      "name": "纪实现场",
-      "familyKey": "photo",
-      "family": "真实摄影与现场",
-      "visualMechanism": "保留真实环境线索，图注像现场记录；不搭建虚构事件现场",
-      "profiles": {
-        "layout": "L01",
-        "motion": "M01",
-        "editing": "E03",
-        "sound": "S02"
-      },
-      "suitableFor": [
-        "行业观察"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A22",
-      "key": "tabletop-stilllife",
-      "name": "桌面静物",
-      "familyKey": "photo",
-      "family": "真实摄影与现场",
-      "visualMechanism": "真实物件占据解释区，用摆放距离和接触关系讲清概念",
-      "profiles": {
-        "layout": "L02",
-        "motion": "M02",
-        "editing": "E04",
-        "sound": "S02"
-      },
-      "suitableFor": [
-        "生活",
-        "消费"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A23",
-      "key": "macro-material",
-      "name": "微距材质",
-      "familyKey": "photo",
-      "family": "真实摄影与现场",
-      "visualMechanism": "放大物件表面的纹理与接缝，图注锚定可见细节",
-      "profiles": {
-        "layout": "L02",
-        "motion": "M12",
-        "editing": "E02",
-        "sound": "S08"
-      },
-      "suitableFor": [
-        "材料",
-        "工艺"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A24",
-      "key": "overhead-workbench",
-      "name": "俯拍操作台",
-      "familyKey": "photo",
-      "family": "真实摄影与现场",
-      "visualMechanism": "工具、步骤和手边物件从上往下组织；真人独立圆窗伴随",
-      "profiles": {
-        "layout": "L07",
-        "motion": "M02",
-        "editing": "E07",
-        "sound": "S02"
-      },
-      "suitableFor": [
-        "教程",
-        "手作"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A25",
-      "key": "architectural-light",
-      "name": "建筑光影",
-      "familyKey": "photo",
-      "family": "真实摄影与现场",
-      "visualMechanism": "大尺度墙面、投影和门洞形成空间秩序；文字落在稳定平面",
-      "profiles": {
-        "layout": "L06",
-        "motion": "M12",
-        "editing": "E02",
-        "sound": "S07"
-      },
-      "suitableFor": [
-        "空间",
-        "思考"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A26",
-      "key": "everyday-story",
-      "name": "生活场景叙事",
-      "familyKey": "photo",
-      "family": "真实摄影与现场",
-      "visualMechanism": "用真实生活物件构成一组情境，图注随场景给出观察点",
-      "profiles": {
-        "layout": "L09",
-        "motion": "M02",
-        "editing": "E07",
-        "sound": "S10"
-      },
-      "suitableFor": [
-        "经验",
-        "关系"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A27",
-      "key": "spotlight-stage",
-      "name": "舞台聚光",
-      "familyKey": "photo",
-      "family": "真实摄影与现场",
-      "visualMechanism": "黑色舞台与局部照明突出解释物件，人物原色视频层不受聚光调色",
-      "profiles": {
-        "layout": "L12",
-        "motion": "M12",
-        "editing": "E08",
-        "sound": "S08"
-      },
-      "suitableFor": [
-        "观点",
-        "发布"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A28",
-      "key": "darkroom-prints",
-      "name": "黑白暗房",
-      "familyKey": "photo",
-      "family": "真实摄影与现场",
-      "visualMechanism": "背景资料以黑白照片和接触印样呈现，原色真人形成明确媒介对照",
-      "profiles": {
-        "layout": "L02",
-        "motion": "M03",
-        "editing": "E09",
-        "sound": "S02"
-      },
-      "suitableFor": [
-        "历史",
-        "摄影"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    }
-  ],
-  "plannedCount": 8,
+  "extensions": [],
+  "plannedCount": 0,
   "totalCount": 100,
   "families": [
     {
@@ -4445,8 +4673,8 @@
     }
   ],
   "profileLibrary": "profiles.json",
-  "researchBoundary": "100项为可组合视觉方向，含材料、传统风格与原创配方；20种用户认可，72种制作验证，8种尚未完成。不是100个互斥行业标准。",
-  "implementedCount": 92,
+  "researchBoundary": "100项全部完成同一口播的实际视频与正式模板：20种用户认可、80种制作验证。目录包含材料、摄影、传统风格与原创配方，可按内容组合；不是互斥行业标准或所有世界画风的穷尽清单。",
+  "implementedCount": 100,
   "userApprovedCount": 20,
-  "productionVerifiedCount": 72
+  "productionVerifiedCount": 80
 }

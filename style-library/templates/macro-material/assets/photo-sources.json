@@ -1,0 +1,21 @@
+{
+  "originals": [
+    {
+      "key": "coins",
+      "file": "shared/photos/coins.png",
+      "title": "File:Two 20kr gold coins.png",
+      "width": 2427,
+      "height": 1268,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Two_20kr_gold_coins.png",
+      "descriptionPage": "https://commons.wikimedia.org/wiki/File:Two_20kr_gold_coins.png",
+      "artist": "Anonimski",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sha256": "de00e068aa6dfbcb6e1962d19a85192bcf853658508cd4f78a2401b364c8f140",
+      "actuallyViewed": true,
+      "status": "photographic-research-candidate; no style/video yet"
+    }
+  ],
+  "changes": "Code-only crop, annotation, layout and optional photo-only grayscale; original image files unchanged",
+  "boundary": "Stock imagery, not this speaker or events/transactions in the narration"
+}

@@ -1,0 +1,21 @@
+{
+  "originals": [
+    {
+      "key": "interior",
+      "file": "shared/photos/interior.jpg",
+      "title": "File:Black white concrete interior (Unsplash).jpg",
+      "width": 4606,
+      "height": 3071,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Black_white_concrete_interior_%28Unsplash%29.jpg",
+      "descriptionPage": "https://commons.wikimedia.org/wiki/File:Black_white_concrete_interior_(Unsplash).jpg",
+      "artist": "Verne Ho verneho",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sha256": "6e67650ac6e1b4fd390b7a1f826cd46738e4571bc4f07bc22ee168eccf3f4149",
+      "actuallyViewed": true,
+      "status": "photographic-research-candidate; no style/video yet"
+    }
+  ],
+  "changes": "Code-only crop, annotation, layout and optional photo-only grayscale; original image files unchanged",
+  "boundary": "Stock imagery, not this speaker or events/transactions in the narration"
+}

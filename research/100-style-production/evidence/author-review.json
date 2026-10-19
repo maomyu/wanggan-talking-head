@@ -72,11 +72,19 @@
     "isometric-maquette",
     "inflatable-sculpture",
     "viscous-gel",
-    "holographic-volume"
+    "holographic-volume",
+    "documentary",
+    "tabletop-stilllife",
+    "macro-material",
+    "overhead-workbench",
+    "architectural-light",
+    "everyday-story",
+    "spotlight-stage",
+    "darkroom-prints"
   ],
   "needsRevision": [],
-  "sourceVersion": "batch09-final-1.12.0",
-  "reviewedAt": "2026-10-20T07:11:19.214331+08:00",
+  "sourceVersion": "batch10-final-1.13.0",
+  "reviewedAt": "2026-10-20T07:48:19.502307+08:00",
   "videoSha256": {
     "woodcut": "1922f51c7f1c49c79351937dcb7284f47c1f339fa0f669dc606c2489cb169402",
     "risograph": "18819130f47aa724167a8a629eb85a8704e646a1b00d49c7fbe27c85014948d0",
@@ -149,6 +157,14 @@
     "isometric-maquette": "82402987c56991cb51ed3822c2ed84e2ded9d9051820e9f7b16d2840a3a8bb2d",
     "inflatable-sculpture": "121d9a211d602ff26eca58ca75130c98347e97d33abcecb1d088b6fcf445d62b",
     "viscous-gel": "8040cdac9da20ff6acb507bac3fdd53174788fb0116c496e0fa079b2b096d8e7",
-    "holographic-volume": "09c69073ce40875b96178c2253535e724c904afac50498e643b289445ca6a5d9"
+    "holographic-volume": "09c69073ce40875b96178c2253535e724c904afac50498e643b289445ca6a5d9",
+    "documentary": "2092fc6a0c8ed775f3f0740e8a369449634310bfa4f99f2d501199214c796072",
+    "tabletop-stilllife": "e4adc93c7051d5e753e575afdead46e6fd7e4f0d1dd968f3bb04323c57200fc5",
+    "macro-material": "cf13eb580cebe85b2ad70b718061143b97e99308f8ebe163403102bb47df2ff2",
+    "overhead-workbench": "c0323fef94d4d0238d7623dbaee2c79b62e1fb6ff6cd89535dce81bd4848e85c",
+    "architectural-light": "612ba5f1125593d12fb4fb584e4c85772eaee1197fa96186ef03bff5399c70fd",
+    "everyday-story": "e420565fdea30a6308d2d762939f81c98b099f31afa53a1d0ca3cbb3312ba68e",
+    "spotlight-stage": "99478a896b4e876707450e9a06c319bf5d49b21a3097490aa829c3b10623e89f",
+    "darkroom-prints": "99a7db26d092c00083a99ff3e6bb1bdb8bb089397c1d70f9232f6a12543b6505"
   }
 }
