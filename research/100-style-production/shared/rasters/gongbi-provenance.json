@@ -1,0 +1,10 @@
+{
+  "styleId": "A67",
+  "key": "gongbi",
+  "purpose": "原创工笔设色方向的解释物件素材，待样帧和视频辨识检查",
+  "generator": "built-in image_gen",
+  "asset": "gongbi-atlas.png",
+  "prompt": "Use case: illustration-story. Create an original, high-quality financial explainer sprite atlas, not a finished video frame. Square canvas with exactly FOUR isolated objects in a precise 2 by 2 grid with generous completely transparent gutters. Top left: an upright unbranded shopping bag with a simple handle. Top right: two round blank coins, no money symbols. Bottom left: a plain protective shield, no crest. Bottom right: a heavy balance weight with a loop handle. Each object is centered within its own quarter, occupies at most 65% of that quarter, and stays entirely inside it. The visual treatment is Chinese gongbi meticulous painting: refined hairline ink contours, careful layered translucent mineral colors, exceptionally delicate hand-painted shading, restrained warm ochre, celadon, cinnabar and ivory, subtle fine painted textile detail. Show the forms as painted objects with convincing internal structure, not generic flat UI icons. Preserve genuine transparency outside each object. No background panel, paper rectangle, scene, people, face, text, lettering, numerals, currency signs, logos, watermark, arrows, captions or decorative items outside the four objects. Original illustrative metaphors, not documentary financial evidence.",
+  "humanGenerated": false,
+  "notice": "人物仍为用户原色原视频；本图为AI生成的图解示意，非真实金融证据。"
+}

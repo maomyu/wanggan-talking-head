@@ -17,9 +17,9 @@ html=html.replace('</head>','<style id="project-layout">'+css+'</style></head>')
 if(motion.travelSeconds!==undefined){if(!(motion.travelSeconds>.05&&motion.travelSeconds<=3))throw Error('人物交接时长超出有效范围');html=html.replace(/(?<!\d)\.6(?!\d)/g,String(motion.travelSeconds));}
 fs.writeFileSync(path.join(root,'index.html'),html);put('timing.json',timing);put('edit-plan.json',edit);put('facts.json',{source:timing.source,claims:timing.captions.map(c=>({text:c.text,sourceStart:c.sourceStart,sourceEnd:c.sourceEnd})),graphics:'已认可财经原稿的解释示意；不作新素材自动内容模板'});
 const materialKeys=['chalk','paper-stage','type-poster','cel','sci-fi-wireframe'];
-if(materialKeys.includes(style.key)){
+if(materialKeys.includes(style.key)||style.fontRoles){
  const text=[...new Set(Array.from(html+JSON.stringify(timing)).filter(c=>/[\u4e00-\u9fff\u3000-\u303f\uff00-\uffef\u0020-\u007e]/u.test(c)))].join('');
- const fonts={'NotoSansSC-700.woff':text,'NotoSansSC-900.woff':text};if(style.key==='chalk')fonts['LXGWWenKai-500.woff']=text;
+ const fonts=style.fontRoles?Object.fromEntries(style.fontRoles.map(name=>[name,text])):{'NotoSansSC-700.woff':text,'NotoSansSC-900.woff':text};if(style.key==='chalk')fonts['LXGWWenKai-500.woff']=text;
  put('font-usage.json',{scope:'approved-reference-declared-font-roles',fonts,note:'Noto700/900为Study正文与标题；仅粉笔画风使用Pen。字符集包含HTML、内嵌图解与完整动态时间轴，后续仍检查实际渲染。'});
 }else if(fs.existsSync(path.join(root,'font-usage.json')))fs.rmSync(path.join(root,'font-usage.json'));
 const generated=[];function walk(dir){for(const n of fs.readdirSync(dir)){const f=path.join(dir,n);if(fs.statSync(f).isDirectory())walk(f);else if(!['master.mp4','canonical-native.srt','edited-voice.wav','gsap.min.js'].includes(n))generated.push(path.relative(root,f));}}walk(path.join(root,'assets'));put('qa/generated-assets.json',{files:generated});

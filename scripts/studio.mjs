@@ -37,8 +37,8 @@ function doctor(){
  probe('ffmpeg',()=>run('ffmpeg',['-version']).split('\n')[0]);probe('ffprobe',()=>run('ffprobe',['-version']).split('\n')[0]);
  probe('fonts',()=>{const files=read(path.join(plugin,'assets/fonts/catalog.json'));for(const f of files)if(sha(path.join(plugin,'assets/fonts',f.file))!==f.sha256)throw Error('字体哈希不同: '+f.file);return files.length});
  probe('four-full-skills',()=>{const files=read(path.join(plugin,'module-manifest.json')).modules;for(const m of files)if(sha(path.join(plugin,m.frozenCopy,'SKILL.md'))!==m.sha256)throw Error('完整模块正文有改动: '+m.name);return files.length});
- probe('approved-style-library',()=>{const c=styleList();if(c.styles.length!==c.approvedCount||!c.styles.length)throw Error('画风数量与登记不一致');for(const s of c.styles)for(const f of [s.preview,s.implementation,s.evidence])if(!fs.existsSync(path.join(plugin,'style-library',f)))throw Error('画风资源缺失:'+f);return c.styles.length});
- probe('style-recipes',()=>{const c=styleList(),all=[...c.styles,...c.extensions];if(all.length!==c.totalCount||c.extensions.length!==c.plannedCount||new Set(all.map(s=>s.id)).size!==all.length||new Set(all.map(s=>s.key)).size!==all.length)throw Error('创意目录登记不一致');for(const s of all)recipe({style:s.key});return {approved:c.approvedCount,planned:c.plannedCount,total:c.totalCount}});
+ probe('implemented-style-library',()=>{const c=styleList();if(c.styles.length!==(c.implementedCount??c.approvedCount)||!c.styles.length)throw Error('画风数量与登记不一致');for(const s of c.styles)for(const f of [s.preview,s.implementation,s.evidence])if(!fs.existsSync(path.join(plugin,'style-library',f)))throw Error('画风资源缺失:'+f);return {implemented:c.styles.length,userApproved:c.styles.filter(s=>s.status==='approved-video').length,productionVerified:c.styles.filter(s=>s.status==='verified-video').length}});
+ probe('style-recipes',()=>{const c=styleList(),all=[...c.styles,...c.extensions];if(all.length!==c.totalCount||c.extensions.length!==c.plannedCount||new Set(all.map(s=>s.id)).size!==all.length||new Set(all.map(s=>s.key)).size!==all.length)throw Error('创意目录登记不一致');for(const s of all)recipe({style:s.key});return {implemented:c.styles.length,userApproved:c.approvedCount,productionVerified:c.styles.filter(s=>s.status==='verified-video').length,planned:c.plannedCount,total:c.totalCount}});
  const versions=checks.find(c=>c.name==='python');if(versions?.ok){for(const [k,v] of Object.entries({numpy:'2.4.4',Pillow:'12.1.0',fonttools:'4.62.1'}))if(versions.value[k]!==v){versions.ok=false;versions.error=k+'版本需为'+v}}
  return {ready:checks.every(c=>c.ok),checks,setup:'node scripts/studio.mjs setup（仅安装本包runtime依赖，不注册插件）'};
 }
@@ -55,7 +55,7 @@ function init(o){
  if(o.example&&(source||transcript))throw Error('参考样例与新素材不能混用；新视频请用--source，按本片内容设计时间轴');
  if(source&&!fs.existsSync(source)||transcript&&!fs.existsSync(transcript))throw Error('输入素材不存在');
  const requestedStyle=o.style?styleList(o.style):null;
- if(o.example&&requestedStyle?.status!=='approved-video'&&requestedStyle)throw Error('该方向仍为文字候选，尚无认可模板；新素材可用--source开始设计，不能用--example approved复现');
+ if(o.example&&requestedStyle&&!['approved-video','verified-video'].includes(requestedStyle.status))throw Error('该方向尚无已实现模板；新素材可用--source开始设计，不能用--example approved复现');
  for(const d of ['plans','assets/fonts','scripts','outputs','qa'])fs.mkdirSync(path.join(r,d),{recursive:true});
  if(o.example)fs.cpSync(path.join(plugin,'templates/approved-reference'),r,{recursive:true});
  if(source)fs.copyFileSync(source,path.join(r,'assets/master.mp4'));
@@ -103,14 +103,14 @@ async function preview(r,o){
 }
 async function main(){
  const [command,...args]=process.argv.slice(2),o=parse(args);
- if(command==='styles'){if(o.id||o.style)return styleList(o.id||o.style);const c=styleList();if(o.all||o.status){if(o.status&&!['approved','candidate'].includes(o.status))throw Error('status需为approved或candidate');const rows=o.status==='approved'?c.styles:o.status==='candidate'?c.extensions:[...c.styles,...c.extensions];return {approvedCount:c.approvedCount,plannedCount:c.plannedCount,totalCount:c.totalCount,styles:rows.sort((a,b)=>Number(a.id.slice(1))-Number(b.id.slice(1)))}}return c;}
+ if(command==='styles'){if(o.id||o.style)return styleList(o.id||o.style);const c=styleList();if(o.all||o.status){if(o.status&&!['approved','implemented','production','candidate'].includes(o.status))throw Error('status需为approved、implemented、production或candidate');const rows=o.status==='approved'?c.styles.filter(s=>s.status==='approved-video'):o.status==='production'?c.styles.filter(s=>s.status==='verified-video'):o.status==='implemented'?c.styles:o.status==='candidate'?c.extensions:[...c.styles,...c.extensions];return {implementedCount:c.styles.length,approvedCount:c.styles.filter(s=>s.status==='approved-video').length,productionVerifiedCount:c.styles.filter(s=>s.status==='verified-video').length,plannedCount:c.plannedCount,totalCount:c.totalCount,styles:rows.sort((a,b)=>Number(a.id.slice(1))-Number(b.id.slice(1)))}}return c;}
  if(command==='recipe')return recipe(o);
  if(command==='route')return {...route(o.request||'',o.mode),styleLibrary:path.join(plugin,'style-library/catalog.json'),commonRules:path.join(plugin,'docs/共同制作规范.md')};
  if(command==='doctor')return doctor();
  if(command==='setup')return setup();
  if(command==='init')return init(o);
  if(command==='revise')return revise(o);
- if(command==='help'||!command)return {commands:['doctor','setup','styles [--id 编号或名称 | --all | --status approved|candidate]','recipe --style A58 [--layout L10 --motion M09 --editing E04 --sound S01]','route --request 中文需求 [--mode full|layout|motion|editing|art-direction]','init --project 新路径 --source 视频 --transcript 字幕 [--request 需求]','init --project 新路径 --example approved --style magazine','revise --from 原项目 --out 新版本 --module layout --request 需求','run --project 项目 [--until build|check|render|verify]','preview --project 项目 [--port 端口]','stop --project 项目'],guide:'docs/使用说明.md'};
+ if(command==='help'||!command)return {commands:['doctor','setup','styles [--id 编号或名称 | --all | --status approved|implemented|production|candidate]','recipe --style A58 [--layout L10 --motion M09 --editing E04 --sound S01]','route --request 中文需求 [--mode full|layout|motion|editing|art-direction]','init --project 新路径 --source 视频 --transcript 字幕 [--request 需求]','init --project 新路径 --example approved --style magazine','revise --from 原项目 --out 新版本 --module layout --request 需求','run --project 项目 [--until build|check|render|verify]','preview --project 项目 [--port 端口]','stop --project 项目'],guide:'docs/使用说明.md'};
  const r=rootOf(o);
  if(command==='preview')return await preview(r,o);
  if(command==='stop'){const d=read(path.join(r,'qa/preview-server.json'));const health=await(await fetch(d.url+'health')).json();if(health.projectId!==read(path.join(r,'project.json')).id)throw Error('服务不属于当前项目');process.kill(d.pid);return {stopped:true}}

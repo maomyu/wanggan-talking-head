@@ -1,0 +1,13 @@
+{
+  "scope": "作者查看真实最终编码16帧拼版，结合17个人物姿态、21字幕、5fps解码与18切点邻帧的程序证据；无独立盲评",
+  "passed": [
+    "origami",
+    "embroidery",
+    "etching"
+  ],
+  "needsRevision": {
+    "mechanical-cutaway": "负债物件位于中心，与右侧大字靠近；需要左移并留出本金图注间隔",
+    "spatial-pointcloud": "编码后细点偏淡且负债段模型与字接近；增大点尺寸和颜色对比，左移物件"
+  },
+  "sourceVersion": "font-metrics-fixed actual encode"
+}

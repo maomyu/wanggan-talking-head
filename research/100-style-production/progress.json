@@ -2,9 +2,9 @@
   "goal": "100个实际画风视频与正式插件整合",
   "total": 100,
   "userApproved": 20,
-  "productionVerified": 0,
-  "inProduction": 5,
-  "queued": 75,
+  "productionVerified": 3,
+  "inProduction": 4,
+  "queued": 73,
   "styles": [
     {
       "id": "A01",
@@ -524,8 +524,8 @@
       "key": "origami",
       "name": "折纸结构",
       "family": "fiber",
-      "stage": "full-video-font-metrics-revision",
-      "formal": false,
+      "stage": "formal-production-verified",
+      "formal": true,
       "userApproved": false,
       "video": "variants/origami/outputs/final.mp4"
     },
@@ -561,7 +561,7 @@
       "key": "felt-applique",
       "name": "毛毡贴画",
       "family": "fiber",
-      "stage": "queued",
+      "stage": "raster-asset-generated-build-in-progress",
       "formal": false,
       "userApproved": false
     },
@@ -570,9 +570,10 @@
       "key": "embroidery",
       "name": "刺绣针脚",
       "family": "fiber",
-      "stage": "full-video-font-metrics-revision",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/embroidery/outputs/final.mp4"
     },
     {
       "id": "A64",
@@ -606,7 +607,7 @@
       "key": "gongbi",
       "name": "工笔设色",
       "family": "painting",
-      "stage": "queued",
+      "stage": "raster-asset-generated-build-in-progress",
       "formal": false,
       "userApproved": false
     },
@@ -696,9 +697,10 @@
       "key": "etching",
       "name": "蚀刻铜版",
       "family": "craft",
-      "stage": "full-video-font-metrics-revision",
-      "formal": false,
-      "userApproved": false
+      "stage": "formal-production-verified",
+      "formal": true,
+      "userApproved": false,
+      "video": "variants/etching/outputs/final.mp4"
     },
     {
       "id": "A78",
@@ -849,9 +851,10 @@
       "key": "mechanical-cutaway",
       "name": "机械剖面",
       "family": "volume",
-      "stage": "smoke-encoded-awaiting-author-review",
+      "stage": "composition-revision",
       "formal": false,
-      "userApproved": false
+      "userApproved": false,
+      "video": "variants/mechanical-cutaway/outputs/final.mp4"
     },
     {
       "id": "A95",
@@ -894,9 +897,10 @@
       "key": "spatial-pointcloud",
       "name": "空间点云",
       "family": "digital",
-      "stage": "smoke-encoded-awaiting-author-review",
+      "stage": "composition-revision",
       "formal": false,
-      "userApproved": false
+      "userApproved": false,
+      "video": "variants/spatial-pointcloud/outputs/final.mp4"
     },
     {
       "id": "A100",

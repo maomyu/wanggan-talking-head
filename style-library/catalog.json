@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "1.1.0",
+  "version": "1.2.0",
   "approvedCount": 20,
   "styles": [
     {
@@ -617,6 +617,128 @@
         "科技",
         "机制"
       ]
+    },
+    {
+      "id": "A58",
+      "key": "origami",
+      "name": "折纸结构",
+      "familyKey": "fiber",
+      "family": "纸与纤维",
+      "visualMechanism": "一张纸围绕折线形成可辨认结构，展开与折合解释部分和整体",
+      "profiles": {
+        "layout": "L10",
+        "motion": "M09",
+        "editing": "E04",
+        "sound": "S03"
+      },
+      "suitableFor": [
+        "结构",
+        "方法"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": [
+        "R02"
+      ],
+      "preview": "previews/origami.jpg",
+      "implementation": "templates/origami/index.html",
+      "evidence": "evidence/production-20261020-a58-a63-a77.json",
+      "videoSha256": "c83cce4f9f0b47e1975bb54136a377968f2c33712f7f45dd4f05b705fc633008",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified"
+    },
+    {
+      "id": "A63",
+      "key": "embroidery",
+      "name": "刺绣针脚",
+      "familyKey": "fiber",
+      "family": "纸与纤维",
+      "visualMechanism": "线迹的方向和疏密组成图形，节点像逐针建立的联系",
+      "profiles": {
+        "layout": "L07",
+        "motion": "M10",
+        "editing": "E04",
+        "sound": "S06"
+      },
+      "suitableFor": [
+        "关系",
+        "手艺"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": [],
+      "preview": "previews/embroidery.jpg",
+      "implementation": "templates/embroidery/index.html",
+      "evidence": "evidence/production-20261020-a58-a63-a77.json",
+      "videoSha256": "93122d37b90640a5edeb2ebd7e0f71f0597199795788afc558b052ce8e33d6e3",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified"
+    },
+    {
+      "id": "A77",
+      "key": "etching",
+      "name": "蚀刻铜版",
+      "familyKey": "craft",
+      "family": "工艺表面与印制",
+      "visualMechanism": "细密刻线、版面边界和受控灰调表现对象，细节放大后才可读",
+      "profiles": {
+        "layout": "L02",
+        "motion": "M06",
+        "editing": "E02",
+        "sound": "S04"
+      },
+      "suitableFor": [
+        "工艺",
+        "知识"
+      ],
+      "status": "verified-video",
+      "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+      "humanTreatment": "original-color; circular-corners; raised-captions",
+      "sourceKind": "creative-proposal",
+      "references": [],
+      "preview": "previews/etching.jpg",
+      "implementation": "templates/etching/index.html",
+      "evidence": "evidence/production-20261020-a58-a63-a77.json",
+      "videoSha256": "1bf7d2a1daf5a330f7eec7e13c91b9edb54b54a041758d99c060bd85799fafbe",
+      "compatibleModules": [
+        "art-direction",
+        "layout",
+        "motion",
+        "editing"
+      ],
+      "personTreatment": "source-color; true-circle-in-corners",
+      "fontRoles": [
+        "NotoSansSC-700.woff",
+        "NotoSansSC-900.woff",
+        "NotoSerifSC-700.woff"
+      ],
+      "approvalBasis": "user-authorized-100-style-goal; production-verified"
     }
   ],
   "extensions": [
@@ -1474,31 +1596,6 @@
       "references": []
     },
     {
-      "id": "A58",
-      "key": "origami",
-      "name": "折纸结构",
-      "familyKey": "fiber",
-      "family": "纸与纤维",
-      "visualMechanism": "一张纸围绕折线形成可辨认结构，展开与折合解释部分和整体",
-      "profiles": {
-        "layout": "L10",
-        "motion": "M09",
-        "editing": "E04",
-        "sound": "S03"
-      },
-      "suitableFor": [
-        "结构",
-        "方法"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": [
-        "R02"
-      ]
-    },
-    {
       "id": "A59",
       "key": "pop-up-book",
       "name": "立体书机关",
@@ -1586,33 +1683,11 @@
         "亲和科普"
       ],
       "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "validation": "已进入实际制作，仍在修正或验证；尚无正式完整模板",
       "humanTreatment": "original-color; circular-corners; raised-captions",
       "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A63",
-      "key": "embroidery",
-      "name": "刺绣针脚",
-      "familyKey": "fiber",
-      "family": "纸与纤维",
-      "visualMechanism": "线迹的方向和疏密组成图形，节点像逐针建立的联系",
-      "profiles": {
-        "layout": "L07",
-        "motion": "M10",
-        "editing": "E04",
-        "sound": "S06"
-      },
-      "suitableFor": [
-        "关系",
-        "手艺"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
+      "references": [],
+      "productionStage": "raster-asset-generated-build-in-progress"
     },
     {
       "id": "A64",
@@ -1701,12 +1776,13 @@
         "自然"
       ],
       "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "validation": "已进入实际制作，仍在修正或验证；尚无正式完整模板",
       "humanTreatment": "original-color; circular-corners; raised-captions",
       "sourceKind": "creative-proposal",
       "references": [
         "R05"
-      ]
+      ],
+      "productionStage": "raster-asset-generated-build-in-progress"
     },
     {
       "id": "A68",
@@ -1910,29 +1986,6 @@
       "suitableFor": [
         "观点",
         "历史"
-      ],
-      "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
-      "humanTreatment": "original-color; circular-corners; raised-captions",
-      "sourceKind": "creative-proposal",
-      "references": []
-    },
-    {
-      "id": "A77",
-      "key": "etching",
-      "name": "蚀刻铜版",
-      "familyKey": "craft",
-      "family": "工艺表面与印制",
-      "visualMechanism": "细密刻线、版面边界和受控灰调表现对象，细节放大后才可读",
-      "profiles": {
-        "layout": "L02",
-        "motion": "M06",
-        "editing": "E02",
-        "sound": "S04"
-      },
-      "suitableFor": [
-        "工艺",
-        "知识"
       ],
       "status": "candidate-planned",
       "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
@@ -2329,10 +2382,11 @@
         "原理"
       ],
       "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "validation": "已进入实际制作，仍在修正或验证；尚无正式完整模板",
       "humanTreatment": "original-color; circular-corners; raised-captions",
       "sourceKind": "creative-proposal",
-      "references": []
+      "references": [],
+      "productionStage": "composition-revision"
     },
     {
       "id": "A95",
@@ -2444,10 +2498,11 @@
         "机制"
       ],
       "status": "candidate-planned",
-      "validation": "文字创意配方；尚无本方向样帧与视频，不作为完成模板",
+      "validation": "已进入实际制作，仍在修正或验证；尚无正式完整模板",
       "humanTreatment": "original-color; circular-corners; raised-captions",
       "sourceKind": "creative-proposal",
-      "references": []
+      "references": [],
+      "productionStage": "composition-revision"
     },
     {
       "id": "A100",
@@ -2473,7 +2528,7 @@
       "references": []
     }
   ],
-  "plannedCount": 80,
+  "plannedCount": 77,
   "totalCount": 100,
   "families": [
     {
@@ -2528,5 +2583,8 @@
     }
   ],
   "profileLibrary": "profiles.json",
-  "researchBoundary": "100项为本项目可组合的视觉方向，含材料、传统风格与创意配方；不是100个互斥行业标准。20项已认可，80项未制作样片。"
+  "researchBoundary": "100项为可组合视觉方向，含材料、传统风格与原创配方；20种用户认可，3种制作验证，77种尚未完成。不是100个互斥行业标准。",
+  "implementedCount": 23,
+  "userApprovedCount": 20,
+  "productionVerifiedCount": 3
 }
