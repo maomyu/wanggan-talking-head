@@ -1,0 +1,69 @@
+{
+  "verified": 9,
+  "total": 100,
+  "videos": [
+    {
+      "key": "minimal",
+      "videoSha256": "37d4337912dc45d1a6f79a67844041c5647dd09f581c5fb57e76d84c0abdf984",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "magazine",
+      "videoSha256": "685461f601d607ec92a3fbebd1f4d026e37e04b7bead8ba2e20e64cc8122ef4d",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "precision",
+      "videoSha256": "9a5cf72bd04c3a50847445a0bce8b68e2e78846dda9193d5d1223732cd2775f1",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "blueprint",
+      "videoSha256": "61576f3102d3812be94dbf6e56ae40427292bbe3039e3955c8f71e8855c1ccc4",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "comic",
+      "videoSha256": "81e4133a26e1095ebd64a45d6634524cff782d0c9ca6abcc9bda89144c470d6f",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "film",
+      "videoSha256": "c3242307838572c510c2b1b1bee0fb49ab84af5b7e961ac3211a2ee703e65b9b",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "ink",
+      "videoSha256": "d649598d4391355421bef5ae358f15c9dee828d67baa6f7482541b69ee479407",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "clay",
+      "videoSha256": "d377e2397fee5051ebab349c2805712982f07dcdec0a64d1203d0d49b4439475",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "type-poster",
+      "videoSha256": "2435470f05fd59a32175fdcc095c0969ef898f1ebddec584172e06fc6819f24c",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    }
+  ]
+}

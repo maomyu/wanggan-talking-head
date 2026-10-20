@@ -1,0 +1,2922 @@
+{
+  "version": "100-new-choreography-full-films",
+  "fps": 30,
+  "frameCount": 1100,
+  "duration": 36.666666666666664,
+  "styles": [
+    {
+      "id": "A01",
+      "key": "minimal",
+      "name": "写实极简",
+      "family": "真实摄影与现场",
+      "familyKey": "photo",
+      "profiles": {
+        "layout": "L01",
+        "motion": "M01",
+        "editing": "E01",
+        "sound": "S01"
+      },
+      "visualMechanism": "真实环境、自然光与克制包装；留白围绕人物的目光",
+      "composition": {
+        "id": "C01",
+        "key": "speaker",
+        "name": "人物留白",
+        "decision": "人物观点是主线，图解只在解释段接管。",
+        "motionVocabulary": [
+          "圆窗匀比移动",
+          "图解延后显现",
+          "结论近景停留"
+        ],
+        "editing": "观点处直切，解释收完再回人，不按句子机械换场"
+      },
+      "video": "variants/minimal/outputs/final.mp4",
+      "poster": "variants/minimal/outputs/poster.jpg",
+      "status": "awaiting-fresh-verification"
+    },
+    {
+      "id": "A02",
+      "key": "paper",
+      "name": "纸本批注",
+      "family": "编辑与信息印刷",
+      "familyKey": "editorial",
+      "profiles": {
+        "layout": "L03",
+        "motion": "M03",
+        "editing": "E03",
+        "sound": "S03"
+      },
+      "visualMechanism": "正文与批线、注释互相对应，阅读像翻看一份有判断的笔记",
+      "composition": {
+        "id": "C02",
+        "key": "editorial",
+        "name": "编辑双栏",
+        "decision": "依靠稳定栏线和不同文字角色建立阅读顺序。",
+        "motionVocabulary": [
+          "基线换词",
+          "图注错峰",
+          "栏线锚点遮挡交接"
+        ],
+        "editing": "按完整论点翻到下一版，保留栏线作共同锚点"
+      },
+      "video": "variants/paper/outputs/final.mp4",
+      "poster": "variants/paper/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A03",
+      "key": "geometry",
+      "name": "几何印刷",
+      "family": "字体与现代平面",
+      "familyKey": "graphic",
+      "profiles": {
+        "layout": "L06",
+        "motion": "M05",
+        "editing": "E04",
+        "sound": "S05"
+      },
+      "visualMechanism": "硬边块面、强字阶与共同轴线，把并列或分类关系组织清楚",
+      "composition": {
+        "id": "C03",
+        "key": "type",
+        "name": "巨字接力",
+        "decision": "少量关键词在尺度和落点上形成明确差别。",
+        "motionVocabulary": [
+          "词组掩膜与短横移",
+          "主次尺度对照",
+          "完整词组停稳"
+        ],
+        "editing": "在语义重音处切表现文字；人声不另切、不开倍速"
+      },
+      "video": "variants/geometry/outputs/final.mp4",
+      "poster": "variants/geometry/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A04",
+      "key": "magazine",
+      "name": "杂志编辑",
+      "family": "编辑与信息印刷",
+      "familyKey": "editorial",
+      "profiles": {
+        "layout": "L03",
+        "motion": "M01",
+        "editing": "E02",
+        "sound": "S10"
+      },
+      "visualMechanism": "摄影裁切、大小字阶、栏线和不对称留白形成编辑节奏",
+      "composition": {
+        "id": "C02",
+        "key": "editorial",
+        "name": "编辑双栏",
+        "decision": "依靠稳定栏线和不同文字角色建立阅读顺序。",
+        "motionVocabulary": [
+          "基线换词",
+          "图注错峰",
+          "栏线锚点遮挡交接"
+        ],
+        "editing": "按完整论点翻到下一版，保留栏线作共同锚点"
+      },
+      "video": "variants/magazine/outputs/final.mp4",
+      "poster": "variants/magazine/outputs/poster.jpg",
+      "status": "awaiting-fresh-verification"
+    },
+    {
+      "id": "A05",
+      "key": "collage",
+      "name": "剪贴拼贴",
+      "family": "编辑与信息印刷",
+      "familyKey": "editorial",
+      "profiles": {
+        "layout": "L04",
+        "motion": "M03",
+        "editing": "E05",
+        "sound": "S03"
+      },
+      "visualMechanism": "不同内容载体被拼接和遮叠，连接线帮助追踪论证线索",
+      "composition": {
+        "id": "C05",
+        "key": "stack",
+        "name": "卡片展列",
+        "decision": "同一组卡片展开，展示被遮住的内容关系。",
+        "motionVocabulary": [
+          "旋转回正",
+          "卡片展列",
+          "落稳后显字",
+          "共同卡片遮挡交接"
+        ],
+        "editing": "用同一卡片换层级，不能用三张无关图假装同一物体"
+      },
+      "video": "variants/collage/outputs/final.mp4",
+      "poster": "variants/collage/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A06",
+      "key": "line",
+      "name": "单线手绘",
+      "family": "手绘与书写",
+      "familyKey": "drawing",
+      "profiles": {
+        "layout": "L07",
+        "motion": "M06",
+        "editing": "E04",
+        "sound": "S04"
+      },
+      "visualMechanism": "一条笔路和语义图标形成推导画布，线条连接真正相关的节点",
+      "composition": {
+        "id": "C06",
+        "key": "derive",
+        "name": "推导画布",
+        "decision": "节点和连线有语义，先出现对象后出现关联。",
+        "motionVocabulary": [
+          "节点后连线生长",
+          "关系停稳",
+          "中心对齐交接"
+        ],
+        "editing": "按推导完成程度推进；并列建议不连成因果"
+      },
+      "video": "variants/line/outputs/final.mp4",
+      "poster": "variants/line/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A07",
+      "key": "illustration",
+      "name": "图形插画",
+      "family": "插画与叙事",
+      "familyKey": "illustration",
+      "profiles": {
+        "layout": "L09",
+        "motion": "M08",
+        "editing": "E07",
+        "sound": "S05"
+      },
+      "visualMechanism": "一致的图形造型与场景色块，把抽象关系转成可识别物件",
+      "composition": {
+        "id": "C08",
+        "key": "stage",
+        "name": "空间舞台",
+        "decision": "物体有深度、文字留在稳定平面，人物不跟场景转。",
+        "motionVocabulary": [
+          "中心轴侧转",
+          "边缘按角度淡出",
+          "正面标签停稳"
+        ],
+        "editing": "边缘侧转处换图解，下一镜保持空间轴线"
+      },
+      "video": "variants/illustration/outputs/final.mp4",
+      "poster": "variants/illustration/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A08",
+      "key": "precision",
+      "name": "精密界面",
+      "family": "数字屏幕与系统",
+      "familyKey": "digital",
+      "profiles": {
+        "layout": "L13",
+        "motion": "M14",
+        "editing": "E03",
+        "sound": "S09"
+      },
+      "visualMechanism": "功能分区、层级和操作结果构成阅读秩序，所有界面状态有实际依据",
+      "composition": {
+        "id": "C10",
+        "key": "interface",
+        "name": "界面状态",
+        "decision": "同一解释面板在不同状态呈现真实语义结果。",
+        "motionVocabulary": [
+          "指示条伸缩交接",
+          "内容分组显现",
+          "面板内状态替换"
+        ],
+        "editing": "状态变化承担转场；不虚构按钮操作与真实理财数据"
+      },
+      "video": "variants/precision/outputs/final.mp4",
+      "poster": "variants/precision/outputs/poster.jpg",
+      "status": "awaiting-fresh-verification"
+    },
+    {
+      "id": "A09",
+      "key": "blueprint",
+      "name": "技术蓝图",
+      "family": "数字屏幕与系统",
+      "familyKey": "digital",
+      "profiles": {
+        "layout": "L14",
+        "motion": "M06",
+        "editing": "E10",
+        "sound": "S09"
+      },
+      "visualMechanism": "结构线、分解视图和对应标注让关系清楚，示意尺寸不冒充真实工程数据",
+      "composition": {
+        "id": "C06",
+        "key": "derive",
+        "name": "推导画布",
+        "decision": "节点和连线有语义，先出现对象后出现关联。",
+        "motionVocabulary": [
+          "节点后连线生长",
+          "关系停稳",
+          "中心对齐交接"
+        ],
+        "editing": "按推导完成程度推进；并列建议不连成因果"
+      },
+      "video": "variants/blueprint/outputs/final.mp4",
+      "poster": "variants/blueprint/outputs/poster.jpg",
+      "status": "awaiting-fresh-verification"
+    },
+    {
+      "id": "A10",
+      "key": "halftone",
+      "name": "复古网点",
+      "family": "编辑与信息印刷",
+      "familyKey": "editorial",
+      "profiles": {
+        "layout": "L02",
+        "motion": "M05",
+        "editing": "E04",
+        "sound": "S05"
+      },
+      "visualMechanism": "资料图像以半色调和有限套色成为印刷面，正文保持清晰",
+      "composition": {
+        "id": "C07",
+        "key": "gallery",
+        "name": "画廊取景",
+        "decision": "图片获得主要面积，字幕和人像保持独立。",
+        "motionVocabulary": [
+          "取景框内换位",
+          "图注与图片同步",
+          "停稳看细节"
+        ],
+        "editing": "全貌到细节再回人物；解释图不冒充真实凭证"
+      },
+      "video": "variants/halftone/outputs/final.mp4",
+      "poster": "variants/halftone/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A11",
+      "key": "comic",
+      "name": "漫画描线",
+      "family": "插画与叙事",
+      "familyKey": "illustration",
+      "profiles": {
+        "layout": "L09",
+        "motion": "M08",
+        "editing": "E07",
+        "sound": "S05"
+      },
+      "visualMechanism": "分格、粗线、特写和反应揭示信息，真人保持原片独立层",
+      "composition": {
+        "id": "C04",
+        "key": "route",
+        "name": "纵向叙事",
+        "decision": "读过的路径保留，方向指示阅读先后。",
+        "motionVocabulary": [
+          "节点错峰",
+          "单轴视线推进",
+          "路径保留"
+        ],
+        "editing": "在同一叙事空间里推进；转折保留一个停稳窗口"
+      },
+      "video": "variants/comic/outputs/final.mp4",
+      "poster": "variants/comic/outputs/poster.jpg",
+      "status": "awaiting-fresh-verification"
+    },
+    {
+      "id": "A12",
+      "key": "film",
+      "name": "胶片影像",
+      "family": "真实摄影与现场",
+      "familyKey": "photo",
+      "profiles": {
+        "layout": "L02",
+        "motion": "M01",
+        "editing": "E02",
+        "sound": "S10"
+      },
+      "visualMechanism": "摄影纵深、环境叙事与镜头关系；颗粒限于背景素材",
+      "composition": {
+        "id": "C07",
+        "key": "gallery",
+        "name": "画廊取景",
+        "decision": "图片获得主要面积，字幕和人像保持独立。",
+        "motionVocabulary": [
+          "取景框内换位",
+          "图注与图片同步",
+          "停稳看细节"
+        ],
+        "editing": "全貌到细节再回人物；解释图不冒充真实凭证"
+      },
+      "video": "variants/film/outputs/final.mp4",
+      "poster": "variants/film/outputs/poster.jpg",
+      "status": "awaiting-fresh-verification"
+    },
+    {
+      "id": "A13",
+      "key": "ink",
+      "name": "水墨留白",
+      "family": "传统绘画与东方",
+      "familyKey": "painting",
+      "profiles": {
+        "layout": "L11",
+        "motion": "M11",
+        "editing": "E08",
+        "sound": "S07"
+      },
+      "visualMechanism": "墨色浓淡、虚实和留白组织信息，现代字幕与原色真人各自清楚",
+      "composition": {
+        "id": "C11",
+        "key": "scroll",
+        "name": "长卷巡览",
+        "decision": "所有语义面板常驻同一纵向世界，镜头只移动到本句位置。",
+        "motionVocabulary": [
+          "单向长卷位移",
+          "窗口停稳",
+          "独立标题与字幕"
+        ],
+        "editing": "用连续空间取代整页清空；句尾留停稳再巡览"
+      },
+      "video": "variants/ink/outputs/final.mp4",
+      "poster": "variants/ink/outputs/poster.jpg",
+      "status": "awaiting-fresh-verification"
+    },
+    {
+      "id": "A14",
+      "key": "clay",
+      "name": "柔质立体",
+      "family": "立体与模型",
+      "familyKey": "volume",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M13",
+        "editing": "E07",
+        "sound": "S06"
+      },
+      "visualMechanism": "黏土或软塑体积、接触阴影和微型物件形成亲和解释空间",
+      "composition": {
+        "id": "C08",
+        "key": "stage",
+        "name": "空间舞台",
+        "decision": "物体有深度、文字留在稳定平面，人物不跟场景转。",
+        "motionVocabulary": [
+          "中心轴侧转",
+          "边缘按角度淡出",
+          "正面标签停稳"
+        ],
+        "editing": "边缘侧转处换图解，下一镜保持空间轴线"
+      },
+      "video": "variants/clay/outputs/final.mp4",
+      "poster": "variants/clay/outputs/poster.jpg",
+      "status": "awaiting-fresh-verification"
+    },
+    {
+      "id": "A15",
+      "key": "pixel",
+      "name": "像素复古",
+      "family": "数字屏幕与系统",
+      "familyKey": "digital",
+      "profiles": {
+        "layout": "L09",
+        "motion": "M14",
+        "editing": "E07",
+        "sound": "S09"
+      },
+      "visualMechanism": "有限色像素场景、步进路径与游戏式物件，真人脸和字幕保持原始清晰度",
+      "composition": {
+        "id": "C10",
+        "key": "interface",
+        "name": "界面状态",
+        "decision": "同一解释面板在不同状态呈现真实语义结果。",
+        "motionVocabulary": [
+          "指示条伸缩交接",
+          "内容分组显现",
+          "面板内状态替换"
+        ],
+        "editing": "状态变化承担转场；不虚构按钮操作与真实理财数据"
+      },
+      "video": "variants/pixel/outputs/final.mp4",
+      "poster": "variants/pixel/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A16",
+      "key": "chalk",
+      "name": "黑板粉笔",
+      "family": "手绘与书写",
+      "familyKey": "drawing",
+      "profiles": {
+        "layout": "L07",
+        "motion": "M07",
+        "editing": "E04",
+        "sound": "S04"
+      },
+      "visualMechanism": "深绿板面、干粉笔触和板书推导，擦除与重写对应观点修正",
+      "composition": {
+        "id": "C06",
+        "key": "derive",
+        "name": "推导画布",
+        "decision": "节点和连线有语义，先出现对象后出现关联。",
+        "motionVocabulary": [
+          "节点后连线生长",
+          "关系停稳",
+          "中心对齐交接"
+        ],
+        "editing": "按推导完成程度推进；并列建议不连成因果"
+      },
+      "video": "variants/chalk/outputs/final.mp4",
+      "poster": "variants/chalk/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A17",
+      "key": "paper-stage",
+      "name": "剪纸舞台",
+      "family": "纸与纤维",
+      "familyKey": "fiber",
+      "profiles": {
+        "layout": "L10",
+        "motion": "M09",
+        "editing": "E05",
+        "sound": "S03"
+      },
+      "visualMechanism": "切口侧壁、纸层遮挡、定向投影和轻微视差形成完整舞台",
+      "composition": {
+        "id": "C08",
+        "key": "stage",
+        "name": "空间舞台",
+        "decision": "物体有深度、文字留在稳定平面，人物不跟场景转。",
+        "motionVocabulary": [
+          "中心轴侧转",
+          "边缘按角度淡出",
+          "正面标签停稳"
+        ],
+        "editing": "边缘侧转处换图解，下一镜保持空间轴线"
+      },
+      "video": "variants/paper-stage/outputs/final.mp4",
+      "poster": "variants/paper-stage/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A18",
+      "key": "type-poster",
+      "name": "巨字海报",
+      "family": "字体与现代平面",
+      "familyKey": "graphic",
+      "profiles": {
+        "layout": "L05",
+        "motion": "M04",
+        "editing": "E04",
+        "sound": "S05"
+      },
+      "visualMechanism": "完整关键词成为主体，反白字面和巨大尺度推进信息",
+      "composition": {
+        "id": "C03",
+        "key": "type",
+        "name": "巨字接力",
+        "decision": "少量关键词在尺度和落点上形成明确差别。",
+        "motionVocabulary": [
+          "词组掩膜与短横移",
+          "主次尺度对照",
+          "完整词组停稳"
+        ],
+        "editing": "在语义重音处切表现文字；人声不另切、不开倍速"
+      },
+      "video": "variants/type-poster/outputs/final.mp4",
+      "poster": "variants/type-poster/outputs/poster.jpg",
+      "status": "awaiting-fresh-verification"
+    },
+    {
+      "id": "A19",
+      "key": "cel",
+      "name": "赛璐璐",
+      "family": "插画与叙事",
+      "familyKey": "illustration",
+      "profiles": {
+        "layout": "L09",
+        "motion": "M08",
+        "editing": "E07",
+        "sound": "S05"
+      },
+      "visualMechanism": "平涂造型、明确阴影分区和有限姿态表演；无真人卡通滤镜",
+      "composition": {
+        "id": "C04",
+        "key": "route",
+        "name": "纵向叙事",
+        "decision": "读过的路径保留，方向指示阅读先后。",
+        "motionVocabulary": [
+          "节点错峰",
+          "单轴视线推进",
+          "路径保留"
+        ],
+        "editing": "在同一叙事空间里推进；转折保留一个停稳窗口"
+      },
+      "video": "variants/cel/outputs/final.mp4",
+      "poster": "variants/cel/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A20",
+      "key": "sci-fi-wireframe",
+      "name": "科幻线框／硬表立体",
+      "family": "数字屏幕与系统",
+      "familyKey": "digital",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M13",
+        "editing": "E10",
+        "sound": "S08"
+      },
+      "visualMechanism": "倒角、金属实体、边缘线框与拆合模型；不靠假HUD数值成立",
+      "composition": {
+        "id": "C12",
+        "key": "radial",
+        "name": "放射结构",
+        "decision": "只有一个中心主张，维度放在周围并用距离建立层级。",
+        "motionVocabulary": [
+          "分支错峰",
+          "局部到整体",
+          "中心持续锚定"
+        ],
+        "editing": "共同中心保持，分支轮换而非每条重建全图"
+      },
+      "video": "variants/sci-fi-wireframe/outputs/final.mp4",
+      "poster": "variants/sci-fi-wireframe/outputs/poster.jpg",
+      "status": "awaiting-fresh-verification"
+    },
+    {
+      "id": "A21",
+      "key": "documentary",
+      "name": "纪实现场",
+      "family": "真实摄影与现场",
+      "familyKey": "photo",
+      "profiles": {
+        "layout": "L01",
+        "motion": "M01",
+        "editing": "E01",
+        "sound": "S01"
+      },
+      "visualMechanism": "真实城市高位资料以宽幅上下文和记录式图注组织，随口播逐项标记消费与投资；不是本段人物或事件现场",
+      "composition": {
+        "id": "C01",
+        "key": "speaker",
+        "name": "人物留白",
+        "decision": "人物观点是主线，图解只在解释段接管。",
+        "motionVocabulary": [
+          "圆窗匀比移动",
+          "图解延后显现",
+          "结论近景停留"
+        ],
+        "editing": "观点处直切，解释收完再回人，不按句子机械换场"
+      },
+      "video": "variants/documentary/outputs/final.mp4",
+      "poster": "variants/documentary/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A22",
+      "key": "tabletop-stilllife",
+      "name": "桌面静物",
+      "family": "真实摄影与现场",
+      "familyKey": "photo",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M01",
+        "editing": "E02",
+        "sound": "S01"
+      },
+      "visualMechanism": "真实斜视桌面的计算器、笔记本、电脑与光影保持自然关系，独立侧注与细分隔线承担解释；不伪造操作结果或原纸面金融数据",
+      "composition": {
+        "id": "C07",
+        "key": "gallery",
+        "name": "画廊取景",
+        "decision": "图片获得主要面积，字幕和人像保持独立。",
+        "motionVocabulary": [
+          "取景框内换位",
+          "图注与图片同步",
+          "停稳看细节"
+        ],
+        "editing": "全貌到细节再回人物；解释图不冒充真实凭证"
+      },
+      "video": "variants/tabletop-stilllife/outputs/final.mp4",
+      "poster": "variants/tabletop-stilllife/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A23",
+      "key": "macro-material",
+      "name": "微距材质",
+      "family": "真实摄影与现场",
+      "familyKey": "photo",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M01",
+        "editing": "E03",
+        "sound": "S01"
+      },
+      "visualMechanism": "历史币表面细节被圆形微距窗口放大，并保留原图索引或整体对照；真实纹理承担主视觉，不作为币种鉴定、现代投资或收益证据",
+      "composition": {
+        "id": "C07",
+        "key": "gallery",
+        "name": "画廊取景",
+        "decision": "图片获得主要面积，字幕和人像保持独立。",
+        "motionVocabulary": [
+          "取景框内换位",
+          "图注与图片同步",
+          "停稳看细节"
+        ],
+        "editing": "全貌到细节再回人物；解释图不冒充真实凭证"
+      },
+      "video": "variants/macro-material/outputs/final.mp4",
+      "poster": "variants/macro-material/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A24",
+      "key": "overhead-workbench",
+      "name": "俯拍操作台",
+      "family": "真实摄影与现场",
+      "familyKey": "photo",
+      "profiles": {
+        "layout": "L09",
+        "motion": "M02",
+        "editing": "E07",
+        "sound": "S01"
+      },
+      "visualMechanism": "真实俯拍网格本和铅笔构成操作载体，数字便笺在独立侧栏排列；裁去广告图册，不把叠加文字当原始手写或真实操作录像",
+      "composition": {
+        "id": "C09",
+        "key": "archive",
+        "name": "档案索引",
+        "decision": "观众通过固定索引知道自己看到哪一项。",
+        "motionVocabulary": [
+          "同入口抽页",
+          "索引保持",
+          "页签遮挡交接"
+        ],
+        "editing": "按照材料与观点组织段落，共同页签接续"
+      },
+      "video": "variants/overhead-workbench/outputs/final.mp4",
+      "poster": "variants/overhead-workbench/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A25",
+      "key": "architectural-light",
+      "name": "建筑光影",
+      "family": "真实摄影与现场",
+      "familyKey": "photo",
+      "profiles": {
+        "layout": "L14",
+        "motion": "M01",
+        "editing": "E10",
+        "sound": "S01"
+      },
+      "visualMechanism": "实际混凝土坡道、梁和光窗以不对称空间切片形成纵深，主空间与光影局部分开阅读；不靠一层纹理，也不指认本段人物地点",
+      "composition": {
+        "id": "C01",
+        "key": "speaker",
+        "name": "人物留白",
+        "decision": "人物观点是主线，图解只在解释段接管。",
+        "motionVocabulary": [
+          "圆窗匀比移动",
+          "图解延后显现",
+          "结论近景停留"
+        ],
+        "editing": "观点处直切，解释收完再回人，不按句子机械换场"
+      },
+      "video": "variants/architectural-light/outputs/final.mp4",
+      "poster": "variants/architectural-light/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A26",
+      "key": "everyday-story",
+      "name": "生活场景叙事",
+      "family": "真实摄影与现场",
+      "familyKey": "photo",
+      "profiles": {
+        "layout": "L01",
+        "motion": "M01",
+        "editing": "E01",
+        "sound": "S01"
+      },
+      "visualMechanism": "真实购物篮、书桌与历史币资料在并列、整体和局部中换镜，建立消费与判断的生活语境；不虚构同一交易、个人经历、价格或产品背书",
+      "composition": {
+        "id": "C01",
+        "key": "speaker",
+        "name": "人物留白",
+        "decision": "人物观点是主线，图解只在解释段接管。",
+        "motionVocabulary": [
+          "圆窗匀比移动",
+          "图解延后显现",
+          "结论近景停留"
+        ],
+        "editing": "观点处直切，解释收完再回人，不按句子机械换场"
+      },
+      "video": "variants/everyday-story/outputs/final.mp4",
+      "poster": "variants/everyday-story/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A27",
+      "key": "spotlight-stage",
+      "name": "舞台聚光",
+      "family": "真实摄影与现场",
+      "familyKey": "photo",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M01",
+        "editing": "E07",
+        "sound": "S01"
+      },
+      "visualMechanism": "真实舞台无人地板局部与单一硬币摄影叠加，局部聚光和暗区控制焦点；明确摄影合成，不冒充实物布景或使用原舞台发言者/投影",
+      "composition": {
+        "id": "C01",
+        "key": "speaker",
+        "name": "人物留白",
+        "decision": "人物观点是主线，图解只在解释段接管。",
+        "motionVocabulary": [
+          "圆窗匀比移动",
+          "图解延后显现",
+          "结论近景停留"
+        ],
+        "editing": "观点处直切，解释收完再回人，不按句子机械换场"
+      },
+      "video": "variants/spotlight-stage/outputs/final.mp4",
+      "poster": "variants/spotlight-stage/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A28",
+      "key": "darkroom-prints",
+      "name": "黑白暗房",
+      "family": "真实摄影与现场",
+      "familyKey": "photo",
+      "profiles": {
+        "layout": "L02",
+        "motion": "M01",
+        "editing": "E02",
+        "sound": "S01"
+      },
+      "visualMechanism": "仅真实资料照片做数字黑白，白边接触印样与图像索引组织多图阅读；主次由印样尺度变化，不伪造胶片曝光或真实暗房工艺，真人持续原色",
+      "composition": {
+        "id": "C07",
+        "key": "gallery",
+        "name": "画廊取景",
+        "decision": "图片获得主要面积，字幕和人像保持独立。",
+        "motionVocabulary": [
+          "取景框内换位",
+          "图注与图片同步",
+          "停稳看细节"
+        ],
+        "editing": "全貌到细节再回人物；解释图不冒充真实凭证"
+      },
+      "video": "variants/darkroom-prints/outputs/final.mp4",
+      "poster": "variants/darkroom-prints/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A29",
+      "key": "newspaper",
+      "name": "新闻报纸",
+      "family": "编辑与信息印刷",
+      "familyKey": "editorial",
+      "profiles": {
+        "layout": "L03",
+        "motion": "M03",
+        "editing": "E03",
+        "sound": "S01"
+      },
+      "visualMechanism": "密度有秩序的栏组、标题与图片说明共同建立新闻阅读面",
+      "composition": {
+        "id": "C02",
+        "key": "editorial",
+        "name": "编辑双栏",
+        "decision": "依靠稳定栏线和不同文字角色建立阅读顺序。",
+        "motionVocabulary": [
+          "基线换词",
+          "图注错峰",
+          "栏线锚点遮挡交接"
+        ],
+        "editing": "按完整论点翻到下一版，保留栏线作共同锚点"
+      },
+      "video": "variants/newspaper/outputs/final.mp4",
+      "poster": "variants/newspaper/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A30",
+      "key": "archive-dossier",
+      "name": "档案卷宗",
+      "family": "编辑与信息印刷",
+      "familyKey": "editorial",
+      "profiles": {
+        "layout": "L04",
+        "motion": "M03",
+        "editing": "E09",
+        "sound": "S03"
+      },
+      "visualMechanism": "来源页、页签和交叉引用组织材料，真实证据与解释示意分开标明",
+      "composition": {
+        "id": "C09",
+        "key": "archive",
+        "name": "档案索引",
+        "decision": "观众通过固定索引知道自己看到哪一项。",
+        "motionVocabulary": [
+          "同入口抽页",
+          "索引保持",
+          "页签遮挡交接"
+        ],
+        "editing": "按照材料与观点组织段落，共同页签接续"
+      },
+      "video": "variants/archive-dossier/outputs/final.mp4",
+      "poster": "variants/archive-dossier/outputs/poster.jpg",
+      "status": "awaiting-fresh-verification"
+    },
+    {
+      "id": "A31",
+      "key": "photo-book",
+      "name": "摄影画册",
+      "family": "编辑与信息印刷",
+      "familyKey": "editorial",
+      "profiles": {
+        "layout": "L02",
+        "motion": "M03",
+        "editing": "E08",
+        "sound": "S10"
+      },
+      "visualMechanism": "大幅照片、跨页留白与简短图注，镜头停留为看清照片服务",
+      "composition": {
+        "id": "C02",
+        "key": "editorial",
+        "name": "编辑双栏",
+        "decision": "依靠稳定栏线和不同文字角色建立阅读顺序。",
+        "motionVocabulary": [
+          "基线换词",
+          "图注错峰",
+          "栏线锚点遮挡交接"
+        ],
+        "editing": "按完整论点翻到下一版，保留栏线作共同锚点"
+      },
+      "video": "variants/photo-book/outputs/final.mp4",
+      "poster": "variants/photo-book/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A32",
+      "key": "dictionary-entry",
+      "name": "字典辞条",
+      "family": "编辑与信息印刷",
+      "familyKey": "editorial",
+      "profiles": {
+        "layout": "L03",
+        "motion": "M04",
+        "editing": "E03",
+        "sound": "S01"
+      },
+      "visualMechanism": "术语、释义、例子和对应小图形成可查阅条目，重点由定义展开",
+      "composition": {
+        "id": "C09",
+        "key": "archive",
+        "name": "档案索引",
+        "decision": "观众通过固定索引知道自己看到哪一项。",
+        "motionVocabulary": [
+          "同入口抽页",
+          "索引保持",
+          "页签遮挡交接"
+        ],
+        "editing": "按照材料与观点组织段落，共同页签接续"
+      },
+      "video": "variants/dictionary-entry/outputs/final.mp4",
+      "poster": "variants/dictionary-entry/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A33",
+      "key": "lab-notebook",
+      "name": "实验记录",
+      "family": "编辑与信息印刷",
+      "familyKey": "editorial",
+      "profiles": {
+        "layout": "L07",
+        "motion": "M06",
+        "editing": "E03",
+        "sound": "S04"
+      },
+      "visualMechanism": "步骤、观察和结论分别落在记录区，量尺及数据仅在有来源时出现",
+      "composition": {
+        "id": "C09",
+        "key": "archive",
+        "name": "档案索引",
+        "decision": "观众通过固定索引知道自己看到哪一项。",
+        "motionVocabulary": [
+          "同入口抽页",
+          "索引保持",
+          "页签遮挡交接"
+        ],
+        "editing": "按照材料与观点组织段落，共同页签接续"
+      },
+      "video": "variants/lab-notebook/outputs/final.mp4",
+      "poster": "variants/lab-notebook/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A34",
+      "key": "timeline-almanac",
+      "name": "时间轴年鉴",
+      "family": "编辑与信息印刷",
+      "familyKey": "editorial",
+      "profiles": {
+        "layout": "L11",
+        "motion": "M03",
+        "editing": "E09",
+        "sound": "S10"
+      },
+      "visualMechanism": "以可核对的日期或时间点、事件组成时间带；本例明确采用口播视频分秒，未来节点不冒充已经发生的历史",
+      "composition": {
+        "id": "C09",
+        "key": "archive",
+        "name": "档案索引",
+        "decision": "观众通过固定索引知道自己看到哪一项。",
+        "motionVocabulary": [
+          "同入口抽页",
+          "索引保持",
+          "页签遮挡交接"
+        ],
+        "editing": "按照材料与观点组织段落，共同页签接续"
+      },
+      "video": "variants/timeline-almanac/outputs/final.mp4",
+      "poster": "variants/timeline-almanac/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A35",
+      "key": "swiss-grid",
+      "name": "瑞士网格",
+      "family": "字体与现代平面",
+      "familyKey": "graphic",
+      "profiles": {
+        "layout": "L03",
+        "motion": "M04",
+        "editing": "E01",
+        "sound": "S01"
+      },
+      "visualMechanism": "严密网格、非对称排印和字距控制，以对齐而非容器形成秩序",
+      "composition": {
+        "id": "C02",
+        "key": "editorial",
+        "name": "编辑双栏",
+        "decision": "依靠稳定栏线和不同文字角色建立阅读顺序。",
+        "motionVocabulary": [
+          "基线换词",
+          "图注错峰",
+          "栏线锚点遮挡交接"
+        ],
+        "editing": "按完整论点翻到下一版，保留栏线作共同锚点"
+      },
+      "video": "variants/swiss-grid/outputs/final.mp4",
+      "poster": "variants/swiss-grid/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A36",
+      "key": "constructivist",
+      "name": "构成主义",
+      "family": "字体与现代平面",
+      "familyKey": "graphic",
+      "profiles": {
+        "layout": "L06",
+        "motion": "M05",
+        "editing": "E05",
+        "sound": "S05"
+      },
+      "visualMechanism": "斜向轴线、摄影片段与几何张力组织观点；不借用历史政治口号",
+      "composition": {
+        "id": "C03",
+        "key": "type",
+        "name": "巨字接力",
+        "decision": "少量关键词在尺度和落点上形成明确差别。",
+        "motionVocabulary": [
+          "词组掩膜与短横移",
+          "主次尺度对照",
+          "完整词组停稳"
+        ],
+        "editing": "在语义重音处切表现文字；人声不另切、不开倍速"
+      },
+      "video": "variants/constructivist/outputs/final.mp4",
+      "poster": "variants/constructivist/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A37",
+      "key": "art-deco",
+      "name": "装饰艺术",
+      "family": "字体与现代平面",
+      "familyKey": "graphic",
+      "profiles": {
+        "layout": "L06",
+        "motion": "M12",
+        "editing": "E04",
+        "sound": "S07"
+      },
+      "visualMechanism": "阶梯几何、对称门框和金属细节营造秩序，段落像逐级展开的立面",
+      "composition": {
+        "id": "C02",
+        "key": "editorial",
+        "name": "编辑双栏",
+        "decision": "依靠稳定栏线和不同文字角色建立阅读顺序。",
+        "motionVocabulary": [
+          "基线换词",
+          "图注错峰",
+          "栏线锚点遮挡交接"
+        ],
+        "editing": "按完整论点翻到下一版，保留栏线作共同锚点"
+      },
+      "video": "variants/art-deco/outputs/final.mp4",
+      "poster": "variants/art-deco/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A38",
+      "key": "art-nouveau",
+      "name": "新艺术曲线",
+      "family": "字体与现代平面",
+      "familyKey": "graphic",
+      "profiles": {
+        "layout": "L11",
+        "motion": "M06",
+        "editing": "E04",
+        "sound": "S07"
+      },
+      "visualMechanism": "植物式曲线、连贯边缘和有机框架构成阅读路径，不只贴花边",
+      "composition": {
+        "id": "C02",
+        "key": "editorial",
+        "name": "编辑双栏",
+        "decision": "依靠稳定栏线和不同文字角色建立阅读顺序。",
+        "motionVocabulary": [
+          "基线换词",
+          "图注错峰",
+          "栏线锚点遮挡交接"
+        ],
+        "editing": "按完整论点翻到下一版，保留栏线作共同锚点"
+      },
+      "video": "variants/art-nouveau/outputs/final.mp4",
+      "poster": "variants/art-nouveau/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A39",
+      "key": "memphis",
+      "name": "孟菲斯几何",
+      "family": "字体与现代平面",
+      "familyKey": "graphic",
+      "profiles": {
+        "layout": "L06",
+        "motion": "M05",
+        "editing": "E04",
+        "sound": "S05"
+      },
+      "visualMechanism": "互相制衡的几何纹样、错位尺度与轻快物件感，正文仍有稳定底面",
+      "composition": {
+        "id": "C03",
+        "key": "type",
+        "name": "巨字接力",
+        "decision": "少量关键词在尺度和落点上形成明确差别。",
+        "motionVocabulary": [
+          "词组掩膜与短横移",
+          "主次尺度对照",
+          "完整词组停稳"
+        ],
+        "editing": "在语义重音处切表现文字；人声不另切、不开倍速"
+      },
+      "video": "variants/memphis/outputs/final.mp4",
+      "poster": "variants/memphis/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A40",
+      "key": "brutalist-type",
+      "name": "粗野排印",
+      "family": "字体与现代平面",
+      "familyKey": "graphic",
+      "profiles": {
+        "layout": "L05",
+        "motion": "M04",
+        "editing": "E01",
+        "sound": "S05"
+      },
+      "visualMechanism": "直接暴露网格和强字重，以粗线和不修饰的结构承载冲突观点",
+      "composition": {
+        "id": "C03",
+        "key": "type",
+        "name": "巨字接力",
+        "decision": "少量关键词在尺度和落点上形成明确差别。",
+        "motionVocabulary": [
+          "词组掩膜与短横移",
+          "主次尺度对照",
+          "完整词组停稳"
+        ],
+        "editing": "在语义重音处切表现文字；人声不另切、不开倍速"
+      },
+      "video": "variants/brutalist-type/outputs/final.mp4",
+      "poster": "variants/brutalist-type/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A41",
+      "key": "optical-graphic",
+      "name": "动势错视",
+      "family": "字体与现代平面",
+      "familyKey": "graphic",
+      "profiles": {
+        "layout": "L06",
+        "motion": "M05",
+        "editing": "E06",
+        "sound": "S01"
+      },
+      "visualMechanism": "粗尺度黑白图底产生静态方向错觉；不使用高频闪烁或细密频闪纹",
+      "composition": {
+        "id": "C03",
+        "key": "type",
+        "name": "巨字接力",
+        "decision": "少量关键词在尺度和落点上形成明确差别。",
+        "motionVocabulary": [
+          "词组掩膜与短横移",
+          "主次尺度对照",
+          "完整词组停稳"
+        ],
+        "editing": "在语义重音处切表现文字；人声不另切、不开倍速"
+      },
+      "video": "variants/optical-graphic/outputs/final.mp4",
+      "poster": "variants/optical-graphic/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A42",
+      "key": "negative-space",
+      "name": "负空间图形",
+      "family": "字体与现代平面",
+      "familyKey": "graphic",
+      "profiles": {
+        "layout": "L06",
+        "motion": "M05",
+        "editing": "E04",
+        "sound": "S07"
+      },
+      "visualMechanism": "借轮廓之间留下的空白显示另一层意义，图与底依次被辨认",
+      "composition": {
+        "id": "C01",
+        "key": "speaker",
+        "name": "人物留白",
+        "decision": "人物观点是主线，图解只在解释段接管。",
+        "motionVocabulary": [
+          "圆窗匀比移动",
+          "图解延后显现",
+          "结论近景停留"
+        ],
+        "editing": "观点处直切，解释收完再回人，不按句子机械换场"
+      },
+      "video": "variants/negative-space/outputs/final.mp4",
+      "poster": "variants/negative-space/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A43",
+      "key": "pencil-sketch",
+      "name": "铅笔素描",
+      "family": "手绘与书写",
+      "familyKey": "drawing",
+      "profiles": {
+        "layout": "L07",
+        "motion": "M06",
+        "editing": "E02",
+        "sound": "S04"
+      },
+      "visualMechanism": "石墨灰阶、细排线与结构辅助线建立体积，原始透明概念图按局部区域建立后停稳；不伪称真实笔顺",
+      "composition": {
+        "id": "C06",
+        "key": "derive",
+        "name": "推导画布",
+        "decision": "节点和连线有语义，先出现对象后出现关联。",
+        "motionVocabulary": [
+          "节点后连线生长",
+          "关系停稳",
+          "中心对齐交接"
+        ],
+        "editing": "按推导完成程度推进；并列建议不连成因果"
+      },
+      "video": "variants/pencil-sketch/outputs/final.mp4",
+      "poster": "variants/pencil-sketch/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A44",
+      "key": "colored-pencil",
+      "name": "彩铅笔记",
+      "family": "手绘与书写",
+      "familyKey": "drawing",
+      "profiles": {
+        "layout": "L03",
+        "motion": "M06",
+        "editing": "E03",
+        "sound": "S04"
+      },
+      "visualMechanism": "细彩色线交叠、纸白间隙、笔记页与文楷图注；图像区域和注释错开显现",
+      "composition": {
+        "id": "C06",
+        "key": "derive",
+        "name": "推导画布",
+        "decision": "节点和连线有语义，先出现对象后出现关联。",
+        "motionVocabulary": [
+          "节点后连线生长",
+          "关系停稳",
+          "中心对齐交接"
+        ],
+        "editing": "按推导完成程度推进；并列建议不连成因果"
+      },
+      "video": "variants/colored-pencil/outputs/final.mp4",
+      "poster": "variants/colored-pencil/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A45",
+      "key": "charcoal",
+      "name": "炭笔擦绘",
+      "family": "手绘与书写",
+      "familyKey": "drawing",
+      "profiles": {
+        "layout": "L02",
+        "motion": "M07",
+        "editing": "E05",
+        "sound": "S04"
+      },
+      "visualMechanism": "宽幅松散炭迹、失边与擦出的白面构成形体；不透明灰纸仅在解释区擦除换图",
+      "composition": {
+        "id": "C06",
+        "key": "derive",
+        "name": "推导画布",
+        "decision": "节点和连线有语义，先出现对象后出现关联。",
+        "motionVocabulary": [
+          "节点后连线生长",
+          "关系停稳",
+          "中心对齐交接"
+        ],
+        "editing": "按推导完成程度推进；并列建议不连成因果"
+      },
+      "video": "variants/charcoal/outputs/final.mp4",
+      "poster": "variants/charcoal/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A46",
+      "key": "pen-hatching",
+      "name": "钢笔排线",
+      "family": "手绘与书写",
+      "familyKey": "drawing",
+      "profiles": {
+        "layout": "L07",
+        "motion": "M06",
+        "editing": "E02",
+        "sound": "S04"
+      },
+      "visualMechanism": "清楚而稀疏的黑色平行与交叉排线、细轮廓和大块纸白，与密集版画刻线区分；分区域建立",
+      "composition": {
+        "id": "C06",
+        "key": "derive",
+        "name": "推导画布",
+        "decision": "节点和连线有语义，先出现对象后出现关联。",
+        "motionVocabulary": [
+          "节点后连线生长",
+          "关系停稳",
+          "中心对齐交接"
+        ],
+        "editing": "按推导完成程度推进；并列建议不连成因果"
+      },
+      "video": "variants/pen-hatching/outputs/final.mp4",
+      "poster": "variants/pen-hatching/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A47",
+      "key": "wax-crayon",
+      "name": "蜡笔涂绘",
+      "family": "手绘与书写",
+      "familyKey": "drawing",
+      "profiles": {
+        "layout": "L09",
+        "motion": "M08",
+        "editing": "E07",
+        "sound": "S06"
+      },
+      "visualMechanism": "明快蜡色、粗断线和纸白孔隙组成图形；并列比较用双底块，三项概览用整体底面，有限步显现",
+      "composition": {
+        "id": "C06",
+        "key": "derive",
+        "name": "推导画布",
+        "decision": "节点和连线有语义，先出现对象后出现关联。",
+        "motionVocabulary": [
+          "节点后连线生长",
+          "关系停稳",
+          "中心对齐交接"
+        ],
+        "editing": "按推导完成程度推进；并列建议不连成因果"
+      },
+      "video": "variants/wax-crayon/outputs/final.mp4",
+      "poster": "variants/wax-crayon/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A48",
+      "key": "soft-pastel",
+      "name": "粉彩晕染",
+      "family": "手绘与书写",
+      "familyKey": "drawing",
+      "profiles": {
+        "layout": "L02",
+        "motion": "M11",
+        "editing": "E08",
+        "sound": "S07"
+      },
+      "visualMechanism": "粉状不透明色面、纸齿和柔边描绘物件，以柔和区域显现保持材质；人物与文字清晰",
+      "composition": {
+        "id": "C06",
+        "key": "derive",
+        "name": "推导画布",
+        "decision": "节点和连线有语义，先出现对象后出现关联。",
+        "motionVocabulary": [
+          "节点后连线生长",
+          "关系停稳",
+          "中心对齐交接"
+        ],
+        "editing": "按推导完成程度推进；并列建议不连成因果"
+      },
+      "video": "variants/soft-pastel/outputs/final.mp4",
+      "poster": "variants/soft-pastel/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A49",
+      "key": "marker-sketch",
+      "name": "记号笔速写",
+      "family": "手绘与书写",
+      "familyKey": "drawing",
+      "profiles": {
+        "layout": "L07",
+        "motion": "M06",
+        "editing": "E04",
+        "sound": "S04"
+      },
+      "visualMechanism": "有方向的宽笔叠色带、留白高光和粗细轮廓体现速写；色面分组显现而非统一滤镜",
+      "composition": {
+        "id": "C06",
+        "key": "derive",
+        "name": "推导画布",
+        "decision": "节点和连线有语义，先出现对象后出现关联。",
+        "motionVocabulary": [
+          "节点后连线生长",
+          "关系停稳",
+          "中心对齐交接"
+        ],
+        "editing": "按推导完成程度推进；并列建议不连成因果"
+      },
+      "video": "variants/marker-sketch/outputs/final.mp4",
+      "poster": "variants/marker-sketch/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A50",
+      "key": "brush-lettering",
+      "name": "刷笔字形",
+      "family": "手绘与书写",
+      "familyKey": "drawing",
+      "profiles": {
+        "layout": "L05",
+        "motion": "M06",
+        "editing": "E04",
+        "sound": "S07"
+      },
+      "visualMechanism": "真实毛笔字体的短词、压力形态笔势与大片留白；整词显现，辅助字随后进入，字幕用清晰正字",
+      "composition": {
+        "id": "C03",
+        "key": "type",
+        "name": "巨字接力",
+        "decision": "少量关键词在尺度和落点上形成明确差别。",
+        "motionVocabulary": [
+          "词组掩膜与短横移",
+          "主次尺度对照",
+          "完整词组停稳"
+        ],
+        "editing": "在语义重音处切表现文字；人声不另切、不开倍速"
+      },
+      "video": "variants/brush-lettering/outputs/final.mp4",
+      "poster": "variants/brush-lettering/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A51",
+      "key": "picture-book",
+      "name": "儿童绘本",
+      "family": "插画与叙事",
+      "familyKey": "illustration",
+      "profiles": {
+        "layout": "L09",
+        "motion": "M13",
+        "editing": "E07",
+        "sound": "S01"
+      },
+      "visualMechanism": "连续水粉故事场景横跨书页，同一条路径与物件维持空间；按讲述作有限位的画面聚焦，页外留短句",
+      "composition": {
+        "id": "C04",
+        "key": "route",
+        "name": "纵向叙事",
+        "decision": "读过的路径保留，方向指示阅读先后。",
+        "motionVocabulary": [
+          "节点错峰",
+          "单轴视线推进",
+          "路径保留"
+        ],
+        "editing": "在同一叙事空间里推进；转折保留一个停稳窗口"
+      },
+      "video": "variants/picture-book/outputs/final.mp4",
+      "poster": "variants/picture-book/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A52",
+      "key": "natural-history",
+      "name": "科学博物插画",
+      "family": "插画与叙事",
+      "familyKey": "illustration",
+      "profiles": {
+        "layout": "L14",
+        "motion": "M01",
+        "editing": "E02",
+        "sound": "S01"
+      },
+      "visualMechanism": "借用博物观察图版的主物件、同源像素局部圆窗与细引线；本片AI日常物件类比，不宣称物种或真实科学测量",
+      "composition": {
+        "id": "C04",
+        "key": "route",
+        "name": "纵向叙事",
+        "decision": "读过的路径保留，方向指示阅读先后。",
+        "motionVocabulary": [
+          "节点错峰",
+          "单轴视线推进",
+          "路径保留"
+        ],
+        "editing": "在同一叙事空间里推进；转折保留一个停稳窗口"
+      },
+      "video": "variants/natural-history/outputs/final.mp4",
+      "poster": "variants/natural-history/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A53",
+      "key": "isometric-city",
+      "name": "等距城市插画",
+      "family": "插画与叙事",
+      "familyKey": "illustration",
+      "profiles": {
+        "layout": "L11",
+        "motion": "M01",
+        "editing": "E07",
+        "sound": "S01"
+      },
+      "visualMechanism": "原创彩色等距街区以完整屋顶、两侧立面、窗与道路组织三节点；当前节点加重，其他位置退为背景",
+      "composition": {
+        "id": "C08",
+        "key": "stage",
+        "name": "空间舞台",
+        "decision": "物体有深度、文字留在稳定平面，人物不跟场景转。",
+        "motionVocabulary": [
+          "中心轴侧转",
+          "边缘按角度淡出",
+          "正面标签停稳"
+        ],
+        "editing": "边缘侧转处换图解，下一镜保持空间轴线"
+      },
+      "video": "variants/isometric-city/outputs/final.mp4",
+      "poster": "variants/isometric-city/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A54",
+      "key": "faceted-vector",
+      "name": "低多边形平涂",
+      "family": "插画与叙事",
+      "familyKey": "illustration",
+      "profiles": {
+        "layout": "L07",
+        "motion": "M01",
+        "editing": "E04",
+        "sound": "S01"
+      },
+      "visualMechanism": "有限硬边多边形色面塑造物件，面组逐层显现；无纸厚、纤维或光滑曲面，以二维切面区别折纸",
+      "composition": {
+        "id": "C12",
+        "key": "radial",
+        "name": "放射结构",
+        "decision": "只有一个中心主张，维度放在周围并用距离建立层级。",
+        "motionVocabulary": [
+          "分支错峰",
+          "局部到整体",
+          "中心持续锚定"
+        ],
+        "editing": "共同中心保持，分支轮换而非每条重建全图"
+      },
+      "video": "variants/faceted-vector/outputs/final.mp4",
+      "poster": "variants/faceted-vector/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A55",
+      "key": "editorial-metaphor",
+      "name": "讽刺社论插画",
+      "family": "插画与叙事",
+      "familyKey": "illustration",
+      "profiles": {
+        "layout": "L09",
+        "motion": "M13",
+        "editing": "E07",
+        "sound": "S01"
+      },
+      "visualMechanism": "巨大消费袋、小本金与沉重砝码形成一个夸张的视觉比喻；完整关系与局部聚焦交替，明确AI示意身份",
+      "composition": {
+        "id": "C04",
+        "key": "route",
+        "name": "纵向叙事",
+        "decision": "读过的路径保留，方向指示阅读先后。",
+        "motionVocabulary": [
+          "节点错峰",
+          "单轴视线推进",
+          "路径保留"
+        ],
+        "editing": "在同一叙事空间里推进；转折保留一个停稳窗口"
+      },
+      "video": "variants/editorial-metaphor/outputs/final.mp4",
+      "poster": "variants/editorial-metaphor/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A56",
+      "key": "silhouette-fable",
+      "name": "剪影寓言",
+      "family": "插画与叙事",
+      "familyKey": "illustration",
+      "profiles": {
+        "layout": "L09",
+        "motion": "M01",
+        "editing": "E07",
+        "sound": "S01"
+      },
+      "visualMechanism": "拱形背光舞台、少色明度层、轮廓与孔洞讲述；大字独立于亮幕，原色人物在外层伴随",
+      "composition": {
+        "id": "C01",
+        "key": "speaker",
+        "name": "人物留白",
+        "decision": "人物观点是主线，图解只在解释段接管。",
+        "motionVocabulary": [
+          "圆窗匀比移动",
+          "图解延后显现",
+          "结论近景停留"
+        ],
+        "editing": "观点处直切，解释收完再回人，不按句子机械换场"
+      },
+      "video": "variants/silhouette-fable/outputs/final.mp4",
+      "poster": "variants/silhouette-fable/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A57",
+      "key": "illustrated-map",
+      "name": "地图旅行插画",
+      "family": "插画与叙事",
+      "familyKey": "illustration",
+      "profiles": {
+        "layout": "L11",
+        "motion": "M01",
+        "editing": "E04",
+        "sound": "S01"
+      },
+      "visualMechanism": "非真实地理的选择示意地图，以有机地形、河流、路线与三站保持空间记忆；按口播显现并聚焦节点",
+      "composition": {
+        "id": "C04",
+        "key": "route",
+        "name": "纵向叙事",
+        "decision": "读过的路径保留，方向指示阅读先后。",
+        "motionVocabulary": [
+          "节点错峰",
+          "单轴视线推进",
+          "路径保留"
+        ],
+        "editing": "在同一叙事空间里推进；转折保留一个停稳窗口"
+      },
+      "video": "variants/illustrated-map/outputs/final.mp4",
+      "poster": "variants/illustrated-map/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A58",
+      "key": "origami",
+      "name": "折纸结构",
+      "family": "纸与纤维",
+      "familyKey": "fiber",
+      "profiles": {
+        "layout": "L10",
+        "motion": "M09",
+        "editing": "E04",
+        "sound": "S03"
+      },
+      "visualMechanism": "一张纸围绕折线形成可辨认结构，展开与折合解释部分和整体",
+      "composition": {
+        "id": "C05",
+        "key": "stack",
+        "name": "卡片展列",
+        "decision": "同一组卡片展开，展示被遮住的内容关系。",
+        "motionVocabulary": [
+          "旋转回正",
+          "卡片展列",
+          "落稳后显字",
+          "共同卡片遮挡交接"
+        ],
+        "editing": "用同一卡片换层级，不能用三张无关图假装同一物体"
+      },
+      "video": "variants/origami/outputs/final.mp4",
+      "poster": "variants/origami/outputs/poster.jpg",
+      "status": "awaiting-fresh-verification"
+    },
+    {
+      "id": "A59",
+      "key": "pop-up-book",
+      "name": "立体书机关",
+      "family": "纸与纤维",
+      "familyKey": "fiber",
+      "profiles": {
+        "layout": "L10",
+        "motion": "M09",
+        "editing": "E05",
+        "sound": "S03"
+      },
+      "visualMechanism": "书脊、两页、铰链与相连V形支撑使纸形立起；不透明翻页只覆盖需要换图的模型条带",
+      "composition": {
+        "id": "C05",
+        "key": "stack",
+        "name": "卡片展列",
+        "decision": "同一组卡片展开，展示被遮住的内容关系。",
+        "motionVocabulary": [
+          "旋转回正",
+          "卡片展列",
+          "落稳后显字",
+          "共同卡片遮挡交接"
+        ],
+        "editing": "用同一卡片换层级，不能用三张无关图假装同一物体"
+      },
+      "video": "variants/pop-up-book/outputs/final.mp4",
+      "poster": "variants/pop-up-book/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A60",
+      "key": "corrugated-model",
+      "name": "瓦楞纸模型",
+      "family": "纸与纤维",
+      "familyKey": "fiber",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M13",
+        "editing": "E02",
+        "sound": "S06"
+      },
+      "visualMechanism": "两层薄面纸、真正空心波纹芯与厚边构成微型物件，孔洞和接触阴影体现瓦楞结构",
+      "composition": {
+        "id": "C05",
+        "key": "stack",
+        "name": "卡片展列",
+        "decision": "同一组卡片展开，展示被遮住的内容关系。",
+        "motionVocabulary": [
+          "旋转回正",
+          "卡片展列",
+          "落稳后显字",
+          "共同卡片遮挡交接"
+        ],
+        "editing": "用同一卡片换层级，不能用三张无关图假装同一物体"
+      },
+      "video": "variants/corrugated-model/outputs/final.mp4",
+      "poster": "variants/corrugated-model/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A61",
+      "key": "torn-paper",
+      "name": "撕纸肌理",
+      "family": "纸与纤维",
+      "familyKey": "fiber",
+      "profiles": {
+        "layout": "L10",
+        "motion": "M08",
+        "editing": "E04",
+        "sound": "S01"
+      },
+      "visualMechanism": "不规则纸纤维撕口与暴露内层塑造物件，宽色片按比较和并列关系组织，完整片层以有限姿态落定",
+      "composition": {
+        "id": "C05",
+        "key": "stack",
+        "name": "卡片展列",
+        "decision": "同一组卡片展开，展示被遮住的内容关系。",
+        "motionVocabulary": [
+          "旋转回正",
+          "卡片展列",
+          "落稳后显字",
+          "共同卡片遮挡交接"
+        ],
+        "editing": "用同一卡片换层级，不能用三张无关图假装同一物体"
+      },
+      "video": "variants/torn-paper/outputs/final.mp4",
+      "poster": "variants/torn-paper/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A62",
+      "key": "felt-applique",
+      "name": "毛毡贴画",
+      "family": "纸与纤维",
+      "familyKey": "fiber",
+      "profiles": {
+        "layout": "L09",
+        "motion": "M08",
+        "editing": "E07",
+        "sound": "S06"
+      },
+      "visualMechanism": "柔软毛边、厚片和缝接构成物件，运动有轻微阻尼和压缩",
+      "composition": {
+        "id": "C11",
+        "key": "scroll",
+        "name": "长卷巡览",
+        "decision": "所有语义面板常驻同一纵向世界，镜头只移动到本句位置。",
+        "motionVocabulary": [
+          "单向长卷位移",
+          "窗口停稳",
+          "独立标题与字幕"
+        ],
+        "editing": "用连续空间取代整页清空；句尾留停稳再巡览"
+      },
+      "video": "variants/felt-applique/outputs/final.mp4",
+      "poster": "variants/felt-applique/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A63",
+      "key": "embroidery",
+      "name": "刺绣针脚",
+      "family": "纸与纤维",
+      "familyKey": "fiber",
+      "profiles": {
+        "layout": "L07",
+        "motion": "M10",
+        "editing": "E04",
+        "sound": "S06"
+      },
+      "visualMechanism": "线迹的方向和疏密组成图形，节点像逐针建立的联系",
+      "composition": {
+        "id": "C11",
+        "key": "scroll",
+        "name": "长卷巡览",
+        "decision": "所有语义面板常驻同一纵向世界，镜头只移动到本句位置。",
+        "motionVocabulary": [
+          "单向长卷位移",
+          "窗口停稳",
+          "独立标题与字幕"
+        ],
+        "editing": "用连续空间取代整页清空；句尾留停稳再巡览"
+      },
+      "video": "variants/embroidery/outputs/final.mp4",
+      "poster": "variants/embroidery/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A64",
+      "key": "patchwork",
+      "name": "织物拼布",
+      "family": "纸与纤维",
+      "familyKey": "fiber",
+      "profiles": {
+        "layout": "L03",
+        "motion": "M08",
+        "editing": "E04",
+        "sound": "S01"
+      },
+      "visualMechanism": "经纬织纹、不同织片和拼缝共同组织双格/三格布面；完整图记有限姿态落定，不声称逐针手作录像",
+      "composition": {
+        "id": "C05",
+        "key": "stack",
+        "name": "卡片展列",
+        "decision": "同一组卡片展开，展示被遮住的内容关系。",
+        "motionVocabulary": [
+          "旋转回正",
+          "卡片展列",
+          "落稳后显字",
+          "共同卡片遮挡交接"
+        ],
+        "editing": "用同一卡片换层级，不能用三张无关图假装同一物体"
+      },
+      "video": "variants/patchwork/outputs/final.mp4",
+      "poster": "variants/patchwork/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A65",
+      "key": "knotted-cord",
+      "name": "线绳编结",
+      "family": "纸与纤维",
+      "familyKey": "fiber",
+      "profiles": {
+        "layout": "L07",
+        "motion": "M01",
+        "editing": "E04",
+        "sound": "S01"
+      },
+      "visualMechanism": "确定性绳股按深度投影交叉，独立结点表示并列建议；上环保留本金图记、下方挂具体重物，不是打结教程",
+      "composition": {
+        "id": "C11",
+        "key": "scroll",
+        "name": "长卷巡览",
+        "decision": "所有语义面板常驻同一纵向世界，镜头只移动到本句位置。",
+        "motionVocabulary": [
+          "单向长卷位移",
+          "窗口停稳",
+          "独立标题与字幕"
+        ],
+        "editing": "用连续空间取代整页清空；句尾留停稳再巡览"
+      },
+      "video": "variants/knotted-cord/outputs/final.mp4",
+      "poster": "variants/knotted-cord/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A66",
+      "key": "silk-layers",
+      "name": "绢纱叠层",
+      "family": "纸与纤维",
+      "familyKey": "fiber",
+      "profiles": {
+        "layout": "L10",
+        "motion": "M01",
+        "editing": "E02",
+        "sound": "S01"
+      },
+      "visualMechanism": "半透明纱片的细织纹和软褶皱按整层叠合，清晰图记在前，阅读标签保持在布层外；不模拟折射",
+      "composition": {
+        "id": "C11",
+        "key": "scroll",
+        "name": "长卷巡览",
+        "decision": "所有语义面板常驻同一纵向世界，镜头只移动到本句位置。",
+        "motionVocabulary": [
+          "单向长卷位移",
+          "窗口停稳",
+          "独立标题与字幕"
+        ],
+        "editing": "用连续空间取代整页清空；句尾留停稳再巡览"
+      },
+      "video": "variants/silk-layers/outputs/final.mp4",
+      "poster": "variants/silk-layers/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A67",
+      "key": "gongbi",
+      "name": "工笔设色",
+      "family": "传统绘画与东方",
+      "familyKey": "painting",
+      "profiles": {
+        "layout": "L02",
+        "motion": "M11",
+        "editing": "E02",
+        "sound": "S07"
+      },
+      "visualMechanism": "细线立骨、多层淡设色和局部放大，解释对象边界清楚而不靠墨块",
+      "composition": {
+        "id": "C09",
+        "key": "archive",
+        "name": "档案索引",
+        "decision": "观众通过固定索引知道自己看到哪一项。",
+        "motionVocabulary": [
+          "同入口抽页",
+          "索引保持",
+          "页签遮挡交接"
+        ],
+        "editing": "按照材料与观点组织段落，共同页签接续"
+      },
+      "video": "variants/gongbi/outputs/final.mp4",
+      "poster": "variants/gongbi/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A68",
+      "key": "blue-green-landscape",
+      "name": "青绿山水",
+      "family": "传统绘画与东方",
+      "familyKey": "painting",
+      "profiles": {
+        "layout": "L11",
+        "motion": "M13",
+        "editing": "E07",
+        "sound": "S01"
+      },
+      "visualMechanism": "原创青绿长卷以山体分组、矿物色层、留水和路径维持空间，随语义有限位聚焦；是意象而非真实地理",
+      "composition": {
+        "id": "C11",
+        "key": "scroll",
+        "name": "长卷巡览",
+        "decision": "所有语义面板常驻同一纵向世界，镜头只移动到本句位置。",
+        "motionVocabulary": [
+          "单向长卷位移",
+          "窗口停稳",
+          "独立标题与字幕"
+        ],
+        "editing": "用连续空间取代整页清空；句尾留停稳再巡览"
+      },
+      "video": "variants/blue-green-landscape/outputs/final.mp4",
+      "poster": "variants/blue-green-landscape/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A69",
+      "key": "mural",
+      "name": "敦煌壁画",
+      "family": "传统绘画与东方",
+      "familyKey": "painting",
+      "profiles": {
+        "layout": "L09",
+        "motion": "M13",
+        "editing": "E07",
+        "sound": "S01"
+      },
+      "visualMechanism": "原创双画带壁面以矿物土色和薄色磨损容纳同一组物件；取景保留本段需要的完整对照，不冒称古代文物",
+      "composition": {
+        "id": "C11",
+        "key": "scroll",
+        "name": "长卷巡览",
+        "decision": "所有语义面板常驻同一纵向世界，镜头只移动到本句位置。",
+        "motionVocabulary": [
+          "单向长卷位移",
+          "窗口停稳",
+          "独立标题与字幕"
+        ],
+        "editing": "用连续空间取代整页清空；句尾留停稳再巡览"
+      },
+      "video": "variants/mural/outputs/final.mp4",
+      "poster": "variants/mural/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A70",
+      "key": "folk-woodblock",
+      "name": "版刻年画",
+      "family": "传统绘画与东方",
+      "familyKey": "painting",
+      "profiles": {
+        "layout": "L08",
+        "motion": "M01",
+        "editing": "E06",
+        "sound": "S01"
+      },
+      "visualMechanism": "多色木版图记进入双联/三联弧顶画屏，墨线、套色和刻白形成印面；现代原创题材不伪称传统吉祥意义",
+      "composition": {
+        "id": "C03",
+        "key": "type",
+        "name": "巨字接力",
+        "decision": "少量关键词在尺度和落点上形成明确差别。",
+        "motionVocabulary": [
+          "词组掩膜与短横移",
+          "主次尺度对照",
+          "完整词组停稳"
+        ],
+        "editing": "在语义重音处切表现文字；人声不另切、不开倍速"
+      },
+      "video": "variants/folk-woodblock/outputs/final.mp4",
+      "poster": "variants/folk-woodblock/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A71",
+      "key": "porcelain-painting",
+      "name": "蓝白瓷绘",
+      "family": "传统绘画与东方",
+      "familyKey": "painting",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M01",
+        "editing": "E04",
+        "sound": "S01"
+      },
+      "visualMechanism": "完整浅盘的器口、白釉高光与凹曲面承载钴蓝笔绘，器外文字平视；独盘重点保留清晰边界与阅读空白",
+      "composition": {
+        "id": "C02",
+        "key": "editorial",
+        "name": "编辑双栏",
+        "decision": "依靠稳定栏线和不同文字角色建立阅读顺序。",
+        "motionVocabulary": [
+          "基线换词",
+          "图注错峰",
+          "栏线锚点遮挡交接"
+        ],
+        "editing": "按完整论点翻到下一版，保留栏线作共同锚点"
+      },
+      "video": "variants/porcelain-painting/outputs/final.mp4",
+      "poster": "variants/porcelain-painting/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A72",
+      "key": "seal-carving",
+      "name": "篆印朱文",
+      "family": "传统绘画与东方",
+      "familyKey": "painting",
+      "profiles": {
+        "layout": "L03",
+        "motion": "M01",
+        "editing": "E06",
+        "sound": "S01"
+      },
+      "visualMechanism": "现代可读字组成朱白正负印面，以竖排、图记边款、破口边框和细印泥孔隙成形；不伪造篆书或真实印章",
+      "composition": {
+        "id": "C03",
+        "key": "type",
+        "name": "巨字接力",
+        "decision": "少量关键词在尺度和落点上形成明确差别。",
+        "motionVocabulary": [
+          "词组掩膜与短横移",
+          "主次尺度对照",
+          "完整词组停稳"
+        ],
+        "editing": "在语义重音处切表现文字；人声不另切、不开倍速"
+      },
+      "video": "variants/seal-carving/outputs/final.mp4",
+      "poster": "variants/seal-carving/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A73",
+      "key": "lacquer-gold",
+      "name": "漆绘描金",
+      "family": "传统绘画与东方",
+      "familyKey": "painting",
+      "profiles": {
+        "layout": "L03",
+        "motion": "M01",
+        "editing": "E04",
+        "sound": "S01"
+      },
+      "visualMechanism": "深黑红漆片上的细金线、金粉密度和受控高光形成两联/三联比较；配重圆盘作负担意象，不把材料显现称作撒金制作过程",
+      "composition": {
+        "id": "C09",
+        "key": "archive",
+        "name": "档案索引",
+        "decision": "观众通过固定索引知道自己看到哪一项。",
+        "motionVocabulary": [
+          "同入口抽页",
+          "索引保持",
+          "页签遮挡交接"
+        ],
+        "editing": "按照材料与观点组织段落，共同页签接续"
+      },
+      "video": "variants/lacquer-gold/outputs/final.mp4",
+      "poster": "variants/lacquer-gold/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A74",
+      "key": "watercolor",
+      "name": "水彩洇染",
+      "family": "传统绘画与东方",
+      "familyKey": "painting",
+      "profiles": {
+        "layout": "L02",
+        "motion": "M01",
+        "editing": "E02",
+        "sound": "S01"
+      },
+      "visualMechanism": "松散纸边、纸白和透明洗色承载四个可读物件；无硬框，图注与湿边分离，完整画作逐层显露而非物理扩散模拟",
+      "composition": {
+        "id": "C07",
+        "key": "gallery",
+        "name": "画廊取景",
+        "decision": "图片获得主要面积，字幕和人像保持独立。",
+        "motionVocabulary": [
+          "取景框内换位",
+          "图注与图片同步",
+          "停稳看细节"
+        ],
+        "editing": "全貌到细节再回人物；解释图不冒充真实凭证"
+      },
+      "video": "variants/watercolor/outputs/final.mp4",
+      "poster": "variants/watercolor/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A75",
+      "key": "impasto",
+      "name": "厚涂油彩",
+      "family": "传统绘画与东方",
+      "familyKey": "painting",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M01",
+        "editing": "E04",
+        "sound": "S01"
+      },
+      "visualMechanism": "可辨厚刀脊、覆盖关系与统一侧光让原始画布片成为展陈单元；整幅落位后读标签，人物不进入油彩媒介",
+      "composition": {
+        "id": "C07",
+        "key": "gallery",
+        "name": "画廊取景",
+        "decision": "图片获得主要面积，字幕和人像保持独立。",
+        "motionVocabulary": [
+          "取景框内换位",
+          "图注与图片同步",
+          "停稳看细节"
+        ],
+        "editing": "全貌到细节再回人物；解释图不冒充真实凭证"
+      },
+      "video": "variants/impasto/outputs/final.mp4",
+      "poster": "variants/impasto/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A76",
+      "key": "woodcut",
+      "name": "木刻刀痕",
+      "family": "工艺表面与印制",
+      "familyKey": "craft",
+      "profiles": {
+        "layout": "L06",
+        "motion": "M07",
+        "editing": "E04",
+        "sound": "S04"
+      },
+      "visualMechanism": "单色刀痕、强黑白和刻除方向构成物件，与年画的叙事套色分开",
+      "composition": {
+        "id": "C07",
+        "key": "gallery",
+        "name": "画廊取景",
+        "decision": "图片获得主要面积，字幕和人像保持独立。",
+        "motionVocabulary": [
+          "取景框内换位",
+          "图注与图片同步",
+          "停稳看细节"
+        ],
+        "editing": "全貌到细节再回人物；解释图不冒充真实凭证"
+      },
+      "video": "variants/woodcut/outputs/final.mp4",
+      "poster": "variants/woodcut/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A77",
+      "key": "etching",
+      "name": "蚀刻铜版",
+      "family": "工艺表面与印制",
+      "familyKey": "craft",
+      "profiles": {
+        "layout": "L02",
+        "motion": "M06",
+        "editing": "E02",
+        "sound": "S04"
+      },
+      "visualMechanism": "细密刻线、版面边界和受控灰调表现对象，细节放大后才可读",
+      "composition": {
+        "id": "C07",
+        "key": "gallery",
+        "name": "画廊取景",
+        "decision": "图片获得主要面积，字幕和人像保持独立。",
+        "motionVocabulary": [
+          "取景框内换位",
+          "图注与图片同步",
+          "停稳看细节"
+        ],
+        "editing": "全貌到细节再回人物；解释图不冒充真实凭证"
+      },
+      "video": "variants/etching/outputs/final.mp4",
+      "poster": "variants/etching/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A78",
+      "key": "risograph",
+      "name": "孔版套印",
+      "family": "工艺表面与印制",
+      "familyKey": "craft",
+      "profiles": {
+        "layout": "L06",
+        "motion": "M05",
+        "editing": "E04",
+        "sound": "S05"
+      },
+      "visualMechanism": "大面积孔版色层、轻微套版错位和油墨颗粒；不是照片上统一加网点",
+      "composition": {
+        "id": "C03",
+        "key": "type",
+        "name": "巨字接力",
+        "decision": "少量关键词在尺度和落点上形成明确差别。",
+        "motionVocabulary": [
+          "词组掩膜与短横移",
+          "主次尺度对照",
+          "完整词组停稳"
+        ],
+        "editing": "在语义重音处切表现文字；人声不另切、不开倍速"
+      },
+      "video": "variants/risograph/outputs/final.mp4",
+      "poster": "variants/risograph/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A79",
+      "key": "enamel-badge",
+      "name": "珐琅徽章",
+      "family": "工艺表面与印制",
+      "familyKey": "craft",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M01",
+        "editing": "E04",
+        "sound": "S01"
+      },
+      "visualMechanism": "不透明釉色、金属围边和薄侧壁形成独立小物件，深色底板和轻微倾角区分并列，标签始终在物件外",
+      "composition": {
+        "id": "C02",
+        "key": "editorial",
+        "name": "编辑双栏",
+        "decision": "依靠稳定栏线和不同文字角色建立阅读顺序。",
+        "motionVocabulary": [
+          "基线换词",
+          "图注错峰",
+          "栏线锚点遮挡交接"
+        ],
+        "editing": "按完整论点翻到下一版，保留栏线作共同锚点"
+      },
+      "video": "variants/enamel-badge/outputs/final.mp4",
+      "poster": "variants/enamel-badge/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A80",
+      "key": "cyanotype",
+      "name": "蓝晒图像",
+      "family": "工艺表面与印制",
+      "familyKey": "craft",
+      "profiles": {
+        "layout": "L02",
+        "motion": "M11",
+        "editing": "E04",
+        "sound": "S02"
+      },
+      "visualMechanism": "实物遮挡留下的负形与感光纸肌理，重点在影像生成关系而非工程蓝图",
+      "composition": {
+        "id": "C04",
+        "key": "route",
+        "name": "纵向叙事",
+        "decision": "读过的路径保留，方向指示阅读先后。",
+        "motionVocabulary": [
+          "节点错峰",
+          "单轴视线推进",
+          "路径保留"
+        ],
+        "editing": "在同一叙事空间里推进；转折保留一个停稳窗口"
+      },
+      "video": "variants/cyanotype/outputs/final.mp4",
+      "poster": "variants/cyanotype/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A81",
+      "key": "foil-deboss",
+      "name": "烫金压凹",
+      "family": "工艺表面与印制",
+      "familyKey": "craft",
+      "profiles": {
+        "layout": "L03",
+        "motion": "M01",
+        "editing": "E06",
+        "sound": "S01"
+      },
+      "visualMechanism": "纤维纸内凹槽、压缩边和局部薄箔形成低起伏图记，三项校样纵排，纸片与正文平视；没有伪造可变灯光或实际压印录像",
+      "composition": {
+        "id": "C02",
+        "key": "editorial",
+        "name": "编辑双栏",
+        "decision": "依靠稳定栏线和不同文字角色建立阅读顺序。",
+        "motionVocabulary": [
+          "基线换词",
+          "图注错峰",
+          "栏线锚点遮挡交接"
+        ],
+        "editing": "按完整论点翻到下一版，保留栏线作共同锚点"
+      },
+      "video": "variants/foil-deboss/outputs/final.mp4",
+      "poster": "variants/foil-deboss/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A82",
+      "key": "mosaic",
+      "name": "马赛克拼片",
+      "family": "工艺表面与印制",
+      "familyKey": "craft",
+      "profiles": {
+        "layout": "L03",
+        "motion": "M01",
+        "editing": "E04",
+        "sound": "S01"
+      },
+      "visualMechanism": "真实可辨的独立嵌片、砂浆缝和随形铺排组成图版；完整图版有限落位后保留，不以粗块空洞模拟逐片嵌装",
+      "composition": {
+        "id": "C04",
+        "key": "route",
+        "name": "纵向叙事",
+        "decision": "读过的路径保留，方向指示阅读先后。",
+        "motionVocabulary": [
+          "节点错峰",
+          "单轴视线推进",
+          "路径保留"
+        ],
+        "editing": "在同一叙事空间里推进；转折保留一个停稳窗口"
+      },
+      "video": "variants/mosaic/outputs/final.mp4",
+      "poster": "variants/mosaic/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A83",
+      "key": "stained-glass",
+      "name": "彩绘玻璃",
+      "family": "工艺表面与印制",
+      "familyKey": "craft",
+      "profiles": {
+        "layout": "L08",
+        "motion": "M01",
+        "editing": "E06",
+        "sound": "S01"
+      },
+      "visualMechanism": "连通的深铅条、纹理玻块和背光形成固定拼窗，连续窗棂组织双联/三联关系；不透明字幕与真实人物独立在前",
+      "composition": {
+        "id": "C04",
+        "key": "route",
+        "name": "纵向叙事",
+        "decision": "读过的路径保留，方向指示阅读先后。",
+        "motionVocabulary": [
+          "节点错峰",
+          "单轴视线推进",
+          "路径保留"
+        ],
+        "editing": "在同一叙事空间里推进；转折保留一个停稳窗口"
+      },
+      "video": "variants/stained-glass/outputs/final.mp4",
+      "poster": "variants/stained-glass/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A84",
+      "key": "sandstone-relief",
+      "name": "砂岩浮雕",
+      "family": "工艺表面与印制",
+      "familyKey": "craft",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M01",
+        "editing": "E04",
+        "sound": "S01"
+      },
+      "visualMechanism": "同一砂岩材质的浅凸台、下凹场和低角度阴影构成浮雕关系，整块石面有限位移后停稳，不只是石纹背景",
+      "composition": {
+        "id": "C09",
+        "key": "archive",
+        "name": "档案索引",
+        "decision": "观众通过固定索引知道自己看到哪一项。",
+        "motionVocabulary": [
+          "同入口抽页",
+          "索引保持",
+          "页签遮挡交接"
+        ],
+        "editing": "按照材料与观点组织段落，共同页签接续"
+      },
+      "video": "variants/sandstone-relief/outputs/final.mp4",
+      "poster": "variants/sandstone-relief/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A85",
+      "key": "chased-metal",
+      "name": "金属錾刻",
+      "family": "工艺表面与印制",
+      "familyKey": "craft",
+      "profiles": {
+        "layout": "L02",
+        "motion": "M01",
+        "editing": "E02",
+        "sound": "S01"
+      },
+      "visualMechanism": "成形金属薄板的锤痕、刮痕、暗包浆和固定高光构成器物，纵排目录与双物比较交替；原始图像有限落位，不伪造动态錾刻过程",
+      "composition": {
+        "id": "C09",
+        "key": "archive",
+        "name": "档案索引",
+        "decision": "观众通过固定索引知道自己看到哪一项。",
+        "motionVocabulary": [
+          "同入口抽页",
+          "索引保持",
+          "页签遮挡交接"
+        ],
+        "editing": "按照材料与观点组织段落，共同页签接续"
+      },
+      "video": "variants/chased-metal/outputs/final.mp4",
+      "poster": "variants/chased-metal/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A86",
+      "key": "miniature-puppet",
+      "name": "微缩木偶",
+      "family": "立体与模型",
+      "familyKey": "volume",
+      "profiles": {
+        "layout": "L09",
+        "motion": "M01",
+        "editing": "E07",
+        "sound": "S01"
+      },
+      "visualMechanism": "同一木质关节/布衣小演员在袋、币、盾、负重四姿态间切换，整姿态轻摆与场外控制线建立微缩舞台；不是关节绑定或嘴型表演，真人保持原色独立",
+      "composition": {
+        "id": "C08",
+        "key": "stage",
+        "name": "空间舞台",
+        "decision": "物体有深度、文字留在稳定平面，人物不跟场景转。",
+        "motionVocabulary": [
+          "中心轴侧转",
+          "边缘按角度淡出",
+          "正面标签停稳"
+        ],
+        "editing": "边缘侧转处换图解，下一镜保持空间轴线"
+      },
+      "video": "variants/miniature-puppet/outputs/final.mp4",
+      "poster": "variants/miniature-puppet/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A87",
+      "key": "building-blocks",
+      "name": "硬质积木",
+      "family": "立体与模型",
+      "familyKey": "volume",
+      "profiles": {
+        "layout": "L14",
+        "motion": "M02",
+        "editing": "E04",
+        "sound": "S01"
+      },
+      "visualMechanism": "硬质拼块、清晰接缝和圆凸点组成物件，平直基线与短距离就位体现硬结构；配重环仅作负担意象，不冒用品牌或声称可照图搭建",
+      "composition": {
+        "id": "C05",
+        "key": "stack",
+        "name": "卡片展列",
+        "decision": "同一组卡片展开，展示被遮住的内容关系。",
+        "motionVocabulary": [
+          "旋转回正",
+          "卡片展列",
+          "落稳后显字",
+          "共同卡片遮挡交接"
+        ],
+        "editing": "用同一卡片换层级，不能用三张无关图假装同一物体"
+      },
+      "video": "variants/building-blocks/outputs/final.mp4",
+      "poster": "variants/building-blocks/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A88",
+      "key": "optical-glass",
+      "name": "透明玻璃",
+      "family": "立体与模型",
+      "familyKey": "volume",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M13",
+        "editing": "E02",
+        "sound": "S01"
+      },
+      "visualMechanism": "代码实体具有非零厚度、透射与折射背景条纹，控制环境反射形成透明边界；文字和真人在独立平面，不作为真实光学实验",
+      "composition": {
+        "id": "C08",
+        "key": "stage",
+        "name": "空间舞台",
+        "decision": "物体有深度、文字留在稳定平面，人物不跟场景转。",
+        "motionVocabulary": [
+          "中心轴侧转",
+          "边缘按角度淡出",
+          "正面标签停稳"
+        ],
+        "editing": "边缘侧转处换图解，下一镜保持空间轴线"
+      },
+      "video": "variants/optical-glass/outputs/final.mp4",
+      "poster": "variants/optical-glass/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A89",
+      "key": "ceramic-objects",
+      "name": "陶瓷物件",
+      "family": "立体与模型",
+      "familyKey": "volume",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M01",
+        "editing": "E07",
+        "sound": "S01"
+      },
+      "visualMechanism": "完整硬釉器物具有厚壁、足部、烧成斑点与灰蓝釉色差，器物自身足部与独立图注组织阅读；整件停稳而不软糖回弹，非真实窑烧录像",
+      "composition": {
+        "id": "C08",
+        "key": "stage",
+        "name": "空间舞台",
+        "decision": "物体有深度、文字留在稳定平面，人物不跟场景转。",
+        "motionVocabulary": [
+          "中心轴侧转",
+          "边缘按角度淡出",
+          "正面标签停稳"
+        ],
+        "editing": "边缘侧转处换图解，下一镜保持空间轴线"
+      },
+      "video": "variants/ceramic-objects/outputs/final.mp4",
+      "poster": "variants/ceramic-objects/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A90",
+      "key": "liquid-chrome",
+      "name": "镀铬液态",
+      "family": "立体与模型",
+      "familyKey": "volume",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M13",
+        "editing": "E04",
+        "sound": "S01"
+      },
+      "visualMechanism": "无接缝的连续圆曲面与本地灯板环境反射构成液态铬意象，几何在入场后回归稳定形体，镜面明暗跟随曲面；不是流体求解或机械剖面换色",
+      "composition": {
+        "id": "C08",
+        "key": "stage",
+        "name": "空间舞台",
+        "decision": "物体有深度、文字留在稳定平面，人物不跟场景转。",
+        "motionVocabulary": [
+          "中心轴侧转",
+          "边缘按角度淡出",
+          "正面标签停稳"
+        ],
+        "editing": "边缘侧转处换图解，下一镜保持空间轴线"
+      },
+      "video": "variants/liquid-chrome/outputs/final.mp4",
+      "poster": "variants/liquid-chrome/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A91",
+      "key": "isometric-maquette",
+      "name": "等距白模",
+      "family": "立体与模型",
+      "familyKey": "volume",
+      "profiles": {
+        "layout": "L14",
+        "motion": "M13",
+        "editing": "E10",
+        "sound": "S01"
+      },
+      "visualMechanism": "正交机位下的白色体块、底座、台阶和接触阴影把物件做成建筑小模型；相同斜投影贯穿比较，不使用彩色城市或仅给图标加投影",
+      "composition": {
+        "id": "C08",
+        "key": "stage",
+        "name": "空间舞台",
+        "decision": "物体有深度、文字留在稳定平面，人物不跟场景转。",
+        "motionVocabulary": [
+          "中心轴侧转",
+          "边缘按角度淡出",
+          "正面标签停稳"
+        ],
+        "editing": "边缘侧转处换图解，下一镜保持空间轴线"
+      },
+      "video": "variants/isometric-maquette/outputs/final.mp4",
+      "poster": "variants/isometric-maquette/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A92",
+      "key": "inflatable-sculpture",
+      "name": "充气软雕",
+      "family": "立体与模型",
+      "familyKey": "volume",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M13",
+        "editing": "E04",
+        "sound": "S01"
+      },
+      "visualMechanism": "PVC鼓胀体积、焊缝、张力皱纹与气阀形成软壳物件；小幅图像形变后停稳，文字不变形，黄色负重物仅为意象而非真实质量演示",
+      "composition": {
+        "id": "C05",
+        "key": "stack",
+        "name": "卡片展列",
+        "decision": "同一组卡片展开，展示被遮住的内容关系。",
+        "motionVocabulary": [
+          "旋转回正",
+          "卡片展列",
+          "落稳后显字",
+          "共同卡片遮挡交接"
+        ],
+        "editing": "用同一卡片换层级，不能用三张无关图假装同一物体"
+      },
+      "video": "variants/inflatable-sculpture/outputs/final.mp4",
+      "poster": "variants/inflatable-sculpture/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A93",
+      "key": "viscous-gel",
+      "name": "流体凝胶",
+      "family": "立体与模型",
+      "familyKey": "volume",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M13",
+        "editing": "E07",
+        "sound": "S01"
+      },
+      "visualMechanism": "有色半透明体积慢慢回流并包裹稳定内芯，轮廓几何按绝对帧回归；图注与人物保持清晰稳定，不将解析形变称为真实流体模拟",
+      "composition": {
+        "id": "C08",
+        "key": "stage",
+        "name": "空间舞台",
+        "decision": "物体有深度、文字留在稳定平面，人物不跟场景转。",
+        "motionVocabulary": [
+          "中心轴侧转",
+          "边缘按角度淡出",
+          "正面标签停稳"
+        ],
+        "editing": "边缘侧转处换图解，下一镜保持空间轴线"
+      },
+      "video": "variants/viscous-gel/outputs/final.mp4",
+      "poster": "variants/viscous-gel/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A94",
+      "key": "mechanical-cutaway",
+      "name": "机械剖面",
+      "family": "立体与模型",
+      "familyKey": "volume",
+      "profiles": {
+        "layout": "L14",
+        "motion": "M13",
+        "editing": "E10",
+        "sound": "S08"
+      },
+      "visualMechanism": "真实或明确示意的剖切体、分解结构和稳定标注，展示内部因果",
+      "composition": {
+        "id": "C12",
+        "key": "radial",
+        "name": "放射结构",
+        "decision": "只有一个中心主张，维度放在周围并用距离建立层级。",
+        "motionVocabulary": [
+          "分支错峰",
+          "局部到整体",
+          "中心持续锚定"
+        ],
+        "editing": "共同中心保持，分支轮换而非每条重建全图"
+      },
+      "video": "variants/mechanical-cutaway/outputs/final.mp4",
+      "poster": "variants/mechanical-cutaway/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A95",
+      "key": "terminal-ascii",
+      "name": "终端字符",
+      "family": "数字屏幕与系统",
+      "familyKey": "digital",
+      "profiles": {
+        "layout": "L13",
+        "motion": "M14",
+        "editing": "E04",
+        "sound": "S09"
+      },
+      "visualMechanism": "等宽字符组成状态和结构，实际文字逐段输出；不伪装真实系统日志",
+      "composition": {
+        "id": "C10",
+        "key": "interface",
+        "name": "界面状态",
+        "decision": "同一解释面板在不同状态呈现真实语义结果。",
+        "motionVocabulary": [
+          "指示条伸缩交接",
+          "内容分组显现",
+          "面板内状态替换"
+        ],
+        "editing": "状态变化承担转场；不虚构按钮操作与真实理财数据"
+      },
+      "video": "variants/terminal-ascii/outputs/final.mp4",
+      "poster": "variants/terminal-ascii/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A96",
+      "key": "vector-oscilloscope",
+      "name": "矢量示波",
+      "family": "数字屏幕与系统",
+      "familyKey": "digital",
+      "profiles": {
+        "layout": "L07",
+        "motion": "M14",
+        "editing": "E04",
+        "sound": "S09"
+      },
+      "visualMechanism": "连续发光线与轨迹余辉构成图形，波形使用真实音频或明确标为示意",
+      "composition": {
+        "id": "C12",
+        "key": "radial",
+        "name": "放射结构",
+        "decision": "只有一个中心主张，维度放在周围并用距离建立层级。",
+        "motionVocabulary": [
+          "分支错峰",
+          "局部到整体",
+          "中心持续锚定"
+        ],
+        "editing": "共同中心保持，分支轮换而非每条重建全图"
+      },
+      "video": "variants/vector-oscilloscope/outputs/final.mp4",
+      "poster": "variants/vector-oscilloscope/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A97",
+      "key": "led-dot-matrix",
+      "name": "低帧点阵",
+      "family": "数字屏幕与系统",
+      "familyKey": "digital",
+      "profiles": {
+        "layout": "L05",
+        "motion": "M14",
+        "editing": "E04",
+        "sound": "S09"
+      },
+      "visualMechanism": "单色圆点阵列、字模和分段更新，区别于像素游戏的场景与方形贴图",
+      "composition": {
+        "id": "C10",
+        "key": "interface",
+        "name": "界面状态",
+        "decision": "同一解释面板在不同状态呈现真实语义结果。",
+        "motionVocabulary": [
+          "指示条伸缩交接",
+          "内容分组显现",
+          "面板内状态替换"
+        ],
+        "editing": "状态变化承担转场；不虚构按钮操作与真实理财数据"
+      },
+      "video": "variants/led-dot-matrix/outputs/final.mp4",
+      "poster": "variants/led-dot-matrix/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A98",
+      "key": "early-desktop",
+      "name": "早期桌面",
+      "family": "数字屏幕与系统",
+      "familyKey": "digital",
+      "profiles": {
+        "layout": "L13",
+        "motion": "M14",
+        "editing": "E03",
+        "sound": "S09"
+      },
+      "visualMechanism": "窗口、位图图标与明确层级组织任务，不复制未经授权的系统品牌界面",
+      "composition": {
+        "id": "C10",
+        "key": "interface",
+        "name": "界面状态",
+        "decision": "同一解释面板在不同状态呈现真实语义结果。",
+        "motionVocabulary": [
+          "指示条伸缩交接",
+          "内容分组显现",
+          "面板内状态替换"
+        ],
+        "editing": "状态变化承担转场；不虚构按钮操作与真实理财数据"
+      },
+      "video": "variants/early-desktop/outputs/final.mp4",
+      "poster": "variants/early-desktop/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A99",
+      "key": "spatial-pointcloud",
+      "name": "空间点云",
+      "family": "数字屏幕与系统",
+      "familyKey": "digital",
+      "profiles": {
+        "layout": "L14",
+        "motion": "M13",
+        "editing": "E10",
+        "sound": "S08"
+      },
+      "visualMechanism": "稀疏到密集的空间采样、点的前后关系和剖切观察；不把真人点云化",
+      "composition": {
+        "id": "C12",
+        "key": "radial",
+        "name": "放射结构",
+        "decision": "只有一个中心主张，维度放在周围并用距离建立层级。",
+        "motionVocabulary": [
+          "分支错峰",
+          "局部到整体",
+          "中心持续锚定"
+        ],
+        "editing": "共同中心保持，分支轮换而非每条重建全图"
+      },
+      "video": "variants/spatial-pointcloud/outputs/final.mp4",
+      "poster": "variants/spatial-pointcloud/outputs/poster.jpg",
+      "status": "queued"
+    },
+    {
+      "id": "A100",
+      "key": "holographic-volume",
+      "name": "全息投影",
+      "family": "数字屏幕与系统",
+      "familyKey": "digital",
+      "profiles": {
+        "layout": "L12",
+        "motion": "M13",
+        "editing": "E08",
+        "sound": "S01"
+      },
+      "visualMechanism": "局部发光轮廓、前后分离的透光切片与发射底座形成投影层次，没有随机点云；原色人物和不透明正文在投影之外，图解不是实际全息设备展示",
+      "composition": {
+        "id": "C12",
+        "key": "radial",
+        "name": "放射结构",
+        "decision": "只有一个中心主张，维度放在周围并用距离建立层级。",
+        "motionVocabulary": [
+          "分支错峰",
+          "局部到整体",
+          "中心持续锚定"
+        ],
+        "editing": "共同中心保持，分支轮换而非每条重建全图"
+      },
+      "video": "variants/holographic-volume/outputs/final.mp4",
+      "poster": "variants/holographic-volume/outputs/poster.jpg",
+      "status": "queued"
+    }
+  ],
+  "principles": [
+    "人物原色",
+    "角落圆窗",
+    "字幕上移"
+  ],
+  "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58"
+}

@@ -1,0 +1,358 @@
+{
+  "status": "in-progress",
+  "total": 100,
+  "verified": 9,
+  "reusedSourceBoundVideos": 12,
+  "jobs": {
+    "minimal": {
+      "status": "verified",
+      "updated": 1792476543.114552,
+      "started": 1792476445.150211,
+      "videoSha256": "37d4337912dc45d1a6f79a67844041c5647dd09f581c5fb57e76d84c0abdf984",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    "paper": {
+      "status": "queued"
+    },
+    "geometry": {
+      "status": "queued"
+    },
+    "magazine": {
+      "status": "verified",
+      "updated": 1792476549.955863,
+      "started": 1792476445.152792,
+      "videoSha256": "685461f601d607ec92a3fbebd1f4d026e37e04b7bead8ba2e20e64cc8122ef4d",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    "collage": {
+      "status": "queued"
+    },
+    "line": {
+      "status": "queued"
+    },
+    "illustration": {
+      "status": "queued"
+    },
+    "precision": {
+      "status": "verified",
+      "updated": 1792476657.0438762,
+      "started": 1792476543.117325,
+      "videoSha256": "9a5cf72bd04c3a50847445a0bce8b68e2e78846dda9193d5d1223732cd2775f1",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    "blueprint": {
+      "status": "verified",
+      "updated": 1792476667.589035,
+      "started": 1792476549.957549,
+      "videoSha256": "61576f3102d3812be94dbf6e56ae40427292bbe3039e3955c8f71e8855c1ccc4",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    "halftone": {
+      "status": "queued"
+    },
+    "comic": {
+      "status": "verified",
+      "updated": 1792476779.904199,
+      "started": 1792476657.049044,
+      "videoSha256": "81e4133a26e1095ebd64a45d6634524cff782d0c9ca6abcc9bda89144c470d6f",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    "film": {
+      "status": "verified",
+      "updated": 1792476802.561145,
+      "started": 1792476667.593309,
+      "videoSha256": "c3242307838572c510c2b1b1bee0fb49ab84af5b7e961ac3211a2ee703e65b9b",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    "ink": {
+      "status": "verified",
+      "updated": 1792476876.1920981,
+      "started": 1792476779.907239,
+      "videoSha256": "d649598d4391355421bef5ae358f15c9dee828d67baa6f7482541b69ee479407",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    "clay": {
+      "status": "verified",
+      "updated": 1792476896.120805,
+      "started": 1792476802.562526,
+      "videoSha256": "d377e2397fee5051ebab349c2805712982f07dcdec0a64d1203d0d49b4439475",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    "pixel": {
+      "status": "queued"
+    },
+    "chalk": {
+      "status": "queued"
+    },
+    "paper-stage": {
+      "status": "queued"
+    },
+    "type-poster": {
+      "status": "verified",
+      "updated": 1792476972.605393,
+      "started": 1792476876.19388,
+      "videoSha256": "2435470f05fd59a32175fdcc095c0969ef898f1ebddec584172e06fc6819f24c",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    "cel": {
+      "status": "queued"
+    },
+    "sci-fi-wireframe": {
+      "status": "verifying",
+      "updated": 1792476972.49575,
+      "started": 1792476896.1222122
+    },
+    "documentary": {
+      "status": "queued"
+    },
+    "tabletop-stilllife": {
+      "status": "queued"
+    },
+    "macro-material": {
+      "status": "queued"
+    },
+    "overhead-workbench": {
+      "status": "queued"
+    },
+    "architectural-light": {
+      "status": "queued"
+    },
+    "everyday-story": {
+      "status": "queued"
+    },
+    "spotlight-stage": {
+      "status": "queued"
+    },
+    "darkroom-prints": {
+      "status": "queued"
+    },
+    "newspaper": {
+      "status": "queued"
+    },
+    "archive-dossier": {
+      "status": "checking",
+      "updated": 1792476972.6068962,
+      "started": 1792476972.606886
+    },
+    "photo-book": {
+      "status": "queued"
+    },
+    "dictionary-entry": {
+      "status": "queued"
+    },
+    "lab-notebook": {
+      "status": "queued"
+    },
+    "timeline-almanac": {
+      "status": "queued"
+    },
+    "swiss-grid": {
+      "status": "queued"
+    },
+    "constructivist": {
+      "status": "queued"
+    },
+    "art-deco": {
+      "status": "queued"
+    },
+    "art-nouveau": {
+      "status": "queued"
+    },
+    "memphis": {
+      "status": "queued"
+    },
+    "brutalist-type": {
+      "status": "queued"
+    },
+    "optical-graphic": {
+      "status": "queued"
+    },
+    "negative-space": {
+      "status": "queued"
+    },
+    "pencil-sketch": {
+      "status": "queued"
+    },
+    "colored-pencil": {
+      "status": "queued"
+    },
+    "charcoal": {
+      "status": "queued"
+    },
+    "pen-hatching": {
+      "status": "queued"
+    },
+    "wax-crayon": {
+      "status": "queued"
+    },
+    "soft-pastel": {
+      "status": "queued"
+    },
+    "marker-sketch": {
+      "status": "queued"
+    },
+    "brush-lettering": {
+      "status": "queued"
+    },
+    "picture-book": {
+      "status": "queued"
+    },
+    "natural-history": {
+      "status": "queued"
+    },
+    "isometric-city": {
+      "status": "queued"
+    },
+    "faceted-vector": {
+      "status": "queued"
+    },
+    "editorial-metaphor": {
+      "status": "queued"
+    },
+    "silhouette-fable": {
+      "status": "queued"
+    },
+    "illustrated-map": {
+      "status": "queued"
+    },
+    "origami": {
+      "status": "awaiting-fresh-verification"
+    },
+    "pop-up-book": {
+      "status": "queued"
+    },
+    "corrugated-model": {
+      "status": "queued"
+    },
+    "torn-paper": {
+      "status": "queued"
+    },
+    "felt-applique": {
+      "status": "queued"
+    },
+    "embroidery": {
+      "status": "queued"
+    },
+    "patchwork": {
+      "status": "queued"
+    },
+    "knotted-cord": {
+      "status": "queued"
+    },
+    "silk-layers": {
+      "status": "queued"
+    },
+    "gongbi": {
+      "status": "queued"
+    },
+    "blue-green-landscape": {
+      "status": "queued"
+    },
+    "mural": {
+      "status": "queued"
+    },
+    "folk-woodblock": {
+      "status": "queued"
+    },
+    "porcelain-painting": {
+      "status": "queued"
+    },
+    "seal-carving": {
+      "status": "queued"
+    },
+    "lacquer-gold": {
+      "status": "queued"
+    },
+    "watercolor": {
+      "status": "queued"
+    },
+    "impasto": {
+      "status": "queued"
+    },
+    "woodcut": {
+      "status": "queued"
+    },
+    "etching": {
+      "status": "queued"
+    },
+    "risograph": {
+      "status": "queued"
+    },
+    "enamel-badge": {
+      "status": "queued"
+    },
+    "cyanotype": {
+      "status": "queued"
+    },
+    "foil-deboss": {
+      "status": "queued"
+    },
+    "mosaic": {
+      "status": "queued"
+    },
+    "stained-glass": {
+      "status": "queued"
+    },
+    "sandstone-relief": {
+      "status": "queued"
+    },
+    "chased-metal": {
+      "status": "queued"
+    },
+    "miniature-puppet": {
+      "status": "queued"
+    },
+    "building-blocks": {
+      "status": "queued"
+    },
+    "optical-glass": {
+      "status": "queued"
+    },
+    "ceramic-objects": {
+      "status": "queued"
+    },
+    "liquid-chrome": {
+      "status": "queued"
+    },
+    "isometric-maquette": {
+      "status": "queued"
+    },
+    "inflatable-sculpture": {
+      "status": "queued"
+    },
+    "viscous-gel": {
+      "status": "queued"
+    },
+    "mechanical-cutaway": {
+      "status": "queued"
+    },
+    "terminal-ascii": {
+      "status": "queued"
+    },
+    "vector-oscilloscope": {
+      "status": "queued"
+    },
+    "led-dot-matrix": {
+      "status": "queued"
+    },
+    "early-desktop": {
+      "status": "queued"
+    },
+    "spatial-pointcloud": {
+      "status": "queued"
+    },
+    "holographic-volume": {
+      "status": "queued"
+    }
+  },
+  "elapsedSeconds": 527.4831609725952
+}
