@@ -1,7 +1,7 @@
 {
   "status": "in-progress",
   "total": 100,
-  "verified": 32,
+  "verified": 40,
   "reusedSourceBoundVideos": 12,
   "jobs": {
     "minimal": {
@@ -253,48 +253,88 @@
       "motionSamples": 300
     },
     "dictionary-entry": {
-      "status": "rendering",
-      "updated": 1792479574.773118,
-      "started": 1792479479.777138
+      "status": "verified",
+      "updated": 1792479870.1089768,
+      "started": 1792479479.777138,
+      "videoSha256": "862622710aaf11f2a414ae438fbcc600213df3179bcfc68d0bc1edc058278898",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "lab-notebook": {
-      "status": "rendering",
-      "updated": 1792479654.696751,
-      "started": 1792479557.25321
+      "status": "verified",
+      "updated": 1792479964.9324841,
+      "started": 1792479557.25321,
+      "videoSha256": "ac7d1983a4f1f8681b11a1e1fefa8e6df999beef019c39d1e9bd1040a1d215a0",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "timeline-almanac": {
-      "status": "waiting-for-render",
-      "updated": 1792479737.5360892,
-      "started": 1792479633.870697
+      "status": "verified",
+      "updated": 1792480085.1455061,
+      "started": 1792479633.870697,
+      "videoSha256": "56a2908207fcc616f8d764fdddf36d560dc37b8e219cb124a5f22e98cd210aa8",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "swiss-grid": {
-      "status": "checking",
-      "updated": 1792479746.4070988,
-      "started": 1792479746.4070752
+      "status": "verified",
+      "updated": 1792480174.209315,
+      "started": 1792479746.4070752,
+      "videoSha256": "e3682a149998a321561e0e3d22f3c3e994059e775f110b05d90f085c1418188d",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "constructivist": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792480400.903198,
+      "started": 1792479870.116213,
+      "videoSha256": "d2990b43da2c55c2f803041cd03208b09c685d1ff108d27022e5ea80bd7d83b8",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "art-deco": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792480517.3189352,
+      "started": 1792479964.936686,
+      "videoSha256": "9bcaa5ee8225970dcf11fbb265065ac0c5d6eec851c8eff7857bb3c298c76dfd",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "art-nouveau": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792480703.09867,
+      "started": 1792480085.153203,
+      "videoSha256": "2c415d1da04d2b687f648f1d60d83b6b9bf43cd2126ffed8075e0773c2b33a33",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "memphis": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792480864.45732,
+      "started": 1792480174.2491899,
+      "videoSha256": "741674fde545bd6ac363db54a95cb201e99b725fd1a52b0a0aea0e2227c3ee9a",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "brutalist-type": {
-      "status": "queued"
+      "status": "rendering",
+      "updated": 1792480596.662285,
+      "started": 1792480400.9251242
     },
     "optical-graphic": {
-      "status": "queued"
+      "status": "rendering",
+      "updated": 1792480677.2690098,
+      "started": 1792480517.324188
     },
     "negative-space": {
-      "status": "queued"
+      "status": "waiting-for-render",
+      "updated": 1792480845.641935,
+      "started": 1792480703.1069329
     },
     "pencil-sketch": {
-      "status": "queued"
+      "status": "checking",
+      "updated": 1792480864.479764,
+      "started": 1792480864.47975
     },
     "colored-pencil": {
       "status": "queued"
@@ -473,5 +513,5 @@
       "status": "queued"
     }
   },
-  "elapsedSeconds": 3232.0925369262695
+  "elapsedSeconds": 4350.165199041367
 }
