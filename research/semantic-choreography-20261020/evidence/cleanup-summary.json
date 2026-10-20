@@ -1,0 +1,24 @@
+{
+  "createdAt": "2026-10-20T13:40:46.291Z",
+  "removedFiles": 34546,
+  "logicalBytesRemoved": 794632688,
+  "removedGiB": 0.74,
+  "stoppedHistoricalPreviewProcesses": 18,
+  "protectedFilesVerified": 105,
+  "criticalPlayback": [
+    {
+      "url": "http://127.0.0.1:64065/review.html",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:64065/outputs/play.mp4",
+      "status": 206
+    },
+    {
+      "url": "http://127.0.0.1:58655/review.html",
+      "status": 200
+    }
+  ],
+  "scope": "Known talking-head research cache and redundant dense frame samples only; unrelated production directories untouched",
+  "retained": "original assets, final MP4s, page files, code, reports, contact sheets, key frames and sparse dense samples"
+}

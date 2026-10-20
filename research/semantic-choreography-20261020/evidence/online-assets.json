@@ -1,0 +1,38 @@
+[
+  {
+    "path": "review.html",
+    "status": 200,
+    "contentRange": null,
+    "sampleBytes": 1024
+  },
+  {
+    "path": "outputs/final.mp4",
+    "status": 206,
+    "contentRange": "bytes 0-1023/4546379",
+    "sampleBytes": 1024
+  },
+  {
+    "path": "outputs/play.mp4",
+    "status": 206,
+    "contentRange": "bytes 0-1023/2495779",
+    "sampleBytes": 1024
+  },
+  {
+    "path": "outputs/poster.jpg",
+    "status": 200,
+    "contentRange": null,
+    "sampleBytes": 1024
+  },
+  {
+    "path": "outputs/previous-excerpt.mp4",
+    "status": 206,
+    "contentRange": "bytes 0-1023/442112",
+    "sampleBytes": 1024
+  },
+  {
+    "path": "outputs/previous-poster.jpg",
+    "status": 200,
+    "contentRange": null,
+    "sampleBytes": 1024
+  }
+]

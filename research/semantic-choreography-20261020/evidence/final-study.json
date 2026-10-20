@@ -1,0 +1,30 @@
+{
+  "state": "complete-test-awaiting-user-review",
+  "url": "http://127.0.0.1:64065/review.html",
+  "duration": 21.3,
+  "frames": 639,
+  "sourceRange": [
+    461,
+    1100
+  ],
+  "officialPluginUnchanged": true,
+  "deliverySha256": "611afc98046e1257c3c8255420b1b92edf1e30eca06d56034d794da309f66d59",
+  "playbackSha256": "6dd655f2c3a6dcef2e4c18720fd0af30a3834c9493a4237ce26554ed5106d7bb",
+  "browserChecks": {
+    "inlinePlayback": true,
+    "fullContinuousPlayback": true,
+    "chapterSeek": true,
+    "pause": true,
+    "normalSpeedEnding": true,
+    "comparisonAfterEnd": true,
+    "fullscreen": true,
+    "fullscreenExit": true,
+    "mobileNoHorizontalOverflow": true,
+    "metadata": true
+  },
+  "sourceVoiceCorrelation": 0.9999753347116339,
+  "sourceVoiceOffsetSamples": 0,
+  "compatAudioPCMIdentical": true,
+  "personChecks": true,
+  "reviewScope": "作者抽帧与真实Chromium页面操作；非独立盲评；内置浏览器自动导航返回queued，用户可直接访问链接"
+}

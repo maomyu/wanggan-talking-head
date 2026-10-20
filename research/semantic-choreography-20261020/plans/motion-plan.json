@@ -1,0 +1,22 @@
+{
+  "intent": "用对象的状态变化解释口播",
+  "mechanisms": [
+    "receipt strip separated and stopped checkout",
+    "same photos sort along distinct paths",
+    "same capital tokens stay present while risk is uncovered",
+    "rejected pitches move outside protected capital",
+    "debt blocks removed and pressure rail opens",
+    "three groups reassemble in parallel while original presenter enlarges"
+  ],
+  "sharedTiming": "plans/edit-plan.json",
+  "triggersAre": "句级继承；句内riskReveal按窗口估计，需实际播放核对；不宣称逐词一帧精度",
+  "identity": [
+    "photo-0",
+    "photo-1",
+    "photo-2",
+    "photo-3",
+    "capital-coins",
+    "presenter"
+  ],
+  "deterministic": true
+}

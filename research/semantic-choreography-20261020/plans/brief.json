@@ -1,0 +1,16 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "length": 21.3,
+  "scope": "test-only representative excerpt",
+  "source": "assets/master.mp4",
+  "sourceRangeFrames": [
+    461,
+    1100
+  ],
+  "intent": "动作产生结果，图片参与语义，前后对象承接；三条建议并列",
+  "identity": "继承已认可写实极简；人物原色、角落圆窗、字幕top1600",
+  "reference": "motion-reference-20261020，仅借鉴编排方法",
+  "autonomy": "用户已授权完整制作并渲染；认可后才升级插件"
+}

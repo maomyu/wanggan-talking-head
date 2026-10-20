@@ -1,0 +1,16 @@
+import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';
+const flag=process.argv.indexOf('--project');if(flag<0)throw Error('--project is required');const root=path.resolve(process.argv[flag+1]);
+const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));const write=(p,o)=>fs.writeFileSync(path.join(root,p),JSON.stringify(o,null,2));const sha=p=>crypto.createHash('sha256').update(fs.readFileSync(path.join(root,p))).digest('hex');
+const edit=read('plans/edit-plan.json'),brief=read('plans/brief.json');if(edit.frameCount!==639||edit.sourceRangeFrames[0]!==461)throw Error('This study is bound to the explicitly selected excerpt');
+const timing={...edit,width:brief.width,height:brief.height,source:{path:'assets/master.mp4',sha256:sha('assets/master.mp4')}};
+fs.writeFileSync(path.join(root,'assets/timing.js'),'window.STUDY_TIMING='+JSON.stringify(timing)+';');write('timing.json',timing);write('edit-plan.json',edit);
+const authored=fs.readFileSync(path.join(root,'scripts/composition.template'),'utf8');
+const motionSource=fs.readFileSync(path.join(root,'assets/motion.js'),'utf8');
+fs.writeFileSync(path.join(root,'index.html'),authored.replace('<script src="assets/motion.js"></script>','<script>'+motionSource+'</script>'));
+const text=authored+motionSource+JSON.stringify(timing);
+const chars=[...new Set(Array.from(text).filter(c=>/[\u4e00-\u9fff\u3000-\u303f\uff00-\uffef\u0020-\u007e]/u.test(c)))].join('');
+write('font-usage.json',{scope:'full dynamic caption and composition character coverage',fonts:{'NotoSansSC-700.woff':chars,'NotoSansSC-900.woff':chars}});
+write('facts.json',{source:timing.source,claims:edit.captions.map(c=>({text:c.text,sourceStart:c.sourceStart,sourceEnd:c.sourceEnd})),graphics:'原创解释示意；无价格、收益率、真实平台、用户评价或真实资金规模。物品为AI生成，用途分类是情境举例。',assets:read('assets/asset-provenance.json')});
+write('index.motion.json',{duration:timing.duration,assertions:[{kind:'appearsBy',selector:'#headline',bySec:.1},{kind:'staysInFrame',selector:'#presenter-mask'},{kind:'staysInFrame',selector:'#captions'}]});
+write('run-record.json',{renderer:'custom-semantic-choreography-study',frames:timing.frameCount,sourceRange:edit.sourceRangeFrames,sourceSha256:sha('assets/master.mp4'),htmlSha256:sha('index.html'),motionSha256:sha('assets/motion.js'),modules:['art-direction','layout','motion','editing'].map(n=>({name:n,plan:'plans/'+({layout:'layout-plan',motion:'motion-plan',editing:'edit-plan'}[n]||n)+'.json'})),status:'approved bounded reproduction case; not a generic renderer'});
+console.log(JSON.stringify({frames:timing.frameCount,duration:timing.duration,captions:timing.captions.length}));

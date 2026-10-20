@@ -1,0 +1,95 @@
+{
+  "url": "http://127.0.0.1:64065/review.html",
+  "checks": {
+    "inlinePlayback": true,
+    "fullContinuousPlayback": true,
+    "chapterSeek": true,
+    "pause": true,
+    "normalSpeedEnding": true,
+    "comparisonAfterEnd": true,
+    "fullscreen": true,
+    "fullscreenExit": true,
+    "mobileNoHorizontalOverflow": true,
+    "metadata": true
+  },
+  "metadata": {
+    "time": 0,
+    "duration": 21.3,
+    "paused": true,
+    "ended": false,
+    "error": null,
+    "width": 1080,
+    "height": 1920,
+    "frames": 0,
+    "muted": false
+  },
+  "playing": {
+    "time": 1.184785,
+    "duration": 21.3,
+    "paused": false,
+    "ended": false,
+    "error": null,
+    "width": 1080,
+    "height": 1920,
+    "frames": 38,
+    "muted": false
+  },
+  "fullContinuousPlayback": {
+    "time": 21.3,
+    "duration": 21.3,
+    "paused": true,
+    "ended": true,
+    "error": null,
+    "width": 1080,
+    "height": 1920,
+    "frames": 639,
+    "muted": false
+  },
+  "seek": {
+    "time": 5.166667,
+    "duration": 21.3,
+    "paused": false,
+    "ended": false,
+    "error": null,
+    "width": 1080,
+    "height": 1920,
+    "frames": 650,
+    "muted": false
+  },
+  "ending": {
+    "time": 21.3,
+    "duration": 21.3,
+    "paused": true,
+    "ended": true,
+    "error": null,
+    "width": 1080,
+    "height": 1920,
+    "frames": 1084,
+    "muted": false
+  },
+  "comparison": [
+    {
+      "id": "film",
+      "time": 0.541854,
+      "paused": false,
+      "muted": false,
+      "error": null
+    },
+    {
+      "id": "previous",
+      "time": 0.541854,
+      "paused": false,
+      "muted": true,
+      "error": null
+    }
+  ],
+  "mobile": {
+    "viewport": 390,
+    "scrollWidth": 390
+  },
+  "errors": [],
+  "ok": true,
+  "deliveryVideoSha256": "611afc98046e1257c3c8255420b1b92edf1e30eca06d56034d794da309f66d59",
+  "playbackVideo": "outputs/play.mp4",
+  "playbackVideoSha256": "6dd655f2c3a6dcef2e4c18720fd0af30a3834c9493a4237ce26554ed5106d7bb"
+}

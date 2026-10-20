@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "skills": [
+    {
+      "skill": "talking-head-art-direction",
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "talking-head-editing",
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "talking-head-layout",
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "talking-head-motion",
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "talking-head-video",
+      "result": "Skill is valid!"
+    }
+  ],
+  "fullModules": 4,
+  "partialModules": [
+    "layout"
+  ],
+  "newSourceStatus": "awaiting-design",
+  "noFixtureCopied": true,
+  "wrongSourceRejected": true,
+  "revisionUsesCurrentEntry": true,
+  "restoredCaseCheckPassed": true,
+  "normalizedHtmlIdentical": true,
+  "timingIdentical": true,
+  "scope": "entry/init/revise, explicit case restoration and real renderer check; approved MP4 reused, no claim of a new render"
+}

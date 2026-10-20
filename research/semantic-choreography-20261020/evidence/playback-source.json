@@ -1,0 +1,7 @@
+{
+  "source": "outputs/final.mp4",
+  "sourceSha256": "611afc98046e1257c3c8255420b1b92edf1e30eca06d56034d794da309f66d59",
+  "playback": "outputs/play.mp4",
+  "playbackSha256": "6dd655f2c3a6dcef2e4c18720fd0af30a3834c9493a4237ce26554ed5106d7bb",
+  "mechanism": "H264 High level4.1 yuv420p faststart; AAC stream copied; original render retained"
+}

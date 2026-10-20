@@ -1,0 +1,17 @@
+{
+  "styleId": "minimal",
+  "experience": "在干净的生活物品工作台上，看购物、资金与负担随讲述改变",
+  "colors": {
+    "background": "#f6f7f4",
+    "ink": "#172621",
+    "green": "#176951",
+    "red": "#ad3b32",
+    "gold": "#c4a36b"
+  },
+  "fonts": [
+    "NotoSansSC-700.woff",
+    "NotoSansSC-900.woff"
+  ],
+  "person": "original color; no filters or blends; circular throughout",
+  "assets": "1 generated alpha sprite with 4 product photographs; concept only; code diagrams with no real financial data"
+}

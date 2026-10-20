@@ -1,0 +1,117 @@
+{
+  "videoSha256": "611afc98046e1257c3c8255420b1b92edf1e30eca06d56034d794da309f66d59",
+  "samples": [
+    {
+      "outputFrame": 0,
+      "sourceFrame": 461,
+      "box": [
+        716,
+        1255,
+        300,
+        300
+      ],
+      "innerRGBMeanAbsoluteError": 2.4745,
+      "meanRGBBias": [
+        -2.4151,
+        -1.8558,
+        -2.0936
+      ],
+      "circleCornerBackgroundError": [
+        2.3333,
+        2.3333,
+        2.3333,
+        2.3333
+      ]
+    },
+    {
+      "outputFrame": 120,
+      "sourceFrame": 581,
+      "box": [
+        716,
+        1255,
+        300,
+        300
+      ],
+      "innerRGBMeanAbsoluteError": 2.5225,
+      "meanRGBBias": [
+        -2.4799,
+        -1.8824,
+        -2.1075
+      ],
+      "circleCornerBackgroundError": [
+        2.3333,
+        2.3333,
+        2.3333,
+        2.3333
+      ]
+    },
+    {
+      "outputFrame": 300,
+      "sourceFrame": 761,
+      "box": [
+        716,
+        1255,
+        300,
+        300
+      ],
+      "innerRGBMeanAbsoluteError": 2.5771,
+      "meanRGBBias": [
+        -2.5293,
+        -1.9032,
+        -2.2079
+      ],
+      "circleCornerBackgroundError": [
+        2.3333,
+        2.3333,
+        2.3333,
+        2.3333
+      ]
+    },
+    {
+      "outputFrame": 420,
+      "sourceFrame": 881,
+      "box": [
+        716,
+        1255,
+        300,
+        300
+      ],
+      "innerRGBMeanAbsoluteError": 2.5339,
+      "meanRGBBias": [
+        -2.521,
+        -1.8366,
+        -2.199
+      ],
+      "circleCornerBackgroundError": [
+        2.3333,
+        2.3333,
+        2.3333,
+        2.3333
+      ]
+    },
+    {
+      "outputFrame": 600,
+      "sourceFrame": 1061,
+      "box": [
+        250,
+        470,
+        580,
+        580
+      ],
+      "innerRGBMeanAbsoluteError": 2.2448,
+      "meanRGBBias": [
+        -2.3309,
+        -1.7276,
+        -2.0739
+      ],
+      "circleCornerBackgroundError": [
+        2.3333,
+        2.3333,
+        2.3333,
+        2.3333
+      ]
+    }
+  ],
+  "method": "原片同帧等比缩小，与编码内圆窗中心区域比较RGB；正方形四角检验是否露出人像。避开圆边与压缩最强区；不宣称逐像素完全相同。",
+  "pass": true
+}

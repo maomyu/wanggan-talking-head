@@ -1,0 +1,16 @@
+{
+  "sampleRate": 48000,
+  "channels": 2,
+  "samplesPerChannel": 1022400,
+  "segments": [
+    {
+      "sourceIn": 461,
+      "sourceOut": 1100,
+      "outputIn": 0,
+      "outputOut": 639
+    }
+  ],
+  "fadeSamplesPerSide": 240,
+  "sourceTailSilencePaddingSamples": 113,
+  "wavSha256": "c88b207b2091e9f6ad1ba896ceced50a766fb979c7ea860fe1a5475200094c4d"
+}

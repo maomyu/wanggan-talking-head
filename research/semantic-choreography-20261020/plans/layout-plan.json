@@ -1,0 +1,30 @@
+{
+  "caption": {
+    "x": 64,
+    "y": 1600,
+    "width": 952,
+    "size": 60,
+    "maxLines": 2
+  },
+  "person": {
+    "corner": [
+      716,
+      1255,
+      300,
+      300
+    ],
+    "closing": [
+      250,
+      470,
+      580,
+      580
+    ],
+    "path": "uniform circular scaling; upper region for explanation; captions protected"
+  },
+  "readingOrder": [
+    "chapter and short headline",
+    "current action or relationship",
+    "voice captions"
+  ],
+  "detail": "四物品先同场；按用途分类；本金与推销片保持不同层；三项结尾并列"
+}

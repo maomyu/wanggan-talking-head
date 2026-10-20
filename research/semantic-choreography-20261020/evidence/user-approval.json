@@ -1,0 +1,9 @@
+{
+  "state": "user-approved",
+  "userMessage": "认可了",
+  "recordedAt": "2026-10-20T13:31:23.487719+00:00",
+  "scope": "21.3秒写实极简连续解释样片；允许按此前约定升级正式插件，不扩大为100种新编排视频逐条认可",
+  "deliverySha256": "611afc98046e1257c3c8255420b1b92edf1e30eca06d56034d794da309f66d59",
+  "playbackSha256": "6dd655f2c3a6dcef2e4c18720fd0af30a3834c9493a4237ce26554ed5106d7bb",
+  "promotionVersion": "1.16.0"
+}

@@ -1,0 +1,20 @@
+{
+  "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+  "deliverySha256": "611afc98046e1257c3c8255420b1b92edf1e30eca06d56034d794da309f66d59",
+  "files": {
+    "plans/edit-plan.json": "f56c6f95d76fea25a869db1acb68461a4ef9ac766fe2dee45a23b2bd1e83cfbb",
+    "plans/layout-plan.json": "75ea21d56c6932f61b9bdf81a8dfdc10f583293aaeed48dce65d0a1b8f2abe0a",
+    "plans/brief.json": "4746591fb076f5bd3b3244f9724d8a10e7bfcddb45ef1b5535ff84efd4e0ab7b",
+    "plans/motion-plan.json": "8325b89c11a6bd1b6dafbf974596eab1c5410c2068cb02bfac28b0f41e308018",
+    "plans/art-direction.json": "4b0e4a17bc0dd66fed7d746189914d9c2ba9c1d0c3fda9795452f25fa9b51b9a",
+    "assets/asset-provenance.json": "f37f94725122d5b2e963ecb7069665b3fc04a85f69a23d08381cb5564ea4eec9",
+    "assets/life-objects.prompt.txt": "a951331b31e5bf829edd9e6c2b126510b4b0f04580b8c89a27f56152f61c7397",
+    "assets/life-objects.png": "4a7c6d28de6408f317f408b0b2ca63d0eac3b7108042a1945e35aa5f7965d255",
+    "assets/motion.js": "f96b04aa311aa0b3026dc5aa78cc46c3a41f858e16a4959cb5fb3684b322d264",
+    "assets/composition.css": "b086e022185f28bfa30bf9651145a25029413f46c0b084ddd078899d4c28278a",
+    "scripts/composition.template": "7c070fedbaa5c4015cee75b475f4865322c4c1f9df116bb7e2bfec742f9f5785",
+    "scripts/build-project.mjs": "1bd7d68c4bda4d6f3a2248173f1394beba7ffd425fdacd16df0f1d6fd51c005a",
+    "scripts/verify-person.py": "816e1ce6f18a02e37a7c02cf8f1455a3c04a14ea159fa19e25fe2654e8c301a5"
+  },
+  "scope": "bounded approved case, not a new generic template"
+}

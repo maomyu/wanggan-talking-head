@@ -1,0 +1,15 @@
+{
+  "life-objects.png": {
+    "kind": "AI-generated conceptual illustration",
+    "tool": "built-in image_gen",
+    "source": "generated_images/exec-720a43b2-aa44-41f5-87c8-e00b0edd23a3.png",
+    "noEvidenceClaim": true,
+    "usage": "CSS crop each quadrant; no raster edits",
+    "sha256": "4a7c6d28de6408f317f408b0b2ca63d0eac3b7108042a1945e35aa5f7965d255"
+  },
+  "master.mp4": {
+    "adoptedFrom": "/Users/maoyu/个人项目/客户/插件/网感口播_1.14.0_正式接入验收/variants/minimal/assets/master.mp4",
+    "kind": "current gallery original-color crop",
+    "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58"
+  }
+}

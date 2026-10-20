@@ -26,6 +26,8 @@
 
 ## 整片制作的责任
 
+整片或解释编排先完整读取[语义编排与素材协作](../../../docs/语义编排与素材协作.md)。`route`和`init`返回的`requiredReferences`给出当前安装位置的完整规范。按照本次原声重新设计场景事件和交接，再进入构建；仅改字幕等局部工作保留既有内容关系。固定示例仍明确复现原案例，不会因入口升级变成任意新稿的自动创意器。
+
 统一入口不是自动创意模型。代理先按照四个完整skill形成本片的brief、四模块方案和可重复构建入口。新素材的初始化状态是awaiting-design，设计未完成就明确报缺项，不生成假成片。
 
 默认项目结构为 plans、assets、scripts、outputs、qa。四个方案分别是art-direction.json、layout-plan.json、motion-plan.json、edit-plan.json。创意字段按本片需要设计；brief.json至少给出width、height，最终输出给出timing.json的fps、frameCount、duration与字幕。源片保留assets/master.mp4，源转写为assets/canonical-native.srt。

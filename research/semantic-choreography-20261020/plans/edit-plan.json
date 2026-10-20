@@ -1,0 +1,180 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "frameCount": 639,
+  "duration": 21.3,
+  "sourceRangeFrames": [
+    461,
+    1100
+  ],
+  "intervalConvention": "left-closed-right-open",
+  "captions": [
+    {
+      "id": 11,
+      "startFrame": 0,
+      "endFrame": 55,
+      "text": "第一，砍掉无效消费",
+      "sourceStart": 15.366666666666667,
+      "sourceEnd": 17.2,
+      "segment": "A",
+      "sourceId": 11
+    },
+    {
+      "id": 12,
+      "startFrame": 55,
+      "endFrame": 102,
+      "text": "戒掉冲动的购物",
+      "sourceStart": 17.2,
+      "sourceEnd": 18.766666666666666,
+      "segment": "A",
+      "sourceId": 12
+    },
+    {
+      "id": 13,
+      "startFrame": 102,
+      "endFrame": 155,
+      "text": "分清楚想要和需要",
+      "sourceStart": 18.766666666666666,
+      "sourceEnd": 20.533333333333335,
+      "segment": "A",
+      "sourceId": 13
+    },
+    {
+      "id": 14,
+      "startFrame": 155,
+      "endFrame": 225,
+      "text": "第二守住本金永远优先",
+      "sourceStart": 20.533333333333335,
+      "sourceEnd": 22.866666666666667,
+      "segment": "A",
+      "sourceId": 14
+    },
+    {
+      "id": 15,
+      "startFrame": 225,
+      "endFrame": 322,
+      "text": "市面上夸大收益理财的都暗藏风险",
+      "sourceStart": 22.866666666666667,
+      "sourceEnd": 26.1,
+      "segment": "A",
+      "sourceId": 15
+    },
+    {
+      "id": 16,
+      "startFrame": 322,
+      "endFrame": 395,
+      "text": "普通人要远离投机跟炒作",
+      "sourceStart": 26.1,
+      "sourceEnd": 28.533333333333335,
+      "segment": "A",
+      "sourceId": 16
+    },
+    {
+      "id": 17,
+      "startFrame": 395,
+      "endFrame": 437,
+      "text": "第三减少负债",
+      "sourceStart": 28.533333333333335,
+      "sourceEnd": 29.933333333333334,
+      "segment": "A",
+      "sourceId": 17
+    },
+    {
+      "id": 18,
+      "startFrame": 437,
+      "endFrame": 498,
+      "text": "财富从来不是靠蛮力争取的",
+      "sourceStart": 29.933333333333334,
+      "sourceEnd": 31.966666666666665,
+      "segment": "A",
+      "sourceId": 18
+    },
+    {
+      "id": 19,
+      "startFrame": 498,
+      "endFrame": 542,
+      "text": "而是靠认知筛选",
+      "sourceStart": 31.966666666666665,
+      "sourceEnd": 33.43333333333333,
+      "segment": "A",
+      "sourceId": 19
+    },
+    {
+      "id": 20,
+      "startFrame": 542,
+      "endFrame": 575,
+      "text": "不跟风不浮躁",
+      "sourceStart": 33.43333333333333,
+      "sourceEnd": 34.53333333333333,
+      "segment": "A",
+      "sourceId": 20
+    },
+    {
+      "id": 21,
+      "startFrame": 575,
+      "endFrame": 639,
+      "text": "才是普通人该走的路",
+      "sourceStart": 34.53333333333333,
+      "sourceEnd": 36.666666666666664,
+      "segment": "A",
+      "sourceId": 21
+    }
+  ],
+  "shots": [
+    {
+      "id": "continuous-excerpt",
+      "sourceIn": 461,
+      "sourceOut": 1100,
+      "outputIn": 0,
+      "outputOut": 639,
+      "reason": "保留三条建议与收束；不改句间顺序、不变速"
+    }
+  ],
+  "audioSegments": [
+    {
+      "sourceIn": 461,
+      "sourceOut": 1100,
+      "outputIn": 0,
+      "outputOut": 639
+    }
+  ],
+  "timingProvenance": "本次MP4实际音轨 whisper.cpp large-v3-turbo 本地转写；句内使用识别词边界拆成21条，30fps取整。借掉/手术/买力按上下文校为戒掉/守住/蛮力，原始转写保留qa/source-asr.json。未宣称逐字一帧精度。",
+  "voicePolicy": "one original voice; no added music or SFX",
+  "semanticAnchors": {
+    "cut": 0,
+    "pause": 55,
+    "distinguish": 102,
+    "capital": 155,
+    "pitch": 225,
+    "riskReveal": 292,
+    "avoid": 322,
+    "debt": 395,
+    "recognition": 498,
+    "noHerd": 542,
+    "resolve": 575,
+    "summary": 437
+  },
+  "sceneWindows": [
+    {
+      "id": "spend",
+      "startFrame": 0,
+      "endFrame": 155
+    },
+    {
+      "id": "capital",
+      "startFrame": 155,
+      "endFrame": 395
+    },
+    {
+      "id": "debt",
+      "startFrame": 395,
+      "endFrame": 437
+    },
+    {
+      "id": "resolve",
+      "startFrame": 437,
+      "endFrame": 639
+    }
+  ]
+}

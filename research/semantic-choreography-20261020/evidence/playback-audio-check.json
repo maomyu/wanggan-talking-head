@@ -1,0 +1,15 @@
+{
+  "decodedPCMIdentical": true,
+  "files": [
+    {
+      "file": "outputs/final.mp4",
+      "bytes": 4089600,
+      "sha256": "d8cbb12dc135cd7d52e2ff19424d79313dbb6167ead7321fed3df6f2fa6459cb"
+    },
+    {
+      "file": "outputs/play.mp4",
+      "bytes": 4089600,
+      "sha256": "d8cbb12dc135cd7d52e2ff19424d79313dbb6167ead7321fed3df6f2fa6459cb"
+    }
+  ]
+}
