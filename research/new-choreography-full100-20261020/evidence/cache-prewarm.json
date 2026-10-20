@@ -1,0 +1,523 @@
+{
+  "kind": "same-source-native-cache-prewarm",
+  "sourceMovieSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+  "sourceCacheKey": "hfcache-v8-be81e9f4ad3dd3b0",
+  "pinnedCacheSchema": "HF0.8.174 hfcache-v8 local-file key",
+  "sourceFrameCount": 1100,
+  "firstPNG": {
+    "file": "frame_00001.png",
+    "sha256": "3072f0b37ef8197779c116bc94fd8a28dc7c78868e0384e01361a7eb0d3d8372"
+  },
+  "lastPNG": {
+    "file": "frame_01100.png",
+    "sha256": "89fa34858c778b811ba94915d65f1810f91c7038b8d1aede2e98e60906e6b3a2"
+  },
+  "method": "Hard links only within temporary decoded source cache; source projects and deliverable MP4s remain independent. No encoded composite reuse.",
+  "newEntries": 52,
+  "entries": [
+    {
+      "key": "minimal",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "paper",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "geometry",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "magazine",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "collage",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "line",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "illustration",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "precision",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "blueprint",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "halftone",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "comic",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "film",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "ink",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "clay",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "pixel",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "chalk",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "paper-stage",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "type-poster",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "cel",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "sci-fi-wireframe",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "documentary",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "tabletop-stilllife",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "macro-material",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "overhead-workbench",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "architectural-light",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "everyday-story",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "spotlight-stage",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "darkroom-prints",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "newspaper",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "archive-dossier",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "photo-book",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "dictionary-entry",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "lab-notebook",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "timeline-almanac",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "swiss-grid",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "constructivist",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "art-deco",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "art-nouveau",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "memphis",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "brutalist-type",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "optical-graphic",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "negative-space",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "pencil-sketch",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "colored-pencil",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "charcoal",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "pen-hatching",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "wax-crayon",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "soft-pastel",
+      "cacheKey": "hfcache-v8-1807a936876a90bb",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "marker-sketch",
+      "cacheKey": "hfcache-v8-dedbbc6875f260be",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "brush-lettering",
+      "cacheKey": "hfcache-v8-f88b359ca91780b2",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "picture-book",
+      "cacheKey": "hfcache-v8-536bb5c8a1674138",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "natural-history",
+      "cacheKey": "hfcache-v8-d4202a346ef7ee26",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "isometric-city",
+      "cacheKey": "hfcache-v8-5e3148bb5f49b724",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "faceted-vector",
+      "cacheKey": "hfcache-v8-4c858e87e2231c5d",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "editorial-metaphor",
+      "cacheKey": "hfcache-v8-418e50646f57301a",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "silhouette-fable",
+      "cacheKey": "hfcache-v8-59cd024fe7a33bc2",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "illustrated-map",
+      "cacheKey": "hfcache-v8-9be75d5558a8ab6c",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "origami",
+      "status": "complete-output-preserved"
+    },
+    {
+      "key": "pop-up-book",
+      "cacheKey": "hfcache-v8-205281b052dd5e40",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "corrugated-model",
+      "cacheKey": "hfcache-v8-1ca35062e1cc97f9",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "torn-paper",
+      "cacheKey": "hfcache-v8-6dabab4e583a9dab",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "felt-applique",
+      "cacheKey": "hfcache-v8-897efee7ce866e97",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "embroidery",
+      "cacheKey": "hfcache-v8-1ab80410857073d5",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "patchwork",
+      "cacheKey": "hfcache-v8-c94a846a0bbed3fd",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "knotted-cord",
+      "cacheKey": "hfcache-v8-7be43ad841d9a72a",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "silk-layers",
+      "cacheKey": "hfcache-v8-0abb481f18b47efb",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "gongbi",
+      "cacheKey": "hfcache-v8-3884d702cb07950b",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "blue-green-landscape",
+      "cacheKey": "hfcache-v8-bc76e9cee250a9ff",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "mural",
+      "cacheKey": "hfcache-v8-037776536394a533",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "folk-woodblock",
+      "cacheKey": "hfcache-v8-1f763c5233d58da5",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "porcelain-painting",
+      "cacheKey": "hfcache-v8-91a0a1dcae9f88eb",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "seal-carving",
+      "cacheKey": "hfcache-v8-1c2b4596d140f955",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "lacquer-gold",
+      "cacheKey": "hfcache-v8-358c57504e4e8869",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "watercolor",
+      "cacheKey": "hfcache-v8-2fa4a3238b2ece2f",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "impasto",
+      "cacheKey": "hfcache-v8-38bb674d176dae7d",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "woodcut",
+      "cacheKey": "hfcache-v8-b7311711e3c7a156",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "etching",
+      "cacheKey": "hfcache-v8-8c68d12e9a880076",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "risograph",
+      "cacheKey": "hfcache-v8-d39477457e17a050",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "enamel-badge",
+      "cacheKey": "hfcache-v8-eb9d5c30e7272a18",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "cyanotype",
+      "cacheKey": "hfcache-v8-58ea648784f3feb4",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "foil-deboss",
+      "cacheKey": "hfcache-v8-f2e6f02c261f5021",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "mosaic",
+      "cacheKey": "hfcache-v8-2ca53a1f79a04376",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "stained-glass",
+      "cacheKey": "hfcache-v8-31bda0b7577223ec",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "sandstone-relief",
+      "cacheKey": "hfcache-v8-85c4ef5d874934ff",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "chased-metal",
+      "cacheKey": "hfcache-v8-cc5051922a93dc8e",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "miniature-puppet",
+      "cacheKey": "hfcache-v8-9c8108c3ad7507cd",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "building-blocks",
+      "cacheKey": "hfcache-v8-32e536937fe1a270",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "optical-glass",
+      "cacheKey": "hfcache-v8-5f55f8e12db09399",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "ceramic-objects",
+      "cacheKey": "hfcache-v8-241a7b9eb2651f5d",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "liquid-chrome",
+      "cacheKey": "hfcache-v8-85f72a2f04a2ddfc",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "isometric-maquette",
+      "cacheKey": "hfcache-v8-599b020d7962ab3e",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "inflatable-sculpture",
+      "cacheKey": "hfcache-v8-f92db6211e94442f",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "viscous-gel",
+      "cacheKey": "hfcache-v8-21d354aef69bbc26",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "mechanical-cutaway",
+      "cacheKey": "hfcache-v8-6bf1ff6b7f2a4edc",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "terminal-ascii",
+      "cacheKey": "hfcache-v8-b0cf65f23fe10948",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "vector-oscilloscope",
+      "cacheKey": "hfcache-v8-228d0d52d895b604",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "led-dot-matrix",
+      "cacheKey": "hfcache-v8-16ec1642f4f8247f",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "early-desktop",
+      "cacheKey": "hfcache-v8-81acbb44b33a47c8",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "spatial-pointcloud",
+      "cacheKey": "hfcache-v8-3f646cdfcc863613",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    },
+    {
+      "key": "holographic-volume",
+      "cacheKey": "hfcache-v8-f7df82595c2d24e9",
+      "status": "shared-immutable-source-pngs",
+      "frames": 1100
+    }
+  ]
+}

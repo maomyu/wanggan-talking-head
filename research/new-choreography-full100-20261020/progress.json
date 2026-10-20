@@ -1,5 +1,5 @@
 {
-  "verified": 40,
+  "verified": 48,
   "total": 100,
   "videos": [
     {
@@ -271,6 +271,62 @@
     {
       "key": "memphis",
       "videoSha256": "741674fde545bd6ac363db54a95cb201e99b725fd1a52b0a0aea0e2227c3ee9a",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "brutalist-type",
+      "videoSha256": "009c1878e6ea8faead90bc5102391e2c291a8b9cac8685f15bcb9eeee725c13d",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "optical-graphic",
+      "videoSha256": "6eecf200be3e21bb57ba4366bbd8f5e5cf00a0e0d845c7df36a10242f5c72c99",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "negative-space",
+      "videoSha256": "f389a22798c656ba0d7c3006f5091b6e095a8bd6169dfed11aa6589ca2e5e35c",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "pencil-sketch",
+      "videoSha256": "7d97311f17128e30a41a420d80e2e600ef83c02c99c493c0636a42c26fff54f1",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "colored-pencil",
+      "videoSha256": "f5a47fc4f78399d49e613290aa049b26600fdfe6c2666e30f4454612a5417224",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "charcoal",
+      "videoSha256": "6137be266f8feed1d98c93d185a454a83b76d4cf3c47256195a927e668245e52",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "pen-hatching",
+      "videoSha256": "5fcbe55f28193244e3b27539d0a0dc82793fd9fb3fa0ec995248c34c553844f4",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "wax-crayon",
+      "videoSha256": "cb3efc1848487769aeb0f332619c60d35c3332df3872399061ef6be42b2ab6bc",
       "frames": 1100,
       "audioCorrelation": 0.9999823504746719,
       "motionSamples": 300

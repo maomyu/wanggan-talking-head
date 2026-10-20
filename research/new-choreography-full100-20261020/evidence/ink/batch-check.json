@@ -1,0 +1,1453 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 28,
+    "findings": [
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 2.037,
+        "selector": "#d-scroll > section:nth-of-type(2) > div:nth-of-type(3) > b:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 94,
+          "top": 1935,
+          "right": 374,
+          "bottom": 2012,
+          "width": 280,
+          "height": 77
+        },
+        "containerSelector": "#root",
+        "text": "本金受损",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "bottom": 92
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 94,
+          "y": 1935,
+          "width": 280,
+          "height": 77
+        },
+        "firstSeen": 2.037,
+        "lastSeen": 34.63,
+        "occurrences": 6,
+        "heldMs": 0,
+        "times": [
+          2.037,
+          18.333,
+          22.407,
+          26.481,
+          30.556,
+          34.63
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 2.037,
+        "selector": "#d-scroll > section:nth-of-type(3) > small:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 94,
+          "top": 2278,
+          "right": 183.64,
+          "bottom": 2318,
+          "width": 89.64,
+          "height": 40
+        },
+        "containerSelector": "#root",
+        "text": "03 / 07",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "bottom": 398
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 94,
+          "y": 2278,
+          "width": 89.64,
+          "height": 40
+        },
+        "firstSeen": 2.037,
+        "lastSeen": 34.63,
+        "occurrences": 6,
+        "heldMs": 0,
+        "times": [
+          2.037,
+          18.333,
+          22.407,
+          26.481,
+          30.556,
+          34.63
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 2.037,
+        "selector": "#d-scroll > section:nth-of-type(3) > div:nth-of-type(1) > b:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 94,
+          "top": 2354,
+          "right": 466,
+          "bottom": 2422,
+          "width": 372,
+          "height": 68
+        },
+        "containerSelector": "#root",
+        "text": "减少无效消费",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "bottom": 502
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 94,
+          "y": 2354,
+          "width": 372,
+          "height": 68
+        },
+        "firstSeen": 2.037,
+        "lastSeen": 34.63,
+        "occurrences": 6,
+        "heldMs": 0,
+        "times": [
+          2.037,
+          18.333,
+          22.407,
+          26.481,
+          30.556,
+          34.63
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 2.037,
+        "selector": "#d-scroll > section:nth-of-type(3) > div:nth-of-type(2) > b:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 94,
+          "top": 2595,
+          "right": 374,
+          "bottom": 2672,
+          "width": 280,
+          "height": 77
+        },
+        "containerSelector": "#root",
+        "text": "守住本金",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "bottom": 752
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 94,
+          "y": 2595,
+          "width": 280,
+          "height": 77
+        },
+        "firstSeen": 2.037,
+        "lastSeen": 34.63,
+        "occurrences": 6,
+        "heldMs": 0,
+        "times": [
+          2.037,
+          18.333,
+          22.407,
+          26.481,
+          30.556,
+          34.63
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 2.037,
+        "selector": "#d-scroll > section:nth-of-type(3) > div:nth-of-type(3) > b:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 94,
+          "top": 2835,
+          "right": 374,
+          "bottom": 2912,
+          "width": 280,
+          "height": 77
+        },
+        "containerSelector": "#root",
+        "text": "减少负债",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "bottom": 992
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 94,
+          "y": 2835,
+          "width": 280,
+          "height": 77
+        },
+        "firstSeen": 2.037,
+        "lastSeen": 34.63,
+        "occurrences": 7,
+        "heldMs": 0,
+        "times": [
+          2.037,
+          6.111,
+          10.185,
+          22.407,
+          26.481,
+          30.556,
+          34.63
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 2.037,
+        "selector": "#d-scroll > section:nth-of-type(4) > small:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 94,
+          "top": 3178,
+          "right": 183.64,
+          "bottom": 3218,
+          "width": 89.64,
+          "height": 40
+        },
+        "containerSelector": "#root",
+        "text": "04 / 07",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "bottom": 1298
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 94,
+          "y": 3178,
+          "width": 89.64,
+          "height": 40
+        },
+        "firstSeen": 2.037,
+        "lastSeen": 34.63,
+        "occurrences": 7,
+        "heldMs": 0,
+        "times": [
+          2.037,
+          6.111,
+          10.185,
+          22.407,
+          26.481,
+          30.556,
+          34.63
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 2.037,
+        "selector": "#d-scroll > section:nth-of-type(4) > div:nth-of-type(1) > b:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 94,
+          "top": 3255,
+          "right": 234,
+          "bottom": 3332,
+          "width": 140,
+          "height": 77
+        },
+        "containerSelector": "#root",
+        "text": "想要",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "bottom": 1412
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 94,
+          "y": 3255,
+          "width": 140,
+          "height": 77
+        },
+        "firstSeen": 2.037,
+        "lastSeen": 34.63,
+        "occurrences": 7,
+        "heldMs": 0,
+        "times": [
+          2.037,
+          6.111,
+          10.185,
+          22.407,
+          26.481,
+          30.556,
+          34.63
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 2.037,
+        "selector": "#d-scroll > section:nth-of-type(4) > div:nth-of-type(1) > span:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 94,
+          "top": 3354.5,
+          "right": 262,
+          "bottom": 3415.5,
+          "width": 168,
+          "height": 61
+        },
+        "containerSelector": "#root",
+        "text": "一时喜欢",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "bottom": 1495.5
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 94,
+          "y": 3354.5,
+          "width": 168,
+          "height": 61
+        },
+        "firstSeen": 2.037,
+        "lastSeen": 34.63,
+        "occurrences": 7,
+        "heldMs": 0,
+        "times": [
+          2.037,
+          6.111,
+          10.185,
+          22.407,
+          26.481,
+          30.556,
+          34.63
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 2.037,
+        "selector": "#d-scroll > section:nth-of-type(4) > div:nth-of-type(2) > b:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 94,
+          "top": 3495,
+          "right": 234,
+          "bottom": 3572,
+          "width": 140,
+          "height": 77
+        },
+        "containerSelector": "#root",
+        "text": "需要",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "bottom": 1652
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 94,
+          "y": 3495,
+          "width": 140,
+          "height": 77
+        },
+        "firstSeen": 2.037,
+        "lastSeen": 34.63,
+        "occurrences": 7,
+        "heldMs": 0,
+        "times": [
+          2.037,
+          6.111,
+          10.185,
+          22.407,
+          26.481,
+          30.556,
+          34.63
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 2.037,
+        "selector": "#d-scroll > section:nth-of-type(4) > div:nth-of-type(2) > span:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 94,
+          "top": 3594.5,
+          "right": 262,
+          "bottom": 3655.5,
+          "width": 168,
+          "height": 61
+        },
+        "containerSelector": "#root",
+        "text": "实际用途",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "bottom": 1735.5
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 94,
+          "y": 3594.5,
+          "width": 168,
+          "height": 61
+        },
+        "firstSeen": 2.037,
+        "lastSeen": 34.63,
+        "occurrences": 7,
+        "heldMs": 0,
+        "times": [
+          2.037,
+          6.111,
+          10.185,
+          22.407,
+          26.481,
+          30.556,
+          34.63
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 2.037,
+        "selector": "#d-scroll > section:nth-of-type(5) > small:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 94,
+          "top": 4078,
+          "right": 183.64,
+          "bottom": 4118,
+          "width": 89.64,
+          "height": 40
+        },
+        "containerSelector": "#root",
+        "text": "05 / 07",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "bottom": 2198
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 94,
+          "y": 4078,
+          "width": 89.64,
+          "height": 40
+        },
+        "firstSeen": 2.037,
+        "lastSeen": 34.63,
+        "occurrences": 6,
+        "heldMs": 0,
+        "times": [
+          2.037,
+          6.111,
+          10.185,
+          14.259,
+          30.556,
+          34.63
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 2.037,
+        "selector": "#d-scroll > section:nth-of-type(5) > div:nth-of-type(1) > b:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 94,
+          "top": 4155,
+          "right": 374,
+          "bottom": 4232,
+          "width": 280,
+          "height": 77
+        },
+        "containerSelector": "#root",
+        "text": "夸大收益",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "bottom": 2312
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 94,
+          "y": 4155,
+          "width": 280,
+          "height": 77
+        },
+        "firstSeen": 2.037,
+        "lastSeen": 34.63,
+        "occurrences": 6,
+        "heldMs": 0,
+        "times": [
+          2.037,
+          6.111,
+          10.185,
+          14.259,
+          30.556,
+          34.63
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 2.037,
+        "selector": "#d-scroll > section:nth-of-type(5) > div:nth-of-type(2) > b:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 94,
+          "top": 4395,
+          "right": 374,
+          "bottom": 4472,
+          "width": 280,
+          "height": 77
+        },
+        "containerSelector": "#root",
+        "text": "暗藏风险",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "bottom": 2552
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 94,
+          "y": 4395,
+          "width": 280,
+          "height": 77
+        },
+        "firstSeen": 2.037,
+        "lastSeen": 34.63,
+        "occurrences": 6,
+        "heldMs": 0,
+        "times": [
+          2.037,
+          6.111,
+          10.185,
+          14.259,
+          30.556,
+          34.63
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 2.037,
+        "selector": "#d-scroll > section:nth-of-type(6) > small:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 94,
+          "top": 4978,
+          "right": 183.64,
+          "bottom": 5018,
+          "width": 89.64,
+          "height": 40
+        },
+        "containerSelector": "#root",
+        "text": "06 / 07",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "bottom": 3098
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 94,
+          "y": 4978,
+          "width": 89.64,
+          "height": 40
+        },
+        "firstSeen": 2.037,
+        "lastSeen": 34.63,
+        "occurrences": 7,
+        "heldMs": 0,
+        "times": [
+          2.037,
+          6.111,
+          10.185,
+          14.259,
+          18.333,
+          30.556,
+          34.63
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 2.037,
+        "selector": "#d-scroll > section:nth-of-type(6) > div:nth-of-type(1) > b:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 94,
+          "top": 5055,
+          "right": 374,
+          "bottom": 5132,
+          "width": 280,
+          "height": 77
+        },
+        "containerSelector": "#root",
+        "text": "减少负债",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "bottom": 3212
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 94,
+          "y": 5055,
+          "width": 280,
+          "height": 77
+        },
+        "firstSeen": 2.037,
+        "lastSeen": 34.63,
+        "occurrences": 7,
+        "heldMs": 0,
+        "times": [
+          2.037,
+          6.111,
+          10.185,
+          14.259,
+          18.333,
+          30.556,
+          34.63
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 2.037,
+        "selector": "#d-scroll > section:nth-of-type(7) > small:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 94,
+          "top": 5878,
+          "right": 183.64,
+          "bottom": 5918,
+          "width": 89.64,
+          "height": 40
+        },
+        "containerSelector": "#root",
+        "text": "07 / 07",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "bottom": 3998
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 94,
+          "y": 5878,
+          "width": 89.64,
+          "height": 40
+        },
+        "firstSeen": 2.037,
+        "lastSeen": 26.481,
+        "occurrences": 7,
+        "heldMs": 0,
+        "times": [
+          2.037,
+          6.111,
+          10.185,
+          14.259,
+          18.333,
+          22.407,
+          26.481
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 2.037,
+        "selector": "#d-scroll > section:nth-of-type(7) > div:nth-of-type(1) > b:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 94,
+          "top": 5955,
+          "right": 304,
+          "bottom": 6032,
+          "width": 210,
+          "height": 77
+        },
+        "containerSelector": "#root",
+        "text": "少冲动",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "bottom": 4112
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 94,
+          "y": 5955,
+          "width": 210,
+          "height": 77
+        },
+        "firstSeen": 2.037,
+        "lastSeen": 26.481,
+        "occurrences": 7,
+        "heldMs": 0,
+        "times": [
+          2.037,
+          6.111,
+          10.185,
+          14.259,
+          18.333,
+          22.407,
+          26.481
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 2.037,
+        "selector": "#d-scroll > section:nth-of-type(7) > div:nth-of-type(2) > b:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 94,
+          "top": 6195,
+          "right": 304,
+          "bottom": 6272,
+          "width": 210,
+          "height": 77
+        },
+        "containerSelector": "#root",
+        "text": "守本金",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "bottom": 4352
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 94,
+          "y": 6195,
+          "width": 210,
+          "height": 77
+        },
+        "firstSeen": 2.037,
+        "lastSeen": 26.481,
+        "occurrences": 7,
+        "heldMs": 0,
+        "times": [
+          2.037,
+          6.111,
+          10.185,
+          14.259,
+          18.333,
+          22.407,
+          26.481
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 2.037,
+        "selector": "#d-scroll > section:nth-of-type(7) > div:nth-of-type(3) > b:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 94,
+          "top": 6435,
+          "right": 304,
+          "bottom": 6512,
+          "width": 210,
+          "height": 77
+        },
+        "containerSelector": "#root",
+        "text": "减负债",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "bottom": 4592
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 94,
+          "y": 6435,
+          "width": 210,
+          "height": 77
+        },
+        "firstSeen": 2.037,
+        "lastSeen": 26.481,
+        "occurrences": 7,
+        "heldMs": 0,
+        "times": [
+          2.037,
+          6.111,
+          10.185,
+          14.259,
+          18.333,
+          22.407,
+          26.481
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 6.111,
+        "selector": "#d-scroll > section:nth-of-type(1) > small:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 94,
+          "top": -422,
+          "right": 183.64,
+          "bottom": -382,
+          "width": 89.64,
+          "height": 40
+        },
+        "containerSelector": "#root",
+        "text": "01 / 07",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "top": 422
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 94,
+          "y": -422,
+          "width": 89.64,
+          "height": 40
+        },
+        "firstSeen": 6.111,
+        "lastSeen": 34.63,
+        "occurrences": 8,
+        "heldMs": 0,
+        "times": [
+          6.111,
+          10.185,
+          14.259,
+          18.333,
+          22.407,
+          26.481,
+          30.556,
+          34.63
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 6.111,
+        "selector": "#d-scroll > section:nth-of-type(1) > div:nth-of-type(1) > b:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 94,
+          "top": -345,
+          "right": 374,
+          "bottom": -268,
+          "width": 280,
+          "height": 77
+        },
+        "containerSelector": "#root",
+        "text": "跟风消费",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "top": 345
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 94,
+          "y": -345,
+          "width": 280,
+          "height": 77
+        },
+        "firstSeen": 6.111,
+        "lastSeen": 34.63,
+        "occurrences": 8,
+        "heldMs": 0,
+        "times": [
+          6.111,
+          10.185,
+          14.259,
+          18.333,
+          22.407,
+          26.481,
+          30.556,
+          34.63
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 6.111,
+        "selector": "#d-scroll > section:nth-of-type(1) > div:nth-of-type(2) > b:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 94,
+          "top": -105,
+          "right": 374,
+          "bottom": -28,
+          "width": 280,
+          "height": 77
+        },
+        "containerSelector": "#root",
+        "text": "盲目投资",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "top": 105
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 94,
+          "y": -105,
+          "width": 280,
+          "height": 77
+        },
+        "firstSeen": 6.111,
+        "lastSeen": 34.63,
+        "occurrences": 8,
+        "heldMs": 0,
+        "times": [
+          6.111,
+          10.185,
+          14.259,
+          18.333,
+          22.407,
+          26.481,
+          30.556,
+          34.63
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 14.259,
+        "selector": "#d-scroll > section:nth-of-type(1) > div:nth-of-type(3) > b:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 94,
+          "top": -765,
+          "right": 374,
+          "bottom": -688,
+          "width": 280,
+          "height": 77
+        },
+        "containerSelector": "#root",
+        "text": "负债前行",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "top": 765
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 94,
+          "y": -765,
+          "width": 280,
+          "height": 77
+        },
+        "firstSeen": 14.259,
+        "lastSeen": 34.63,
+        "occurrences": 6,
+        "heldMs": 0,
+        "times": [
+          14.259,
+          18.333,
+          22.407,
+          26.481,
+          30.556,
+          34.63
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 14.259,
+        "selector": "#d-scroll > section:nth-of-type(2) > small:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 94,
+          "top": -422,
+          "right": 183.64,
+          "bottom": -382,
+          "width": 89.64,
+          "height": 40
+        },
+        "containerSelector": "#root",
+        "text": "02 / 07",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "top": 422
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 94,
+          "y": -422,
+          "width": 89.64,
+          "height": 40
+        },
+        "firstSeen": 14.259,
+        "lastSeen": 34.63,
+        "occurrences": 6,
+        "heldMs": 0,
+        "times": [
+          14.259,
+          18.333,
+          22.407,
+          26.481,
+          30.556,
+          34.63
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 14.259,
+        "selector": "#d-scroll > section:nth-of-type(2) > div:nth-of-type(1) > b:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 94,
+          "top": -345,
+          "right": 374,
+          "bottom": -268,
+          "width": 280,
+          "height": 77
+        },
+        "containerSelector": "#root",
+        "text": "跟风消费",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "top": 345
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 94,
+          "y": -345,
+          "width": 280,
+          "height": 77
+        },
+        "firstSeen": 14.259,
+        "lastSeen": 34.63,
+        "occurrences": 6,
+        "heldMs": 0,
+        "times": [
+          14.259,
+          18.333,
+          22.407,
+          26.481,
+          30.556,
+          34.63
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 14.259,
+        "selector": "#d-scroll > section:nth-of-type(2) > div:nth-of-type(2) > b:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 94,
+          "top": -105,
+          "right": 374,
+          "bottom": -28,
+          "width": 280,
+          "height": 77
+        },
+        "containerSelector": "#root",
+        "text": "盲目投资",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "top": 105
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 94,
+          "y": -105,
+          "width": 280,
+          "height": 77
+        },
+        "firstSeen": 14.259,
+        "lastSeen": 34.63,
+        "occurrences": 6,
+        "heldMs": 0,
+        "times": [
+          14.259,
+          18.333,
+          22.407,
+          26.481,
+          30.556,
+          34.63
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.259,
+        "selector": "#d-scroll > section:nth-of-type(4) > div:nth-of-type(1) > span:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 94,
+          "top": 1554.5,
+          "right": 262,
+          "bottom": 1615.5,
+          "width": 168,
+          "height": 61
+        },
+        "containerSelector": "#captions",
+        "text": "一时喜欢",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 0.33,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 94,
+          "y": 1554.5,
+          "width": 168,
+          "height": 61
+        },
+        "firstSeen": 14.259,
+        "lastSeen": 14.259,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.259
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.259,
+        "selector": "#d-scroll > section:nth-of-type(4) > div:nth-of-type(2) > b:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 94,
+          "top": 1695,
+          "right": 234,
+          "bottom": 1772,
+          "width": 140,
+          "height": 77
+        },
+        "containerSelector": "#captions",
+        "text": "需要",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 94,
+          "y": 1695,
+          "width": 140,
+          "height": 77
+        },
+        "firstSeen": 14.259,
+        "lastSeen": 14.259,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.259
+        ]
+      }
+    ],
+    "duration": 36.666666666666664,
+    "samples": [
+      2.037,
+      6.111,
+      10.185,
+      14.259,
+      18.333,
+      22.407,
+      26.481,
+      30.556,
+      34.63
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 28,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "specPath": "/Users/maoyu/个人项目/客户/插件/网感口播_1.14.0_正式接入验收/variants/ink/index.motion.json",
+    "samples": 300
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      2.037,
+      10.185,
+      18.333,
+      26.481,
+      34.63
+    ],
+    "checked": 59,
+    "passed": 59
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "11164bc7-3be2-408f-b743-ee4b45b00feb",
+    "revision": null,
+    "report": "/Users/maoyu/个人项目/客户/插件/网感口播_1.14.0_正式接入验收/variants/ink/.hyperframes/artifacts/checks/11164bc7-3be2-408f-b743-ee4b45b00feb.json",
+    "attribution": "inputs-changed"
+  },
+  "_meta": {
+    "version": "0.8.174",
+    "latestVersion": "0.8.180",
+    "updateAvailable": true
+  }
+}

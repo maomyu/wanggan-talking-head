@@ -1,12 +1,12 @@
 {
   "status": "in-progress",
   "total": 100,
-  "verified": 40,
+  "verified": 48,
   "reusedSourceBoundVideos": 12,
   "jobs": {
     "minimal": {
       "status": "verified",
-      "updated": 1792477773.180653,
+      "updated": 1792483067.0287519,
       "started": 1792476445.150211,
       "videoSha256": "37d4337912dc45d1a6f79a67844041c5647dd09f581c5fb57e76d84c0abdf984",
       "audioCorrelation": 0.9999823504746719,
@@ -14,7 +14,7 @@
     },
     "paper": {
       "status": "verified",
-      "updated": 1792477773.188732,
+      "updated": 1792483067.059573,
       "started": 1792477060.201278,
       "videoSha256": "9db625018fdcbac81b675d06b45c5ad1f582486908dedf46772ae47c1e4b5cc4",
       "audioCorrelation": 0.9999823504746719,
@@ -22,7 +22,7 @@
     },
     "geometry": {
       "status": "verified",
-      "updated": 1792477773.1983418,
+      "updated": 1792483067.07026,
       "started": 1792477090.814401,
       "videoSha256": "63ca3bf24b2e8f5a58b8087331b97f5b6a30b6e5cf7ced9a5c9458ca9d3179bf",
       "audioCorrelation": 0.9999823504746719,
@@ -30,7 +30,7 @@
     },
     "magazine": {
       "status": "verified",
-      "updated": 1792477773.191282,
+      "updated": 1792483067.1719072,
       "started": 1792476445.152792,
       "videoSha256": "685461f601d607ec92a3fbebd1f4d026e37e04b7bead8ba2e20e64cc8122ef4d",
       "audioCorrelation": 0.9999823504746719,
@@ -38,7 +38,7 @@
     },
     "collage": {
       "status": "verified",
-      "updated": 1792477773.226876,
+      "updated": 1792483067.181348,
       "started": 1792477327.466024,
       "videoSha256": "1f61e199f19a8737b5357ebf5b42eddec75b41c69178939d5d96a571d0636bb4",
       "audioCorrelation": 0.9999823504746719,
@@ -46,7 +46,7 @@
     },
     "line": {
       "status": "verified",
-      "updated": 1792477773.2491992,
+      "updated": 1792483067.212529,
       "started": 1792477344.329828,
       "videoSha256": "5c92cadd527d71e508fd833cb2d219ec816afb3cff4c4fbf35dd0a427d9e2196",
       "audioCorrelation": 0.9999823504746719,
@@ -54,7 +54,7 @@
     },
     "illustration": {
       "status": "verified",
-      "updated": 1792478092.918294,
+      "updated": 1792483067.318487,
       "started": 1792477773.302352,
       "videoSha256": "4c06f6ce24f88645fdbd9b9c6416d127161b80340d4497f3fcdbb1e9f63c9617",
       "audioCorrelation": 0.9999823504746719,
@@ -62,7 +62,7 @@
     },
     "precision": {
       "status": "verified",
-      "updated": 1792477773.225326,
+      "updated": 1792483067.261193,
       "started": 1792476543.117325,
       "videoSha256": "9a5cf72bd04c3a50847445a0bce8b68e2e78846dda9193d5d1223732cd2775f1",
       "audioCorrelation": 0.9999823504746719,
@@ -70,7 +70,7 @@
     },
     "blueprint": {
       "status": "verified",
-      "updated": 1792477773.234058,
+      "updated": 1792483067.295308,
       "started": 1792476549.957549,
       "videoSha256": "61576f3102d3812be94dbf6e56ae40427292bbe3039e3955c8f71e8855c1ccc4",
       "audioCorrelation": 0.9999823504746719,
@@ -78,7 +78,7 @@
     },
     "halftone": {
       "status": "verified",
-      "updated": 1792478282.009835,
+      "updated": 1792483067.54593,
       "started": 1792477773.311664,
       "videoSha256": "d9f9a86a1d72f757b64d84451e594525b4429c46e73483255363077a71abdf07",
       "audioCorrelation": 0.9999823504746719,
@@ -86,7 +86,7 @@
     },
     "comic": {
       "status": "verified",
-      "updated": 1792477773.2626371,
+      "updated": 1792483067.381509,
       "started": 1792476657.049044,
       "videoSha256": "81e4133a26e1095ebd64a45d6634524cff782d0c9ca6abcc9bda89144c470d6f",
       "audioCorrelation": 0.9999823504746719,
@@ -94,7 +94,7 @@
     },
     "film": {
       "status": "verified",
-      "updated": 1792477773.273191,
+      "updated": 1792483067.410403,
       "started": 1792476667.593309,
       "videoSha256": "c3242307838572c510c2b1b1bee0fb49ab84af5b7e961ac3211a2ee703e65b9b",
       "audioCorrelation": 0.9999823504746719,
@@ -102,7 +102,7 @@
     },
     "ink": {
       "status": "verified",
-      "updated": 1792477773.2753081,
+      "updated": 1792483067.438574,
       "started": 1792476779.907239,
       "videoSha256": "d649598d4391355421bef5ae358f15c9dee828d67baa6f7482541b69ee479407",
       "audioCorrelation": 0.9999823504746719,
@@ -110,7 +110,7 @@
     },
     "clay": {
       "status": "verified",
-      "updated": 1792477773.288228,
+      "updated": 1792483067.5047638,
       "started": 1792476802.562526,
       "videoSha256": "d377e2397fee5051ebab349c2805712982f07dcdec0a64d1203d0d49b4439475",
       "audioCorrelation": 0.9999823504746719,
@@ -118,7 +118,7 @@
     },
     "pixel": {
       "status": "verified",
-      "updated": 1792478278.801277,
+      "updated": 1792483067.532167,
       "started": 1792477773.3192792,
       "videoSha256": "53aff60af8de943d1978831560b9aa97385a4527e4643599a8d6f46574d961a3",
       "audioCorrelation": 0.9999823504746719,
@@ -126,7 +126,7 @@
     },
     "chalk": {
       "status": "verified",
-      "updated": 1792478499.8369348,
+      "updated": 1792483067.696496,
       "started": 1792477773.333885,
       "videoSha256": "9ef2c84c08e74a75c10ccb2130596fd25687c42242b7554642b48ed446b6bd5e",
       "audioCorrelation": 0.9999823504746719,
@@ -134,7 +134,7 @@
     },
     "paper-stage": {
       "status": "verified",
-      "updated": 1792478568.376897,
+      "updated": 1792483067.659146,
       "started": 1792478092.925834,
       "videoSha256": "92b61056de84d0cedcc5f62bd74d93a62ba289db8df2374423b96d4b44db85af",
       "audioCorrelation": 0.9999823504746719,
@@ -142,7 +142,7 @@
     },
     "type-poster": {
       "status": "verified",
-      "updated": 1792477773.299715,
+      "updated": 1792483067.622297,
       "started": 1792476876.19388,
       "videoSha256": "2435470f05fd59a32175fdcc095c0969ef898f1ebddec584172e06fc6819f24c",
       "audioCorrelation": 0.9999823504746719,
@@ -150,7 +150,7 @@
     },
     "cel": {
       "status": "verified",
-      "updated": 1792478650.9213629,
+      "updated": 1792483067.7124648,
       "started": 1792478278.805622,
       "videoSha256": "b52225dc40218e7171758ce79bba06a16d01ddb61ea2c512b63506ceaa9de8d0",
       "audioCorrelation": 0.9999823504746719,
@@ -158,7 +158,7 @@
     },
     "sci-fi-wireframe": {
       "status": "verified",
-      "updated": 1792477773.309988,
+      "updated": 1792483067.7461078,
       "started": 1792476896.1222122,
       "videoSha256": "32ff54938e810428d12dedca83676b9ffcf3738c1981bc99c472f9c2adb5543d",
       "audioCorrelation": 0.9999823504746719,
@@ -166,7 +166,7 @@
     },
     "documentary": {
       "status": "verified",
-      "updated": 1792478819.4298759,
+      "updated": 1792483067.993872,
       "started": 1792478282.0346591,
       "videoSha256": "9985a8921e9a21d4d7ceafdac792dd0aa784e3cca6857b5b373b37826f798be1",
       "audioCorrelation": 0.9999823504746719,
@@ -174,7 +174,7 @@
     },
     "tabletop-stilllife": {
       "status": "verified",
-      "updated": 1792478917.072361,
+      "updated": 1792483067.9819908,
       "started": 1792478499.873452,
       "videoSha256": "81f4da536fbcf427055ac92daa481c7fa883e3f1c83a9da0f145b9347332e9c8",
       "audioCorrelation": 0.9999823504746719,
@@ -182,7 +182,7 @@
     },
     "macro-material": {
       "status": "verified",
-      "updated": 1792479028.628344,
+      "updated": 1792483068.009472,
       "started": 1792478568.382831,
       "videoSha256": "0133854c460c441529cfbb38c920febd18ddf7248f759995791f12e89feb3cf4",
       "audioCorrelation": 0.9999823504746719,
@@ -190,7 +190,7 @@
     },
     "overhead-workbench": {
       "status": "verified",
-      "updated": 1792479122.9981189,
+      "updated": 1792483068.144748,
       "started": 1792478650.930468,
       "videoSha256": "2326ce920182ccdb23b60984420ae27d2dcd82db8538dfd6da7f1e8af14313d8",
       "audioCorrelation": 0.9999823504746719,
@@ -198,7 +198,7 @@
     },
     "architectural-light": {
       "status": "verified",
-      "updated": 1792479253.8704262,
+      "updated": 1792483068.1743739,
       "started": 1792478819.438208,
       "videoSha256": "d1bdad776989832331d23941e4b691bea8e9507d1280f3dba62b1e1daa7e6439",
       "audioCorrelation": 0.9999823504746719,
@@ -206,7 +206,7 @@
     },
     "everyday-story": {
       "status": "verified",
-      "updated": 1792479354.4093041,
+      "updated": 1792483068.204063,
       "started": 1792478917.076273,
       "videoSha256": "c73558a8712f457279bba40f44284f8c795c23af9ed88dd1deee80a1b5652592",
       "audioCorrelation": 0.9999823504746719,
@@ -214,7 +214,7 @@
     },
     "spotlight-stage": {
       "status": "verified",
-      "updated": 1792479479.7705479,
+      "updated": 1792483068.3214478,
       "started": 1792479028.63101,
       "videoSha256": "a2757b6e6d581dc8d85cd93f717256ac224b802dfd8ad1f285db196f08d1fe8d",
       "audioCorrelation": 0.9999823504746719,
@@ -222,7 +222,7 @@
     },
     "darkroom-prints": {
       "status": "verified",
-      "updated": 1792479557.24677,
+      "updated": 1792483068.329518,
       "started": 1792479123.0044281,
       "videoSha256": "8c46023feec96aa9c00b13cc821eb79b6cc91ce87c46c0cd925d3d6868131e46",
       "audioCorrelation": 0.9999823504746719,
@@ -230,7 +230,7 @@
     },
     "newspaper": {
       "status": "verified",
-      "updated": 1792479633.851706,
+      "updated": 1792483068.349966,
       "started": 1792479253.874542,
       "videoSha256": "1f51f4d555b1a7578fba91fbfd432fbb142e17a24272279ea23e111e95508bf0",
       "audioCorrelation": 0.9999823504746719,
@@ -238,7 +238,7 @@
     },
     "archive-dossier": {
       "status": "verified",
-      "updated": 1792477773.3137898,
+      "updated": 1792483068.432518,
       "started": 1792476972.606886,
       "videoSha256": "56955db26ef6ae4071927485cd166b3876f01305db6b2b123a2cf0f14710d1df",
       "audioCorrelation": 0.9999823504746719,
@@ -246,7 +246,7 @@
     },
     "photo-book": {
       "status": "verified",
-      "updated": 1792479746.3986921,
+      "updated": 1792483068.4781609,
       "started": 1792479354.432819,
       "videoSha256": "deb0bbd53ccaa5fddca40a4f78c8003e30e59348d2c463e396068ad06fc1cb74",
       "audioCorrelation": 0.9999823504746719,
@@ -254,7 +254,7 @@
     },
     "dictionary-entry": {
       "status": "verified",
-      "updated": 1792479870.1089768,
+      "updated": 1792483068.480007,
       "started": 1792479479.777138,
       "videoSha256": "862622710aaf11f2a414ae438fbcc600213df3179bcfc68d0bc1edc058278898",
       "audioCorrelation": 0.9999823504746719,
@@ -262,7 +262,7 @@
     },
     "lab-notebook": {
       "status": "verified",
-      "updated": 1792479964.9324841,
+      "updated": 1792483068.542093,
       "started": 1792479557.25321,
       "videoSha256": "ac7d1983a4f1f8681b11a1e1fefa8e6df999beef019c39d1e9bd1040a1d215a0",
       "audioCorrelation": 0.9999823504746719,
@@ -270,7 +270,7 @@
     },
     "timeline-almanac": {
       "status": "verified",
-      "updated": 1792480085.1455061,
+      "updated": 1792483068.557899,
       "started": 1792479633.870697,
       "videoSha256": "56a2908207fcc616f8d764fdddf36d560dc37b8e219cb124a5f22e98cd210aa8",
       "audioCorrelation": 0.9999823504746719,
@@ -278,7 +278,7 @@
     },
     "swiss-grid": {
       "status": "verified",
-      "updated": 1792480174.209315,
+      "updated": 1792483068.569008,
       "started": 1792479746.4070752,
       "videoSha256": "e3682a149998a321561e0e3d22f3c3e994059e775f110b05d90f085c1418188d",
       "audioCorrelation": 0.9999823504746719,
@@ -286,7 +286,7 @@
     },
     "constructivist": {
       "status": "verified",
-      "updated": 1792480400.903198,
+      "updated": 1792483068.629131,
       "started": 1792479870.116213,
       "videoSha256": "d2990b43da2c55c2f803041cd03208b09c685d1ff108d27022e5ea80bd7d83b8",
       "audioCorrelation": 0.9999823504746719,
@@ -294,7 +294,7 @@
     },
     "art-deco": {
       "status": "verified",
-      "updated": 1792480517.3189352,
+      "updated": 1792483068.638269,
       "started": 1792479964.936686,
       "videoSha256": "9bcaa5ee8225970dcf11fbb265065ac0c5d6eec851c8eff7857bb3c298c76dfd",
       "audioCorrelation": 0.9999823504746719,
@@ -302,7 +302,7 @@
     },
     "art-nouveau": {
       "status": "verified",
-      "updated": 1792480703.09867,
+      "updated": 1792483068.652262,
       "started": 1792480085.153203,
       "videoSha256": "2c415d1da04d2b687f648f1d60d83b6b9bf43cd2126ffed8075e0773c2b33a33",
       "audioCorrelation": 0.9999823504746719,
@@ -310,52 +310,86 @@
     },
     "memphis": {
       "status": "verified",
-      "updated": 1792480864.45732,
+      "updated": 1792483068.7430882,
       "started": 1792480174.2491899,
       "videoSha256": "741674fde545bd6ac363db54a95cb201e99b725fd1a52b0a0aea0e2227c3ee9a",
       "audioCorrelation": 0.9999823504746719,
       "motionSamples": 300
     },
     "brutalist-type": {
-      "status": "rendering",
-      "updated": 1792480596.662285,
-      "started": 1792480400.9251242
+      "status": "verified",
+      "updated": 1792483068.6973069,
+      "started": 1792480400.9251242,
+      "videoSha256": "009c1878e6ea8faead90bc5102391e2c291a8b9cac8685f15bcb9eeee725c13d",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "optical-graphic": {
-      "status": "rendering",
-      "updated": 1792480677.2690098,
-      "started": 1792480517.324188
+      "status": "verified",
+      "updated": 1792483068.762492,
+      "started": 1792480517.324188,
+      "videoSha256": "6eecf200be3e21bb57ba4366bbd8f5e5cf00a0e0d845c7df36a10242f5c72c99",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "negative-space": {
-      "status": "waiting-for-render",
-      "updated": 1792480845.641935,
-      "started": 1792480703.1069329
+      "status": "verified",
+      "updated": 1792483068.774318,
+      "started": 1792480703.1069329,
+      "videoSha256": "f389a22798c656ba0d7c3006f5091b6e095a8bd6169dfed11aa6589ca2e5e35c"
     },
     "pencil-sketch": {
-      "status": "checking",
-      "updated": 1792480864.479764,
-      "started": 1792480864.47975
+      "status": "verified",
+      "updated": 1792483068.878381,
+      "started": 1792481810.795284,
+      "videoSha256": "7d97311f17128e30a41a420d80e2e600ef83c02c99c493c0636a42c26fff54f1",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "colored-pencil": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792483068.890516,
+      "started": 1792481810.672508,
+      "videoSha256": "f5a47fc4f78399d49e613290aa049b26600fdfe6c2666e30f4454612a5417224",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "charcoal": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792483068.906541,
+      "started": 1792481810.712476,
+      "videoSha256": "6137be266f8feed1d98c93d185a454a83b76d4cf3c47256195a927e668245e52"
     },
     "pen-hatching": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792483068.979726,
+      "started": 1792481968.578926,
+      "videoSha256": "5fcbe55f28193244e3b27539d0a0dc82793fd9fb3fa0ec995248c34c553844f4",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "wax-crayon": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792483068.993566,
+      "started": 1792482026.6734028,
+      "videoSha256": "cb3efc1848487769aeb0f332619c60d35c3332df3872399061ef6be42b2ab6bc",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "soft-pastel": {
-      "status": "queued"
+      "status": "checking",
+      "updated": 1792483068.981171,
+      "started": 1792483068.980309
     },
     "marker-sketch": {
-      "status": "queued"
+      "status": "checking",
+      "updated": 1792483068.983639,
+      "started": 1792483068.9816031
     },
     "brush-lettering": {
-      "status": "queued"
+      "status": "checking",
+      "updated": 1792483068.997039,
+      "started": 1792483068.997036
     },
     "picture-book": {
       "status": "queued"
@@ -380,7 +414,7 @@
     },
     "origami": {
       "status": "verified",
-      "updated": 1792477773.332025,
+      "updated": 1792483068.978276,
       "started": 1792476995.237002,
       "videoSha256": "ee207b044b0ec4a2cbe6091839788f49dacc5f36bb5b4e06065ec0f46e9470cd",
       "audioCorrelation": 0.9999823504746719,
@@ -513,5 +547,5 @@
       "status": "queued"
     }
   },
-  "elapsedSeconds": 4350.165199041367
+  "elapsedSeconds": 6110.287514209747
 }

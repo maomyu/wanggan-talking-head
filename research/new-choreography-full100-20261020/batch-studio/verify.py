@@ -31,6 +31,10 @@ def sheet(indices,name,width,cols):
     out.save(p/'qa'/name,quality=90)
 sheet([0,240,420,567,732,879,1099],'batch-story.jpg',216,7);sheet(frames,'batch-cuts.jpg',162,10)
 result={'key':key,'status':'verified','source':before,'video':report['video'],'audio':{**report['audio'],'oneSecondCorrelations':windows},'captionCount':len(read(p/'timing.json')['captions']),'selectedFrames':frames,'dense5fpsFrames':report['dense5fpsFrames'],'motionSamples':check['motion']['samples'],'provenance':read(p/'qa/batch-provenance.json')['kind'],'limits':'Measured checks and author sample review. No independent blind review; native strict composite seek differences remain separately documented.'}
+if (p/'qa/check-budget.json').exists():
+    budget=read(p/'qa/check-budget.json')
+    if budget.get('reportSha256')==sha(p/'qa/batch-check.json'):
+        assert budget['applications']==1 and budget['installedModuleUnchanged'] and not budget['rulesChanged'] and not budget['samplesReduced'];result['checkBudget']=budget
 (p/'qa/batch-verification.json').write_text(json.dumps(result,ensure_ascii=False,indent=2))
 project=read(p/'project.json');project['status']='verified';(p/'project.json').write_text(json.dumps(project,ensure_ascii=False,indent=2))
 print(json.dumps({'key':key,'verified':True,'frames':report['video']['frames'],'audioCorrelation':report['audio']['referenceCorrelation'],'motionSamples':check['motion']['samples']}),flush=True)
