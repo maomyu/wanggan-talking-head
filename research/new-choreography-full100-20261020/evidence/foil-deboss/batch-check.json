@@ -1,0 +1,92 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "duration": 36.666666666666664,
+    "samples": [
+      2.037,
+      6.111,
+      10.185,
+      14.259,
+      18.333,
+      22.407,
+      26.481,
+      30.556,
+      34.63
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 0,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "specPath": "/Users/maoyu/个人项目/客户/插件/网感口播_1.14.0_正式接入验收/variants/foil-deboss/index.motion.json",
+    "samples": 300
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      2.037,
+      10.185,
+      18.333,
+      26.481,
+      34.63
+    ],
+    "checked": 37,
+    "passed": 37
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "31c21615-3065-466b-b902-68e7fa392bab",
+    "revision": null,
+    "report": "/Users/maoyu/个人项目/客户/插件/网感口播_1.14.0_正式接入验收/variants/foil-deboss/.hyperframes/artifacts/checks/31c21615-3065-466b-b902-68e7fa392bab.json",
+    "attribution": "unversioned"
+  },
+  "_meta": {
+    "version": "0.8.174",
+    "latestVersion": "0.8.180",
+    "updateAvailable": true
+  }
+}

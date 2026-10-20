@@ -1,7 +1,7 @@
 {
   "status": "in-progress",
   "total": 100,
-  "verified": 74,
+  "verified": 90,
   "reusedSourceBoundVideos": 12,
   "jobs": {
     "minimal": {
@@ -605,67 +605,147 @@
       "motionSamples": 300
     },
     "etching": {
-      "status": "rendering",
-      "updated": 1792488756.3143291,
-      "started": 1792488633.013612
+      "status": "verified",
+      "updated": 1792489107.865577,
+      "started": 1792488633.013612,
+      "videoSha256": "d91a1e3def754d6dc0624ed44db42a03580c7addafb5a7cc49528a00b854a99f",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "risograph": {
-      "status": "checking",
-      "updated": 1792488874.407435,
-      "started": 1792488874.407419
+      "status": "verified",
+      "updated": 1792489324.210973,
+      "started": 1792488874.407419,
+      "videoSha256": "8d21d1bb6f85326bb11aeb482c8bcc469f2a6c47fd8ac2bfce33f21b001cbc34",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "enamel-badge": {
-      "status": "checking",
-      "updated": 1792488964.039859,
-      "started": 1792488964.0398378
+      "status": "verified",
+      "updated": 1792489435.572062,
+      "started": 1792488964.0398378,
+      "videoSha256": "c98518537a20c8bae7ddc55b306b54b992c28dbb063735bc9f0e7fa6f9dd1a0f",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "cyanotype": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792489590.771766,
+      "started": 1792489107.902326,
+      "videoSha256": "b832990e91e3f997ad46d077011129f95ac95d17765977aee9a75340a1218cef",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "foil-deboss": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792489814.614787,
+      "started": 1792489324.222454,
+      "videoSha256": "0fcc7080c8d0d54ae1d6289dc8d2fd3cbb38c1140cfb9f9a4a7c03c6f919de27",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "mosaic": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792489896.415422,
+      "started": 1792489435.5797188,
+      "videoSha256": "e65d338a1c58a197af236a87ffb3475e3a50af518a92893947f5c5489248ab61",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "stained-glass": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792489962.051546,
+      "started": 1792489590.782272,
+      "videoSha256": "30703f43a6ad433c274691cceceddeb66e174449241865b7fa39aee096ea9a29",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "sandstone-relief": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792490156.983604,
+      "started": 1792489814.639861,
+      "videoSha256": "b1562d79d95f0822202e1ef5ca3506e7cb6b511a0cfa9499a23fbadcc9c9eba1",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "chased-metal": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792490254.353178,
+      "started": 1792489896.422979,
+      "videoSha256": "149ca790b6961c5042c9cf6b60f78a5f31f4262eb785380d9b22ba0986aeb528",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "miniature-puppet": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792490333.817317,
+      "started": 1792489962.056289,
+      "videoSha256": "c6b51c2732ea6cb16e18231d85d8da9905cf5c4ad434dffb704b33bb4b7f869b",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "building-blocks": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792490525.786436,
+      "started": 1792490156.996394,
+      "videoSha256": "b5e90cdeb37016c94bcf4c50ef0aa2e604ca6beb6da9a1401f79f72c3768407b",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "optical-glass": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792490611.768874,
+      "started": 1792490254.3646731,
+      "videoSha256": "44140299bb822e2e3d2bffb9c90fba0491e632a7ba75f91dc33c3cb7ed55b947",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "ceramic-objects": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792490689.6472871,
+      "started": 1792490333.853421,
+      "videoSha256": "da0a582e81a5187239102e417a2bd8882d0ea544653ec6f08a4cbef56e11952a",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "liquid-chrome": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792490907.1930828,
+      "started": 1792490525.793021,
+      "videoSha256": "094721c1a3512c327e9bc4b4d2b30def23414a37bfebda970a5991df87f11da2",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "isometric-maquette": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792490969.3911,
+      "started": 1792490611.7739,
+      "videoSha256": "dc1d1b861cc38ae991f027dd936be09407f84dd254582f0c0e63d0ee2dbf1a01",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "inflatable-sculpture": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792491034.250413,
+      "started": 1792490689.654133,
+      "videoSha256": "7d3ea514d8b5a2a0dd4c0006c0ff3b6354661a6935bd3cd53151a117e3c2011a",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "viscous-gel": {
-      "status": "queued"
+      "status": "rendering",
+      "updated": 1792490995.173177,
+      "started": 1792490907.2083032
     },
     "mechanical-cutaway": {
-      "status": "queued"
+      "status": "rendering",
+      "updated": 1792491079.779186,
+      "started": 1792490969.397435
     },
     "terminal-ascii": {
-      "status": "queued"
+      "status": "checking",
+      "updated": 1792491034.276547,
+      "started": 1792491034.276524
     },
     "vector-oscilloscope": {
       "status": "queued"
@@ -683,5 +763,5 @@
       "status": "queued"
     }
   },
-  "elapsedSeconds": 12005.330349206924
+  "elapsedSeconds": 14121.069672107697
 }

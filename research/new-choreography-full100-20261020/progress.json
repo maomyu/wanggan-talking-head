@@ -1,5 +1,5 @@
 {
-  "verified": 74,
+  "verified": 90,
   "total": 100,
   "videos": [
     {
@@ -516,6 +516,118 @@
     {
       "key": "woodcut",
       "videoSha256": "c963509ab42b4f7303cd35efee885d67ff563365a62e24c867598c9b5e90790a",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "etching",
+      "videoSha256": "d91a1e3def754d6dc0624ed44db42a03580c7addafb5a7cc49528a00b854a99f",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "risograph",
+      "videoSha256": "8d21d1bb6f85326bb11aeb482c8bcc469f2a6c47fd8ac2bfce33f21b001cbc34",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "enamel-badge",
+      "videoSha256": "c98518537a20c8bae7ddc55b306b54b992c28dbb063735bc9f0e7fa6f9dd1a0f",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "cyanotype",
+      "videoSha256": "b832990e91e3f997ad46d077011129f95ac95d17765977aee9a75340a1218cef",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "foil-deboss",
+      "videoSha256": "0fcc7080c8d0d54ae1d6289dc8d2fd3cbb38c1140cfb9f9a4a7c03c6f919de27",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "mosaic",
+      "videoSha256": "e65d338a1c58a197af236a87ffb3475e3a50af518a92893947f5c5489248ab61",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "stained-glass",
+      "videoSha256": "30703f43a6ad433c274691cceceddeb66e174449241865b7fa39aee096ea9a29",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "sandstone-relief",
+      "videoSha256": "b1562d79d95f0822202e1ef5ca3506e7cb6b511a0cfa9499a23fbadcc9c9eba1",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "chased-metal",
+      "videoSha256": "149ca790b6961c5042c9cf6b60f78a5f31f4262eb785380d9b22ba0986aeb528",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "miniature-puppet",
+      "videoSha256": "c6b51c2732ea6cb16e18231d85d8da9905cf5c4ad434dffb704b33bb4b7f869b",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "building-blocks",
+      "videoSha256": "b5e90cdeb37016c94bcf4c50ef0aa2e604ca6beb6da9a1401f79f72c3768407b",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "optical-glass",
+      "videoSha256": "44140299bb822e2e3d2bffb9c90fba0491e632a7ba75f91dc33c3cb7ed55b947",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "ceramic-objects",
+      "videoSha256": "da0a582e81a5187239102e417a2bd8882d0ea544653ec6f08a4cbef56e11952a",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "liquid-chrome",
+      "videoSha256": "094721c1a3512c327e9bc4b4d2b30def23414a37bfebda970a5991df87f11da2",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "isometric-maquette",
+      "videoSha256": "dc1d1b861cc38ae991f027dd936be09407f84dd254582f0c0e63d0ee2dbf1a01",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "inflatable-sculpture",
+      "videoSha256": "7d3ea514d8b5a2a0dd4c0006c0ff3b6354661a6935bd3cd53151a117e3c2011a",
       "frames": 1100,
       "audioCorrelation": 0.9999823504746719,
       "motionSamples": 300
