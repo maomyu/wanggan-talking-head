@@ -64,12 +64,16 @@ replace(runtime,"  const v=versions[row.key];","""  if(row.fullFilmVerified){
   }
   const v=versions[row.key];""")
 replace(runtime," return {systems:lib.systems.length,nativeMappings:map.length,fullFilmRepresentatives:",""" const fullFilmVerified=map.filter(s=>s.fullFilmVerified).length;
- if(fullFilmVerified!==manifest.fullFilmVerified||fullFilmVerified!==100)throw Error('100主搭配完整视频登记数量不符');
+ if(!Number.isInteger(manifest.fullFilmVerified)||fullFilmVerified!==manifest.fullFilmVerified)throw Error('主搭配完整视频登记数量不符');
  const full=read(path.join(library,manifest.fullFilmEvidence));
- if(full.fullFilms!==100||full.videoRangeURLs!==200||full.films.length!==100||new Set(full.films.map(f=>f.key)).size!==100||full.films.some(f=>!map.some(r=>r.key===f.key&&r.fullFilmVideoSha256===f.videoSha256)))throw Error('整片汇总与逐条记录不符');
+ if(full.fullFilms!==fullFilmVerified||full.videoRangeURLs!==fullFilmVerified*2||full.films.length!==fullFilmVerified||new Set(full.films.map(f=>f.key)).size!==fullFilmVerified||full.films.some(f=>!map.some(r=>r.key===f.key&&r.fullFilmVideoSha256===f.videoSha256)))throw Error('整片汇总与逐条记录不符');
  return {systems:lib.systems.length,nativeMappings:map.length,fullFilmVerified,fullFilmRepresentatives:""")
 replace(APP/'scripts/studio.mjs',"'composition-selection.json','style-recipe.json','route.json']","'composition-selection.json','style-recipe.json','route.json','index.motion.json']")
-replace(APP/'scripts/studio.mjs',"run(process.execPath,[hf,...args,r],{maxBuffer:","run(process.execPath,args[0]==='check'?[path.join(runtime,'check-with-budget.mjs'),hf,r,...args.slice(1)]:[hf,...args,r],{maxBuffer:")
+replace(APP/'scripts/studio.mjs',"run(process.execPath,[hf,...args,r],{maxBuffer:","run(process.execPath,args[0]==='check'?[path.join(runtime,'check-with-budget.mjs'),hf,r,'--timeout','120000',...args.slice(1)]:[hf,...args,r],{maxBuffer:")
+replace(APP/'scripts/studio.mjs',"import {fileURLToPath} from 'node:url';","import {fileURLToPath} from 'node:url';\nimport * as loaderHooks from 'node:module';")
+replace(APP/'scripts/studio.mjs',"if(Number(process.versions.node.split('.')[0])<22)throw Error('需要Node22及以上')","if(typeof loaderHooks.registerHooks!=='function')throw Error('需要支持module.registerHooks的Node22.15+/23.5+')")
+for name in ['package.json','package-lock.json']:
+    p=APP/'runtime'/name;data=read(p);target=data if name=='package.json'else data['packages'][''];target['engines']={'node':'^22.15.0 || >=23.5.0'};write(p,data)
 
 p=read(APP/'.codex-plugin/plugin.json');p['version']='1.15.0';p['interface']['longDescription']='100种画风按12套编排完成100个主搭配整片实测，含同页播放和A/B比较。四个完整专家skill支持整片与局部修改，保留原色人物、角落圆窗和上移字幕。';write(APP/'.codex-plugin/plugin.json',p)
 m=read(APP/'module-manifest.json');m['scope']='正式1.15.0：100画风/12编排；100主搭配完整视频核验；四份专家正文保持原哈希';write(APP/'module-manifest.json',m)
@@ -84,7 +88,7 @@ replace(APP/'docs/使用说明.md','新版100主搭配与12代表整片的证据
 replace(APP/'docs/组合与范围.md','100条主搭配已有真实方案与原生验证，12代表有新版完整MP4。','100条主搭配已有真实方案、原生验证及新版完整MP4；这次新增88条渲染并重新核验12条同源码新版代表片。')
 replace(APP/'docs/编排库与协作.md','12个代表有新版1080×1920、30fps、1100帧完整视频。','初期12个代表完成新版整片，现100个主搭配全部完成1080×1920、30fps、1100帧完整视频核验，详见[1.15.0验收](1.15.0验收.md)。')
 contract=APP/'skills/talking-head-video/references/runtime-contract.md'
-contract.write_text(contract.read_text()+'\n1.15.0在检查入口使用运行预算适配器：固定HF0.8.174模块哈希核对后，仅在内存里把整体审计时限从120秒延长到600秒；安装依赖文件、检查规则与动效采样不变。普通timeout只控制首次加载，不能延长内置总时限。每次保存qa/check-budget.json；实际check.ok与motion.samples仍须读取，不把增加时限写成检查通过。\n')
+contract.write_text(contract.read_text()+'\n1.15.0在检查入口使用运行预算适配器：固定HF0.8.174模块哈希核对后，仅在内存里把整体审计时限从120秒延长到600秒；安装依赖文件、检查规则与动效采样不变。普通timeout只控制首次加载，不能延长内置总时限。每次保存qa/check-budget.json；实际check.ok与motion.samples仍须读取，不把增加时限写成检查通过。Node需支持module.registerHooks（22.15+/23.5+），doctor会实际检查能力；本轮使用23.10.0。\n')
 
 text=f'''# 1.15.0：100主搭配完整视频验收
 

@@ -1,7 +1,7 @@
 {
   "status": "in-progress",
   "total": 100,
-  "verified": 48,
+  "verified": 60,
   "reusedSourceBoundVideos": 12,
   "jobs": {
     "minimal": {
@@ -377,40 +377,84 @@
       "motionSamples": 300
     },
     "soft-pastel": {
-      "status": "checking",
-      "updated": 1792483068.981171,
-      "started": 1792483068.980309
+      "status": "verified",
+      "updated": 1792483521.278969,
+      "started": 1792483068.980309,
+      "videoSha256": "3f6d7adef30bfb89b3c6737d4262902e216e7319b6091223753b6d846b0ab390",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "marker-sketch": {
-      "status": "checking",
-      "updated": 1792483068.983639,
-      "started": 1792483068.9816031
+      "status": "verified",
+      "updated": 1792483680.0249841,
+      "started": 1792483068.9816031,
+      "videoSha256": "4235d6b4653dfb04e4add3d9e28997d40bf8099ee2359ccb9a505b95f22027d5",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "brush-lettering": {
-      "status": "checking",
-      "updated": 1792483068.997039,
-      "started": 1792483068.997036
+      "status": "verified",
+      "updated": 1792483858.109164,
+      "started": 1792483068.997036,
+      "videoSha256": "6194a017e0dbc56cda55890af02a8da4fb4df7f19114e7dd7fd2636f71e4a7c4",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "picture-book": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792484198.831365,
+      "started": 1792483521.299684,
+      "videoSha256": "a08effb674e42cd0705738385d8e5b397d1c61154a349b2deb0e4c54710a98b5",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "natural-history": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792484368.939899,
+      "started": 1792483680.0325131,
+      "videoSha256": "64ef4cb7566b192d9331fb18d15f2144a84d204fc749b3b93f6117df75140f91",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "isometric-city": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792484910.614732,
+      "started": 1792483858.12548,
+      "videoSha256": "7e840f506ade08c94ea33e38f8ea01fcdf8ad0cc3c9b13087d786203e52af70c",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "faceted-vector": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792485143.592383,
+      "started": 1792484198.8538182,
+      "videoSha256": "119ddceee5428576e7d18791678ac6be3e679276aeea95db8eec41af4bdaa872",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "editorial-metaphor": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792485500.4281962,
+      "started": 1792484368.9432268,
+      "videoSha256": "6ed120776976323e7e4254d4d73a604adeb6ac63cb77bb432d00285d628f858b",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "silhouette-fable": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792485928.4507132,
+      "started": 1792484910.628247,
+      "videoSha256": "ec7bd8a30d42c6386c6426e1696571c2c5c1fdd0ef7adec3c99d68481076eaa4",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "illustrated-map": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792485997.3614562,
+      "started": 1792485143.597416,
+      "videoSha256": "8d7ff6689eaaedbd336bbb7741581a5c6c57a0c8555e0994f3a0aeba84be99c3",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "origami": {
       "status": "verified",
@@ -421,19 +465,35 @@
       "motionSamples": 300
     },
     "pop-up-book": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792486314.833058,
+      "started": 1792485500.450783,
+      "videoSha256": "c94a73958e95d75df45deb5fd1f820b56041b4a7c2744ebfcb08a4b74731be23",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "corrugated-model": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792486682.1079192,
+      "started": 1792485928.457547,
+      "videoSha256": "686b515e3a7eeadfa8f5c86a52884ae25e5707cfaab97566281a33fe2e42ae98",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "torn-paper": {
-      "status": "queued"
+      "status": "verifying",
+      "updated": 1792486680.1369128,
+      "started": 1792485997.376369
     },
     "felt-applique": {
-      "status": "queued"
+      "status": "rendering",
+      "updated": 1792486557.243326,
+      "started": 1792486314.841701
     },
     "embroidery": {
-      "status": "queued"
+      "status": "checking",
+      "updated": 1792486682.113993,
+      "started": 1792486682.113984
     },
     "patchwork": {
       "status": "queued"
@@ -547,5 +607,5 @@
       "status": "queued"
     }
   },
-  "elapsedSeconds": 6110.287514209747
+  "elapsedSeconds": 9723.404473304749
 }
