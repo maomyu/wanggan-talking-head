@@ -1,0 +1,12 @@
+{
+  "status": "verified",
+  "elapsedSeconds": 345.3014850616455,
+  "videoSha256": "9a5cf72bd04c3a50847445a0bce8b68e2e78846dda9193d5d1223732cd2775f1",
+  "video": "variants/precision/outputs/final.mp4",
+  "binding": {
+    "htmlSha256": "a255a6b965ef92f1714cebe89cac5d737eb3a80fc8f484f3d3f02a6cfa36930c",
+    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "motionAssertionsSha256": "e669abf848c43098f86b1d32f0ce5c07057d46d95b5e14cbbd744ae05456c570"
+  },
+  "verification": "qa/film-verification.json"
+}

@@ -1,7 +1,7 @@
 {
   "exitCode": 0,
   "htmlSha256": "025758a58d699e0d92353cdf12c748daaa018f4deb80132a486ebc51f3aa1388",
-  "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+  "directorSha256": "7bd2b6c7e15eb11c2563eae6eb0fccef0b9a4213881c65dc23de1fe1264b8084",
   "motionAssertionsSha256": "e669abf848c43098f86b1d32f0ce5c07057d46d95b5e14cbbd744ae05456c570",
   "result": {
     "ok": true,
@@ -80,11 +80,11 @@
     "snapshots": {
       "enabled": true,
       "files": [
-        ".hyperframes/artifacts/snapshots/a9e9f9c1-f5cf-4030-8fd2-47d370b542bd/frame-00-at-2.0s.png",
-        ".hyperframes/artifacts/snapshots/a9e9f9c1-f5cf-4030-8fd2-47d370b542bd/frame-01-at-10.2s.png",
-        ".hyperframes/artifacts/snapshots/a9e9f9c1-f5cf-4030-8fd2-47d370b542bd/frame-02-at-18.3s.png",
-        ".hyperframes/artifacts/snapshots/a9e9f9c1-f5cf-4030-8fd2-47d370b542bd/frame-03-at-26.5s.png",
-        ".hyperframes/artifacts/snapshots/a9e9f9c1-f5cf-4030-8fd2-47d370b542bd/frame-04-at-34.6s.png"
+        ".hyperframes/artifacts/snapshots/84b97a10-86f3-4f79-a881-00928b37d276/frame-00-at-2.0s.png",
+        ".hyperframes/artifacts/snapshots/84b97a10-86f3-4f79-a881-00928b37d276/frame-01-at-10.2s.png",
+        ".hyperframes/artifacts/snapshots/84b97a10-86f3-4f79-a881-00928b37d276/frame-02-at-18.3s.png",
+        ".hyperframes/artifacts/snapshots/84b97a10-86f3-4f79-a881-00928b37d276/frame-03-at-26.5s.png",
+        ".hyperframes/artifacts/snapshots/84b97a10-86f3-4f79-a881-00928b37d276/frame-04-at-34.6s.png"
       ],
       "times": [
         2.037,
@@ -96,10 +96,10 @@
       "findingFiles": []
     },
     "saved": {
-      "id": "15ab536c-8ed5-43f6-b08b-ba372c014513",
-      "revision": null,
-      "report": "/Users/maoyu/个人项目/客户/插件/test/编排差异化研究_20261020/full-cycle-v2/variants/comic/.hyperframes/artifacts/checks/15ab536c-8ed5-43f6-b08b-ba372c014513.json",
-      "attribution": "unversioned"
+      "id": "80bc8d62-8f24-4c99-b1a9-d321477feccb",
+      "revision": "ac90cf33-1b2a-44e1-bdbd-05e2625e114d",
+      "report": "/Users/maoyu/个人项目/客户/插件/test/编排差异化研究_20261020/full-cycle-v2/variants/comic/.hyperframes/artifacts/checks/80bc8d62-8f24-4c99-b1a9-d321477feccb.json",
+      "attribution": "recorded-revision"
     },
     "_meta": {
       "version": "0.8.174",

@@ -1,7 +1,7 @@
 {
   "nativeStyleCount": 100,
-  "capturedStillCount": 436,
-  "measuredDOMStates": 832,
+  "capturedStillCount": 453,
+  "measuredDOMStates": 849,
   "measuredDOMIssues": [],
   "fullFilmChecks": [
     {
@@ -103,8 +103,8 @@
         34.63
       ],
       "motionSamples": 300,
-      "contrastChecked": 31,
-      "contrastPassed": 31
+      "contrastChecked": 32,
+      "contrastPassed": 32
     },
     {
       "key": "ink",
@@ -210,26 +210,24 @@
     }
   ],
   "fullFilmSourceBindings": 12,
-  "directorSha256": "d6256f50edefacc8df01313e3dadc4ee5f221a63bc9ed119a9b214cbc8972147",
-  "compositePixelExact": 84,
+  "directorSha256": "36ec9a570c73c62156b25a55a1ceae2e117825cb59fa1896bbccf3caae491676",
+  "compositePixelExact": 86,
   "compositePixelNotExact": [
     "type-poster",
     "collage",
-    "illustration",
-    "halftone",
     "pixel",
     "chalk",
-    "cel",
-    "picture-book",
-    "isometric-city",
-    "illustrated-map",
     "knotted-cord",
     "mural",
     "terminal-ascii",
     "led-dot-matrix",
     "early-desktop",
+    "cel",
+    "picture-book",
+    "illustrated-map",
+    "illustration",
     "paper-stage"
   ],
   "limits": "Composite exactness is a separate test from measured geometry. Listed failures remain unpromoted; no full100 MP4 or100x12 acceptance claim. A stationary-video follow-up found zero pixel error for type-poster, without erasing the original false result.",
-  "httpStillsPassed": 436
+  "httpStillsPassed": 453
 }

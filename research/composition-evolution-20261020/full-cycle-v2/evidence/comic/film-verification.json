@@ -3,7 +3,7 @@
   "status": "verified-encoded",
   "source": {
     "htmlSha256": "025758a58d699e0d92353cdf12c748daaa018f4deb80132a486ebc51f3aa1388",
-    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "directorSha256": "7bd2b6c7e15eb11c2563eae6eb0fccef0b9a4213881c65dc23de1fe1264b8084",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
@@ -11,7 +11,7 @@
       "plans/edit-plan.json": "c2829c428e9910244a1b698c822770ced5265448e091af69089fcbb3ca3f32aa"
     }
   },
-  "videoSha256": "3bef79a18fbdce9602060326baddf62a8bb3cabc4b0d75740f4912606da88ab3",
+  "videoSha256": "81e4133a26e1095ebd64a45d6634524cff782d0c9ca6abcc9bda89144c470d6f",
   "probe": {
     "width": 1080,
     "height": 1920,
@@ -61,7 +61,9 @@
       0.9999503398606385
     ],
     "lagSamples": 0,
-    "decodedPeak": 1.1731301546096802
+    "decodedPeak": 1.1731301546096802,
+    "referenceSamples": 1760000,
+    "decodedSamples": 1760000
   },
   "decodedSelectedFrames": [
     0,
@@ -100,15 +102,15 @@
   "nativeVsEncodedPerson": [
     {
       "frame": 0,
-      "personInteriorMeanAbsoluteRGBError": 5.430007457733154
+      "personInteriorMeanAbsoluteRGBError": 5.430089950561523
     },
     {
       "frame": 240,
-      "personInteriorMeanAbsoluteRGBError": 5.724084854125977
+      "personInteriorMeanAbsoluteRGBError": 5.7666144371032715
     },
     {
       "frame": 420,
-      "personInteriorMeanAbsoluteRGBError": 5.469962120056152
+      "personInteriorMeanAbsoluteRGBError": 5.4375
     },
     {
       "frame": 567,
@@ -116,11 +118,11 @@
     },
     {
       "frame": 732,
-      "personInteriorMeanAbsoluteRGBError": 5.469085693359375
+      "personInteriorMeanAbsoluteRGBError": 5.479495525360107
     },
     {
       "frame": 879,
-      "personInteriorMeanAbsoluteRGBError": 5.399312496185303
+      "personInteriorMeanAbsoluteRGBError": 5.3905463218688965
     },
     {
       "frame": 1071,

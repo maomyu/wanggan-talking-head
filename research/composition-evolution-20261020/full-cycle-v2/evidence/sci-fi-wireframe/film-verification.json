@@ -1,0 +1,133 @@
+{
+  "key": "sci-fi-wireframe",
+  "status": "verified-encoded",
+  "source": {
+    "htmlSha256": "73c08099398bb74a6564b67bc6cc7aee924239c66e2cce31a2649be5f2ca4f11",
+    "directorSha256": "9ab1453072ef3bc8f8688f2ec29e329a091516b07003001123a1bdbe538398f2",
+    "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
+    "protected": {
+      "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "assets/edited-voice.wav": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+      "plans/edit-plan.json": "9bbc01125f7cc0c1219a41a5e522011244a9961a69cd440576d2bf47501116f1"
+    }
+  },
+  "videoSha256": "32ff54938e810428d12dedca83676b9ffcf3738c1981bc99c472f9c2adb5543d",
+  "probe": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "frames": 1100,
+    "duration": 36.666667,
+    "audioTracks": 1
+  },
+  "audio": {
+    "normalizedCorrelation": 0.9999823504746719,
+    "oneSecondCorrelations": [
+      0.999937502304114,
+      0.9999904262754927,
+      0.999994177847543,
+      0.999995304111266,
+      0.9999978458128858,
+      0.9999947930298356,
+      0.9999976058482851,
+      0.9999963351501024,
+      0.9999978105640043,
+      0.9999984355338531,
+      0.9999981615224847,
+      0.9999962521571253,
+      0.9999952236658104,
+      0.9997777550920108,
+      0.9999978800472431,
+      0.999999020335785,
+      0.9999963392852735,
+      0.9999960614334265,
+      0.9999992388607288,
+      0.9999965237452992,
+      0.9999968129945271,
+      0.999996877732441,
+      0.9999942298441284,
+      0.9999956554046777,
+      0.9999980663282576,
+      0.9999990535431954,
+      0.9999978429608062,
+      0.9999936633123062,
+      0.9999978090398193,
+      0.9999961082081361,
+      0.9999991644843719,
+      0.999999670590488,
+      0.99999688985037,
+      0.999996122983777,
+      0.9999969163693685,
+      0.9999503398606385
+    ],
+    "lagSamples": 0,
+    "decodedPeak": 1.1731301546096802,
+    "referenceSamples": 1760000,
+    "decodedSamples": 1760000
+  },
+  "decodedSelectedFrames": [
+    0,
+    148,
+    149,
+    150,
+    172,
+    240,
+    387,
+    388,
+    389,
+    420,
+    460,
+    461,
+    462,
+    485,
+    567,
+    615,
+    616,
+    617,
+    640,
+    732,
+    855,
+    856,
+    857,
+    879,
+    897,
+    898,
+    899,
+    922,
+    1071,
+    1099
+  ],
+  "denseIntervalFrames": 6,
+  "denseFrameCount": 184,
+  "nativeVsEncodedPerson": [
+    {
+      "frame": 0,
+      "personInteriorMeanAbsoluteRGBError": 4.433198928833008
+    },
+    {
+      "frame": 240,
+      "personInteriorMeanAbsoluteRGBError": 4.752985954284668
+    },
+    {
+      "frame": 420,
+      "personInteriorMeanAbsoluteRGBError": 4.37813663482666
+    },
+    {
+      "frame": 567,
+      "personInteriorMeanAbsoluteRGBError": 4.441718578338623
+    },
+    {
+      "frame": 732,
+      "personInteriorMeanAbsoluteRGBError": 4.514094352722168
+    },
+    {
+      "frame": 879,
+      "personInteriorMeanAbsoluteRGBError": 4.420666217803955
+    },
+    {
+      "frame": 1071,
+      "personInteriorMeanAbsoluteRGBError": 4.663625717163086
+    }
+  ],
+  "limits": "Author review plus measured invariants. Native/compressed pixel difference is a diagnostic, not universal color certification. No independent blind review or new source edits/audio design."
+}

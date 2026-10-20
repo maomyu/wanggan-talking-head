@@ -5,7 +5,7 @@ R=Path(__file__).resolve().parents[1];APP=Path.home()/'plugins/wanggan-talking-h
 dest.mkdir(parents=True,exist_ok=True)
 for name in ['scripts','library','modules','plans']:
  shutil.copytree(R/name,dest/name,dirs_exist_ok=True,ignore=shutil.ignore_patterns('__pycache__'))
-for name in ['catalogue.json','BRIEF.md','STATE.md','review.html','review.css','review.js','编排选择与协作.md','验证记录.md']:
+for name in ['catalogue.json','README.md','BRIEF.md','STATE.md','ledger.md','review.html','review.css','review.js','编排选择与协作.md','验证记录.md']:
  if(R/name).exists():shutil.copyfile(R/name,dest/name)
 versions={};evidence=dest/'evidence';evidence.mkdir(exist_ok=True)
 for s in json.loads((R/'catalogue.json').read_text())['styles']:
@@ -15,7 +15,7 @@ for s in json.loads((R/'catalogue.json').read_text())['styles']:
  for n in ['source-binding.json','full-check.json','film-verification.json','render-progress.json']:
   if(p/'qa'/n).exists():shutil.copyfile(p/'qa'/n,case/n)
  if(p/'qa/encoded-story.jpg').exists():shutil.copyfile(p/'qa/encoded-story.jpg',case/'encoded-story.jpg')
-for n in ['native-final.json','prototypes.json','dense-dom-audit.json','unified-entry-probe.json','final-verification.json','author-review.json','retry-history.json','rebuild-probe.json']:
+for n in ['native-final.json','prototypes.json','dense-dom-audit.json','unified-entry-probe.json','final-verification.json','author-review.json','retry-history.json','rebuild-probe.json','page-checklist.json','frozen-experts.json']:
  if(R/'qa'/n).exists():shutil.copyfile(R/'qa'/n,evidence/n)
 if(R/'qa/contact').exists():shutil.copytree(R/'qa/contact',evidence/'contact',dirs_exist_ok=True)
 for target in [R/'library/source-versions.json',dest/'library/source-versions.json']:target.write_text(json.dumps(versions,indent=2))

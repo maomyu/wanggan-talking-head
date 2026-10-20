@@ -1,0 +1,12 @@
+{
+  "status": "verified",
+  "elapsedSeconds": 362.70107078552246,
+  "videoSha256": "32ff54938e810428d12dedca83676b9ffcf3738c1981bc99c472f9c2adb5543d",
+  "video": "variants/sci-fi-wireframe/outputs/final.mp4",
+  "binding": {
+    "htmlSha256": "73c08099398bb74a6564b67bc6cc7aee924239c66e2cce31a2649be5f2ca4f11",
+    "directorSha256": "9ab1453072ef3bc8f8688f2ec29e329a091516b07003001123a1bdbe538398f2",
+    "motionAssertionsSha256": "e669abf848c43098f86b1d32f0ce5c07057d46d95b5e14cbbd744ae05456c570"
+  },
+  "verification": "qa/film-verification.json"
+}

@@ -61,7 +61,7 @@
   },
   "illustration": {
     "htmlSha256": "c2247e905df50fea31e8820e8c997e6d8914c6ced1c3915a7400d5c25191e443",
-    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "directorSha256": "36ec9a570c73c62156b25a55a1ceae2e117825cb59fa1896bbccf3caae491676",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
@@ -91,7 +91,7 @@
   },
   "halftone": {
     "htmlSha256": "45dea37084c316c1e6e7c8f3a76b65329a593e0301af21d5f148077cca2272c1",
-    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "directorSha256": "36ec9a570c73c62156b25a55a1ceae2e117825cb59fa1896bbccf3caae491676",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
@@ -101,7 +101,7 @@
   },
   "comic": {
     "htmlSha256": "025758a58d699e0d92353cdf12c748daaa018f4deb80132a486ebc51f3aa1388",
-    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "directorSha256": "7bd2b6c7e15eb11c2563eae6eb0fccef0b9a4213881c65dc23de1fe1264b8084",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
@@ -111,7 +111,7 @@
   },
   "film": {
     "htmlSha256": "476cc20a14e2aefff2124b4295cbfd682383ecd44779211a487a826130db6bcd",
-    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "directorSha256": "36ec9a570c73c62156b25a55a1ceae2e117825cb59fa1896bbccf3caae491676",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
@@ -131,7 +131,7 @@
   },
   "clay": {
     "htmlSha256": "40418125f2c061c5fbf5aa70ebfec7790df372a6112bcb173db5a187978254f7",
-    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "directorSha256": "36ec9a570c73c62156b25a55a1ceae2e117825cb59fa1896bbccf3caae491676",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
@@ -161,7 +161,7 @@
   },
   "paper-stage": {
     "htmlSha256": "57a67cfcec39ecc9e328528b5c7b64a0a08e591a63091b0d5793e0ba24387bfa",
-    "directorSha256": "d6256f50edefacc8df01313e3dadc4ee5f221a63bc9ed119a9b214cbc8972147",
+    "directorSha256": "36ec9a570c73c62156b25a55a1ceae2e117825cb59fa1896bbccf3caae491676",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
@@ -181,7 +181,7 @@
   },
   "cel": {
     "htmlSha256": "93bc004554e4a1f5c9b89a453953ae4d8ae7cc1e780b45f24bba9b5b8f09514d",
-    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "directorSha256": "7bd2b6c7e15eb11c2563eae6eb0fccef0b9a4213881c65dc23de1fe1264b8084",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
@@ -211,7 +211,7 @@
   },
   "tabletop-stilllife": {
     "htmlSha256": "f601f6d5b518391228cc70f7048fa45a114b1df3fb1594111daf9a119f95925e",
-    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "directorSha256": "36ec9a570c73c62156b25a55a1ceae2e117825cb59fa1896bbccf3caae491676",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
@@ -221,7 +221,7 @@
   },
   "macro-material": {
     "htmlSha256": "77977a84cd998a49dc6f2de8d09321765e2ac0ac8a440e1ac6ab04dc972cf22a",
-    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "directorSha256": "36ec9a570c73c62156b25a55a1ceae2e117825cb59fa1896bbccf3caae491676",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
@@ -271,7 +271,7 @@
   },
   "darkroom-prints": {
     "htmlSha256": "3fd8729ccd31b34dfe759b756b73e3d831387f1a5f0c18857e84f73659b14d20",
-    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "directorSha256": "36ec9a570c73c62156b25a55a1ceae2e117825cb59fa1896bbccf3caae491676",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
@@ -501,7 +501,7 @@
   },
   "picture-book": {
     "htmlSha256": "ab52d927cd0f3910ea36c05185dc37f76e0893c50b4718396c93398e12005a53",
-    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "directorSha256": "7bd2b6c7e15eb11c2563eae6eb0fccef0b9a4213881c65dc23de1fe1264b8084",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
@@ -511,7 +511,7 @@
   },
   "natural-history": {
     "htmlSha256": "8cb209feac2d56484d9d27fa66f7f35da58e9cfd93e860d05cba504e5de49328",
-    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "directorSha256": "7bd2b6c7e15eb11c2563eae6eb0fccef0b9a4213881c65dc23de1fe1264b8084",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
@@ -521,7 +521,7 @@
   },
   "isometric-city": {
     "htmlSha256": "dfff088035a05b3b2a9ba7e68e7dd16b54c57e6a7220ff43c5fe0980b6ea8050",
-    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "directorSha256": "36ec9a570c73c62156b25a55a1ceae2e117825cb59fa1896bbccf3caae491676",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
@@ -541,7 +541,7 @@
   },
   "editorial-metaphor": {
     "htmlSha256": "937ce2bdad129fd492b0d67c96658ee1c2b078a309c34e25bddc0658f11083d0",
-    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "directorSha256": "7bd2b6c7e15eb11c2563eae6eb0fccef0b9a4213881c65dc23de1fe1264b8084",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
@@ -561,7 +561,7 @@
   },
   "illustrated-map": {
     "htmlSha256": "64fae31383a4e0a63e9985a60e1056a178931e5494b536f6e8df40e07709a895",
-    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "directorSha256": "7bd2b6c7e15eb11c2563eae6eb0fccef0b9a4213881c65dc23de1fe1264b8084",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
@@ -731,7 +731,7 @@
   },
   "watercolor": {
     "htmlSha256": "2432818c7d8ee5672ee37e092644fa09413cf437bdd86663e4b9681465656574",
-    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "directorSha256": "36ec9a570c73c62156b25a55a1ceae2e117825cb59fa1896bbccf3caae491676",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
@@ -741,7 +741,7 @@
   },
   "impasto": {
     "htmlSha256": "c5dee9ea3279e1f2484a7c0f413fb14664f372f09e44d4618865c6c38374978c",
-    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "directorSha256": "36ec9a570c73c62156b25a55a1ceae2e117825cb59fa1896bbccf3caae491676",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
@@ -751,7 +751,7 @@
   },
   "woodcut": {
     "htmlSha256": "5a1f7d7b7d695247a8bef1c72762d224238bd6b3fbdffeb30320cc145e6aafa3",
-    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "directorSha256": "36ec9a570c73c62156b25a55a1ceae2e117825cb59fa1896bbccf3caae491676",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
@@ -761,7 +761,7 @@
   },
   "etching": {
     "htmlSha256": "e4e8b48e43c7b558530513f144f8b26e9752db9d5a2e3903456a8fbd3a50c656",
-    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "directorSha256": "36ec9a570c73c62156b25a55a1ceae2e117825cb59fa1896bbccf3caae491676",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
@@ -791,7 +791,7 @@
   },
   "cyanotype": {
     "htmlSha256": "ec5e1aaa945c117718c5f1bcdf4991ff71fefae77e7fef668faf5dee20486fec",
-    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "directorSha256": "7bd2b6c7e15eb11c2563eae6eb0fccef0b9a4213881c65dc23de1fe1264b8084",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
@@ -811,7 +811,7 @@
   },
   "mosaic": {
     "htmlSha256": "6cca29d666a7b27200d6dbd8b064917c481d9796f7d976b20fa0ac76e427955d",
-    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "directorSha256": "7bd2b6c7e15eb11c2563eae6eb0fccef0b9a4213881c65dc23de1fe1264b8084",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
@@ -821,7 +821,7 @@
   },
   "stained-glass": {
     "htmlSha256": "d7b76130d4289fd89cb98f036cd01091c2cc7b94998024f9831e216f1b090b4c",
-    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "directorSha256": "7bd2b6c7e15eb11c2563eae6eb0fccef0b9a4213881c65dc23de1fe1264b8084",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
@@ -851,7 +851,7 @@
   },
   "miniature-puppet": {
     "htmlSha256": "bbdad55cad94efc875845b82eff59c7552e153dcebfac51c530fd8c930f04331",
-    "directorSha256": "9ab1453072ef3bc8f8688f2ec29e329a091516b07003001123a1bdbe538398f2",
+    "directorSha256": "36ec9a570c73c62156b25a55a1ceae2e117825cb59fa1896bbccf3caae491676",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
@@ -871,7 +871,7 @@
   },
   "optical-glass": {
     "htmlSha256": "4ddcdb73704ed80667041bce15a05b4cba5d1f45909dd6f6404b30cc4e2601ee",
-    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "directorSha256": "36ec9a570c73c62156b25a55a1ceae2e117825cb59fa1896bbccf3caae491676",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
@@ -881,7 +881,7 @@
   },
   "ceramic-objects": {
     "htmlSha256": "ef6072c437cac6d14dfb9d3b5e010b3fe24c8cfe5ca1d8085b309ce1fe7c94ed",
-    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "directorSha256": "36ec9a570c73c62156b25a55a1ceae2e117825cb59fa1896bbccf3caae491676",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
@@ -891,7 +891,7 @@
   },
   "liquid-chrome": {
     "htmlSha256": "edb960dd712a9e27f65d35b9a2fc8564268181c1cf5d1f08c7d813be1833001d",
-    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "directorSha256": "36ec9a570c73c62156b25a55a1ceae2e117825cb59fa1896bbccf3caae491676",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
@@ -901,7 +901,7 @@
   },
   "isometric-maquette": {
     "htmlSha256": "55d65891790e98e59c06ca54c5a5b8739637c74e67971a81c4fdd2ae22de26ef",
-    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "directorSha256": "36ec9a570c73c62156b25a55a1ceae2e117825cb59fa1896bbccf3caae491676",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
@@ -921,7 +921,7 @@
   },
   "viscous-gel": {
     "htmlSha256": "62bf660e477e4dfc0037b4142f3f6220ef9de0c74f7e5b8e30f2692789f00994",
-    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "directorSha256": "36ec9a570c73c62156b25a55a1ceae2e117825cb59fa1896bbccf3caae491676",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",

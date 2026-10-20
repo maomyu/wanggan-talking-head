@@ -1,0 +1,71 @@
+{
+  "fullMP4CountVisible": 12,
+  "styleCountVisible": 100,
+  "realUIActions": [
+    "C01 actual MP4 opened and visibly played",
+    "A98 search narrowed100 to1",
+    "native A98 play/pause; 18.9-second input showed18.90; fullscreen retained9:16; Escape closed and released media",
+    "fresh IAB tab24 opened current C08 actual MP4 using its video hash query"
+  ],
+  "queryRangeChecks": [
+    {
+      "key": "minimal",
+      "queryRangeStatus": 206
+    },
+    {
+      "key": "magazine",
+      "queryRangeStatus": 206
+    },
+    {
+      "key": "precision",
+      "queryRangeStatus": 206
+    },
+    {
+      "key": "blueprint",
+      "queryRangeStatus": 206
+    },
+    {
+      "key": "comic",
+      "queryRangeStatus": 206
+    },
+    {
+      "key": "film",
+      "queryRangeStatus": 206
+    },
+    {
+      "key": "ink",
+      "queryRangeStatus": 206
+    },
+    {
+      "key": "clay",
+      "queryRangeStatus": 206
+    },
+    {
+      "key": "type-poster",
+      "queryRangeStatus": 206
+    },
+    {
+      "key": "sci-fi-wireframe",
+      "queryRangeStatus": 206
+    },
+    {
+      "key": "archive-dossier",
+      "queryRangeStatus": 206
+    },
+    {
+      "key": "origami",
+      "queryRangeStatus": 206
+    }
+  ],
+  "controlSessionNote": "After native fullscreen the earlier CUA tab23 accessibility/control binding returned only the root. Fresh tab24 exposes the full page and current MP4 player. No media/source change was used to work around it.",
+  "naturalPlayback": {
+    "key": "clay",
+    "duration": 36.666667,
+    "currentTime": 36.666667,
+    "ended": true,
+    "paused": true,
+    "hashQuery": "d377e2397fee"
+  },
+  "deliverableBrowserTab": "24",
+  "screenshot": "qa/browser-ready.png"
+}

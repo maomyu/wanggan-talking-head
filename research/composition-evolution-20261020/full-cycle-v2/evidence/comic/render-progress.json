@@ -1,11 +1,11 @@
 {
   "status": "verified",
-  "elapsedSeconds": 510.93315982818604,
-  "videoSha256": "3bef79a18fbdce9602060326baddf62a8bb3cabc4b0d75740f4912606da88ab3",
+  "elapsedSeconds": 269.067400932312,
+  "videoSha256": "81e4133a26e1095ebd64a45d6634524cff782d0c9ca6abcc9bda89144c470d6f",
   "video": "variants/comic/outputs/final.mp4",
   "binding": {
     "htmlSha256": "025758a58d699e0d92353cdf12c748daaa018f4deb80132a486ebc51f3aa1388",
-    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "directorSha256": "7bd2b6c7e15eb11c2563eae6eb0fccef0b9a4213881c65dc23de1fe1264b8084",
     "motionAssertionsSha256": "e669abf848c43098f86b1d32f0ce5c07057d46d95b5e14cbbd744ae05456c570"
   },
   "verification": "qa/film-verification.json"
