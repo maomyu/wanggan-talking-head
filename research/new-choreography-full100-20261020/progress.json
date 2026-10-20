@@ -1,5 +1,5 @@
 {
-  "verified": 9,
+  "verified": 22,
   "total": 100,
   "videos": [
     {
@@ -10,8 +10,43 @@
       "motionSamples": 300
     },
     {
+      "key": "paper",
+      "videoSha256": "9db625018fdcbac81b675d06b45c5ad1f582486908dedf46772ae47c1e4b5cc4",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "geometry",
+      "videoSha256": "63ca3bf24b2e8f5a58b8087331b97f5b6a30b6e5cf7ced9a5c9458ca9d3179bf",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
       "key": "magazine",
       "videoSha256": "685461f601d607ec92a3fbebd1f4d026e37e04b7bead8ba2e20e64cc8122ef4d",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "collage",
+      "videoSha256": "1f61e199f19a8737b5357ebf5b42eddec75b41c69178939d5d96a571d0636bb4",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "line",
+      "videoSha256": "5c92cadd527d71e508fd833cb2d219ec816afb3cff4c4fbf35dd0a427d9e2196",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "illustration",
+      "videoSha256": "4c06f6ce24f88645fdbd9b9c6416d127161b80340d4497f3fcdbb1e9f63c9617",
       "frames": 1100,
       "audioCorrelation": 0.9999823504746719,
       "motionSamples": 300
@@ -26,6 +61,13 @@
     {
       "key": "blueprint",
       "videoSha256": "61576f3102d3812be94dbf6e56ae40427292bbe3039e3955c8f71e8855c1ccc4",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "halftone",
+      "videoSha256": "d9f9a86a1d72f757b64d84451e594525b4429c46e73483255363077a71abdf07",
       "frames": 1100,
       "audioCorrelation": 0.9999823504746719,
       "motionSamples": 300
@@ -59,8 +101,57 @@
       "motionSamples": 300
     },
     {
+      "key": "pixel",
+      "videoSha256": "53aff60af8de943d1978831560b9aa97385a4527e4643599a8d6f46574d961a3",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "chalk",
+      "videoSha256": "9ef2c84c08e74a75c10ccb2130596fd25687c42242b7554642b48ed446b6bd5e",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "paper-stage",
+      "videoSha256": "92b61056de84d0cedcc5f62bd74d93a62ba289db8df2374423b96d4b44db85af",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
       "key": "type-poster",
       "videoSha256": "2435470f05fd59a32175fdcc095c0969ef898f1ebddec584172e06fc6819f24c",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "cel",
+      "videoSha256": "b52225dc40218e7171758ce79bba06a16d01ddb61ea2c512b63506ceaa9de8d0",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "sci-fi-wireframe",
+      "videoSha256": "32ff54938e810428d12dedca83676b9ffcf3738c1981bc99c472f9c2adb5543d",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "archive-dossier",
+      "videoSha256": "56955db26ef6ae4071927485cd166b3876f01305db6b2b123a2cf0f14710d1df",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "origami",
+      "videoSha256": "ee207b044b0ec4a2cbe6091839788f49dacc5f36bb5b4e06065ec0f46e9470cd",
       "frames": 1100,
       "audioCorrelation": 0.9999823504746719,
       "motionSamples": 300
