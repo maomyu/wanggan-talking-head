@@ -1,0 +1,48 @@
+{
+  "module": "talking-head-layout",
+  "caption": {
+    "x": 64,
+    "y": 1600,
+    "width": 952,
+    "size": 60
+  },
+  "portrait": {
+    "sourceCrop": [
+      0,
+      180,
+      1080,
+      1080
+    ],
+    "derivativeSize": 840,
+    "colorTreatment": "none",
+    "baseBox": [
+      225,
+      580,
+      630,
+      630
+    ],
+    "rightCircle": [
+      716,
+      1255,
+      300,
+      300
+    ],
+    "leftCircle": [
+      64,
+      1255,
+      300,
+      300
+    ]
+  },
+  "compositionStudy": {
+    "system": "C11",
+    "key": "scroll",
+    "intent": "三条建议属于同一条展开的长卷，镜头只移向本句需要的位置。",
+    "spatial": "卷首 → 中段说明 → 卷末回望",
+    "motion": "卷面沿一个方向走，标题与字幕固定在独立层",
+    "visualEditing": "用连续空间取代整页清空；句尾留停稳再巡览",
+    "sourceTimingUnchanged": true,
+    "revision": "v2-native-remap",
+    "scope": "native study; full MP4 not claimed"
+  }
+}

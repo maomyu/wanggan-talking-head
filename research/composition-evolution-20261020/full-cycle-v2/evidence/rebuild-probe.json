@@ -1,0 +1,7 @@
+{
+  "sourceVideoIdentical": true,
+  "voiceIdentical": true,
+  "directorIdentical": true,
+  "htmlIdentical": true,
+  "scope": "actual rehydration from the formal fixture plus archived design, no dependencies or media duplicated in research Git export"
+}

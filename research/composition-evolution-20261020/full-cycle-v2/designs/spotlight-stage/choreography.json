@@ -1,0 +1,212 @@
+{
+  "id": "A27",
+  "key": "spotlight-stage",
+  "name": "舞台聚光",
+  "familyKey": "photo",
+  "family": "真实摄影与现场",
+  "visualMechanism": "真实舞台无人地板局部与单一硬币摄影叠加，局部聚光和暗区控制焦点；明确摄影合成，不冒充实物布景或使用原舞台发言者/投影",
+  "profiles": {
+    "layout": "L12",
+    "motion": "M01",
+    "editing": "E07",
+    "sound": "S01"
+  },
+  "suitableFor": [
+    "观点",
+    "发布"
+  ],
+  "status": "research-native-v2",
+  "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+  "humanTreatment": "original-color; circular-corners; raised-captions",
+  "sourceKind": "original-production-adaptation",
+  "references": [
+    "R38",
+    "R41"
+  ],
+  "assetDisclosure": "真实摄影资料与数字注释/合成；非本段事件或交易",
+  "preview": "previews/spotlight-stage.jpg",
+  "implementation": "templates/spotlight-stage/index.html",
+  "videoSha256": "99478a896b4e876707450e9a06c319bf5d49b21a3097490aa829c3b10623e89f",
+  "compatibleModules": [
+    "art-direction",
+    "layout",
+    "motion",
+    "editing"
+  ],
+  "personTreatment": "source-color; true-circle-in-corners",
+  "fontRoles": [
+    "NotoSansSC-700.woff",
+    "NotoSansSC-900.woff",
+    "NotoSerifSC-700.woff"
+  ],
+  "approvalBasis": "user-authorized-100-style-goal; production-verified",
+  "motionParameter": "data-person-travel",
+  "personTravelSeconds": 0.55,
+  "portraitBase": [
+    225,
+    580,
+    630,
+    630
+  ],
+  "v1Status": "verified-video",
+  "choreography": {
+    "id": "C01",
+    "key": "speaker",
+    "name": "人物留白",
+    "intent": "人物承担判断，重点贴近目光，解释只在需要时接管画面。",
+    "states": "人物在场 → 侧边论点 → 回到人物",
+    "motion": "近景与圆窗间连续让位，重点用短掩膜揭示",
+    "editing": "观点处直切，解释收完再回人，不按句子机械换场",
+    "references": [
+      "modulify",
+      "reelfolio"
+    ]
+  },
+  "variant": 0,
+  "newImplementation": "variants/spotlight-stage/index.html",
+  "adaptationReason": "真实舞台无人地板局部与单一硬币摄影叠加，局部聚光和暗区控制焦点；明确摄影合成，不冒充实物布景或使用原舞台发言者/投影；用“人物留白”改变人物、解释区和主阅读线的关系。",
+  "preserved": [
+    "人物原色",
+    "角落正圆窗",
+    "字幕top1600、60px",
+    "原声与21条字幕原文和时间",
+    "原画风材料与字体"
+  ],
+  "sceneContent": {
+    "hook": {
+      "a": "越努力上班",
+      "b": "越存不到钱？",
+      "context": "先从自己的选择看起",
+      "items": [
+        [
+          "跟风消费",
+          ""
+        ],
+        [
+          "盲目投资",
+          ""
+        ],
+        [
+          "负债前行",
+          ""
+        ]
+      ]
+    },
+    "chain": {
+      "a": "跟风的代价",
+      "b": "最后落在自己身上",
+      "context": "后果由自己承担",
+      "items": [
+        [
+          "跟风消费",
+          ""
+        ],
+        [
+          "盲目投资",
+          ""
+        ],
+        [
+          "本金受损",
+          ""
+        ]
+      ]
+    },
+    "overview": {
+      "a": "三个财经底线",
+      "b": "从自己的选择开始",
+      "context": "三项并列建议",
+      "items": [
+        [
+          "减少无效消费",
+          ""
+        ],
+        [
+          "守住本金",
+          ""
+        ],
+        [
+          "减少负债",
+          ""
+        ]
+      ]
+    },
+    "spend": {
+      "a": "分清楚",
+      "b": "想要和需要",
+      "context": "下单之前\n留一点判断的空间",
+      "items": [
+        [
+          "想要",
+          "一时喜欢"
+        ],
+        [
+          "需要",
+          "实际用途"
+        ],
+        [
+          "先分清楚",
+          "再决定买不买"
+        ]
+      ]
+    },
+    "risk": {
+      "a": "守住本金",
+      "b": "先看风险，再做选择",
+      "context": "夸大收益的说法\n暗藏风险",
+      "items": [
+        [
+          "夸大收益",
+          ""
+        ],
+        [
+          "暗藏风险",
+          ""
+        ],
+        [
+          "守住本金",
+          ""
+        ]
+      ]
+    },
+    "debt": {
+      "a": "减少负债",
+      "b": "把压力往回收",
+      "context": "第三条底线",
+      "items": [
+        [
+          "减少负债",
+          ""
+        ],
+        [
+          "",
+          ""
+        ],
+        [
+          "",
+          ""
+        ]
+      ]
+    },
+    "recap": {
+      "a": "不跟风，不浮躁",
+      "b": "回到自己的判断",
+      "context": "少冲动　守本金　减负债",
+      "items": [
+        [
+          "少冲动",
+          ""
+        ],
+        [
+          "守本金",
+          ""
+        ],
+        [
+          "减负债",
+          ""
+        ]
+      ]
+    }
+  },
+  "directorVersion": "2.0-research",
+  "canonicalMaterialSeek": true
+}

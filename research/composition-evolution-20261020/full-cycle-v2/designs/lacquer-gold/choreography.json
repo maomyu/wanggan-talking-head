@@ -1,0 +1,211 @@
+{
+  "id": "A73",
+  "key": "lacquer-gold",
+  "name": "漆绘描金",
+  "familyKey": "painting",
+  "family": "传统绘画与东方",
+  "visualMechanism": "深黑红漆片上的细金线、金粉密度和受控高光形成两联/三联比较；配重圆盘作负担意象，不把材料显现称作撒金制作过程",
+  "profiles": {
+    "layout": "L03",
+    "motion": "M01",
+    "editing": "E04",
+    "sound": "S01"
+  },
+  "suitableFor": [
+    "工艺",
+    "品牌"
+  ],
+  "status": "research-native-v2",
+  "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+  "humanTreatment": "original-color; circular-corners; raised-captions",
+  "sourceKind": "original-production-adaptation",
+  "references": [
+    "R30"
+  ],
+  "assetDisclosure": "Original AI concept material pixels preserved; presenter unchanged; not actual manufacturing footage or a historic object",
+  "preview": "previews/lacquer-gold.jpg",
+  "implementation": "templates/lacquer-gold/index.html",
+  "videoSha256": "51291786f91b863ae106397588e1a75cec013f51a543d242d89ee0521ce4cc0c",
+  "compatibleModules": [
+    "art-direction",
+    "layout",
+    "motion",
+    "editing"
+  ],
+  "personTreatment": "source-color; true-circle-in-corners",
+  "fontRoles": [
+    "NotoSansSC-700.woff",
+    "NotoSansSC-900.woff",
+    "NotoSerifSC-700.woff"
+  ],
+  "approvalBasis": "user-authorized-100-style-goal; production-verified",
+  "motionParameter": "data-person-travel",
+  "personTravelSeconds": 0.55,
+  "portraitBase": [
+    225,
+    580,
+    630,
+    630
+  ],
+  "v1Status": "verified-video",
+  "choreography": {
+    "id": "C09",
+    "key": "archive",
+    "name": "档案索引",
+    "intent": "左侧索引保持，右侧材料展开；编号只是位置索引，不伪造档案事实。",
+    "states": "索引 → 材料页 → 摘录判断",
+    "motion": "材料页从同一入口抽出，摘录与对应句子对齐",
+    "editing": "按照材料与观点组织段落，共同页签接续",
+    "references": [
+      "modulify",
+      "inspora"
+    ]
+  },
+  "variant": 1,
+  "newImplementation": "variants/lacquer-gold/index.html",
+  "adaptationReason": "深黑红漆片上的细金线、金粉密度和受控高光形成两联/三联比较；配重圆盘作负担意象，不把材料显现称作撒金制作过程；用“档案索引”改变人物、解释区和主阅读线的关系。",
+  "preserved": [
+    "人物原色",
+    "角落正圆窗",
+    "字幕top1600、60px",
+    "原声与21条字幕原文和时间",
+    "原画风材料与字体"
+  ],
+  "sceneContent": {
+    "hook": {
+      "a": "越努力上班",
+      "b": "越存不到钱？",
+      "context": "先从自己的选择看起",
+      "items": [
+        [
+          "跟风消费",
+          ""
+        ],
+        [
+          "盲目投资",
+          ""
+        ],
+        [
+          "负债前行",
+          ""
+        ]
+      ]
+    },
+    "chain": {
+      "a": "跟风的代价",
+      "b": "最后落在自己身上",
+      "context": "后果由自己承担",
+      "items": [
+        [
+          "跟风消费",
+          ""
+        ],
+        [
+          "盲目投资",
+          ""
+        ],
+        [
+          "本金受损",
+          ""
+        ]
+      ]
+    },
+    "overview": {
+      "a": "三个财经底线",
+      "b": "从自己的选择开始",
+      "context": "三项并列建议",
+      "items": [
+        [
+          "减少无效消费",
+          ""
+        ],
+        [
+          "守住本金",
+          ""
+        ],
+        [
+          "减少负债",
+          ""
+        ]
+      ]
+    },
+    "spend": {
+      "a": "分清楚",
+      "b": "想要和需要",
+      "context": "下单之前\n留一点判断的空间",
+      "items": [
+        [
+          "想要",
+          "一时喜欢"
+        ],
+        [
+          "需要",
+          "实际用途"
+        ],
+        [
+          "先分清楚",
+          "再决定买不买"
+        ]
+      ]
+    },
+    "risk": {
+      "a": "守住本金",
+      "b": "先看风险，再做选择",
+      "context": "夸大收益的说法\n暗藏风险",
+      "items": [
+        [
+          "夸大收益",
+          ""
+        ],
+        [
+          "暗藏风险",
+          ""
+        ],
+        [
+          "守住本金",
+          ""
+        ]
+      ]
+    },
+    "debt": {
+      "a": "减少负债",
+      "b": "把压力往回收",
+      "context": "第三条底线",
+      "items": [
+        [
+          "减少负债",
+          ""
+        ],
+        [
+          "",
+          ""
+        ],
+        [
+          "",
+          ""
+        ]
+      ]
+    },
+    "recap": {
+      "a": "不跟风，不浮躁",
+      "b": "回到自己的判断",
+      "context": "少冲动　守本金　减负债",
+      "items": [
+        [
+          "少冲动",
+          ""
+        ],
+        [
+          "守本金",
+          ""
+        ],
+        [
+          "减负债",
+          ""
+        ]
+      ]
+    }
+  },
+  "directorVersion": "2.0-research",
+  "canonicalMaterialSeek": true
+}

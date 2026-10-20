@@ -1,0 +1,413 @@
+{
+  "fps": 30,
+  "fpsRational": "30/1",
+  "width": 1080,
+  "height": 1920,
+  "frameCount": 1100,
+  "duration": 36.666666666666664,
+  "captions": [
+    {
+      "id": 1,
+      "startFrame": 0,
+      "endFrame": 58,
+      "text": "为什么越努力上班越存不到钱",
+      "sourceStart": 0.0,
+      "sourceEnd": 1.9333333333333333,
+      "segment": "A"
+    },
+    {
+      "id": 2,
+      "startFrame": 58,
+      "endFrame": 95,
+      "text": "今天就给普通人讲一讲",
+      "sourceStart": 1.9333333333333333,
+      "sourceEnd": 3.1666666666666665,
+      "segment": "A"
+    },
+    {
+      "id": 3,
+      "startFrame": 95,
+      "endFrame": 149,
+      "text": "当下最接地气的财富真相",
+      "sourceStart": 3.1666666666666665,
+      "sourceEnd": 4.966666666666667,
+      "segment": "A"
+    },
+    {
+      "id": 4,
+      "startFrame": 149,
+      "endFrame": 198,
+      "text": "很多人习惯跟风消费",
+      "sourceStart": 4.966666666666667,
+      "sourceEnd": 6.6,
+      "segment": "A"
+    },
+    {
+      "id": 5,
+      "startFrame": 198,
+      "endFrame": 224,
+      "text": "盲目打理资产",
+      "sourceStart": 6.6,
+      "sourceEnd": 7.466666666666667,
+      "segment": "A"
+    },
+    {
+      "id": 6,
+      "startFrame": 224,
+      "endFrame": 266,
+      "text": "要么透支负债前行",
+      "sourceStart": 7.466666666666667,
+      "sourceEnd": 8.866666666666667,
+      "segment": "A"
+    },
+    {
+      "id": 7,
+      "startFrame": 266,
+      "endFrame": 310,
+      "text": "要么跟风盲目炒股",
+      "sourceStart": 8.866666666666667,
+      "sourceEnd": 10.333333333333334,
+      "segment": "A"
+    },
+    {
+      "id": 8,
+      "startFrame": 310,
+      "endFrame": 349,
+      "text": "最后本金受损",
+      "sourceStart": 10.333333333333334,
+      "sourceEnd": 11.633333333333333,
+      "segment": "A"
+    },
+    {
+      "id": 9,
+      "startFrame": 349,
+      "endFrame": 388,
+      "text": "生活压力越来越大",
+      "sourceStart": 11.633333333333333,
+      "sourceEnd": 12.933333333333334,
+      "segment": "A"
+    },
+    {
+      "id": 10,
+      "startFrame": 388,
+      "endFrame": 461,
+      "text": "给大家三个普通人的财经底线",
+      "sourceStart": 12.933333333333334,
+      "sourceEnd": 15.366666666666667,
+      "segment": "A"
+    },
+    {
+      "id": 11,
+      "startFrame": 461,
+      "endFrame": 516,
+      "text": "第一，砍掉无效消费",
+      "sourceStart": 15.366666666666667,
+      "sourceEnd": 17.2,
+      "segment": "A"
+    },
+    {
+      "id": 12,
+      "startFrame": 516,
+      "endFrame": 563,
+      "text": "戒掉冲动的购物",
+      "sourceStart": 17.2,
+      "sourceEnd": 18.766666666666666,
+      "segment": "A"
+    },
+    {
+      "id": 13,
+      "startFrame": 563,
+      "endFrame": 616,
+      "text": "分清楚想要和需要",
+      "sourceStart": 18.766666666666666,
+      "sourceEnd": 20.533333333333335,
+      "segment": "A"
+    },
+    {
+      "id": 14,
+      "startFrame": 616,
+      "endFrame": 686,
+      "text": "第二守住本金永远优先",
+      "sourceStart": 20.533333333333335,
+      "sourceEnd": 22.866666666666667,
+      "segment": "A"
+    },
+    {
+      "id": 15,
+      "startFrame": 686,
+      "endFrame": 783,
+      "text": "市面上夸大收益理财的都暗藏风险",
+      "sourceStart": 22.866666666666667,
+      "sourceEnd": 26.1,
+      "segment": "A"
+    },
+    {
+      "id": 16,
+      "startFrame": 783,
+      "endFrame": 856,
+      "text": "普通人要远离投机跟炒作",
+      "sourceStart": 26.1,
+      "sourceEnd": 28.533333333333335,
+      "segment": "A"
+    },
+    {
+      "id": 17,
+      "startFrame": 856,
+      "endFrame": 898,
+      "text": "第三减少负债",
+      "sourceStart": 28.533333333333335,
+      "sourceEnd": 29.933333333333334,
+      "segment": "A"
+    },
+    {
+      "id": 18,
+      "startFrame": 898,
+      "endFrame": 959,
+      "text": "财富从来不是靠蛮力争取的",
+      "sourceStart": 29.933333333333334,
+      "sourceEnd": 31.966666666666665,
+      "segment": "A"
+    },
+    {
+      "id": 19,
+      "startFrame": 959,
+      "endFrame": 1003,
+      "text": "而是靠认知筛选",
+      "sourceStart": 31.966666666666665,
+      "sourceEnd": 33.43333333333333,
+      "segment": "A"
+    },
+    {
+      "id": 20,
+      "startFrame": 1003,
+      "endFrame": 1036,
+      "text": "不跟风不浮躁",
+      "sourceStart": 33.43333333333333,
+      "sourceEnd": 34.53333333333333,
+      "segment": "A"
+    },
+    {
+      "id": 21,
+      "startFrame": 1036,
+      "endFrame": 1100,
+      "text": "才是普通人该走的路",
+      "sourceStart": 34.53333333333333,
+      "sourceEnd": 36.666666666666664,
+      "segment": "A"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "startFrame": 0,
+      "endFrame": 149,
+      "title": [
+        "越努力上班",
+        "越存不到钱？"
+      ],
+      "kicker": "提问"
+    },
+    {
+      "id": "chain",
+      "startFrame": 149,
+      "endFrame": 388,
+      "title": [
+        "跟风的代价",
+        "最后落在自己身上"
+      ],
+      "kicker": "后果"
+    },
+    {
+      "id": "overview",
+      "startFrame": 388,
+      "endFrame": 461,
+      "title": [
+        "三个底线",
+        "先把顺序理清"
+      ],
+      "kicker": "清单"
+    },
+    {
+      "id": "spend",
+      "startFrame": 461,
+      "endFrame": 616,
+      "title": [
+        "01 无效消费",
+        "分清想要和需要"
+      ],
+      "kicker": "第一条"
+    },
+    {
+      "id": "risk",
+      "startFrame": 616,
+      "endFrame": 856,
+      "title": [
+        "02 守住本金",
+        "先看风险，再做选择"
+      ],
+      "kicker": "第二条"
+    },
+    {
+      "id": "debt",
+      "startFrame": 856,
+      "endFrame": 898,
+      "title": [
+        "03 减少负债",
+        "把压力往回收"
+      ],
+      "kicker": "第三条"
+    },
+    {
+      "id": "recap",
+      "startFrame": 898,
+      "endFrame": 1100,
+      "title": [
+        "不跟风，不浮躁",
+        "回到自己的判断"
+      ],
+      "kicker": "收束"
+    }
+  ],
+  "triggers": {
+    "consume": 176,
+    "invest": 198,
+    "loss": 310,
+    "pressure": 349,
+    "want": 563,
+    "risk": 686,
+    "speculation": 783
+  },
+  "presenter": {
+    "sourceCrop": [
+      0,
+      180,
+      1080,
+      1080
+    ],
+    "derivativeSize": 840,
+    "colorTreatment": "none",
+    "baseBox": [
+      120,
+      550,
+      840,
+      840
+    ],
+    "rightCircle": [
+      716,
+      1255,
+      300,
+      300
+    ],
+    "leftCircle": [
+      64,
+      1255,
+      300,
+      300
+    ]
+  },
+  "comparison": {
+    "looks": [
+      "minimal",
+      "paper",
+      "geometry",
+      "magazine",
+      "collage",
+      "line",
+      "illustration",
+      "precision",
+      "blueprint",
+      "halftone",
+      "comic",
+      "film",
+      "ink",
+      "clay",
+      "pixel"
+    ],
+    "fixed": [
+      "source",
+      "edit",
+      "voice",
+      "captionText",
+      "captionTiming",
+      "duration",
+      "fps"
+    ],
+    "subtitleTop": 1600
+  },
+  "timingProvenance": "本次MP4实际音轨 whisper.cpp large-v3-turbo 本地转写；句内使用识别词边界拆成21条，30fps取整。借掉/手术/买力按上下文校为戒掉/守住/蛮力，原始转写保留qa/source-asr.json。未宣称逐字一帧精度。",
+  "source": {
+    "kind": "explicit-approved-finance-example",
+    "canonicalSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58"
+  },
+  "shots": [
+    {
+      "id": "hook",
+      "sourceIn": 0,
+      "sourceOut": 149,
+      "outputIn": 0,
+      "outputOut": 149
+    },
+    {
+      "id": "chain",
+      "sourceIn": 149,
+      "sourceOut": 388,
+      "outputIn": 149,
+      "outputOut": 388
+    },
+    {
+      "id": "overview",
+      "sourceIn": 388,
+      "sourceOut": 461,
+      "outputIn": 388,
+      "outputOut": 461
+    },
+    {
+      "id": "spend",
+      "sourceIn": 461,
+      "sourceOut": 616,
+      "outputIn": 461,
+      "outputOut": 616
+    },
+    {
+      "id": "risk",
+      "sourceIn": 616,
+      "sourceOut": 856,
+      "outputIn": 616,
+      "outputOut": 856
+    },
+    {
+      "id": "debt",
+      "sourceIn": 856,
+      "sourceOut": 898,
+      "outputIn": 856,
+      "outputOut": 898
+    },
+    {
+      "id": "recap",
+      "sourceIn": 898,
+      "sourceOut": 1100,
+      "outputIn": 898,
+      "outputOut": 1100
+    }
+  ],
+  "audioSegments": [
+    {
+      "sourceIn": 0,
+      "sourceOut": 1100,
+      "outputIn": 0,
+      "outputOut": 1100
+    }
+  ],
+  "fixtureId": "approved-finance-20261019",
+  "compositionStudy": {
+    "system": "C09",
+    "key": "archive",
+    "intent": "左侧索引保持，右侧材料展开；编号只是位置索引，不伪造档案事实。",
+    "spatial": "索引 → 材料页 → 摘录判断",
+    "motion": "材料页从同一入口抽出，摘录与对应句子对齐",
+    "visualEditing": "按照材料与观点组织段落，共同页签接续",
+    "sourceTimingUnchanged": true,
+    "revision": "v2-native-remap",
+    "scope": "native study; full MP4 not claimed"
+  }
+}

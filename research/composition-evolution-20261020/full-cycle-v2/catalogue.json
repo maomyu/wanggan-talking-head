@@ -1,0 +1,2011 @@
+{
+  "schemaVersion": 2,
+  "scope": "100 native v2 mappings; 12 full-length representative films",
+  "fps": 30,
+  "frameCount": 1100,
+  "duration": 36.666666666666664,
+  "sourceFixture": "explicit approved current talking-head clip",
+  "styles": [
+    {
+      "id": "A01",
+      "key": "minimal",
+      "name": "写实极简",
+      "choreography": {
+        "id": "C01",
+        "key": "speaker",
+        "name": "人物留白",
+        "intent": "人物承担判断，重点贴近目光，解释只在需要时接管画面。",
+        "states": "人物在场 → 侧边论点 → 回到人物",
+        "motion": "近景与圆窗间连续让位，重点用短掩膜揭示",
+        "editing": "观点处直切，解释收完再回人，不按句子机械换场",
+        "references": [
+          "modulify",
+          "reelfolio"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": true
+    },
+    {
+      "id": "A02",
+      "key": "paper",
+      "name": "纸本批注",
+      "choreography": {
+        "id": "C02",
+        "key": "editorial",
+        "name": "编辑双栏",
+        "intent": "窄栏放判断，宽栏放图像；文字与图片共享跨段落的对齐轴。",
+        "states": "页边判断 → 大图与批注 → 跨栏结论",
+        "motion": "标题沿基线换词，图注滞后出现，版心保持稳定",
+        "editing": "按完整论点翻到下一版，保留栏线作共同锚点",
+        "references": [
+          "modulify",
+          "inspora"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A03",
+      "key": "geometry",
+      "name": "几何印刷",
+      "choreography": {
+        "id": "C03",
+        "key": "type",
+        "name": "巨字接力",
+        "intent": "关键词占据主画面，字与字的尺度和位置承担讲述，人物让出阅读中心。",
+        "states": "完整词组 → 两词对峙 → 一句结论",
+        "motion": "按词组掩膜接力，落下后停稳，放大不影响字幕",
+        "editing": "在语义重音处切表现文字；人声不另切、不开倍速",
+        "references": [
+          "prompt-motion",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A04",
+      "key": "magazine",
+      "name": "杂志编辑",
+      "choreography": {
+        "id": "C02",
+        "key": "editorial",
+        "name": "编辑双栏",
+        "intent": "窄栏放判断，宽栏放图像；文字与图片共享跨段落的对齐轴。",
+        "states": "页边判断 → 大图与批注 → 跨栏结论",
+        "motion": "标题沿基线换词，图注滞后出现，版心保持稳定",
+        "editing": "按完整论点翻到下一版，保留栏线作共同锚点",
+        "references": [
+          "modulify",
+          "inspora"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": true
+    },
+    {
+      "id": "A05",
+      "key": "collage",
+      "name": "剪贴拼贴",
+      "choreography": {
+        "id": "C05",
+        "key": "stack",
+        "name": "卡片展列",
+        "intent": "同一组信息由重叠变为并列，让观众看见原本被藏住的关系。",
+        "states": "叠放概览 → 两张展开 → 归纳列表",
+        "motion": "卡片边缘分离后错峰展列，文字在落稳后揭示",
+        "editing": "用同一卡片换层级，不能用三张无关图假装同一物体",
+        "references": [
+          "60fps",
+          "reelfolio"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A06",
+      "key": "line",
+      "name": "单线手绘",
+      "choreography": {
+        "id": "C06",
+        "key": "derive",
+        "name": "推导画布",
+        "intent": "主张、依据和结果在同一张画布内建立对应，保留已读上下文。",
+        "states": "先给对象 → 建立联系 → 标出判断",
+        "motion": "连线在节点之后生长，重点框贴着真实字形",
+        "editing": "按推导完成程度推进；并列建议不连成因果",
+        "references": [
+          "60fps",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A07",
+      "key": "illustration",
+      "name": "图形插画",
+      "choreography": {
+        "id": "C08",
+        "key": "stage",
+        "name": "空间舞台",
+        "intent": "材料物件有前后层次，正文在稳定平面，人物独立于场景镜头。",
+        "states": "总览陈列 → 侧转展示 → 正面结论",
+        "motion": "物件绕自身轴转动，读字时相机与标签停稳",
+        "editing": "边缘侧转处换图解，下一镜保持空间轴线",
+        "references": [
+          "theatre",
+          "reelfolio"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A08",
+      "key": "precision",
+      "name": "精密界面",
+      "choreography": {
+        "id": "C10",
+        "key": "interface",
+        "name": "界面状态",
+        "intent": "同一解释面板在总览、对照、风险提示之间变换，状态有可见结果。",
+        "states": "概览 → 分清选择 → 风险提示",
+        "motion": "活动指示条伸缩交接，面板先变形再换内容",
+        "editing": "状态变化承担转场；不虚构按钮操作与真实理财数据",
+        "references": [
+          "60fps",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": true
+    },
+    {
+      "id": "A09",
+      "key": "blueprint",
+      "name": "技术蓝图",
+      "choreography": {
+        "id": "C06",
+        "key": "derive",
+        "name": "推导画布",
+        "intent": "主张、依据和结果在同一张画布内建立对应，保留已读上下文。",
+        "states": "先给对象 → 建立联系 → 标出判断",
+        "motion": "连线在节点之后生长，重点框贴着真实字形",
+        "editing": "按推导完成程度推进；并列建议不连成因果",
+        "references": [
+          "60fps",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": true
+    },
+    {
+      "id": "A10",
+      "key": "halftone",
+      "name": "复古网点",
+      "choreography": {
+        "id": "C07",
+        "key": "gallery",
+        "name": "画廊取景",
+        "intent": "图片获得足够面积；主图与备选画面共享一条连续展示轨道。",
+        "states": "完整主图 → 横向接续 → 局部与图注",
+        "motion": "轨道先移动再停稳，活动框与图注共同切换",
+        "editing": "全貌到细节再回人物；解释图不冒充真实凭证",
+        "references": [
+          "reelfolio",
+          "modulify"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A11",
+      "key": "comic",
+      "name": "漫画描线",
+      "choreography": {
+        "id": "C04",
+        "key": "route",
+        "name": "纵向叙事",
+        "intent": "问题、行为和后果沿纵轴展开，读过的部分留下位置记忆。",
+        "states": "上方问题 → 路径中段 → 下方结论",
+        "motion": "路径先建立，再按人声显现节点，视线沿纵向下移",
+        "editing": "在同一叙事空间里推进；转折保留一个停稳窗口",
+        "references": [
+          "60fps",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": true
+    },
+    {
+      "id": "A12",
+      "key": "film",
+      "name": "胶片影像",
+      "choreography": {
+        "id": "C07",
+        "key": "gallery",
+        "name": "画廊取景",
+        "intent": "图片获得足够面积；主图与备选画面共享一条连续展示轨道。",
+        "states": "完整主图 → 横向接续 → 局部与图注",
+        "motion": "轨道先移动再停稳，活动框与图注共同切换",
+        "editing": "全貌到细节再回人物；解释图不冒充真实凭证",
+        "references": [
+          "reelfolio",
+          "modulify"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": true
+    },
+    {
+      "id": "A13",
+      "key": "ink",
+      "name": "水墨留白",
+      "choreography": {
+        "id": "C11",
+        "key": "scroll",
+        "name": "长卷巡览",
+        "intent": "三条建议属于同一条展开的长卷，镜头只移向本句需要的位置。",
+        "states": "卷首 → 中段说明 → 卷末回望",
+        "motion": "卷面沿一个方向走，标题与字幕固定在独立层",
+        "editing": "用连续空间取代整页清空；句尾留停稳再巡览",
+        "references": [
+          "theatre",
+          "inspora"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": true
+    },
+    {
+      "id": "A14",
+      "key": "clay",
+      "name": "柔质立体",
+      "choreography": {
+        "id": "C08",
+        "key": "stage",
+        "name": "空间舞台",
+        "intent": "材料物件有前后层次，正文在稳定平面，人物独立于场景镜头。",
+        "states": "总览陈列 → 侧转展示 → 正面结论",
+        "motion": "物件绕自身轴转动，读字时相机与标签停稳",
+        "editing": "边缘侧转处换图解，下一镜保持空间轴线",
+        "references": [
+          "theatre",
+          "reelfolio"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": true
+    },
+    {
+      "id": "A15",
+      "key": "pixel",
+      "name": "像素复古",
+      "choreography": {
+        "id": "C10",
+        "key": "interface",
+        "name": "界面状态",
+        "intent": "同一解释面板在总览、对照、风险提示之间变换，状态有可见结果。",
+        "states": "概览 → 分清选择 → 风险提示",
+        "motion": "活动指示条伸缩交接，面板先变形再换内容",
+        "editing": "状态变化承担转场；不虚构按钮操作与真实理财数据",
+        "references": [
+          "60fps",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A16",
+      "key": "chalk",
+      "name": "黑板粉笔",
+      "choreography": {
+        "id": "C06",
+        "key": "derive",
+        "name": "推导画布",
+        "intent": "主张、依据和结果在同一张画布内建立对应，保留已读上下文。",
+        "states": "先给对象 → 建立联系 → 标出判断",
+        "motion": "连线在节点之后生长，重点框贴着真实字形",
+        "editing": "按推导完成程度推进；并列建议不连成因果",
+        "references": [
+          "60fps",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A17",
+      "key": "paper-stage",
+      "name": "剪纸舞台",
+      "choreography": {
+        "id": "C08",
+        "key": "stage",
+        "name": "空间舞台",
+        "intent": "材料物件有前后层次，正文在稳定平面，人物独立于场景镜头。",
+        "states": "总览陈列 → 侧转展示 → 正面结论",
+        "motion": "物件绕自身轴转动，读字时相机与标签停稳",
+        "editing": "边缘侧转处换图解，下一镜保持空间轴线",
+        "references": [
+          "theatre",
+          "reelfolio"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A18",
+      "key": "type-poster",
+      "name": "巨字海报",
+      "choreography": {
+        "id": "C03",
+        "key": "type",
+        "name": "巨字接力",
+        "intent": "关键词占据主画面，字与字的尺度和位置承担讲述，人物让出阅读中心。",
+        "states": "完整词组 → 两词对峙 → 一句结论",
+        "motion": "按词组掩膜接力，落下后停稳，放大不影响字幕",
+        "editing": "在语义重音处切表现文字；人声不另切、不开倍速",
+        "references": [
+          "prompt-motion",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": true
+    },
+    {
+      "id": "A19",
+      "key": "cel",
+      "name": "赛璐璐",
+      "choreography": {
+        "id": "C04",
+        "key": "route",
+        "name": "纵向叙事",
+        "intent": "问题、行为和后果沿纵轴展开，读过的部分留下位置记忆。",
+        "states": "上方问题 → 路径中段 → 下方结论",
+        "motion": "路径先建立，再按人声显现节点，视线沿纵向下移",
+        "editing": "在同一叙事空间里推进；转折保留一个停稳窗口",
+        "references": [
+          "60fps",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A20",
+      "key": "sci-fi-wireframe",
+      "name": "科幻线框／硬表立体",
+      "choreography": {
+        "id": "C12",
+        "key": "radial",
+        "name": "放射结构",
+        "intent": "中心只有一个主张，周围是并列的选择或维度，层级靠距离建立。",
+        "states": "中心判断 → 两侧维度 → 收回中心",
+        "motion": "分支按序展开，局部强调后回到完整关系",
+        "editing": "共同中心保持，分支轮换而非每条重建全图",
+        "references": [
+          "theatre",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": true
+    },
+    {
+      "id": "A21",
+      "key": "documentary",
+      "name": "纪实现场",
+      "choreography": {
+        "id": "C01",
+        "key": "speaker",
+        "name": "人物留白",
+        "intent": "人物承担判断，重点贴近目光，解释只在需要时接管画面。",
+        "states": "人物在场 → 侧边论点 → 回到人物",
+        "motion": "近景与圆窗间连续让位，重点用短掩膜揭示",
+        "editing": "观点处直切，解释收完再回人，不按句子机械换场",
+        "references": [
+          "modulify",
+          "reelfolio"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A22",
+      "key": "tabletop-stilllife",
+      "name": "桌面静物",
+      "choreography": {
+        "id": "C07",
+        "key": "gallery",
+        "name": "画廊取景",
+        "intent": "图片获得足够面积；主图与备选画面共享一条连续展示轨道。",
+        "states": "完整主图 → 横向接续 → 局部与图注",
+        "motion": "轨道先移动再停稳，活动框与图注共同切换",
+        "editing": "全貌到细节再回人物；解释图不冒充真实凭证",
+        "references": [
+          "reelfolio",
+          "modulify"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A23",
+      "key": "macro-material",
+      "name": "微距材质",
+      "choreography": {
+        "id": "C07",
+        "key": "gallery",
+        "name": "画廊取景",
+        "intent": "图片获得足够面积；主图与备选画面共享一条连续展示轨道。",
+        "states": "完整主图 → 横向接续 → 局部与图注",
+        "motion": "轨道先移动再停稳，活动框与图注共同切换",
+        "editing": "全貌到细节再回人物；解释图不冒充真实凭证",
+        "references": [
+          "reelfolio",
+          "modulify"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A24",
+      "key": "overhead-workbench",
+      "name": "俯拍操作台",
+      "choreography": {
+        "id": "C09",
+        "key": "archive",
+        "name": "档案索引",
+        "intent": "左侧索引保持，右侧材料展开；编号只是位置索引，不伪造档案事实。",
+        "states": "索引 → 材料页 → 摘录判断",
+        "motion": "材料页从同一入口抽出，摘录与对应句子对齐",
+        "editing": "按照材料与观点组织段落，共同页签接续",
+        "references": [
+          "modulify",
+          "inspora"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A25",
+      "key": "architectural-light",
+      "name": "建筑光影",
+      "choreography": {
+        "id": "C01",
+        "key": "speaker",
+        "name": "人物留白",
+        "intent": "人物承担判断，重点贴近目光，解释只在需要时接管画面。",
+        "states": "人物在场 → 侧边论点 → 回到人物",
+        "motion": "近景与圆窗间连续让位，重点用短掩膜揭示",
+        "editing": "观点处直切，解释收完再回人，不按句子机械换场",
+        "references": [
+          "modulify",
+          "reelfolio"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A26",
+      "key": "everyday-story",
+      "name": "生活场景叙事",
+      "choreography": {
+        "id": "C01",
+        "key": "speaker",
+        "name": "人物留白",
+        "intent": "人物承担判断，重点贴近目光，解释只在需要时接管画面。",
+        "states": "人物在场 → 侧边论点 → 回到人物",
+        "motion": "近景与圆窗间连续让位，重点用短掩膜揭示",
+        "editing": "观点处直切，解释收完再回人，不按句子机械换场",
+        "references": [
+          "modulify",
+          "reelfolio"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A27",
+      "key": "spotlight-stage",
+      "name": "舞台聚光",
+      "choreography": {
+        "id": "C01",
+        "key": "speaker",
+        "name": "人物留白",
+        "intent": "人物承担判断，重点贴近目光，解释只在需要时接管画面。",
+        "states": "人物在场 → 侧边论点 → 回到人物",
+        "motion": "近景与圆窗间连续让位，重点用短掩膜揭示",
+        "editing": "观点处直切，解释收完再回人，不按句子机械换场",
+        "references": [
+          "modulify",
+          "reelfolio"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A28",
+      "key": "darkroom-prints",
+      "name": "黑白暗房",
+      "choreography": {
+        "id": "C07",
+        "key": "gallery",
+        "name": "画廊取景",
+        "intent": "图片获得足够面积；主图与备选画面共享一条连续展示轨道。",
+        "states": "完整主图 → 横向接续 → 局部与图注",
+        "motion": "轨道先移动再停稳，活动框与图注共同切换",
+        "editing": "全貌到细节再回人物；解释图不冒充真实凭证",
+        "references": [
+          "reelfolio",
+          "modulify"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A29",
+      "key": "newspaper",
+      "name": "新闻报纸",
+      "choreography": {
+        "id": "C02",
+        "key": "editorial",
+        "name": "编辑双栏",
+        "intent": "窄栏放判断，宽栏放图像；文字与图片共享跨段落的对齐轴。",
+        "states": "页边判断 → 大图与批注 → 跨栏结论",
+        "motion": "标题沿基线换词，图注滞后出现，版心保持稳定",
+        "editing": "按完整论点翻到下一版，保留栏线作共同锚点",
+        "references": [
+          "modulify",
+          "inspora"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A30",
+      "key": "archive-dossier",
+      "name": "档案卷宗",
+      "choreography": {
+        "id": "C09",
+        "key": "archive",
+        "name": "档案索引",
+        "intent": "左侧索引保持，右侧材料展开；编号只是位置索引，不伪造档案事实。",
+        "states": "索引 → 材料页 → 摘录判断",
+        "motion": "材料页从同一入口抽出，摘录与对应句子对齐",
+        "editing": "按照材料与观点组织段落，共同页签接续",
+        "references": [
+          "modulify",
+          "inspora"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": true
+    },
+    {
+      "id": "A31",
+      "key": "photo-book",
+      "name": "摄影画册",
+      "choreography": {
+        "id": "C02",
+        "key": "editorial",
+        "name": "编辑双栏",
+        "intent": "窄栏放判断，宽栏放图像；文字与图片共享跨段落的对齐轴。",
+        "states": "页边判断 → 大图与批注 → 跨栏结论",
+        "motion": "标题沿基线换词，图注滞后出现，版心保持稳定",
+        "editing": "按完整论点翻到下一版，保留栏线作共同锚点",
+        "references": [
+          "modulify",
+          "inspora"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A32",
+      "key": "dictionary-entry",
+      "name": "字典辞条",
+      "choreography": {
+        "id": "C09",
+        "key": "archive",
+        "name": "档案索引",
+        "intent": "左侧索引保持，右侧材料展开；编号只是位置索引，不伪造档案事实。",
+        "states": "索引 → 材料页 → 摘录判断",
+        "motion": "材料页从同一入口抽出，摘录与对应句子对齐",
+        "editing": "按照材料与观点组织段落，共同页签接续",
+        "references": [
+          "modulify",
+          "inspora"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A33",
+      "key": "lab-notebook",
+      "name": "实验记录",
+      "choreography": {
+        "id": "C09",
+        "key": "archive",
+        "name": "档案索引",
+        "intent": "左侧索引保持，右侧材料展开；编号只是位置索引，不伪造档案事实。",
+        "states": "索引 → 材料页 → 摘录判断",
+        "motion": "材料页从同一入口抽出，摘录与对应句子对齐",
+        "editing": "按照材料与观点组织段落，共同页签接续",
+        "references": [
+          "modulify",
+          "inspora"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A34",
+      "key": "timeline-almanac",
+      "name": "时间轴年鉴",
+      "choreography": {
+        "id": "C09",
+        "key": "archive",
+        "name": "档案索引",
+        "intent": "左侧索引保持，右侧材料展开；编号只是位置索引，不伪造档案事实。",
+        "states": "索引 → 材料页 → 摘录判断",
+        "motion": "材料页从同一入口抽出，摘录与对应句子对齐",
+        "editing": "按照材料与观点组织段落，共同页签接续",
+        "references": [
+          "modulify",
+          "inspora"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A35",
+      "key": "swiss-grid",
+      "name": "瑞士网格",
+      "choreography": {
+        "id": "C02",
+        "key": "editorial",
+        "name": "编辑双栏",
+        "intent": "窄栏放判断，宽栏放图像；文字与图片共享跨段落的对齐轴。",
+        "states": "页边判断 → 大图与批注 → 跨栏结论",
+        "motion": "标题沿基线换词，图注滞后出现，版心保持稳定",
+        "editing": "按完整论点翻到下一版，保留栏线作共同锚点",
+        "references": [
+          "modulify",
+          "inspora"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A36",
+      "key": "constructivist",
+      "name": "构成主义",
+      "choreography": {
+        "id": "C03",
+        "key": "type",
+        "name": "巨字接力",
+        "intent": "关键词占据主画面，字与字的尺度和位置承担讲述，人物让出阅读中心。",
+        "states": "完整词组 → 两词对峙 → 一句结论",
+        "motion": "按词组掩膜接力，落下后停稳，放大不影响字幕",
+        "editing": "在语义重音处切表现文字；人声不另切、不开倍速",
+        "references": [
+          "prompt-motion",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A37",
+      "key": "art-deco",
+      "name": "装饰艺术",
+      "choreography": {
+        "id": "C02",
+        "key": "editorial",
+        "name": "编辑双栏",
+        "intent": "窄栏放判断，宽栏放图像；文字与图片共享跨段落的对齐轴。",
+        "states": "页边判断 → 大图与批注 → 跨栏结论",
+        "motion": "标题沿基线换词，图注滞后出现，版心保持稳定",
+        "editing": "按完整论点翻到下一版，保留栏线作共同锚点",
+        "references": [
+          "modulify",
+          "inspora"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A38",
+      "key": "art-nouveau",
+      "name": "新艺术曲线",
+      "choreography": {
+        "id": "C02",
+        "key": "editorial",
+        "name": "编辑双栏",
+        "intent": "窄栏放判断，宽栏放图像；文字与图片共享跨段落的对齐轴。",
+        "states": "页边判断 → 大图与批注 → 跨栏结论",
+        "motion": "标题沿基线换词，图注滞后出现，版心保持稳定",
+        "editing": "按完整论点翻到下一版，保留栏线作共同锚点",
+        "references": [
+          "modulify",
+          "inspora"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A39",
+      "key": "memphis",
+      "name": "孟菲斯几何",
+      "choreography": {
+        "id": "C03",
+        "key": "type",
+        "name": "巨字接力",
+        "intent": "关键词占据主画面，字与字的尺度和位置承担讲述，人物让出阅读中心。",
+        "states": "完整词组 → 两词对峙 → 一句结论",
+        "motion": "按词组掩膜接力，落下后停稳，放大不影响字幕",
+        "editing": "在语义重音处切表现文字；人声不另切、不开倍速",
+        "references": [
+          "prompt-motion",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A40",
+      "key": "brutalist-type",
+      "name": "粗野排印",
+      "choreography": {
+        "id": "C03",
+        "key": "type",
+        "name": "巨字接力",
+        "intent": "关键词占据主画面，字与字的尺度和位置承担讲述，人物让出阅读中心。",
+        "states": "完整词组 → 两词对峙 → 一句结论",
+        "motion": "按词组掩膜接力，落下后停稳，放大不影响字幕",
+        "editing": "在语义重音处切表现文字；人声不另切、不开倍速",
+        "references": [
+          "prompt-motion",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A41",
+      "key": "optical-graphic",
+      "name": "动势错视",
+      "choreography": {
+        "id": "C03",
+        "key": "type",
+        "name": "巨字接力",
+        "intent": "关键词占据主画面，字与字的尺度和位置承担讲述，人物让出阅读中心。",
+        "states": "完整词组 → 两词对峙 → 一句结论",
+        "motion": "按词组掩膜接力，落下后停稳，放大不影响字幕",
+        "editing": "在语义重音处切表现文字；人声不另切、不开倍速",
+        "references": [
+          "prompt-motion",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A42",
+      "key": "negative-space",
+      "name": "负空间图形",
+      "choreography": {
+        "id": "C01",
+        "key": "speaker",
+        "name": "人物留白",
+        "intent": "人物承担判断，重点贴近目光，解释只在需要时接管画面。",
+        "states": "人物在场 → 侧边论点 → 回到人物",
+        "motion": "近景与圆窗间连续让位，重点用短掩膜揭示",
+        "editing": "观点处直切，解释收完再回人，不按句子机械换场",
+        "references": [
+          "modulify",
+          "reelfolio"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A43",
+      "key": "pencil-sketch",
+      "name": "铅笔素描",
+      "choreography": {
+        "id": "C06",
+        "key": "derive",
+        "name": "推导画布",
+        "intent": "主张、依据和结果在同一张画布内建立对应，保留已读上下文。",
+        "states": "先给对象 → 建立联系 → 标出判断",
+        "motion": "连线在节点之后生长，重点框贴着真实字形",
+        "editing": "按推导完成程度推进；并列建议不连成因果",
+        "references": [
+          "60fps",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A44",
+      "key": "colored-pencil",
+      "name": "彩铅笔记",
+      "choreography": {
+        "id": "C06",
+        "key": "derive",
+        "name": "推导画布",
+        "intent": "主张、依据和结果在同一张画布内建立对应，保留已读上下文。",
+        "states": "先给对象 → 建立联系 → 标出判断",
+        "motion": "连线在节点之后生长，重点框贴着真实字形",
+        "editing": "按推导完成程度推进；并列建议不连成因果",
+        "references": [
+          "60fps",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A45",
+      "key": "charcoal",
+      "name": "炭笔擦绘",
+      "choreography": {
+        "id": "C06",
+        "key": "derive",
+        "name": "推导画布",
+        "intent": "主张、依据和结果在同一张画布内建立对应，保留已读上下文。",
+        "states": "先给对象 → 建立联系 → 标出判断",
+        "motion": "连线在节点之后生长，重点框贴着真实字形",
+        "editing": "按推导完成程度推进；并列建议不连成因果",
+        "references": [
+          "60fps",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A46",
+      "key": "pen-hatching",
+      "name": "钢笔排线",
+      "choreography": {
+        "id": "C06",
+        "key": "derive",
+        "name": "推导画布",
+        "intent": "主张、依据和结果在同一张画布内建立对应，保留已读上下文。",
+        "states": "先给对象 → 建立联系 → 标出判断",
+        "motion": "连线在节点之后生长，重点框贴着真实字形",
+        "editing": "按推导完成程度推进；并列建议不连成因果",
+        "references": [
+          "60fps",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A47",
+      "key": "wax-crayon",
+      "name": "蜡笔涂绘",
+      "choreography": {
+        "id": "C06",
+        "key": "derive",
+        "name": "推导画布",
+        "intent": "主张、依据和结果在同一张画布内建立对应，保留已读上下文。",
+        "states": "先给对象 → 建立联系 → 标出判断",
+        "motion": "连线在节点之后生长，重点框贴着真实字形",
+        "editing": "按推导完成程度推进；并列建议不连成因果",
+        "references": [
+          "60fps",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A48",
+      "key": "soft-pastel",
+      "name": "粉彩晕染",
+      "choreography": {
+        "id": "C06",
+        "key": "derive",
+        "name": "推导画布",
+        "intent": "主张、依据和结果在同一张画布内建立对应，保留已读上下文。",
+        "states": "先给对象 → 建立联系 → 标出判断",
+        "motion": "连线在节点之后生长，重点框贴着真实字形",
+        "editing": "按推导完成程度推进；并列建议不连成因果",
+        "references": [
+          "60fps",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A49",
+      "key": "marker-sketch",
+      "name": "记号笔速写",
+      "choreography": {
+        "id": "C06",
+        "key": "derive",
+        "name": "推导画布",
+        "intent": "主张、依据和结果在同一张画布内建立对应，保留已读上下文。",
+        "states": "先给对象 → 建立联系 → 标出判断",
+        "motion": "连线在节点之后生长，重点框贴着真实字形",
+        "editing": "按推导完成程度推进；并列建议不连成因果",
+        "references": [
+          "60fps",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A50",
+      "key": "brush-lettering",
+      "name": "刷笔字形",
+      "choreography": {
+        "id": "C03",
+        "key": "type",
+        "name": "巨字接力",
+        "intent": "关键词占据主画面，字与字的尺度和位置承担讲述，人物让出阅读中心。",
+        "states": "完整词组 → 两词对峙 → 一句结论",
+        "motion": "按词组掩膜接力，落下后停稳，放大不影响字幕",
+        "editing": "在语义重音处切表现文字；人声不另切、不开倍速",
+        "references": [
+          "prompt-motion",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A51",
+      "key": "picture-book",
+      "name": "儿童绘本",
+      "choreography": {
+        "id": "C04",
+        "key": "route",
+        "name": "纵向叙事",
+        "intent": "问题、行为和后果沿纵轴展开，读过的部分留下位置记忆。",
+        "states": "上方问题 → 路径中段 → 下方结论",
+        "motion": "路径先建立，再按人声显现节点，视线沿纵向下移",
+        "editing": "在同一叙事空间里推进；转折保留一个停稳窗口",
+        "references": [
+          "60fps",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A52",
+      "key": "natural-history",
+      "name": "科学博物插画",
+      "choreography": {
+        "id": "C04",
+        "key": "route",
+        "name": "纵向叙事",
+        "intent": "问题、行为和后果沿纵轴展开，读过的部分留下位置记忆。",
+        "states": "上方问题 → 路径中段 → 下方结论",
+        "motion": "路径先建立，再按人声显现节点，视线沿纵向下移",
+        "editing": "在同一叙事空间里推进；转折保留一个停稳窗口",
+        "references": [
+          "60fps",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A53",
+      "key": "isometric-city",
+      "name": "等距城市插画",
+      "choreography": {
+        "id": "C08",
+        "key": "stage",
+        "name": "空间舞台",
+        "intent": "材料物件有前后层次，正文在稳定平面，人物独立于场景镜头。",
+        "states": "总览陈列 → 侧转展示 → 正面结论",
+        "motion": "物件绕自身轴转动，读字时相机与标签停稳",
+        "editing": "边缘侧转处换图解，下一镜保持空间轴线",
+        "references": [
+          "theatre",
+          "reelfolio"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A54",
+      "key": "faceted-vector",
+      "name": "低多边形平涂",
+      "choreography": {
+        "id": "C12",
+        "key": "radial",
+        "name": "放射结构",
+        "intent": "中心只有一个主张，周围是并列的选择或维度，层级靠距离建立。",
+        "states": "中心判断 → 两侧维度 → 收回中心",
+        "motion": "分支按序展开，局部强调后回到完整关系",
+        "editing": "共同中心保持，分支轮换而非每条重建全图",
+        "references": [
+          "theatre",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A55",
+      "key": "editorial-metaphor",
+      "name": "讽刺社论插画",
+      "choreography": {
+        "id": "C04",
+        "key": "route",
+        "name": "纵向叙事",
+        "intent": "问题、行为和后果沿纵轴展开，读过的部分留下位置记忆。",
+        "states": "上方问题 → 路径中段 → 下方结论",
+        "motion": "路径先建立，再按人声显现节点，视线沿纵向下移",
+        "editing": "在同一叙事空间里推进；转折保留一个停稳窗口",
+        "references": [
+          "60fps",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A56",
+      "key": "silhouette-fable",
+      "name": "剪影寓言",
+      "choreography": {
+        "id": "C01",
+        "key": "speaker",
+        "name": "人物留白",
+        "intent": "人物承担判断，重点贴近目光，解释只在需要时接管画面。",
+        "states": "人物在场 → 侧边论点 → 回到人物",
+        "motion": "近景与圆窗间连续让位，重点用短掩膜揭示",
+        "editing": "观点处直切，解释收完再回人，不按句子机械换场",
+        "references": [
+          "modulify",
+          "reelfolio"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A57",
+      "key": "illustrated-map",
+      "name": "地图旅行插画",
+      "choreography": {
+        "id": "C04",
+        "key": "route",
+        "name": "纵向叙事",
+        "intent": "问题、行为和后果沿纵轴展开，读过的部分留下位置记忆。",
+        "states": "上方问题 → 路径中段 → 下方结论",
+        "motion": "路径先建立，再按人声显现节点，视线沿纵向下移",
+        "editing": "在同一叙事空间里推进；转折保留一个停稳窗口",
+        "references": [
+          "60fps",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A58",
+      "key": "origami",
+      "name": "折纸结构",
+      "choreography": {
+        "id": "C05",
+        "key": "stack",
+        "name": "卡片展列",
+        "intent": "同一组信息由重叠变为并列，让观众看见原本被藏住的关系。",
+        "states": "叠放概览 → 两张展开 → 归纳列表",
+        "motion": "卡片边缘分离后错峰展列，文字在落稳后揭示",
+        "editing": "用同一卡片换层级，不能用三张无关图假装同一物体",
+        "references": [
+          "60fps",
+          "reelfolio"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": true
+    },
+    {
+      "id": "A59",
+      "key": "pop-up-book",
+      "name": "立体书机关",
+      "choreography": {
+        "id": "C05",
+        "key": "stack",
+        "name": "卡片展列",
+        "intent": "同一组信息由重叠变为并列，让观众看见原本被藏住的关系。",
+        "states": "叠放概览 → 两张展开 → 归纳列表",
+        "motion": "卡片边缘分离后错峰展列，文字在落稳后揭示",
+        "editing": "用同一卡片换层级，不能用三张无关图假装同一物体",
+        "references": [
+          "60fps",
+          "reelfolio"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A60",
+      "key": "corrugated-model",
+      "name": "瓦楞纸模型",
+      "choreography": {
+        "id": "C05",
+        "key": "stack",
+        "name": "卡片展列",
+        "intent": "同一组信息由重叠变为并列，让观众看见原本被藏住的关系。",
+        "states": "叠放概览 → 两张展开 → 归纳列表",
+        "motion": "卡片边缘分离后错峰展列，文字在落稳后揭示",
+        "editing": "用同一卡片换层级，不能用三张无关图假装同一物体",
+        "references": [
+          "60fps",
+          "reelfolio"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A61",
+      "key": "torn-paper",
+      "name": "撕纸肌理",
+      "choreography": {
+        "id": "C05",
+        "key": "stack",
+        "name": "卡片展列",
+        "intent": "同一组信息由重叠变为并列，让观众看见原本被藏住的关系。",
+        "states": "叠放概览 → 两张展开 → 归纳列表",
+        "motion": "卡片边缘分离后错峰展列，文字在落稳后揭示",
+        "editing": "用同一卡片换层级，不能用三张无关图假装同一物体",
+        "references": [
+          "60fps",
+          "reelfolio"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A62",
+      "key": "felt-applique",
+      "name": "毛毡贴画",
+      "choreography": {
+        "id": "C11",
+        "key": "scroll",
+        "name": "长卷巡览",
+        "intent": "三条建议属于同一条展开的长卷，镜头只移向本句需要的位置。",
+        "states": "卷首 → 中段说明 → 卷末回望",
+        "motion": "卷面沿一个方向走，标题与字幕固定在独立层",
+        "editing": "用连续空间取代整页清空；句尾留停稳再巡览",
+        "references": [
+          "theatre",
+          "inspora"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A63",
+      "key": "embroidery",
+      "name": "刺绣针脚",
+      "choreography": {
+        "id": "C11",
+        "key": "scroll",
+        "name": "长卷巡览",
+        "intent": "三条建议属于同一条展开的长卷，镜头只移向本句需要的位置。",
+        "states": "卷首 → 中段说明 → 卷末回望",
+        "motion": "卷面沿一个方向走，标题与字幕固定在独立层",
+        "editing": "用连续空间取代整页清空；句尾留停稳再巡览",
+        "references": [
+          "theatre",
+          "inspora"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A64",
+      "key": "patchwork",
+      "name": "织物拼布",
+      "choreography": {
+        "id": "C05",
+        "key": "stack",
+        "name": "卡片展列",
+        "intent": "同一组信息由重叠变为并列，让观众看见原本被藏住的关系。",
+        "states": "叠放概览 → 两张展开 → 归纳列表",
+        "motion": "卡片边缘分离后错峰展列，文字在落稳后揭示",
+        "editing": "用同一卡片换层级，不能用三张无关图假装同一物体",
+        "references": [
+          "60fps",
+          "reelfolio"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A65",
+      "key": "knotted-cord",
+      "name": "线绳编结",
+      "choreography": {
+        "id": "C11",
+        "key": "scroll",
+        "name": "长卷巡览",
+        "intent": "三条建议属于同一条展开的长卷，镜头只移向本句需要的位置。",
+        "states": "卷首 → 中段说明 → 卷末回望",
+        "motion": "卷面沿一个方向走，标题与字幕固定在独立层",
+        "editing": "用连续空间取代整页清空；句尾留停稳再巡览",
+        "references": [
+          "theatre",
+          "inspora"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A66",
+      "key": "silk-layers",
+      "name": "绢纱叠层",
+      "choreography": {
+        "id": "C11",
+        "key": "scroll",
+        "name": "长卷巡览",
+        "intent": "三条建议属于同一条展开的长卷，镜头只移向本句需要的位置。",
+        "states": "卷首 → 中段说明 → 卷末回望",
+        "motion": "卷面沿一个方向走，标题与字幕固定在独立层",
+        "editing": "用连续空间取代整页清空；句尾留停稳再巡览",
+        "references": [
+          "theatre",
+          "inspora"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A67",
+      "key": "gongbi",
+      "name": "工笔设色",
+      "choreography": {
+        "id": "C09",
+        "key": "archive",
+        "name": "档案索引",
+        "intent": "左侧索引保持，右侧材料展开；编号只是位置索引，不伪造档案事实。",
+        "states": "索引 → 材料页 → 摘录判断",
+        "motion": "材料页从同一入口抽出，摘录与对应句子对齐",
+        "editing": "按照材料与观点组织段落，共同页签接续",
+        "references": [
+          "modulify",
+          "inspora"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A68",
+      "key": "blue-green-landscape",
+      "name": "青绿山水",
+      "choreography": {
+        "id": "C11",
+        "key": "scroll",
+        "name": "长卷巡览",
+        "intent": "三条建议属于同一条展开的长卷，镜头只移向本句需要的位置。",
+        "states": "卷首 → 中段说明 → 卷末回望",
+        "motion": "卷面沿一个方向走，标题与字幕固定在独立层",
+        "editing": "用连续空间取代整页清空；句尾留停稳再巡览",
+        "references": [
+          "theatre",
+          "inspora"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A69",
+      "key": "mural",
+      "name": "敦煌壁画",
+      "choreography": {
+        "id": "C11",
+        "key": "scroll",
+        "name": "长卷巡览",
+        "intent": "三条建议属于同一条展开的长卷，镜头只移向本句需要的位置。",
+        "states": "卷首 → 中段说明 → 卷末回望",
+        "motion": "卷面沿一个方向走，标题与字幕固定在独立层",
+        "editing": "用连续空间取代整页清空；句尾留停稳再巡览",
+        "references": [
+          "theatre",
+          "inspora"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A70",
+      "key": "folk-woodblock",
+      "name": "版刻年画",
+      "choreography": {
+        "id": "C03",
+        "key": "type",
+        "name": "巨字接力",
+        "intent": "关键词占据主画面，字与字的尺度和位置承担讲述，人物让出阅读中心。",
+        "states": "完整词组 → 两词对峙 → 一句结论",
+        "motion": "按词组掩膜接力，落下后停稳，放大不影响字幕",
+        "editing": "在语义重音处切表现文字；人声不另切、不开倍速",
+        "references": [
+          "prompt-motion",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A71",
+      "key": "porcelain-painting",
+      "name": "蓝白瓷绘",
+      "choreography": {
+        "id": "C02",
+        "key": "editorial",
+        "name": "编辑双栏",
+        "intent": "窄栏放判断，宽栏放图像；文字与图片共享跨段落的对齐轴。",
+        "states": "页边判断 → 大图与批注 → 跨栏结论",
+        "motion": "标题沿基线换词，图注滞后出现，版心保持稳定",
+        "editing": "按完整论点翻到下一版，保留栏线作共同锚点",
+        "references": [
+          "modulify",
+          "inspora"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A72",
+      "key": "seal-carving",
+      "name": "篆印朱文",
+      "choreography": {
+        "id": "C03",
+        "key": "type",
+        "name": "巨字接力",
+        "intent": "关键词占据主画面，字与字的尺度和位置承担讲述，人物让出阅读中心。",
+        "states": "完整词组 → 两词对峙 → 一句结论",
+        "motion": "按词组掩膜接力，落下后停稳，放大不影响字幕",
+        "editing": "在语义重音处切表现文字；人声不另切、不开倍速",
+        "references": [
+          "prompt-motion",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A73",
+      "key": "lacquer-gold",
+      "name": "漆绘描金",
+      "choreography": {
+        "id": "C09",
+        "key": "archive",
+        "name": "档案索引",
+        "intent": "左侧索引保持，右侧材料展开；编号只是位置索引，不伪造档案事实。",
+        "states": "索引 → 材料页 → 摘录判断",
+        "motion": "材料页从同一入口抽出，摘录与对应句子对齐",
+        "editing": "按照材料与观点组织段落，共同页签接续",
+        "references": [
+          "modulify",
+          "inspora"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A74",
+      "key": "watercolor",
+      "name": "水彩洇染",
+      "choreography": {
+        "id": "C07",
+        "key": "gallery",
+        "name": "画廊取景",
+        "intent": "图片获得足够面积；主图与备选画面共享一条连续展示轨道。",
+        "states": "完整主图 → 横向接续 → 局部与图注",
+        "motion": "轨道先移动再停稳，活动框与图注共同切换",
+        "editing": "全貌到细节再回人物；解释图不冒充真实凭证",
+        "references": [
+          "reelfolio",
+          "modulify"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A75",
+      "key": "impasto",
+      "name": "厚涂油彩",
+      "choreography": {
+        "id": "C07",
+        "key": "gallery",
+        "name": "画廊取景",
+        "intent": "图片获得足够面积；主图与备选画面共享一条连续展示轨道。",
+        "states": "完整主图 → 横向接续 → 局部与图注",
+        "motion": "轨道先移动再停稳，活动框与图注共同切换",
+        "editing": "全貌到细节再回人物；解释图不冒充真实凭证",
+        "references": [
+          "reelfolio",
+          "modulify"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A76",
+      "key": "woodcut",
+      "name": "木刻刀痕",
+      "choreography": {
+        "id": "C07",
+        "key": "gallery",
+        "name": "画廊取景",
+        "intent": "图片获得足够面积；主图与备选画面共享一条连续展示轨道。",
+        "states": "完整主图 → 横向接续 → 局部与图注",
+        "motion": "轨道先移动再停稳，活动框与图注共同切换",
+        "editing": "全貌到细节再回人物；解释图不冒充真实凭证",
+        "references": [
+          "reelfolio",
+          "modulify"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A77",
+      "key": "etching",
+      "name": "蚀刻铜版",
+      "choreography": {
+        "id": "C07",
+        "key": "gallery",
+        "name": "画廊取景",
+        "intent": "图片获得足够面积；主图与备选画面共享一条连续展示轨道。",
+        "states": "完整主图 → 横向接续 → 局部与图注",
+        "motion": "轨道先移动再停稳，活动框与图注共同切换",
+        "editing": "全貌到细节再回人物；解释图不冒充真实凭证",
+        "references": [
+          "reelfolio",
+          "modulify"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A78",
+      "key": "risograph",
+      "name": "孔版套印",
+      "choreography": {
+        "id": "C03",
+        "key": "type",
+        "name": "巨字接力",
+        "intent": "关键词占据主画面，字与字的尺度和位置承担讲述，人物让出阅读中心。",
+        "states": "完整词组 → 两词对峙 → 一句结论",
+        "motion": "按词组掩膜接力，落下后停稳，放大不影响字幕",
+        "editing": "在语义重音处切表现文字；人声不另切、不开倍速",
+        "references": [
+          "prompt-motion",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A79",
+      "key": "enamel-badge",
+      "name": "珐琅徽章",
+      "choreography": {
+        "id": "C02",
+        "key": "editorial",
+        "name": "编辑双栏",
+        "intent": "窄栏放判断，宽栏放图像；文字与图片共享跨段落的对齐轴。",
+        "states": "页边判断 → 大图与批注 → 跨栏结论",
+        "motion": "标题沿基线换词，图注滞后出现，版心保持稳定",
+        "editing": "按完整论点翻到下一版，保留栏线作共同锚点",
+        "references": [
+          "modulify",
+          "inspora"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A80",
+      "key": "cyanotype",
+      "name": "蓝晒图像",
+      "choreography": {
+        "id": "C04",
+        "key": "route",
+        "name": "纵向叙事",
+        "intent": "问题、行为和后果沿纵轴展开，读过的部分留下位置记忆。",
+        "states": "上方问题 → 路径中段 → 下方结论",
+        "motion": "路径先建立，再按人声显现节点，视线沿纵向下移",
+        "editing": "在同一叙事空间里推进；转折保留一个停稳窗口",
+        "references": [
+          "60fps",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A81",
+      "key": "foil-deboss",
+      "name": "烫金压凹",
+      "choreography": {
+        "id": "C02",
+        "key": "editorial",
+        "name": "编辑双栏",
+        "intent": "窄栏放判断，宽栏放图像；文字与图片共享跨段落的对齐轴。",
+        "states": "页边判断 → 大图与批注 → 跨栏结论",
+        "motion": "标题沿基线换词，图注滞后出现，版心保持稳定",
+        "editing": "按完整论点翻到下一版，保留栏线作共同锚点",
+        "references": [
+          "modulify",
+          "inspora"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A82",
+      "key": "mosaic",
+      "name": "马赛克拼片",
+      "choreography": {
+        "id": "C04",
+        "key": "route",
+        "name": "纵向叙事",
+        "intent": "问题、行为和后果沿纵轴展开，读过的部分留下位置记忆。",
+        "states": "上方问题 → 路径中段 → 下方结论",
+        "motion": "路径先建立，再按人声显现节点，视线沿纵向下移",
+        "editing": "在同一叙事空间里推进；转折保留一个停稳窗口",
+        "references": [
+          "60fps",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A83",
+      "key": "stained-glass",
+      "name": "彩绘玻璃",
+      "choreography": {
+        "id": "C04",
+        "key": "route",
+        "name": "纵向叙事",
+        "intent": "问题、行为和后果沿纵轴展开，读过的部分留下位置记忆。",
+        "states": "上方问题 → 路径中段 → 下方结论",
+        "motion": "路径先建立，再按人声显现节点，视线沿纵向下移",
+        "editing": "在同一叙事空间里推进；转折保留一个停稳窗口",
+        "references": [
+          "60fps",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A84",
+      "key": "sandstone-relief",
+      "name": "砂岩浮雕",
+      "choreography": {
+        "id": "C09",
+        "key": "archive",
+        "name": "档案索引",
+        "intent": "左侧索引保持，右侧材料展开；编号只是位置索引，不伪造档案事实。",
+        "states": "索引 → 材料页 → 摘录判断",
+        "motion": "材料页从同一入口抽出，摘录与对应句子对齐",
+        "editing": "按照材料与观点组织段落，共同页签接续",
+        "references": [
+          "modulify",
+          "inspora"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A85",
+      "key": "chased-metal",
+      "name": "金属錾刻",
+      "choreography": {
+        "id": "C09",
+        "key": "archive",
+        "name": "档案索引",
+        "intent": "左侧索引保持，右侧材料展开；编号只是位置索引，不伪造档案事实。",
+        "states": "索引 → 材料页 → 摘录判断",
+        "motion": "材料页从同一入口抽出，摘录与对应句子对齐",
+        "editing": "按照材料与观点组织段落，共同页签接续",
+        "references": [
+          "modulify",
+          "inspora"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A86",
+      "key": "miniature-puppet",
+      "name": "微缩木偶",
+      "choreography": {
+        "id": "C08",
+        "key": "stage",
+        "name": "空间舞台",
+        "intent": "材料物件有前后层次，正文在稳定平面，人物独立于场景镜头。",
+        "states": "总览陈列 → 侧转展示 → 正面结论",
+        "motion": "物件绕自身轴转动，读字时相机与标签停稳",
+        "editing": "边缘侧转处换图解，下一镜保持空间轴线",
+        "references": [
+          "theatre",
+          "reelfolio"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A87",
+      "key": "building-blocks",
+      "name": "硬质积木",
+      "choreography": {
+        "id": "C05",
+        "key": "stack",
+        "name": "卡片展列",
+        "intent": "同一组信息由重叠变为并列，让观众看见原本被藏住的关系。",
+        "states": "叠放概览 → 两张展开 → 归纳列表",
+        "motion": "卡片边缘分离后错峰展列，文字在落稳后揭示",
+        "editing": "用同一卡片换层级，不能用三张无关图假装同一物体",
+        "references": [
+          "60fps",
+          "reelfolio"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A88",
+      "key": "optical-glass",
+      "name": "透明玻璃",
+      "choreography": {
+        "id": "C08",
+        "key": "stage",
+        "name": "空间舞台",
+        "intent": "材料物件有前后层次，正文在稳定平面，人物独立于场景镜头。",
+        "states": "总览陈列 → 侧转展示 → 正面结论",
+        "motion": "物件绕自身轴转动，读字时相机与标签停稳",
+        "editing": "边缘侧转处换图解，下一镜保持空间轴线",
+        "references": [
+          "theatre",
+          "reelfolio"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A89",
+      "key": "ceramic-objects",
+      "name": "陶瓷物件",
+      "choreography": {
+        "id": "C08",
+        "key": "stage",
+        "name": "空间舞台",
+        "intent": "材料物件有前后层次，正文在稳定平面，人物独立于场景镜头。",
+        "states": "总览陈列 → 侧转展示 → 正面结论",
+        "motion": "物件绕自身轴转动，读字时相机与标签停稳",
+        "editing": "边缘侧转处换图解，下一镜保持空间轴线",
+        "references": [
+          "theatre",
+          "reelfolio"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A90",
+      "key": "liquid-chrome",
+      "name": "镀铬液态",
+      "choreography": {
+        "id": "C08",
+        "key": "stage",
+        "name": "空间舞台",
+        "intent": "材料物件有前后层次，正文在稳定平面，人物独立于场景镜头。",
+        "states": "总览陈列 → 侧转展示 → 正面结论",
+        "motion": "物件绕自身轴转动，读字时相机与标签停稳",
+        "editing": "边缘侧转处换图解，下一镜保持空间轴线",
+        "references": [
+          "theatre",
+          "reelfolio"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A91",
+      "key": "isometric-maquette",
+      "name": "等距白模",
+      "choreography": {
+        "id": "C08",
+        "key": "stage",
+        "name": "空间舞台",
+        "intent": "材料物件有前后层次，正文在稳定平面，人物独立于场景镜头。",
+        "states": "总览陈列 → 侧转展示 → 正面结论",
+        "motion": "物件绕自身轴转动，读字时相机与标签停稳",
+        "editing": "边缘侧转处换图解，下一镜保持空间轴线",
+        "references": [
+          "theatre",
+          "reelfolio"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A92",
+      "key": "inflatable-sculpture",
+      "name": "充气软雕",
+      "choreography": {
+        "id": "C05",
+        "key": "stack",
+        "name": "卡片展列",
+        "intent": "同一组信息由重叠变为并列，让观众看见原本被藏住的关系。",
+        "states": "叠放概览 → 两张展开 → 归纳列表",
+        "motion": "卡片边缘分离后错峰展列，文字在落稳后揭示",
+        "editing": "用同一卡片换层级，不能用三张无关图假装同一物体",
+        "references": [
+          "60fps",
+          "reelfolio"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A93",
+      "key": "viscous-gel",
+      "name": "流体凝胶",
+      "choreography": {
+        "id": "C08",
+        "key": "stage",
+        "name": "空间舞台",
+        "intent": "材料物件有前后层次，正文在稳定平面，人物独立于场景镜头。",
+        "states": "总览陈列 → 侧转展示 → 正面结论",
+        "motion": "物件绕自身轴转动，读字时相机与标签停稳",
+        "editing": "边缘侧转处换图解，下一镜保持空间轴线",
+        "references": [
+          "theatre",
+          "reelfolio"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A94",
+      "key": "mechanical-cutaway",
+      "name": "机械剖面",
+      "choreography": {
+        "id": "C12",
+        "key": "radial",
+        "name": "放射结构",
+        "intent": "中心只有一个主张，周围是并列的选择或维度，层级靠距离建立。",
+        "states": "中心判断 → 两侧维度 → 收回中心",
+        "motion": "分支按序展开，局部强调后回到完整关系",
+        "editing": "共同中心保持，分支轮换而非每条重建全图",
+        "references": [
+          "theatre",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A95",
+      "key": "terminal-ascii",
+      "name": "终端字符",
+      "choreography": {
+        "id": "C10",
+        "key": "interface",
+        "name": "界面状态",
+        "intent": "同一解释面板在总览、对照、风险提示之间变换，状态有可见结果。",
+        "states": "概览 → 分清选择 → 风险提示",
+        "motion": "活动指示条伸缩交接，面板先变形再换内容",
+        "editing": "状态变化承担转场；不虚构按钮操作与真实理财数据",
+        "references": [
+          "60fps",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A96",
+      "key": "vector-oscilloscope",
+      "name": "矢量示波",
+      "choreography": {
+        "id": "C12",
+        "key": "radial",
+        "name": "放射结构",
+        "intent": "中心只有一个主张，周围是并列的选择或维度，层级靠距离建立。",
+        "states": "中心判断 → 两侧维度 → 收回中心",
+        "motion": "分支按序展开，局部强调后回到完整关系",
+        "editing": "共同中心保持，分支轮换而非每条重建全图",
+        "references": [
+          "theatre",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A97",
+      "key": "led-dot-matrix",
+      "name": "低帧点阵",
+      "choreography": {
+        "id": "C10",
+        "key": "interface",
+        "name": "界面状态",
+        "intent": "同一解释面板在总览、对照、风险提示之间变换，状态有可见结果。",
+        "states": "概览 → 分清选择 → 风险提示",
+        "motion": "活动指示条伸缩交接，面板先变形再换内容",
+        "editing": "状态变化承担转场；不虚构按钮操作与真实理财数据",
+        "references": [
+          "60fps",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A98",
+      "key": "early-desktop",
+      "name": "早期桌面",
+      "choreography": {
+        "id": "C10",
+        "key": "interface",
+        "name": "界面状态",
+        "intent": "同一解释面板在总览、对照、风险提示之间变换，状态有可见结果。",
+        "states": "概览 → 分清选择 → 风险提示",
+        "motion": "活动指示条伸缩交接，面板先变形再换内容",
+        "editing": "状态变化承担转场；不虚构按钮操作与真实理财数据",
+        "references": [
+          "60fps",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A99",
+      "key": "spatial-pointcloud",
+      "name": "空间点云",
+      "choreography": {
+        "id": "C12",
+        "key": "radial",
+        "name": "放射结构",
+        "intent": "中心只有一个主张，周围是并列的选择或维度，层级靠距离建立。",
+        "states": "中心判断 → 两侧维度 → 收回中心",
+        "motion": "分支按序展开，局部强调后回到完整关系",
+        "editing": "共同中心保持，分支轮换而非每条重建全图",
+        "references": [
+          "theatre",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    },
+    {
+      "id": "A100",
+      "key": "holographic-volume",
+      "name": "全息投影",
+      "choreography": {
+        "id": "C12",
+        "key": "radial",
+        "name": "放射结构",
+        "intent": "中心只有一个主张，周围是并列的选择或维度，层级靠距离建立。",
+        "states": "中心判断 → 两侧维度 → 收回中心",
+        "motion": "分支按序展开，局部强调后回到完整关系",
+        "editing": "共同中心保持，分支轮换而非每条重建全图",
+        "references": [
+          "theatre",
+          "opus"
+        ]
+      },
+      "directorVersion": "2.0-research",
+      "fullFilmRepresentative": false
+    }
+  ],
+  "fullFilmCount": 12
+}

@@ -1,0 +1,110 @@
+{
+  "exitCode": 0,
+  "htmlSha256": "a255a6b965ef92f1714cebe89cac5d737eb3a80fc8f484f3d3f02a6cfa36930c",
+  "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+  "motionAssertionsSha256": "e669abf848c43098f86b1d32f0ce5c07057d46d95b5e14cbbd744ae05456c570",
+  "result": {
+    "ok": true,
+    "strict": false,
+    "browserSkipped": false,
+    "lint": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 0,
+      "infoCount": 0,
+      "findings": [],
+      "filesScanned": 1
+    },
+    "runtime": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 0,
+      "infoCount": 0,
+      "findings": []
+    },
+    "layout": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 0,
+      "infoCount": 0,
+      "findings": [],
+      "duration": 36.666666666666664,
+      "samples": [
+        2.037,
+        6.111,
+        10.185,
+        14.259,
+        18.333,
+        22.407,
+        26.481,
+        30.556,
+        34.63
+      ],
+      "transitionSamples": [],
+      "transitionSamplesDropped": 0,
+      "tolerance": 2,
+      "totalIssueCount": 0,
+      "truncated": false
+    },
+    "motion": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 0,
+      "infoCount": 0,
+      "findings": [],
+      "enabled": true,
+      "specPath": "/Users/maoyu/个人项目/客户/插件/test/编排差异化研究_20261020/full-cycle-v2/variants/precision/index.motion.json",
+      "samples": 300
+    },
+    "contrast": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 0,
+      "infoCount": 0,
+      "findings": [],
+      "enabled": true,
+      "samples": [
+        2.037,
+        10.185,
+        18.333,
+        26.481,
+        34.63
+      ],
+      "checked": 54,
+      "passed": 54
+    },
+    "hdr": {
+      "autoPromotion": null,
+      "inspection": "available"
+    },
+    "snapshots": {
+      "enabled": true,
+      "files": [
+        ".hyperframes/artifacts/snapshots/a54d669e-4488-45fb-8bea-36e7c6a02f81/frame-00-at-2.0s.png",
+        ".hyperframes/artifacts/snapshots/a54d669e-4488-45fb-8bea-36e7c6a02f81/frame-01-at-10.2s.png",
+        ".hyperframes/artifacts/snapshots/a54d669e-4488-45fb-8bea-36e7c6a02f81/frame-02-at-18.3s.png",
+        ".hyperframes/artifacts/snapshots/a54d669e-4488-45fb-8bea-36e7c6a02f81/frame-03-at-26.5s.png",
+        ".hyperframes/artifacts/snapshots/a54d669e-4488-45fb-8bea-36e7c6a02f81/frame-04-at-34.6s.png"
+      ],
+      "times": [
+        2.037,
+        10.185,
+        18.333,
+        26.481,
+        34.63
+      ],
+      "findingFiles": []
+    },
+    "saved": {
+      "id": "212d1ee2-ca04-43db-a545-5c368a882a54",
+      "revision": "aedd3a5c-88eb-4af4-9abf-ccc17e061deb",
+      "report": "/Users/maoyu/个人项目/客户/插件/test/编排差异化研究_20261020/full-cycle-v2/variants/precision/.hyperframes/artifacts/checks/212d1ee2-ca04-43db-a545-5c368a882a54.json",
+      "attribution": "recorded-revision"
+    },
+    "_meta": {
+      "version": "0.8.174",
+      "latestVersion": "0.8.180",
+      "updateAvailable": true
+    }
+  }
+}

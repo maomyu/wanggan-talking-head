@@ -1,0 +1,56 @@
+{
+  "module": "talking-head-layout",
+  "caption": {
+    "x": 64,
+    "y": 1600,
+    "width": 952,
+    "size": 60
+  },
+  "portrait": {
+    "sourceCrop": [
+      0,
+      180,
+      1080,
+      1080
+    ],
+    "derivativeSize": 840,
+    "colorTreatment": "none",
+    "baseBox": [
+      120,
+      550,
+      840,
+      840
+    ],
+    "rightCircle": [
+      716,
+      1255,
+      300,
+      300
+    ],
+    "leftCircle": [
+      64,
+      1255,
+      300,
+      300
+    ]
+  },
+  "compositionStudy": {
+    "system": "C01",
+    "key": "speaker",
+    "intent": "人物承担判断，重点贴近目光，解释只在需要时接管画面。",
+    "spatial": "人物在场 → 侧边论点 → 回到人物",
+    "motion": "近景与圆窗间连续让位，重点用短掩膜揭示",
+    "visualEditing": "观点处直切，解释收完再回人，不按句子机械换场",
+    "sourceTimingUnchanged": true,
+    "revision": "v2-full-film",
+    "scope": "full1100-frame visual composition; original source voice unchanged",
+    "refinements": [
+      "complete hook",
+      "semantic line breaks",
+      "reading hierarchy",
+      "canonical material seek",
+      "no duplicated legacy labels",
+      "whole-film motion and transition QA"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "module": "talking-head-layout",
+  "caption": {
+    "x": 64,
+    "y": 1600,
+    "width": 952,
+    "size": 60
+  },
+  "portrait": {
+    "sourceCrop": [
+      0,
+      180,
+      1080,
+      1080
+    ],
+    "derivativeSize": 840,
+    "colorTreatment": "none",
+    "baseBox": [
+      120,
+      550,
+      840,
+      840
+    ],
+    "rightCircle": [
+      716,
+      1255,
+      300,
+      300
+    ],
+    "leftCircle": [
+      64,
+      1255,
+      300,
+      300
+    ]
+  },
+  "compositionStudy": {
+    "system": "C02",
+    "key": "editorial",
+    "intent": "窄栏放判断，宽栏放图像；文字与图片共享跨段落的对齐轴。",
+    "spatial": "页边判断 → 大图与批注 → 跨栏结论",
+    "motion": "标题沿基线换词，图注滞后出现，版心保持稳定",
+    "visualEditing": "按完整论点翻到下一版，保留栏线作共同锚点",
+    "sourceTimingUnchanged": true,
+    "revision": "v2-full-film",
+    "scope": "full1100-frame visual composition; original source voice unchanged",
+    "refinements": [
+      "complete hook",
+      "semantic line breaks",
+      "reading hierarchy",
+      "canonical material seek",
+      "no duplicated legacy labels",
+      "whole-film motion and transition QA"
+    ]
+  }
+}

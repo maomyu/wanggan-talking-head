@@ -1,0 +1,48 @@
+{
+  "module": "talking-head-layout",
+  "caption": {
+    "x": 64,
+    "y": 1600,
+    "width": 952,
+    "size": 60
+  },
+  "portrait": {
+    "sourceCrop": [
+      0,
+      180,
+      1080,
+      1080
+    ],
+    "derivativeSize": 840,
+    "colorTreatment": "none",
+    "baseBox": [
+      220,
+      585,
+      640,
+      640
+    ],
+    "rightCircle": [
+      716,
+      1255,
+      300,
+      300
+    ],
+    "leftCircle": [
+      64,
+      1255,
+      300,
+      300
+    ]
+  },
+  "compositionStudy": {
+    "system": "C04",
+    "key": "route",
+    "intent": "问题、行为和后果沿纵轴展开，读过的部分留下位置记忆。",
+    "spatial": "上方问题 → 路径中段 → 下方结论",
+    "motion": "路径先建立，再按人声显现节点，视线沿纵向下移",
+    "visualEditing": "在同一叙事空间里推进；转折保留一个停稳窗口",
+    "sourceTimingUnchanged": true,
+    "revision": "v2-native-remap",
+    "scope": "native study; full MP4 not claimed"
+  }
+}

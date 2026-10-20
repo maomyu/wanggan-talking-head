@@ -1,0 +1,25 @@
+{
+  "module": "talking-head-motion",
+  "travelSeconds": 0.55,
+  "anchors": {
+    "consume": 176,
+    "invest": 198,
+    "loss": 310,
+    "pressure": 349,
+    "want": 563,
+    "risk": 686,
+    "speculation": 783
+  },
+  "timing": "shared-edit-plan",
+  "compositionStudy": {
+    "system": "C08",
+    "key": "stage",
+    "intent": "材料物件有前后层次，正文在稳定平面，人物独立于场景镜头。",
+    "spatial": "总览陈列 → 侧转展示 → 正面结论",
+    "motion": "物件绕自身轴转动，读字时相机与标签停稳",
+    "visualEditing": "边缘侧转处换图解，下一镜保持空间轴线",
+    "sourceTimingUnchanged": true,
+    "revision": "v2-native-remap",
+    "scope": "native study; full MP4 not claimed"
+  }
+}

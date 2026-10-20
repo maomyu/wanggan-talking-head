@@ -1,0 +1,209 @@
+{
+  "id": "A53",
+  "key": "isometric-city",
+  "name": "等距城市插画",
+  "familyKey": "illustration",
+  "family": "插画与叙事",
+  "visualMechanism": "原创彩色等距街区以完整屋顶、两侧立面、窗与道路组织三节点；当前节点加重，其他位置退为背景",
+  "profiles": {
+    "layout": "L11",
+    "motion": "M01",
+    "editing": "E07",
+    "sound": "S01"
+  },
+  "suitableFor": [
+    "城市",
+    "系统"
+  ],
+  "status": "research-native-v2",
+  "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+  "humanTreatment": "original-color; circular-corners; raised-captions",
+  "sourceKind": "original-production-adaptation",
+  "references": [],
+  "assetDisclosure": "Original deterministic SVG explanatory geometry; presenter unchanged; no real financial or geographic data",
+  "preview": "previews/isometric-city.jpg",
+  "implementation": "templates/isometric-city/index.html",
+  "videoSha256": "31aacae2e81ed8443364e44fbbb44c51dea6b8d521bd29db21e4bef50d356dde",
+  "compatibleModules": [
+    "art-direction",
+    "layout",
+    "motion",
+    "editing"
+  ],
+  "personTreatment": "source-color; true-circle-in-corners",
+  "fontRoles": [
+    "NotoSansSC-700.woff",
+    "NotoSansSC-900.woff",
+    "NotoSerifSC-700.woff"
+  ],
+  "approvalBasis": "user-authorized-100-style-goal; production-verified",
+  "motionParameter": "data-person-travel",
+  "personTravelSeconds": 0.55,
+  "portraitBase": [
+    225,
+    580,
+    630,
+    630
+  ],
+  "v1Status": "verified-video",
+  "choreography": {
+    "id": "C08",
+    "key": "stage",
+    "name": "空间舞台",
+    "intent": "材料物件有前后层次，正文在稳定平面，人物独立于场景镜头。",
+    "states": "总览陈列 → 侧转展示 → 正面结论",
+    "motion": "物件绕自身轴转动，读字时相机与标签停稳",
+    "editing": "边缘侧转处换图解，下一镜保持空间轴线",
+    "references": [
+      "theatre",
+      "reelfolio"
+    ]
+  },
+  "variant": 2,
+  "newImplementation": "variants/isometric-city/index.html",
+  "adaptationReason": "原创彩色等距街区以完整屋顶、两侧立面、窗与道路组织三节点；当前节点加重，其他位置退为背景；用“空间舞台”改变人物、解释区和主阅读线的关系。",
+  "preserved": [
+    "人物原色",
+    "角落正圆窗",
+    "字幕top1600、60px",
+    "原声与21条字幕原文和时间",
+    "原画风材料与字体"
+  ],
+  "sceneContent": {
+    "hook": {
+      "a": "越努力上班",
+      "b": "越存不到钱？",
+      "context": "先从自己的选择看起",
+      "items": [
+        [
+          "跟风消费",
+          ""
+        ],
+        [
+          "盲目投资",
+          ""
+        ],
+        [
+          "负债前行",
+          ""
+        ]
+      ]
+    },
+    "chain": {
+      "a": "跟风的代价",
+      "b": "最后落在自己身上",
+      "context": "后果由自己承担",
+      "items": [
+        [
+          "跟风消费",
+          ""
+        ],
+        [
+          "盲目投资",
+          ""
+        ],
+        [
+          "本金受损",
+          ""
+        ]
+      ]
+    },
+    "overview": {
+      "a": "三个财经底线",
+      "b": "从自己的选择开始",
+      "context": "三项并列建议",
+      "items": [
+        [
+          "减少无效消费",
+          ""
+        ],
+        [
+          "守住本金",
+          ""
+        ],
+        [
+          "减少负债",
+          ""
+        ]
+      ]
+    },
+    "spend": {
+      "a": "分清楚",
+      "b": "想要和需要",
+      "context": "下单之前\n留一点判断的空间",
+      "items": [
+        [
+          "想要",
+          "一时喜欢"
+        ],
+        [
+          "需要",
+          "实际用途"
+        ],
+        [
+          "先分清楚",
+          "再决定买不买"
+        ]
+      ]
+    },
+    "risk": {
+      "a": "守住本金",
+      "b": "先看风险，再做选择",
+      "context": "夸大收益的说法\n暗藏风险",
+      "items": [
+        [
+          "夸大收益",
+          ""
+        ],
+        [
+          "暗藏风险",
+          ""
+        ],
+        [
+          "守住本金",
+          ""
+        ]
+      ]
+    },
+    "debt": {
+      "a": "减少负债",
+      "b": "把压力往回收",
+      "context": "第三条底线",
+      "items": [
+        [
+          "减少负债",
+          ""
+        ],
+        [
+          "",
+          ""
+        ],
+        [
+          "",
+          ""
+        ]
+      ]
+    },
+    "recap": {
+      "a": "不跟风，不浮躁",
+      "b": "回到自己的判断",
+      "context": "少冲动　守本金　减负债",
+      "items": [
+        [
+          "少冲动",
+          ""
+        ],
+        [
+          "守本金",
+          ""
+        ],
+        [
+          "减负债",
+          ""
+        ]
+      ]
+    }
+  },
+  "directorVersion": "2.0-research",
+  "canonicalMaterialSeek": true
+}

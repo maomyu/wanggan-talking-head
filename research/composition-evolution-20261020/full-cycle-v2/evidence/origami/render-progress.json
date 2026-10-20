@@ -1,0 +1,12 @@
+{
+  "status": "verified",
+  "elapsedSeconds": 321.2104148864746,
+  "videoSha256": "ee207b044b0ec4a2cbe6091839788f49dacc5f36bb5b4e06065ec0f46e9470cd",
+  "video": "variants/origami/outputs/final.mp4",
+  "binding": {
+    "htmlSha256": "fec84a4f10860823d6ef05dc5db650bcdbc30202b93acd8ceddfc01ea386bc1e",
+    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "motionAssertionsSha256": "e669abf848c43098f86b1d32f0ce5c07057d46d95b5e14cbbd744ae05456c570"
+  },
+  "verification": "qa/film-verification.json"
+}

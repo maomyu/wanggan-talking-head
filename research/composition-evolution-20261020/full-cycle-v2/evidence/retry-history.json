@@ -1,0 +1,260 @@
+[
+  {
+    "key": "origami",
+    "artifact": "variants/origami/.hyperframes/artifacts/checks/ce3325cc-7e07-4b53-a46d-652ccc4ee891.json",
+    "finding": "120-second HF check deadline under concurrent rendering; subsequent identical input check passed",
+    "originalReport": {
+      "ok": false,
+      "strict": false,
+      "browserSkipped": true,
+      "lint": {
+        "ok": true,
+        "errorCount": 0,
+        "warningCount": 0,
+        "infoCount": 0,
+        "findings": [],
+        "filesScanned": 1
+      },
+      "runtime": {
+        "ok": false,
+        "errorCount": 1,
+        "warningCount": 0,
+        "infoCount": 0,
+        "findings": [
+          {
+            "code": "check_runtime_failure",
+            "severity": "error",
+            "message": "Check did not finish within its deadline.",
+            "selector": "[data-composition-id]",
+            "dataAttributes": {},
+            "sourceFile": "index.html",
+            "bbox": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            },
+            "time": 0
+          }
+        ]
+      },
+      "layout": {
+        "ok": true,
+        "errorCount": 0,
+        "warningCount": 0,
+        "infoCount": 0,
+        "findings": [],
+        "duration": 0,
+        "samples": [],
+        "transitionSamples": [],
+        "transitionSamplesDropped": 0,
+        "tolerance": 2,
+        "totalIssueCount": 0,
+        "truncated": false
+      },
+      "motion": {
+        "ok": true,
+        "errorCount": 0,
+        "warningCount": 0,
+        "infoCount": 0,
+        "findings": [],
+        "enabled": true,
+        "specPath": "/Users/maoyu/个人项目/客户/插件/test/编排差异化研究_20261020/full-cycle-v2/variants/origami/index.motion.json",
+        "samples": 0
+      },
+      "contrast": {
+        "ok": true,
+        "errorCount": 0,
+        "warningCount": 0,
+        "infoCount": 0,
+        "findings": [],
+        "enabled": true,
+        "samples": [],
+        "checked": 0,
+        "passed": 0
+      },
+      "hdr": {
+        "autoPromotion": null,
+        "inspection": "available"
+      },
+      "snapshots": {
+        "enabled": true,
+        "files": [],
+        "times": [],
+        "findingFiles": []
+      }
+    }
+  },
+  {
+    "key": "blueprint",
+    "artifact": "variants/blueprint/.hyperframes/artifacts/checks/732d0676-2936-4e41-ad52-6f0367d5aac0.json",
+    "finding": "120-second HF check deadline under concurrent rendering; subsequent identical input check passed",
+    "originalReport": {
+      "ok": false,
+      "strict": false,
+      "browserSkipped": true,
+      "lint": {
+        "ok": true,
+        "errorCount": 0,
+        "warningCount": 0,
+        "infoCount": 0,
+        "findings": [],
+        "filesScanned": 1
+      },
+      "runtime": {
+        "ok": false,
+        "errorCount": 1,
+        "warningCount": 0,
+        "infoCount": 0,
+        "findings": [
+          {
+            "code": "check_runtime_failure",
+            "severity": "error",
+            "message": "Check did not finish within its deadline.",
+            "selector": "[data-composition-id]",
+            "dataAttributes": {},
+            "sourceFile": "index.html",
+            "bbox": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            },
+            "time": 0
+          }
+        ]
+      },
+      "layout": {
+        "ok": true,
+        "errorCount": 0,
+        "warningCount": 0,
+        "infoCount": 0,
+        "findings": [],
+        "duration": 0,
+        "samples": [],
+        "transitionSamples": [],
+        "transitionSamplesDropped": 0,
+        "tolerance": 2,
+        "totalIssueCount": 0,
+        "truncated": false
+      },
+      "motion": {
+        "ok": true,
+        "errorCount": 0,
+        "warningCount": 0,
+        "infoCount": 0,
+        "findings": [],
+        "enabled": true,
+        "specPath": "/Users/maoyu/个人项目/客户/插件/test/编排差异化研究_20261020/full-cycle-v2/variants/blueprint/index.motion.json",
+        "samples": 0
+      },
+      "contrast": {
+        "ok": true,
+        "errorCount": 0,
+        "warningCount": 0,
+        "infoCount": 0,
+        "findings": [],
+        "enabled": true,
+        "samples": [],
+        "checked": 0,
+        "passed": 0
+      },
+      "hdr": {
+        "autoPromotion": null,
+        "inspection": "available"
+      },
+      "snapshots": {
+        "enabled": true,
+        "files": [],
+        "times": [],
+        "findingFiles": []
+      }
+    }
+  },
+  {
+    "key": "clay",
+    "artifact": "variants/clay/.hyperframes/artifacts/checks/dc54666b-30c9-46b2-be90-3d4a1ce81526.json",
+    "finding": "120-second HF check deadline under concurrent rendering; subsequent identical input check passed",
+    "originalReport": {
+      "ok": false,
+      "strict": false,
+      "browserSkipped": true,
+      "lint": {
+        "ok": true,
+        "errorCount": 0,
+        "warningCount": 0,
+        "infoCount": 0,
+        "findings": [],
+        "filesScanned": 1
+      },
+      "runtime": {
+        "ok": false,
+        "errorCount": 1,
+        "warningCount": 0,
+        "infoCount": 0,
+        "findings": [
+          {
+            "code": "check_runtime_failure",
+            "severity": "error",
+            "message": "Check did not finish within its deadline.",
+            "selector": "[data-composition-id]",
+            "dataAttributes": {},
+            "sourceFile": "index.html",
+            "bbox": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            },
+            "time": 0
+          }
+        ]
+      },
+      "layout": {
+        "ok": true,
+        "errorCount": 0,
+        "warningCount": 0,
+        "infoCount": 0,
+        "findings": [],
+        "duration": 0,
+        "samples": [],
+        "transitionSamples": [],
+        "transitionSamplesDropped": 0,
+        "tolerance": 2,
+        "totalIssueCount": 0,
+        "truncated": false
+      },
+      "motion": {
+        "ok": true,
+        "errorCount": 0,
+        "warningCount": 0,
+        "infoCount": 0,
+        "findings": [],
+        "enabled": true,
+        "specPath": "/Users/maoyu/个人项目/客户/插件/test/编排差异化研究_20261020/full-cycle-v2/variants/clay/index.motion.json",
+        "samples": 0
+      },
+      "contrast": {
+        "ok": true,
+        "errorCount": 0,
+        "warningCount": 0,
+        "infoCount": 0,
+        "findings": [],
+        "enabled": true,
+        "samples": [],
+        "checked": 0,
+        "passed": 0
+      },
+      "hdr": {
+        "autoPromotion": null,
+        "inspection": "available"
+      },
+      "snapshots": {
+        "enabled": true,
+        "files": [],
+        "times": [],
+        "findingFiles": []
+      }
+    }
+  }
+]

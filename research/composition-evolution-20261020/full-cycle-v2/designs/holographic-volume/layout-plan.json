@@ -1,0 +1,48 @@
+{
+  "module": "talking-head-layout",
+  "caption": {
+    "x": 64,
+    "y": 1600,
+    "width": 952,
+    "size": 60
+  },
+  "portrait": {
+    "sourceCrop": [
+      0,
+      180,
+      1080,
+      1080
+    ],
+    "derivativeSize": 840,
+    "colorTreatment": "none",
+    "baseBox": [
+      225,
+      580,
+      630,
+      630
+    ],
+    "rightCircle": [
+      716,
+      1255,
+      300,
+      300
+    ],
+    "leftCircle": [
+      64,
+      1255,
+      300,
+      300
+    ]
+  },
+  "compositionStudy": {
+    "system": "C12",
+    "key": "radial",
+    "intent": "中心只有一个主张，周围是并列的选择或维度，层级靠距离建立。",
+    "spatial": "中心判断 → 两侧维度 → 收回中心",
+    "motion": "分支按序展开，局部强调后回到完整关系",
+    "visualEditing": "共同中心保持，分支轮换而非每条重建全图",
+    "sourceTimingUnchanged": true,
+    "revision": "v2-native-remap",
+    "scope": "native study; full MP4 not claimed"
+  }
+}

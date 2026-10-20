@@ -1,0 +1,25 @@
+{
+  "module": "talking-head-motion",
+  "travelSeconds": 0.55,
+  "anchors": {
+    "consume": 176,
+    "invest": 198,
+    "loss": 310,
+    "pressure": 349,
+    "want": 563,
+    "risk": 686,
+    "speculation": 783
+  },
+  "timing": "shared-edit-plan",
+  "compositionStudy": {
+    "system": "C01",
+    "key": "speaker",
+    "intent": "人物承担判断，重点贴近目光，解释只在需要时接管画面。",
+    "spatial": "人物在场 → 侧边论点 → 回到人物",
+    "motion": "近景与圆窗间连续让位，重点用短掩膜揭示",
+    "visualEditing": "观点处直切，解释收完再回人，不按句子机械换场",
+    "sourceTimingUnchanged": true,
+    "revision": "v2-native-remap",
+    "scope": "native study; full MP4 not claimed"
+  }
+}

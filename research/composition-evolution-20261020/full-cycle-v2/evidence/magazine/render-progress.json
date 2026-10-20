@@ -1,0 +1,12 @@
+{
+  "status": "verified",
+  "elapsedSeconds": 606.399740934372,
+  "videoSha256": "d66de1232a3743f500c9669765e364a10bb2c3c067328e3d6ba353958a713ccf",
+  "video": "variants/magazine/outputs/final.mp4",
+  "binding": {
+    "htmlSha256": "c3a226e21d2e757e79d1455ed36a446948a99c3828109408c8b8eaf73edb8c6e",
+    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "motionAssertionsSha256": "e669abf848c43098f86b1d32f0ce5c07057d46d95b5e14cbbd744ae05456c570"
+  },
+  "verification": "qa/film-verification.json"
+}

@@ -1,0 +1,1005 @@
+{
+  "schemaVersion": 1,
+  "styles": [
+    {
+      "id": "A01",
+      "key": "minimal",
+      "name": "写实极简",
+      "primarySystem": "C01",
+      "systemKey": "speaker",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": true,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A02",
+      "key": "paper",
+      "name": "纸本批注",
+      "primarySystem": "C02",
+      "systemKey": "editorial",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A03",
+      "key": "geometry",
+      "name": "几何印刷",
+      "primarySystem": "C03",
+      "systemKey": "type",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A04",
+      "key": "magazine",
+      "name": "杂志编辑",
+      "primarySystem": "C02",
+      "systemKey": "editorial",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": true,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A05",
+      "key": "collage",
+      "name": "剪贴拼贴",
+      "primarySystem": "C05",
+      "systemKey": "stack",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A06",
+      "key": "line",
+      "name": "单线手绘",
+      "primarySystem": "C06",
+      "systemKey": "derive",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A07",
+      "key": "illustration",
+      "name": "图形插画",
+      "primarySystem": "C08",
+      "systemKey": "stage",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A08",
+      "key": "precision",
+      "name": "精密界面",
+      "primarySystem": "C10",
+      "systemKey": "interface",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": true,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A09",
+      "key": "blueprint",
+      "name": "技术蓝图",
+      "primarySystem": "C06",
+      "systemKey": "derive",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": true,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A10",
+      "key": "halftone",
+      "name": "复古网点",
+      "primarySystem": "C07",
+      "systemKey": "gallery",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A11",
+      "key": "comic",
+      "name": "漫画描线",
+      "primarySystem": "C04",
+      "systemKey": "route",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": true,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A12",
+      "key": "film",
+      "name": "胶片影像",
+      "primarySystem": "C07",
+      "systemKey": "gallery",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": true,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A13",
+      "key": "ink",
+      "name": "水墨留白",
+      "primarySystem": "C11",
+      "systemKey": "scroll",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": true,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A14",
+      "key": "clay",
+      "name": "柔质立体",
+      "primarySystem": "C08",
+      "systemKey": "stage",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": true,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A15",
+      "key": "pixel",
+      "name": "像素复古",
+      "primarySystem": "C10",
+      "systemKey": "interface",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A16",
+      "key": "chalk",
+      "name": "黑板粉笔",
+      "primarySystem": "C06",
+      "systemKey": "derive",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A17",
+      "key": "paper-stage",
+      "name": "剪纸舞台",
+      "primarySystem": "C08",
+      "systemKey": "stage",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A18",
+      "key": "type-poster",
+      "name": "巨字海报",
+      "primarySystem": "C03",
+      "systemKey": "type",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": true,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A19",
+      "key": "cel",
+      "name": "赛璐璐",
+      "primarySystem": "C04",
+      "systemKey": "route",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A20",
+      "key": "sci-fi-wireframe",
+      "name": "科幻线框／硬表立体",
+      "primarySystem": "C12",
+      "systemKey": "radial",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": true,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A21",
+      "key": "documentary",
+      "name": "纪实现场",
+      "primarySystem": "C01",
+      "systemKey": "speaker",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A22",
+      "key": "tabletop-stilllife",
+      "name": "桌面静物",
+      "primarySystem": "C07",
+      "systemKey": "gallery",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A23",
+      "key": "macro-material",
+      "name": "微距材质",
+      "primarySystem": "C07",
+      "systemKey": "gallery",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A24",
+      "key": "overhead-workbench",
+      "name": "俯拍操作台",
+      "primarySystem": "C09",
+      "systemKey": "archive",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A25",
+      "key": "architectural-light",
+      "name": "建筑光影",
+      "primarySystem": "C01",
+      "systemKey": "speaker",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A26",
+      "key": "everyday-story",
+      "name": "生活场景叙事",
+      "primarySystem": "C01",
+      "systemKey": "speaker",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A27",
+      "key": "spotlight-stage",
+      "name": "舞台聚光",
+      "primarySystem": "C01",
+      "systemKey": "speaker",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A28",
+      "key": "darkroom-prints",
+      "name": "黑白暗房",
+      "primarySystem": "C07",
+      "systemKey": "gallery",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A29",
+      "key": "newspaper",
+      "name": "新闻报纸",
+      "primarySystem": "C02",
+      "systemKey": "editorial",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A30",
+      "key": "archive-dossier",
+      "name": "档案卷宗",
+      "primarySystem": "C09",
+      "systemKey": "archive",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": true,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A31",
+      "key": "photo-book",
+      "name": "摄影画册",
+      "primarySystem": "C02",
+      "systemKey": "editorial",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A32",
+      "key": "dictionary-entry",
+      "name": "字典辞条",
+      "primarySystem": "C09",
+      "systemKey": "archive",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A33",
+      "key": "lab-notebook",
+      "name": "实验记录",
+      "primarySystem": "C09",
+      "systemKey": "archive",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A34",
+      "key": "timeline-almanac",
+      "name": "时间轴年鉴",
+      "primarySystem": "C09",
+      "systemKey": "archive",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A35",
+      "key": "swiss-grid",
+      "name": "瑞士网格",
+      "primarySystem": "C02",
+      "systemKey": "editorial",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A36",
+      "key": "constructivist",
+      "name": "构成主义",
+      "primarySystem": "C03",
+      "systemKey": "type",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A37",
+      "key": "art-deco",
+      "name": "装饰艺术",
+      "primarySystem": "C02",
+      "systemKey": "editorial",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A38",
+      "key": "art-nouveau",
+      "name": "新艺术曲线",
+      "primarySystem": "C02",
+      "systemKey": "editorial",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A39",
+      "key": "memphis",
+      "name": "孟菲斯几何",
+      "primarySystem": "C03",
+      "systemKey": "type",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A40",
+      "key": "brutalist-type",
+      "name": "粗野排印",
+      "primarySystem": "C03",
+      "systemKey": "type",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A41",
+      "key": "optical-graphic",
+      "name": "动势错视",
+      "primarySystem": "C03",
+      "systemKey": "type",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A42",
+      "key": "negative-space",
+      "name": "负空间图形",
+      "primarySystem": "C01",
+      "systemKey": "speaker",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A43",
+      "key": "pencil-sketch",
+      "name": "铅笔素描",
+      "primarySystem": "C06",
+      "systemKey": "derive",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A44",
+      "key": "colored-pencil",
+      "name": "彩铅笔记",
+      "primarySystem": "C06",
+      "systemKey": "derive",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A45",
+      "key": "charcoal",
+      "name": "炭笔擦绘",
+      "primarySystem": "C06",
+      "systemKey": "derive",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A46",
+      "key": "pen-hatching",
+      "name": "钢笔排线",
+      "primarySystem": "C06",
+      "systemKey": "derive",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A47",
+      "key": "wax-crayon",
+      "name": "蜡笔涂绘",
+      "primarySystem": "C06",
+      "systemKey": "derive",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A48",
+      "key": "soft-pastel",
+      "name": "粉彩晕染",
+      "primarySystem": "C06",
+      "systemKey": "derive",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A49",
+      "key": "marker-sketch",
+      "name": "记号笔速写",
+      "primarySystem": "C06",
+      "systemKey": "derive",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A50",
+      "key": "brush-lettering",
+      "name": "刷笔字形",
+      "primarySystem": "C03",
+      "systemKey": "type",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A51",
+      "key": "picture-book",
+      "name": "儿童绘本",
+      "primarySystem": "C04",
+      "systemKey": "route",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A52",
+      "key": "natural-history",
+      "name": "科学博物插画",
+      "primarySystem": "C04",
+      "systemKey": "route",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A53",
+      "key": "isometric-city",
+      "name": "等距城市插画",
+      "primarySystem": "C08",
+      "systemKey": "stage",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A54",
+      "key": "faceted-vector",
+      "name": "低多边形平涂",
+      "primarySystem": "C12",
+      "systemKey": "radial",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A55",
+      "key": "editorial-metaphor",
+      "name": "讽刺社论插画",
+      "primarySystem": "C04",
+      "systemKey": "route",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A56",
+      "key": "silhouette-fable",
+      "name": "剪影寓言",
+      "primarySystem": "C01",
+      "systemKey": "speaker",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A57",
+      "key": "illustrated-map",
+      "name": "地图旅行插画",
+      "primarySystem": "C04",
+      "systemKey": "route",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A58",
+      "key": "origami",
+      "name": "折纸结构",
+      "primarySystem": "C05",
+      "systemKey": "stack",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": true,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A59",
+      "key": "pop-up-book",
+      "name": "立体书机关",
+      "primarySystem": "C05",
+      "systemKey": "stack",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A60",
+      "key": "corrugated-model",
+      "name": "瓦楞纸模型",
+      "primarySystem": "C05",
+      "systemKey": "stack",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A61",
+      "key": "torn-paper",
+      "name": "撕纸肌理",
+      "primarySystem": "C05",
+      "systemKey": "stack",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A62",
+      "key": "felt-applique",
+      "name": "毛毡贴画",
+      "primarySystem": "C11",
+      "systemKey": "scroll",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A63",
+      "key": "embroidery",
+      "name": "刺绣针脚",
+      "primarySystem": "C11",
+      "systemKey": "scroll",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A64",
+      "key": "patchwork",
+      "name": "织物拼布",
+      "primarySystem": "C05",
+      "systemKey": "stack",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A65",
+      "key": "knotted-cord",
+      "name": "线绳编结",
+      "primarySystem": "C11",
+      "systemKey": "scroll",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A66",
+      "key": "silk-layers",
+      "name": "绢纱叠层",
+      "primarySystem": "C11",
+      "systemKey": "scroll",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A67",
+      "key": "gongbi",
+      "name": "工笔设色",
+      "primarySystem": "C09",
+      "systemKey": "archive",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A68",
+      "key": "blue-green-landscape",
+      "name": "青绿山水",
+      "primarySystem": "C11",
+      "systemKey": "scroll",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A69",
+      "key": "mural",
+      "name": "敦煌壁画",
+      "primarySystem": "C11",
+      "systemKey": "scroll",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A70",
+      "key": "folk-woodblock",
+      "name": "版刻年画",
+      "primarySystem": "C03",
+      "systemKey": "type",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A71",
+      "key": "porcelain-painting",
+      "name": "蓝白瓷绘",
+      "primarySystem": "C02",
+      "systemKey": "editorial",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A72",
+      "key": "seal-carving",
+      "name": "篆印朱文",
+      "primarySystem": "C03",
+      "systemKey": "type",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A73",
+      "key": "lacquer-gold",
+      "name": "漆绘描金",
+      "primarySystem": "C09",
+      "systemKey": "archive",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A74",
+      "key": "watercolor",
+      "name": "水彩洇染",
+      "primarySystem": "C07",
+      "systemKey": "gallery",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A75",
+      "key": "impasto",
+      "name": "厚涂油彩",
+      "primarySystem": "C07",
+      "systemKey": "gallery",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A76",
+      "key": "woodcut",
+      "name": "木刻刀痕",
+      "primarySystem": "C07",
+      "systemKey": "gallery",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A77",
+      "key": "etching",
+      "name": "蚀刻铜版",
+      "primarySystem": "C07",
+      "systemKey": "gallery",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A78",
+      "key": "risograph",
+      "name": "孔版套印",
+      "primarySystem": "C03",
+      "systemKey": "type",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A79",
+      "key": "enamel-badge",
+      "name": "珐琅徽章",
+      "primarySystem": "C02",
+      "systemKey": "editorial",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A80",
+      "key": "cyanotype",
+      "name": "蓝晒图像",
+      "primarySystem": "C04",
+      "systemKey": "route",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A81",
+      "key": "foil-deboss",
+      "name": "烫金压凹",
+      "primarySystem": "C02",
+      "systemKey": "editorial",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A82",
+      "key": "mosaic",
+      "name": "马赛克拼片",
+      "primarySystem": "C04",
+      "systemKey": "route",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A83",
+      "key": "stained-glass",
+      "name": "彩绘玻璃",
+      "primarySystem": "C04",
+      "systemKey": "route",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A84",
+      "key": "sandstone-relief",
+      "name": "砂岩浮雕",
+      "primarySystem": "C09",
+      "systemKey": "archive",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A85",
+      "key": "chased-metal",
+      "name": "金属錾刻",
+      "primarySystem": "C09",
+      "systemKey": "archive",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A86",
+      "key": "miniature-puppet",
+      "name": "微缩木偶",
+      "primarySystem": "C08",
+      "systemKey": "stage",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A87",
+      "key": "building-blocks",
+      "name": "硬质积木",
+      "primarySystem": "C05",
+      "systemKey": "stack",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A88",
+      "key": "optical-glass",
+      "name": "透明玻璃",
+      "primarySystem": "C08",
+      "systemKey": "stage",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A89",
+      "key": "ceramic-objects",
+      "name": "陶瓷物件",
+      "primarySystem": "C08",
+      "systemKey": "stage",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A90",
+      "key": "liquid-chrome",
+      "name": "镀铬液态",
+      "primarySystem": "C08",
+      "systemKey": "stage",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A91",
+      "key": "isometric-maquette",
+      "name": "等距白模",
+      "primarySystem": "C08",
+      "systemKey": "stage",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A92",
+      "key": "inflatable-sculpture",
+      "name": "充气软雕",
+      "primarySystem": "C05",
+      "systemKey": "stack",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A93",
+      "key": "viscous-gel",
+      "name": "流体凝胶",
+      "primarySystem": "C08",
+      "systemKey": "stage",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A94",
+      "key": "mechanical-cutaway",
+      "name": "机械剖面",
+      "primarySystem": "C12",
+      "systemKey": "radial",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A95",
+      "key": "terminal-ascii",
+      "name": "终端字符",
+      "primarySystem": "C10",
+      "systemKey": "interface",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A96",
+      "key": "vector-oscilloscope",
+      "name": "矢量示波",
+      "primarySystem": "C12",
+      "systemKey": "radial",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A97",
+      "key": "led-dot-matrix",
+      "name": "低帧点阵",
+      "primarySystem": "C10",
+      "systemKey": "interface",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A98",
+      "key": "early-desktop",
+      "name": "早期桌面",
+      "primarySystem": "C10",
+      "systemKey": "interface",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A99",
+      "key": "spatial-pointcloud",
+      "name": "空间点云",
+      "primarySystem": "C12",
+      "systemKey": "radial",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    },
+    {
+      "id": "A100",
+      "key": "holographic-volume",
+      "name": "全息投影",
+      "primarySystem": "C12",
+      "systemKey": "radial",
+      "status": "native-v2-remapped",
+      "fullFilmRepresentative": false,
+      "evidence": "qa/prototypes.json"
+    }
+  ]
+}

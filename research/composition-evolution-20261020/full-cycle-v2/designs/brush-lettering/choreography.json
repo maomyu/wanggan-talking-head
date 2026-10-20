@@ -1,0 +1,213 @@
+{
+  "id": "A50",
+  "key": "brush-lettering",
+  "name": "刷笔字形",
+  "familyKey": "drawing",
+  "family": "手绘与书写",
+  "visualMechanism": "真实毛笔字体的短词、压力形态笔势与大片留白；整词显现，辅助字随后进入，字幕用清晰正字",
+  "profiles": {
+    "layout": "L05",
+    "motion": "M06",
+    "editing": "E04",
+    "sound": "S07"
+  },
+  "suitableFor": [
+    "态度",
+    "文学"
+  ],
+  "status": "research-native-v2",
+  "validation": "已完成真实整片编码、程序检查与作者审看；制作验证，尚未逐条获得用户视觉认可",
+  "humanTreatment": "original-color; circular-corners; raised-captions",
+  "sourceKind": "original-production-adaptation",
+  "references": [
+    "R18",
+    "R19"
+  ],
+  "assetDisclosure": "Actual unmodified OFL brush font; geometric ink marks and whole-word reveal; not authentic handwriting stroke order",
+  "preview": "previews/brush-lettering.jpg",
+  "implementation": "templates/brush-lettering/index.html",
+  "videoSha256": "20dffc73edee30910883541a1b6039d48e69f06a804413865557aba672040fd4",
+  "compatibleModules": [
+    "art-direction",
+    "layout",
+    "motion",
+    "editing"
+  ],
+  "personTreatment": "source-color; true-circle-in-corners",
+  "fontRoles": [
+    "NotoSansSC-700.woff",
+    "NotoSansSC-900.woff",
+    "NotoSerifSC-700.woff",
+    "MaShanZheng-Regular.ttf"
+  ],
+  "approvalBasis": "user-authorized-100-style-goal; production-verified",
+  "motionParameter": "data-person-travel",
+  "personTravelSeconds": 0.55,
+  "portraitBase": [
+    220,
+    585,
+    640,
+    640
+  ],
+  "v1Status": "verified-video",
+  "choreography": {
+    "id": "C03",
+    "key": "type",
+    "name": "巨字接力",
+    "intent": "关键词占据主画面，字与字的尺度和位置承担讲述，人物让出阅读中心。",
+    "states": "完整词组 → 两词对峙 → 一句结论",
+    "motion": "按词组掩膜接力，落下后停稳，放大不影响字幕",
+    "editing": "在语义重音处切表现文字；人声不另切、不开倍速",
+    "references": [
+      "prompt-motion",
+      "opus"
+    ]
+  },
+  "variant": 2,
+  "newImplementation": "variants/brush-lettering/index.html",
+  "adaptationReason": "真实毛笔字体的短词、压力形态笔势与大片留白；整词显现，辅助字随后进入，字幕用清晰正字；用“巨字接力”改变人物、解释区和主阅读线的关系。",
+  "preserved": [
+    "人物原色",
+    "角落正圆窗",
+    "字幕top1600、60px",
+    "原声与21条字幕原文和时间",
+    "原画风材料与字体"
+  ],
+  "sceneContent": {
+    "hook": {
+      "a": "越努力上班",
+      "b": "越存不到钱？",
+      "context": "先从自己的选择看起",
+      "items": [
+        [
+          "跟风消费",
+          ""
+        ],
+        [
+          "盲目投资",
+          ""
+        ],
+        [
+          "负债前行",
+          ""
+        ]
+      ]
+    },
+    "chain": {
+      "a": "跟风的代价",
+      "b": "最后落在自己身上",
+      "context": "后果由自己承担",
+      "items": [
+        [
+          "跟风消费",
+          ""
+        ],
+        [
+          "盲目投资",
+          ""
+        ],
+        [
+          "本金受损",
+          ""
+        ]
+      ]
+    },
+    "overview": {
+      "a": "三个财经底线",
+      "b": "从自己的选择开始",
+      "context": "三项并列建议",
+      "items": [
+        [
+          "减少无效消费",
+          ""
+        ],
+        [
+          "守住本金",
+          ""
+        ],
+        [
+          "减少负债",
+          ""
+        ]
+      ]
+    },
+    "spend": {
+      "a": "分清楚",
+      "b": "想要和需要",
+      "context": "下单之前\n留一点判断的空间",
+      "items": [
+        [
+          "想要",
+          "一时喜欢"
+        ],
+        [
+          "需要",
+          "实际用途"
+        ],
+        [
+          "先分清楚",
+          "再决定买不买"
+        ]
+      ]
+    },
+    "risk": {
+      "a": "守住本金",
+      "b": "先看风险，再做选择",
+      "context": "夸大收益的说法\n暗藏风险",
+      "items": [
+        [
+          "夸大收益",
+          ""
+        ],
+        [
+          "暗藏风险",
+          ""
+        ],
+        [
+          "守住本金",
+          ""
+        ]
+      ]
+    },
+    "debt": {
+      "a": "减少负债",
+      "b": "把压力往回收",
+      "context": "第三条底线",
+      "items": [
+        [
+          "减少负债",
+          ""
+        ],
+        [
+          "",
+          ""
+        ],
+        [
+          "",
+          ""
+        ]
+      ]
+    },
+    "recap": {
+      "a": "不跟风，不浮躁",
+      "b": "回到自己的判断",
+      "context": "少冲动　守本金　减负债",
+      "items": [
+        [
+          "少冲动",
+          ""
+        ],
+        [
+          "守本金",
+          ""
+        ],
+        [
+          "减负债",
+          ""
+        ]
+      ]
+    }
+  },
+  "directorVersion": "2.0-research",
+  "canonicalMaterialSeek": true
+}

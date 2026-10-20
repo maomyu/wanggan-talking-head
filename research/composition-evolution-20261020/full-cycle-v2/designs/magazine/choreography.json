@@ -1,0 +1,191 @@
+{
+  "id": "A04",
+  "key": "magazine",
+  "name": "杂志编辑",
+  "family": "编辑与信息印刷",
+  "status": "refining-full-film",
+  "preview": "previews/magazine.jpg",
+  "implementation": "templates/magazine/index.html",
+  "compatibleModules": [
+    "art-direction",
+    "layout",
+    "motion",
+    "editing"
+  ],
+  "personTreatment": "source-color; true-circle-in-corners",
+  "videoSha256": "cd16c098c77223a4567aca739fed66d43a5bf327cd5b0ce466f64493c292532f",
+  "familyKey": "editorial",
+  "visualMechanism": "摄影裁切、大小字阶、栏线和不对称留白形成编辑节奏",
+  "profiles": {
+    "layout": "L03",
+    "motion": "M01",
+    "editing": "E02",
+    "sound": "S10"
+  },
+  "suitableFor": [
+    "商业",
+    "文化"
+  ],
+  "v1Status": "approved-video",
+  "choreography": {
+    "id": "C02",
+    "key": "editorial",
+    "name": "编辑双栏",
+    "intent": "窄栏放判断，宽栏放图像；文字与图片共享跨段落的对齐轴。",
+    "states": "页边判断 → 大图与批注 → 跨栏结论",
+    "motion": "标题沿基线换词，图注滞后出现，版心保持稳定",
+    "editing": "按完整论点翻到下一版，保留栏线作共同锚点",
+    "references": [
+      "modulify",
+      "inspora"
+    ]
+  },
+  "variant": 1,
+  "newImplementation": "variants/magazine/index.html",
+  "adaptationReason": "摄影裁切、大小字阶、栏线和不对称留白形成编辑节奏；用“编辑双栏”改变人物、解释区和主阅读线的关系。",
+  "preserved": [
+    "人物原色",
+    "角落正圆窗",
+    "字幕top1600、60px",
+    "原声与21条字幕原文和时间",
+    "原画风材料与字体"
+  ],
+  "shortTestEvidence": "qa/short-video-verification.json",
+  "sceneContent": {
+    "hook": {
+      "a": "越努力上班",
+      "b": "越存不到钱？",
+      "context": "先从自己的选择看起",
+      "items": [
+        [
+          "跟风消费",
+          ""
+        ],
+        [
+          "盲目投资",
+          ""
+        ],
+        [
+          "负债前行",
+          ""
+        ]
+      ]
+    },
+    "chain": {
+      "a": "跟风的代价",
+      "b": "最后落在自己身上",
+      "context": "后果由自己承担",
+      "items": [
+        [
+          "跟风消费",
+          ""
+        ],
+        [
+          "盲目投资",
+          ""
+        ],
+        [
+          "本金受损",
+          ""
+        ]
+      ]
+    },
+    "overview": {
+      "a": "三个财经底线",
+      "b": "从自己的选择开始",
+      "context": "三项并列建议",
+      "items": [
+        [
+          "减少无效消费",
+          ""
+        ],
+        [
+          "守住本金",
+          ""
+        ],
+        [
+          "减少负债",
+          ""
+        ]
+      ]
+    },
+    "spend": {
+      "a": "分清楚",
+      "b": "想要和需要",
+      "context": "下单之前\n留一点判断的空间",
+      "items": [
+        [
+          "想要",
+          "一时喜欢"
+        ],
+        [
+          "需要",
+          "实际用途"
+        ],
+        [
+          "先分清楚",
+          "再决定买不买"
+        ]
+      ]
+    },
+    "risk": {
+      "a": "守住本金",
+      "b": "先看风险，再做选择",
+      "context": "夸大收益的说法\n暗藏风险",
+      "items": [
+        [
+          "夸大收益",
+          ""
+        ],
+        [
+          "暗藏风险",
+          ""
+        ],
+        [
+          "守住本金",
+          ""
+        ]
+      ]
+    },
+    "debt": {
+      "a": "减少负债",
+      "b": "把压力往回收",
+      "context": "第三条底线",
+      "items": [
+        [
+          "减少负债",
+          ""
+        ],
+        [
+          "",
+          ""
+        ],
+        [
+          "",
+          ""
+        ]
+      ]
+    },
+    "recap": {
+      "a": "不跟风，不浮躁",
+      "b": "回到自己的判断",
+      "context": "少冲动　守本金　减负债",
+      "items": [
+        [
+          "少冲动",
+          ""
+        ],
+        [
+          "守本金",
+          ""
+        ],
+        [
+          "减负债",
+          ""
+        ]
+      ]
+    }
+  },
+  "directorVersion": "2.0-research",
+  "canonicalMaterialSeek": true
+}

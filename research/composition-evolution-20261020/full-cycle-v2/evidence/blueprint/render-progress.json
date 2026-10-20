@@ -1,0 +1,12 @@
+{
+  "status": "verified",
+  "elapsedSeconds": 319.6944091320038,
+  "videoSha256": "61576f3102d3812be94dbf6e56ae40427292bbe3039e3955c8f71e8855c1ccc4",
+  "video": "variants/blueprint/outputs/final.mp4",
+  "binding": {
+    "htmlSha256": "66619bff94b33689086c277fcea8c1a6a27a2426c17488d1797d5fc9a1c04bed",
+    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "motionAssertionsSha256": "e669abf848c43098f86b1d32f0ce5c07057d46d95b5e14cbbd744ae05456c570"
+  },
+  "verification": "qa/film-verification.json"
+}

@@ -1,0 +1,322 @@
+{
+  "exitCode": 0,
+  "htmlSha256": "476cc20a14e2aefff2124b4295cbfd682383ecd44779211a487a826130db6bcd",
+  "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+  "motionAssertionsSha256": "e669abf848c43098f86b1d32f0ce5c07057d46d95b5e14cbbd744ae05456c570",
+  "result": {
+    "ok": true,
+    "strict": false,
+    "browserSkipped": false,
+    "lint": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 1,
+      "infoCount": 0,
+      "findings": [
+        {
+          "code": "duplicate_media_discovery_risk",
+          "severity": "warning",
+          "message": "Detected 5 matching img entries with the same source/start/duration.",
+          "selector": "[data-composition-id]",
+          "dataAttributes": {},
+          "sourceFile": "/Users/maoyu/个人项目/客户/插件/test/编排差异化研究_20261020/full-cycle-v2/variants/film/index.html",
+          "bbox": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "time": 0,
+          "fixHint": "Avoid duplicated media nodes that can be discovered twice during compilation."
+        }
+      ],
+      "filesScanned": 1
+    },
+    "runtime": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 0,
+      "infoCount": 0,
+      "findings": []
+    },
+    "layout": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 0,
+      "infoCount": 4,
+      "findings": [
+        {
+          "code": "container_overflow",
+          "severity": "info",
+          "time": 6.111,
+          "selector": "#stage > section:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)",
+          "message": "Element extends outside a clipping layout container.",
+          "rect": {
+            "left": 52.34,
+            "top": 233.16,
+            "right": 1027.66,
+            "bottom": 1452.31,
+            "width": 975.32,
+            "height": 1219.16
+          },
+          "containerSelector": "#stage > section:nth-of-type(1) > div:nth-of-type(1)",
+          "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+          "containerRect": {
+            "left": 64,
+            "top": 450,
+            "right": 1016,
+            "bottom": 1160,
+            "width": 952,
+            "height": 710
+          },
+          "overflow": {
+            "left": 11.66,
+            "right": 11.66,
+            "top": 216.84,
+            "bottom": 292.31
+          },
+          "dataAttributes": {
+            "data-hf-authored-opacity": ""
+          },
+          "sourceFile": "index.html",
+          "bbox": {
+            "x": 52.34,
+            "y": 233.16,
+            "width": 975.32,
+            "height": 1219.16
+          },
+          "firstSeen": 6.111,
+          "lastSeen": 10.185,
+          "occurrences": 2,
+          "heldMs": 0,
+          "times": [
+            6.111,
+            10.185
+          ]
+        },
+        {
+          "code": "container_overflow",
+          "severity": "info",
+          "time": 14.259,
+          "selector": "#stage > section:nth-of-type(2) > div:nth-of-type(1) > img:nth-of-type(1)",
+          "message": "Element extends outside a clipping layout container.",
+          "rect": {
+            "left": 52,
+            "top": 237.61,
+            "right": 1028,
+            "bottom": 1457.59,
+            "width": 975.99,
+            "height": 1219.99
+          },
+          "containerSelector": "#stage > section:nth-of-type(2) > div:nth-of-type(1)",
+          "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+          "containerRect": {
+            "left": 64,
+            "top": 450,
+            "right": 1016,
+            "bottom": 1160,
+            "width": 952,
+            "height": 710
+          },
+          "overflow": {
+            "left": 12,
+            "right": 12,
+            "top": 212.39,
+            "bottom": 297.59
+          },
+          "dataAttributes": {
+            "data-hf-authored-opacity": ""
+          },
+          "sourceFile": "index.html",
+          "bbox": {
+            "x": 52,
+            "y": 237.61,
+            "width": 975.99,
+            "height": 1219.99
+          },
+          "firstSeen": 14.259,
+          "lastSeen": 14.259,
+          "occurrences": 1,
+          "heldMs": 0,
+          "times": [
+            14.259
+          ]
+        },
+        {
+          "code": "container_overflow",
+          "severity": "info",
+          "time": 18.333,
+          "selector": "#stage > section:nth-of-type(3) > div:nth-of-type(1) > img:nth-of-type(1)",
+          "message": "Element extends outside a clipping layout container.",
+          "rect": {
+            "left": 48.91,
+            "top": 225.27,
+            "right": 1031.09,
+            "bottom": 1452.99,
+            "width": 982.18,
+            "height": 1227.72
+          },
+          "containerSelector": "#stage > section:nth-of-type(3) > div:nth-of-type(1)",
+          "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+          "containerRect": {
+            "left": 64,
+            "top": 450,
+            "right": 1016,
+            "bottom": 1160,
+            "width": 952,
+            "height": 710
+          },
+          "overflow": {
+            "left": 15.09,
+            "right": 15.09,
+            "top": 224.73,
+            "bottom": 292.99
+          },
+          "dataAttributes": {
+            "data-hf-authored-opacity": ""
+          },
+          "sourceFile": "index.html",
+          "bbox": {
+            "x": 48.91,
+            "y": 225.27,
+            "width": 982.18,
+            "height": 1227.72
+          },
+          "firstSeen": 18.333,
+          "lastSeen": 18.333,
+          "occurrences": 1,
+          "heldMs": 0,
+          "times": [
+            18.333
+          ]
+        },
+        {
+          "code": "container_overflow",
+          "severity": "info",
+          "time": 22.407,
+          "selector": "#stage > section:nth-of-type(4) > div:nth-of-type(1) > img:nth-of-type(1)",
+          "message": "Element extends outside a clipping layout container.",
+          "rect": {
+            "left": 50.91,
+            "top": 237.37,
+            "right": 1029.09,
+            "bottom": 1460.1,
+            "width": 978.18,
+            "height": 1222.73
+          },
+          "containerSelector": "#stage > section:nth-of-type(4) > div:nth-of-type(1)",
+          "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+          "containerRect": {
+            "left": 64,
+            "top": 450,
+            "right": 1016,
+            "bottom": 1160,
+            "width": 952,
+            "height": 710
+          },
+          "overflow": {
+            "left": 13.09,
+            "right": 13.09,
+            "top": 212.63,
+            "bottom": 300.1
+          },
+          "dataAttributes": {
+            "data-hf-authored-opacity": ""
+          },
+          "sourceFile": "index.html",
+          "bbox": {
+            "x": 50.91,
+            "y": 237.37,
+            "width": 978.18,
+            "height": 1222.73
+          },
+          "firstSeen": 22.407,
+          "lastSeen": 26.481,
+          "occurrences": 2,
+          "heldMs": 0,
+          "times": [
+            22.407,
+            26.481
+          ]
+        }
+      ],
+      "duration": 36.666666666666664,
+      "samples": [
+        2.037,
+        6.111,
+        10.185,
+        14.259,
+        18.333,
+        22.407,
+        26.481,
+        30.556,
+        34.63
+      ],
+      "transitionSamples": [],
+      "transitionSamplesDropped": 0,
+      "tolerance": 2,
+      "totalIssueCount": 4,
+      "truncated": false
+    },
+    "motion": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 0,
+      "infoCount": 0,
+      "findings": [],
+      "enabled": true,
+      "specPath": "/Users/maoyu/个人项目/客户/插件/test/编排差异化研究_20261020/full-cycle-v2/variants/film/index.motion.json",
+      "samples": 300
+    },
+    "contrast": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 0,
+      "infoCount": 0,
+      "findings": [],
+      "enabled": true,
+      "samples": [
+        2.037,
+        10.185,
+        18.333,
+        26.481,
+        34.63
+      ],
+      "checked": 31,
+      "passed": 31
+    },
+    "hdr": {
+      "autoPromotion": null,
+      "inspection": "available"
+    },
+    "snapshots": {
+      "enabled": true,
+      "files": [
+        ".hyperframes/artifacts/snapshots/2529daa1-5268-4c8b-9002-26bd24b7cc8f/frame-00-at-2.0s.png",
+        ".hyperframes/artifacts/snapshots/2529daa1-5268-4c8b-9002-26bd24b7cc8f/frame-01-at-10.2s.png",
+        ".hyperframes/artifacts/snapshots/2529daa1-5268-4c8b-9002-26bd24b7cc8f/frame-02-at-18.3s.png",
+        ".hyperframes/artifacts/snapshots/2529daa1-5268-4c8b-9002-26bd24b7cc8f/frame-03-at-26.5s.png",
+        ".hyperframes/artifacts/snapshots/2529daa1-5268-4c8b-9002-26bd24b7cc8f/frame-04-at-34.6s.png"
+      ],
+      "times": [
+        2.037,
+        10.185,
+        18.333,
+        26.481,
+        34.63
+      ],
+      "findingFiles": []
+    },
+    "saved": {
+      "id": "2532f193-257c-46c5-82ee-2e1c30a2d99a",
+      "revision": "684c6562-9101-479f-96b8-4cd2be6a925f",
+      "report": "/Users/maoyu/个人项目/客户/插件/test/编排差异化研究_20261020/full-cycle-v2/variants/film/.hyperframes/artifacts/checks/2532f193-257c-46c5-82ee-2e1c30a2d99a.json",
+      "attribution": "recorded-revision"
+    },
+    "_meta": {
+      "version": "0.8.174",
+      "latestVersion": "0.8.180",
+      "updateAvailable": true
+    }
+  }
+}

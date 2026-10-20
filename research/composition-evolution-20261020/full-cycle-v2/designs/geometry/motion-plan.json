@@ -1,0 +1,25 @@
+{
+  "module": "talking-head-motion",
+  "travelSeconds": 0.6,
+  "anchors": {
+    "consume": 176,
+    "invest": 198,
+    "loss": 310,
+    "pressure": 349,
+    "want": 563,
+    "risk": 686,
+    "speculation": 783
+  },
+  "timing": "shared-edit-plan",
+  "compositionStudy": {
+    "system": "C03",
+    "key": "type",
+    "intent": "关键词占据主画面，字与字的尺度和位置承担讲述，人物让出阅读中心。",
+    "spatial": "完整词组 → 两词对峙 → 一句结论",
+    "motion": "按词组掩膜接力，落下后停稳，放大不影响字幕",
+    "visualEditing": "在语义重音处切表现文字；人声不另切、不开倍速",
+    "sourceTimingUnchanged": true,
+    "revision": "v2-native-remap",
+    "scope": "native study; full MP4 not claimed"
+  }
+}

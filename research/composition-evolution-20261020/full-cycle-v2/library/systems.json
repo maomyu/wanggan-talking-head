@@ -1,0 +1,476 @@
+{
+  "schemaVersion": 1,
+  "status": "test-research",
+  "systems": [
+    {
+      "id": "C01",
+      "key": "speaker",
+      "name": "人物留白",
+      "intent": "人物承担判断，重点贴近目光，解释只在需要时接管画面。",
+      "states": "人物在场 → 侧边论点 → 回到人物",
+      "motion": "近景与圆窗间连续让位，重点用短掩膜揭示",
+      "editing": "观点处直切，解释收完再回人，不按句子机械换场",
+      "references": [
+        "modulify",
+        "reelfolio"
+      ],
+      "contentKinds": [
+        "statement",
+        "judgment",
+        "closing"
+      ],
+      "implementedStates": [
+        "主体近景 → 连续缩放让位 → 图解 → 回到人物"
+      ],
+      "decision": "人物观点是主线，图解只在解释段接管。",
+      "boundary": "长过程、大量证据或多项同时比较时换其他编排。",
+      "motionVocabulary": [
+        "圆窗匀比移动",
+        "图解延后显现",
+        "结论近景停留"
+      ],
+      "readingRule": "以本句真实窗口计算进场、完整显现、阅读、离场；短窗口删动作，不加速原声。",
+      "personRule": "源片原色，角落正圆，连续匀比缩放；人像层与材料镜头分离。",
+      "captionRule": "1080×1920：x64/top1600/w952/font60，最多两行，底部不越1800。",
+      "soundRule": "本轮只保留一条原声；音乐、拟音和J/L剪辑未在本轮验证。",
+      "representative": {
+        "styleId": "A01",
+        "key": "minimal",
+        "name": "写实极简",
+        "project": "variants/minimal"
+      },
+      "verification": "qa/film-verification.json；文件实际存在且源码绑定才算已验证。"
+    },
+    {
+      "id": "C02",
+      "key": "editorial",
+      "name": "编辑双栏",
+      "intent": "窄栏放判断，宽栏放图像；文字与图片共享跨段落的对齐轴。",
+      "states": "页边判断 → 大图与批注 → 跨栏结论",
+      "motion": "标题沿基线换词，图注滞后出现，版心保持稳定",
+      "editing": "按完整论点翻到下一版，保留栏线作共同锚点",
+      "references": [
+        "modulify",
+        "inspora"
+      ],
+      "contentKinds": [
+        "statement",
+        "comparison",
+        "evidence"
+      ],
+      "implementedStates": [
+        "宽幅开场 → 左判断右解释 → 并列词列 → 跨栏收束"
+      ],
+      "decision": "依靠稳定栏线和不同文字角色建立阅读顺序。",
+      "boundary": "长中文先语义断行；窄栏不能靠缩小字号塞入。",
+      "motionVocabulary": [
+        "基线换词",
+        "图注错峰",
+        "栏线锚点遮挡交接"
+      ],
+      "readingRule": "以本句真实窗口计算进场、完整显现、阅读、离场；短窗口删动作，不加速原声。",
+      "personRule": "源片原色，角落正圆，连续匀比缩放；人像层与材料镜头分离。",
+      "captionRule": "1080×1920：x64/top1600/w952/font60，最多两行，底部不越1800。",
+      "soundRule": "本轮只保留一条原声；音乐、拟音和J/L剪辑未在本轮验证。",
+      "representative": {
+        "styleId": "A04",
+        "key": "magazine",
+        "name": "杂志编辑",
+        "project": "variants/magazine"
+      },
+      "verification": "qa/film-verification.json；文件实际存在且源码绑定才算已验证。"
+    },
+    {
+      "id": "C03",
+      "key": "type",
+      "name": "巨字接力",
+      "intent": "关键词占据主画面，字与字的尺度和位置承担讲述，人物让出阅读中心。",
+      "states": "完整词组 → 两词对峙 → 一句结论",
+      "motion": "按词组掩膜接力，落下后停稳，放大不影响字幕",
+      "editing": "在语义重音处切表现文字；人声不另切、不开倍速",
+      "references": [
+        "prompt-motion",
+        "opus"
+      ],
+      "contentKinds": [
+        "statement",
+        "comparison",
+        "closing"
+      ],
+      "implementedStates": [
+        "大词组提问 → 多行接力 → 两词对峙 → 巨字判断"
+      ],
+      "decision": "少量关键词在尺度和落点上形成明确差别。",
+      "boundary": "超过一句解释、图表或证据细节不能强塞巨字；不逐字乱跳。",
+      "motionVocabulary": [
+        "词组掩膜与短横移",
+        "主次尺度对照",
+        "完整词组停稳"
+      ],
+      "readingRule": "以本句真实窗口计算进场、完整显现、阅读、离场；短窗口删动作，不加速原声。",
+      "personRule": "源片原色，角落正圆，连续匀比缩放；人像层与材料镜头分离。",
+      "captionRule": "1080×1920：x64/top1600/w952/font60，最多两行，底部不越1800。",
+      "soundRule": "本轮只保留一条原声；音乐、拟音和J/L剪辑未在本轮验证。",
+      "representative": {
+        "styleId": "A18",
+        "key": "type-poster",
+        "name": "巨字海报",
+        "project": "variants/type-poster"
+      },
+      "verification": "qa/film-verification.json；文件实际存在且源码绑定才算已验证。"
+    },
+    {
+      "id": "C04",
+      "key": "route",
+      "name": "纵向叙事",
+      "intent": "问题、行为和后果沿纵轴展开，读过的部分留下位置记忆。",
+      "states": "上方问题 → 路径中段 → 下方结论",
+      "motion": "路径先建立，再按人声显现节点，视线沿纵向下移",
+      "editing": "在同一叙事空间里推进；转折保留一个停稳窗口",
+      "references": [
+        "60fps",
+        "opus"
+      ],
+      "contentKinds": [
+        "process",
+        "cause",
+        "list"
+      ],
+      "implementedStates": [
+        "完整路径 → 节点依次显现 → 结果落点"
+      ],
+      "decision": "读过的路径保留，方向指示阅读先后。",
+      "boundary": "并列建议只能标阅读顺序，不擅自连成因果。",
+      "motionVocabulary": [
+        "节点错峰",
+        "单轴视线推进",
+        "路径保留"
+      ],
+      "readingRule": "以本句真实窗口计算进场、完整显现、阅读、离场；短窗口删动作，不加速原声。",
+      "personRule": "源片原色，角落正圆，连续匀比缩放；人像层与材料镜头分离。",
+      "captionRule": "1080×1920：x64/top1600/w952/font60，最多两行，底部不越1800。",
+      "soundRule": "本轮只保留一条原声；音乐、拟音和J/L剪辑未在本轮验证。",
+      "representative": {
+        "styleId": "A11",
+        "key": "comic",
+        "name": "漫画描线",
+        "project": "variants/comic"
+      },
+      "verification": "qa/film-verification.json；文件实际存在且源码绑定才算已验证。"
+    },
+    {
+      "id": "C05",
+      "key": "stack",
+      "name": "卡片展列",
+      "intent": "同一组信息由重叠变为并列，让观众看见原本被藏住的关系。",
+      "states": "叠放概览 → 两张展开 → 归纳列表",
+      "motion": "卡片边缘分离后错峰展列，文字在落稳后揭示",
+      "editing": "用同一卡片换层级，不能用三张无关图假装同一物体",
+      "references": [
+        "60fps",
+        "reelfolio"
+      ],
+      "contentKinds": [
+        "comparison",
+        "list",
+        "closing"
+      ],
+      "implementedStates": [
+        "重叠概览 → 边缘分离 → 卡片展列 → 归纳"
+      ],
+      "decision": "同一组卡片展开，展示被遮住的内容关系。",
+      "boundary": "短句窗口缩短入场；卡片展开后要给正文真实阅读时间。",
+      "motionVocabulary": [
+        "旋转回正",
+        "卡片展列",
+        "落稳后显字",
+        "共同卡片遮挡交接"
+      ],
+      "readingRule": "以本句真实窗口计算进场、完整显现、阅读、离场；短窗口删动作，不加速原声。",
+      "personRule": "源片原色，角落正圆，连续匀比缩放；人像层与材料镜头分离。",
+      "captionRule": "1080×1920：x64/top1600/w952/font60，最多两行，底部不越1800。",
+      "soundRule": "本轮只保留一条原声；音乐、拟音和J/L剪辑未在本轮验证。",
+      "representative": {
+        "styleId": "A58",
+        "key": "origami",
+        "name": "折纸结构",
+        "project": "variants/origami"
+      },
+      "verification": "qa/film-verification.json；文件实际存在且源码绑定才算已验证。"
+    },
+    {
+      "id": "C06",
+      "key": "derive",
+      "name": "推导画布",
+      "intent": "主张、依据和结果在同一张画布内建立对应，保留已读上下文。",
+      "states": "先给对象 → 建立联系 → 标出判断",
+      "motion": "连线在节点之后生长，重点框贴着真实字形",
+      "editing": "按推导完成程度推进；并列建议不连成因果",
+      "references": [
+        "60fps",
+        "opus"
+      ],
+      "contentKinds": [
+        "cause",
+        "comparison",
+        "list"
+      ],
+      "implementedStates": [
+        "对象 → 建立对应 → 双项或三项标签 → 判断"
+      ],
+      "decision": "节点和连线有语义，先出现对象后出现关联。",
+      "boundary": "没有事实支持不连因果；并列三项不能遗漏一项。",
+      "motionVocabulary": [
+        "节点后连线生长",
+        "关系停稳",
+        "中心对齐交接"
+      ],
+      "readingRule": "以本句真实窗口计算进场、完整显现、阅读、离场；短窗口删动作，不加速原声。",
+      "personRule": "源片原色，角落正圆，连续匀比缩放；人像层与材料镜头分离。",
+      "captionRule": "1080×1920：x64/top1600/w952/font60，最多两行，底部不越1800。",
+      "soundRule": "本轮只保留一条原声；音乐、拟音和J/L剪辑未在本轮验证。",
+      "representative": {
+        "styleId": "A09",
+        "key": "blueprint",
+        "name": "技术蓝图",
+        "project": "variants/blueprint"
+      },
+      "verification": "qa/film-verification.json；文件实际存在且源码绑定才算已验证。"
+    },
+    {
+      "id": "C07",
+      "key": "gallery",
+      "name": "画廊取景",
+      "intent": "图片获得足够面积；主图与备选画面共享一条连续展示轨道。",
+      "states": "完整主图 → 横向接续 → 局部与图注",
+      "motion": "轨道先移动再停稳，活动框与图注共同切换",
+      "editing": "全貌到细节再回人物；解释图不冒充真实凭证",
+      "references": [
+        "reelfolio",
+        "modulify"
+      ],
+      "contentKinds": [
+        "evidence",
+        "process",
+        "statement"
+      ],
+      "implementedStates": [
+        "完整主图 → 主图换位 → 图注 → 回到人物"
+      ],
+      "decision": "图片获得主要面积，字幕和人像保持独立。",
+      "boundary": "本轮是主图取景与换位，尚未实现多张独立图片的连续图库轨道。",
+      "motionVocabulary": [
+        "取景框内换位",
+        "图注与图片同步",
+        "停稳看细节"
+      ],
+      "readingRule": "以本句真实窗口计算进场、完整显现、阅读、离场；短窗口删动作，不加速原声。",
+      "personRule": "源片原色，角落正圆，连续匀比缩放；人像层与材料镜头分离。",
+      "captionRule": "1080×1920：x64/top1600/w952/font60，最多两行，底部不越1800。",
+      "soundRule": "本轮只保留一条原声；音乐、拟音和J/L剪辑未在本轮验证。",
+      "representative": {
+        "styleId": "A12",
+        "key": "film",
+        "name": "胶片影像",
+        "project": "variants/film"
+      },
+      "verification": "qa/film-verification.json；文件实际存在且源码绑定才算已验证。"
+    },
+    {
+      "id": "C08",
+      "key": "stage",
+      "name": "空间舞台",
+      "intent": "材料物件有前后层次，正文在稳定平面，人物独立于场景镜头。",
+      "states": "总览陈列 → 侧转展示 → 正面结论",
+      "motion": "物件绕自身轴转动，读字时相机与标签停稳",
+      "editing": "边缘侧转处换图解，下一镜保持空间轴线",
+      "references": [
+        "theatre",
+        "reelfolio"
+      ],
+      "contentKinds": [
+        "spatial",
+        "process",
+        "statement"
+      ],
+      "implementedStates": [
+        "总览对象 → 侧转换态 → 正面阅读 → 收束"
+      ],
+      "decision": "物体有深度、文字留在稳定平面，人物不跟场景转。",
+      "boundary": "本轮是素材组侧转与原有物件渲染；不是通用真实相机或任意模型引擎。",
+      "motionVocabulary": [
+        "中心轴侧转",
+        "边缘按角度淡出",
+        "正面标签停稳"
+      ],
+      "readingRule": "以本句真实窗口计算进场、完整显现、阅读、离场；短窗口删动作，不加速原声。",
+      "personRule": "源片原色，角落正圆，连续匀比缩放；人像层与材料镜头分离。",
+      "captionRule": "1080×1920：x64/top1600/w952/font60，最多两行，底部不越1800。",
+      "soundRule": "本轮只保留一条原声；音乐、拟音和J/L剪辑未在本轮验证。",
+      "representative": {
+        "styleId": "A14",
+        "key": "clay",
+        "name": "柔质立体",
+        "project": "variants/clay"
+      },
+      "verification": "qa/film-verification.json；文件实际存在且源码绑定才算已验证。"
+    },
+    {
+      "id": "C09",
+      "key": "archive",
+      "name": "档案索引",
+      "intent": "左侧索引保持，右侧材料展开；编号只是位置索引，不伪造档案事实。",
+      "states": "索引 → 材料页 → 摘录判断",
+      "motion": "材料页从同一入口抽出，摘录与对应句子对齐",
+      "editing": "按照材料与观点组织段落，共同页签接续",
+      "references": [
+        "modulify",
+        "inspora"
+      ],
+      "contentKinds": [
+        "evidence",
+        "list",
+        "statement"
+      ],
+      "implementedStates": [
+        "稳定索引 → 右侧材料 → 摘录判断"
+      ],
+      "decision": "观众通过固定索引知道自己看到哪一项。",
+      "boundary": "索引为位置导航，不伪造档案编号、来源、日期或凭证。",
+      "motionVocabulary": [
+        "同入口抽页",
+        "索引保持",
+        "页签遮挡交接"
+      ],
+      "readingRule": "以本句真实窗口计算进场、完整显现、阅读、离场；短窗口删动作，不加速原声。",
+      "personRule": "源片原色，角落正圆，连续匀比缩放；人像层与材料镜头分离。",
+      "captionRule": "1080×1920：x64/top1600/w952/font60，最多两行，底部不越1800。",
+      "soundRule": "本轮只保留一条原声；音乐、拟音和J/L剪辑未在本轮验证。",
+      "representative": {
+        "styleId": "A30",
+        "key": "archive-dossier",
+        "name": "档案卷宗",
+        "project": "variants/archive-dossier"
+      },
+      "verification": "qa/film-verification.json；文件实际存在且源码绑定才算已验证。"
+    },
+    {
+      "id": "C10",
+      "key": "interface",
+      "name": "界面状态",
+      "intent": "同一解释面板在总览、对照、风险提示之间变换，状态有可见结果。",
+      "states": "概览 → 分清选择 → 风险提示",
+      "motion": "活动指示条伸缩交接，面板先变形再换内容",
+      "editing": "状态变化承担转场；不虚构按钮操作与真实理财数据",
+      "references": [
+        "60fps",
+        "opus"
+      ],
+      "contentKinds": [
+        "comparison",
+        "list",
+        "process"
+      ],
+      "implementedStates": [
+        "概览面板 → 活动页签 → 两项对比 → 风险提示"
+      ],
+      "decision": "同一解释面板在不同状态呈现真实语义结果。",
+      "boundary": "本轮面板与指示条切换已实现；不宣称任意形变或真实产品交互。",
+      "motionVocabulary": [
+        "指示条伸缩交接",
+        "内容分组显现",
+        "面板内状态替换"
+      ],
+      "readingRule": "以本句真实窗口计算进场、完整显现、阅读、离场；短窗口删动作，不加速原声。",
+      "personRule": "源片原色，角落正圆，连续匀比缩放；人像层与材料镜头分离。",
+      "captionRule": "1080×1920：x64/top1600/w952/font60，最多两行，底部不越1800。",
+      "soundRule": "本轮只保留一条原声；音乐、拟音和J/L剪辑未在本轮验证。",
+      "representative": {
+        "styleId": "A08",
+        "key": "precision",
+        "name": "精密界面",
+        "project": "variants/precision"
+      },
+      "verification": "qa/film-verification.json；文件实际存在且源码绑定才算已验证。"
+    },
+    {
+      "id": "C11",
+      "key": "scroll",
+      "name": "长卷巡览",
+      "intent": "三条建议属于同一条展开的长卷，镜头只移向本句需要的位置。",
+      "states": "卷首 → 中段说明 → 卷末回望",
+      "motion": "卷面沿一个方向走，标题与字幕固定在独立层",
+      "editing": "用连续空间取代整页清空；句尾留停稳再巡览",
+      "references": [
+        "theatre",
+        "inspora"
+      ],
+      "contentKinds": [
+        "process",
+        "list",
+        "evidence"
+      ],
+      "implementedStates": [
+        "卷首 → 同一长卷中段 → 卷末回望"
+      ],
+      "decision": "所有语义面板常驻同一纵向世界，镜头只移动到本句位置。",
+      "boundary": "视口裁切有意为之；未进入视口的字不算已展示，禁止卷外文字遮人。",
+      "motionVocabulary": [
+        "单向长卷位移",
+        "窗口停稳",
+        "独立标题与字幕"
+      ],
+      "readingRule": "以本句真实窗口计算进场、完整显现、阅读、离场；短窗口删动作，不加速原声。",
+      "personRule": "源片原色，角落正圆，连续匀比缩放；人像层与材料镜头分离。",
+      "captionRule": "1080×1920：x64/top1600/w952/font60，最多两行，底部不越1800。",
+      "soundRule": "本轮只保留一条原声；音乐、拟音和J/L剪辑未在本轮验证。",
+      "representative": {
+        "styleId": "A13",
+        "key": "ink",
+        "name": "水墨留白",
+        "project": "variants/ink"
+      },
+      "verification": "qa/film-verification.json；文件实际存在且源码绑定才算已验证。"
+    },
+    {
+      "id": "C12",
+      "key": "radial",
+      "name": "放射结构",
+      "intent": "中心只有一个主张，周围是并列的选择或维度，层级靠距离建立。",
+      "states": "中心判断 → 两侧维度 → 收回中心",
+      "motion": "分支按序展开，局部强调后回到完整关系",
+      "editing": "共同中心保持，分支轮换而非每条重建全图",
+      "references": [
+        "theatre",
+        "opus"
+      ],
+      "contentKinds": [
+        "list",
+        "comparison",
+        "spatial"
+      ],
+      "implementedStates": [
+        "中心 → 周围分支 → 局部强调 → 完整关系"
+      ],
+      "decision": "只有一个中心主张，维度放在周围并用距离建立层级。",
+      "boundary": "多层嵌套、长句或长因果链应换推导画布；不让支线穿字。",
+      "motionVocabulary": [
+        "分支错峰",
+        "局部到整体",
+        "中心持续锚定"
+      ],
+      "readingRule": "以本句真实窗口计算进场、完整显现、阅读、离场；短窗口删动作，不加速原声。",
+      "personRule": "源片原色，角落正圆，连续匀比缩放；人像层与材料镜头分离。",
+      "captionRule": "1080×1920：x64/top1600/w952/font60，最多两行，底部不越1800。",
+      "soundRule": "本轮只保留一条原声；音乐、拟音和J/L剪辑未在本轮验证。",
+      "representative": {
+        "styleId": "A20",
+        "key": "sci-fi-wireframe",
+        "name": "科幻线框／硬表立体",
+        "project": "variants/sci-fi-wireframe"
+      },
+      "verification": "qa/film-verification.json；文件实际存在且源码绑定才算已验证。"
+    }
+  ],
+  "countMeaning": "12种信息组织与注意力交接系统；不是新增12个互斥排版、动效、剪辑技法，也不是100×12全验证。"
+}
