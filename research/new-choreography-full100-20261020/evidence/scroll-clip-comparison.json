@@ -1,0 +1,1328 @@
+{
+  "states": 96,
+  "wholeFrameExact": 96,
+  "clipRegionExact": 96,
+  "method": "Only visibility of wholly clipped panels; same frozen source-video frame in both sides. Actual encoded-video checks remain separate.",
+  "rows": [
+    {
+      "key": "embroidery",
+      "time": 0,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 0.1,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 2.037,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 4.7,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 4.94,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 4.967,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 5.1,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 5.3,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 5.5,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 5.8,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 6.111,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 8,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 10.185,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 12.7,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 12.94,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 13.1,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 13.4,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 14,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 14.259,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 15.16,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 15.367,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 15.6,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 15.9,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 16.2,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 18.333,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 18.9,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 20.33,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 20.533,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 20.8,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 21.3,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 22.407,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 24.4,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 26.481,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 28.33,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 28.533,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 28.7,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 28.9,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 29.1,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 29.3,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 29.7,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 29.933,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 30.1,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 30.4,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 30.556,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 30.8,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 34.63,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 35.7,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "key": "embroidery",
+      "time": 36.633,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 0,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 0.1,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 2.037,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 4.7,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 4.94,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 4.967,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 5.1,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 5.3,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 5.5,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 5.8,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 6.111,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 8,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 10.185,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 12.7,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 12.94,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 13.1,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 13.4,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 14,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 14.259,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 15.16,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 15.367,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 15.6,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 15.9,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 16.2,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 18.333,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 18.9,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 20.33,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 20.533,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 20.8,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 21.3,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 22.407,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 24.4,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 26.481,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 28.33,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 28.533,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 28.7,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 28.9,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 29.1,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 29.3,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 29.7,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 29.933,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 30.1,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 30.4,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 30.556,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 30.8,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 34.63,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 35.7,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "time": 36.633,
+      "wholeFrameDifferenceBox": null,
+      "clipRegionDifferenceBox": null,
+      "hiddenPanels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ]
+}

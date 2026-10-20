@@ -17,6 +17,14 @@ review=read(R/'qa/batch-author-review.json')
 assert final['fullFilms']==100 and final['videoRangeURLs']==200 and page['ok']
 assert len({x['key']for x in review['viewed']})==100 and not review['blockingFindings']
 lib=APP/'choreography-library';manifest=read(lib/'manifest.json');mapping=read(lib/'style-map.json');versions=read(lib/'source-versions.json')
+overrides=read(R/'qa/director-overrides.json')if(R/'qa/director-overrides.json').exists()else{'styles':{}}
+for key,change in overrides['styles'].items():
+    assert versions[key]['directorSha256']==change['oldDirectorSha256']
+    assert versions[key]['htmlSha256']==change['indexHtmlSha256']
+    assert change['comparisonStates']==48 and change['wholeFrameExact']==48
+    assert sha(R/'variants'/key/'scripts/director.js')==change['newDirectorSha256']
+    versions[key]['directorSha256']=change['newDirectorSha256']
+    versions[key]['implementationRevision']='Wholly clipped scroll panels have explicit hidden visibility;48 exact same-frame raster comparisons'
 assert read(APP/'.codex-plugin/plugin.json')['version']=='1.14.0','Release already changed; inspect before rerunning'
 assert {s['key']for s in mapping['styles']}=={s['key']for s in final['films']}
 # Validate all evidence against local final media and the actual shipping implementations before any mutation.
@@ -34,7 +42,10 @@ for item in final['films']:
     assert v['video']['frames']==1100 and v['status']=='verified'
 
 dest=lib/'evidence/full100';dest.mkdir(parents=True,exist_ok=True)
-for name in ['all100-final.json','all100-page-check.json','batch-dom-audit.json','batch-author-review.json']:
+for key,change in overrides['styles'].items():shutil.copy2(R/'variants'/key/'scripts/director.js',lib/'directors'/(change['newDirectorSha256']+'.js'))
+write(lib/'source-versions.json',versions)
+for name in ['all100-final.json','all100-page-check.json','batch-dom-audit.json','batch-author-review.json','director-overrides.json','scroll-clip-comparison.json']:
+    if not(R/'qa'/name).exists():continue
     shutil.copy2(R/'qa'/name,dest/name)
 for item in final['films']:
     key=item['key'];target=dest/key;target.mkdir(exist_ok=True)
@@ -46,6 +57,12 @@ for item in final['films']:
     row.update(fullFilmVerified=True,fullFilmVideoSha256=item['videoSha256'],fullFilmEvidence=f'evidence/full100/{key}/batch-verification.json')
 write(lib/'style-map.json',mapping)
 manifest.update(version='1.15.0',fullFilmVerified=100,fullFilmEvidence='evidence/full100/all100-final.json',scope='100 native primary designs and100 source-bound complete films;12 original representatives; single fixture only, not100x12 combinations')
+# Carry the same geometry-faithful visibility rule into new, unverified cross-combinations.
+candidate=lib/'directors'/(manifest['alternateDirectorSha256']+'.js');candidateSource=candidate.read_text()
+clipBefore='gsap.set(scrollWorld,{y:-progress*900});scrollViewport.style.opacity='
+clipAfter="gsap.set(scrollWorld,{y:-progress*900});const clipBounds=scrollViewport.getBoundingClientRect();for(const panel of scrollWorld.children){const panelBounds=panel.getBoundingClientRect();panel.style.visibility=panelBounds.bottom<=clipBounds.top||panelBounds.top>=clipBounds.bottom?'hidden':'visible';}scrollViewport.style.opacity="
+assert candidateSource.count(clipBefore)==1
+candidateSource=candidateSource.replace(clipBefore,clipAfter);candidateSha=hashlib.sha256(candidateSource.encode()).hexdigest();(lib/'directors'/(candidateSha+'.js')).write_text(candidateSource);manifest['alternateDirectorSha256']=candidateSha
 write(lib/'manifest.json',manifest)
 shutil.copy2(R/'variants/minimal/index.motion.json',lib/'index.motion.json')
 shutil.copy2(R/'batch-studio/check-with-budget.mjs',APP/'runtime/check-with-budget.mjs')
@@ -99,6 +116,8 @@ text=f'''# 1.15.0：100主搭配完整视频验收
 实际逐条核对MP4及源文件哈希、尺寸帧率、完整解码和音轨：全部声音偏移0采样，最小整轨相关性{final['audioCorrelationMin']:.8f}。实际解码{final['selectedDecodedFrames']}个指定关键帧与{final['denseDecodedFrames']}张5fps密集帧；动效检查{final['motionSamples']}样本，DOM审计4000状态/0项发现；200个真实视频Range请求均206。网页搜索、筛选、单片与A/B播放、关闭释放声音通过实际浏览器检查。
 
 固定检查器内置两分钟整体时限；本轮在资源繁忙时出现期限超时，失败记录保留。运行预算适配器只在内存中延长该时限至600秒，安装依赖文件与全部检查规则不变，每条仍实际完成300个动效采样；逐条check-budget证据与通过报告绑定。已通过且源码哈希完全未变的检查可复用，成片仍逐条解码核验。
+
+刺绣与绳结的长卷实现新增了裁切外面板的显式隐藏：原版全部保留，96个同原片帧的前后整画面对比均逐像素一致，未添加遮挡豁免属性；重新完成完整检查与新视频渲染。该规则也进入尚待逐片验证的自由组合实现，不更改其候选状态。
 
 逐条报告与源绑定在[choreography-library/evidence/full100](../choreography-library/evidence/full100/all100-final.json)。可重建制作脚本与画廊在[本轮研究归档](../research/new-choreography-full100-20261020/README.md)；成片位于插件外独立总览工程，大视频不放Git。固定素材初始化现在携带3条动效断言，局部修改副本继承；新素材仍由四个完整模块根据真实语义设计。
 

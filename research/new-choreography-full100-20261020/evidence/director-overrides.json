@@ -1,0 +1,23 @@
+{
+  "scope": "Layout implementation revision only: explicit visibility for panels wholly outside the declared overflow-hidden viewport; no allow-occlusion flags, facts, voice, timings, geometry or visible raster changes.",
+  "styles": {
+    "embroidery": {
+      "oldDirectorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+      "newDirectorSha256": "d1827a3486a4d6921301ff73d0fde22eef33912bbcdb18aa5f454d717af76eb2",
+      "indexHtmlSha256": "106d90b961b9830aa374bf836e266d02187643e69a552fe11bbb07997177494b",
+      "backup": "revisions/embroidery-before-scroll-visibility",
+      "module": "layout",
+      "comparisonStates": 48,
+      "wholeFrameExact": 48
+    },
+    "knotted-cord": {
+      "oldDirectorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+      "newDirectorSha256": "d1827a3486a4d6921301ff73d0fde22eef33912bbcdb18aa5f454d717af76eb2",
+      "indexHtmlSha256": "51f27211730269de415df2951238fbb28caf730ebeee84c6429aba43039323bc",
+      "backup": "revisions/knotted-cord-before-scroll-visibility",
+      "module": "layout",
+      "comparisonStates": 48,
+      "wholeFrameExact": 48
+    }
+  }
+}

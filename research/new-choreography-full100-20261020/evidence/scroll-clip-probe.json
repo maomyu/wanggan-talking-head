@@ -1,0 +1,5381 @@
+{
+  "scope": "Only visibility of wholly clipped panels; same frozen source-video frame in both sides. Actual encoded-video checks remain separate.",
+  "states": [
+    {
+      "key": "embroidery",
+      "t": 0,
+      "index": 0,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 1,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 4080,
+          "bottom": 4930,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 4980,
+          "bottom": 5830,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 5880,
+          "bottom": 6730,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 0.1,
+      "index": 1,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 1,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 4080,
+          "bottom": 4930,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 4980,
+          "bottom": 5830,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 5880,
+          "bottom": 6730,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 2.037,
+      "index": 2,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 1,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 4080,
+          "bottom": 4930,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 4980,
+          "bottom": 5830,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 5880,
+          "bottom": 6730,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 4.7,
+      "index": 3,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 1,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 4080,
+          "bottom": 4930,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 4980,
+          "bottom": 5830,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 5880,
+          "bottom": 6730,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 4.94,
+      "index": 4,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 1,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 4080,
+          "bottom": 4930,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 4980,
+          "bottom": 5830,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 5880,
+          "bottom": 6730,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 4.967,
+      "index": 5,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": 479.9992980957031,
+          "bottom": 1329.9992980957031,
+          "hidden": false
+        },
+        {
+          "index": 1,
+          "top": 1379.999267578125,
+          "bottom": 2229.999267578125,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": 2279.999267578125,
+          "bottom": 3129.999267578125,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 3179.999267578125,
+          "bottom": 4029.999267578125,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 4079.999267578125,
+          "bottom": 4929.99951171875,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 4979.99951171875,
+          "bottom": 5829.99951171875,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 5879.99951171875,
+          "bottom": 6729.99951171875,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 5.1,
+      "index": 6,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": 381.9269104003906,
+          "bottom": 1231.9269104003906,
+          "hidden": false
+        },
+        {
+          "index": 1,
+          "top": 1281.9268798828125,
+          "bottom": 2131.9267578125,
+          "hidden": false
+        },
+        {
+          "index": 2,
+          "top": 2181.9267578125,
+          "bottom": 3031.927001953125,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 3081.927001953125,
+          "bottom": 3931.927001953125,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 3981.927001953125,
+          "bottom": 4831.9267578125,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 4881.9267578125,
+          "bottom": 5731.9267578125,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 5781.9267578125,
+          "bottom": 6631.9267578125,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 5.3,
+      "index": 7,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": 12.69610595703125,
+          "bottom": 862.6961059570312,
+          "hidden": false
+        },
+        {
+          "index": 1,
+          "top": 912.6961059570312,
+          "bottom": 1762.696044921875,
+          "hidden": false
+        },
+        {
+          "index": 2,
+          "top": 1812.696044921875,
+          "bottom": 2662.696044921875,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 2712.696044921875,
+          "bottom": 3562.696044921875,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 3612.696044921875,
+          "bottom": 4462.6962890625,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 4512.6962890625,
+          "bottom": 5362.6962890625,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 5412.6962890625,
+          "bottom": 6262.6962890625,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 5.5,
+      "index": 8,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -343.4259033203125,
+          "bottom": 506.5740966796875,
+          "hidden": false
+        },
+        {
+          "index": 1,
+          "top": 556.5740966796875,
+          "bottom": 1406.5740966796875,
+          "hidden": false
+        },
+        {
+          "index": 2,
+          "top": 1456.5740966796875,
+          "bottom": 2306.57421875,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 2356.57421875,
+          "bottom": 3206.57421875,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 3256.57421875,
+          "bottom": 4106.57421875,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 4156.57421875,
+          "bottom": 5006.57421875,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 5056.57421875,
+          "bottom": 5906.57421875,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 5.8,
+      "index": 9,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 2,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 4080,
+          "bottom": 4930,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 4980,
+          "bottom": 5830,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 6.111,
+      "index": 10,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 2,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 4080,
+          "bottom": 4930,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 4980,
+          "bottom": 5830,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 8,
+      "index": 11,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 2,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 4080,
+          "bottom": 4930,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 4980,
+          "bottom": 5830,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 10.185,
+      "index": 12,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 2,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 4080,
+          "bottom": 4930,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 4980,
+          "bottom": 5830,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 12.7,
+      "index": 13,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 2,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 4080,
+          "bottom": 4930,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 4980,
+          "bottom": 5830,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 12.94,
+      "index": 14,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -420.2821044921875,
+          "bottom": 429.7178955078125,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": 479.7178955078125,
+          "bottom": 1329.7178955078125,
+          "hidden": false
+        },
+        {
+          "index": 2,
+          "top": 1379.7178955078125,
+          "bottom": 2229.7177734375,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 2279.7177734375,
+          "bottom": 3129.7177734375,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 3179.7177734375,
+          "bottom": 4029.7177734375,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 4079.7177734375,
+          "bottom": 4929.7177734375,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 4979.7177734375,
+          "bottom": 5829.7177734375,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 13.1,
+      "index": 15,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -567.17041015625,
+          "bottom": 282.82958984375,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": 332.82958984375,
+          "bottom": 1182.82958984375,
+          "hidden": false
+        },
+        {
+          "index": 2,
+          "top": 1232.82958984375,
+          "bottom": 2082.82958984375,
+          "hidden": false
+        },
+        {
+          "index": 3,
+          "top": 2132.82958984375,
+          "bottom": 2982.82958984375,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 3032.82958984375,
+          "bottom": 3882.82958984375,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 3932.82958984375,
+          "bottom": 4782.82958984375,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 4832.82958984375,
+          "bottom": 5682.82958984375,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 13.4,
+      "index": 16,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -1145.595458984375,
+          "bottom": -295.595458984375,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -245.595458984375,
+          "bottom": 604.404541015625,
+          "hidden": false
+        },
+        {
+          "index": 2,
+          "top": 654.404541015625,
+          "bottom": 1504.404541015625,
+          "hidden": false
+        },
+        {
+          "index": 3,
+          "top": 1554.404541015625,
+          "bottom": 2404.404541015625,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 2454.404541015625,
+          "bottom": 3304.404541015625,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 3354.404541015625,
+          "bottom": 4204.404296875,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 4254.404296875,
+          "bottom": 5104.404296875,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 14,
+      "index": 17,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 3,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 4080,
+          "bottom": 4930,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 14.259,
+      "index": 18,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 3,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 4080,
+          "bottom": 4930,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 15.16,
+      "index": 19,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 3,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 4080,
+          "bottom": 4930,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 15.367,
+      "index": 20,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -1320.000732421875,
+          "bottom": -470.000732421875,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -420.000732421875,
+          "bottom": 429.999267578125,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": 479.999267578125,
+          "bottom": 1329.999267578125,
+          "hidden": false
+        },
+        {
+          "index": 3,
+          "top": 1379.999267578125,
+          "bottom": 2229.999267578125,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 2279.999267578125,
+          "bottom": 3129.999267578125,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 3179.999267578125,
+          "bottom": 4029.999267578125,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 4079.999267578125,
+          "bottom": 4929.9990234375,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 15.6,
+      "index": 21,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -1584.663818359375,
+          "bottom": -734.663818359375,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -684.663818359375,
+          "bottom": 165.336181640625,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": 215.336181640625,
+          "bottom": 1065.336181640625,
+          "hidden": false
+        },
+        {
+          "index": 3,
+          "top": 1115.336181640625,
+          "bottom": 1965.336181640625,
+          "hidden": false
+        },
+        {
+          "index": 4,
+          "top": 2015.336181640625,
+          "bottom": 2865.336181640625,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 2915.336181640625,
+          "bottom": 3765.336181640625,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 3815.336181640625,
+          "bottom": 4665.3359375,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 15.9,
+      "index": 22,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -2143.42578125,
+          "bottom": -1293.42578125,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -1243.42578125,
+          "bottom": -393.42578125,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -343.42578125,
+          "bottom": 506.57421875,
+          "hidden": false
+        },
+        {
+          "index": 3,
+          "top": 556.57421875,
+          "bottom": 1406.57421875,
+          "hidden": false
+        },
+        {
+          "index": 4,
+          "top": 1456.57421875,
+          "bottom": 2306.57421875,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 2356.57421875,
+          "bottom": 3206.57421875,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 3256.57421875,
+          "bottom": 4106.57421875,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 16.2,
+      "index": 23,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 4,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 18.333,
+      "index": 24,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 4,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 18.9,
+      "index": 25,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 4,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 20.33,
+      "index": 26,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 4,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 20.533,
+      "index": 27,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 4,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 20.8,
+      "index": 28,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -2550.147216796875,
+          "bottom": -1700.147216796875,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -1650.147216796875,
+          "bottom": -800.147216796875,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -750.147216796875,
+          "bottom": 99.852783203125,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 149.852783203125,
+          "bottom": 999.852783203125,
+          "hidden": false
+        },
+        {
+          "index": 4,
+          "top": 1049.852783203125,
+          "bottom": 1899.852783203125,
+          "hidden": false
+        },
+        {
+          "index": 5,
+          "top": 1949.852783203125,
+          "bottom": 2799.852783203125,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 2849.852783203125,
+          "bottom": 3699.852783203125,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 21.3,
+      "index": 29,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -3120,
+          "bottom": -2270,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 5,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 22.407,
+      "index": 30,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -3120,
+          "bottom": -2270,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 5,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 24.4,
+      "index": 31,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -3120,
+          "bottom": -2270,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 5,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 26.481,
+      "index": 32,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -3120,
+          "bottom": -2270,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 5,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 28.33,
+      "index": 33,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -3120,
+          "bottom": -2270,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 5,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 28.533,
+      "index": 34,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -3120,
+          "bottom": -2270,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 5,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 28.7,
+      "index": 35,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -3267.17041015625,
+          "bottom": -2417.17041015625,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -2367.17041015625,
+          "bottom": -1517.17041015625,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -1467.17041015625,
+          "bottom": -617.17041015625,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -567.17041015625,
+          "bottom": 282.82958984375,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 332.82958984375,
+          "bottom": 1182.82958984375,
+          "hidden": false
+        },
+        {
+          "index": 5,
+          "top": 1232.82958984375,
+          "bottom": 2082.82958984375,
+          "hidden": false
+        },
+        {
+          "index": 6,
+          "top": 2132.82958984375,
+          "bottom": 2982.82958984375,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 28.9,
+      "index": 36,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -3656.064453125,
+          "bottom": -2806.064453125,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -2756.064453125,
+          "bottom": -1906.064453125,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -1856.064453125,
+          "bottom": -1006.064453125,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -956.064453125,
+          "bottom": -106.064453125,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": -56.064453125,
+          "bottom": 793.935546875,
+          "hidden": false
+        },
+        {
+          "index": 5,
+          "top": 843.935546875,
+          "bottom": 1693.935546875,
+          "hidden": false
+        },
+        {
+          "index": 6,
+          "top": 1743.935546875,
+          "bottom": 2593.935546875,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 29.1,
+      "index": 37,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -3979.41455078125,
+          "bottom": -3129.41455078125,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -3079.41455078125,
+          "bottom": -2229.41455078125,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -2179.41455078125,
+          "bottom": -1329.41455078125,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -1279.41455078125,
+          "bottom": -429.41455078125,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": -379.41455078125,
+          "bottom": 470.58544921875,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 520.58544921875,
+          "bottom": 1370.58544921875,
+          "hidden": false
+        },
+        {
+          "index": 6,
+          "top": 1420.58544921875,
+          "bottom": 2270.58544921875,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 29.3,
+      "index": 38,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -4020,
+          "bottom": -3170,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -3120,
+          "bottom": -2270,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 6,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 29.7,
+      "index": 39,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -4020,
+          "bottom": -3170,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -3120,
+          "bottom": -2270,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 6,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 29.933,
+      "index": 40,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -4020,
+          "bottom": -3170,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -3120,
+          "bottom": -2270,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 6,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 30.1,
+      "index": 41,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -4167.17041015625,
+          "bottom": -3317.17041015625,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -3267.17041015625,
+          "bottom": -2417.17041015625,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -2367.17041015625,
+          "bottom": -1517.17041015625,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -1467.17041015625,
+          "bottom": -617.17041015625,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": -567.17041015625,
+          "bottom": 282.82958984375,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 332.82958984375,
+          "bottom": 1182.82958984375,
+          "hidden": false
+        },
+        {
+          "index": 6,
+          "top": 1232.82958984375,
+          "bottom": 2082.82958984375,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 30.4,
+      "index": 42,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -4745.595703125,
+          "bottom": -3895.595703125,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -3845.595703125,
+          "bottom": -2995.595703125,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -2945.595703125,
+          "bottom": -2095.595703125,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -2045.595703125,
+          "bottom": -1195.595703125,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": -1145.595703125,
+          "bottom": -295.595703125,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": -245.595703125,
+          "bottom": 604.404296875,
+          "hidden": false
+        },
+        {
+          "index": 6,
+          "top": 654.404296875,
+          "bottom": 1504.404296875,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 30.556,
+      "index": 43,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -4915.359375,
+          "bottom": -4065.359375,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -4015.359375,
+          "bottom": -3165.359375,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -3115.359375,
+          "bottom": -2265.359375,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -2215.359375,
+          "bottom": -1365.359375,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": -1315.359375,
+          "bottom": -465.359375,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": -415.359375,
+          "bottom": 434.640625,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 484.640625,
+          "bottom": 1334.640625,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 30.8,
+      "index": 44,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -4920,
+          "bottom": -4070,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -4020,
+          "bottom": -3170,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -3120,
+          "bottom": -2270,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 34.63,
+      "index": 45,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -4920,
+          "bottom": -4070,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -4020,
+          "bottom": -3170,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -3120,
+          "bottom": -2270,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 35.7,
+      "index": 46,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -4920,
+          "bottom": -4070,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -4020,
+          "bottom": -3170,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -3120,
+          "bottom": -2270,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "key": "embroidery",
+      "t": 36.633,
+      "index": 47,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -4920,
+          "bottom": -4070,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -4020,
+          "bottom": -3170,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -3120,
+          "bottom": -2270,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 0,
+      "index": 0,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 1,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 4080,
+          "bottom": 4930,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 4980,
+          "bottom": 5830,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 5880,
+          "bottom": 6730,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 0.1,
+      "index": 1,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 1,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 4080,
+          "bottom": 4930,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 4980,
+          "bottom": 5830,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 5880,
+          "bottom": 6730,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 2.037,
+      "index": 2,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 1,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 4080,
+          "bottom": 4930,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 4980,
+          "bottom": 5830,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 5880,
+          "bottom": 6730,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 4.7,
+      "index": 3,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 1,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 4080,
+          "bottom": 4930,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 4980,
+          "bottom": 5830,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 5880,
+          "bottom": 6730,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 4.94,
+      "index": 4,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 1,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 4080,
+          "bottom": 4930,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 4980,
+          "bottom": 5830,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 5880,
+          "bottom": 6730,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 4.967,
+      "index": 5,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": 479.9992980957031,
+          "bottom": 1329.9992980957031,
+          "hidden": false
+        },
+        {
+          "index": 1,
+          "top": 1379.999267578125,
+          "bottom": 2229.999267578125,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": 2279.999267578125,
+          "bottom": 3129.999267578125,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 3179.999267578125,
+          "bottom": 4029.999267578125,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 4079.999267578125,
+          "bottom": 4929.99951171875,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 4979.99951171875,
+          "bottom": 5829.99951171875,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 5879.99951171875,
+          "bottom": 6729.99951171875,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 5.1,
+      "index": 6,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": 381.9269104003906,
+          "bottom": 1231.9269104003906,
+          "hidden": false
+        },
+        {
+          "index": 1,
+          "top": 1281.9268798828125,
+          "bottom": 2131.9267578125,
+          "hidden": false
+        },
+        {
+          "index": 2,
+          "top": 2181.9267578125,
+          "bottom": 3031.927001953125,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 3081.927001953125,
+          "bottom": 3931.927001953125,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 3981.927001953125,
+          "bottom": 4831.9267578125,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 4881.9267578125,
+          "bottom": 5731.9267578125,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 5781.9267578125,
+          "bottom": 6631.9267578125,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 5.3,
+      "index": 7,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": 12.69610595703125,
+          "bottom": 862.6961059570312,
+          "hidden": false
+        },
+        {
+          "index": 1,
+          "top": 912.6961059570312,
+          "bottom": 1762.696044921875,
+          "hidden": false
+        },
+        {
+          "index": 2,
+          "top": 1812.696044921875,
+          "bottom": 2662.696044921875,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 2712.696044921875,
+          "bottom": 3562.696044921875,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 3612.696044921875,
+          "bottom": 4462.6962890625,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 4512.6962890625,
+          "bottom": 5362.6962890625,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 5412.6962890625,
+          "bottom": 6262.6962890625,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 5.5,
+      "index": 8,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -343.4259033203125,
+          "bottom": 506.5740966796875,
+          "hidden": false
+        },
+        {
+          "index": 1,
+          "top": 556.5740966796875,
+          "bottom": 1406.5740966796875,
+          "hidden": false
+        },
+        {
+          "index": 2,
+          "top": 1456.5740966796875,
+          "bottom": 2306.57421875,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 2356.57421875,
+          "bottom": 3206.57421875,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 3256.57421875,
+          "bottom": 4106.57421875,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 4156.57421875,
+          "bottom": 5006.57421875,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 5056.57421875,
+          "bottom": 5906.57421875,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 5.8,
+      "index": 9,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 2,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 4080,
+          "bottom": 4930,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 4980,
+          "bottom": 5830,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 6.111,
+      "index": 10,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 2,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 4080,
+          "bottom": 4930,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 4980,
+          "bottom": 5830,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 8,
+      "index": 11,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 2,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 4080,
+          "bottom": 4930,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 4980,
+          "bottom": 5830,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 10.185,
+      "index": 12,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 2,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 4080,
+          "bottom": 4930,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 4980,
+          "bottom": 5830,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 12.7,
+      "index": 13,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 2,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 4080,
+          "bottom": 4930,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 4980,
+          "bottom": 5830,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 12.94,
+      "index": 14,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -420.2821044921875,
+          "bottom": 429.7178955078125,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": 479.7178955078125,
+          "bottom": 1329.7178955078125,
+          "hidden": false
+        },
+        {
+          "index": 2,
+          "top": 1379.7178955078125,
+          "bottom": 2229.7177734375,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 2279.7177734375,
+          "bottom": 3129.7177734375,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 3179.7177734375,
+          "bottom": 4029.7177734375,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 4079.7177734375,
+          "bottom": 4929.7177734375,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 4979.7177734375,
+          "bottom": 5829.7177734375,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 13.1,
+      "index": 15,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -567.17041015625,
+          "bottom": 282.82958984375,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": 332.82958984375,
+          "bottom": 1182.82958984375,
+          "hidden": false
+        },
+        {
+          "index": 2,
+          "top": 1232.82958984375,
+          "bottom": 2082.82958984375,
+          "hidden": false
+        },
+        {
+          "index": 3,
+          "top": 2132.82958984375,
+          "bottom": 2982.82958984375,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 3032.82958984375,
+          "bottom": 3882.82958984375,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 3932.82958984375,
+          "bottom": 4782.82958984375,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 4832.82958984375,
+          "bottom": 5682.82958984375,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 13.4,
+      "index": 16,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -1145.595458984375,
+          "bottom": -295.595458984375,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -245.595458984375,
+          "bottom": 604.404541015625,
+          "hidden": false
+        },
+        {
+          "index": 2,
+          "top": 654.404541015625,
+          "bottom": 1504.404541015625,
+          "hidden": false
+        },
+        {
+          "index": 3,
+          "top": 1554.404541015625,
+          "bottom": 2404.404541015625,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 2454.404541015625,
+          "bottom": 3304.404541015625,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 3354.404541015625,
+          "bottom": 4204.404296875,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 4254.404296875,
+          "bottom": 5104.404296875,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 14,
+      "index": 17,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 3,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 4080,
+          "bottom": 4930,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 14.259,
+      "index": 18,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 3,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 4080,
+          "bottom": 4930,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 15.16,
+      "index": 19,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 3,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 4080,
+          "bottom": 4930,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 15.367,
+      "index": 20,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -1320.000732421875,
+          "bottom": -470.000732421875,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -420.000732421875,
+          "bottom": 429.999267578125,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": 479.999267578125,
+          "bottom": 1329.999267578125,
+          "hidden": false
+        },
+        {
+          "index": 3,
+          "top": 1379.999267578125,
+          "bottom": 2229.999267578125,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 2279.999267578125,
+          "bottom": 3129.999267578125,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 3179.999267578125,
+          "bottom": 4029.999267578125,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 4079.999267578125,
+          "bottom": 4929.9990234375,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 15.6,
+      "index": 21,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -1584.663818359375,
+          "bottom": -734.663818359375,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -684.663818359375,
+          "bottom": 165.336181640625,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": 215.336181640625,
+          "bottom": 1065.336181640625,
+          "hidden": false
+        },
+        {
+          "index": 3,
+          "top": 1115.336181640625,
+          "bottom": 1965.336181640625,
+          "hidden": false
+        },
+        {
+          "index": 4,
+          "top": 2015.336181640625,
+          "bottom": 2865.336181640625,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 2915.336181640625,
+          "bottom": 3765.336181640625,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 3815.336181640625,
+          "bottom": 4665.3359375,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 15.9,
+      "index": 22,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -2143.42578125,
+          "bottom": -1293.42578125,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -1243.42578125,
+          "bottom": -393.42578125,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -343.42578125,
+          "bottom": 506.57421875,
+          "hidden": false
+        },
+        {
+          "index": 3,
+          "top": 556.57421875,
+          "bottom": 1406.57421875,
+          "hidden": false
+        },
+        {
+          "index": 4,
+          "top": 1456.57421875,
+          "bottom": 2306.57421875,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 2356.57421875,
+          "bottom": 3206.57421875,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 3256.57421875,
+          "bottom": 4106.57421875,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 16.2,
+      "index": 23,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 4,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 18.333,
+      "index": 24,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 4,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 18.9,
+      "index": 25,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 4,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 20.33,
+      "index": 26,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 4,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 20.533,
+      "index": 27,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 4,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 3180,
+          "bottom": 4030,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 20.8,
+      "index": 28,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -2550.147216796875,
+          "bottom": -1700.147216796875,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -1650.147216796875,
+          "bottom": -800.147216796875,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -750.147216796875,
+          "bottom": 99.852783203125,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": 149.852783203125,
+          "bottom": 999.852783203125,
+          "hidden": false
+        },
+        {
+          "index": 4,
+          "top": 1049.852783203125,
+          "bottom": 1899.852783203125,
+          "hidden": false
+        },
+        {
+          "index": 5,
+          "top": 1949.852783203125,
+          "bottom": 2799.852783203125,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 2849.852783203125,
+          "bottom": 3699.852783203125,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 21.3,
+      "index": 29,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -3120,
+          "bottom": -2270,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 5,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 22.407,
+      "index": 30,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -3120,
+          "bottom": -2270,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 5,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 24.4,
+      "index": 31,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -3120,
+          "bottom": -2270,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 5,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 26.481,
+      "index": 32,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -3120,
+          "bottom": -2270,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 5,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 28.33,
+      "index": 33,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -3120,
+          "bottom": -2270,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 5,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 28.533,
+      "index": 34,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -3120,
+          "bottom": -2270,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 5,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 2280,
+          "bottom": 3130,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 28.7,
+      "index": 35,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -3267.17041015625,
+          "bottom": -2417.17041015625,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -2367.17041015625,
+          "bottom": -1517.17041015625,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -1467.17041015625,
+          "bottom": -617.17041015625,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -567.17041015625,
+          "bottom": 282.82958984375,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": 332.82958984375,
+          "bottom": 1182.82958984375,
+          "hidden": false
+        },
+        {
+          "index": 5,
+          "top": 1232.82958984375,
+          "bottom": 2082.82958984375,
+          "hidden": false
+        },
+        {
+          "index": 6,
+          "top": 2132.82958984375,
+          "bottom": 2982.82958984375,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 28.9,
+      "index": 36,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -3656.064453125,
+          "bottom": -2806.064453125,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -2756.064453125,
+          "bottom": -1906.064453125,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -1856.064453125,
+          "bottom": -1006.064453125,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -956.064453125,
+          "bottom": -106.064453125,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": -56.064453125,
+          "bottom": 793.935546875,
+          "hidden": false
+        },
+        {
+          "index": 5,
+          "top": 843.935546875,
+          "bottom": 1693.935546875,
+          "hidden": false
+        },
+        {
+          "index": 6,
+          "top": 1743.935546875,
+          "bottom": 2593.935546875,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 29.1,
+      "index": 37,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -3979.41455078125,
+          "bottom": -3129.41455078125,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -3079.41455078125,
+          "bottom": -2229.41455078125,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -2179.41455078125,
+          "bottom": -1329.41455078125,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -1279.41455078125,
+          "bottom": -429.41455078125,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": -379.41455078125,
+          "bottom": 470.58544921875,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 520.58544921875,
+          "bottom": 1370.58544921875,
+          "hidden": false
+        },
+        {
+          "index": 6,
+          "top": 1420.58544921875,
+          "bottom": 2270.58544921875,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 29.3,
+      "index": 38,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -4020,
+          "bottom": -3170,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -3120,
+          "bottom": -2270,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 6,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 29.7,
+      "index": 39,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -4020,
+          "bottom": -3170,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -3120,
+          "bottom": -2270,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 6,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 29.933,
+      "index": 40,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -4020,
+          "bottom": -3170,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -3120,
+          "bottom": -2270,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        },
+        {
+          "index": 6,
+          "top": 1380,
+          "bottom": 2230,
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 30.1,
+      "index": 41,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -4167.17041015625,
+          "bottom": -3317.17041015625,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -3267.17041015625,
+          "bottom": -2417.17041015625,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -2367.17041015625,
+          "bottom": -1517.17041015625,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -1467.17041015625,
+          "bottom": -617.17041015625,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": -567.17041015625,
+          "bottom": 282.82958984375,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": 332.82958984375,
+          "bottom": 1182.82958984375,
+          "hidden": false
+        },
+        {
+          "index": 6,
+          "top": 1232.82958984375,
+          "bottom": 2082.82958984375,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 30.4,
+      "index": 42,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -4745.595703125,
+          "bottom": -3895.595703125,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -3845.595703125,
+          "bottom": -2995.595703125,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -2945.595703125,
+          "bottom": -2095.595703125,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -2045.595703125,
+          "bottom": -1195.595703125,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": -1145.595703125,
+          "bottom": -295.595703125,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": -245.595703125,
+          "bottom": 604.404296875,
+          "hidden": false
+        },
+        {
+          "index": 6,
+          "top": 654.404296875,
+          "bottom": 1504.404296875,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 30.556,
+      "index": 43,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -4915.359375,
+          "bottom": -4065.359375,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -4015.359375,
+          "bottom": -3165.359375,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -3115.359375,
+          "bottom": -2265.359375,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -2215.359375,
+          "bottom": -1365.359375,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": -1315.359375,
+          "bottom": -465.359375,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": -415.359375,
+          "bottom": 434.640625,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 484.640625,
+          "bottom": 1334.640625,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 30.8,
+      "index": 44,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -4920,
+          "bottom": -4070,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -4020,
+          "bottom": -3170,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -3120,
+          "bottom": -2270,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 34.63,
+      "index": 45,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -4920,
+          "bottom": -4070,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -4020,
+          "bottom": -3170,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -3120,
+          "bottom": -2270,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 35.7,
+      "index": 46,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -4920,
+          "bottom": -4070,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -4020,
+          "bottom": -3170,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -3120,
+          "bottom": -2270,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "t": 36.633,
+      "index": 47,
+      "viewport": {
+        "x": 64,
+        "y": 480,
+        "w": 510,
+        "h": 850,
+        "bottom": 1330
+      },
+      "panels": [
+        {
+          "index": 0,
+          "top": -4920,
+          "bottom": -4070,
+          "hidden": true
+        },
+        {
+          "index": 1,
+          "top": -4020,
+          "bottom": -3170,
+          "hidden": true
+        },
+        {
+          "index": 2,
+          "top": -3120,
+          "bottom": -2270,
+          "hidden": true
+        },
+        {
+          "index": 3,
+          "top": -2220,
+          "bottom": -1370,
+          "hidden": true
+        },
+        {
+          "index": 4,
+          "top": -1320,
+          "bottom": -470,
+          "hidden": true
+        },
+        {
+          "index": 5,
+          "top": -420,
+          "bottom": 430,
+          "hidden": true
+        },
+        {
+          "index": 6,
+          "top": 480,
+          "bottom": 1330,
+          "hidden": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "verified": 60,
+  "verified": 74,
   "total": 100,
   "videos": [
     {
@@ -418,6 +418,104 @@
     {
       "key": "corrugated-model",
       "videoSha256": "686b515e3a7eeadfa8f5c86a52884ae25e5707cfaab97566281a33fe2e42ae98",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "torn-paper",
+      "videoSha256": "b20ad667efc8c43d40617a9b441a184b21bee7777832ea27eaf459a85f8c1715",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "felt-applique",
+      "videoSha256": "b4324e48da9741102f9966b495c5860c4fb9aa2575ae5e10d255474f3feb707e",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "patchwork",
+      "videoSha256": "213a6b7341fe04fad8496a3541bc8d9d898f1f134162ab2378ab9c2b1cb63ff0",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "silk-layers",
+      "videoSha256": "835feb05f41382846a7d802a45cfb335e00d079f8fe6b1d6ae60992e8856f074",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "gongbi",
+      "videoSha256": "4c1851926eff14f9572e74921d47b4e11a2dfb3553eca6dc921c7911135b5909",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "blue-green-landscape",
+      "videoSha256": "10cd8f411701b29d4652dcae5ce725657a5154a91dfe0331c8db622fe8332050",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "mural",
+      "videoSha256": "c6342ee7a8b1f415a86c2253ee4591fbff92b9622b82a6272552bf56a6344b72",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "folk-woodblock",
+      "videoSha256": "ac998d7164172afa735f711da2d2064c81f7b44ab7590f214c0457a60b011ca2",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "porcelain-painting",
+      "videoSha256": "06357b0df07a7ca709d79df803b7d56d2d3b684ee034226c1eee61f94f7cf3f3",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "seal-carving",
+      "videoSha256": "9646d02d2e9e5619db6424dbdd639ac7c9e20fdb5a9654462b6d232f571dd5e3",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "lacquer-gold",
+      "videoSha256": "d8c776b35fc2c478fc962ee6d4d4c52f56ead272b3875ae2b082aa3965d075fe",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "watercolor",
+      "videoSha256": "f028566eb3959743bdb2ac9760782d2df4312920787b389ded0d0529c97f1fdd",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "impasto",
+      "videoSha256": "c468b7cd513b7ef4093eaf9d46e9b9e83a297b98bdb0c70c0f930d4f2490a787",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "woodcut",
+      "videoSha256": "c963509ab42b4f7303cd35efee885d67ff563365a62e24c867598c9b5e90790a",
       "frames": 1100,
       "audioCorrelation": 0.9999823504746719,
       "motionSamples": 300

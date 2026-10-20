@@ -86249,7 +86249,8 @@
           "audios": 1,
           "src": "http://127.0.0.1:58655/variants/embroidery/assets/master.mp4"
         }
-      ]
+      ],
+      "checkedDirectorSha256": "d1827a3486a4d6921301ff73d0fde22eef33912bbcdb18aa5f454d717af76eb2"
     },
     {
       "id": "A64",
@@ -88987,7 +88988,8 @@
           "audios": 1,
           "src": "http://127.0.0.1:58655/variants/knotted-cord/assets/master.mp4"
         }
-      ]
+      ],
+      "checkedDirectorSha256": "d1827a3486a4d6921301ff73d0fde22eef33912bbcdb18aa5f454d717af76eb2"
     },
     {
       "id": "A66",

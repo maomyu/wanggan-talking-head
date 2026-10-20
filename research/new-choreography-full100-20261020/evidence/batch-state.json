@@ -1,7 +1,7 @@
 {
   "status": "in-progress",
   "total": 100,
-  "verified": 60,
+  "verified": 74,
   "reusedSourceBoundVideos": 12,
   "jobs": {
     "minimal": {
@@ -481,67 +481,143 @@
       "motionSamples": 300
     },
     "torn-paper": {
-      "status": "verifying",
-      "updated": 1792486680.1369128,
-      "started": 1792485997.376369
+      "status": "verified",
+      "updated": 1792486768.121553,
+      "started": 1792485997.376369,
+      "videoSha256": "b20ad667efc8c43d40617a9b441a184b21bee7777832ea27eaf459a85f8c1715",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "felt-applique": {
-      "status": "rendering",
-      "updated": 1792486557.243326,
-      "started": 1792486314.841701
+      "status": "verified",
+      "updated": 1792486880.1333902,
+      "started": 1792486314.841701,
+      "videoSha256": "b4324e48da9741102f9966b495c5860c4fb9aa2575ae5e10d255474f3feb707e",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "embroidery": {
-      "status": "checking",
-      "updated": 1792486682.113993,
-      "started": 1792486682.113984
+      "status": "failed",
+      "updated": 1792486783.790771,
+      "started": 1792486682.113984,
+      "error": "batch-check.log failed 1"
     },
     "patchwork": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792487113.390516,
+      "started": 1792486768.1330109,
+      "videoSha256": "213a6b7341fe04fad8496a3541bc8d9d898f1f134162ab2378ab9c2b1cb63ff0",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "knotted-cord": {
-      "status": "queued"
+      "status": "failed",
+      "updated": 1792486976.03842,
+      "started": 1792486783.802212,
+      "error": "batch-check.log failed 1"
     },
     "silk-layers": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792487418.070478,
+      "started": 1792486880.1378932,
+      "videoSha256": "835feb05f41382846a7d802a45cfb335e00d079f8fe6b1d6ae60992e8856f074",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "gongbi": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792487501.1856809,
+      "started": 1792486976.054676,
+      "videoSha256": "4c1851926eff14f9572e74921d47b4e11a2dfb3553eca6dc921c7911135b5909",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "blue-green-landscape": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792487633.5208251,
+      "started": 1792487113.3977149,
+      "videoSha256": "10cd8f411701b29d4652dcae5ce725657a5154a91dfe0331c8db622fe8332050",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "mural": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792487920.9664829,
+      "started": 1792487418.1054919,
+      "videoSha256": "c6342ee7a8b1f415a86c2253ee4591fbff92b9622b82a6272552bf56a6344b72",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "folk-woodblock": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792488006.142184,
+      "started": 1792487501.190326,
+      "videoSha256": "ac998d7164172afa735f711da2d2064c81f7b44ab7590f214c0457a60b011ca2",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "porcelain-painting": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792488108.72276,
+      "started": 1792487633.528173,
+      "videoSha256": "06357b0df07a7ca709d79df803b7d56d2d3b684ee034226c1eee61f94f7cf3f3",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "seal-carving": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792488379.1091971,
+      "started": 1792487920.98192,
+      "videoSha256": "9646d02d2e9e5619db6424dbdd639ac7c9e20fdb5a9654462b6d232f571dd5e3",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "lacquer-gold": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792488510.337583,
+      "started": 1792488006.151613,
+      "videoSha256": "d8c776b35fc2c478fc962ee6d4d4c52f56ead272b3875ae2b082aa3965d075fe",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "watercolor": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792488632.997806,
+      "started": 1792488108.733788,
+      "videoSha256": "f028566eb3959743bdb2ac9760782d2df4312920787b389ded0d0529c97f1fdd",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "impasto": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792488874.400838,
+      "started": 1792488379.1358569,
+      "videoSha256": "c468b7cd513b7ef4093eaf9d46e9b9e83a297b98bdb0c70c0f930d4f2490a787",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "woodcut": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792488964.0318642,
+      "started": 1792488510.341345,
+      "videoSha256": "c963509ab42b4f7303cd35efee885d67ff563365a62e24c867598c9b5e90790a",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "etching": {
-      "status": "queued"
+      "status": "rendering",
+      "updated": 1792488756.3143291,
+      "started": 1792488633.013612
     },
     "risograph": {
-      "status": "queued"
+      "status": "checking",
+      "updated": 1792488874.407435,
+      "started": 1792488874.407419
     },
     "enamel-badge": {
-      "status": "queued"
+      "status": "checking",
+      "updated": 1792488964.039859,
+      "started": 1792488964.0398378
     },
     "cyanotype": {
       "status": "queued"
@@ -607,5 +683,5 @@
       "status": "queued"
     }
   },
-  "elapsedSeconds": 9723.404473304749
+  "elapsedSeconds": 12005.330349206924
 }

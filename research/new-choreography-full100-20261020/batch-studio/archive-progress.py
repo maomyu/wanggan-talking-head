@@ -3,9 +3,12 @@ import json,shutil
 R=Path(__file__).resolve().parents[1];APP=Path.home()/'plugins/wanggan-talking-head';out=APP/'research/new-choreography-full100-20261020';out.mkdir(parents=True,exist_ok=True);(out/'evidence').mkdir(exist_ok=True)
 shutil.copytree(R/'batch-studio',out/'batch-studio',dirs_exist_ok=True,ignore=shutil.ignore_patterns('__pycache__'))
 for n in ['review.html','catalogue-full.json']:shutil.copy2(R/n,out/n)
-for n in ['batch-state.json','batch-dom-audit.json','batch-author-review.json','scheduler-resource-change.json','cache-prewarm.json']:
+for n in ['batch-state.json','batch-dom-audit.json','batch-author-review.json','scheduler-resource-change.json','cache-prewarm.json','director-overrides.json','scroll-clip-probe.json','scroll-clip-comparison.json']:
  if (R/'qa'/n).exists():shutil.copy2(R/'qa'/n,out/'evidence'/n)
 state=json.loads((R/'qa/batch-state.json').read_text());done=[]
+if(R/'qa/director-overrides.json').exists():
+ changes=json.loads((R/'qa/director-overrides.json').read_text());target=out/'implementation-overrides';target.mkdir(exist_ok=True)
+ for key,change in changes['styles'].items():shutil.copy2(R/'variants'/key/'scripts/director.js',target/(change['newDirectorSha256']+'.js'))
 for key,job in state['jobs'].items():
  if job['status']!='verified':continue
  dest=out/'evidence'/key;dest.mkdir(exist_ok=True)
