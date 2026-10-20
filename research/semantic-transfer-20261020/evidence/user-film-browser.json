@@ -1,0 +1,120 @@
+{
+  "checks": {
+    "twoFullVideos": true,
+    "inlinePlay": true,
+    "fullOriginalSpeed": true,
+    "chapterBothSeek": true,
+    "pairPlay": true,
+    "onlyNewAudio": true,
+    "onlyOldAudio": true,
+    "pauseBoth": true,
+    "restartBoth": true,
+    "globalSeek": true,
+    "fullscreen": true,
+    "fullscreenExit": true,
+    "mobileNoOverflow": true
+  },
+  "deliverySha256": "99578ed93123364b5fbc41e3eb38b69a72ed17167acfd8a79e818d0603b6c488",
+  "playbackSha256": "c527f02ecdda742fb7c5edfb2831b1549342386f8c42c38c2d31b62d4a62dca8",
+  "metadata": [
+    {
+      "id": "film",
+      "time": 0,
+      "duration": 36.666667,
+      "paused": true,
+      "ended": false,
+      "muted": false,
+      "width": 1080,
+      "height": 1920,
+      "error": null,
+      "frames": 0,
+      "rate": 1
+    },
+    {
+      "id": "previous",
+      "time": 0,
+      "duration": 36.666667,
+      "paused": true,
+      "ended": false,
+      "muted": true,
+      "width": 1080,
+      "height": 1920,
+      "error": null,
+      "frames": 0,
+      "rate": 1
+    }
+  ],
+  "continuous": [
+    {
+      "id": "film",
+      "time": 36.666667,
+      "duration": 36.666667,
+      "paused": true,
+      "ended": true,
+      "muted": false,
+      "width": 1080,
+      "height": 1920,
+      "error": null,
+      "frames": 1100,
+      "rate": 1
+    },
+    {
+      "id": "previous",
+      "time": 0,
+      "duration": 36.666667,
+      "paused": true,
+      "ended": false,
+      "muted": true,
+      "width": 1080,
+      "height": 1920,
+      "error": null,
+      "frames": 0,
+      "rate": 1
+    }
+  ],
+  "reusedPlaybackEvidence": "qa/browser-playback-first-pass.json; same delivery SHA, actual prior complete playback",
+  "pair": [
+    {
+      "id": "film",
+      "time": 13.5214,
+      "duration": 36.666667,
+      "paused": false,
+      "ended": false,
+      "muted": false,
+      "width": 1080,
+      "height": 1920,
+      "error": null,
+      "frames": 161,
+      "rate": 1
+    },
+    {
+      "id": "previous",
+      "time": 13.578282,
+      "duration": 36.666667,
+      "paused": false,
+      "ended": false,
+      "muted": true,
+      "width": 1080,
+      "height": 1920,
+      "error": null,
+      "frames": 163,
+      "rate": 1
+    }
+  ],
+  "mobile": {
+    "width": 390,
+    "scroll": 390
+  },
+  "errors": [],
+  "ok": true,
+  "screenshotPosition": [
+    {
+      "id": "film",
+      "time": 6.32338
+    },
+    {
+      "id": "previous",
+      "time": 6.269599
+    }
+  ]
+}

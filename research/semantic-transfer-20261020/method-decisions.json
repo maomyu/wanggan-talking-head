@@ -1,0 +1,34 @@
+{
+  "status": "approved workflow adopted, not a fixed storyboard",
+  "lessons": [
+    {
+      "issue": "素材只进出场而没有解释",
+      "decision": "关键语句先写事件、结果和素材任务，再选运动"
+    },
+    {
+      "issue": "因果、对比与转折只是标题变化",
+      "decision": "保持可比对象与连续身份，让关系变化实际发生"
+    },
+    {
+      "issue": "结尾补片与前面材料没有可见来源",
+      "decision": "回收同一材料，显示取片过程和落点"
+    },
+    {
+      "issue": "背景任务字与前景说明重叠",
+      "decision": "主次交接时收起已失去用途的文字，并明确目标、过程和结果"
+    },
+    {
+      "issue": "研究素材可能被误选为下一条生产源",
+      "decision": "默认用户自有素材；历史案例只在明确复现请求中使用"
+    }
+  ],
+  "preserved": [
+    "four-full-expert-bodies",
+    "100-style-library",
+    "12-composition-systems",
+    "person-original-color",
+    "true-circular-corner-window",
+    "raised-captions"
+  ],
+  "boundary": "reuse methods, not study dialogue, source speaker, object inventory or fixed timings"
+}

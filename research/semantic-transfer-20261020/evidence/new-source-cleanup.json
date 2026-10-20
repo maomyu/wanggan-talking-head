@@ -1,0 +1,31 @@
+{
+  "logicalMiB": 1439.1,
+  "removedFiles": 2390,
+  "protectedHashes": {
+    "assets/master.mp4": "b363de14808d48a554a2f1a23d4cb30782962be30a2626380e48e220e3d2ed3e",
+    "assets/learning-objects.png": "71e51b856034bf93b2367c436f86c1587d1280ea10af22f6451459e9cb53b8a2",
+    "outputs/final.mp4": "dc7900251671e9cab12e3a656af46c3e79ef7d1e9d27569aa67db3cc05535c49",
+    "outputs/play.mp4": "65a0c6fb1bc7dc62baebc1939e539cc848879296ea4a2bb72b244b3ac51a01da",
+    "outputs/original-play.mp4": "6184cc34470ee2011dc038ce48bdbe274322d378b3deec5a3a5ad7a87def4549",
+    "outputs/poster.jpg": "6021e2cf563464cdab9ae3d4f91fe2487fa28bf265a70f759e08930fd3f7605d",
+    "outputs/original-poster.jpg": "f9771dcc7dad77314b7acec8a7bd2f97d66de39bb66dd09a9decd9e41442fb28",
+    "outputs/contact.jpg": "dbf118d2076da47675ecf9c3962e31048d1b6b434433261a24cda05cf012c3c3",
+    "index.html": "07d8d6a3327d5534ce9bf8dc2511a963d0953a2d0c6355dbbc474a574b2281a7",
+    "review.html": "0bfc7e4fa66324996019fb0c673042cb430e25e664ae3e1be8fa038c8e72b577"
+  },
+  "requests": [
+    {
+      "file": "review.html",
+      "status": 200
+    },
+    {
+      "file": "outputs/play.mp4",
+      "status": 206
+    },
+    {
+      "file": "outputs/original-play.mp4",
+      "status": 206
+    }
+  ],
+  "scope": "historical test cleanup; no originals or final media removed"
+}

@@ -1,0 +1,109 @@
+{
+  "checks": {
+    "twoFullVideos": true,
+    "inlinePlay": true,
+    "fullOriginalSpeed": true,
+    "chapterBothSeek": true,
+    "pairPlay": true,
+    "onlyNewAudio": true,
+    "onlyOldAudio": true,
+    "pauseBoth": true,
+    "restartBoth": true,
+    "globalSeek": true,
+    "fullscreen": true,
+    "fullscreenExit": true,
+    "mobileNoOverflow": true
+  },
+  "deliverySha256": "dc7900251671e9cab12e3a656af46c3e79ef7d1e9d27569aa67db3cc05535c49",
+  "playbackSha256": "65a0c6fb1bc7dc62baebc1939e539cc848879296ea4a2bb72b244b3ac51a01da",
+  "metadata": [
+    {
+      "id": "film",
+      "time": 0,
+      "duration": 62.7,
+      "paused": true,
+      "ended": false,
+      "muted": false,
+      "width": 1080,
+      "height": 1920,
+      "error": null,
+      "frames": 0,
+      "rate": 1
+    },
+    {
+      "id": "previous",
+      "time": 0,
+      "duration": 62.7,
+      "paused": true,
+      "ended": false,
+      "muted": true,
+      "width": 1080,
+      "height": 608,
+      "error": null,
+      "frames": 0,
+      "rate": 1
+    }
+  ],
+  "continuous": [
+    {
+      "id": "film",
+      "time": 62.7,
+      "duration": 62.7,
+      "paused": true,
+      "ended": true,
+      "muted": false,
+      "width": 1080,
+      "height": 1920,
+      "error": null,
+      "frames": 1881,
+      "rate": 1
+    },
+    {
+      "id": "previous",
+      "time": 0,
+      "duration": 62.7,
+      "paused": true,
+      "ended": false,
+      "muted": true,
+      "width": 1080,
+      "height": 608,
+      "error": null,
+      "frames": 0,
+      "rate": 1
+    }
+  ],
+  "pair": [
+    {
+      "id": "film",
+      "time": 30.026386,
+      "duration": 62.7,
+      "paused": false,
+      "ended": false,
+      "muted": false,
+      "width": 1080,
+      "height": 1920,
+      "error": null,
+      "frames": 2051,
+      "rate": 1
+    },
+    {
+      "id": "previous",
+      "time": 30.061393,
+      "duration": 62.7,
+      "paused": false,
+      "ended": false,
+      "muted": true,
+      "width": 1080,
+      "height": 608,
+      "error": null,
+      "frames": 158,
+      "rate": 1
+    }
+  ],
+  "mobile": {
+    "width": 390,
+    "scroll": 390
+  },
+  "errors": [],
+  "ok": true
+}

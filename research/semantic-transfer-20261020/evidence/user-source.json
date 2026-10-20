@@ -1,0 +1,24 @@
+{
+  "ownership": "user-confirmed",
+  "basis": "用户此前直接上传该文件，本轮明确要求还用我自己的口播。",
+  "originalFileName": "17E901B0-F5D4-482A-A27A-1C48E9598217.mp4",
+  "originalSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "frames": 1100,
+  "fps": "30/1",
+  "duration": 36.666666666666664,
+  "derivativeSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+  "transform": {
+    "crop": [
+      0,
+      180,
+      1080,
+      1080
+    ],
+    "size": [
+      840,
+      840
+    ],
+    "treatment": "无调色、无美化、无风格化；仅裁切与等比缩放；保留原声"
+  },
+  "selection": "本机原文件路径在本地发布报告，源包不上传口播原文件；优先当前新指定自有素材，其次该已确认素材。"
+}

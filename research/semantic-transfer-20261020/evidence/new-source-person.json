@@ -1,0 +1,193 @@
+{
+  "videoSha256": "dc7900251671e9cab12e3a656af46c3e79ef7d1e9d27569aa67db3cc05535c49",
+  "samples": [
+    {
+      "frame": 0,
+      "sourceFrame": 0,
+      "box": [
+        170,
+        540,
+        740,
+        740
+      ],
+      "innerRGBMeanAbsoluteError": 2.3629,
+      "circleCornerBackgroundError": [
+        2.3333,
+        2.3333,
+        2.3333,
+        2.3333
+      ]
+    },
+    {
+      "frame": 60,
+      "sourceFrame": 60,
+      "box": [
+        170,
+        540,
+        740,
+        740
+      ],
+      "innerRGBMeanAbsoluteError": 2.0825,
+      "circleCornerBackgroundError": [
+        2.3333,
+        2.3333,
+        2.3333,
+        2.3333
+      ]
+    },
+    {
+      "frame": 75,
+      "sourceFrame": 75,
+      "box": [
+        229,
+        617,
+        693,
+        693
+      ],
+      "innerRGBMeanAbsoluteError": 2.4289,
+      "circleCornerBackgroundError": [
+        2.3333,
+        2.3333,
+        2.3333,
+        2.3333
+      ]
+    },
+    {
+      "frame": 90,
+      "sourceFrame": 90,
+      "box": [
+        699,
+        1232,
+        314,
+        314
+      ],
+      "innerRGBMeanAbsoluteError": 3.0167,
+      "circleCornerBackgroundError": [
+        2.3333,
+        2.3333,
+        2.3333,
+        2.3333
+      ]
+    },
+    {
+      "frame": 180,
+      "sourceFrame": 180,
+      "box": [
+        716,
+        1255,
+        300,
+        300
+      ],
+      "innerRGBMeanAbsoluteError": 2.4732,
+      "circleCornerBackgroundError": [
+        2.3333,
+        2.3333,
+        2.3333,
+        2.3333
+      ]
+    },
+    {
+      "frame": 450,
+      "sourceFrame": 450,
+      "box": [
+        716,
+        1255,
+        300,
+        300
+      ],
+      "innerRGBMeanAbsoluteError": 2.45,
+      "circleCornerBackgroundError": [
+        2.3333,
+        2.3333,
+        2.3333,
+        2.3333
+      ]
+    },
+    {
+      "frame": 750,
+      "sourceFrame": 750,
+      "box": [
+        716,
+        1255,
+        300,
+        300
+      ],
+      "innerRGBMeanAbsoluteError": 2.3487,
+      "circleCornerBackgroundError": [
+        2.3333,
+        2.3333,
+        2.3333,
+        2.3333
+      ]
+    },
+    {
+      "frame": 900,
+      "sourceFrame": 900,
+      "box": [
+        716,
+        1255,
+        300,
+        300
+      ],
+      "innerRGBMeanAbsoluteError": 2.4787,
+      "circleCornerBackgroundError": [
+        2.3333,
+        2.3333,
+        2.3333,
+        2.3333
+      ]
+    },
+    {
+      "frame": 1200,
+      "sourceFrame": 1200,
+      "box": [
+        716,
+        1255,
+        300,
+        300
+      ],
+      "innerRGBMeanAbsoluteError": 2.3759,
+      "circleCornerBackgroundError": [
+        2.3333,
+        2.3333,
+        2.3333,
+        2.3333
+      ]
+    },
+    {
+      "frame": 1500,
+      "sourceFrame": 1500,
+      "box": [
+        716,
+        1255,
+        300,
+        300
+      ],
+      "innerRGBMeanAbsoluteError": 2.3758,
+      "circleCornerBackgroundError": [
+        4.0556,
+        2.3333,
+        2.3333,
+        2.3333
+      ]
+    },
+    {
+      "frame": 1700,
+      "sourceFrame": 1700,
+      "box": [
+        716,
+        1255,
+        300,
+        300
+      ],
+      "innerRGBMeanAbsoluteError": 2.2459,
+      "circleCornerBackgroundError": [
+        3.4167,
+        2.3333,
+        2.3333,
+        2.3333
+      ]
+    }
+  ],
+  "passed": true
+}

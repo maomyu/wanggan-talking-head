@@ -1,4 +1,4 @@
 interface:
   display_name: "口播整片统筹"
   short_description: "串联画风、排版、动效与剪辑转场，完成统一时间轴上的完整口播视频"
-  default_prompt: "使用 $talking-head-video，承接已确认的素材与画风，调度四个完整模块，按语句设计素材任务、动作结果与前后承接，制作一条口播视频，并交付成片与验证记录。"
+  default_prompt: "使用 $talking-head-video，使用用户自己的口播与已确认画风，调度四个完整模块，根据本次新文案重新设计素材任务、动作结果与前后承接，制作一条口播视频，并交付成片与验证记录。"

@@ -1,0 +1,6 @@
+{
+  "videoSha256": "dc7900251671e9cab12e3a656af46c3e79ef7d1e9d27569aa67db3cc05535c49",
+  "outputGainRelativeToReferenceDb": -1.509960104014885,
+  "playbackDecodedPCMEqualsDelivery": true,
+  "explanation": "原声内容、速度与时间保持；渲染器为真峰值做约1.5dB整体衰减。播放副本复制AAC音轨。并非新增配乐或配音。"
+}

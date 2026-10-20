@@ -1,0 +1,15 @@
+{
+  "status": "approved-method",
+  "userInstruction": "这版可以，把这套根据新文案重新设计动作、图片和转场的方法正式并入插件，后续换素材也按这个流程制作。人物原色、角落圆窗、字幕上移继续保留，同步到 GitHub 私有仓库，临时文件及时清理 另外不要用别人的口播，还用我自己的",
+  "methodCase": {
+    "duration": 62.7,
+    "frames": 1881,
+    "deliverySha256": "dc7900251671e9cab12e3a656af46c3e79ef7d1e9d27569aa67db3cc05535c49"
+  },
+  "productionDefault": "user-owned narration and original voice; third-party study is historical evidence only",
+  "notClaimed": [
+    "all100stylesredone",
+    "alltopicsverified",
+    "thirdpartynarratorbecomesdefault"
+  ]
+}

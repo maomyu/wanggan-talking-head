@@ -1,0 +1,32 @@
+{
+  "ok": true,
+  "checks": {
+    "fullRoutePolicyAndReferences": true,
+    "localLayoutRoutePreserved": true,
+    "newUserInputNotLegacyFixture": true,
+    "existingUserFilmBuildAndVoicePreserved": true,
+    "revisionBuildProtectedVoice": true,
+    "changedSourceRejectedBeforeBuilder": true,
+    "unselectedEditPlanProtected": true,
+    "actualUserSourceAndPriorFilmUnchanged": true
+  },
+  "sourceSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "policy": {
+    "schemaVersion": 1,
+    "productionSpeaker": "user",
+    "productionVoice": "original-user-source",
+    "selectionOrder": [
+      "current-explicit-user-material",
+      "previously-confirmed-user-owned-material"
+    ],
+    "thirdPartyNarration": "reference-only-unless-user-explicitly-selects-for-this-task",
+    "whenMissing": "ask-for-user-material; do not substitute another speaker",
+    "runtimeBoundary": "This policy guides material selection. A local path or source argument does not prove ownership; use the user context.",
+    "preserve": [
+      "person-original-color",
+      "corner-true-circle-through-movement",
+      "captions-raised"
+    ]
+  },
+  "scope": "isolation entry and build regression only; no new film render claimed"
+}

@@ -1,0 +1,40 @@
+{
+  "projectId": "92e50631-2790-4791-ac87-b69a13880aa9",
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "frames": 1881,
+    "duration": 62.7,
+    "sha256": "dc7900251671e9cab12e3a656af46c3e79ef7d1e9d27569aa67db3cc05535c49"
+  },
+  "audio": {
+    "referenceCorrelation": 0.9999661899267779,
+    "offsetSamples": 0,
+    "droppedVoiceWindows": 0,
+    "decodedMonoSha256": "57fd8a6fa724ac56525ffef97de1e1865cb5af821980b832b6576b77696ab7de",
+    "referenceWavSha256": "d859fbc26cb0bc412ed1b84e4183b4d648b652c6421def9659ef1e75f0e41522"
+  },
+  "htmlSha256": "07d8d6a3327d5534ce9bf8dc2511a963d0953a2d0c6355dbbc474a574b2281a7",
+  "timingSha256": "fe86190e564180bbdc64d46321e6ecaf92f49a69cd5e800b16c040595067e923",
+  "contactFrames": [
+    0,
+    125,
+    250,
+    376,
+    501,
+    626,
+    752,
+    877,
+    1002,
+    1128,
+    1253,
+    1378,
+    1504,
+    1629,
+    1754,
+    1880
+  ],
+  "dense5fpsFrames": 314,
+  "review": "程序核验；审美和听感需要查看实际产物，非独立盲评"
+}
