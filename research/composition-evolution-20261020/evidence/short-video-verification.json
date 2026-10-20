@@ -1,0 +1,296 @@
+[
+  {
+    "key": "magazine",
+    "revision": "v5",
+    "path": "short-tests-v5/magazine/outputs/sample.mp4",
+    "videoSha256": "fa7d209f79fce7e74ac26e81207e00f8b687f2757436db5743f8b3193f47cdbd",
+    "directorSha256": "42422bfc0e49c9466527dd424ae83fdd1d101de4d1b2c8fd1e4956a499910f89",
+    "htmlSha256": "ad004ff9b3f70205b32906f38148c22bf4c2e98ff0b881d4b2dc572354b495cc",
+    "probe": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 240,
+      "fps": 30,
+      "duration": 8.0,
+      "audioTracks": 1
+    },
+    "sourceMapping": {
+      "sourceIn": 461,
+      "sourceOut": 701,
+      "outputFrames": 240
+    },
+    "audio": {
+      "samplesReference": 384000,
+      "samplesDecoded": 384000,
+      "normalizedCorrelation": 0.9999672152292953,
+      "oneSecondCorrelations": [
+        0.9999592890206889,
+        0.9999561264890646,
+        0.9999483745748602,
+        0.9999887675858122,
+        0.9999786007631023,
+        0.9999800878888037,
+        0.9999718247087458,
+        0.9999725474232831
+      ],
+      "lagSamples": 0
+    },
+    "nativeVsEncodedAtSource567": {
+      "fullFrameMeanAbsoluteRGBError": 3.466341257095337,
+      "presenterInteriorMeanAbsoluteRGBError": 4.261368751525879,
+      "scope": "Decoded frame106 vs browser source-frame567 JPEG. Diagnostic plus actual visual inspection; not a universal color grade metric."
+    },
+    "decodedFrames": [
+      0,
+      106,
+      154,
+      165,
+      239
+    ]
+  },
+  {
+    "key": "type-poster",
+    "revision": "v5",
+    "path": "short-tests-v5/type-poster/outputs/sample.mp4",
+    "videoSha256": "6e67c5aff834fdf55f57a719625906fa6eaadbf15b96214fc970dd4c7fbf9a09",
+    "directorSha256": "42422bfc0e49c9466527dd424ae83fdd1d101de4d1b2c8fd1e4956a499910f89",
+    "htmlSha256": "7e0fcf3bf4bdacfd1cb284e3f7da8a23b69d666da775efccbf942dd66a8c7a03",
+    "probe": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 240,
+      "fps": 30,
+      "duration": 8.0,
+      "audioTracks": 1
+    },
+    "sourceMapping": {
+      "sourceIn": 461,
+      "sourceOut": 701,
+      "outputFrames": 240
+    },
+    "audio": {
+      "samplesReference": 384000,
+      "samplesDecoded": 384000,
+      "normalizedCorrelation": 0.9999672152292953,
+      "oneSecondCorrelations": [
+        0.9999592890206889,
+        0.9999561264890646,
+        0.9999483745748602,
+        0.9999887675858122,
+        0.9999786007631023,
+        0.9999800878888037,
+        0.9999718247087458,
+        0.9999725474232831
+      ],
+      "lagSamples": 0
+    },
+    "nativeVsEncodedAtSource567": {
+      "fullFrameMeanAbsoluteRGBError": 2.570050001144409,
+      "presenterInteriorMeanAbsoluteRGBError": 4.248698711395264,
+      "scope": "Decoded frame106 vs browser source-frame567 JPEG. Diagnostic plus actual visual inspection; not a universal color grade metric."
+    },
+    "decodedFrames": [
+      0,
+      106,
+      154,
+      165,
+      239
+    ]
+  },
+  {
+    "key": "origami",
+    "revision": "v6",
+    "path": "short-tests-v6/origami/outputs/sample.mp4",
+    "videoSha256": "571800c738d71beca2533d9fd26d40fd39ca537d04f13242933032744f8ae4a4",
+    "directorSha256": "69472d4a6d2fb575c94d88a40ba149ae8a74812bdc38a23b334a04a6de05244a",
+    "htmlSha256": "f6def8c214cf14d5ba8e98a184718ee9f2b5f3715184b08559ba6ae74d6fd81d",
+    "probe": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 240,
+      "fps": 30,
+      "duration": 8.0,
+      "audioTracks": 1
+    },
+    "sourceMapping": {
+      "sourceIn": 461,
+      "sourceOut": 701,
+      "outputFrames": 240
+    },
+    "audio": {
+      "samplesReference": 384000,
+      "samplesDecoded": 384000,
+      "normalizedCorrelation": 0.9999672152292953,
+      "oneSecondCorrelations": [
+        0.9999592890206889,
+        0.9999561264890646,
+        0.9999483745748602,
+        0.9999887675858122,
+        0.9999786007631023,
+        0.9999800878888037,
+        0.9999718247087458,
+        0.9999725474232831
+      ],
+      "lagSamples": 0
+    },
+    "nativeVsEncodedAtSource567": {
+      "fullFrameMeanAbsoluteRGBError": 2.4900922775268555,
+      "presenterInteriorMeanAbsoluteRGBError": 4.278613090515137,
+      "scope": "Decoded frame106 vs browser source-frame567 JPEG. Diagnostic plus actual visual inspection; not a universal color grade metric."
+    },
+    "decodedFrames": [
+      0,
+      106,
+      154,
+      165,
+      239
+    ]
+  },
+  {
+    "key": "blueprint",
+    "revision": "v5",
+    "path": "short-tests-v5/blueprint/outputs/sample.mp4",
+    "videoSha256": "c93997d4fce32ce5479b0f7bd13f72853fa945be2ead8c7e2c550efcae573431",
+    "directorSha256": "42422bfc0e49c9466527dd424ae83fdd1d101de4d1b2c8fd1e4956a499910f89",
+    "htmlSha256": "ae8ecd9b681b10468daf6918b01a32d789b67fd7677cfb215aab8f4d9e7931e3",
+    "probe": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 240,
+      "fps": 30,
+      "duration": 8.0,
+      "audioTracks": 1
+    },
+    "sourceMapping": {
+      "sourceIn": 461,
+      "sourceOut": 701,
+      "outputFrames": 240
+    },
+    "audio": {
+      "samplesReference": 384000,
+      "samplesDecoded": 384000,
+      "normalizedCorrelation": 0.9999672152292953,
+      "oneSecondCorrelations": [
+        0.9999592890206889,
+        0.9999561264890646,
+        0.9999483745748602,
+        0.9999887675858122,
+        0.9999786007631023,
+        0.9999800878888037,
+        0.9999718247087458,
+        0.9999725474232831
+      ],
+      "lagSamples": 0
+    },
+    "nativeVsEncodedAtSource567": {
+      "fullFrameMeanAbsoluteRGBError": 3.6047685146331787,
+      "presenterInteriorMeanAbsoluteRGBError": 4.283873081207275,
+      "scope": "Decoded frame106 vs browser source-frame567 JPEG. Diagnostic plus actual visual inspection; not a universal color grade metric."
+    },
+    "decodedFrames": [
+      0,
+      106,
+      154,
+      165,
+      239
+    ]
+  },
+  {
+    "key": "precision",
+    "revision": "v5",
+    "path": "short-tests-v5/precision/outputs/sample.mp4",
+    "videoSha256": "e26cdedb2d80d81fd9ad3cd468124eaf0b0e59dc89d711ad786abd91ae155c9d",
+    "directorSha256": "c196bef11b316942bdc9585ad079b5b070a2d41c83367067e3687fac3d2b6245",
+    "htmlSha256": "1eaeb5c74ceaf7feae7c4268799a3171b299e4af5632e755b8adc74a11e0f4fd",
+    "probe": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 240,
+      "fps": 30,
+      "duration": 8.0,
+      "audioTracks": 1
+    },
+    "sourceMapping": {
+      "sourceIn": 461,
+      "sourceOut": 701,
+      "outputFrames": 240
+    },
+    "audio": {
+      "samplesReference": 384000,
+      "samplesDecoded": 384000,
+      "normalizedCorrelation": 0.9999672152292953,
+      "oneSecondCorrelations": [
+        0.9999592890206889,
+        0.9999561264890646,
+        0.9999483745748602,
+        0.9999887675858122,
+        0.9999786007631023,
+        0.9999800878888037,
+        0.9999718247087458,
+        0.9999725474232831
+      ],
+      "lagSamples": 0
+    },
+    "nativeVsEncodedAtSource567": {
+      "fullFrameMeanAbsoluteRGBError": 3.212808609008789,
+      "presenterInteriorMeanAbsoluteRGBError": 5.023559093475342,
+      "scope": "Decoded frame106 vs browser source-frame567 JPEG. Diagnostic plus actual visual inspection; not a universal color grade metric."
+    },
+    "decodedFrames": [
+      0,
+      106,
+      154,
+      165,
+      239
+    ]
+  },
+  {
+    "key": "clay",
+    "revision": "v7",
+    "path": "short-tests-v7/clay/outputs/sample.mp4",
+    "videoSha256": "50d1bb8582a95a762fef04dc1d2304edebff48cc216b3d170bb0493a3ad00370",
+    "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+    "htmlSha256": "2b37e5addd6658a7f5cf68c2660f89e7c13bd61ead656c1bf14bc0514780561b",
+    "probe": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 240,
+      "fps": 30,
+      "duration": 8.0,
+      "audioTracks": 1
+    },
+    "sourceMapping": {
+      "sourceIn": 461,
+      "sourceOut": 701,
+      "outputFrames": 240
+    },
+    "audio": {
+      "samplesReference": 384000,
+      "samplesDecoded": 384000,
+      "normalizedCorrelation": 0.9999672152292953,
+      "oneSecondCorrelations": [
+        0.9999592890206889,
+        0.9999561264890646,
+        0.9999483745748602,
+        0.9999887675858122,
+        0.9999786007631023,
+        0.9999800878888037,
+        0.9999718247087458,
+        0.9999725474232831
+      ],
+      "lagSamples": 0
+    },
+    "nativeVsEncodedAtSource567": {
+      "fullFrameMeanAbsoluteRGBError": 2.6122617721557617,
+      "presenterInteriorMeanAbsoluteRGBError": 4.471715450286865,
+      "scope": "Decoded frame106 vs browser source-frame567 JPEG. Diagnostic plus actual visual inspection; not a universal color grade metric."
+    },
+    "decodedFrames": [
+      0,
+      106,
+      154,
+      165,
+      239
+    ]
+  }
+]

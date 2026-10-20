@@ -1,0 +1,1334 @@
+{
+  "scope": "research only; formal plugin 1.13.0 unchanged",
+  "nativeStyles": 100,
+  "sampledStates": 400,
+  "measuredDOMStates": 400,
+  "actualMP4s": 6,
+  "secondsEach": 8,
+  "sharedFinalDirectorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+  "layoutGeometryDeterministicStyles": 100,
+  "compositePixelExactStyles": 86,
+  "compositePixelNotExactStyles": [
+    "collage",
+    "illustration",
+    "precision",
+    "halftone",
+    "pixel",
+    "chalk",
+    "paper-stage",
+    "cel",
+    "constructivist",
+    "brush-lettering",
+    "picture-book",
+    "illustrated-map",
+    "terminal-ascii",
+    "led-dot-matrix"
+  ],
+  "compositeLimit": "New layout geometry is deterministic. The composite includes legacy materials/video; byte-exact pixels are not claimed for the listed cases.",
+  "audioCorrelationMin": 0.9999672152292953,
+  "audioOneSecondCorrelationMin": 0.9999483745748602,
+  "allAudioLagSamplesZero": true,
+  "httpStillCount": 400,
+  "actualMP4RangeChecks": [
+    {
+      "key": "magazine",
+      "status": 206,
+      "contentRange": "bytes 0-1023/1220527"
+    },
+    {
+      "key": "type-poster",
+      "status": 206,
+      "contentRange": "bytes 0-1023/1270552"
+    },
+    {
+      "key": "origami",
+      "status": 206,
+      "contentRange": "bytes 0-1023/1251708"
+    },
+    {
+      "key": "blueprint",
+      "status": 206,
+      "contentRange": "bytes 0-1023/1748400"
+    },
+    {
+      "key": "precision",
+      "status": 206,
+      "contentRange": "bytes 0-1023/930510"
+    },
+    {
+      "key": "clay",
+      "status": 206,
+      "contentRange": "bytes 0-1023/1455734"
+    }
+  ],
+  "hyperframesChecks": [
+    {
+      "key": "magazine",
+      "runtime": true,
+      "layout": true,
+      "contrastChecked": 54,
+      "contrastPassed": 54,
+      "motionAutomaticEnabled": false
+    },
+    {
+      "key": "type-poster",
+      "runtime": true,
+      "layout": true,
+      "contrastChecked": 25,
+      "contrastPassed": 25,
+      "motionAutomaticEnabled": false
+    },
+    {
+      "key": "origami",
+      "runtime": true,
+      "layout": true,
+      "contrastChecked": 35,
+      "contrastPassed": 35,
+      "motionAutomaticEnabled": false
+    },
+    {
+      "key": "blueprint",
+      "runtime": true,
+      "layout": true,
+      "contrastChecked": 42,
+      "contrastPassed": 42,
+      "motionAutomaticEnabled": false
+    },
+    {
+      "key": "precision",
+      "runtime": true,
+      "layout": true,
+      "contrastChecked": 90,
+      "contrastPassed": 90,
+      "motionAutomaticEnabled": false
+    },
+    {
+      "key": "clay",
+      "runtime": true,
+      "layout": true,
+      "contrastChecked": 35,
+      "contrastPassed": 35,
+      "motionAutomaticEnabled": false
+    }
+  ],
+  "preservedExpertSkills": [
+    {
+      "name": "talking-head-art-direction",
+      "sha256": "33cdd57a5b1cf4bc6565725db40b45336838aa3c13d1312be00fd6a12ad2411a"
+    },
+    {
+      "name": "talking-head-layout",
+      "sha256": "fe73bfc2eb7f279b456a47fbd627b0f77110a871c095687fbd0bfbdb1407c9d8"
+    },
+    {
+      "name": "talking-head-motion",
+      "sha256": "5d71c38d70ddb9244803d5c5c7b3696cbf74f3612180d43b41e2f90fe72adbed"
+    },
+    {
+      "name": "talking-head-editing",
+      "sha256": "1d1cade99a07cf123efe5d4de27960921409628e3e2540775e0137c0b931f67d"
+    }
+  ],
+  "sourceBindings": [
+    {
+      "id": "A01",
+      "key": "minimal",
+      "htmlSha256": "dfc9a93c91e5c8223baea8c6904b24eabaf0200a9c7a62c06252a0c939d96183",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/minimal/qa/stills/f0.jpg": "7a578c1015d4de3ee59d39faeef4be538d0625703e7865a93f2bb61368a18f23",
+        "variants/minimal/qa/stills/f567.jpg": "5f4cba65b88a82a91cb96a617d9331a8d7cf56a4e5a8850d9069bb80e2261adb",
+        "variants/minimal/qa/stills/f732.jpg": "b7065f3a7ac3cd61c3259a381ae9f9076dd983cff23a5a274042a9271635f552",
+        "variants/minimal/qa/stills/f879.jpg": "cd57d282b334cef326166129ece97cf4b4eaab3597b1a5443edd3ae589a3443b"
+      }
+    },
+    {
+      "id": "A02",
+      "key": "paper",
+      "htmlSha256": "9dc60ed86d53db9f61bc29190922f800d481c5dc3346e130e11ed2fafb7fe1da",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/paper/qa/stills/f0.jpg": "2d196406d76eef084f87ef9689ad65ec8d3561671d383d0be6c8c4787c9e4e92",
+        "variants/paper/qa/stills/f567.jpg": "d682feadda5f0308a189ff838cbc9cbaee9a189e2ad3fb4b61c587753c4f5544",
+        "variants/paper/qa/stills/f732.jpg": "8ff05c8b62f52e2041976ad226c459d657f34e650bdfefe2d34c17507d25622a",
+        "variants/paper/qa/stills/f879.jpg": "f178485d29d4148a2309443dac72a0570aae7b171d632fa144438bf625872c36"
+      }
+    },
+    {
+      "id": "A03",
+      "key": "geometry",
+      "htmlSha256": "e9e7d6111df810ec78f3a9536e354b74c676d528dac33cb39875f94a776883b0",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/geometry/qa/stills/f0.jpg": "ea7edb769ace68025b4e47a71e1196e5011bf66e8053d066bf49762588032246",
+        "variants/geometry/qa/stills/f567.jpg": "82e953d7ab89bc5cf0999d9a4996a8e7d30031d722e0fd78ed5a52f4f8830e4e",
+        "variants/geometry/qa/stills/f732.jpg": "02d11ac41e981f2da25025ff80db45be0ccc1b9c5eba1986acdd1557a0d0c327",
+        "variants/geometry/qa/stills/f879.jpg": "cc8c6300cad014a5a6f9ea2851d5291421ac7fc967b235aa38196de2d20b3149"
+      }
+    },
+    {
+      "id": "A04",
+      "key": "magazine",
+      "htmlSha256": "61120e28b6bedea48e144ee0641672513866b55a7877405b0f031e842b2a02a5",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/magazine/qa/stills/f0.jpg": "f9fa632db47084218396ea5faf73a90b30900c8374bf6aba9b6c560ccb8348e7",
+        "variants/magazine/qa/stills/f567.jpg": "902ca569ec34653097f501ed6d2ff387bcaf5f72bb88c432287dfd9c142b299c",
+        "variants/magazine/qa/stills/f732.jpg": "40743c6aa8be99eb71941592f52d92623ff0b1179aecf13ef513717a6fcacd12",
+        "variants/magazine/qa/stills/f879.jpg": "1d4d661a1324ecd1b4eb144a1870ac05b04849a0a3acb9e7ba3f54bf3bb8d5aa"
+      }
+    },
+    {
+      "id": "A05",
+      "key": "collage",
+      "htmlSha256": "54a4adec566906dd985f87e9ccc79a8e899bb9d89964a1683d38b2a736581f6b",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/collage/qa/stills/f0.jpg": "066248052ee0b5a3e8248d7862c39c25b63f423805c2e7ea22f172d18537b024",
+        "variants/collage/qa/stills/f567.jpg": "42fc838003cf49bd7f0f6089b28befe8b81134c73003f9831933b3dee912a015",
+        "variants/collage/qa/stills/f732.jpg": "19c66407661c22272c77f1b9a93ab0dfea72e41b925e22768ac048e5259588f1",
+        "variants/collage/qa/stills/f879.jpg": "4644ce1a3e1bf9482218b6f607becc14118535f0cf6091760d14bc5caec2df0d"
+      }
+    },
+    {
+      "id": "A06",
+      "key": "line",
+      "htmlSha256": "872ce8fde8363c793757277e4ae9d116facaf5f2f2583dc3fb03cc9ad0e43a38",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/line/qa/stills/f0.jpg": "b3bf679b7b8cdc08c624c3c9f8596b11855303aa28a0641d31ea5a3c746b7b42",
+        "variants/line/qa/stills/f567.jpg": "334e89001a78b1ec64910ce34c7b16887152e9b3b405dc81ab613583e87ca73f",
+        "variants/line/qa/stills/f732.jpg": "fab0626a5ab85cc7903cfb8c967b04621bcb8d7c9d14fb73c6239226a9d8850d",
+        "variants/line/qa/stills/f879.jpg": "41d7fe06a6698dbfb1eaa1e1ec4ff5601109401a6808df7588807893b5d2fcc4"
+      }
+    },
+    {
+      "id": "A07",
+      "key": "illustration",
+      "htmlSha256": "edc330a846e8df6d5fd6c032f9678d06cb9f7c81fdf20fc6f922b2f3c161afb1",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/illustration/qa/stills/f0.jpg": "40b1b211607cd6186358d3559b5db44d35e3b86d2062a331b828cc5b1e7d56b5",
+        "variants/illustration/qa/stills/f567.jpg": "4b4e522611312c6708f70e1725e941c6aa4ce58e4497d302b8ab373dd3d1dacf",
+        "variants/illustration/qa/stills/f732.jpg": "38b483d5108f684fa4abb6595f4ab562b01bbd4252e796b6eab84d2e9dc2e341",
+        "variants/illustration/qa/stills/f879.jpg": "09df509f5db7581164f73e3d0a1ea18495237ba761b84ce137f6dbcd5c9ad32c"
+      }
+    },
+    {
+      "id": "A08",
+      "key": "precision",
+      "htmlSha256": "82c53ac81c1429ab61d55342bf253a9d6f3eabbe1b9d9908fc93249c988f8638",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/precision/qa/stills/f0.jpg": "53be6eff38da8629fb5c0c0dc72f2218037c9daf7905d1f36987afdf30102c6b",
+        "variants/precision/qa/stills/f567.jpg": "cc04380fbb683b2459cd3a988947777699de8e695d22bd01a7708213328a19a5",
+        "variants/precision/qa/stills/f732.jpg": "d6154d48d6981d329be0facbe3d773cd78dd0cbf91a1b601d8803789f6791004",
+        "variants/precision/qa/stills/f879.jpg": "a2c16fe4c2bb11e9c79ef0af8cfe8afa5406c17d3a699d96286c350aace45daf"
+      }
+    },
+    {
+      "id": "A09",
+      "key": "blueprint",
+      "htmlSha256": "f0b426662b83283b0b57cbc0cf3d2ab333bbd171faa244865e432fb56aa3c746",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/blueprint/qa/stills/f0.jpg": "e83fe69324beba7b651900030f28b7fb3667dd2cd60fb52eb9809f994c6a90d9",
+        "variants/blueprint/qa/stills/f567.jpg": "94d27f15df1cf865d8fa5738531cc077cb4b0cc7ae14ef399f317535106a0953",
+        "variants/blueprint/qa/stills/f732.jpg": "14e1405b455e9ad8a05778fd0053bafd0b22ec603524dc7a9ac041c1eed3494f",
+        "variants/blueprint/qa/stills/f879.jpg": "85565b52223ad68afa851b5d92697423c3fac2dcecddf0ad3b96b977d39dec12"
+      }
+    },
+    {
+      "id": "A10",
+      "key": "halftone",
+      "htmlSha256": "484629f5b8d40d09e564f98fcb028ce0ac96cf9f200ddf01f591517ab996b89c",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/halftone/qa/stills/f0.jpg": "b1cecece987042885433aed7318e48b8fabeb76383b3d76159881daffe3a3c57",
+        "variants/halftone/qa/stills/f567.jpg": "9d3f23d07eb6d4fd2a8fc9cdeee5c2e9540d5af90b6860de7feb55fb84c87b01",
+        "variants/halftone/qa/stills/f732.jpg": "83c4ab3661e84ff3ddce557f57af18a90760ac574c67b98b7bd3f53af8627db4",
+        "variants/halftone/qa/stills/f879.jpg": "2a59473afa8733b0e8a45ccc091a0ac68e21b74af515050096430c189021b192"
+      }
+    },
+    {
+      "id": "A11",
+      "key": "comic",
+      "htmlSha256": "27400f30843ad9a56542570400078e68fb6aff09741e8d2d7aecabe5feb7b6c4",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/comic/qa/stills/f0.jpg": "3a76a23163472f38dbbbf63983a6bb18a79a07e82644f63bdbf7176f248c0eb9",
+        "variants/comic/qa/stills/f567.jpg": "fedbe5da3ddc55bd3bb117547e91cfa6636b1782ed8ed92b0de6b2742ee3ea0a",
+        "variants/comic/qa/stills/f732.jpg": "ceb5eaa22a720186176a7e45bb49dcfb01b10f922c27d9a56b05321500d9b9ee",
+        "variants/comic/qa/stills/f879.jpg": "b5eae262a933a5763c6b1b86cb2392210f3e77f73e19b416c6efd23e204f07dd"
+      }
+    },
+    {
+      "id": "A12",
+      "key": "film",
+      "htmlSha256": "3e6525e461890153c2cc242bb06577ca2eb4c06f3dce3e41bdbdeab56a0a2b80",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/film/qa/stills/f0.jpg": "e72fc32aaab0fba3c3980936bf5df7ab1afe5175ec26cf25a1e1c26178cd3e34",
+        "variants/film/qa/stills/f567.jpg": "bc0a693708360f9c9a7fa59f852a8485eb702fdc92dbe4d635c1c5f6c9c3bc06",
+        "variants/film/qa/stills/f732.jpg": "d0a18fce25d0751985e36f715f47f6b558ba84b7980100b2420b6fd2ba343a55",
+        "variants/film/qa/stills/f879.jpg": "51cb2bb0989355fbcf3467c9b28892249a59019a04f926ce7e5d4f6945e23ee4"
+      }
+    },
+    {
+      "id": "A13",
+      "key": "ink",
+      "htmlSha256": "0a518fb7bf3c20601a5efb5d41c558533b24a65923dc9584c1fd26b90419c261",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/ink/qa/stills/f0.jpg": "d6e4fd65f2f74cc39287ee6a3a605d4c8b0b78ac64a17c9cc7d128da801845ed",
+        "variants/ink/qa/stills/f567.jpg": "f5b3fd70262b2d4432beef16cf261aa408fcebba94d555b5b52fb286f6528aef",
+        "variants/ink/qa/stills/f732.jpg": "298023120e4ec574b22773b2e2f7f80e6f628862e3da5ba4a06eb7224978f3f0",
+        "variants/ink/qa/stills/f879.jpg": "2055ce022857735de8d1e9a3cc145a93fce2acbcd6b2b1fa8213820911e6771b"
+      }
+    },
+    {
+      "id": "A14",
+      "key": "clay",
+      "htmlSha256": "0b5577824dc9478f32da489fe2fa4b6702b67ba0368a2e77ea30f33baa6b6b4b",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/clay/qa/stills/f0.jpg": "6e86561c7eff6a03ee020cfa4aff15046945d8165492eb36ae52ac50edb3e7ab",
+        "variants/clay/qa/stills/f567.jpg": "28f01ebc8e874de245dd98f6ffaddf740f607f9436177640cd3620baa3e2414c",
+        "variants/clay/qa/stills/f732.jpg": "c960a058c2074d728872c08b1fac8d062392b80d538c4d03e092e28471fe0f90",
+        "variants/clay/qa/stills/f879.jpg": "c674ad30bf4a12a5bb85b460a8f8e03bb08e4a67e49ba12cf6915a7f00d8e780"
+      }
+    },
+    {
+      "id": "A15",
+      "key": "pixel",
+      "htmlSha256": "eea2af73476ab1a1908b082723a647afdc593b92847484d52f0f7126db8f823e",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/pixel/qa/stills/f0.jpg": "44a236b8431bbc2808ddb886ef0fb153d400ae7715fa001c5e60e2bfb2259ed7",
+        "variants/pixel/qa/stills/f567.jpg": "1c0322b6ed015bf5c05f8c5355a9360d5edb4cb2f300ff517517c064f44dd794",
+        "variants/pixel/qa/stills/f732.jpg": "f37e3a126929f36ffad12004331b7a8fbdb4ab5a03987ad91313cc10bf75ba7b",
+        "variants/pixel/qa/stills/f879.jpg": "710979bbdcb1e5c03188b58137bf85a40c1663ff2ef23f06cdfc1ca80ae7d836"
+      }
+    },
+    {
+      "id": "A16",
+      "key": "chalk",
+      "htmlSha256": "ce39f054d16cbaea155a409b4aa2f5fe3255fdecfdab87a210b80beb73321eb8",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/chalk/qa/stills/f0.jpg": "3864c2dee1da942f71aaa8bec9670c9e101374a2f6302466ded66bd2bba1f7c8",
+        "variants/chalk/qa/stills/f567.jpg": "e76be4dc5a1a4d8192a9489ac5744c9fffb52845ec7bb6bcefa61064ce20f3de",
+        "variants/chalk/qa/stills/f732.jpg": "db2c5b179ba933bc2aa6b1bd415fb5a71b6ece138cceb7775bfc7210ffd9c695",
+        "variants/chalk/qa/stills/f879.jpg": "3b8dcc77f72704174ecc5416262da5f910be3d96210e63cbd1664a12f7a6dca5"
+      }
+    },
+    {
+      "id": "A17",
+      "key": "paper-stage",
+      "htmlSha256": "052b4f390c1f0b09fd8519c4191133858ca3fb7c68aff542e038902c1fff0b57",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/paper-stage/qa/stills/f0.jpg": "06d7e843d9feea1f3f52b3c984c2dfdda670081797b60078042330920215a98b",
+        "variants/paper-stage/qa/stills/f567.jpg": "f2202a1e0bc0c7e5f16cac8df59c2e297aac886c0067f610f6da8a3949d2673c",
+        "variants/paper-stage/qa/stills/f732.jpg": "67a4b5544b27841f99f226970906c991e18794c1992c507db4a6a30bedbecc49",
+        "variants/paper-stage/qa/stills/f879.jpg": "7bac1992a09f772e136ae23b88cb46a13155d3e42c9f9cfd3ba33ab6d96fcbad"
+      }
+    },
+    {
+      "id": "A18",
+      "key": "type-poster",
+      "htmlSha256": "c8b1c42a9bf7708ef27fc1377a6066574bc4de9913d182203a2f14e3cbf225e9",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/type-poster/qa/stills/f0.jpg": "eb7bb2d935e05e19414912f9f19adf0be59015d1c654958b279635ced1677304",
+        "variants/type-poster/qa/stills/f567.jpg": "bfd37b3aacd53a23c088e1f51d5f6a1d2eb1fe310b72986405ccc0360331fd30",
+        "variants/type-poster/qa/stills/f732.jpg": "5722d444a6a9bd65ca09f38b98e995bf0445a5a3140b7919dc0e05dda576e595",
+        "variants/type-poster/qa/stills/f879.jpg": "bb7f10ae4cb4c9ee2271dc8be80a76b9a979ee2428efd9e58e8eccf3f36c4a5d"
+      }
+    },
+    {
+      "id": "A19",
+      "key": "cel",
+      "htmlSha256": "640312a7d706d2b4f1f724c8addc163fcc382fa26ab83538819f953ba3ed1b93",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/cel/qa/stills/f0.jpg": "2f0add44744909985dda59500d022e957ae5ebc579da14afb0c18f304e493abf",
+        "variants/cel/qa/stills/f567.jpg": "ac05340535cf1542ab1c80ce0f9ac23b1333f9da7a554adda9c902be702f5623",
+        "variants/cel/qa/stills/f732.jpg": "c757bfe5836a2b166bed0f11063afaa821d4df6bffc835c00cbf17b347e43b4f",
+        "variants/cel/qa/stills/f879.jpg": "d645a1ea6f6c111cccb19276c44a9cdcab289c0446f84375963cb124de3a14fb"
+      }
+    },
+    {
+      "id": "A20",
+      "key": "sci-fi-wireframe",
+      "htmlSha256": "e11e4387cdac8702c9f9e3f81e8178c69350f7e82edd333b71c8622d33c8c5d1",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/sci-fi-wireframe/qa/stills/f0.jpg": "89c141500672c043beda658aa905d976a8a94596b49e67035bd4e633d705e631",
+        "variants/sci-fi-wireframe/qa/stills/f567.jpg": "27d7f95289e37d2f016758470e39c1ca4ac0ae259b7899e784833889cb21168b",
+        "variants/sci-fi-wireframe/qa/stills/f732.jpg": "bbaf1c8d4c3478d3560ea051cde5b59f7f5cd56992d772a580a215bfd173c0b9",
+        "variants/sci-fi-wireframe/qa/stills/f879.jpg": "c8028f5ed551485f3125eebdd511877d8b37d52905f2d3391c2b98e79d75d4f3"
+      }
+    },
+    {
+      "id": "A21",
+      "key": "documentary",
+      "htmlSha256": "8b055297f8daf0f1233547c977c476ed2c334795941b205c3a47ad8eb9f99d36",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/documentary/qa/stills/f0.jpg": "85675588e883e0947751746d48119a6f12df297659161879f1ed8e817b4a78cf",
+        "variants/documentary/qa/stills/f567.jpg": "7d97dfce898e3c8f111b112c26dd79efb6dd253cf2a50a8674b2de78af1050a2",
+        "variants/documentary/qa/stills/f732.jpg": "1fa974e5cba60235b3a4ae769fc50416f55370c224b2b0a0d4026d60578eb922",
+        "variants/documentary/qa/stills/f879.jpg": "1a27026139a272b5b8dabf2313b769d372eaea0fc99a1a74cd987bf9bafddf23"
+      }
+    },
+    {
+      "id": "A22",
+      "key": "tabletop-stilllife",
+      "htmlSha256": "2111ce6da83500739ce0ec198133850094f54b27eeeac480d9ceac0799d3bbd4",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/tabletop-stilllife/qa/stills/f0.jpg": "f70a3bcdf549c511fba49b0577d43f62891a110e5e756e7a5e43272b597a28da",
+        "variants/tabletop-stilllife/qa/stills/f567.jpg": "4f18e8ffbd1c0b5532e61a9eebef89014b82a06ffd2d8bda6f8779d841812fea",
+        "variants/tabletop-stilllife/qa/stills/f732.jpg": "4bde0afc17faf3c8a127bc313acae2b755c02a8db2f7f395b12b059393cef168",
+        "variants/tabletop-stilllife/qa/stills/f879.jpg": "94d4087c97ef07694dd77960a4c19425ec45e5c0362da79c723a47de9c70f05f"
+      }
+    },
+    {
+      "id": "A23",
+      "key": "macro-material",
+      "htmlSha256": "d92dc9f20fbef4f7a37f0ad46e81154b98b569129bcee7f8367f9548e69f56fd",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/macro-material/qa/stills/f0.jpg": "2bcc52e88a30d9c833863342c39a59c5620e6eb32fe63a4a0374ce4bd47dcd6c",
+        "variants/macro-material/qa/stills/f567.jpg": "38c5a97e24c6fbaca8ad6f788db0d202871c4b6b6a7de19d1836838c9590d834",
+        "variants/macro-material/qa/stills/f732.jpg": "b608ef37d507a324dc39d714575a209761764bf8b96334c3d294abbde6670bbe",
+        "variants/macro-material/qa/stills/f879.jpg": "0c071d6c7c3c3943c66f6acb5afc34e1508f7070a711795a91701432db6a57b3"
+      }
+    },
+    {
+      "id": "A24",
+      "key": "overhead-workbench",
+      "htmlSha256": "71abb4ed18ab2255618dcc63e704b4e88d6156f66ddb8e9be503e20cdc699e49",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/overhead-workbench/qa/stills/f0.jpg": "2db692a0fc1b22de0507f2433ddb50108379d13693a28e66e133310aa6e9eca4",
+        "variants/overhead-workbench/qa/stills/f567.jpg": "07bb67176334dbf4bb7f2d0c1eef843eafb66b62a55fead9a6110112cf2159fb",
+        "variants/overhead-workbench/qa/stills/f732.jpg": "1a66e267d0c219a44ebcac752669e25a4405ff5a9d804dbb4726e4b7931b411f",
+        "variants/overhead-workbench/qa/stills/f879.jpg": "39e6adfa9f9f11a07eb42171959751a1b925a545810adbce73c6a07291998ade"
+      }
+    },
+    {
+      "id": "A25",
+      "key": "architectural-light",
+      "htmlSha256": "72d2cfd659a65006e4f57067304de4ffeeb3081426abca109cf52e22132cb3bb",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/architectural-light/qa/stills/f0.jpg": "013aebd8ea55b6e9235b3a379198f471eb2b31a87f4f50625d3f109d63de65b0",
+        "variants/architectural-light/qa/stills/f567.jpg": "75621447bf4d3503cba4db51b89be4015790c57cd737f026761000ff517fc78f",
+        "variants/architectural-light/qa/stills/f732.jpg": "21f69df0b804726aff2ed092e3843316f9cb7d59184b421e9c4a841796db920a",
+        "variants/architectural-light/qa/stills/f879.jpg": "a2d34532068530c5e78c3729ead3bbbfd1a76586b2007d890836db0bffe66660"
+      }
+    },
+    {
+      "id": "A26",
+      "key": "everyday-story",
+      "htmlSha256": "d89d4d557d1f4f626ca680f5d2f353decc66447682221b2c556e306400fc1f4c",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/everyday-story/qa/stills/f0.jpg": "fe09fe5aae2c29f7aa3bfbebbccecc53998c52e8244a26a0b08f37c1e3633b12",
+        "variants/everyday-story/qa/stills/f567.jpg": "804efa38a7a74ecce348529a8288345647753383a2ead88eb093bf78af8fb8e7",
+        "variants/everyday-story/qa/stills/f732.jpg": "b470288315cefcdc4b0d871269f814b44701368f429336f590962a985c309a03",
+        "variants/everyday-story/qa/stills/f879.jpg": "199b3b8b81127b77919ce9ea976d223340fce6e6020c3c717442d014d1ebe2e2"
+      }
+    },
+    {
+      "id": "A27",
+      "key": "spotlight-stage",
+      "htmlSha256": "93ec7e0d899d646f2b930927b786d6691cdcca07e8b2238b7ee85ded314cbd74",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/spotlight-stage/qa/stills/f0.jpg": "b197dfae18ab98c7c7ac6ad1743e9123d130aedcdae5afa44e2bf0684bec1e73",
+        "variants/spotlight-stage/qa/stills/f567.jpg": "bc69a80bd9b23d7e729d88384d83ad337c7cbff8f2296b97934ba09dc13b11dc",
+        "variants/spotlight-stage/qa/stills/f732.jpg": "3b5bd3fe55fa0e7d314ad25b0b8ee7309dc5b7de4fcd027adc94eb8a21a85e27",
+        "variants/spotlight-stage/qa/stills/f879.jpg": "b759fb450517beeb79cf8bdc6374e3f2c297bd34c2934c574a3599044f2fb7b7"
+      }
+    },
+    {
+      "id": "A28",
+      "key": "darkroom-prints",
+      "htmlSha256": "fb882b6a255273942ebfb99ff5dcbfe73502ef7c927361756baca1af4f308762",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/darkroom-prints/qa/stills/f0.jpg": "160d7d769706dbe0359e3c5a223f80838417891bd5aa605d2a91d1989f1ae2ba",
+        "variants/darkroom-prints/qa/stills/f567.jpg": "f90ea85516f8ab92b8bbd7e6cdb6c92e15659de9b5696a5fbae69d1c26b63cec",
+        "variants/darkroom-prints/qa/stills/f732.jpg": "1dae8002353e003cc2897f0e66db4371a4b0a9b73e0aa46c139d123e77f93877",
+        "variants/darkroom-prints/qa/stills/f879.jpg": "13a4f8143f704696e31453aab59d4d376ac28a5d921c885bc0263eeb520e8ec9"
+      }
+    },
+    {
+      "id": "A29",
+      "key": "newspaper",
+      "htmlSha256": "e2ecbd218c12632c9d9d1ddc3cfa6fb62f0f980e68d229f7a0ed9067d9320e3a",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/newspaper/qa/stills/f0.jpg": "256897b2c541a7ee3d536b1dc3ea1227227b7dba24bee289ffae5333c90433f7",
+        "variants/newspaper/qa/stills/f567.jpg": "49fd97261ba15002c46fffa5a50103e65d5cd22751c07d4bc777f6d02883401d",
+        "variants/newspaper/qa/stills/f732.jpg": "4813e4735e8a56d54c385ee58fb9b19c486e4aeb1d7aac855e939021bc0f8881",
+        "variants/newspaper/qa/stills/f879.jpg": "09505125eab1a38e628589168d72480154decd7a724b5af604e57e03a4638776"
+      }
+    },
+    {
+      "id": "A30",
+      "key": "archive-dossier",
+      "htmlSha256": "84f825c2178afbf89cfc506bc07e4407080246e5bd5c4610cc8666d51e411e1c",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/archive-dossier/qa/stills/f0.jpg": "eeb682b8f2919fbf1af94bbb63a773755845d2a567cc817fadb3d6f4b44f2791",
+        "variants/archive-dossier/qa/stills/f567.jpg": "1bebeef3d0fc3175bbdf3a92df23dea9bf462f1e91d5fbb57e309d1fb57440cf",
+        "variants/archive-dossier/qa/stills/f732.jpg": "7878d6f2002bbcdbd10bb1a62afd7166e63edd5764630c2fc578b26bf399c53d",
+        "variants/archive-dossier/qa/stills/f879.jpg": "5c2e6878da49ae8de98435d04a720a4793d52f7fa2cfd90063f93bf9a35f5b97"
+      }
+    },
+    {
+      "id": "A31",
+      "key": "photo-book",
+      "htmlSha256": "6bec4410287220047f29a25dc3fd37923bc0257f1c9990985c1b3c1dc44d1022",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/photo-book/qa/stills/f0.jpg": "b4ea325af77346c843c26d0cb9a4efa6fba06ae73261c2954512d021d8fbe162",
+        "variants/photo-book/qa/stills/f567.jpg": "eac5cc7b1f8f88ea1d112ca82cef8d405f47959ae3650d89dc047d0eac8cf53c",
+        "variants/photo-book/qa/stills/f732.jpg": "7ac2c98b23d4fbc90cefb5626718fc5dc4568e411b941032fbbb6a193569eeb6",
+        "variants/photo-book/qa/stills/f879.jpg": "e4a343d03ee84929a485a710c2d3b3afae092269adedf8ecdb2a8f7da878f43e"
+      }
+    },
+    {
+      "id": "A32",
+      "key": "dictionary-entry",
+      "htmlSha256": "34417d5a9c6746d92fe29f8be9c0c057ca36963dc0d60de6a17530f2d42d08eb",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/dictionary-entry/qa/stills/f0.jpg": "3e1178fb2e3fbaba374791477642505cb43fa10e1067a527ae6465684f8c1118",
+        "variants/dictionary-entry/qa/stills/f567.jpg": "27c199673ee84bcdf84842252bce4a0ed8d0251364f559cc7e31f74c1eb9910c",
+        "variants/dictionary-entry/qa/stills/f732.jpg": "263e22a05d1e2b56f99d9a2eb33f072736cb5b68b48619a706ca6465b71aea77",
+        "variants/dictionary-entry/qa/stills/f879.jpg": "bf6f65cfe4a755086ff2a7e64e7a53ed354ec9da663eb8647c1d1b676716ec7f"
+      }
+    },
+    {
+      "id": "A33",
+      "key": "lab-notebook",
+      "htmlSha256": "5352a52ca6d5ff1759024c773ff7d33d0b09f199f15e88c77da77a5e8e3c5d88",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/lab-notebook/qa/stills/f0.jpg": "4096be7437ce9db071fa720272b4cc0176feac846ede97f9b3cdc915bf169512",
+        "variants/lab-notebook/qa/stills/f567.jpg": "4e54b71d41241bec7ff2eaa885c89b816c0c4a3d3676c60e73a0e02ff3885897",
+        "variants/lab-notebook/qa/stills/f732.jpg": "7833d0c91d09ce585863493326dab990da2f131058a53fd18d7b09b406225df6",
+        "variants/lab-notebook/qa/stills/f879.jpg": "8316a5e5c12cce333ec72c3f79d05c400dff814f735cab5c25728d27a4b9936f"
+      }
+    },
+    {
+      "id": "A34",
+      "key": "timeline-almanac",
+      "htmlSha256": "ca6dd3bf8978230ceb554c69eff36b81ceebf0805498ab8994e17f6deaf97249",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/timeline-almanac/qa/stills/f0.jpg": "38fc5c15cf1b90f450944f7a87434a94390b9652f67c8683d4d7fef98fecc7ce",
+        "variants/timeline-almanac/qa/stills/f567.jpg": "000ffcd2cf6b896387a4ac70b87dc2931c9a1aa9f4fee8c5355fd64b0c5b90a1",
+        "variants/timeline-almanac/qa/stills/f732.jpg": "86377a63f77bad5aec04525c50edcc13625cc19dc57881eb3d27bd45901035d7",
+        "variants/timeline-almanac/qa/stills/f879.jpg": "272f3823b40117f66133a04ae9e95e5acde753392beefc98f4f5cae06b672aa0"
+      }
+    },
+    {
+      "id": "A35",
+      "key": "swiss-grid",
+      "htmlSha256": "4f4f584431ee2d342fdec5677311f7f60a722f8ac53ffccc93d28cd1d86178ce",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/swiss-grid/qa/stills/f0.jpg": "1944ca4c594751bbed0dd3dd2a5cb1c9a769e4c9ee18e6ecadc1a47acc45cd67",
+        "variants/swiss-grid/qa/stills/f567.jpg": "9d86093d028635c101f15892fdeea345153abb7aab999b17596427765737f866",
+        "variants/swiss-grid/qa/stills/f732.jpg": "0afd270b1f5044ce1ee00ffbdf2b9b655d60b2da306b4a6333bd38197ac05f47",
+        "variants/swiss-grid/qa/stills/f879.jpg": "88da3b32941470d31228447d2175433d7658fb1d81723fbfd174a6a3754fd364"
+      }
+    },
+    {
+      "id": "A36",
+      "key": "constructivist",
+      "htmlSha256": "da295cee8f21caf21fe7957d7fc4bf79b904f47a897b36613c0db3f5ac5302d4",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/constructivist/qa/stills/f0.jpg": "17fa175fe8a92a2cf71e29e69f9e335d15d4125d9ab0361bbb25987a5ed5c35c",
+        "variants/constructivist/qa/stills/f567.jpg": "78fdfd522af15e57d87107f4c90fc80c26c0441314901872209891661cd2cedd",
+        "variants/constructivist/qa/stills/f732.jpg": "831564a662347e8c25c5314a72dd4bf65aef54063a3d6fa4edf1eef2e99b14bf",
+        "variants/constructivist/qa/stills/f879.jpg": "03ab0fb86d50d6b93faf1fc1b1f5ef931605f7679b9902af9e89cd388497b0c4"
+      }
+    },
+    {
+      "id": "A37",
+      "key": "art-deco",
+      "htmlSha256": "1169cdd9dc3cf8f82f38c8b25d151fe33eee554772a5e4dc1ee1e801eb03ec06",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/art-deco/qa/stills/f0.jpg": "503851d4aa3d22cd855fa5f5cce558ca278a34a9e0a3b0c69717603dd00876ed",
+        "variants/art-deco/qa/stills/f567.jpg": "d1910a638923a0a05c8259409fab77bf2efe5d50796d66fc9ee44f9b9726a4a3",
+        "variants/art-deco/qa/stills/f732.jpg": "c5ee716a10d03403208728acd1dd34f95c1b6159e9f59201e57c83ee1b220e64",
+        "variants/art-deco/qa/stills/f879.jpg": "0143c82125a08b262f7cba3c9e6ccb8531b6f58dfadd5e9fc201d2bab59d6427"
+      }
+    },
+    {
+      "id": "A38",
+      "key": "art-nouveau",
+      "htmlSha256": "10805a2d4951414cc92d062091f6f7e8fe2139460b28d2f7028343290a1df3ed",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/art-nouveau/qa/stills/f0.jpg": "89ffc76aa7d144b24742a14d395899c994a48123c032272103da416298d8da24",
+        "variants/art-nouveau/qa/stills/f567.jpg": "ee420a7f736e5672c0fed714dfbb16d4fbf4be41926744aaca40802af92587d6",
+        "variants/art-nouveau/qa/stills/f732.jpg": "7c68a666a335f69cd32fe339bb5d83a5bc1d0ebf691fcb2d8ca8462aaada28dd",
+        "variants/art-nouveau/qa/stills/f879.jpg": "76db969cd2e00f3204f6608a0570bdbf2acb8f56abb721a029e24d8f7e193a7a"
+      }
+    },
+    {
+      "id": "A39",
+      "key": "memphis",
+      "htmlSha256": "3a4c3695a07093d8c04d74e00d6a1dc89b26499557490f9adfda992f9b3cbab3",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/memphis/qa/stills/f0.jpg": "e1168e1662e0cae7b7a3c8215b36b1bf40de39878131ac96cdca3ff596a42f65",
+        "variants/memphis/qa/stills/f567.jpg": "2c7df94be28efad8990f1489b91769b61cfb03659239de67f742f80f9706ffeb",
+        "variants/memphis/qa/stills/f732.jpg": "dc62c384c0f430f849ff7565ff207200312454b18dc5466843e6ec3147d92bc1",
+        "variants/memphis/qa/stills/f879.jpg": "03cac73c534f4970b6093cbc05faf1835614f830bf7a189f4b2794ade4fec6fb"
+      }
+    },
+    {
+      "id": "A40",
+      "key": "brutalist-type",
+      "htmlSha256": "8265a8cea68b5123e083f0299f0fa730b24025325a6eae8807f4aa75f2db282d",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/brutalist-type/qa/stills/f0.jpg": "b6d08bef43f171dc2f1008e0c278a2ca6c630223e7a4764e61fff4e7e5447a09",
+        "variants/brutalist-type/qa/stills/f567.jpg": "55e95db1c5351b29d4221d04ffa3895198fce1416c7665e232483417cfa6922c",
+        "variants/brutalist-type/qa/stills/f732.jpg": "4a3047584bd4f392b990011f1803d22ad463447e5e1291d5033a053e107183ac",
+        "variants/brutalist-type/qa/stills/f879.jpg": "4e453977bb2e0e930b8280358e2eff8d97375daa78a29a35c6c8ea1d40ad5c73"
+      }
+    },
+    {
+      "id": "A41",
+      "key": "optical-graphic",
+      "htmlSha256": "f92c9a62523b03f176dbdc920531b52c9ea5f0a646d094e7f848fe736491b44a",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/optical-graphic/qa/stills/f0.jpg": "8c363da22dc4c85f2a28758e80bb6f5bc1d7e28a56de0af96299cbeb6accab5e",
+        "variants/optical-graphic/qa/stills/f567.jpg": "6fbd14748823680338e1d9787322f66419a80c6c4b6b52910a0cf5929e406256",
+        "variants/optical-graphic/qa/stills/f732.jpg": "f56a780a39bfaa36cd3bcfaa9419fe45edbf77f740971ddf544526539ba0598a",
+        "variants/optical-graphic/qa/stills/f879.jpg": "b6c697093c7b4b4d9ef2138678d2fd3f9f927bbb2e4114ad0456966aad7ea2a7"
+      }
+    },
+    {
+      "id": "A42",
+      "key": "negative-space",
+      "htmlSha256": "08508009e693c9afa1f6c0569cf50546245d91791b2319baac62586c666864de",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/negative-space/qa/stills/f0.jpg": "fdcaa5e5a663f3899c8913cde71e20d9bbb221083de91315d4d7cec1c770d361",
+        "variants/negative-space/qa/stills/f567.jpg": "025adb98942f39ca493c3551568ea95beb03307b165bc5dd1212a5c20a8080b7",
+        "variants/negative-space/qa/stills/f732.jpg": "1cbfab686828ca35f7a36518f57b92deb6bcf38a2339ba6dbc3751daac2c5ada",
+        "variants/negative-space/qa/stills/f879.jpg": "5adf7dbfdbd4eba73cc34563263fd43a9f583f64d864c769baa66b80746b6793"
+      }
+    },
+    {
+      "id": "A43",
+      "key": "pencil-sketch",
+      "htmlSha256": "621f61e10820079a4a3eeb76a9de80ec7db4baf817c4f6eda2472d3b6793118b",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/pencil-sketch/qa/stills/f0.jpg": "c04addc875d88f36b44cdf6be77cc9fd7f1583f20d46d370b513d32bb2bba6ee",
+        "variants/pencil-sketch/qa/stills/f567.jpg": "4654b0c0358c7028d6384ab37f3794d8d8665ad25e425b88f0870fe12583798e",
+        "variants/pencil-sketch/qa/stills/f732.jpg": "83ad46d0598b928c29d2ac869d3fc0b8e5c0319a1968c23a2b4f2e77326e83d6",
+        "variants/pencil-sketch/qa/stills/f879.jpg": "e1a415b56533ea415324a0b8e5fae66d994c1ab9e1b17bbc97ececbf7c41a4af"
+      }
+    },
+    {
+      "id": "A44",
+      "key": "colored-pencil",
+      "htmlSha256": "40345c3e7b20a1d1bd1d26e935c8b32e354e3e2091990a38d596a6baefe33848",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/colored-pencil/qa/stills/f0.jpg": "6830d54931bc34e0e7dad4467fadee6cb9ae47eb17bf98df532f60b8bfd43ec0",
+        "variants/colored-pencil/qa/stills/f567.jpg": "f1ffbb3be45c65e21562dcf1eb3d9e520525b016c66f6fb8fa0319b158a590a4",
+        "variants/colored-pencil/qa/stills/f732.jpg": "791153b6149842c50186156dc868892164aa0369a1d1b0d2664a7623ab13b17c",
+        "variants/colored-pencil/qa/stills/f879.jpg": "af0639a24248316397ee20d29044962574859de7f0980e61712b357da7a15305"
+      }
+    },
+    {
+      "id": "A45",
+      "key": "charcoal",
+      "htmlSha256": "54a4550dca796ecf784cc0cc2f3f76f33f12e51f710ee70d3b06120bef510cb9",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/charcoal/qa/stills/f0.jpg": "2b102c77da246d57029490d15288abbb66dfe4d77bff0136f728ef178345bd18",
+        "variants/charcoal/qa/stills/f567.jpg": "a91bccfbbffada7b54634fd0dd018ee4795e8100a63d820a83048968150a8524",
+        "variants/charcoal/qa/stills/f732.jpg": "c084428dd083dfb214421bb2bd2f3bc1cb36197f8c6395eaf33ce389ca6f9191",
+        "variants/charcoal/qa/stills/f879.jpg": "512c5f2742f685d147223a7a1393bf4b92fe3e0cbd68d1c113ace17c57a8008b"
+      }
+    },
+    {
+      "id": "A46",
+      "key": "pen-hatching",
+      "htmlSha256": "b7a02518f883e4fc56ddaa63d02adc1758bea97e34aea6daeacc1f22ce1c6079",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/pen-hatching/qa/stills/f0.jpg": "087536ab25bc1e8a17f804d3c7548bcd11a23e2d64cf69794554995778c96a26",
+        "variants/pen-hatching/qa/stills/f567.jpg": "9cbc9c35e3ead57c25792f93b95e37f2a5c59da1d62f3927d2644d821d847835",
+        "variants/pen-hatching/qa/stills/f732.jpg": "d7d514459531a6bd567432a1fc340d1a623edd7a966a6698011e33743792fa52",
+        "variants/pen-hatching/qa/stills/f879.jpg": "29e60b8c66c09705a355b3917ed4754fe2266b174b2687f542cade4897731b4a"
+      }
+    },
+    {
+      "id": "A47",
+      "key": "wax-crayon",
+      "htmlSha256": "463002feb302e3314f5ede183b320f5bac2f03384d9e8d72cbb2431ff769f1e8",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/wax-crayon/qa/stills/f0.jpg": "c3cfc3072588c3e30cbb43a647d8efd0d7f0d55943023b1912aa77503696a187",
+        "variants/wax-crayon/qa/stills/f567.jpg": "3503df1c164f22a5f13b1ba132f0d2dc1f3130a2d41e58028de4efbedaf425c6",
+        "variants/wax-crayon/qa/stills/f732.jpg": "e29a51cf0871580f0370daf21ae815b6825f78ac638f7a818c274f0c027f7b02",
+        "variants/wax-crayon/qa/stills/f879.jpg": "fcbe1e6af2cc05e0f2655a559b7e21fcfad19fe8ba4ad7360d7713060f1aff7f"
+      }
+    },
+    {
+      "id": "A48",
+      "key": "soft-pastel",
+      "htmlSha256": "94f6dadc5b2edbb6f58190462162bf10b487df566dc3a02a8596c3783c13b4ab",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/soft-pastel/qa/stills/f0.jpg": "1f9aa0e230b29e3aed40ed0f1abb13c28bbea5df7c6fe8f9828bc3c1404fe910",
+        "variants/soft-pastel/qa/stills/f567.jpg": "1f1af612446e11976dd22d5d54243e948d8cbfcdf4659062489ecb7518487522",
+        "variants/soft-pastel/qa/stills/f732.jpg": "4343c3c7b1b0d2b838f919d2d8a886cc5cd48701cb41959c4af55872ef62bd80",
+        "variants/soft-pastel/qa/stills/f879.jpg": "fbd7dd2966f6e8d0aa288b7f473fc32a1cac39a282e8f73c355554f901bd97d5"
+      }
+    },
+    {
+      "id": "A49",
+      "key": "marker-sketch",
+      "htmlSha256": "5a24abb85bdc826f71eddcd69a89c99713256f51e691d29285c8c33ce54515f3",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/marker-sketch/qa/stills/f0.jpg": "2ac02fcb8aca1414ee43350d2768d96ca72b044ac7e00bb170372722bb2afef0",
+        "variants/marker-sketch/qa/stills/f567.jpg": "c9aac4c328d385cd53ed1c1ffa0002b5514acd51de2a8172ee8d35746cc9f29d",
+        "variants/marker-sketch/qa/stills/f732.jpg": "06db04c56915753844caddfc520527846eea685a6974441320a3a4a361b6d176",
+        "variants/marker-sketch/qa/stills/f879.jpg": "ac42dd6ed3d096abc5b0c72a6a03b01364c27f7f6eb7a4e1aec7c6e00059988c"
+      }
+    },
+    {
+      "id": "A50",
+      "key": "brush-lettering",
+      "htmlSha256": "675bc5614513f88e3e388f8c8292ebf54559daea26f8dabbb103428c0b70fda2",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/brush-lettering/qa/stills/f0.jpg": "4330252d6a03a90df4b0812f58e529fb66f8d70ba9bc70cfb216fc4704b10800",
+        "variants/brush-lettering/qa/stills/f567.jpg": "93116bc8a58570b5f5ea0318b654717063e12e1b98ec8c2d93e0c9a6cc830efd",
+        "variants/brush-lettering/qa/stills/f732.jpg": "64dc466e0395b84c3f6a0e0ec641e6caa05abb6b779eecac252ed5cc58e77227",
+        "variants/brush-lettering/qa/stills/f879.jpg": "77a3c3282d68b1f9be0c9b1ab657634818ba57c6b5603d7a4df0faf8f8564921"
+      }
+    },
+    {
+      "id": "A51",
+      "key": "picture-book",
+      "htmlSha256": "e5ebb6f2ba49f9e6f7637900e608eb8e9be73ffb32ebe82b803316e21cd11c79",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/picture-book/qa/stills/f0.jpg": "f7277b7db80b08e4a328472ee3b0eb5b0ce10ad80149d8db6e78afa3c08c95aa",
+        "variants/picture-book/qa/stills/f567.jpg": "76746d174bd86b2bd59fc7e0457cf777d7eef292e689bebfae6c5fe1598dce87",
+        "variants/picture-book/qa/stills/f732.jpg": "3a3e201cd5081946c6c1d8a6884de51ab95f946d7c966eda21f6f48900b2fb0a",
+        "variants/picture-book/qa/stills/f879.jpg": "19ae41fa8b790e4a016779347feeddd617b3f5264c4da8f134f0afbaba3e0a6f"
+      }
+    },
+    {
+      "id": "A52",
+      "key": "natural-history",
+      "htmlSha256": "3d269aa8d5f079ae09ba0fcf70be4d2c2b2eafd2a63d9c8c83cc7e17dcb46017",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/natural-history/qa/stills/f0.jpg": "96a79eeda63378e540691ea614e2a01d7a8155faae05edaf68157b0529563882",
+        "variants/natural-history/qa/stills/f567.jpg": "bb3edaf90a5e71f6469b692367db8364e1f472b85b09285d9377f4c207283ba5",
+        "variants/natural-history/qa/stills/f732.jpg": "1e49186b64d963ebb6ba55d25d5bc81c9bb5be4edd269e70e0b157744594f976",
+        "variants/natural-history/qa/stills/f879.jpg": "8c0bf3122fcaa9eb21ae58c3f4f3ed2583910db5db6a8e8811e1ab5e43d6c92f"
+      }
+    },
+    {
+      "id": "A53",
+      "key": "isometric-city",
+      "htmlSha256": "bb6fdae920cd26d6a41c345e39ce4c221bf49f4d7442d374d93fe3dc680e1178",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/isometric-city/qa/stills/f0.jpg": "3df30fcd298d7e0dc9d3fede24afb2e2189a50a5aee63a4eb1173cbaf0f1d91b",
+        "variants/isometric-city/qa/stills/f567.jpg": "d42ea7e0ebac04fe98eab2dc2a722468139b9d8f7a97cc5c306332e3e509d61b",
+        "variants/isometric-city/qa/stills/f732.jpg": "9e05f231714164b0cdecde27ddab8186cb98706b93400560d729df93f9fabdac",
+        "variants/isometric-city/qa/stills/f879.jpg": "5363dfe4a9a854daf4e4dec759de1b70b4ffc3a1d9c2f891491b5a83a4ab9d57"
+      }
+    },
+    {
+      "id": "A54",
+      "key": "faceted-vector",
+      "htmlSha256": "d8e2bd00ae0812998a1abc3b91a1ca3db1a2badf0a0af945dc923890d8a88871",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/faceted-vector/qa/stills/f0.jpg": "df679cf4940c4fda36bb2bed14ccae60e64569209b2f4e353d67dfa48a2b0de5",
+        "variants/faceted-vector/qa/stills/f567.jpg": "38e69d13838bcedccafb5e4c979d9102187cf6b7651c05b3df3c9081072fb64f",
+        "variants/faceted-vector/qa/stills/f732.jpg": "d7f5474d8f88efc0874fecacf29458829204ea471b9698e6b08b193aa333b9d6",
+        "variants/faceted-vector/qa/stills/f879.jpg": "2b7bb1345bca1c844dbdb0a448f2e5d8c8a9876ef806480bc58d31bbc4d4ad04"
+      }
+    },
+    {
+      "id": "A55",
+      "key": "editorial-metaphor",
+      "htmlSha256": "5f4f62fc130c8e4c69d29de7d32c739273663de1c932f1d2a51d744965a9da2e",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/editorial-metaphor/qa/stills/f0.jpg": "5d2f92cb2f78b530ab7d470e6f3b1139a22c2476a3ddc8d3a5adb1853373799f",
+        "variants/editorial-metaphor/qa/stills/f567.jpg": "0e1453584aa07c3276f95cffcd5c5f21f128622a3546c72ccd036dd30cca9374",
+        "variants/editorial-metaphor/qa/stills/f732.jpg": "20ba9f11f5f8a5466a72bd5fd247fa5fe90ae04e37baba346c830ecf8e4f4f44",
+        "variants/editorial-metaphor/qa/stills/f879.jpg": "82f38ebdb69df44e427cdc6d1a4e89d46f4ae00eb9785d737e04d2f92758f19b"
+      }
+    },
+    {
+      "id": "A56",
+      "key": "silhouette-fable",
+      "htmlSha256": "5e403c7f16248f01aed15a86a04206a1d5342c7f5a80b64ed1232914762f5299",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/silhouette-fable/qa/stills/f0.jpg": "334b4f716a7e4b09430a7afc47e98b1dfc6b5051bdc12b1ca96106bb575449d3",
+        "variants/silhouette-fable/qa/stills/f567.jpg": "5744925a513d48c5ae7ac780e751beb9b245d3ab0436404284305f90a41b843e",
+        "variants/silhouette-fable/qa/stills/f732.jpg": "257bd4dbacc7e1330e878c7dddd6e608f8c905e412f19f48d04e4fcc3e8b08a8",
+        "variants/silhouette-fable/qa/stills/f879.jpg": "6641ba281d4c9183c601cd7495a77d84a19fa0321152953e0efe1c91d203ea90"
+      }
+    },
+    {
+      "id": "A57",
+      "key": "illustrated-map",
+      "htmlSha256": "80355deaa7536906afae740aee2eb547718ab44144b694678556a4b7d22b5b76",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/illustrated-map/qa/stills/f0.jpg": "e4b01db383cd42334e9e33befdc4272225ba1f993bc99aac40bfddb95155d21d",
+        "variants/illustrated-map/qa/stills/f567.jpg": "20ab4e2c8a4db1570786afa2324935040e2eefe7b54d04139aba1d326097b95c",
+        "variants/illustrated-map/qa/stills/f732.jpg": "94a8da8ab3610b6abc7c1c1265001bcc5f2c9f190f710d9b367d06499841d405",
+        "variants/illustrated-map/qa/stills/f879.jpg": "435bc09badb00a80d25a9b5ca5427ea45b4bd51f2bce288805d3e1586aac928d"
+      }
+    },
+    {
+      "id": "A58",
+      "key": "origami",
+      "htmlSha256": "606b75005a7157a3c40f149cd9573e839d804f8da65ed32338571e48c6e3c819",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/origami/qa/stills/f0.jpg": "021994b785716cac2503808ef60ae87b04ea767848ba99ed9bb558a1926fca41",
+        "variants/origami/qa/stills/f567.jpg": "fb77fc1e17e5319a5e911d3fb2e813ee43694b875b7810e30356c37b522f777b",
+        "variants/origami/qa/stills/f732.jpg": "6ae147833ef499fd67852aba7aa7767372b3cc999aa9a1f0acefc9a022916b1b",
+        "variants/origami/qa/stills/f879.jpg": "36c99776c4271e11914db0ba1e6a5344d81cf5345702d4a091a4dd4cd13ec54c"
+      }
+    },
+    {
+      "id": "A59",
+      "key": "pop-up-book",
+      "htmlSha256": "42418a843dcdc18d54b46ed93e47bf7713525d9f33502eeb67c325fbf7be288d",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/pop-up-book/qa/stills/f0.jpg": "9c6a859fa3988f21aa3f83ada775cdd71e487d9781743c17d16c90c52b726bec",
+        "variants/pop-up-book/qa/stills/f567.jpg": "a18a8561eb8d8f03af83b7e33af68f69ebded52c11fd125c0b073bffcd5481e0",
+        "variants/pop-up-book/qa/stills/f732.jpg": "53122281cfd098637bd9d9e315eed457433777c17cc9bbe2ad14646486c0e320",
+        "variants/pop-up-book/qa/stills/f879.jpg": "e73e2454e33f8763e745d668d4720ad9b96e0b2bcfc991b9352927e8020f70d9"
+      }
+    },
+    {
+      "id": "A60",
+      "key": "corrugated-model",
+      "htmlSha256": "039b5977a2f289ecb3aed2659fbe5cc231f48a4213024b7c2e982919932c3093",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/corrugated-model/qa/stills/f0.jpg": "93b9082017be9784b8e59ff3035e882963c7296535286b5dec11b76e13984910",
+        "variants/corrugated-model/qa/stills/f567.jpg": "d9266bfe81dcefa4eb5080b80aa855eb6cffe8bb9b71d9867182c4cd205b579c",
+        "variants/corrugated-model/qa/stills/f732.jpg": "176087937226f93026ef4a43a51cd11863805836d3ab939261459dd066291e79",
+        "variants/corrugated-model/qa/stills/f879.jpg": "8d7bdab9d4dde78c1d18494a84aaf51fc29a08440757c7222c2c49896a8b478a"
+      }
+    },
+    {
+      "id": "A61",
+      "key": "torn-paper",
+      "htmlSha256": "319246910812d331466ba6a20ae78ece52c429e03d5475be51291ef1bc6331aa",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/torn-paper/qa/stills/f0.jpg": "aafcb2c3c36b9e196c2fba031498c20c269175551e4d5a9b7eac4bc06f8e451e",
+        "variants/torn-paper/qa/stills/f567.jpg": "77d3acab79b47c87394c9323584ca691404920037ab049fe519b6aee9563e3cb",
+        "variants/torn-paper/qa/stills/f732.jpg": "e4e4bb3c4563777536d1a5602f8aec5df543bc3dc263a35433db89fb52ed35b3",
+        "variants/torn-paper/qa/stills/f879.jpg": "9e8bb53ca1f0685170fb41c1fd7c4230ebf9440942a73d0c22555cb99738e92a"
+      }
+    },
+    {
+      "id": "A62",
+      "key": "felt-applique",
+      "htmlSha256": "4c2c30d81720dd88c4ad7b3d456d712080b8a2b8eb67eed9de2923533e8b44eb",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/felt-applique/qa/stills/f0.jpg": "c4733024280509531be30420052dd7a209a7be262113f412666cfc883125fb3f",
+        "variants/felt-applique/qa/stills/f567.jpg": "3393af72339d3657d294343c1bea5ab12cf2acb5f6396347a92c613b5d030b53",
+        "variants/felt-applique/qa/stills/f732.jpg": "f9e6a4093e050642968c6a4ccda1e2ea2d5c0277b929a9b0aa3547e11dfe5fc3",
+        "variants/felt-applique/qa/stills/f879.jpg": "5a406fab83d4801814317f890917c7ffd9e66ba3c882eb5391b41e810f07fd4d"
+      }
+    },
+    {
+      "id": "A63",
+      "key": "embroidery",
+      "htmlSha256": "0bc5968c2da00e98001e975eae397962f9e5403870070b926b7531099cb05882",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/embroidery/qa/stills/f0.jpg": "4a01d6f89d65d245a0da5a883ca39de7d512f2f3b5072392898d533e4a554ff8",
+        "variants/embroidery/qa/stills/f567.jpg": "2cbedf8108277afc51652cd8ee8ea3dfe7dfe3f4625a0275b4ed83282938c2fc",
+        "variants/embroidery/qa/stills/f732.jpg": "c7675e2cebc412b9d8d9d117d668037b1f4874e57119b0ef46f79edc63caa4ce",
+        "variants/embroidery/qa/stills/f879.jpg": "2f2f8fe7e1bd5895337f5513c0b53b4c9f4c8dcdd7f882878485cf375f2c695b"
+      }
+    },
+    {
+      "id": "A64",
+      "key": "patchwork",
+      "htmlSha256": "173229ceab8c4624a9721943dd88ddbf9bd026832ec8e38ed07677f35cb7a910",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/patchwork/qa/stills/f0.jpg": "6b08390148a9985ed7e6b01819d3055f3001b2b1792376eb3b42c2db97e86861",
+        "variants/patchwork/qa/stills/f567.jpg": "52c047afa2afa2b7592b3356e8a65da90c76823800463e0e44f8d488cdbff9b8",
+        "variants/patchwork/qa/stills/f732.jpg": "da37084fb9c0265aa523c3d04db9712bb89599be16f3fe99deae2d080439da8c",
+        "variants/patchwork/qa/stills/f879.jpg": "e497c20cc651394f520825b3e6d83e33949e77ae4a1f7daed0f7baf6798623ab"
+      }
+    },
+    {
+      "id": "A65",
+      "key": "knotted-cord",
+      "htmlSha256": "6269a58cebf8801f103ea71d9e39b62bbafff808236c0512f626aeb684401ca1",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/knotted-cord/qa/stills/f0.jpg": "dcf762eb56308e3d6345b48dda4ad7a82ffa6404c014aebd6af3682a5671d126",
+        "variants/knotted-cord/qa/stills/f567.jpg": "020007352709661ec15666a5ee9c64cca10309f99a2883e45cede53cf21c87df",
+        "variants/knotted-cord/qa/stills/f732.jpg": "4c23add86706271890c1eae202006a11629aa9eb49c8351c6543c6af98643d46",
+        "variants/knotted-cord/qa/stills/f879.jpg": "f14c14ac9b15aef6db3e097191d8e667a59f8fb0ca169a0c7adc30e6bd7747f0"
+      }
+    },
+    {
+      "id": "A66",
+      "key": "silk-layers",
+      "htmlSha256": "1e64c39957e1106a629246c88f6fca554a0d6db0958a59d67f55c3bf695f8239",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/silk-layers/qa/stills/f0.jpg": "bc1387a9a9daa712716c5601d0d4a7e5bd6c736f92ae3bf52c9e5b9063cad6f7",
+        "variants/silk-layers/qa/stills/f567.jpg": "9d5c4e60cf8f0fed08c277b99252d6edc9464e4d267bc1a26fa677816bc02d74",
+        "variants/silk-layers/qa/stills/f732.jpg": "42f5b7d2c7e3edaa6f14d5723bb68a45ef8f001a4364fd2e880f2725e15c0e90",
+        "variants/silk-layers/qa/stills/f879.jpg": "47dcd985b62af597fb2d0dec689b907bb31a6f84b9a942197397a305682656ef"
+      }
+    },
+    {
+      "id": "A67",
+      "key": "gongbi",
+      "htmlSha256": "f31baa24e9bca9c441e94a31e40e0ad50ca7bfb03006276c6361e932a5588674",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/gongbi/qa/stills/f0.jpg": "764cc75c4b79c78183fd2ed18cbb187e158224502e2dd3c39c12e4f8062b2030",
+        "variants/gongbi/qa/stills/f567.jpg": "e59c8953ee219a63cf5aadfb1019a66edef3b3f7cd14a10cd57b7172e0bba218",
+        "variants/gongbi/qa/stills/f732.jpg": "6727174c277b3cd6f464b263e2239421cca955acf3a682098153e7716eab9a74",
+        "variants/gongbi/qa/stills/f879.jpg": "21ae3b5b51d987bd259e10912ecdf1e7c1d570307ff8aca2fbef22d5009702d7"
+      }
+    },
+    {
+      "id": "A68",
+      "key": "blue-green-landscape",
+      "htmlSha256": "1a881a20f806f99e44c30e94fbbfd92401725efa6a3ea859684e8137bd269b6b",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/blue-green-landscape/qa/stills/f0.jpg": "de144de40b4172b42c7abe1377214047dc14e9bc53158d744e8e3828e89a2518",
+        "variants/blue-green-landscape/qa/stills/f567.jpg": "7d15121377d7ee22edbf9eb1f2e64751d3dcfea2eb9367824827cb024a1431b0",
+        "variants/blue-green-landscape/qa/stills/f732.jpg": "eb0861aae6af6f486a38b58faed140ec7ada7b5e1ac08d0f73f54f99020c7efa",
+        "variants/blue-green-landscape/qa/stills/f879.jpg": "d45143436a58282e44b4500d6d669050a13da32eb06edadf3b50ae88fc17827d"
+      }
+    },
+    {
+      "id": "A69",
+      "key": "mural",
+      "htmlSha256": "74afcdafa8bacef0cf0d4fa06271f19c7a817af9e79638892ef7360f1d582c4a",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/mural/qa/stills/f0.jpg": "dd962aa7d57d631ed1d27280b369fdb6bb27c1918e48abfe818787cd89d17a35",
+        "variants/mural/qa/stills/f567.jpg": "d1e9cc2f96eee7ab5662732b829c24f2876e7a86c92677263150ab5bd84835b8",
+        "variants/mural/qa/stills/f732.jpg": "a807b4b803239de8b71696bb618191fff209fff4cf9f7bdfc52bda1171f8222b",
+        "variants/mural/qa/stills/f879.jpg": "7502e46c937ffe12bd01401de01f5a71b78a14c748dc62b334d5491ab7b51554"
+      }
+    },
+    {
+      "id": "A70",
+      "key": "folk-woodblock",
+      "htmlSha256": "515175f4877da2a6533f6eb199dbd938f217faa8122e396609b4b9dad46e4d91",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/folk-woodblock/qa/stills/f0.jpg": "42c6183aedbdf10a64d4d46dca51a8ca932a6cb290b9dc8cc5c190b723274703",
+        "variants/folk-woodblock/qa/stills/f567.jpg": "20ff2116d35545ad177e545cd45286f21d1b0cbbe328037a2a17f394101e26ce",
+        "variants/folk-woodblock/qa/stills/f732.jpg": "762edc0065a373d81f5560f14c7adee3169a18751e4674bf3ccc13cae2795b29",
+        "variants/folk-woodblock/qa/stills/f879.jpg": "9ec0b17e631022fd0f7cc9b8b58a89187445b2325388e780cfc51a89c19f396c"
+      }
+    },
+    {
+      "id": "A71",
+      "key": "porcelain-painting",
+      "htmlSha256": "e34d0d4b3a331613234a316ad2560a5055b2e83b6025dbce5b0a929d59229ca7",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/porcelain-painting/qa/stills/f0.jpg": "22bc316c9cf8be670050d064f944fce8e377d3911fb5cd182b243dfb5bcd24e3",
+        "variants/porcelain-painting/qa/stills/f567.jpg": "d300a9afedce29b100689cd5a57209e7c9dd2a51e66cf248fea621be4d0a40be",
+        "variants/porcelain-painting/qa/stills/f732.jpg": "5ab76fe0b4fc9f73a8717e187f487b50cd32c3f7fba1915d3e71c850199339a9",
+        "variants/porcelain-painting/qa/stills/f879.jpg": "22b487d9b6e109c0872e0bd934f92cc04a92fe135afb88fdf76f2c81d8305891"
+      }
+    },
+    {
+      "id": "A72",
+      "key": "seal-carving",
+      "htmlSha256": "2b0a234d293e37ed8f8910f63b17f8b5e76842f6f12e106b2ea2821359e9ee4f",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/seal-carving/qa/stills/f0.jpg": "5e1defbe8ae21f68998cbf0ee8a408732a4b1f2826a13aa7088cf5f03425cfb0",
+        "variants/seal-carving/qa/stills/f567.jpg": "114a2a3f0d55e6c59d68fad48868bedc8b42c7b34c0e2564355ecac6fe1d8249",
+        "variants/seal-carving/qa/stills/f732.jpg": "b47fa478efcd7ca9f7632402366f1dc1e824d47e49eb5dd96a5b47089285917b",
+        "variants/seal-carving/qa/stills/f879.jpg": "16e722c49ed87922a7fb9130e218aa26496da16175cfaa3c41a3702edc255e22"
+      }
+    },
+    {
+      "id": "A73",
+      "key": "lacquer-gold",
+      "htmlSha256": "45791c253e0623b26695c344cbb8560a73d2633bf7ca7379602dbadb4bd8235c",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/lacquer-gold/qa/stills/f0.jpg": "db3a1c4c3559d0712f673fe56debfe2b618e5fda53ce4af92c4d8216162b2c6e",
+        "variants/lacquer-gold/qa/stills/f567.jpg": "f77ea22aecd30db2f13b2a4b1b4593f69f21a9032bf22b37ebd2b80de131eb8e",
+        "variants/lacquer-gold/qa/stills/f732.jpg": "c67715ca564bbeb10b37ca193ef413890b31f03c127d341d810833f76685b601",
+        "variants/lacquer-gold/qa/stills/f879.jpg": "b33d0771e7298313b68c44471d8f46901863a8e263cd95d3da6ef1f438c205fd"
+      }
+    },
+    {
+      "id": "A74",
+      "key": "watercolor",
+      "htmlSha256": "87aff4c5fda39ac1350ee9a67f95b0c3ca4c814f2771ea2a00fe35caa9fda707",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/watercolor/qa/stills/f0.jpg": "3c881bdbbdc5efe14d1b1dde619aad84151c82c580bdb1fb1e016a2625a52af1",
+        "variants/watercolor/qa/stills/f567.jpg": "218d6d06e712b62f1f897a7847836b10c803030b28d693122b61da41777a90b3",
+        "variants/watercolor/qa/stills/f732.jpg": "766e038ef5ce6d308625476b3837b56201063d41a89c2c3cb57767ee292ff170",
+        "variants/watercolor/qa/stills/f879.jpg": "e07c91eea0bf722c61c13a0aabfedc32cc4839883f4efdd5ecd10dede2c40bed"
+      }
+    },
+    {
+      "id": "A75",
+      "key": "impasto",
+      "htmlSha256": "826efeecddf8608478e70e1e260182485afb4b2bb701ef470010b395bf7353f7",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/impasto/qa/stills/f0.jpg": "294cd74dcd7b763dc3a804f3be01784cc4f9c0c0082e9723a2b8cf21c8082395",
+        "variants/impasto/qa/stills/f567.jpg": "229c8b14298e4390e58fd631391b848ca17cfc93ef7320ea58914fc41275d278",
+        "variants/impasto/qa/stills/f732.jpg": "54b93c87f23b1e347b444db8b4976cd75ddf754ddae36a0665b9051d55f3e1b8",
+        "variants/impasto/qa/stills/f879.jpg": "43e0dac85bd54bf961d5a30160c9ce4285bcb2c050d781207f84c2be173d556b"
+      }
+    },
+    {
+      "id": "A76",
+      "key": "woodcut",
+      "htmlSha256": "25f2ebfd612f45424532e184056a8ba10d3e549ff1f8a9ea41b4f2b16942effc",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/woodcut/qa/stills/f0.jpg": "54a9bea537271b34ecd09978d7b330d30dd07d4fd730ee85be69a1bee7ce5bd3",
+        "variants/woodcut/qa/stills/f567.jpg": "880886ac045f0a17e0025b67d2308d2ed701525c8e6b0653919d5aab60f80af0",
+        "variants/woodcut/qa/stills/f732.jpg": "e1f17b3470f5e29c1a896bbef718a8c781352db1fd37fe56f08c443c733868f9",
+        "variants/woodcut/qa/stills/f879.jpg": "437bed9168ef4cd976dc7801825f141e670060c3b383579cf2e42171943bd30b"
+      }
+    },
+    {
+      "id": "A77",
+      "key": "etching",
+      "htmlSha256": "c241002c042876bbfbb11b526375ec8a474967552f9b43f78a189e14f658be28",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/etching/qa/stills/f0.jpg": "e836449b828c0d6512521aefe427934a831eb859d28c12701b1f5a4e844317ec",
+        "variants/etching/qa/stills/f567.jpg": "486e4c27c7abd60c1671f166974d3d774be16fda7bf8c8ed21c5bc134aa13828",
+        "variants/etching/qa/stills/f732.jpg": "f96e26c7fd60a136e57688e503aac05c59d3349cbd97ea62331f26c8f967a8d8",
+        "variants/etching/qa/stills/f879.jpg": "dc8924ab3789f2b9bfca4b9a017247ad897fac9099477909268542108be53225"
+      }
+    },
+    {
+      "id": "A78",
+      "key": "risograph",
+      "htmlSha256": "19870e65629cb0921141f7d901aa904e11b86891ea48f2383f09f4decba2637f",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/risograph/qa/stills/f0.jpg": "4e40d8526781321b404ae94fcae6cd68e3451489cb906932d9bbe12824253d19",
+        "variants/risograph/qa/stills/f567.jpg": "570d8339642ba726f9e6198a31a4416f58c434b5844d7f478493270d30203cc8",
+        "variants/risograph/qa/stills/f732.jpg": "1624152309624999d58e9a1432fa8d765c1f4bea404fe2d3df4ec41c752d1159",
+        "variants/risograph/qa/stills/f879.jpg": "03bd7f50ef5d636c022002ed2f5cacbb6cd5eca8259f689edf741b093dea9ae6"
+      }
+    },
+    {
+      "id": "A79",
+      "key": "enamel-badge",
+      "htmlSha256": "47f14cc2c4dec9074e132ed8d6371c23700ea30605b5a68684af5a9149301185",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/enamel-badge/qa/stills/f0.jpg": "88831ece9037a83094cf1c34224623ceb5a5334b6edce8d08b62a1703d42adf1",
+        "variants/enamel-badge/qa/stills/f567.jpg": "7f563a263d631056d4edbda5a955ed6fbd13887b79663be775ae146377af47c0",
+        "variants/enamel-badge/qa/stills/f732.jpg": "264e7c001d7c29015edf805f5fafc6209b89234b9b3c2b7f68e3e695ad05b398",
+        "variants/enamel-badge/qa/stills/f879.jpg": "a369c0dd7339e2bcce7ea50a04f3549a8828085a8d5b7b782640b1ecc8fadc4a"
+      }
+    },
+    {
+      "id": "A80",
+      "key": "cyanotype",
+      "htmlSha256": "bc9438375e85457821e1adb7f690eac426b0c7c9f3aa6341a98731aa1b93e705",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/cyanotype/qa/stills/f0.jpg": "f14f0640e0bfc2d7bc04ebe015e7960953e2ad1aa3e98ff0eb14be2ee2f21ffc",
+        "variants/cyanotype/qa/stills/f567.jpg": "f614af95583d7f8dc0d258267f2b872c3b4eeb119312481559c0aadd80805bdf",
+        "variants/cyanotype/qa/stills/f732.jpg": "78ebdaededccef0b53b430fe11bb25c250ed9a4caa8f6c00464010edce1dfbb1",
+        "variants/cyanotype/qa/stills/f879.jpg": "bd3aa37812c29bbf7b7b63c8830fa8c6bd66b9dd7a48ab018954d2aca71d18df"
+      }
+    },
+    {
+      "id": "A81",
+      "key": "foil-deboss",
+      "htmlSha256": "b7c5be44fc9b872e98bc56db24f0341e1ce3a7ef527b5210e102bf841f6d6fcf",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/foil-deboss/qa/stills/f0.jpg": "1b01ad10d41dec694f71a2cbf7b0c90a49b68662f918f939fda757c00b084021",
+        "variants/foil-deboss/qa/stills/f567.jpg": "2078dac646a6d14072abc2e237db1a99fe48de7e004e6c45f11c0cbc5a0d6eb8",
+        "variants/foil-deboss/qa/stills/f732.jpg": "6a6bfa765fbb5d0955f5e39178fdae21ee813938450224b7948e33f0739dc579",
+        "variants/foil-deboss/qa/stills/f879.jpg": "455e23ef627168bf10de9f5ce563cf92a9b4bbd60ef60d3f0f17224e000cfcca"
+      }
+    },
+    {
+      "id": "A82",
+      "key": "mosaic",
+      "htmlSha256": "22da907b6b7508d5893ed372a153cd559f3a8b6ea4bd10392791c9380f663f40",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/mosaic/qa/stills/f0.jpg": "ad46d5797206a400d604efaf73f6f740078960ac0087b8e28bf768eb82a23d85",
+        "variants/mosaic/qa/stills/f567.jpg": "5f6a26ceb28d6a51f7f0ef627c5cf02b04fe1bebdf24643d4198a8ddd131d380",
+        "variants/mosaic/qa/stills/f732.jpg": "796a87380d592e492c75f445aa1c09f3e489033c2d76d6d4a40645e54923d776",
+        "variants/mosaic/qa/stills/f879.jpg": "5d06b3bc0438b6951c13ca889a74dbaa4d7d87e94410f27bbf5b0de297917187"
+      }
+    },
+    {
+      "id": "A83",
+      "key": "stained-glass",
+      "htmlSha256": "47b51205601d10ae866f6234df16b654c7656edfbba442b0a210eb5f294ec213",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/stained-glass/qa/stills/f0.jpg": "057d34c470b9618ae943fa236b9ddd5495063d13c1052cdf353c92a5fa224b80",
+        "variants/stained-glass/qa/stills/f567.jpg": "8133e04f95f2b37d9e5ddcf39343cce2d52eaf374b8b05d43c97f50efb28a387",
+        "variants/stained-glass/qa/stills/f732.jpg": "53a8cacd2400b67bb8cf2724e2b5f15f3d2a40b5dbae620cc4697cbb4ff674db",
+        "variants/stained-glass/qa/stills/f879.jpg": "46b8aacd9f2c07a5469584152c86306a535a695eccd4f382b3f2f58b1cfe5a37"
+      }
+    },
+    {
+      "id": "A84",
+      "key": "sandstone-relief",
+      "htmlSha256": "31233032e5f00bd5b1911a45edd8ec43f6ed7c0b274dd6cf3ba6b3d9002bfb8e",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/sandstone-relief/qa/stills/f0.jpg": "77cf0d55ba5374bf45355ead573f8fecfa55a591b418dcdd7d2f6fcb9d5238d1",
+        "variants/sandstone-relief/qa/stills/f567.jpg": "565f5e8e66c30d9141ba676a1a0f33aba9ee595e7d9df51a80deb13930bb57c2",
+        "variants/sandstone-relief/qa/stills/f732.jpg": "e3c596a8226e7d85ccf5aeef4c06d8548404f18e50997c96c1ea0863293a9a21",
+        "variants/sandstone-relief/qa/stills/f879.jpg": "f987ad48788a92f3c94d8b4a4a289676bd0fe8fa35d5717054f8939beacb0d6b"
+      }
+    },
+    {
+      "id": "A85",
+      "key": "chased-metal",
+      "htmlSha256": "6ac05cc39bfaa85e335a7c6fa40a493af618f7aa0026c23164c44e6cc9487016",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/chased-metal/qa/stills/f0.jpg": "78a8fe0e689ae7dac18b846fdb5ef58023697705d8ab76454ee5766024e4ad91",
+        "variants/chased-metal/qa/stills/f567.jpg": "492fde320a12a7e467e70418a433da85aaf40bd318435e0ef94d3352bf5a427a",
+        "variants/chased-metal/qa/stills/f732.jpg": "08aea5894bc97116b04e0bfdff3771965da76ff5c070e4f013fb0a0840b1134f",
+        "variants/chased-metal/qa/stills/f879.jpg": "817394a1aadeef6210647d83d9289d56f41cd53ef8ba89edd146c388960ca9bd"
+      }
+    },
+    {
+      "id": "A86",
+      "key": "miniature-puppet",
+      "htmlSha256": "f83ef9606f100725f69f9a962bb8adc591f067aef7f0558eefe3197d8de0dd77",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/miniature-puppet/qa/stills/f0.jpg": "ec1603f66ec211e066f230265dc0c059aa76b0863a5e1022a51dd336ff775464",
+        "variants/miniature-puppet/qa/stills/f567.jpg": "86e3c97c50b83cf18baf1348bda2026d89f8e04e0b7c75a5dc64774dd26be41c",
+        "variants/miniature-puppet/qa/stills/f732.jpg": "59924b01e496ab2a3624357fb38208a521f164bcb9d23cb2ba6dac006e7ab024",
+        "variants/miniature-puppet/qa/stills/f879.jpg": "22eefc9c65f0c6f728779b34d0a9dacbf1497c90a49556fe2aa912fd3f4146f7"
+      }
+    },
+    {
+      "id": "A87",
+      "key": "building-blocks",
+      "htmlSha256": "df171ce184d50a067492c6cf99a0cb7563eb57b85bd30ab3bb9fb19d31ee0ab6",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/building-blocks/qa/stills/f0.jpg": "2c20ca2d95f5c9e8a9c7cb6be1d73ff61ca38d4ec587e7138230321f75a66747",
+        "variants/building-blocks/qa/stills/f567.jpg": "7d959572ed2761ffc1b6aeceee7c06ce6622cb3f7ba765b1234c8ba88bb32855",
+        "variants/building-blocks/qa/stills/f732.jpg": "518004f772bb6d108fb5439efa376e1e58bf9b86683f096cabc75f963492c70a",
+        "variants/building-blocks/qa/stills/f879.jpg": "78633e13665824e9ff954d5f95f3ba2ac5ac11296da107ed4d6abb9260771141"
+      }
+    },
+    {
+      "id": "A88",
+      "key": "optical-glass",
+      "htmlSha256": "51c78a2a2f568fe8d856607378781f3a8ef95a9ccd44f8004079e6b39e846d05",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/optical-glass/qa/stills/f0.jpg": "507dd4284db6d6d9b21e984c83da24ec607c7945ebd36a3f58536cef0adad5c1",
+        "variants/optical-glass/qa/stills/f567.jpg": "6a4a9aeeabba771563061a1ba91f002a49fe2f91302e2389d2c64c0321cf9156",
+        "variants/optical-glass/qa/stills/f732.jpg": "82d275fc67a0b91ebf1bd2757fa32ecc3491ca411cb8e65250cbf7200af8793b",
+        "variants/optical-glass/qa/stills/f879.jpg": "1eb34a71532737a3ca51f4568c61c44a6d644fcb197771dfb49d1680d8fc2b1f"
+      }
+    },
+    {
+      "id": "A89",
+      "key": "ceramic-objects",
+      "htmlSha256": "c65a3d0b4772aa363986390bcfab7d001b8de9bcc1fd57e46bc56814743c7011",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/ceramic-objects/qa/stills/f0.jpg": "5bc89fcf69d6ae7ad6edf18502b0013a09a28ce8bbfa8b1dc3f04ae71009e900",
+        "variants/ceramic-objects/qa/stills/f567.jpg": "a53f9baf83ce0506dcc3469e8b3593d5153be65e7832ebfb71f753d0d3ba2514",
+        "variants/ceramic-objects/qa/stills/f732.jpg": "2f014bd82371afd4873ecba5ee4a33175d64a64824956ae024ec4436dfa4d69a",
+        "variants/ceramic-objects/qa/stills/f879.jpg": "a0fb690166ea826c5174ec6c4e270ea4f1fa5236698fee03458597828a3e1404"
+      }
+    },
+    {
+      "id": "A90",
+      "key": "liquid-chrome",
+      "htmlSha256": "1713f277a5c1914ff286374743a180f784dc23611c151994e5487d97b5d6a755",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/liquid-chrome/qa/stills/f0.jpg": "51c1ae078a1978d2a91607b281bc5d3403aaedf0513ea8c82e933767fc6b3391",
+        "variants/liquid-chrome/qa/stills/f567.jpg": "be76791caf763b2a5194cdbf5158c6cd7820f218e21729d5a0f7e695a631ac34",
+        "variants/liquid-chrome/qa/stills/f732.jpg": "512c1424edf30fe088157917d6df702501f0753044e19a7255264ff89145fe26",
+        "variants/liquid-chrome/qa/stills/f879.jpg": "489970ff2a125f0950bc44c7beab6bbd7a178fde276c1ba825430c66310c6f0c"
+      }
+    },
+    {
+      "id": "A91",
+      "key": "isometric-maquette",
+      "htmlSha256": "7997ad3d43e930b73f9125e7f35e015aa93c7c5b678024c036a16e7336ffa7e4",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/isometric-maquette/qa/stills/f0.jpg": "b2c41b325093dbdd1664c047c3fd39c98c7bd309221f6c57700a6d882f1c6d54",
+        "variants/isometric-maquette/qa/stills/f567.jpg": "817b6be0839cc42d41138375d847fc2495694f77c593bee234874f26da864fea",
+        "variants/isometric-maquette/qa/stills/f732.jpg": "1817759f716c1a9eb4c0b68e92837606a1563700004af9543c9704111019e3e7",
+        "variants/isometric-maquette/qa/stills/f879.jpg": "f89038e343d65e70db1d4a3dffb3c25f2b1ef44bdccc4622341ea91c1fb295b3"
+      }
+    },
+    {
+      "id": "A92",
+      "key": "inflatable-sculpture",
+      "htmlSha256": "7a6fbf948a10aa7669cb7eb87d67d19b9b867475a6952c3071616ed1c4f91849",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/inflatable-sculpture/qa/stills/f0.jpg": "f6a810c93c40b2ebbcdc5a3771efd5b7bd10d353793175b795760f804829764e",
+        "variants/inflatable-sculpture/qa/stills/f567.jpg": "8b0433e1466b27603489770bcd5c1d31e073a9a6f6cd32d46150fb4ad5ae1509",
+        "variants/inflatable-sculpture/qa/stills/f732.jpg": "a6adc3296106b68e4f1d727dcf43e90e082151a8eba8f23e5c00597deb70e0b5",
+        "variants/inflatable-sculpture/qa/stills/f879.jpg": "c2db7f1622f60ba2c83da75a7d7b67a72fcd0a52378807c06e540e884ff7af67"
+      }
+    },
+    {
+      "id": "A93",
+      "key": "viscous-gel",
+      "htmlSha256": "57d96fd9674a52bba26a2ceea2cd9b7e580b49b244fa9f11a5b71a423011cad7",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/viscous-gel/qa/stills/f0.jpg": "c675e974134ea848e84060fbb9cef56df0ebb191b638e704bfe1ae009a03b775",
+        "variants/viscous-gel/qa/stills/f567.jpg": "f7783df69b101ca143a520f5bc6971e144542228b911a4c00fdde2d16514413f",
+        "variants/viscous-gel/qa/stills/f732.jpg": "c244d48e9ea8d2ad77e05b823a2a8f7a02456b9cc964f65f9c21fa40633e7891",
+        "variants/viscous-gel/qa/stills/f879.jpg": "f8b41b3bb4066ee105b50c05c078dc69c88a8708e17a45ab54912a8580b76d47"
+      }
+    },
+    {
+      "id": "A94",
+      "key": "mechanical-cutaway",
+      "htmlSha256": "be0ed66a9840a3e381263ae3f02ae712d3c94eb6dc9fe275eb32e1855643413f",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/mechanical-cutaway/qa/stills/f0.jpg": "c05ea0466bff46912f4e981a9126f771551e45affabb363b301024910c590f39",
+        "variants/mechanical-cutaway/qa/stills/f567.jpg": "2dde22603ef628542d1ecdb939d5a47b75a76c73a5cce1a80b3759bdf969ada1",
+        "variants/mechanical-cutaway/qa/stills/f732.jpg": "fadf246dd39917a22d690c95b77b6235d6905b2009309f5a096735fa3a40cd3c",
+        "variants/mechanical-cutaway/qa/stills/f879.jpg": "5d670fb2a7ad3abb3f53b6e690fc8882c163275bc4934325a065ee633edb59db"
+      }
+    },
+    {
+      "id": "A95",
+      "key": "terminal-ascii",
+      "htmlSha256": "a47852a4510b152d5c756284a2d8af1268cc23147017431533bd52e7726cd9d1",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/terminal-ascii/qa/stills/f0.jpg": "566ae17019d2dc9ee98db8ec3f370bf4391b014e846edaa7791ebea94d7972a4",
+        "variants/terminal-ascii/qa/stills/f567.jpg": "c66447028e9dd050adf1d886f6aa0bf9bde19eca30416ee57814d07b5a8005c2",
+        "variants/terminal-ascii/qa/stills/f732.jpg": "b7e6c62c468223ddb5deee7d0d6988fb49d46a3321835c2417203c41770cc0bf",
+        "variants/terminal-ascii/qa/stills/f879.jpg": "52979d81ee85273a54eebc1f0042a78c96b97dfd32dd93a60e66ba978de7b470"
+      }
+    },
+    {
+      "id": "A96",
+      "key": "vector-oscilloscope",
+      "htmlSha256": "4c48b0b05d434db7a52f64663ffed5ed763711f9a211f370afe7dabb7915a977",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/vector-oscilloscope/qa/stills/f0.jpg": "a6f2d04d30c9645f5ca7613daf80eff0528c5d9a6ecaa6a2cefa5ba767889d29",
+        "variants/vector-oscilloscope/qa/stills/f567.jpg": "9da3405ccdb9e3d273088ae73fc1acb54d36e05cb8f3ad79d48c4a58d57b7ffd",
+        "variants/vector-oscilloscope/qa/stills/f732.jpg": "77c9272b1d32f2a3790740088e349770b9d907fb753e322fadedf422e3e70386",
+        "variants/vector-oscilloscope/qa/stills/f879.jpg": "8d5aa53ac8caa9cdaff8bdeb6fd3aaf424df77c5759517ea7d3497b491c013fe"
+      }
+    },
+    {
+      "id": "A97",
+      "key": "led-dot-matrix",
+      "htmlSha256": "fd6e899f54ed6ba5f9bb24ecce57604e024a2911fd8f4effe3a638c6cc42076d",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/led-dot-matrix/qa/stills/f0.jpg": "a2120937c09f9a67733c89301e37896907c3f90d18581c923b6dccadadcc66c7",
+        "variants/led-dot-matrix/qa/stills/f567.jpg": "571a71ade8d62399397f087635529273f5e90cc75b2dcd9b3906466da4c177b9",
+        "variants/led-dot-matrix/qa/stills/f732.jpg": "0a01244036b86c27f46f805a1073ed0bdf16c18e8e8e6f5cb45372f8d1f4f7ae",
+        "variants/led-dot-matrix/qa/stills/f879.jpg": "5df649045ca50cbffcbe30611e2863e9d869efdfbc0046d9ab0965f10d537d2e"
+      }
+    },
+    {
+      "id": "A98",
+      "key": "early-desktop",
+      "htmlSha256": "e61b910c6a632140955e1e12e6475226b5741e60b3f220f3cfcb4c69b676de31",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/early-desktop/qa/stills/f0.jpg": "f0b6d314f7ff155c9d5ad3154e153b7b44a4cbd3a9e5e50c285a7f0ef3dba280",
+        "variants/early-desktop/qa/stills/f567.jpg": "4ee56eebb412d71552692a38d4f22961bd412157d25a5477d688d5fea0f14808",
+        "variants/early-desktop/qa/stills/f732.jpg": "567a8cdd5c56f6b364af5b4c37132ca972321737a65d599ffc9aeb9069457e9a",
+        "variants/early-desktop/qa/stills/f879.jpg": "b39b30ca465d95112083d9054574bb423e68dc9cbf9a99c2c57794493a37bc0b"
+      }
+    },
+    {
+      "id": "A99",
+      "key": "spatial-pointcloud",
+      "htmlSha256": "93a9db78b50201cf8e37b584a86c558e8a973b67a6b1485b1844adfe06bd4ca7",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/spatial-pointcloud/qa/stills/f0.jpg": "14f9acd7ecce1d242c415b9cd0c7e42e1b959a31b449263f40d28018aa54b74a",
+        "variants/spatial-pointcloud/qa/stills/f567.jpg": "c1276b58ba39da313dce046cfc5ca3620df96230fbebfd43afbe0e70cb4145a8",
+        "variants/spatial-pointcloud/qa/stills/f732.jpg": "41b5ce34aea83525596f4d93cf6bb3ee791c25ba4cccf735f0521b1a3b6ba666",
+        "variants/spatial-pointcloud/qa/stills/f879.jpg": "0b8d5748fb34cf3b2200f2fa3080640c7a95e1e32804565ba8f8aff39e141e66"
+      }
+    },
+    {
+      "id": "A100",
+      "key": "holographic-volume",
+      "htmlSha256": "86d82a5cca1d434bcfc2173ea05751664c931fb932c4b53c8ebafb9e464a623e",
+      "directorSha256": "6c80bf3d4fd7d1a9f988d49546f2dbc2ea5733de6443d1afe4f9cd44f6df226e",
+      "stills": {
+        "variants/holographic-volume/qa/stills/f0.jpg": "035e8fd8977fc9ae5394652f5c4daf228ed89704e8c425e56a806a8974143b8f",
+        "variants/holographic-volume/qa/stills/f567.jpg": "42e98e1d04496c4a6f7c9eb52ca9bb908a0114ea63cc6c7218462d834c93032c",
+        "variants/holographic-volume/qa/stills/f732.jpg": "b20a296949f7f26d210196164f75ddab608f6fafc1a5f90fab66edb816b852aa",
+        "variants/holographic-volume/qa/stills/f879.jpg": "accea5883a2dda1d46968034a9c40a577540ceb4410f793e0328bcce70c546be"
+      }
+    }
+  ]
+}

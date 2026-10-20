@@ -1,0 +1,5 @@
+import fs from'node:fs/promises';import path from'node:path';import{createRequire}from'node:module';
+const R=path.resolve(import.meta.dirname,'..'),{chromium}=createRequire('/Users/maoyu/plugins/wanggan-talking-head/runtime/package.json')('playwright'),b=await chromium.launch({headless:true}),p=await b.newPage({viewport:{width:1080,height:1920}}),key=process.argv[2]||'collage';
+await p.goto('http://127.0.0.1:54556/variants/'+key+'/index.html');await p.waitForFunction(()=>window.ADAPT_READY);await p.evaluate(async()=>{const v=document.querySelector('video');v.muted=true;await v.play();await new Promise(r=>v.requestVideoFrameCallback(r));v.pause();window.STUDY_RENDER(18.9)});
+await fs.mkdir(path.join(R,'qa/seek-diagnostic'),{recursive:true});
+for(const [i,times]of [[0,[18.9]],[1,[5.4,24.4,18.9]],[2,[18.9]]]){await p.evaluate(ts=>{for(const t of ts)window.STUDY_RENDER(t)},times);await p.evaluate(()=>new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r))));await p.screenshot({path:path.join(R,'qa/seek-diagnostic',key+'-'+i+'.png')})}await b.close();

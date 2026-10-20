@@ -1,0 +1,283 @@
+{
+  "art": "magazine",
+  "sourceFrame": 567,
+  "onlyVariable": "DIRECTOR_CONFIG.choreography",
+  "rows": [
+    {
+      "key": "speaker",
+      "name": "人物留白",
+      "time": 18.9,
+      "state": {
+        "frame": 567,
+        "scene": "spend",
+        "look": "magazine",
+        "choreography": "speaker",
+        "portrait": {
+          "x": 716,
+          "y": 1255,
+          "w": 300,
+          "width": 300,
+          "height": 300,
+          "circle": true
+        },
+        "captionId": 13,
+        "sourceContinuity": "continuous-0-1100",
+        "visualEditOnly": true
+      },
+      "path": "qa/same-art/speaker.jpg"
+    },
+    {
+      "key": "editorial",
+      "name": "编辑双栏",
+      "time": 18.9,
+      "state": {
+        "frame": 567,
+        "scene": "spend",
+        "look": "magazine",
+        "choreography": "editorial",
+        "portrait": {
+          "x": 64,
+          "y": 1255,
+          "w": 300,
+          "width": 300,
+          "height": 300,
+          "circle": true
+        },
+        "captionId": 13,
+        "sourceContinuity": "continuous-0-1100",
+        "visualEditOnly": true
+      },
+      "path": "qa/same-art/editorial.jpg"
+    },
+    {
+      "key": "type",
+      "name": "巨字接力",
+      "time": 18.9,
+      "state": {
+        "frame": 567,
+        "scene": "spend",
+        "look": "magazine",
+        "choreography": "type",
+        "portrait": {
+          "x": 716,
+          "y": 1255,
+          "w": 300,
+          "width": 300,
+          "height": 300,
+          "circle": true
+        },
+        "captionId": 13,
+        "sourceContinuity": "continuous-0-1100",
+        "visualEditOnly": true
+      },
+      "path": "qa/same-art/type.jpg"
+    },
+    {
+      "key": "route",
+      "name": "纵向叙事",
+      "time": 18.9,
+      "state": {
+        "frame": 567,
+        "scene": "spend",
+        "look": "magazine",
+        "choreography": "route",
+        "portrait": {
+          "x": 716,
+          "y": 1255,
+          "w": 300,
+          "width": 300,
+          "height": 300,
+          "circle": true
+        },
+        "captionId": 13,
+        "sourceContinuity": "continuous-0-1100",
+        "visualEditOnly": true
+      },
+      "path": "qa/same-art/route.jpg"
+    },
+    {
+      "key": "stack",
+      "name": "卡片展列",
+      "time": 18.9,
+      "state": {
+        "frame": 567,
+        "scene": "spend",
+        "look": "magazine",
+        "choreography": "stack",
+        "portrait": {
+          "x": 716,
+          "y": 1255,
+          "w": 300,
+          "width": 300,
+          "height": 300,
+          "circle": true
+        },
+        "captionId": 13,
+        "sourceContinuity": "continuous-0-1100",
+        "visualEditOnly": true
+      },
+      "path": "qa/same-art/stack.jpg"
+    },
+    {
+      "key": "derive",
+      "name": "推导画布",
+      "time": 18.9,
+      "state": {
+        "frame": 567,
+        "scene": "spend",
+        "look": "magazine",
+        "choreography": "derive",
+        "portrait": {
+          "x": 64,
+          "y": 1255,
+          "w": 300,
+          "width": 300,
+          "height": 300,
+          "circle": true
+        },
+        "captionId": 13,
+        "sourceContinuity": "continuous-0-1100",
+        "visualEditOnly": true
+      },
+      "path": "qa/same-art/derive.jpg"
+    },
+    {
+      "key": "gallery",
+      "name": "画廊取景",
+      "time": 18.9,
+      "state": {
+        "frame": 567,
+        "scene": "spend",
+        "look": "magazine",
+        "choreography": "gallery",
+        "portrait": {
+          "x": 716,
+          "y": 1255,
+          "w": 300,
+          "width": 300,
+          "height": 300,
+          "circle": true
+        },
+        "captionId": 13,
+        "sourceContinuity": "continuous-0-1100",
+        "visualEditOnly": true
+      },
+      "path": "qa/same-art/gallery.jpg"
+    },
+    {
+      "key": "stage",
+      "name": "空间舞台",
+      "time": 18.9,
+      "state": {
+        "frame": 567,
+        "scene": "spend",
+        "look": "magazine",
+        "choreography": "stage",
+        "portrait": {
+          "x": 716,
+          "y": 1255,
+          "w": 300,
+          "width": 300,
+          "height": 300,
+          "circle": true
+        },
+        "captionId": 13,
+        "sourceContinuity": "continuous-0-1100",
+        "visualEditOnly": true
+      },
+      "path": "qa/same-art/stage.jpg"
+    },
+    {
+      "key": "archive",
+      "name": "档案索引",
+      "time": 18.9,
+      "state": {
+        "frame": 567,
+        "scene": "spend",
+        "look": "magazine",
+        "choreography": "archive",
+        "portrait": {
+          "x": 64,
+          "y": 1255,
+          "w": 300,
+          "width": 300,
+          "height": 300,
+          "circle": true
+        },
+        "captionId": 13,
+        "sourceContinuity": "continuous-0-1100",
+        "visualEditOnly": true
+      },
+      "path": "qa/same-art/archive.jpg"
+    },
+    {
+      "key": "interface",
+      "name": "界面状态",
+      "time": 18.9,
+      "state": {
+        "frame": 567,
+        "scene": "spend",
+        "look": "magazine",
+        "choreography": "interface",
+        "portrait": {
+          "x": 716,
+          "y": 1255,
+          "w": 300,
+          "width": 300,
+          "height": 300,
+          "circle": true
+        },
+        "captionId": 13,
+        "sourceContinuity": "continuous-0-1100",
+        "visualEditOnly": true
+      },
+      "path": "qa/same-art/interface.jpg"
+    },
+    {
+      "key": "scroll",
+      "name": "长卷巡览",
+      "time": 18.9,
+      "state": {
+        "frame": 567,
+        "scene": "spend",
+        "look": "magazine",
+        "choreography": "scroll",
+        "portrait": {
+          "x": 716,
+          "y": 1255,
+          "w": 300,
+          "width": 300,
+          "height": 300,
+          "circle": true
+        },
+        "captionId": 13,
+        "sourceContinuity": "continuous-0-1100",
+        "visualEditOnly": true
+      },
+      "path": "qa/same-art/scroll.jpg"
+    },
+    {
+      "key": "radial",
+      "name": "放射结构",
+      "time": 18.9,
+      "state": {
+        "frame": 567,
+        "scene": "spend",
+        "look": "magazine",
+        "choreography": "radial",
+        "portrait": {
+          "x": 716,
+          "y": 1255,
+          "w": 300,
+          "width": 300,
+          "height": 300,
+          "circle": true
+        },
+        "captionId": 13,
+        "sourceContinuity": "continuous-0-1100",
+        "visualEditOnly": true
+      },
+      "path": "qa/same-art/radial.jpg"
+    }
+  ]
+}

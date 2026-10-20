@@ -1,0 +1,113 @@
+{
+  "accessed": "2026-10-20",
+  "sources": [
+    {
+      "id": "modulify",
+      "url": "https://modulify.ai/templates",
+      "finalUrl": "https://modulify.ai/templates",
+      "status": 200,
+      "path": "references/pages/modulify.html",
+      "bytes": 174826,
+      "sha256": "29f05680fb8ea2d2a004fbee3fd700414f4e59884c6b22d4051e93c9d34a07e4"
+    },
+    {
+      "id": "backgrounds",
+      "url": "https://www.backgrounds.supply/",
+      "finalUrl": "https://www.backgrounds.supply/",
+      "status": 200,
+      "path": "references/pages/backgrounds.html",
+      "bytes": 806003,
+      "sha256": "fc7bb6784c67aaeb4e3021070e131dec69ab37e698a02f5957bb22ed27183910"
+    },
+    {
+      "id": "reelfolio",
+      "url": "https://reelfolio.io/",
+      "finalUrl": "https://reelfolio.io/",
+      "status": 200,
+      "path": "references/pages/reelfolio.html",
+      "bytes": 596959,
+      "sha256": "d62b3a5f34c101286f68169e9823da94557dc70ec71a846de4e8363673d4ed7a"
+    },
+    {
+      "id": "inspora",
+      "url": "https://inspora.design/",
+      "finalUrl": "https://www.inspora.design/",
+      "status": 200,
+      "path": "references/pages/inspora.html",
+      "bytes": 72137,
+      "sha256": "f11edc41c926a9136f2c4461b383c713f894702af11a21f1c2846d07b29394ac"
+    },
+    {
+      "id": "60fps",
+      "url": "https://60fps.design/",
+      "finalUrl": "https://60fps.design/",
+      "status": 200,
+      "path": "references/pages/60fps.html",
+      "bytes": 1833855,
+      "sha256": "c08282e6e4057d91fdff55f635f167ae82071e6228064d08ef181fd6ec5a1487"
+    },
+    {
+      "id": "oneprompt",
+      "url": "https://onepromptdesign.com/",
+      "finalUrl": "https://onepromptdesign.com/",
+      "status": 200,
+      "path": "references/pages/oneprompt.html",
+      "bytes": 2167798,
+      "sha256": "51c4692ab6f1f60f21e0f29e3353c3ec41f3c01d9f63e4f71c44cae1cf035717"
+    },
+    {
+      "id": "feralui",
+      "url": "https://feralui.dev/gradients",
+      "finalUrl": "https://feralui.dev/gradients",
+      "status": 200,
+      "path": "references/pages/feralui.html",
+      "bytes": 13189,
+      "sha256": "ee3365a0f7682e4981d274e3ea046bd291acf722a488e27b968b4d0d677da241"
+    },
+    {
+      "id": "theatre",
+      "url": "https://www.theatrejs.com/",
+      "finalUrl": "https://www.theatrejs.com/",
+      "status": 200,
+      "path": "references/pages/theatre.html",
+      "bytes": 74780,
+      "sha256": "3cc691a729e9726821dee81b9810849eb89a988335a9c179aa0ca55dffc2d855"
+    },
+    {
+      "id": "prompt-motion",
+      "url": "https://prompt-motion.com/",
+      "finalUrl": "https://prompt-motion.com/",
+      "status": 200,
+      "path": "references/pages/prompt-motion.html",
+      "bytes": 941094,
+      "sha256": "8bf6be76a22fc53dff5cea15c8138c92086e91ecc97e5f2a9f27dce26741ae25"
+    },
+    {
+      "id": "opus-readme",
+      "url": "https://raw.githubusercontent.com/yihui-dev/awesome-opus5-5-videos/main/README.md",
+      "finalUrl": "https://raw.githubusercontent.com/yihui-dev/awesome-opus5-5-videos/main/README.md",
+      "status": 200,
+      "path": "references/pages/opus-readme.md",
+      "bytes": 63328,
+      "sha256": "0aea4fdbab29c20416b0c14c485f13e24fff4af26c39d43fb671a407b361e92c"
+    },
+    {
+      "id": "opus-data",
+      "url": "https://raw.githubusercontent.com/yihui-dev/awesome-opus5-5-videos/main/data/videos.json",
+      "finalUrl": "https://raw.githubusercontent.com/yihui-dev/awesome-opus5-5-videos/main/data/videos.json",
+      "status": 200,
+      "path": "references/pages/opus-data.json",
+      "bytes": 813423,
+      "sha256": "1c307487eca4e56957f4f7de4c72efcd482017f54d77495e3a88ddbcc9b4f30d"
+    },
+    {
+      "id": "opus-tree",
+      "url": "https://api.github.com/repos/yihui-dev/awesome-opus5-5-videos/git/trees/main?recursive=1",
+      "finalUrl": "https://api.github.com/repos/yihui-dev/awesome-opus5-5-videos/git/trees/main?recursive=1",
+      "status": 200,
+      "path": "references/pages/opus-tree.json",
+      "bytes": 178326,
+      "sha256": "75c6a278abcacfc89cb77dc9c30af72d8941773fab93b060b4ccd6adc672bd6a"
+    }
+  ]
+}
