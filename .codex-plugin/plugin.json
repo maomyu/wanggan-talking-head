@@ -1,6 +1,6 @@
 {
   "name": "wanggan-talking-head",
-  "version": "1.15.0",
+  "version": "1.15.1",
   "description": "网感口播：100种画风、12套跨模块编排，四个完整专业skill与统一入口。",
   "author": {
     "name": "Maoyu"
@@ -9,7 +9,7 @@
   "interface": {
     "displayName": "网感口播",
     "shortDescription": "100种画风与12套可组合编排",
-    "longDescription": "100种画风按12套编排完成100个主搭配整片实测，含同页播放和A/B比较。四个完整专家skill支持整片与局部修改，保留原色人物、角落圆窗和上移字幕。",
+    "longDescription": "100种画风按12套编排完成100个主搭配整片实测。参考总览支持卡片内在线播放、100条静音同播、单路原声及1080P大屏；四个完整专家skill协作，人物原色、角落圆窗、字幕上移。",
     "developerName": "Maoyu",
     "category": "Productivity",
     "capabilities": [

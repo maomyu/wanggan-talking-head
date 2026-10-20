@@ -1,0 +1,543 @@
+{
+  "ok": true,
+  "inlineVideos": 100,
+  "simultaneouslyPlaying": 100,
+  "actualAdvancing": 100,
+  "decodedFrameAdvancing": 100,
+  "minimumTimeAdvance": 3.4044606666666652,
+  "maximumTimeAdvance": 4.128435666666661,
+  "allMutedInitially": true,
+  "mediaErrors": [],
+  "oneVoice": 1,
+  "switchedVoice": 1,
+  "pauseAll": true,
+  "samePointSeek": {
+    "seconds": 18.9,
+    "videos": 100
+  },
+  "resumeAll": true,
+  "restartAll": true,
+  "hdPausesInline": true,
+  "hd": {
+    "width": 1080,
+    "height": 1920,
+    "src": "http://127.0.0.1:58655/variants/minimal/outputs/final.mp4?v=37d4337912dc"
+  },
+  "individualInlinePlayback": true,
+  "filters": true,
+  "abOriginalPlayback": true,
+  "closeReleasesOriginals": true,
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "cards": 100
+  },
+  "errors": [],
+  "movement": [
+    {
+      "key": "minimal",
+      "seconds": 3.6016726666666656,
+      "decodedFrames": 36
+    },
+    {
+      "key": "paper",
+      "seconds": 3.4756606666666627,
+      "decodedFrames": 42
+    },
+    {
+      "key": "geometry",
+      "seconds": 3.472986666666664,
+      "decodedFrames": 39
+    },
+    {
+      "key": "magazine",
+      "seconds": 3.473131666666667,
+      "decodedFrames": 39
+    },
+    {
+      "key": "collage",
+      "seconds": 3.472538666666665,
+      "decodedFrames": 35
+    },
+    {
+      "key": "line",
+      "seconds": 3.4276696666666666,
+      "decodedFrames": 37
+    },
+    {
+      "key": "illustration",
+      "seconds": 4.10496466666666,
+      "decodedFrames": 40
+    },
+    {
+      "key": "precision",
+      "seconds": 3.5560476666666645,
+      "decodedFrames": 43
+    },
+    {
+      "key": "blueprint",
+      "seconds": 4.101520666666659,
+      "decodedFrames": 40
+    },
+    {
+      "key": "halftone",
+      "seconds": 4.1124176666666585,
+      "decodedFrames": 40
+    },
+    {
+      "key": "comic",
+      "seconds": 3.448534666666667,
+      "decodedFrames": 43
+    },
+    {
+      "key": "film",
+      "seconds": 4.105301666666662,
+      "decodedFrames": 40
+    },
+    {
+      "key": "ink",
+      "seconds": 4.115373666666663,
+      "decodedFrames": 40
+    },
+    {
+      "key": "clay",
+      "seconds": 4.1011576666666585,
+      "decodedFrames": 40
+    },
+    {
+      "key": "pixel",
+      "seconds": 4.101749666666663,
+      "decodedFrames": 40
+    },
+    {
+      "key": "chalk",
+      "seconds": 4.106918666666658,
+      "decodedFrames": 40
+    },
+    {
+      "key": "paper-stage",
+      "seconds": 4.11080466666666,
+      "decodedFrames": 40
+    },
+    {
+      "key": "type-poster",
+      "seconds": 3.515410666666668,
+      "decodedFrames": 43
+    },
+    {
+      "key": "cel",
+      "seconds": 4.104707666666663,
+      "decodedFrames": 40
+    },
+    {
+      "key": "sci-fi-wireframe",
+      "seconds": 3.5453436666666676,
+      "decodedFrames": 43
+    },
+    {
+      "key": "documentary",
+      "seconds": 4.102283666666658,
+      "decodedFrames": 40
+    },
+    {
+      "key": "tabletop-stilllife",
+      "seconds": 4.107968666666665,
+      "decodedFrames": 40
+    },
+    {
+      "key": "macro-material",
+      "seconds": 4.102038666666658,
+      "decodedFrames": 40
+    },
+    {
+      "key": "overhead-workbench",
+      "seconds": 4.107603666666662,
+      "decodedFrames": 40
+    },
+    {
+      "key": "architectural-light",
+      "seconds": 4.110696666666662,
+      "decodedFrames": 40
+    },
+    {
+      "key": "everyday-story",
+      "seconds": 3.5194376666666685,
+      "decodedFrames": 48
+    },
+    {
+      "key": "spotlight-stage",
+      "seconds": 4.104360666666665,
+      "decodedFrames": 40
+    },
+    {
+      "key": "darkroom-prints",
+      "seconds": 4.110548666666659,
+      "decodedFrames": 40
+    },
+    {
+      "key": "newspaper",
+      "seconds": 4.1010056666666586,
+      "decodedFrames": 40
+    },
+    {
+      "key": "archive-dossier",
+      "seconds": 4.112395666666664,
+      "decodedFrames": 40
+    },
+    {
+      "key": "photo-book",
+      "seconds": 4.10654066666666,
+      "decodedFrames": 40
+    },
+    {
+      "key": "dictionary-entry",
+      "seconds": 4.128435666666661,
+      "decodedFrames": 40
+    },
+    {
+      "key": "lab-notebook",
+      "seconds": 4.10695466666666,
+      "decodedFrames": 40
+    },
+    {
+      "key": "timeline-almanac",
+      "seconds": 4.103896666666664,
+      "decodedFrames": 40
+    },
+    {
+      "key": "swiss-grid",
+      "seconds": 4.10448066666666,
+      "decodedFrames": 40
+    },
+    {
+      "key": "constructivist",
+      "seconds": 3.5159546666666657,
+      "decodedFrames": 43
+    },
+    {
+      "key": "art-deco",
+      "seconds": 4.102371666666663,
+      "decodedFrames": 40
+    },
+    {
+      "key": "art-nouveau",
+      "seconds": 4.106432666666663,
+      "decodedFrames": 40
+    },
+    {
+      "key": "memphis",
+      "seconds": 3.5386716666666587,
+      "decodedFrames": 48
+    },
+    {
+      "key": "brutalist-type",
+      "seconds": 4.10910466666666,
+      "decodedFrames": 40
+    },
+    {
+      "key": "optical-graphic",
+      "seconds": 4.107326666666658,
+      "decodedFrames": 40
+    },
+    {
+      "key": "negative-space",
+      "seconds": 3.51989966666666,
+      "decodedFrames": 48
+    },
+    {
+      "key": "pencil-sketch",
+      "seconds": 4.1105646666666615,
+      "decodedFrames": 40
+    },
+    {
+      "key": "colored-pencil",
+      "seconds": 4.110840666666661,
+      "decodedFrames": 40
+    },
+    {
+      "key": "charcoal",
+      "seconds": 4.107676666666663,
+      "decodedFrames": 40
+    },
+    {
+      "key": "pen-hatching",
+      "seconds": 3.555346666666665,
+      "decodedFrames": 43
+    },
+    {
+      "key": "wax-crayon",
+      "seconds": 4.111339666666659,
+      "decodedFrames": 40
+    },
+    {
+      "key": "soft-pastel",
+      "seconds": 4.109449666666663,
+      "decodedFrames": 40
+    },
+    {
+      "key": "marker-sketch",
+      "seconds": 3.4812186666666634,
+      "decodedFrames": 43
+    },
+    {
+      "key": "brush-lettering",
+      "seconds": 4.109648666666658,
+      "decodedFrames": 40
+    },
+    {
+      "key": "picture-book",
+      "seconds": 4.109316666666665,
+      "decodedFrames": 40
+    },
+    {
+      "key": "natural-history",
+      "seconds": 4.111975666666659,
+      "decodedFrames": 40
+    },
+    {
+      "key": "isometric-city",
+      "seconds": 3.409870666666663,
+      "decodedFrames": 37
+    },
+    {
+      "key": "faceted-vector",
+      "seconds": 3.9863896666666605,
+      "decodedFrames": 41
+    },
+    {
+      "key": "editorial-metaphor",
+      "seconds": 3.5395666666666656,
+      "decodedFrames": 42
+    },
+    {
+      "key": "silhouette-fable",
+      "seconds": 3.5166686666666678,
+      "decodedFrames": 43
+    },
+    {
+      "key": "illustrated-map",
+      "seconds": 3.986265666666661,
+      "decodedFrames": 41
+    },
+    {
+      "key": "origami",
+      "seconds": 3.98628566666666,
+      "decodedFrames": 41
+    },
+    {
+      "key": "pop-up-book",
+      "seconds": 3.4296766666666656,
+      "decodedFrames": 43
+    },
+    {
+      "key": "corrugated-model",
+      "seconds": 3.4276036666666627,
+      "decodedFrames": 43
+    },
+    {
+      "key": "torn-paper",
+      "seconds": 3.4298966666666644,
+      "decodedFrames": 43
+    },
+    {
+      "key": "felt-applique",
+      "seconds": 3.429601666666663,
+      "decodedFrames": 43
+    },
+    {
+      "key": "embroidery",
+      "seconds": 3.4174086666666668,
+      "decodedFrames": 43
+    },
+    {
+      "key": "patchwork",
+      "seconds": 3.430221666666661,
+      "decodedFrames": 43
+    },
+    {
+      "key": "knotted-cord",
+      "seconds": 3.4146306666666675,
+      "decodedFrames": 42
+    },
+    {
+      "key": "silk-layers",
+      "seconds": 3.4301996666666597,
+      "decodedFrames": 43
+    },
+    {
+      "key": "gongbi",
+      "seconds": 3.409365666666659,
+      "decodedFrames": 42
+    },
+    {
+      "key": "blue-green-landscape",
+      "seconds": 3.4300276666666676,
+      "decodedFrames": 43
+    },
+    {
+      "key": "mural",
+      "seconds": 3.4301916666666656,
+      "decodedFrames": 43
+    },
+    {
+      "key": "folk-woodblock",
+      "seconds": 3.415942666666666,
+      "decodedFrames": 42
+    },
+    {
+      "key": "porcelain-painting",
+      "seconds": 3.4044606666666652,
+      "decodedFrames": 41
+    },
+    {
+      "key": "seal-carving",
+      "seconds": 3.55643666666667,
+      "decodedFrames": 43
+    },
+    {
+      "key": "lacquer-gold",
+      "seconds": 3.5565316666666646,
+      "decodedFrames": 43
+    },
+    {
+      "key": "watercolor",
+      "seconds": 3.40538866666666,
+      "decodedFrames": 41
+    },
+    {
+      "key": "impasto",
+      "seconds": 3.5563396666666662,
+      "decodedFrames": 43
+    },
+    {
+      "key": "woodcut",
+      "seconds": 3.415054666666663,
+      "decodedFrames": 42
+    },
+    {
+      "key": "etching",
+      "seconds": 3.40959766666667,
+      "decodedFrames": 42
+    },
+    {
+      "key": "risograph",
+      "seconds": 3.4102516666666602,
+      "decodedFrames": 42
+    },
+    {
+      "key": "enamel-badge",
+      "seconds": 3.408460666666663,
+      "decodedFrames": 42
+    },
+    {
+      "key": "cyanotype",
+      "seconds": 3.47493166666667,
+      "decodedFrames": 48
+    },
+    {
+      "key": "foil-deboss",
+      "seconds": 3.4731776666666647,
+      "decodedFrames": 48
+    },
+    {
+      "key": "mosaic",
+      "seconds": 3.473423666666662,
+      "decodedFrames": 48
+    },
+    {
+      "key": "stained-glass",
+      "seconds": 3.473185666666666,
+      "decodedFrames": 48
+    },
+    {
+      "key": "sandstone-relief",
+      "seconds": 3.473492666666658,
+      "decodedFrames": 48
+    },
+    {
+      "key": "chased-metal",
+      "seconds": 3.5539096666666623,
+      "decodedFrames": 43
+    },
+    {
+      "key": "miniature-puppet",
+      "seconds": 3.4725766666666686,
+      "decodedFrames": 48
+    },
+    {
+      "key": "building-blocks",
+      "seconds": 3.4743596666666576,
+      "decodedFrames": 48
+    },
+    {
+      "key": "optical-glass",
+      "seconds": 3.4711526666666686,
+      "decodedFrames": 48
+    },
+    {
+      "key": "ceramic-objects",
+      "seconds": 3.4721196666666643,
+      "decodedFrames": 48
+    },
+    {
+      "key": "liquid-chrome",
+      "seconds": 3.4614746666666676,
+      "decodedFrames": 48
+    },
+    {
+      "key": "isometric-maquette",
+      "seconds": 3.462249666666665,
+      "decodedFrames": 48
+    },
+    {
+      "key": "inflatable-sculpture",
+      "seconds": 3.4618366666666702,
+      "decodedFrames": 48
+    },
+    {
+      "key": "viscous-gel",
+      "seconds": 3.461992666666667,
+      "decodedFrames": 48
+    },
+    {
+      "key": "mechanical-cutaway",
+      "seconds": 3.5344226666666643,
+      "decodedFrames": 43
+    },
+    {
+      "key": "terminal-ascii",
+      "seconds": 3.4622066666666598,
+      "decodedFrames": 48
+    },
+    {
+      "key": "vector-oscilloscope",
+      "seconds": 3.531987666666666,
+      "decodedFrames": 42
+    },
+    {
+      "key": "led-dot-matrix",
+      "seconds": 3.532284666666662,
+      "decodedFrames": 42
+    },
+    {
+      "key": "early-desktop",
+      "seconds": 3.530489666666668,
+      "decodedFrames": 42
+    },
+    {
+      "key": "spatial-pointcloud",
+      "seconds": 3.534747666666668,
+      "decodedFrames": 42
+    },
+    {
+      "key": "holographic-volume",
+      "seconds": 3.5315246666666624,
+      "decodedFrames": 42
+    }
+  ],
+  "viewerInputs": {
+    "review.html": "5db2e3a3dabd4c323b5d803b411fafff398b6356b10788967ec750a37f0811ed",
+    "batch-studio/gallery.js": "71666309b0949df6515b4179d32d5b1791d3fef5e5b78249996b489ff0e280e3",
+    "batch-studio/gallery.css": "99fd489b3b463fed26934732feae4c689279f4fe66cd1290d8b17e656e89b048"
+  }
+}

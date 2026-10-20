@@ -1,0 +1,617 @@
+{
+  "ok": true,
+  "previewFiles": 100,
+  "range206URLs": 100,
+  "original100HashesUnchanged": true,
+  "totalBytes": 28383786,
+  "previewSize": [
+    216,
+    384
+  ],
+  "previewFps": 12,
+  "previewFrames": 440,
+  "durationEach": 36.666666666666664,
+  "oneOriginalVoiceSha256": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+  "files": [
+    {
+      "key": "minimal",
+      "rangeStatus": 206,
+      "bytes": 274374,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "magazine",
+      "rangeStatus": 206,
+      "bytes": 237974,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "paper",
+      "rangeStatus": 206,
+      "bytes": 230590,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "geometry",
+      "rangeStatus": 206,
+      "bytes": 295428,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "precision",
+      "rangeStatus": 206,
+      "bytes": 250814,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "collage",
+      "rangeStatus": 206,
+      "bytes": 256083,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "line",
+      "rangeStatus": 206,
+      "bytes": 265069,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "illustration",
+      "rangeStatus": 206,
+      "bytes": 374940,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "blueprint",
+      "rangeStatus": 206,
+      "bytes": 369677,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "comic",
+      "rangeStatus": 206,
+      "bytes": 326482,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "ink",
+      "rangeStatus": 206,
+      "bytes": 251585,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "clay",
+      "rangeStatus": 206,
+      "bytes": 306898,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "film",
+      "rangeStatus": 206,
+      "bytes": 394789,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "pixel",
+      "rangeStatus": 206,
+      "bytes": 271762,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "halftone",
+      "rangeStatus": 206,
+      "bytes": 528871,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "type-poster",
+      "rangeStatus": 206,
+      "bytes": 345477,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "paper-stage",
+      "rangeStatus": 206,
+      "bytes": 330037,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "sci-fi-wireframe",
+      "rangeStatus": 206,
+      "bytes": 274305,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "cel",
+      "rangeStatus": 206,
+      "bytes": 290940,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "chalk",
+      "rangeStatus": 206,
+      "bytes": 386728,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "tabletop-stilllife",
+      "rangeStatus": 206,
+      "bytes": 270195,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "overhead-workbench",
+      "rangeStatus": 206,
+      "bytes": 259294,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "documentary",
+      "rangeStatus": 206,
+      "bytes": 415385,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "macro-material",
+      "rangeStatus": 206,
+      "bytes": 323838,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "architectural-light",
+      "rangeStatus": 206,
+      "bytes": 290078,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "everyday-story",
+      "rangeStatus": 206,
+      "bytes": 314798,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "darkroom-prints",
+      "rangeStatus": 206,
+      "bytes": 296220,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "spotlight-stage",
+      "rangeStatus": 206,
+      "bytes": 320612,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "archive-dossier",
+      "rangeStatus": 206,
+      "bytes": 262359,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "newspaper",
+      "rangeStatus": 206,
+      "bytes": 237317,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "photo-book",
+      "rangeStatus": 206,
+      "bytes": 250950,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "dictionary-entry",
+      "rangeStatus": 206,
+      "bytes": 250053,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "lab-notebook",
+      "rangeStatus": 206,
+      "bytes": 284661,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "timeline-almanac",
+      "rangeStatus": 206,
+      "bytes": 242309,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "swiss-grid",
+      "rangeStatus": 206,
+      "bytes": 250883,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "constructivist",
+      "rangeStatus": 206,
+      "bytes": 319838,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "art-deco",
+      "rangeStatus": 206,
+      "bytes": 271102,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "art-nouveau",
+      "rangeStatus": 206,
+      "bytes": 280458,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "brutalist-type",
+      "rangeStatus": 206,
+      "bytes": 292615,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "memphis",
+      "rangeStatus": 206,
+      "bytes": 324950,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "negative-space",
+      "rangeStatus": 206,
+      "bytes": 289105,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "optical-graphic",
+      "rangeStatus": 206,
+      "bytes": 287892,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "pencil-sketch",
+      "rangeStatus": 206,
+      "bytes": 266756,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "colored-pencil",
+      "rangeStatus": 206,
+      "bytes": 283865,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "charcoal",
+      "rangeStatus": 206,
+      "bytes": 273506,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "pen-hatching",
+      "rangeStatus": 206,
+      "bytes": 284291,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "wax-crayon",
+      "rangeStatus": 206,
+      "bytes": 310546,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "soft-pastel",
+      "rangeStatus": 206,
+      "bytes": 273941,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "brush-lettering",
+      "rangeStatus": 206,
+      "bytes": 273536,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "marker-sketch",
+      "rangeStatus": 206,
+      "bytes": 285898,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "natural-history",
+      "rangeStatus": 206,
+      "bytes": 251525,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "picture-book",
+      "rangeStatus": 206,
+      "bytes": 301455,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "isometric-city",
+      "rangeStatus": 206,
+      "bytes": 269561,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "editorial-metaphor",
+      "rangeStatus": 206,
+      "bytes": 270246,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "faceted-vector",
+      "rangeStatus": 206,
+      "bytes": 263343,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "illustrated-map",
+      "rangeStatus": 206,
+      "bytes": 263083,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "origami",
+      "rangeStatus": 206,
+      "bytes": 270267,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "silhouette-fable",
+      "rangeStatus": 206,
+      "bytes": 282292,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "pop-up-book",
+      "rangeStatus": 206,
+      "bytes": 249467,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "corrugated-model",
+      "rangeStatus": 206,
+      "bytes": 248811,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "torn-paper",
+      "rangeStatus": 206,
+      "bytes": 265200,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "felt-applique",
+      "rangeStatus": 206,
+      "bytes": 289564,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "patchwork",
+      "rangeStatus": 206,
+      "bytes": 270098,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "knotted-cord",
+      "rangeStatus": 206,
+      "bytes": 248517,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "embroidery",
+      "rangeStatus": 206,
+      "bytes": 328428,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "silk-layers",
+      "rangeStatus": 206,
+      "bytes": 259694,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "gongbi",
+      "rangeStatus": 206,
+      "bytes": 264515,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "blue-green-landscape",
+      "rangeStatus": 206,
+      "bytes": 273600,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "mural",
+      "rangeStatus": 206,
+      "bytes": 271583,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "folk-woodblock",
+      "rangeStatus": 206,
+      "bytes": 289133,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "porcelain-painting",
+      "rangeStatus": 206,
+      "bytes": 260000,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "seal-carving",
+      "rangeStatus": 206,
+      "bytes": 274147,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "lacquer-gold",
+      "rangeStatus": 206,
+      "bytes": 278415,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "watercolor",
+      "rangeStatus": 206,
+      "bytes": 294577,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "woodcut",
+      "rangeStatus": 206,
+      "bytes": 303984,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "impasto",
+      "rangeStatus": 206,
+      "bytes": 318965,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "risograph",
+      "rangeStatus": 206,
+      "bytes": 313818,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "etching",
+      "rangeStatus": 206,
+      "bytes": 291353,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "enamel-badge",
+      "rangeStatus": 206,
+      "bytes": 259289,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "foil-deboss",
+      "rangeStatus": 206,
+      "bytes": 245704,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "mosaic",
+      "rangeStatus": 206,
+      "bytes": 252930,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "cyanotype",
+      "rangeStatus": 206,
+      "bytes": 278897,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "stained-glass",
+      "rangeStatus": 206,
+      "bytes": 270923,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "chased-metal",
+      "rangeStatus": 206,
+      "bytes": 268015,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "sandstone-relief",
+      "rangeStatus": 206,
+      "bytes": 259730,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "miniature-puppet",
+      "rangeStatus": 206,
+      "bytes": 285594,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "building-blocks",
+      "rangeStatus": 206,
+      "bytes": 271621,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "optical-glass",
+      "rangeStatus": 206,
+      "bytes": 273513,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "ceramic-objects",
+      "rangeStatus": 206,
+      "bytes": 279394,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "liquid-chrome",
+      "rangeStatus": 206,
+      "bytes": 258522,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "isometric-maquette",
+      "rangeStatus": 206,
+      "bytes": 241558,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "viscous-gel",
+      "rangeStatus": 206,
+      "bytes": 244946,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "inflatable-sculpture",
+      "rangeStatus": 206,
+      "bytes": 258206,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "mechanical-cutaway",
+      "rangeStatus": 206,
+      "bytes": 249272,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "terminal-ascii",
+      "rangeStatus": 206,
+      "bytes": 260896,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "vector-oscilloscope",
+      "rangeStatus": 206,
+      "bytes": 268752,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "led-dot-matrix",
+      "rangeStatus": 206,
+      "bytes": 267224,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "early-desktop",
+      "rangeStatus": 206,
+      "bytes": 257214,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "holographic-volume",
+      "rangeStatus": 206,
+      "bytes": 245710,
+      "sourceUnchanged": true
+    },
+    {
+      "key": "spatial-pointcloud",
+      "rangeStatus": 206,
+      "bytes": 270161,
+      "sourceUnchanged": true
+    }
+  ]
+}
