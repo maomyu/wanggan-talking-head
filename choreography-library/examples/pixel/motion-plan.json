@@ -1,0 +1,25 @@
+{
+  "module": "talking-head-motion",
+  "travelSeconds": 0.6,
+  "anchors": {
+    "consume": 176,
+    "invest": 198,
+    "loss": 310,
+    "pressure": 349,
+    "want": 563,
+    "risk": 686,
+    "speculation": 783
+  },
+  "timing": "shared-edit-plan",
+  "compositionStudy": {
+    "system": "C10",
+    "key": "interface",
+    "intent": "同一解释面板在总览、对照、风险提示之间变换，状态有可见结果。",
+    "spatial": "概览 → 分清选择 → 风险提示",
+    "motion": "活动指示条伸缩交接，面板先变形再换内容",
+    "visualEditing": "状态变化承担转场；不虚构按钮操作与真实理财数据",
+    "sourceTimingUnchanged": true,
+    "revision": "v2-native-remap",
+    "scope": "native study; full MP4 not claimed"
+  }
+}

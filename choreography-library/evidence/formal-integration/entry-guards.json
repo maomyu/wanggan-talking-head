@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "checks": [
+    {
+      "test": "new-source-requires-real-design",
+      "passed": true,
+      "error": "设计尚未完成，缺少brief或四模块方案：art-direction.json,layout-plan.json,motion-plan.json,edit-plan.json"
+    },
+    {
+      "test": "invalid-system-leaves-no-project",
+      "passed": true
+    },
+    {
+      "test": "layout-revision-rejects-unselected-motion-edit",
+      "passed": true,
+      "error": "局部修改触及受保护输入: plans/motion-plan.json"
+    },
+    {
+      "test": "fixture-builder-rejects-other-source-hash",
+      "passed": true
+    }
+  ]
+}

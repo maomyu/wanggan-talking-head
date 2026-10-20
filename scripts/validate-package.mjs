@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import {fileURLToPath} from 'node:url';
+import {checkCompositionLibrary} from '../runtime/choreography.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
@@ -73,4 +74,5 @@ check('sealed source manifest',()=>{
  for(const rel of files)requireThat(sha(path.join(root,rel))===manifest.files[rel],'文件校验失败: '+rel);
  return {files:files.length,scope:'源包结构与内容；不包含全局安装验收'};
 });
+check('choreography library and source versions',checkCompositionLibrary);
 const result={ok:checks.every(c=>c.ok),root,checks};console.log(JSON.stringify(result,null,2));if(!result.ok)process.exitCode=1;

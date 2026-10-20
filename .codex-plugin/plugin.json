@@ -1,15 +1,15 @@
 {
   "name": "wanggan-talking-head",
-  "version": "1.13.0",
-  "description": "网感口播：100种已实现画风（20用户认可、80制作验证），四个完整专业skill与统筹入口协作。",
+  "version": "1.14.0",
+  "description": "网感口播：100种画风、12套跨模块编排，四个完整专业skill与统一入口。",
   "author": {
     "name": "Maoyu"
   },
   "skills": "./skills/",
   "interface": {
     "displayName": "网感口播",
-    "shortDescription": "100种已实现画风与完整模块协作",
-    "longDescription": "100种均有可重建模板与完整实测视频，四个完整专家skill与统筹入口，支持整片制作和单模块修改；人物原色、角落圆窗、字幕上移。",
+    "shortDescription": "100种画风与12套可组合编排",
+    "longDescription": "100种画风与12套编排统一选择；新版12代表整片实测、100主搭配样帧验证。四个完整专家skill支持整片与局部修改，保留原色人物、角落圆窗和上移字幕。",
     "developerName": "Maoyu",
     "category": "Productivity",
     "capabilities": [
@@ -20,6 +20,7 @@
     "defaultPrompt": [
       "用这段素材制作完整口播，由你选择适合内容的已认可画风。",
       "用杂志画风制作这段口播，人物保持原色，角落圆窗，字幕上移。",
+      "采用A04杂志画风与C05卡片展列，根据这段真实口播重新设计，保留原声。",
       "保留画风、动效和剪辑，只调整标题与字幕排版。",
       "在网感口播中新增一个画风，完成样片、检查和画风库登记。",
       "采用A58折纸结构，配推导画布、纸层动效和原声，先制作样帧。",

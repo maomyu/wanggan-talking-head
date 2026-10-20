@@ -1,0 +1,48 @@
+{
+  "module": "talking-head-layout",
+  "caption": {
+    "x": 64,
+    "y": 1600,
+    "width": 952,
+    "size": 60
+  },
+  "portrait": {
+    "sourceCrop": [
+      0,
+      180,
+      1080,
+      1080
+    ],
+    "derivativeSize": 840,
+    "colorTreatment": "none",
+    "baseBox": [
+      120,
+      550,
+      840,
+      840
+    ],
+    "rightCircle": [
+      716,
+      1255,
+      300,
+      300
+    ],
+    "leftCircle": [
+      64,
+      1255,
+      300,
+      300
+    ]
+  },
+  "compositionStudy": {
+    "system": "C07",
+    "key": "gallery",
+    "intent": "图片获得足够面积；主图与备选画面共享一条连续展示轨道。",
+    "spatial": "完整主图 → 横向接续 → 局部与图注",
+    "motion": "轨道先移动再停稳，活动框与图注共同切换",
+    "visualEditing": "全貌到细节再回人物；解释图不冒充真实凭证",
+    "sourceTimingUnchanged": true,
+    "revision": "v2-native-remap",
+    "scope": "native study; full MP4 not claimed"
+  }
+}

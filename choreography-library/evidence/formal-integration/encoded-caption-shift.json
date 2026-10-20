@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "frame": 567,
+  "measuredShiftPixels": 20,
+  "rows": [
+    {
+      "key": "primary",
+      "captionRuleY": 1600,
+      "videoSha256": "685461f601d607ec92a3fbebd1f4d026e37e04b7bead8ba2e20e64cc8122ef4d"
+    },
+    {
+      "key": "revision",
+      "captionRuleY": 1580,
+      "videoSha256": "9e0be9c1271f1dffc775bdc84b3bb1ed55f84da573f0235b1f0fc9fe901643ba"
+    }
+  ]
+}

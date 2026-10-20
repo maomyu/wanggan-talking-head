@@ -1,0 +1,190 @@
+{
+  "id": "A13",
+  "key": "ink",
+  "name": "水墨留白",
+  "family": "传统绘画与东方",
+  "status": "refining-full-film",
+  "preview": "previews/ink.jpg",
+  "implementation": "templates/ink/index.html",
+  "compatibleModules": [
+    "art-direction",
+    "layout",
+    "motion",
+    "editing"
+  ],
+  "personTreatment": "source-color; true-circle-in-corners",
+  "videoSha256": "de2692da68238a94aca7c17b50a2d83b1d30838217f259df36db412627a51b2a",
+  "familyKey": "painting",
+  "visualMechanism": "墨色浓淡、虚实和留白组织信息，现代字幕与原色真人各自清楚",
+  "profiles": {
+    "layout": "L11",
+    "motion": "M11",
+    "editing": "E08",
+    "sound": "S07"
+  },
+  "suitableFor": [
+    "人文",
+    "慢思考"
+  ],
+  "v1Status": "approved-video",
+  "choreography": {
+    "id": "C11",
+    "key": "scroll",
+    "name": "长卷巡览",
+    "intent": "三条建议属于同一条展开的长卷，镜头只移向本句需要的位置。",
+    "states": "卷首 → 中段说明 → 卷末回望",
+    "motion": "卷面沿一个方向走，标题与字幕固定在独立层",
+    "editing": "用连续空间取代整页清空；句尾留停稳再巡览",
+    "references": [
+      "theatre",
+      "inspora"
+    ]
+  },
+  "variant": 1,
+  "newImplementation": "variants/ink/index.html",
+  "adaptationReason": "墨色浓淡、虚实和留白组织信息，现代字幕与原色真人各自清楚；用“长卷巡览”改变人物、解释区和主阅读线的关系。",
+  "preserved": [
+    "人物原色",
+    "角落正圆窗",
+    "字幕top1600、60px",
+    "原声与21条字幕原文和时间",
+    "原画风材料与字体"
+  ],
+  "sceneContent": {
+    "hook": {
+      "a": "越努力上班",
+      "b": "越存不到钱？",
+      "context": "先从自己的选择看起",
+      "items": [
+        [
+          "跟风消费",
+          ""
+        ],
+        [
+          "盲目投资",
+          ""
+        ],
+        [
+          "负债前行",
+          ""
+        ]
+      ]
+    },
+    "chain": {
+      "a": "跟风的代价",
+      "b": "最后落在自己身上",
+      "context": "后果由自己承担",
+      "items": [
+        [
+          "跟风消费",
+          ""
+        ],
+        [
+          "盲目投资",
+          ""
+        ],
+        [
+          "本金受损",
+          ""
+        ]
+      ]
+    },
+    "overview": {
+      "a": "三个财经底线",
+      "b": "从自己的选择开始",
+      "context": "三项并列建议",
+      "items": [
+        [
+          "减少无效消费",
+          ""
+        ],
+        [
+          "守住本金",
+          ""
+        ],
+        [
+          "减少负债",
+          ""
+        ]
+      ]
+    },
+    "spend": {
+      "a": "分清楚",
+      "b": "想要和需要",
+      "context": "下单之前\n留一点判断的空间",
+      "items": [
+        [
+          "想要",
+          "一时喜欢"
+        ],
+        [
+          "需要",
+          "实际用途"
+        ],
+        [
+          "先分清楚",
+          "再决定买不买"
+        ]
+      ]
+    },
+    "risk": {
+      "a": "守住本金",
+      "b": "先看风险，再做选择",
+      "context": "夸大收益的说法\n暗藏风险",
+      "items": [
+        [
+          "夸大收益",
+          ""
+        ],
+        [
+          "暗藏风险",
+          ""
+        ],
+        [
+          "守住本金",
+          ""
+        ]
+      ]
+    },
+    "debt": {
+      "a": "减少负债",
+      "b": "把压力往回收",
+      "context": "第三条底线",
+      "items": [
+        [
+          "减少负债",
+          ""
+        ],
+        [
+          "",
+          ""
+        ],
+        [
+          "",
+          ""
+        ]
+      ]
+    },
+    "recap": {
+      "a": "不跟风，不浮躁",
+      "b": "回到自己的判断",
+      "context": "少冲动　守本金　减负债",
+      "items": [
+        [
+          "少冲动",
+          ""
+        ],
+        [
+          "守本金",
+          ""
+        ],
+        [
+          "减负债",
+          ""
+        ]
+      ]
+    }
+  },
+  "directorVersion": "2.0-research",
+  "canonicalMaterialSeek": true
+}

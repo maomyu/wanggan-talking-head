@@ -1,0 +1,48 @@
+{
+  "module": "talking-head-layout",
+  "caption": {
+    "x": 64,
+    "y": 1600,
+    "width": 952,
+    "size": 60
+  },
+  "portrait": {
+    "sourceCrop": [
+      0,
+      180,
+      1080,
+      1080
+    ],
+    "derivativeSize": 840,
+    "colorTreatment": "none",
+    "baseBox": [
+      228,
+      590,
+      624,
+      624
+    ],
+    "rightCircle": [
+      716,
+      1255,
+      300,
+      300
+    ],
+    "leftCircle": [
+      64,
+      1255,
+      300,
+      300
+    ]
+  },
+  "compositionStudy": {
+    "system": "C09",
+    "key": "archive",
+    "intent": "左侧索引保持，右侧材料展开；编号只是位置索引，不伪造档案事实。",
+    "spatial": "索引 → 材料页 → 摘录判断",
+    "motion": "材料页从同一入口抽出，摘录与对应句子对齐",
+    "visualEditing": "按照材料与观点组织段落，共同页签接续",
+    "sourceTimingUnchanged": true,
+    "revision": "v2-native-remap",
+    "scope": "native study; full MP4 not claimed"
+  }
+}

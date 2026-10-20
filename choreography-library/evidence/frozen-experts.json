@@ -1,0 +1,18 @@
+[
+  {
+    "name": "talking-head-art-direction",
+    "sha256": "33cdd57a5b1cf4bc6565725db40b45336838aa3c13d1312be00fd6a12ad2411a"
+  },
+  {
+    "name": "talking-head-layout",
+    "sha256": "fe73bfc2eb7f279b456a47fbd627b0f77110a871c095687fbd0bfbdb1407c9d8"
+  },
+  {
+    "name": "talking-head-motion",
+    "sha256": "5d71c38d70ddb9244803d5c5c7b3696cbf74f3612180d43b41e2f90fe72adbed"
+  },
+  {
+    "name": "talking-head-editing",
+    "sha256": "1d1cade99a07cf123efe5d4de27960921409628e3e2540775e0137c0b931f67d"
+  }
+]

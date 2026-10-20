@@ -1,0 +1,48 @@
+{
+  "module": "talking-head-layout",
+  "caption": {
+    "x": 64,
+    "y": 1600,
+    "width": 952,
+    "size": 60
+  },
+  "portrait": {
+    "sourceCrop": [
+      0,
+      180,
+      1080,
+      1080
+    ],
+    "derivativeSize": 840,
+    "colorTreatment": "none",
+    "baseBox": [
+      225,
+      580,
+      630,
+      630
+    ],
+    "rightCircle": [
+      716,
+      1255,
+      300,
+      300
+    ],
+    "leftCircle": [
+      64,
+      1255,
+      300,
+      300
+    ]
+  },
+  "compositionStudy": {
+    "system": "C06",
+    "key": "derive",
+    "intent": "主张、依据和结果在同一张画布内建立对应，保留已读上下文。",
+    "spatial": "先给对象 → 建立联系 → 标出判断",
+    "motion": "连线在节点之后生长，重点框贴着真实字形",
+    "visualEditing": "按推导完成程度推进；并列建议不连成因果",
+    "sourceTimingUnchanged": true,
+    "revision": "v2-native-remap",
+    "scope": "native study; full MP4 not claimed"
+  }
+}

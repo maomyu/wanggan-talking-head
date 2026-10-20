@@ -1,6 +1,6 @@
-# 网感口播 1.13.0
+# 网感口播 1.14.0
 
-正式本地插件，包含100种已实现画风（20用户认可、80制作验证）、四个完整专业skill和一个整片统筹入口。100种创意目录分10个家族；全部方向均完成同一口播的完整视频与正式模板。人物保持原色、角落正圆窗、字幕上移。
+正式本地插件，新增12套可组合的跨模块编排，包含100种已实现画风（20用户认可、80制作验证）、四个完整专业skill和一个整片统筹入口。100种创意目录分10个家族；全部方向均完成同一口播的完整视频与正式模板。人物保持原色、角落正圆窗、字幕上移。
 
 - [整片统筹](skills/talking-head-video/SKILL.md)
 - [画风](skills/talking-head-art-direction/SKILL.md) · [排版](skills/talking-head-layout/SKILL.md) · [动效](skills/talking-head-motion/SKILL.md) · [剪辑转场](skills/talking-head-editing/SKILL.md)
@@ -20,3 +20,9 @@
 成片另交付独立“正式画风总览”：完成视频、封面、配方与证据均使用相对文件，可点击在线播放、跳转和对比，不依赖研究端口。插件源包保留可重建模板和统一fixture；批量MP4保存在成片总览目录，不塞进Git依赖缓存。
 
 当前库：100种已实现（20用户认可，80制作验证），本批100种全部完成。`styles --status implemented`查询可用实现，`--status approved`仅查询用户认可，`--status production`仅查询制作验证。`--example approved`为兼容沿用的固定素材复现命令，两类已实现模板均可使用，不表示都获用户逐条视觉认可。
+
+## 1.14.0 编排接入
+
+[12套编排与模块协作](docs/编排库与协作.md) · [正式接入验证](docs/1.14.0验收.md)。`choreographies`查询12套完整规则；`recipe --style A04 --composition C05 --kind comparison`比较主搭配与候选；`init --project 新目录 --example approved --style A04 --composition auto`复现本轮主编排。旧命令不加composition仍复现旧版。
+
+新素材用`init --project 新目录 --source 视频 --style A04 --composition C05`，记录搭配后由四个完整模块完成本片语义与时间轴。新版100项完成原生主搭配验证，12代表完成新整片；其余旧版100条整片证据仍单独保留，不能混作新版100条已渲染。当前无新增配乐、音效或源片重剪；原有14/14/10/10四项配方数量保持。

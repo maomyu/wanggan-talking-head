@@ -1,0 +1,82 @@
+{
+  "reviewer": "author",
+  "independent": false,
+  "nativeViewed": "100 consumption-state images across10 contact sheets;12 multi-state sheets; full-resolution A98/A17/C12 and updated closing frames",
+  "encodedViewed": {
+    "storyStrips": 12,
+    "cutStrips": 12,
+    "selectedFramesRepresented": 360,
+    "scope": "Actual decoded MP4 stills; not a claim of frame-by-frame human viewing or listening to all12."
+  },
+  "silentNarrative": "问题：越努力上班越存不到钱；跟风的代价；三项底线；分清想要与需要；识别夸大收益风险；减少负债；回到自己的判断。",
+  "fixedIssues": [
+    "empty hooks",
+    "semantic Chinese column wrapping",
+    "duplicate legacy labels",
+    "large readable interface",
+    "permanent scrolling panels",
+    "short debt reading window",
+    "radial two-way comparison duplication",
+    "light-panel and caption contrast",
+    "paper/puppet title collisions",
+    "route overview label collision",
+    "gallery/stage empty closing frames",
+    "native seek clock update"
+  ],
+  "remainingLimits": [
+    "14 native composite byte-exact seek failures retained; geometry checks do not certify pixel determinism",
+    "100 native primary mappings and12 representative full films; not100 new films or100x12 all combinations",
+    "No new soundtrack, SFX, source reordering or J/L edit validation",
+    "New source needs fresh semantic/visual design; fixture adapter has a source-hash guard"
+  ],
+  "finalVideoBindings": [
+    {
+      "key": "minimal",
+      "sha256": "37d4337912dc45d1a6f79a67844041c5647dd09f581c5fb57e76d84c0abdf984"
+    },
+    {
+      "key": "magazine",
+      "sha256": "d66de1232a3743f500c9669765e364a10bb2c3c067328e3d6ba353958a713ccf"
+    },
+    {
+      "key": "precision",
+      "sha256": "9a5cf72bd04c3a50847445a0bce8b68e2e78846dda9193d5d1223732cd2775f1"
+    },
+    {
+      "key": "blueprint",
+      "sha256": "61576f3102d3812be94dbf6e56ae40427292bbe3039e3955c8f71e8855c1ccc4"
+    },
+    {
+      "key": "comic",
+      "sha256": "81e4133a26e1095ebd64a45d6634524cff782d0c9ca6abcc9bda89144c470d6f"
+    },
+    {
+      "key": "film",
+      "sha256": "c3242307838572c510c2b1b1bee0fb49ab84af5b7e961ac3211a2ee703e65b9b"
+    },
+    {
+      "key": "ink",
+      "sha256": "d649598d4391355421bef5ae358f15c9dee828d67baa6f7482541b69ee479407"
+    },
+    {
+      "key": "clay",
+      "sha256": "d377e2397fee5051ebab349c2805712982f07dcdec0a64d1203d0d49b4439475"
+    },
+    {
+      "key": "type-poster",
+      "sha256": "2435470f05fd59a32175fdcc095c0969ef898f1ebddec584172e06fc6819f24c"
+    },
+    {
+      "key": "sci-fi-wireframe",
+      "sha256": "32ff54938e810428d12dedca83676b9ffcf3738c1981bc99c472f9c2adb5543d"
+    },
+    {
+      "key": "archive-dossier",
+      "sha256": "56955db26ef6ae4071927485cd166b3876f01305db6b2b123a2cf0f14710d1df"
+    },
+    {
+      "key": "origami",
+      "sha256": "ee207b044b0ec4a2cbe6091839788f49dacc5f36bb5b4e06065ec0f46e9470cd"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "version": "1.14.0",
+  "status": "formal-integration-verified",
+  "primaryRebuilds": 100,
+  "primaryProof": "New formal init/run reproduce archived native HTML, source, director, EDL and voice byte for byte; this is not a new MP4 render of all100",
+  "fullPipelineCases": [
+    {
+      "case": "primary",
+      "videoSha256": "685461f601d607ec92a3fbebd1f4d026e37e04b7bead8ba2e20e64cc8122ef4d",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "offsetSamples": 0,
+      "scope": {
+        "revision": false
+      }
+    },
+    {
+      "case": "layout-revision",
+      "videoSha256": "9e0be9c1271f1dffc775bdc84b3bb1ed55f84da573f0235b1f0fc9fe901643ba",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "offsetSamples": 0,
+      "scope": {
+        "revision": true,
+        "module": "layout",
+        "protectedInputsPassed": 8,
+        "timingAndVoicePreserved": true
+      }
+    }
+  ],
+  "crossCombination": {
+    "style": "A04",
+    "system": "C05",
+    "hfCheck": true,
+    "newFullFilm": false
+  },
+  "browser": {
+    "actualMP4": "primary",
+    "ended": true,
+    "duration": 36.666667,
+    "currentTime": 36.666667,
+    "rangeVerification": [
+      {
+        "url": "http://127.0.0.1:55061/outputs/final.mp4",
+        "status": 206,
+        "contentRange": "bytes 0-1023/21055527",
+        "bytes": 1024
+      },
+      {
+        "url": "http://127.0.0.1:54484/outputs/final.mp4",
+        "status": 206,
+        "contentRange": "bytes 0-1023/21071622",
+        "bytes": 1024
+      }
+    ]
+  },
+  "fourExpertHashesPreserved": true,
+  "runtime": "HyperFrames0.8.174 / GSAP3.14.2 / Playwright1.59.1 / numpy2.4.4 / Pillow12.1.0 / fonttools4.62.1",
+  "limits": [
+    "100 native primary mappings and12 representative prior new full films; not100x12 acceptance",
+    "14 inherited strict composite seek differences retained",
+    "No new soundtrack, source reorder or J/L cut validation",
+    "New source still needs real four-module semantic/visual design",
+    "Author review; no independent blind review"
+  ]
+}

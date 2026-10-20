@@ -1,0 +1,328 @@
+{
+  "status": "test-delivery-verified",
+  "fullFilms": 12,
+  "durationEach": 36.666666666666664,
+  "fps": 30,
+  "framesEach": 1100,
+  "size": [
+    1080,
+    1920
+  ],
+  "nativeStyles": 100,
+  "nativeStillCount": 453,
+  "measuredDOMStates": 849,
+  "denseDecodedFrames": 2208,
+  "selectedDecodedFrames": 360,
+  "audioCorrelationMin": 0.9999823504746719,
+  "allAudioLagsZero": true,
+  "films": [
+    {
+      "id": "C01",
+      "name": "人物留白",
+      "key": "minimal",
+      "video": "variants/minimal/outputs/final.mp4",
+      "videoSha256": "37d4337912dc45d1a6f79a67844041c5647dd09f581c5fb57e76d84c0abdf984",
+      "sourceBinding": {
+        "htmlSha256": "024b8a4c0595e152b2c04f075874f2545668879197644ae6d66c63c6c6faf2b0",
+        "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+        "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
+        "protected": {
+          "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+          "assets/edited-voice.wav": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+          "plans/edit-plan.json": "3c8f5955f60a42048a422677c7d72d334970f4abe3638b2e846a4f9c15ffe486"
+        }
+      },
+      "audioCorrelation": 0.9999823504746719,
+      "minimumOneSecondCorrelation": 0.9997777550920108,
+      "lagSamples": 0,
+      "denseFrameCount": 184,
+      "selectedFrameCount": 30,
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/7913441"
+    },
+    {
+      "id": "C02",
+      "name": "编辑双栏",
+      "key": "magazine",
+      "video": "variants/magazine/outputs/final.mp4",
+      "videoSha256": "d66de1232a3743f500c9669765e364a10bb2c3c067328e3d6ba353958a713ccf",
+      "sourceBinding": {
+        "htmlSha256": "c3a226e21d2e757e79d1455ed36a446948a99c3828109408c8b8eaf73edb8c6e",
+        "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+        "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
+        "protected": {
+          "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+          "assets/edited-voice.wav": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+          "plans/edit-plan.json": "cb0e81ecf4504e8b0e5ba412e0c832fcbe83bea8889273630814c0bd4f350525"
+        }
+      },
+      "audioCorrelation": 0.9999823504746719,
+      "minimumOneSecondCorrelation": 0.9997777550920108,
+      "lagSamples": 0,
+      "denseFrameCount": 184,
+      "selectedFrameCount": 30,
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/6290687"
+    },
+    {
+      "id": "C10",
+      "name": "界面状态",
+      "key": "precision",
+      "video": "variants/precision/outputs/final.mp4",
+      "videoSha256": "9a5cf72bd04c3a50847445a0bce8b68e2e78846dda9193d5d1223732cd2775f1",
+      "sourceBinding": {
+        "htmlSha256": "a255a6b965ef92f1714cebe89cac5d737eb3a80fc8f484f3d3f02a6cfa36930c",
+        "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+        "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
+        "protected": {
+          "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+          "assets/edited-voice.wav": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+          "plans/edit-plan.json": "fbd9be63113a127f04088dc9cd242a273775af958be3dc098c959c59f4ce9502"
+        }
+      },
+      "audioCorrelation": 0.9999823504746719,
+      "minimumOneSecondCorrelation": 0.9997777550920108,
+      "lagSamples": 0,
+      "denseFrameCount": 184,
+      "selectedFrameCount": 30,
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/5151661"
+    },
+    {
+      "id": "C06",
+      "name": "推导画布",
+      "key": "blueprint",
+      "video": "variants/blueprint/outputs/final.mp4",
+      "videoSha256": "61576f3102d3812be94dbf6e56ae40427292bbe3039e3955c8f71e8855c1ccc4",
+      "sourceBinding": {
+        "htmlSha256": "66619bff94b33689086c277fcea8c1a6a27a2426c17488d1797d5fc9a1c04bed",
+        "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+        "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
+        "protected": {
+          "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+          "assets/edited-voice.wav": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+          "plans/edit-plan.json": "e801b3efaa16e5d7c789e6829372aaebcba2bd14acfb590eed0a7526ad7b3a8b"
+        }
+      },
+      "audioCorrelation": 0.9999823504746719,
+      "minimumOneSecondCorrelation": 0.9997777550920108,
+      "lagSamples": 0,
+      "denseFrameCount": 184,
+      "selectedFrameCount": 30,
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/7086674"
+    },
+    {
+      "id": "C04",
+      "name": "纵向叙事",
+      "key": "comic",
+      "video": "variants/comic/outputs/final.mp4",
+      "videoSha256": "81e4133a26e1095ebd64a45d6634524cff782d0c9ca6abcc9bda89144c470d6f",
+      "sourceBinding": {
+        "htmlSha256": "025758a58d699e0d92353cdf12c748daaa018f4deb80132a486ebc51f3aa1388",
+        "directorSha256": "7bd2b6c7e15eb11c2563eae6eb0fccef0b9a4213881c65dc23de1fe1264b8084",
+        "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
+        "protected": {
+          "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+          "assets/edited-voice.wav": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+          "plans/edit-plan.json": "c2829c428e9910244a1b698c822770ced5265448e091af69089fcbb3ca3f32aa"
+        }
+      },
+      "audioCorrelation": 0.9999823504746719,
+      "minimumOneSecondCorrelation": 0.9997777550920108,
+      "lagSamples": 0,
+      "denseFrameCount": 184,
+      "selectedFrameCount": 30,
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/5659226"
+    },
+    {
+      "id": "C07",
+      "name": "画廊取景",
+      "key": "film",
+      "video": "variants/film/outputs/final.mp4",
+      "videoSha256": "c3242307838572c510c2b1b1bee0fb49ab84af5b7e961ac3211a2ee703e65b9b",
+      "sourceBinding": {
+        "htmlSha256": "476cc20a14e2aefff2124b4295cbfd682383ecd44779211a487a826130db6bcd",
+        "directorSha256": "36ec9a570c73c62156b25a55a1ceae2e117825cb59fa1896bbccf3caae491676",
+        "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
+        "protected": {
+          "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+          "assets/edited-voice.wav": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+          "plans/edit-plan.json": "eea0841fac29ceea50bb4e1edc6d5eae201b2c7c95694902b1f946fe8746f0fd"
+        }
+      },
+      "audioCorrelation": 0.9999823504746719,
+      "minimumOneSecondCorrelation": 0.9997777550920108,
+      "lagSamples": 0,
+      "denseFrameCount": 184,
+      "selectedFrameCount": 30,
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/13140745"
+    },
+    {
+      "id": "C11",
+      "name": "长卷巡览",
+      "key": "ink",
+      "video": "variants/ink/outputs/final.mp4",
+      "videoSha256": "d649598d4391355421bef5ae358f15c9dee828d67baa6f7482541b69ee479407",
+      "sourceBinding": {
+        "htmlSha256": "d2cce0f10a474eabe795d4071cd5ab386f42ad4cce7cd3d1ec20c5d7a2595f68",
+        "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+        "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
+        "protected": {
+          "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+          "assets/edited-voice.wav": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+          "plans/edit-plan.json": "9607c98455f4e8ea5e6cb9f314f8404d771a47facba6a53d84a403d5af1f4955"
+        }
+      },
+      "audioCorrelation": 0.9999823504746719,
+      "minimumOneSecondCorrelation": 0.9997777550920108,
+      "lagSamples": 0,
+      "denseFrameCount": 184,
+      "selectedFrameCount": 30,
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/5558893"
+    },
+    {
+      "id": "C08",
+      "name": "空间舞台",
+      "key": "clay",
+      "video": "variants/clay/outputs/final.mp4",
+      "videoSha256": "d377e2397fee5051ebab349c2805712982f07dcdec0a64d1203d0d49b4439475",
+      "sourceBinding": {
+        "htmlSha256": "40418125f2c061c5fbf5aa70ebfec7790df372a6112bcb173db5a187978254f7",
+        "directorSha256": "36ec9a570c73c62156b25a55a1ceae2e117825cb59fa1896bbccf3caae491676",
+        "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
+        "protected": {
+          "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+          "assets/edited-voice.wav": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+          "plans/edit-plan.json": "3809332fdc33d561248fe4a29bf15d0b2ccdb17150b7a3fb50a72fbcec89bdf6"
+        }
+      },
+      "audioCorrelation": 0.9999823504746719,
+      "minimumOneSecondCorrelation": 0.9997777550920108,
+      "lagSamples": 0,
+      "denseFrameCount": 184,
+      "selectedFrameCount": 30,
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/7847105"
+    },
+    {
+      "id": "C03",
+      "name": "巨字接力",
+      "key": "type-poster",
+      "video": "variants/type-poster/outputs/final.mp4",
+      "videoSha256": "2435470f05fd59a32175fdcc095c0969ef898f1ebddec584172e06fc6819f24c",
+      "sourceBinding": {
+        "htmlSha256": "bcc1aa041deda939f4117cb11d47071eb67061b9d21dd7996d73e1a37ddebed9",
+        "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+        "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
+        "protected": {
+          "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+          "assets/edited-voice.wav": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+          "plans/edit-plan.json": "fde9a52ba6876477ed7be2b6476533c58665e5c525ba3c435082e408867aca03"
+        }
+      },
+      "audioCorrelation": 0.9999823504746719,
+      "minimumOneSecondCorrelation": 0.9997777550920108,
+      "lagSamples": 0,
+      "denseFrameCount": 184,
+      "selectedFrameCount": 30,
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/6722843"
+    },
+    {
+      "id": "C12",
+      "name": "放射结构",
+      "key": "sci-fi-wireframe",
+      "video": "variants/sci-fi-wireframe/outputs/final.mp4",
+      "videoSha256": "32ff54938e810428d12dedca83676b9ffcf3738c1981bc99c472f9c2adb5543d",
+      "sourceBinding": {
+        "htmlSha256": "73c08099398bb74a6564b67bc6cc7aee924239c66e2cce31a2649be5f2ca4f11",
+        "directorSha256": "9ab1453072ef3bc8f8688f2ec29e329a091516b07003001123a1bdbe538398f2",
+        "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
+        "protected": {
+          "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+          "assets/edited-voice.wav": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+          "plans/edit-plan.json": "9bbc01125f7cc0c1219a41a5e522011244a9961a69cd440576d2bf47501116f1"
+        }
+      },
+      "audioCorrelation": 0.9999823504746719,
+      "minimumOneSecondCorrelation": 0.9997777550920108,
+      "lagSamples": 0,
+      "denseFrameCount": 184,
+      "selectedFrameCount": 30,
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/6087805"
+    },
+    {
+      "id": "C09",
+      "name": "档案索引",
+      "key": "archive-dossier",
+      "video": "variants/archive-dossier/outputs/final.mp4",
+      "videoSha256": "56955db26ef6ae4071927485cd166b3876f01305db6b2b123a2cf0f14710d1df",
+      "sourceBinding": {
+        "htmlSha256": "2a8fd84ae34523323f22a215eebcc37884a6ab3c9cd739b0e976c203ea5339bb",
+        "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+        "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
+        "protected": {
+          "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+          "assets/edited-voice.wav": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+          "plans/edit-plan.json": "7ec09638e048a5ee74188f6c2ec51b1e19ba0ea172e2e83e598c1ff5d465b457"
+        }
+      },
+      "audioCorrelation": 0.9999823504746719,
+      "minimumOneSecondCorrelation": 0.9997777550920108,
+      "lagSamples": 0,
+      "denseFrameCount": 184,
+      "selectedFrameCount": 30,
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/6115763"
+    },
+    {
+      "id": "C05",
+      "name": "卡片展列",
+      "key": "origami",
+      "video": "variants/origami/outputs/final.mp4",
+      "videoSha256": "ee207b044b0ec4a2cbe6091839788f49dacc5f36bb5b4e06065ec0f46e9470cd",
+      "sourceBinding": {
+        "htmlSha256": "fec84a4f10860823d6ef05dc5db650bcdbc30202b93acd8ceddfc01ea386bc1e",
+        "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+        "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
+        "protected": {
+          "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+          "assets/edited-voice.wav": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+          "plans/edit-plan.json": "f9652013d62e8789dc600f174f54b68ef08fc4f8e8d3a465d1c2196a85abf9ae"
+        }
+      },
+      "audioCorrelation": 0.9999823504746719,
+      "minimumOneSecondCorrelation": 0.9997777550920108,
+      "lagSamples": 0,
+      "denseFrameCount": 184,
+      "selectedFrameCount": 30,
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/5239610"
+    }
+  ],
+  "preservedExperts": [
+    {
+      "name": "talking-head-art-direction",
+      "sha256": "33cdd57a5b1cf4bc6565725db40b45336838aa3c13d1312be00fd6a12ad2411a"
+    },
+    {
+      "name": "talking-head-layout",
+      "sha256": "fe73bfc2eb7f279b456a47fbd627b0f77110a871c095687fbd0bfbdb1407c9d8"
+    },
+    {
+      "name": "talking-head-motion",
+      "sha256": "5d71c38d70ddb9244803d5c5c7b3696cbf74f3612180d43b41e2f90fe72adbed"
+    },
+    {
+      "name": "talking-head-editing",
+      "sha256": "1d1cade99a07cf123efe5d4de27960921409628e3e2540775e0137c0b931f67d"
+    }
+  ],
+  "scope": "12 representative full MP4s plus100 native mappings, not100 new MP4s or100x12 all combinations; formal1.13.0/cache preserved",
+  "review": "Author visual review with declared coverage; no independent blind review"
+}

@@ -1,0 +1,233 @@
+{
+  "nativeStyleCount": 100,
+  "capturedStillCount": 453,
+  "measuredDOMStates": 849,
+  "measuredDOMIssues": [],
+  "fullFilmChecks": [
+    {
+      "key": "minimal",
+      "layoutSamples": [
+        2.037,
+        6.111,
+        10.185,
+        14.259,
+        18.333,
+        22.407,
+        26.481,
+        30.556,
+        34.63
+      ],
+      "motionSamples": 300,
+      "contrastChecked": 35,
+      "contrastPassed": 35
+    },
+    {
+      "key": "magazine",
+      "layoutSamples": [
+        2.037,
+        6.111,
+        10.185,
+        14.259,
+        18.333,
+        22.407,
+        26.481,
+        30.556,
+        34.63
+      ],
+      "motionSamples": 300,
+      "contrastChecked": 37,
+      "contrastPassed": 37
+    },
+    {
+      "key": "precision",
+      "layoutSamples": [
+        2.037,
+        6.111,
+        10.185,
+        14.259,
+        18.333,
+        22.407,
+        26.481,
+        30.556,
+        34.63
+      ],
+      "motionSamples": 300,
+      "contrastChecked": 54,
+      "contrastPassed": 54
+    },
+    {
+      "key": "blueprint",
+      "layoutSamples": [
+        2.037,
+        6.111,
+        10.185,
+        14.259,
+        18.333,
+        22.407,
+        26.481,
+        30.556,
+        34.63
+      ],
+      "motionSamples": 300,
+      "contrastChecked": 37,
+      "contrastPassed": 37
+    },
+    {
+      "key": "comic",
+      "layoutSamples": [
+        2.037,
+        6.111,
+        10.185,
+        14.259,
+        18.333,
+        22.407,
+        26.481,
+        30.556,
+        34.63
+      ],
+      "motionSamples": 300,
+      "contrastChecked": 43,
+      "contrastPassed": 43
+    },
+    {
+      "key": "film",
+      "layoutSamples": [
+        2.037,
+        6.111,
+        10.185,
+        14.259,
+        18.333,
+        22.407,
+        26.481,
+        30.556,
+        34.63
+      ],
+      "motionSamples": 300,
+      "contrastChecked": 32,
+      "contrastPassed": 32
+    },
+    {
+      "key": "ink",
+      "layoutSamples": [
+        2.037,
+        6.111,
+        10.185,
+        14.259,
+        18.333,
+        22.407,
+        26.481,
+        30.556,
+        34.63
+      ],
+      "motionSamples": 300,
+      "contrastChecked": 59,
+      "contrastPassed": 59
+    },
+    {
+      "key": "clay",
+      "layoutSamples": [
+        2.037,
+        6.111,
+        10.185,
+        14.259,
+        18.333,
+        22.407,
+        26.481,
+        30.556,
+        34.63
+      ],
+      "motionSamples": 300,
+      "contrastChecked": 30,
+      "contrastPassed": 30
+    },
+    {
+      "key": "type-poster",
+      "layoutSamples": [
+        2.037,
+        6.111,
+        10.185,
+        14.259,
+        18.333,
+        22.407,
+        26.481,
+        30.556,
+        34.63
+      ],
+      "motionSamples": 300,
+      "contrastChecked": 33,
+      "contrastPassed": 33
+    },
+    {
+      "key": "sci-fi-wireframe",
+      "layoutSamples": [
+        2.037,
+        6.111,
+        10.185,
+        14.259,
+        18.333,
+        22.407,
+        26.481,
+        30.556,
+        34.63
+      ],
+      "motionSamples": 300,
+      "contrastChecked": 39,
+      "contrastPassed": 39
+    },
+    {
+      "key": "archive-dossier",
+      "layoutSamples": [
+        2.037,
+        6.111,
+        10.185,
+        14.259,
+        18.333,
+        22.407,
+        26.481,
+        30.556,
+        34.63
+      ],
+      "motionSamples": 300,
+      "contrastChecked": 40,
+      "contrastPassed": 40
+    },
+    {
+      "key": "origami",
+      "layoutSamples": [
+        2.037,
+        6.111,
+        10.185,
+        14.259,
+        18.333,
+        22.407,
+        26.481,
+        30.556,
+        34.63
+      ],
+      "motionSamples": 300,
+      "contrastChecked": 38,
+      "contrastPassed": 38
+    }
+  ],
+  "fullFilmSourceBindings": 12,
+  "directorSha256": "36ec9a570c73c62156b25a55a1ceae2e117825cb59fa1896bbccf3caae491676",
+  "compositePixelExact": 86,
+  "compositePixelNotExact": [
+    "type-poster",
+    "collage",
+    "pixel",
+    "chalk",
+    "knotted-cord",
+    "mural",
+    "terminal-ascii",
+    "led-dot-matrix",
+    "early-desktop",
+    "cel",
+    "picture-book",
+    "illustrated-map",
+    "illustration",
+    "paper-stage"
+  ],
+  "limits": "Composite exactness is a separate test from measured geometry. Listed failures remain unpromoted; no full100 MP4 or100x12 acceptance claim. A stationary-video follow-up found zero pixel error for type-poster, without erasing the original false result.",
+  "httpStillsPassed": 453
+}
