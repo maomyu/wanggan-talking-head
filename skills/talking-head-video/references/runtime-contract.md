@@ -33,3 +33,5 @@ render使用固定CLI，输出outputs/final.mp4；verify读取实际编码规格
 历史模板保留默认复现。若要改变未声明的人物速度，复现器明确拒绝，交给动效skill在原有单模块保护范围内实现custom构建；不对整段代码的相同小数做全局替换。已声明参数的模板继续支持方案驱动的独立修改。
 
 研究浏览QA另用runtime开发依赖Playwright1.59.1（固定版本）；正式成片渲染仍由HyperFrames执行。研究浏览器首次准备可运行`node runtime/node_modules/playwright/cli.js install chromium`，不再读取花叔或其他技能的安装目录。
+
+1.15.0在检查入口使用运行预算适配器：固定HF0.8.174模块哈希核对后，仅在内存里把整体审计时限从120秒延长到600秒；安装依赖文件、检查规则与动效采样不变。普通timeout只控制首次加载，不能延长内置总时限。每次保存qa/check-budget.json；实际check.ok与motion.samples仍须读取，不把增加时限写成检查通过。Node需支持module.registerHooks（22.15+/23.5+），doctor会实际检查能力；本轮使用23.10.0。

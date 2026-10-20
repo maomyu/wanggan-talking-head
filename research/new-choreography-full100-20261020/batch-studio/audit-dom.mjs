@@ -2,7 +2,7 @@ import fs from'node:fs/promises';import path from'node:path';import{createRequir
 const R=path.resolve(import.meta.dirname,'..'),APP=path.join(process.env.HOME,'plugins/wanggan-talking-head'),{chromium}=createRequire(path.join(APP,'runtime/package.json'))('playwright');
 const catalogue=JSON.parse(await fs.readFile(path.join(R,'catalogue-full.json'))),server=JSON.parse(await fs.readFile(path.join(R,'qa/preview-server.json'))),selected=new Set(process.argv.slice(2));
 const previous=selected.size?JSON.parse(await fs.readFile(path.join(R,'qa/batch-dom-audit.json'))):null;if(selected.size&&previous.count!==100)throw Error('Incremental audit requires full baseline');const out=selected.size?previous.styles.filter(s=>!selected.has(s.key)):[],list=catalogue.styles.filter(s=>!selected.size||selected.has(s.key));if(selected.size&&list.length!==selected.size)throw Error('Unknown style selection');
-if(selected.size)await fs.copyFile(path.join(R,'qa/batch-dom-audit.json'),path.join(R,'qa/batch-dom-audit-before-scroll-visibility.json'));
+if(selected.size)await fs.copyFile(path.join(R,'qa/batch-dom-audit.json'),path.join(R,'qa','batch-dom-audit-before-revision-'+Date.now()+'.json'));
 const times=[0,.1,2,4.7,4.94,4.967,5.1,5.3,5.5,5.8,8,12.7,12.94,13.1,13.4,14,15.16,15.367,15.6,15.9,16.2,18.9,20.33,20.533,20.8,21.3,24.4,28.33,28.533,28.7,28.9,29.1,29.3,29.7,29.933,30.1,30.4,30.8,35.7,36.633];
 let b,p;
 try{for(let i=0;i<list.length;i++){

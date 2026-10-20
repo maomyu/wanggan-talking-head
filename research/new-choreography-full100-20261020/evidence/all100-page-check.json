@@ -1,0 +1,39 @@
+{
+  "ok": true,
+  "playableCards": 100,
+  "rangeURLs": 200,
+  "search": "A100 returns exactly1 actual video",
+  "familyFilter": true,
+  "systemFilter": true,
+  "single": {
+    "duration": 36.666667,
+    "src": "http://127.0.0.1:58655/variants/holographic-volume/outputs/final.mp4?v=10e94e17da72",
+    "currentTime": 0.261081,
+    "playing": true
+  },
+  "pairPaused": [
+    {
+      "id": "player-a",
+      "time": 18.9,
+      "muted": false
+    },
+    {
+      "id": "player-b",
+      "time": 18.9,
+      "muted": true
+    }
+  ],
+  "oneAudio": true,
+  "audioSwitch": [
+    {
+      "id": "player-a",
+      "muted": true
+    },
+    {
+      "id": "player-b",
+      "muted": false
+    }
+  ],
+  "closeReleasesMedia": true,
+  "errors": []
+}

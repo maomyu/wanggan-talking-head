@@ -4,6 +4,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import {spawn,execFileSync} from 'node:child_process';
 import {fileURLToPath} from 'node:url';
+import * as loaderHooks from 'node:module';
 import {systems,system,compositionRecipe,installCompositionExample,checkCompositionLibrary} from '../runtime/choreography.mjs';
 export const plugin=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const runtime=path.join(plugin,'runtime'),hf=path.join(runtime,'node_modules/hyperframes/bin/hyperframes.mjs');
@@ -32,7 +33,7 @@ function styleList(id){const c=read(path.join(plugin,'style-library/catalog.json
 function recipe(o){const style=styleList(o.style||o.id||'minimal'),library=read(path.join(plugin,'style-library/profiles.json'));const modules={};for(const name of ['layout','motion','editing','sound']){const code=o[name]||style.profiles[name];if(!library[name][code])throw Error('未知'+name+'配方:'+code);modules[name]={code,...library[name][code],selection:o[name]?'requested':'suggested'};}return {style:{id:style.id,key:style.key,name:style.name,status:style.status,visualMechanism:style.visualMechanism},modules,composition:compositionRecipe(style,o),principles:['人物原色','角落正圆窗','字幕上移'],scope:'设计交接建议；不自动生成未验证模板、音乐或新素材。先完成四个完整模块的本片方案。'};}
 function doctor(){
  const checks=[];const probe=(name,fn)=>{try{checks.push({name,ok:true,value:fn()})}catch(e){checks.push({name,ok:false,error:e.message.split('\n')[0]})}};
- probe('node',()=>{if(Number(process.versions.node.split('.')[0])<22)throw Error('需要Node22及以上');return process.version});
+ probe('node',()=>{if(typeof loaderHooks.registerHooks!=='function')throw Error('需要支持module.registerHooks的Node22.15+/23.5+');return process.version});
  probe('hyperframes',()=>{const v=read(path.join(runtime,'node_modules/hyperframes/package.json')).version;const expected=read(path.join(runtime,'package.json')).dependencies.hyperframes;if(v!==expected)throw Error('需要锁定HyperFrames'+expected);return v});
  probe('python',()=>JSON.parse(run(py(),['-c',"import sys,json; from importlib.metadata import version; print(json.dumps({'python':sys.version.split()[0],'executable':sys.executable,'prefix':sys.prefix,'numpy':version('numpy'),'Pillow':version('Pillow'),'fonttools':version('fonttools')}))"])));
  probe('ffmpeg',()=>run('ffmpeg',['-version']).split('\n')[0]);probe('ffprobe',()=>run('ffprobe',['-version']).split('\n')[0]);
@@ -80,7 +81,7 @@ function inputFiles(r){const derivedFile=path.join(r,'qa/generated-assets.json')
 function revise(o){
  const old=rootOf({...o,project:o.from||o.project});if(!(o.module in modes))throw Error('单模块修改需 --module art-direction|layout|motion|editing');if(!o.out)throw Error('需要 --out 新版本目录');const dest=path.resolve(o.out);if(fs.existsSync(dest)||dest.startsWith(old+path.sep))throw Error('版本目录必须不存在且位于原项目外');
  const allowed=new Set([planNames[o.module]]);if(o['allow-dependent']){if(!o.reason)throw Error('扩展相关模块需 --reason 说明实际依赖');for(const k of String(o['allow-dependent']).split(',')){if(!(k in modes))throw Error('未知关联模块');allowed.add(planNames[k])}}
- fs.mkdirSync(dest,{recursive:true});for(const name of ['plans','assets','scripts','project.json','hyperframes.json','source-info.json','composition-selection.json','style-recipe.json','route.json']){const from=path.join(old,name);if(fs.existsSync(from))fs.cpSync(from,path.join(dest,name),{recursive:true})}for(const n of ['outputs','qa'])fs.mkdirSync(path.join(dest,n));
+ fs.mkdirSync(dest,{recursive:true});for(const name of ['plans','assets','scripts','project.json','hyperframes.json','source-info.json','composition-selection.json','style-recipe.json','route.json','index.motion.json']){const from=path.join(old,name);if(fs.existsSync(from))fs.cpSync(from,path.join(dest,name),{recursive:true})}for(const n of ['outputs','qa'])fs.mkdirSync(path.join(dest,n));
  const project=read(path.join(dest,'project.json'));project.id=crypto.randomUUID();project.name=path.basename(dest);project.request=o.request||'';project.scope='module';project.modules=[o.module];project.status='revision-pending';write(path.join(dest,'project.json'),project);
  const files=inputFiles(old);const protectedInputs=Object.fromEntries(Object.entries(files).filter(([f])=>(!f.startsWith('plans/')||!allowed.has(path.basename(f)))&&!f.startsWith('scripts/')));
  const timing=fs.existsSync(path.join(old,'timing.json'))?read(path.join(old,'timing.json')):null;
@@ -100,7 +101,7 @@ function build(r){
  run(py(),[path.join(runtime,'scripts/media.py'),'prepare',r],{stdio:'inherit'});const scope=scopeCheck(r,true);write(path.join(r,'qa/scope-check.json'),scope);
  fs.copyFileSync(path.join(plugin,'assets/viewer.html'),path.join(r,'review.html'));write(path.join(r,'qa/build-state.json'),{inputs:inputFiles(r),normalizedHtmlSha256:normalHtml(path.join(r,'index.html')),scope});project.status='built';write(path.join(r,'project.json'),project);return scope;
 }
-function hfRun(r,args,label){try{const output=run(process.execPath,[hf,...args,r],{maxBuffer:32*1024*1024});fs.writeFileSync(path.join(r,'qa',label+'.log'),output);return output}catch(e){fs.writeFileSync(path.join(r,'qa',label+'.log'),String(e.stdout||'')+'\n'+String(e.stderr||''));throw Error(label+'失败，查看qa/'+label+'.log')}}
+function hfRun(r,args,label){try{const output=run(process.execPath,args[0]==='check'?[path.join(runtime,'check-with-budget.mjs'),hf,r,'--timeout','120000',...args.slice(1)]:[hf,...args,r],{maxBuffer:32*1024*1024});fs.writeFileSync(path.join(r,'qa',label+'.log'),output);return output}catch(e){fs.writeFileSync(path.join(r,'qa',label+'.log'),String(e.stdout||'')+'\n'+String(e.stderr||''));throw Error(label+'失败，查看qa/'+label+'.log')}}
 async function preview(r,o){
  const status=path.join(r,'qa/preview-server.json');if(fs.existsSync(status)){const old=read(status);try{const health=await(await fetch(old.url+'health')).json();if(health.projectId===read(path.join(r,'project.json')).id)return old}catch{}}
  const log=fs.openSync(path.join(r,'qa/preview-server.log'),'a');const child=spawn(py(),[path.join(runtime,'scripts/serve.py'),'--project',r,'--port',String(o.port||0)],{cwd:plugin,stdio:['ignore',log,log],detached:true});child.unref();fs.closeSync(log);

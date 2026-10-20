@@ -1081,6 +1081,126 @@
         879,
         1099
       ]
+    },
+    {
+      "key": "viscous-gel",
+      "actualEncodedFrames": [
+        0,
+        240,
+        420,
+        567,
+        732,
+        879,
+        1099
+      ]
+    },
+    {
+      "key": "mechanical-cutaway",
+      "actualEncodedFrames": [
+        0,
+        240,
+        420,
+        567,
+        732,
+        879,
+        1099
+      ]
+    },
+    {
+      "key": "vector-oscilloscope",
+      "actualEncodedFrames": [
+        0,
+        240,
+        420,
+        567,
+        732,
+        879,
+        1099
+      ]
+    },
+    {
+      "key": "led-dot-matrix",
+      "actualEncodedFrames": [
+        0,
+        240,
+        420,
+        567,
+        732,
+        879,
+        1099
+      ]
+    },
+    {
+      "key": "spatial-pointcloud",
+      "actualEncodedFrames": [
+        0,
+        240,
+        420,
+        567,
+        732,
+        879,
+        1099
+      ]
+    },
+    {
+      "key": "holographic-volume",
+      "actualEncodedFrames": [
+        0,
+        240,
+        420,
+        567,
+        732,
+        879,
+        1099
+      ]
+    },
+    {
+      "key": "knotted-cord",
+      "actualEncodedFrames": [
+        0,
+        240,
+        420,
+        567,
+        732,
+        879,
+        1099
+      ]
+    },
+    {
+      "key": "terminal-ascii",
+      "actualEncodedFrames": [
+        0,
+        240,
+        420,
+        567,
+        732,
+        879,
+        1099
+      ]
+    },
+    {
+      "key": "embroidery",
+      "actualEncodedFrames": [
+        0,
+        240,
+        420,
+        567,
+        732,
+        879,
+        1099
+      ]
+    },
+    {
+      "key": "early-desktop",
+      "actualEncodedFrames": [
+        0,
+        240,
+        420,
+        567,
+        732,
+        879,
+        1099
+      ]
     }
   ],
   "observations": [

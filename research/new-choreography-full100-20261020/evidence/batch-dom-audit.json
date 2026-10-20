@@ -130059,7 +130059,8 @@
           "audios": 1,
           "src": "http://127.0.0.1:58655/variants/terminal-ascii/assets/master.mp4"
         }
-      ]
+      ],
+      "checkedDirectorSha256": "e5278c2b0fe28efc627d0721c81d96ca87662c431294d05f2b67e39c1bff0ab8"
     },
     {
       "id": "A96",
@@ -134166,7 +134167,8 @@
           "audios": 1,
           "src": "http://127.0.0.1:58655/variants/early-desktop/assets/master.mp4"
         }
-      ]
+      ],
+      "checkedDirectorSha256": "a61672a757ff2de5c77ab230e4a6b8925c8232076ec89b25049e933f511ce490"
     },
     {
       "id": "A99",

@@ -1,0 +1,16 @@
+{
+  "kind": "pinned-checker-watchdog-only",
+  "version": "0.8.174",
+  "originalModuleSha256": "d9de149627b67560774c131b1caa45bd1c49d48a331d0fc0afd756fd199e3b9c",
+  "inMemoryModuleSha256": "5a7332383e9288bc0110feee3b6aa906da816a7a6149bbe1d588311d7b0bf90d",
+  "installedModuleUnchanged": true,
+  "onlyChange": {
+    "fromMs": 120000,
+    "toMs": 600000,
+    "expression": "var CHECK_DEADLINE_MS = 12e4;"
+  },
+  "applications": 1,
+  "rulesChanged": false,
+  "samplesReduced": false,
+  "reportSha256": "9860f64b5940db7903b16c70061c54490d91e425c4969461dfcb95602cb37257"
+}

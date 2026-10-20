@@ -1,0 +1,19 @@
+{
+  "inputs": {
+    "index.html": "dc536a4311c4f9894851dad6d73e9df24c15602142466b34dea1f5dc32a71072",
+    "index.motion.json": "e669abf848c43098f86b1d32f0ce5c07057d46d95b5e14cbbd744ae05456c570",
+    "assets/director.js": "9ab1453072ef3bc8f8688f2ec29e329a091516b07003001123a1bdbe538398f2",
+    "scripts/director.js": "9ab1453072ef3bc8f8688f2ec29e329a091516b07003001123a1bdbe538398f2",
+    "scripts/build-project.mjs": "d4c90c9e48bd1b8ad684a4f1699c06a803897e87b0011de5e7d9f5566109b35e",
+    "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+    "assets/edited-voice.wav": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+    "plans/art-direction.json": "f49e92cd41af2ce33f49b867263d171c43b7b5c34af20351898ebc0d0bda18ab",
+    "plans/layout-plan.json": "127be274545f401f36a4105e3be2774f11b63d3190be93070c406d94644f8b43",
+    "plans/motion-plan.json": "a3526267eb070acdf7d2c95aa9067d12aeda56517e826b6dc9750d680b8ffb9f",
+    "plans/edit-plan.json": "f1d293cbe8016dcd72c7b1494fb5e6451b8d61fd201bd42518d1bfdde4316f12",
+    "plans/choreography.json": "f6862b76c4dfd9da83cd74c36756be0e81ca0a0d1a2d39671115b1b9683ea4a5",
+    "timing.json": "3e9256839faae6512da021ac38b02ac592116c5deb09efdbc211db20b2571d30"
+  },
+  "source": "current full composition before encoding / source-bound reuse",
+  "captionsPreserved": true
+}

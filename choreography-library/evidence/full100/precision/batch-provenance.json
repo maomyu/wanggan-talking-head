@@ -1,0 +1,147 @@
+{
+  "kind": "source-bound-existing-new-composition",
+  "importedVideoSha256": "9a5cf72bd04c3a50847445a0bce8b68e2e78846dda9193d5d1223732cd2775f1",
+  "sourceBinding": {
+    "htmlSha256": "a255a6b965ef92f1714cebe89cac5d737eb3a80fc8f484f3d3f02a6cfa36930c",
+    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
+    "protected": {
+      "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "assets/edited-voice.wav": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+      "plans/edit-plan.json": "fbd9be63113a127f04088dc9cd242a273775af958be3dc098c959c59f4ce9502"
+    }
+  },
+  "priorActualVerification": {
+    "key": "precision",
+    "status": "verified-encoded",
+    "source": {
+      "htmlSha256": "a255a6b965ef92f1714cebe89cac5d737eb3a80fc8f484f3d3f02a6cfa36930c",
+      "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+      "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
+      "protected": {
+        "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+        "assets/edited-voice.wav": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+        "plans/edit-plan.json": "fbd9be63113a127f04088dc9cd242a273775af958be3dc098c959c59f4ce9502"
+      }
+    },
+    "videoSha256": "9a5cf72bd04c3a50847445a0bce8b68e2e78846dda9193d5d1223732cd2775f1",
+    "probe": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "frames": 1100,
+      "duration": 36.666667,
+      "audioTracks": 1
+    },
+    "audio": {
+      "normalizedCorrelation": 0.9999823504746719,
+      "oneSecondCorrelations": [
+        0.999937502304114,
+        0.9999904262754927,
+        0.999994177847543,
+        0.999995304111266,
+        0.9999978458128858,
+        0.9999947930298356,
+        0.9999976058482851,
+        0.9999963351501024,
+        0.9999978105640043,
+        0.9999984355338531,
+        0.9999981615224847,
+        0.9999962521571253,
+        0.9999952236658104,
+        0.9997777550920108,
+        0.9999978800472431,
+        0.999999020335785,
+        0.9999963392852735,
+        0.9999960614334265,
+        0.9999992388607288,
+        0.9999965237452992,
+        0.9999968129945271,
+        0.999996877732441,
+        0.9999942298441284,
+        0.9999956554046777,
+        0.9999980663282576,
+        0.9999990535431954,
+        0.9999978429608062,
+        0.9999936633123062,
+        0.9999978090398193,
+        0.9999961082081361,
+        0.9999991644843719,
+        0.999999670590488,
+        0.99999688985037,
+        0.999996122983777,
+        0.9999969163693685,
+        0.9999503398606385
+      ],
+      "lagSamples": 0,
+      "decodedPeak": 1.1731301546096802,
+      "referenceSamples": 1760000,
+      "decodedSamples": 1760000
+    },
+    "decodedSelectedFrames": [
+      0,
+      148,
+      149,
+      150,
+      172,
+      240,
+      387,
+      388,
+      389,
+      420,
+      460,
+      461,
+      462,
+      485,
+      567,
+      615,
+      616,
+      617,
+      640,
+      732,
+      855,
+      856,
+      857,
+      879,
+      897,
+      898,
+      899,
+      922,
+      1071,
+      1099
+    ],
+    "denseIntervalFrames": 6,
+    "denseFrameCount": 184,
+    "nativeVsEncodedPerson": [
+      {
+        "frame": 0,
+        "personInteriorMeanAbsoluteRGBError": 4.577234268188477
+      },
+      {
+        "frame": 240,
+        "personInteriorMeanAbsoluteRGBError": 5.448936939239502
+      },
+      {
+        "frame": 420,
+        "personInteriorMeanAbsoluteRGBError": 5.142189979553223
+      },
+      {
+        "frame": 567,
+        "personInteriorMeanAbsoluteRGBError": 5.138327121734619
+      },
+      {
+        "frame": 732,
+        "personInteriorMeanAbsoluteRGBError": 5.291543483734131
+      },
+      {
+        "frame": 879,
+        "personInteriorMeanAbsoluteRGBError": 5.2183732986450195
+      },
+      {
+        "frame": 1071,
+        "personInteriorMeanAbsoluteRGBError": 5.45658016204834
+      }
+    ],
+    "limits": "Author review plus measured invariants. Native/compressed pixel difference is a diagnostic, not universal color certification. No independent blind review or new source edits/audio design."
+  }
+}

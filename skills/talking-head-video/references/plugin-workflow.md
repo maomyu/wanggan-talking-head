@@ -51,4 +51,4 @@ approved-reference仅复现随包参考，也允许在其方案范围内做修�
 
 先读[编排库与协作](../../../docs/编排库与协作.md)及当前模块对应补充。`choreographies`查询完整规则，`recipe --style A04 --composition C05 --kind comparison`比较真实用途与候选。`init --source`只记录搭配并等待本片完整设计；明确固定样例可用`init --example approved --style A04 --composition auto`重建新版主搭配，再使用同一run/preview/revise。
 
-12套不是替代完整专家的短提示词。100条新主搭配完成原生验证，12代表完成新版整片，其他自由组合在本片检查前仍为候选。局部修改的额外choreography方案默认受保护；仅调整字幕时改layout-plan.caption，由构建入口真实驱动，不修改其他模块。
+12套不是替代完整专家的短提示词。100条新主搭配已完成固定素材整片核验，其他自由组合在本片检查前仍为候选。局部修改的额外choreography方案默认受保护；仅调整字幕时改layout-plan.caption，由构建入口真实驱动，不修改其他模块。

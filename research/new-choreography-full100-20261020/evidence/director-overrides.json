@@ -1,5 +1,5 @@
 {
-  "scope": "Layout implementation revision only: explicit visibility for panels wholly outside the declared overflow-hidden viewport; no allow-occlusion flags, facts, voice, timings, geometry or visible raster changes.",
+  "scope": "Layout-only revisions with originals preserved. Clipped scroll panels have exact raster proof; retired legacy reading text has measured sliver removal within old bar. No occlusion waivers, facts, voice, timing or portrait geometry changes.",
   "styles": {
     "embroidery": {
       "oldDirectorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
@@ -18,6 +18,30 @@
       "module": "layout",
       "comparisonStates": 48,
       "wholeFrameExact": 48
+    },
+    "terminal-ascii": {
+      "oldDirectorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+      "newDirectorSha256": "e5278c2b0fe28efc627d0721c81d96ca87662c431294d05f2b67e39c1bff0ab8",
+      "indexHtmlSha256": "5c512ba83de83515744c656038d99c69570af42a53fdb8dd716e4290e72b85bf",
+      "backup": "revisions/terminal-ascii-before-legacy-reading-retirement",
+      "module": "layout",
+      "revisionKind": "retired-legacy-reading-layer",
+      "comparisonStates": 48,
+      "wholeFrameExact": 0,
+      "maxChangedPixels": 4,
+      "proof": "qa/legacy-reading-comparison.json"
+    },
+    "early-desktop": {
+      "oldDirectorSha256": "d6c512c1cc1c8375a7777cbbe57ee9bc30dec2c0d0cf1863f20f5c987392e125",
+      "newDirectorSha256": "a61672a757ff2de5c77ab230e4a6b8925c8232076ec89b25049e933f511ce490",
+      "indexHtmlSha256": "e797b20f97e11e843403eb3db05683ff71f9846e8c1b6814e5dae989f026b483",
+      "backup": "revisions/early-desktop-before-legacy-reading-retirement",
+      "module": "layout",
+      "revisionKind": "retired-legacy-reading-layer",
+      "comparisonStates": 48,
+      "wholeFrameExact": 0,
+      "maxChangedPixels": 86,
+      "proof": "qa/legacy-reading-comparison.json"
     }
   }
 }

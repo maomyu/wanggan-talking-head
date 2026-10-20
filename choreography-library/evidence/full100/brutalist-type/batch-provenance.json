@@ -1,0 +1,13 @@
+{
+  "kind": "new-formal-render",
+  "sourceBinding": {
+    "htmlSha256": "78aacc180c37ef636c4af952e58c9d8a68b78d93d8cb11df18c625cb0a39a5b1",
+    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
+    "protected": {
+      "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "assets/edited-voice.wav": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+      "plans/edit-plan.json": "4bfbf6b9ea9164beab4f5ee6d861077d2253eb60525ca0c410ba5ebd0aa964e5"
+    }
+  }
+}

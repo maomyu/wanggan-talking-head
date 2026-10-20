@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "browser": "ChatGPT in-app browser",
+  "tab": 25,
+  "singleClickPlayed": "A100 holographic-volume; actual moving frame observed",
+  "pair": [
+    "A18 brutalist poster",
+    "A01 minimal"
+  ],
+  "pairPlaybackClockObserved": 18.99,
+  "pausedSeekClock": 18.9,
+  "fullscreenObserved": true,
+  "escapeReturnedToCatalogue": true,
+  "catalogueCountObserved": 100,
+  "screenshots": [
+    "qa/all100-cua-fullscreen.png",
+    "qa/all100-cua-gallery.png"
+  ],
+  "scope": "Actual GUI check of these playback paths; all100 file/range and broader interactions in all100-page-check.json. No independent blind review."
+}

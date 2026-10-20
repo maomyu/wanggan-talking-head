@@ -1,13 +1,15 @@
 {
   "schemaVersion": 1,
-  "version": "1.14.0",
+  "version": "1.15.0",
   "sourceCommit": "53ce3c6a62f9d42dfcecaa89db60e693fb2ea1dd",
   "masterSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
   "voiceSha256": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
-  "alternateDirectorSha256": "36ec9a570c73c62156b25a55a1ceae2e117825cb59fa1896bbccf3caae491676",
+  "alternateDirectorSha256": "800a9ed19067eb7f3ed125f88e6722e49dee7c60d0d7a1bd3abbbbf1c484350f",
   "systems": 12,
   "nativeMappings": 100,
   "fullFilmRepresentatives": 12,
   "nativeCompositeExact": 86,
-  "scope": "100 explicit native primary designs; 12 representative new full films; no 100x12 acceptance; single fixture only"
+  "scope": "100 native primary designs and100 source-bound complete films;12 original representatives; single fixture only, not100x12 combinations",
+  "fullFilmVerified": 100,
+  "fullFilmEvidence": "evidence/full100/all100-final.json"
 }

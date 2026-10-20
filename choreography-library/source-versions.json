@@ -621,13 +621,14 @@
   },
   "embroidery": {
     "htmlSha256": "106d90b961b9830aa374bf836e266d02187643e69a552fe11bbb07997177494b",
-    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "directorSha256": "d1827a3486a4d6921301ff73d0fde22eef33912bbcdb18aa5f454d717af76eb2",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
       "assets/edited-voice.wav": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
       "plans/edit-plan.json": "e787a7737c2e34ec32000db12be35c81a5721f753b44c207e9e402a7d8b4c3c7"
-    }
+    },
+    "implementationRevision": "Wholly clipped scroll panels have explicit hidden visibility;48 exact same-frame raster comparisons"
   },
   "patchwork": {
     "htmlSha256": "c3e87200ec3606c66956b68a6c9883ba9f6ee2e5ea57f05847a2b25d78578e45",
@@ -641,13 +642,14 @@
   },
   "knotted-cord": {
     "htmlSha256": "51f27211730269de415df2951238fbb28caf730ebeee84c6429aba43039323bc",
-    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "directorSha256": "d1827a3486a4d6921301ff73d0fde22eef33912bbcdb18aa5f454d717af76eb2",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
       "assets/edited-voice.wav": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
       "plans/edit-plan.json": "e787a7737c2e34ec32000db12be35c81a5721f753b44c207e9e402a7d8b4c3c7"
-    }
+    },
+    "implementationRevision": "Wholly clipped scroll panels have explicit hidden visibility;48 exact same-frame raster comparisons"
   },
   "silk-layers": {
     "htmlSha256": "82de5f3ad2aaa5bace7182535cc02937d4c628ded5574402389ceff660d108f9",
@@ -941,13 +943,14 @@
   },
   "terminal-ascii": {
     "htmlSha256": "5c512ba83de83515744c656038d99c69570af42a53fdb8dd716e4290e72b85bf",
-    "directorSha256": "99e95c9d9d128b93eed4729653af716e663abe7320d49fa799d3dfb590150163",
+    "directorSha256": "e5278c2b0fe28efc627d0721c81d96ca87662c431294d05f2b67e39c1bff0ab8",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
       "assets/edited-voice.wav": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
       "plans/edit-plan.json": "bd3ff51cda353f9c3bca33b0b77bdb95958635192faf5621d8c83ca0b8f2add1"
-    }
+    },
+    "implementationRevision": "Retire only legacy reading text while retaining window chrome;48 measured same-frame comparisons"
   },
   "vector-oscilloscope": {
     "htmlSha256": "360b1b84fc4cfe8b8baff920e0ae6957243641dcfc1d797ba532859b719e3875",
@@ -971,13 +974,14 @@
   },
   "early-desktop": {
     "htmlSha256": "e797b20f97e11e843403eb3db05683ff71f9846e8c1b6814e5dae989f026b483",
-    "directorSha256": "d6c512c1cc1c8375a7777cbbe57ee9bc30dec2c0d0cf1863f20f5c987392e125",
+    "directorSha256": "a61672a757ff2de5c77ab230e4a6b8925c8232076ec89b25049e933f511ce490",
     "buildSha256": "b28b890b9f1508162ee22d22000bd4139e5f288e608ab94fe5f8449dfddb8b8a",
     "protected": {
       "assets/master.mp4": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
       "assets/edited-voice.wav": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
       "plans/edit-plan.json": "bd3ff51cda353f9c3bca33b0b77bdb95958635192faf5621d8c83ca0b8f2add1"
-    }
+    },
+    "implementationRevision": "Retire only legacy reading text while retaining window chrome;48 measured same-frame comparisons"
   },
   "spatial-pointcloud": {
     "htmlSha256": "820298362d3fe76591773dfdadc10dcab966d63631bbf79155cfd09b2a737992",

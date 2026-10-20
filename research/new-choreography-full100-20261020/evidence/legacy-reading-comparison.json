@@ -1,0 +1,1366 @@
+{
+  "terminal-ascii": {
+    "states": 48,
+    "wholeFrameExact": 0,
+    "allChangesWithinLegacyBar": true,
+    "captionAreaExactStates": 48,
+    "maxChangedPixels": 4,
+    "scope": "Retire only legacy reading text, preserve chrome and geometry; source frozen at same frame0 on each side. Small leftover text slivers are intentionally removed, not claimed pixel equivalent. Actual video pending.",
+    "rows": [
+      {
+        "index": 0,
+        "t": 0,
+        "exact": false,
+        "changedBounds": [
+          64,
+          527,
+          68,
+          538
+        ],
+        "changedPixels": 4,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 1,
+        "t": 0.1,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 2,
+        "t": 2.037,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 3,
+        "t": 4.7,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 4,
+        "t": 4.94,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 5,
+        "t": 4.967,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 6,
+        "t": 5.1,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 7,
+        "t": 5.3,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 8,
+        "t": 5.5,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 9,
+        "t": 5.8,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 10,
+        "t": 6.111,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 11,
+        "t": 8,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 12,
+        "t": 10.185,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 13,
+        "t": 12.7,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 14,
+        "t": 12.94,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 15,
+        "t": 13.1,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 16,
+        "t": 13.4,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 17,
+        "t": 14,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 18,
+        "t": 14.259,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 19,
+        "t": 15.16,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 20,
+        "t": 15.367,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 21,
+        "t": 15.6,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 22,
+        "t": 15.9,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 23,
+        "t": 16.2,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 24,
+        "t": 18.333,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 25,
+        "t": 18.9,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 26,
+        "t": 20.33,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 27,
+        "t": 20.533,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 28,
+        "t": 20.8,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 29,
+        "t": 21.3,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 30,
+        "t": 22.407,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 31,
+        "t": 24.4,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 32,
+        "t": 26.481,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 33,
+        "t": 28.33,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 34,
+        "t": 28.533,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 35,
+        "t": 28.7,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 36,
+        "t": 28.9,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 37,
+        "t": 29.1,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 38,
+        "t": 29.3,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 39,
+        "t": 29.7,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 40,
+        "t": 29.933,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 41,
+        "t": 30.1,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 42,
+        "t": 30.4,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 43,
+        "t": 30.556,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 44,
+        "t": 30.8,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 45,
+        "t": 34.63,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 46,
+        "t": 35.7,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 47,
+        "t": 36.633,
+        "exact": false,
+        "changedBounds": [
+          65,
+          527,
+          66,
+          529
+        ],
+        "changedPixels": 2,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      }
+    ]
+  },
+  "early-desktop": {
+    "states": 48,
+    "wholeFrameExact": 0,
+    "allChangesWithinLegacyBar": true,
+    "captionAreaExactStates": 48,
+    "maxChangedPixels": 86,
+    "scope": "Retire only legacy reading text, preserve chrome and geometry; source frozen at same frame0 on each side. Small leftover text slivers are intentionally removed, not claimed pixel equivalent. Actual video pending.",
+    "rows": [
+      {
+        "index": 0,
+        "t": 0,
+        "exact": false,
+        "changedBounds": [
+          60,
+          539,
+          1020,
+          562
+        ],
+        "changedPixels": 86,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 1,
+        "t": 0.1,
+        "exact": false,
+        "changedBounds": [
+          60,
+          539,
+          1020,
+          562
+        ],
+        "changedPixels": 86,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 2,
+        "t": 2.037,
+        "exact": false,
+        "changedBounds": [
+          60,
+          539,
+          1020,
+          562
+        ],
+        "changedPixels": 86,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 3,
+        "t": 4.7,
+        "exact": false,
+        "changedBounds": [
+          60,
+          539,
+          1020,
+          562
+        ],
+        "changedPixels": 86,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 4,
+        "t": 4.94,
+        "exact": false,
+        "changedBounds": [
+          60,
+          539,
+          1020,
+          562
+        ],
+        "changedPixels": 86,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 5,
+        "t": 4.967,
+        "exact": false,
+        "changedBounds": [
+          60,
+          539,
+          1020,
+          562
+        ],
+        "changedPixels": 86,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 6,
+        "t": 5.1,
+        "exact": false,
+        "changedBounds": [
+          60,
+          539,
+          1020,
+          562
+        ],
+        "changedPixels": 86,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 7,
+        "t": 5.3,
+        "exact": false,
+        "changedBounds": [
+          60,
+          539,
+          1020,
+          562
+        ],
+        "changedPixels": 86,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 8,
+        "t": 5.5,
+        "exact": false,
+        "changedBounds": [
+          60,
+          539,
+          1020,
+          562
+        ],
+        "changedPixels": 86,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 9,
+        "t": 5.8,
+        "exact": false,
+        "changedBounds": [
+          60,
+          539,
+          1020,
+          562
+        ],
+        "changedPixels": 86,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 10,
+        "t": 6.111,
+        "exact": false,
+        "changedBounds": [
+          60,
+          539,
+          1020,
+          562
+        ],
+        "changedPixels": 86,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 11,
+        "t": 8,
+        "exact": false,
+        "changedBounds": [
+          60,
+          539,
+          1020,
+          562
+        ],
+        "changedPixels": 86,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 12,
+        "t": 10.185,
+        "exact": false,
+        "changedBounds": [
+          60,
+          539,
+          1020,
+          562
+        ],
+        "changedPixels": 86,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 13,
+        "t": 12.7,
+        "exact": false,
+        "changedBounds": [
+          60,
+          539,
+          1020,
+          562
+        ],
+        "changedPixels": 86,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 14,
+        "t": 12.94,
+        "exact": false,
+        "changedBounds": [
+          61,
+          540,
+          1020,
+          560
+        ],
+        "changedPixels": 53,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 15,
+        "t": 13.1,
+        "exact": false,
+        "changedBounds": [
+          61,
+          540,
+          1020,
+          560
+        ],
+        "changedPixels": 53,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 16,
+        "t": 13.4,
+        "exact": false,
+        "changedBounds": [
+          61,
+          540,
+          1020,
+          560
+        ],
+        "changedPixels": 53,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 17,
+        "t": 14,
+        "exact": false,
+        "changedBounds": [
+          61,
+          540,
+          1020,
+          560
+        ],
+        "changedPixels": 53,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 18,
+        "t": 14.259,
+        "exact": false,
+        "changedBounds": [
+          61,
+          540,
+          1020,
+          560
+        ],
+        "changedPixels": 53,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 19,
+        "t": 15.16,
+        "exact": false,
+        "changedBounds": [
+          61,
+          540,
+          1020,
+          560
+        ],
+        "changedPixels": 53,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 20,
+        "t": 15.367,
+        "exact": false,
+        "changedBounds": [
+          60,
+          541,
+          1020,
+          560
+        ],
+        "changedPixels": 85,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 21,
+        "t": 15.6,
+        "exact": false,
+        "changedBounds": [
+          60,
+          541,
+          1020,
+          560
+        ],
+        "changedPixels": 85,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 22,
+        "t": 15.9,
+        "exact": false,
+        "changedBounds": [
+          60,
+          541,
+          1020,
+          560
+        ],
+        "changedPixels": 85,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 23,
+        "t": 16.2,
+        "exact": false,
+        "changedBounds": [
+          60,
+          541,
+          1020,
+          560
+        ],
+        "changedPixels": 85,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 24,
+        "t": 18.333,
+        "exact": false,
+        "changedBounds": [
+          60,
+          541,
+          1020,
+          560
+        ],
+        "changedPixels": 85,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 25,
+        "t": 18.9,
+        "exact": false,
+        "changedBounds": [
+          60,
+          541,
+          1020,
+          560
+        ],
+        "changedPixels": 85,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 26,
+        "t": 20.33,
+        "exact": false,
+        "changedBounds": [
+          60,
+          541,
+          1020,
+          560
+        ],
+        "changedPixels": 85,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 27,
+        "t": 20.533,
+        "exact": false,
+        "changedBounds": [
+          60,
+          541,
+          1020,
+          560
+        ],
+        "changedPixels": 85,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 28,
+        "t": 20.8,
+        "exact": false,
+        "changedBounds": [
+          60,
+          542,
+          1020,
+          562
+        ],
+        "changedPixels": 72,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 29,
+        "t": 21.3,
+        "exact": false,
+        "changedBounds": [
+          60,
+          542,
+          1020,
+          562
+        ],
+        "changedPixels": 72,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 30,
+        "t": 22.407,
+        "exact": false,
+        "changedBounds": [
+          60,
+          542,
+          1020,
+          562
+        ],
+        "changedPixels": 72,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 31,
+        "t": 24.4,
+        "exact": false,
+        "changedBounds": [
+          60,
+          542,
+          1020,
+          562
+        ],
+        "changedPixels": 72,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 32,
+        "t": 26.481,
+        "exact": false,
+        "changedBounds": [
+          60,
+          542,
+          1020,
+          562
+        ],
+        "changedPixels": 72,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 33,
+        "t": 28.33,
+        "exact": false,
+        "changedBounds": [
+          60,
+          542,
+          1020,
+          562
+        ],
+        "changedPixels": 72,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 34,
+        "t": 28.533,
+        "exact": false,
+        "changedBounds": [
+          60,
+          542,
+          1020,
+          562
+        ],
+        "changedPixels": 72,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 35,
+        "t": 28.7,
+        "exact": false,
+        "changedBounds": [
+          60,
+          539,
+          1020,
+          560
+        ],
+        "changedPixels": 86,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 36,
+        "t": 28.9,
+        "exact": false,
+        "changedBounds": [
+          60,
+          539,
+          1020,
+          560
+        ],
+        "changedPixels": 86,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 37,
+        "t": 29.1,
+        "exact": false,
+        "changedBounds": [
+          60,
+          539,
+          1020,
+          560
+        ],
+        "changedPixels": 86,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 38,
+        "t": 29.3,
+        "exact": false,
+        "changedBounds": [
+          60,
+          539,
+          1020,
+          560
+        ],
+        "changedPixels": 86,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 39,
+        "t": 29.7,
+        "exact": false,
+        "changedBounds": [
+          60,
+          539,
+          1020,
+          560
+        ],
+        "changedPixels": 86,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 40,
+        "t": 29.933,
+        "exact": false,
+        "changedBounds": [
+          60,
+          539,
+          1020,
+          560
+        ],
+        "changedPixels": 86,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 41,
+        "t": 30.1,
+        "exact": false,
+        "changedBounds": [
+          60,
+          539,
+          1020,
+          562
+        ],
+        "changedPixels": 86,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 42,
+        "t": 30.4,
+        "exact": false,
+        "changedBounds": [
+          60,
+          539,
+          1020,
+          562
+        ],
+        "changedPixels": 86,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 43,
+        "t": 30.556,
+        "exact": false,
+        "changedBounds": [
+          60,
+          539,
+          1020,
+          562
+        ],
+        "changedPixels": 86,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 44,
+        "t": 30.8,
+        "exact": false,
+        "changedBounds": [
+          60,
+          539,
+          1020,
+          562
+        ],
+        "changedPixels": 86,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 45,
+        "t": 34.63,
+        "exact": false,
+        "changedBounds": [
+          60,
+          539,
+          1020,
+          562
+        ],
+        "changedPixels": 86,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 46,
+        "t": 35.7,
+        "exact": false,
+        "changedBounds": [
+          60,
+          539,
+          1020,
+          562
+        ],
+        "changedPixels": 86,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      },
+      {
+        "index": 47,
+        "t": 36.633,
+        "exact": false,
+        "changedBounds": [
+          60,
+          539,
+          1020,
+          562
+        ],
+        "changedPixels": 86,
+        "changesWithinLegacyBar": true,
+        "captionAreaExact": true
+      }
+    ]
+  }
+}

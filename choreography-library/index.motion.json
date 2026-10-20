@@ -1,0 +1,18 @@
+{
+  "duration": 36.666666666666664,
+  "assertions": [
+    {
+      "kind": "appearsBy",
+      "selector": "#d-heading",
+      "bySec": 0.1
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#person-mask"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#captions"
+    }
+  ]
+}

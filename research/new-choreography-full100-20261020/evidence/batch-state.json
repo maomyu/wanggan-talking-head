@@ -1,7 +1,7 @@
 {
-  "status": "in-progress",
+  "status": "complete",
   "total": 100,
-  "verified": 90,
+  "verified": 100,
   "reusedSourceBoundVideos": 12,
   "jobs": {
     "minimal": {
@@ -497,10 +497,12 @@
       "motionSamples": 300
     },
     "embroidery": {
-      "status": "failed",
-      "updated": 1792486783.790771,
-      "started": 1792486682.113984,
-      "error": "batch-check.log failed 1"
+      "status": "verified",
+      "updated": 1792492439.810178,
+      "started": 1792491985.057655,
+      "videoSha256": "ab131499817c1d20bd3236a1c52277a6b8c0a42f46ada21c4958c0944d47019a",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "patchwork": {
       "status": "verified",
@@ -511,10 +513,12 @@
       "motionSamples": 300
     },
     "knotted-cord": {
-      "status": "failed",
-      "updated": 1792486976.03842,
-      "started": 1792486783.802212,
-      "error": "batch-check.log failed 1"
+      "status": "verified",
+      "updated": 1792492232.971827,
+      "started": 1792491985.057229,
+      "videoSha256": "6d0ccff6ef03c559a2a10c82074af3eefda4b0d0a006d4a1af717ec78dc30ddf",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "silk-layers": {
       "status": "verified",
@@ -733,35 +737,69 @@
       "motionSamples": 300
     },
     "viscous-gel": {
-      "status": "rendering",
-      "updated": 1792490995.173177,
-      "started": 1792490907.2083032
+      "status": "verified",
+      "updated": 1792491331.017622,
+      "started": 1792490907.2083032,
+      "videoSha256": "80b799a7d4a50e870d0e66ca1183c0b6d7e2a53abe751d76df22274e2c9dbe5b",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "mechanical-cutaway": {
-      "status": "rendering",
-      "updated": 1792491079.779186,
-      "started": 1792490969.397435
+      "status": "verified",
+      "updated": 1792491389.08642,
+      "started": 1792490969.397435,
+      "videoSha256": "dd2a0f35b891dcf87c165c5081264c1d705ed56968cf5d2179006cd51fb6f8a1",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "terminal-ascii": {
-      "status": "checking",
-      "updated": 1792491034.276547,
-      "started": 1792491034.276524
+      "status": "verified",
+      "updated": 1792492237.311409,
+      "started": 1792491985.057647,
+      "videoSha256": "f9ac723ab019a74535836712182cabc10028969949379880df727040d18a588b",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "vector-oscilloscope": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792491580.534153,
+      "started": 1792491191.478899,
+      "videoSha256": "d7b95087aef8f1ccdc348334f21ff2da005a61fb28bea27ef30564a04b8e66a4",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "led-dot-matrix": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792491803.230127,
+      "started": 1792491331.0247018,
+      "videoSha256": "2a0668b23839e3777b40356dad4d63c54bd69b26632abc7e4e60d0e881789850",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "early-desktop": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792492434.958091,
+      "started": 1792492232.9840598,
+      "videoSha256": "c777ccabc21dd49e5a782ac1f068b5d10df0008dc607fd26516a588901f26ba3",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "spatial-pointcloud": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792491963.583403,
+      "started": 1792491553.959003,
+      "videoSha256": "4555142e345882bca248e0993bae3682e2b4b33fbc5bc0dba247a74005c8d3a9",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "holographic-volume": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792491971.277836,
+      "started": 1792491580.544229,
+      "videoSha256": "10e94e17da727785ee515717bd3b326d6b19679c9e599ce509a96307772b31e2",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     }
   },
-  "elapsedSeconds": 14121.069672107697
+  "elapsedSeconds": 15467.327840089798
 }

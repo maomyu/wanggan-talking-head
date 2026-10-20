@@ -21,10 +21,15 @@ overrides=read(R/'qa/director-overrides.json')if(R/'qa/director-overrides.json')
 for key,change in overrides['styles'].items():
     assert versions[key]['directorSha256']==change['oldDirectorSha256']
     assert versions[key]['htmlSha256']==change['indexHtmlSha256']
-    assert change['comparisonStates']==48 and change['wholeFrameExact']==48
+    assert change['comparisonStates']==48
+    if change.get('revisionKind')=='retired-legacy-reading-layer':
+        proof=read(R/'qa/legacy-reading-comparison.json')[key]
+        assert proof['states']==48 and proof['allChangesWithinLegacyBar'] and proof['captionAreaExactStates']==48
+        assert proof['maxChangedPixels']==change['maxChangedPixels']
+    else:assert change['wholeFrameExact']==48
     assert sha(R/'variants'/key/'scripts/director.js')==change['newDirectorSha256']
     versions[key]['directorSha256']=change['newDirectorSha256']
-    versions[key]['implementationRevision']='Wholly clipped scroll panels have explicit hidden visibility;48 exact same-frame raster comparisons'
+    versions[key]['implementationRevision']='Retire only legacy reading text while retaining window chrome;48 measured same-frame comparisons'if change.get('revisionKind')=='retired-legacy-reading-layer'else'Wholly clipped scroll panels have explicit hidden visibility;48 exact same-frame raster comparisons'
 assert read(APP/'.codex-plugin/plugin.json')['version']=='1.14.0','Release already changed; inspect before rerunning'
 assert {s['key']for s in mapping['styles']}=={s['key']for s in final['films']}
 # Validate all evidence against local final media and the actual shipping implementations before any mutation.
@@ -44,7 +49,7 @@ for item in final['films']:
 dest=lib/'evidence/full100';dest.mkdir(parents=True,exist_ok=True)
 for key,change in overrides['styles'].items():shutil.copy2(R/'variants'/key/'scripts/director.js',lib/'directors'/(change['newDirectorSha256']+'.js'))
 write(lib/'source-versions.json',versions)
-for name in ['all100-final.json','all100-page-check.json','batch-dom-audit.json','batch-author-review.json','director-overrides.json','scroll-clip-comparison.json']:
+for name in ['all100-final.json','all100-page-check.json','all100-cua-check.json','batch-dom-audit.json','batch-author-review.json','director-overrides.json','scroll-clip-comparison.json','legacy-reading-comparison.json']:
     if not(R/'qa'/name).exists():continue
     shutil.copy2(R/'qa'/name,dest/name)
 for item in final['films']:
@@ -62,7 +67,10 @@ candidate=lib/'directors'/(manifest['alternateDirectorSha256']+'.js');candidateS
 clipBefore='gsap.set(scrollWorld,{y:-progress*900});scrollViewport.style.opacity='
 clipAfter="gsap.set(scrollWorld,{y:-progress*900});const clipBounds=scrollViewport.getBoundingClientRect();for(const panel of scrollWorld.children){const panelBounds=panel.getBoundingClientRect();panel.style.visibility=panelBounds.bottom<=clipBounds.top||panelBounds.top>=clipBounds.bottom?'hidden':'visible';}scrollViewport.style.opacity="
 assert candidateSource.count(clipBefore)==1
-candidateSource=candidateSource.replace(clipBefore,clipAfter);candidateSha=hashlib.sha256(candidateSource.encode()).hexdigest();(lib/'directors'/(candidateSha+'.js')).write_text(candidateSource);manifest['alternateDirectorSha256']=candidateSha
+legacyAnchor=" const css=document.createElement('style');css.textContent=`"
+legacyPatch=" // Retire legacy reading text while retaining its terminal/desktop chrome.\n for(const bar of root.querySelectorAll('.terminal-bar')){const label=document.createElement('span');label.textContent=bar.textContent;label.style.setProperty('visibility','hidden','important');bar.replaceChildren(label);}\n for(const label of root.querySelectorAll('.desktop-bar span'))label.style.setProperty('visibility','hidden','important');\n"
+assert candidateSource.count(legacyAnchor)==1
+candidateSource=candidateSource.replace(clipBefore,clipAfter).replace(legacyAnchor,legacyPatch+legacyAnchor);candidateSha=hashlib.sha256(candidateSource.encode()).hexdigest();(lib/'directors'/(candidateSha+'.js')).write_text(candidateSource);manifest['alternateDirectorSha256']=candidateSha
 write(lib/'manifest.json',manifest)
 shutil.copy2(R/'variants/minimal/index.motion.json',lib/'index.motion.json')
 shutil.copy2(R/'batch-studio/check-with-budget.mjs',APP/'runtime/check-with-budget.mjs')
@@ -117,7 +125,7 @@ text=f'''# 1.15.0：100主搭配完整视频验收
 
 固定检查器内置两分钟整体时限；本轮在资源繁忙时出现期限超时，失败记录保留。运行预算适配器只在内存中延长该时限至600秒，安装依赖文件与全部检查规则不变，每条仍实际完成300个动效采样；逐条check-budget证据与通过报告绑定。已通过且源码哈希完全未变的检查可复用，成片仍逐条解码核验。
 
-刺绣与绳结的长卷实现新增了裁切外面板的显式隐藏：原版全部保留，96个同原片帧的前后整画面对比均逐像素一致，未添加遮挡豁免属性；重新完成完整检查与新视频渲染。该规则也进入尚待逐片验证的自由组合实现，不更改其候选状态。
+刺绣与绳结的长卷实现新增了裁切外面板的显式隐藏：原版全部保留，96个同原片帧的前后整画面对比均逐像素一致，未添加遮挡豁免属性；重新完成完整检查与新视频渲染。终端字符与早期桌面同时退役被新画面覆盖的旧文字层，保留原边框与材质；各48状态的变化只在旧栏内，最多分别4与86像素的残留文字边缘，字幕区域逐像素不变。这些修复进入尚待逐片验证的自由组合实现，不更改其候选状态。
 
 逐条报告与源绑定在[choreography-library/evidence/full100](../choreography-library/evidence/full100/all100-final.json)。可重建制作脚本与画廊在[本轮研究归档](../research/new-choreography-full100-20261020/README.md)；成片位于插件外独立总览工程，大视频不放Git。固定素材初始化现在携带3条动效断言，局部修改副本继承；新素材仍由四个完整模块根据真实语义设计。
 

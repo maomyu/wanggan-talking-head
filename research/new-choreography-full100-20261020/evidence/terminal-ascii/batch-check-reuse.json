@@ -1,0 +1,6 @@
+{
+  "kind": "unchanged-source-passing-check",
+  "checkReportSha256": "be7c9fef72b4c9261b4570b3109ab8f5fdadb66ab04859736659bc149d4b4da9",
+  "sourceBindingUnchanged": true,
+  "note": "Passing full check was completed before this same-source render; later deadline-only failed attempts remain in logs."
+}

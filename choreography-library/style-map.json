@@ -9,7 +9,10 @@
       "systemKey": "speaker",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": true,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "37d4337912dc45d1a6f79a67844041c5647dd09f581c5fb57e76d84c0abdf984",
+      "fullFilmEvidence": "evidence/full100/minimal/batch-verification.json"
     },
     {
       "id": "A02",
@@ -19,7 +22,10 @@
       "systemKey": "editorial",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "9db625018fdcbac81b675d06b45c5ad1f582486908dedf46772ae47c1e4b5cc4",
+      "fullFilmEvidence": "evidence/full100/paper/batch-verification.json"
     },
     {
       "id": "A03",
@@ -29,7 +35,10 @@
       "systemKey": "type",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "63ca3bf24b2e8f5a58b8087331b97f5b6a30b6e5cf7ced9a5c9458ca9d3179bf",
+      "fullFilmEvidence": "evidence/full100/geometry/batch-verification.json"
     },
     {
       "id": "A04",
@@ -39,7 +48,10 @@
       "systemKey": "editorial",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": true,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "685461f601d607ec92a3fbebd1f4d026e37e04b7bead8ba2e20e64cc8122ef4d",
+      "fullFilmEvidence": "evidence/full100/magazine/batch-verification.json"
     },
     {
       "id": "A05",
@@ -49,7 +61,10 @@
       "systemKey": "stack",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "1f61e199f19a8737b5357ebf5b42eddec75b41c69178939d5d96a571d0636bb4",
+      "fullFilmEvidence": "evidence/full100/collage/batch-verification.json"
     },
     {
       "id": "A06",
@@ -59,7 +74,10 @@
       "systemKey": "derive",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "5c92cadd527d71e508fd833cb2d219ec816afb3cff4c4fbf35dd0a427d9e2196",
+      "fullFilmEvidence": "evidence/full100/line/batch-verification.json"
     },
     {
       "id": "A07",
@@ -69,7 +87,10 @@
       "systemKey": "stage",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "4c06f6ce24f88645fdbd9b9c6416d127161b80340d4497f3fcdbb1e9f63c9617",
+      "fullFilmEvidence": "evidence/full100/illustration/batch-verification.json"
     },
     {
       "id": "A08",
@@ -79,7 +100,10 @@
       "systemKey": "interface",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": true,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "9a5cf72bd04c3a50847445a0bce8b68e2e78846dda9193d5d1223732cd2775f1",
+      "fullFilmEvidence": "evidence/full100/precision/batch-verification.json"
     },
     {
       "id": "A09",
@@ -89,7 +113,10 @@
       "systemKey": "derive",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": true,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "61576f3102d3812be94dbf6e56ae40427292bbe3039e3955c8f71e8855c1ccc4",
+      "fullFilmEvidence": "evidence/full100/blueprint/batch-verification.json"
     },
     {
       "id": "A10",
@@ -99,7 +126,10 @@
       "systemKey": "gallery",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "d9f9a86a1d72f757b64d84451e594525b4429c46e73483255363077a71abdf07",
+      "fullFilmEvidence": "evidence/full100/halftone/batch-verification.json"
     },
     {
       "id": "A11",
@@ -109,7 +139,10 @@
       "systemKey": "route",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": true,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "81e4133a26e1095ebd64a45d6634524cff782d0c9ca6abcc9bda89144c470d6f",
+      "fullFilmEvidence": "evidence/full100/comic/batch-verification.json"
     },
     {
       "id": "A12",
@@ -119,7 +152,10 @@
       "systemKey": "gallery",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": true,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "c3242307838572c510c2b1b1bee0fb49ab84af5b7e961ac3211a2ee703e65b9b",
+      "fullFilmEvidence": "evidence/full100/film/batch-verification.json"
     },
     {
       "id": "A13",
@@ -129,7 +165,10 @@
       "systemKey": "scroll",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": true,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "d649598d4391355421bef5ae358f15c9dee828d67baa6f7482541b69ee479407",
+      "fullFilmEvidence": "evidence/full100/ink/batch-verification.json"
     },
     {
       "id": "A14",
@@ -139,7 +178,10 @@
       "systemKey": "stage",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": true,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "d377e2397fee5051ebab349c2805712982f07dcdec0a64d1203d0d49b4439475",
+      "fullFilmEvidence": "evidence/full100/clay/batch-verification.json"
     },
     {
       "id": "A15",
@@ -149,7 +191,10 @@
       "systemKey": "interface",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "53aff60af8de943d1978831560b9aa97385a4527e4643599a8d6f46574d961a3",
+      "fullFilmEvidence": "evidence/full100/pixel/batch-verification.json"
     },
     {
       "id": "A16",
@@ -159,7 +204,10 @@
       "systemKey": "derive",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "9ef2c84c08e74a75c10ccb2130596fd25687c42242b7554642b48ed446b6bd5e",
+      "fullFilmEvidence": "evidence/full100/chalk/batch-verification.json"
     },
     {
       "id": "A17",
@@ -169,7 +217,10 @@
       "systemKey": "stage",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "92b61056de84d0cedcc5f62bd74d93a62ba289db8df2374423b96d4b44db85af",
+      "fullFilmEvidence": "evidence/full100/paper-stage/batch-verification.json"
     },
     {
       "id": "A18",
@@ -179,7 +230,10 @@
       "systemKey": "type",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": true,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "2435470f05fd59a32175fdcc095c0969ef898f1ebddec584172e06fc6819f24c",
+      "fullFilmEvidence": "evidence/full100/type-poster/batch-verification.json"
     },
     {
       "id": "A19",
@@ -189,7 +243,10 @@
       "systemKey": "route",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "b52225dc40218e7171758ce79bba06a16d01ddb61ea2c512b63506ceaa9de8d0",
+      "fullFilmEvidence": "evidence/full100/cel/batch-verification.json"
     },
     {
       "id": "A20",
@@ -199,7 +256,10 @@
       "systemKey": "radial",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": true,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "32ff54938e810428d12dedca83676b9ffcf3738c1981bc99c472f9c2adb5543d",
+      "fullFilmEvidence": "evidence/full100/sci-fi-wireframe/batch-verification.json"
     },
     {
       "id": "A21",
@@ -209,7 +269,10 @@
       "systemKey": "speaker",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "9985a8921e9a21d4d7ceafdac792dd0aa784e3cca6857b5b373b37826f798be1",
+      "fullFilmEvidence": "evidence/full100/documentary/batch-verification.json"
     },
     {
       "id": "A22",
@@ -219,7 +282,10 @@
       "systemKey": "gallery",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "81f4da536fbcf427055ac92daa481c7fa883e3f1c83a9da0f145b9347332e9c8",
+      "fullFilmEvidence": "evidence/full100/tabletop-stilllife/batch-verification.json"
     },
     {
       "id": "A23",
@@ -229,7 +295,10 @@
       "systemKey": "gallery",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "0133854c460c441529cfbb38c920febd18ddf7248f759995791f12e89feb3cf4",
+      "fullFilmEvidence": "evidence/full100/macro-material/batch-verification.json"
     },
     {
       "id": "A24",
@@ -239,7 +308,10 @@
       "systemKey": "archive",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "2326ce920182ccdb23b60984420ae27d2dcd82db8538dfd6da7f1e8af14313d8",
+      "fullFilmEvidence": "evidence/full100/overhead-workbench/batch-verification.json"
     },
     {
       "id": "A25",
@@ -249,7 +321,10 @@
       "systemKey": "speaker",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "d1bdad776989832331d23941e4b691bea8e9507d1280f3dba62b1e1daa7e6439",
+      "fullFilmEvidence": "evidence/full100/architectural-light/batch-verification.json"
     },
     {
       "id": "A26",
@@ -259,7 +334,10 @@
       "systemKey": "speaker",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "c73558a8712f457279bba40f44284f8c795c23af9ed88dd1deee80a1b5652592",
+      "fullFilmEvidence": "evidence/full100/everyday-story/batch-verification.json"
     },
     {
       "id": "A27",
@@ -269,7 +347,10 @@
       "systemKey": "speaker",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "a2757b6e6d581dc8d85cd93f717256ac224b802dfd8ad1f285db196f08d1fe8d",
+      "fullFilmEvidence": "evidence/full100/spotlight-stage/batch-verification.json"
     },
     {
       "id": "A28",
@@ -279,7 +360,10 @@
       "systemKey": "gallery",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "8c46023feec96aa9c00b13cc821eb79b6cc91ce87c46c0cd925d3d6868131e46",
+      "fullFilmEvidence": "evidence/full100/darkroom-prints/batch-verification.json"
     },
     {
       "id": "A29",
@@ -289,7 +373,10 @@
       "systemKey": "editorial",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "1f51f4d555b1a7578fba91fbfd432fbb142e17a24272279ea23e111e95508bf0",
+      "fullFilmEvidence": "evidence/full100/newspaper/batch-verification.json"
     },
     {
       "id": "A30",
@@ -299,7 +386,10 @@
       "systemKey": "archive",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": true,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "56955db26ef6ae4071927485cd166b3876f01305db6b2b123a2cf0f14710d1df",
+      "fullFilmEvidence": "evidence/full100/archive-dossier/batch-verification.json"
     },
     {
       "id": "A31",
@@ -309,7 +399,10 @@
       "systemKey": "editorial",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "deb0bbd53ccaa5fddca40a4f78c8003e30e59348d2c463e396068ad06fc1cb74",
+      "fullFilmEvidence": "evidence/full100/photo-book/batch-verification.json"
     },
     {
       "id": "A32",
@@ -319,7 +412,10 @@
       "systemKey": "archive",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "862622710aaf11f2a414ae438fbcc600213df3179bcfc68d0bc1edc058278898",
+      "fullFilmEvidence": "evidence/full100/dictionary-entry/batch-verification.json"
     },
     {
       "id": "A33",
@@ -329,7 +425,10 @@
       "systemKey": "archive",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "ac7d1983a4f1f8681b11a1e1fefa8e6df999beef019c39d1e9bd1040a1d215a0",
+      "fullFilmEvidence": "evidence/full100/lab-notebook/batch-verification.json"
     },
     {
       "id": "A34",
@@ -339,7 +438,10 @@
       "systemKey": "archive",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "56a2908207fcc616f8d764fdddf36d560dc37b8e219cb124a5f22e98cd210aa8",
+      "fullFilmEvidence": "evidence/full100/timeline-almanac/batch-verification.json"
     },
     {
       "id": "A35",
@@ -349,7 +451,10 @@
       "systemKey": "editorial",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "e3682a149998a321561e0e3d22f3c3e994059e775f110b05d90f085c1418188d",
+      "fullFilmEvidence": "evidence/full100/swiss-grid/batch-verification.json"
     },
     {
       "id": "A36",
@@ -359,7 +464,10 @@
       "systemKey": "type",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "d2990b43da2c55c2f803041cd03208b09c685d1ff108d27022e5ea80bd7d83b8",
+      "fullFilmEvidence": "evidence/full100/constructivist/batch-verification.json"
     },
     {
       "id": "A37",
@@ -369,7 +477,10 @@
       "systemKey": "editorial",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "9bcaa5ee8225970dcf11fbb265065ac0c5d6eec851c8eff7857bb3c298c76dfd",
+      "fullFilmEvidence": "evidence/full100/art-deco/batch-verification.json"
     },
     {
       "id": "A38",
@@ -379,7 +490,10 @@
       "systemKey": "editorial",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "2c415d1da04d2b687f648f1d60d83b6b9bf43cd2126ffed8075e0773c2b33a33",
+      "fullFilmEvidence": "evidence/full100/art-nouveau/batch-verification.json"
     },
     {
       "id": "A39",
@@ -389,7 +503,10 @@
       "systemKey": "type",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "741674fde545bd6ac363db54a95cb201e99b725fd1a52b0a0aea0e2227c3ee9a",
+      "fullFilmEvidence": "evidence/full100/memphis/batch-verification.json"
     },
     {
       "id": "A40",
@@ -399,7 +516,10 @@
       "systemKey": "type",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "009c1878e6ea8faead90bc5102391e2c291a8b9cac8685f15bcb9eeee725c13d",
+      "fullFilmEvidence": "evidence/full100/brutalist-type/batch-verification.json"
     },
     {
       "id": "A41",
@@ -409,7 +529,10 @@
       "systemKey": "type",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "6eecf200be3e21bb57ba4366bbd8f5e5cf00a0e0d845c7df36a10242f5c72c99",
+      "fullFilmEvidence": "evidence/full100/optical-graphic/batch-verification.json"
     },
     {
       "id": "A42",
@@ -419,7 +542,10 @@
       "systemKey": "speaker",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "f389a22798c656ba0d7c3006f5091b6e095a8bd6169dfed11aa6589ca2e5e35c",
+      "fullFilmEvidence": "evidence/full100/negative-space/batch-verification.json"
     },
     {
       "id": "A43",
@@ -429,7 +555,10 @@
       "systemKey": "derive",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "7d97311f17128e30a41a420d80e2e600ef83c02c99c493c0636a42c26fff54f1",
+      "fullFilmEvidence": "evidence/full100/pencil-sketch/batch-verification.json"
     },
     {
       "id": "A44",
@@ -439,7 +568,10 @@
       "systemKey": "derive",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "f5a47fc4f78399d49e613290aa049b26600fdfe6c2666e30f4454612a5417224",
+      "fullFilmEvidence": "evidence/full100/colored-pencil/batch-verification.json"
     },
     {
       "id": "A45",
@@ -449,7 +581,10 @@
       "systemKey": "derive",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "6137be266f8feed1d98c93d185a454a83b76d4cf3c47256195a927e668245e52",
+      "fullFilmEvidence": "evidence/full100/charcoal/batch-verification.json"
     },
     {
       "id": "A46",
@@ -459,7 +594,10 @@
       "systemKey": "derive",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "5fcbe55f28193244e3b27539d0a0dc82793fd9fb3fa0ec995248c34c553844f4",
+      "fullFilmEvidence": "evidence/full100/pen-hatching/batch-verification.json"
     },
     {
       "id": "A47",
@@ -469,7 +607,10 @@
       "systemKey": "derive",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "cb3efc1848487769aeb0f332619c60d35c3332df3872399061ef6be42b2ab6bc",
+      "fullFilmEvidence": "evidence/full100/wax-crayon/batch-verification.json"
     },
     {
       "id": "A48",
@@ -479,7 +620,10 @@
       "systemKey": "derive",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "3f6d7adef30bfb89b3c6737d4262902e216e7319b6091223753b6d846b0ab390",
+      "fullFilmEvidence": "evidence/full100/soft-pastel/batch-verification.json"
     },
     {
       "id": "A49",
@@ -489,7 +633,10 @@
       "systemKey": "derive",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "4235d6b4653dfb04e4add3d9e28997d40bf8099ee2359ccb9a505b95f22027d5",
+      "fullFilmEvidence": "evidence/full100/marker-sketch/batch-verification.json"
     },
     {
       "id": "A50",
@@ -499,7 +646,10 @@
       "systemKey": "type",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "6194a017e0dbc56cda55890af02a8da4fb4df7f19114e7dd7fd2636f71e4a7c4",
+      "fullFilmEvidence": "evidence/full100/brush-lettering/batch-verification.json"
     },
     {
       "id": "A51",
@@ -509,7 +659,10 @@
       "systemKey": "route",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "a08effb674e42cd0705738385d8e5b397d1c61154a349b2deb0e4c54710a98b5",
+      "fullFilmEvidence": "evidence/full100/picture-book/batch-verification.json"
     },
     {
       "id": "A52",
@@ -519,7 +672,10 @@
       "systemKey": "route",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "64ef4cb7566b192d9331fb18d15f2144a84d204fc749b3b93f6117df75140f91",
+      "fullFilmEvidence": "evidence/full100/natural-history/batch-verification.json"
     },
     {
       "id": "A53",
@@ -529,7 +685,10 @@
       "systemKey": "stage",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "7e840f506ade08c94ea33e38f8ea01fcdf8ad0cc3c9b13087d786203e52af70c",
+      "fullFilmEvidence": "evidence/full100/isometric-city/batch-verification.json"
     },
     {
       "id": "A54",
@@ -539,7 +698,10 @@
       "systemKey": "radial",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "119ddceee5428576e7d18791678ac6be3e679276aeea95db8eec41af4bdaa872",
+      "fullFilmEvidence": "evidence/full100/faceted-vector/batch-verification.json"
     },
     {
       "id": "A55",
@@ -549,7 +711,10 @@
       "systemKey": "route",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "6ed120776976323e7e4254d4d73a604adeb6ac63cb77bb432d00285d628f858b",
+      "fullFilmEvidence": "evidence/full100/editorial-metaphor/batch-verification.json"
     },
     {
       "id": "A56",
@@ -559,7 +724,10 @@
       "systemKey": "speaker",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "ec7bd8a30d42c6386c6426e1696571c2c5c1fdd0ef7adec3c99d68481076eaa4",
+      "fullFilmEvidence": "evidence/full100/silhouette-fable/batch-verification.json"
     },
     {
       "id": "A57",
@@ -569,7 +737,10 @@
       "systemKey": "route",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "8d7ff6689eaaedbd336bbb7741581a5c6c57a0c8555e0994f3a0aeba84be99c3",
+      "fullFilmEvidence": "evidence/full100/illustrated-map/batch-verification.json"
     },
     {
       "id": "A58",
@@ -579,7 +750,10 @@
       "systemKey": "stack",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": true,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "ee207b044b0ec4a2cbe6091839788f49dacc5f36bb5b4e06065ec0f46e9470cd",
+      "fullFilmEvidence": "evidence/full100/origami/batch-verification.json"
     },
     {
       "id": "A59",
@@ -589,7 +763,10 @@
       "systemKey": "stack",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "c94a73958e95d75df45deb5fd1f820b56041b4a7c2744ebfcb08a4b74731be23",
+      "fullFilmEvidence": "evidence/full100/pop-up-book/batch-verification.json"
     },
     {
       "id": "A60",
@@ -599,7 +776,10 @@
       "systemKey": "stack",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "686b515e3a7eeadfa8f5c86a52884ae25e5707cfaab97566281a33fe2e42ae98",
+      "fullFilmEvidence": "evidence/full100/corrugated-model/batch-verification.json"
     },
     {
       "id": "A61",
@@ -609,7 +789,10 @@
       "systemKey": "stack",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "b20ad667efc8c43d40617a9b441a184b21bee7777832ea27eaf459a85f8c1715",
+      "fullFilmEvidence": "evidence/full100/torn-paper/batch-verification.json"
     },
     {
       "id": "A62",
@@ -619,7 +802,10 @@
       "systemKey": "scroll",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "b4324e48da9741102f9966b495c5860c4fb9aa2575ae5e10d255474f3feb707e",
+      "fullFilmEvidence": "evidence/full100/felt-applique/batch-verification.json"
     },
     {
       "id": "A63",
@@ -629,7 +815,10 @@
       "systemKey": "scroll",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "ab131499817c1d20bd3236a1c52277a6b8c0a42f46ada21c4958c0944d47019a",
+      "fullFilmEvidence": "evidence/full100/embroidery/batch-verification.json"
     },
     {
       "id": "A64",
@@ -639,7 +828,10 @@
       "systemKey": "stack",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "213a6b7341fe04fad8496a3541bc8d9d898f1f134162ab2378ab9c2b1cb63ff0",
+      "fullFilmEvidence": "evidence/full100/patchwork/batch-verification.json"
     },
     {
       "id": "A65",
@@ -649,7 +841,10 @@
       "systemKey": "scroll",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "6d0ccff6ef03c559a2a10c82074af3eefda4b0d0a006d4a1af717ec78dc30ddf",
+      "fullFilmEvidence": "evidence/full100/knotted-cord/batch-verification.json"
     },
     {
       "id": "A66",
@@ -659,7 +854,10 @@
       "systemKey": "scroll",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "835feb05f41382846a7d802a45cfb335e00d079f8fe6b1d6ae60992e8856f074",
+      "fullFilmEvidence": "evidence/full100/silk-layers/batch-verification.json"
     },
     {
       "id": "A67",
@@ -669,7 +867,10 @@
       "systemKey": "archive",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "4c1851926eff14f9572e74921d47b4e11a2dfb3553eca6dc921c7911135b5909",
+      "fullFilmEvidence": "evidence/full100/gongbi/batch-verification.json"
     },
     {
       "id": "A68",
@@ -679,7 +880,10 @@
       "systemKey": "scroll",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "10cd8f411701b29d4652dcae5ce725657a5154a91dfe0331c8db622fe8332050",
+      "fullFilmEvidence": "evidence/full100/blue-green-landscape/batch-verification.json"
     },
     {
       "id": "A69",
@@ -689,7 +893,10 @@
       "systemKey": "scroll",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "c6342ee7a8b1f415a86c2253ee4591fbff92b9622b82a6272552bf56a6344b72",
+      "fullFilmEvidence": "evidence/full100/mural/batch-verification.json"
     },
     {
       "id": "A70",
@@ -699,7 +906,10 @@
       "systemKey": "type",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "ac998d7164172afa735f711da2d2064c81f7b44ab7590f214c0457a60b011ca2",
+      "fullFilmEvidence": "evidence/full100/folk-woodblock/batch-verification.json"
     },
     {
       "id": "A71",
@@ -709,7 +919,10 @@
       "systemKey": "editorial",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "06357b0df07a7ca709d79df803b7d56d2d3b684ee034226c1eee61f94f7cf3f3",
+      "fullFilmEvidence": "evidence/full100/porcelain-painting/batch-verification.json"
     },
     {
       "id": "A72",
@@ -719,7 +932,10 @@
       "systemKey": "type",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "9646d02d2e9e5619db6424dbdd639ac7c9e20fdb5a9654462b6d232f571dd5e3",
+      "fullFilmEvidence": "evidence/full100/seal-carving/batch-verification.json"
     },
     {
       "id": "A73",
@@ -729,7 +945,10 @@
       "systemKey": "archive",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "d8c776b35fc2c478fc962ee6d4d4c52f56ead272b3875ae2b082aa3965d075fe",
+      "fullFilmEvidence": "evidence/full100/lacquer-gold/batch-verification.json"
     },
     {
       "id": "A74",
@@ -739,7 +958,10 @@
       "systemKey": "gallery",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "f028566eb3959743bdb2ac9760782d2df4312920787b389ded0d0529c97f1fdd",
+      "fullFilmEvidence": "evidence/full100/watercolor/batch-verification.json"
     },
     {
       "id": "A75",
@@ -749,7 +971,10 @@
       "systemKey": "gallery",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "c468b7cd513b7ef4093eaf9d46e9b9e83a297b98bdb0c70c0f930d4f2490a787",
+      "fullFilmEvidence": "evidence/full100/impasto/batch-verification.json"
     },
     {
       "id": "A76",
@@ -759,7 +984,10 @@
       "systemKey": "gallery",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "c963509ab42b4f7303cd35efee885d67ff563365a62e24c867598c9b5e90790a",
+      "fullFilmEvidence": "evidence/full100/woodcut/batch-verification.json"
     },
     {
       "id": "A77",
@@ -769,7 +997,10 @@
       "systemKey": "gallery",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "d91a1e3def754d6dc0624ed44db42a03580c7addafb5a7cc49528a00b854a99f",
+      "fullFilmEvidence": "evidence/full100/etching/batch-verification.json"
     },
     {
       "id": "A78",
@@ -779,7 +1010,10 @@
       "systemKey": "type",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "8d21d1bb6f85326bb11aeb482c8bcc469f2a6c47fd8ac2bfce33f21b001cbc34",
+      "fullFilmEvidence": "evidence/full100/risograph/batch-verification.json"
     },
     {
       "id": "A79",
@@ -789,7 +1023,10 @@
       "systemKey": "editorial",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "c98518537a20c8bae7ddc55b306b54b992c28dbb063735bc9f0e7fa6f9dd1a0f",
+      "fullFilmEvidence": "evidence/full100/enamel-badge/batch-verification.json"
     },
     {
       "id": "A80",
@@ -799,7 +1036,10 @@
       "systemKey": "route",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "b832990e91e3f997ad46d077011129f95ac95d17765977aee9a75340a1218cef",
+      "fullFilmEvidence": "evidence/full100/cyanotype/batch-verification.json"
     },
     {
       "id": "A81",
@@ -809,7 +1049,10 @@
       "systemKey": "editorial",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "0fcc7080c8d0d54ae1d6289dc8d2fd3cbb38c1140cfb9f9a4a7c03c6f919de27",
+      "fullFilmEvidence": "evidence/full100/foil-deboss/batch-verification.json"
     },
     {
       "id": "A82",
@@ -819,7 +1062,10 @@
       "systemKey": "route",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "e65d338a1c58a197af236a87ffb3475e3a50af518a92893947f5c5489248ab61",
+      "fullFilmEvidence": "evidence/full100/mosaic/batch-verification.json"
     },
     {
       "id": "A83",
@@ -829,7 +1075,10 @@
       "systemKey": "route",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "30703f43a6ad433c274691cceceddeb66e174449241865b7fa39aee096ea9a29",
+      "fullFilmEvidence": "evidence/full100/stained-glass/batch-verification.json"
     },
     {
       "id": "A84",
@@ -839,7 +1088,10 @@
       "systemKey": "archive",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "b1562d79d95f0822202e1ef5ca3506e7cb6b511a0cfa9499a23fbadcc9c9eba1",
+      "fullFilmEvidence": "evidence/full100/sandstone-relief/batch-verification.json"
     },
     {
       "id": "A85",
@@ -849,7 +1101,10 @@
       "systemKey": "archive",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "149ca790b6961c5042c9cf6b60f78a5f31f4262eb785380d9b22ba0986aeb528",
+      "fullFilmEvidence": "evidence/full100/chased-metal/batch-verification.json"
     },
     {
       "id": "A86",
@@ -859,7 +1114,10 @@
       "systemKey": "stage",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "c6b51c2732ea6cb16e18231d85d8da9905cf5c4ad434dffb704b33bb4b7f869b",
+      "fullFilmEvidence": "evidence/full100/miniature-puppet/batch-verification.json"
     },
     {
       "id": "A87",
@@ -869,7 +1127,10 @@
       "systemKey": "stack",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "b5e90cdeb37016c94bcf4c50ef0aa2e604ca6beb6da9a1401f79f72c3768407b",
+      "fullFilmEvidence": "evidence/full100/building-blocks/batch-verification.json"
     },
     {
       "id": "A88",
@@ -879,7 +1140,10 @@
       "systemKey": "stage",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "44140299bb822e2e3d2bffb9c90fba0491e632a7ba75f91dc33c3cb7ed55b947",
+      "fullFilmEvidence": "evidence/full100/optical-glass/batch-verification.json"
     },
     {
       "id": "A89",
@@ -889,7 +1153,10 @@
       "systemKey": "stage",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "da0a582e81a5187239102e417a2bd8882d0ea544653ec6f08a4cbef56e11952a",
+      "fullFilmEvidence": "evidence/full100/ceramic-objects/batch-verification.json"
     },
     {
       "id": "A90",
@@ -899,7 +1166,10 @@
       "systemKey": "stage",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "094721c1a3512c327e9bc4b4d2b30def23414a37bfebda970a5991df87f11da2",
+      "fullFilmEvidence": "evidence/full100/liquid-chrome/batch-verification.json"
     },
     {
       "id": "A91",
@@ -909,7 +1179,10 @@
       "systemKey": "stage",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "dc1d1b861cc38ae991f027dd936be09407f84dd254582f0c0e63d0ee2dbf1a01",
+      "fullFilmEvidence": "evidence/full100/isometric-maquette/batch-verification.json"
     },
     {
       "id": "A92",
@@ -919,7 +1192,10 @@
       "systemKey": "stack",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "7d3ea514d8b5a2a0dd4c0006c0ff3b6354661a6935bd3cd53151a117e3c2011a",
+      "fullFilmEvidence": "evidence/full100/inflatable-sculpture/batch-verification.json"
     },
     {
       "id": "A93",
@@ -929,7 +1205,10 @@
       "systemKey": "stage",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "80b799a7d4a50e870d0e66ca1183c0b6d7e2a53abe751d76df22274e2c9dbe5b",
+      "fullFilmEvidence": "evidence/full100/viscous-gel/batch-verification.json"
     },
     {
       "id": "A94",
@@ -939,7 +1218,10 @@
       "systemKey": "radial",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "dd2a0f35b891dcf87c165c5081264c1d705ed56968cf5d2179006cd51fb6f8a1",
+      "fullFilmEvidence": "evidence/full100/mechanical-cutaway/batch-verification.json"
     },
     {
       "id": "A95",
@@ -949,7 +1231,10 @@
       "systemKey": "interface",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "f9ac723ab019a74535836712182cabc10028969949379880df727040d18a588b",
+      "fullFilmEvidence": "evidence/full100/terminal-ascii/batch-verification.json"
     },
     {
       "id": "A96",
@@ -959,7 +1244,10 @@
       "systemKey": "radial",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "d7b95087aef8f1ccdc348334f21ff2da005a61fb28bea27ef30564a04b8e66a4",
+      "fullFilmEvidence": "evidence/full100/vector-oscilloscope/batch-verification.json"
     },
     {
       "id": "A97",
@@ -969,7 +1257,10 @@
       "systemKey": "interface",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "2a0668b23839e3777b40356dad4d63c54bd69b26632abc7e4e60d0e881789850",
+      "fullFilmEvidence": "evidence/full100/led-dot-matrix/batch-verification.json"
     },
     {
       "id": "A98",
@@ -979,7 +1270,10 @@
       "systemKey": "interface",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "c777ccabc21dd49e5a782ac1f068b5d10df0008dc607fd26516a588901f26ba3",
+      "fullFilmEvidence": "evidence/full100/early-desktop/batch-verification.json"
     },
     {
       "id": "A99",
@@ -989,7 +1283,10 @@
       "systemKey": "radial",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "4555142e345882bca248e0993bae3682e2b4b33fbc5bc0dba247a74005c8d3a9",
+      "fullFilmEvidence": "evidence/full100/spatial-pointcloud/batch-verification.json"
     },
     {
       "id": "A100",
@@ -999,7 +1296,10 @@
       "systemKey": "radial",
       "status": "native-v2-remapped",
       "fullFilmRepresentative": false,
-      "evidence": "qa/prototypes.json"
+      "evidence": "qa/prototypes.json",
+      "fullFilmVerified": true,
+      "fullFilmVideoSha256": "10e94e17da727785ee515717bd3b326d6b19679c9e599ce509a96307772b31e2",
+      "fullFilmEvidence": "evidence/full100/holographic-volume/batch-verification.json"
     }
   ]
 }
