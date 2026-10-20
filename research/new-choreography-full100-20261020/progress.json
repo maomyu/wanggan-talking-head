@@ -1,5 +1,5 @@
 {
-  "verified": 22,
+  "verified": 32,
   "total": 100,
   "videos": [
     {
@@ -143,8 +143,78 @@
       "motionSamples": 300
     },
     {
+      "key": "documentary",
+      "videoSha256": "9985a8921e9a21d4d7ceafdac792dd0aa784e3cca6857b5b373b37826f798be1",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "tabletop-stilllife",
+      "videoSha256": "81f4da536fbcf427055ac92daa481c7fa883e3f1c83a9da0f145b9347332e9c8",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "macro-material",
+      "videoSha256": "0133854c460c441529cfbb38c920febd18ddf7248f759995791f12e89feb3cf4",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "overhead-workbench",
+      "videoSha256": "2326ce920182ccdb23b60984420ae27d2dcd82db8538dfd6da7f1e8af14313d8",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "architectural-light",
+      "videoSha256": "d1bdad776989832331d23941e4b691bea8e9507d1280f3dba62b1e1daa7e6439",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "everyday-story",
+      "videoSha256": "c73558a8712f457279bba40f44284f8c795c23af9ed88dd1deee80a1b5652592",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "spotlight-stage",
+      "videoSha256": "a2757b6e6d581dc8d85cd93f717256ac224b802dfd8ad1f285db196f08d1fe8d",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "darkroom-prints",
+      "videoSha256": "8c46023feec96aa9c00b13cc821eb79b6cc91ce87c46c0cd925d3d6868131e46",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "newspaper",
+      "videoSha256": "1f51f4d555b1a7578fba91fbfd432fbb142e17a24272279ea23e111e95508bf0",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
       "key": "archive-dossier",
       "videoSha256": "56955db26ef6ae4071927485cd166b3876f01305db6b2b123a2cf0f14710d1df",
+      "frames": 1100,
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
+    },
+    {
+      "key": "photo-book",
+      "videoSha256": "deb0bbd53ccaa5fddca40a4f78c8003e30e59348d2c463e396068ad06fc1cb74",
       "frames": 1100,
       "audioCorrelation": 0.9999823504746719,
       "motionSamples": 300

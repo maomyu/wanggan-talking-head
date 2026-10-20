@@ -1,7 +1,7 @@
 {
   "status": "in-progress",
   "total": 100,
-  "verified": 22,
+  "verified": 32,
   "reusedSourceBoundVideos": 12,
   "jobs": {
     "minimal": {
@@ -165,39 +165,76 @@
       "motionSamples": 300
     },
     "documentary": {
-      "status": "verifying",
-      "updated": 1792478689.148932,
-      "started": 1792478282.0346591
+      "status": "verified",
+      "updated": 1792478819.4298759,
+      "started": 1792478282.0346591,
+      "videoSha256": "9985a8921e9a21d4d7ceafdac792dd0aa784e3cca6857b5b373b37826f798be1",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "tabletop-stilllife": {
-      "status": "rendering",
-      "updated": 1792478603.572525,
-      "started": 1792478499.873452
+      "status": "verified",
+      "updated": 1792478917.072361,
+      "started": 1792478499.873452,
+      "videoSha256": "81f4da536fbcf427055ac92daa481c7fa883e3f1c83a9da0f145b9347332e9c8",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "macro-material": {
-      "status": "rendering",
-      "updated": 1792478689.154285,
-      "started": 1792478568.382831
+      "status": "verified",
+      "updated": 1792479028.628344,
+      "started": 1792478568.382831,
+      "videoSha256": "0133854c460c441529cfbb38c920febd18ddf7248f759995791f12e89feb3cf4",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "overhead-workbench": {
-      "status": "checking",
-      "updated": 1792478650.930519,
-      "started": 1792478650.930468
+      "status": "verified",
+      "updated": 1792479122.9981189,
+      "started": 1792478650.930468,
+      "videoSha256": "2326ce920182ccdb23b60984420ae27d2dcd82db8538dfd6da7f1e8af14313d8",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "architectural-light": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792479253.8704262,
+      "started": 1792478819.438208,
+      "videoSha256": "d1bdad776989832331d23941e4b691bea8e9507d1280f3dba62b1e1daa7e6439",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "everyday-story": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792479354.4093041,
+      "started": 1792478917.076273,
+      "videoSha256": "c73558a8712f457279bba40f44284f8c795c23af9ed88dd1deee80a1b5652592",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "spotlight-stage": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792479479.7705479,
+      "started": 1792479028.63101,
+      "videoSha256": "a2757b6e6d581dc8d85cd93f717256ac224b802dfd8ad1f285db196f08d1fe8d",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "darkroom-prints": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792479557.24677,
+      "started": 1792479123.0044281,
+      "videoSha256": "8c46023feec96aa9c00b13cc821eb79b6cc91ce87c46c0cd925d3d6868131e46",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "newspaper": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792479633.851706,
+      "started": 1792479253.874542,
+      "videoSha256": "1f51f4d555b1a7578fba91fbfd432fbb142e17a24272279ea23e111e95508bf0",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "archive-dossier": {
       "status": "verified",
@@ -208,19 +245,32 @@
       "motionSamples": 300
     },
     "photo-book": {
-      "status": "queued"
+      "status": "verified",
+      "updated": 1792479746.3986921,
+      "started": 1792479354.432819,
+      "videoSha256": "deb0bbd53ccaa5fddca40a4f78c8003e30e59348d2c463e396068ad06fc1cb74",
+      "audioCorrelation": 0.9999823504746719,
+      "motionSamples": 300
     },
     "dictionary-entry": {
-      "status": "queued"
+      "status": "rendering",
+      "updated": 1792479574.773118,
+      "started": 1792479479.777138
     },
     "lab-notebook": {
-      "status": "queued"
+      "status": "rendering",
+      "updated": 1792479654.696751,
+      "started": 1792479557.25321
     },
     "timeline-almanac": {
-      "status": "queued"
+      "status": "waiting-for-render",
+      "updated": 1792479737.5360892,
+      "started": 1792479633.870697
     },
     "swiss-grid": {
-      "status": "queued"
+      "status": "checking",
+      "updated": 1792479746.4070988,
+      "started": 1792479746.4070752
     },
     "constructivist": {
       "status": "queued"
@@ -423,5 +473,5 @@
       "status": "queued"
     }
   },
-  "elapsedSeconds": 2174.8397178649902
+  "elapsedSeconds": 3232.0925369262695
 }

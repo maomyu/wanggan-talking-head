@@ -21,6 +21,7 @@ def work(s):
             verified=read(p/'qa/batch-verification.json')
             if sha(p/'outputs/final.mp4')==verified['video']['sha256'] and all(sha(p/f)==h for f,h in verified['source']['inputs'].items()):
                 update(key,'verified',videoSha256=verified['video']['sha256']);return
+            raise RuntimeError('已完成版本的输入或视频发生变化；请另存修订，不能用旧成片认证新源码')
         update(key,'checking',started=time.time())
         with checkSlots:command(['node',str(HF),'check','--json','--timeout','120000',str(p)],p/'qa/batch-check.log')
         raw=(p/'qa/batch-check.log').read_text();at=raw.find('{\n  "ok"');assert at>=0,'Check JSON missing';check=json.JSONDecoder().raw_decode(raw[at:])[0];assert check['ok']and check['motion']['enabled']and check['motion']['samples']>0
