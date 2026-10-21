@@ -1,0 +1,14 @@
+{
+  "id": "same-source-ink-03",
+  "recipeId": "ink",
+  "status": "user-approved",
+  "approvalDate": "2026-10-21",
+  "approvalText": "新完成的三套配方我觉得也没问题",
+  "videoSha256": "215ef8971368e2e15ea9c0e0292ad7b83941ff84c8d677526a39ae45cc19b9f3",
+  "sourceUploadSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "frames": 1100,
+  "fps": 30,
+  "axesWithActualLiveBindings": 11,
+  "htmlSha256": "d54f1bf4daa9685b8a30fd564772ade6ba93708f8353f40a5c42709f0f5590ba",
+  "scope": "本段自有口播完整片用户认可；不是任意素材或自由组合自动渲染证明"
+}

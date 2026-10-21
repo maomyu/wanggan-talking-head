@@ -1,0 +1,12 @@
+{
+  "kind": "opaque-SDR PNG compression only",
+  "engineVersion": "0.8.174",
+  "engineSha256": "e80a9d81838c0fe034f4d00af1c0262f570d64b2bb8b8c487a22cf7d8a70cc4e",
+  "installedModuleUnchanged": true,
+  "applications": 1,
+  "outputPixelEquivalenceSamples": 48,
+  "pixelEquivalenceReportSha256": "de01a5fc1f555ecba268aecd653483a690af4b28eb5c1046dac1faeee0ab8e6b",
+  "alphaAndHDRCaptureUnchanged": true,
+  "geometryTimingFontsAudioAndEncodingUnchanged": true,
+  "exitCode": 0
+}

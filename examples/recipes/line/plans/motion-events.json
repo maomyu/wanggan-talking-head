@@ -1,0 +1,63 @@
+{
+  "language": "线条先成物，再接出关系；擦去加购，边界把风险隔开",
+  "actions": {
+    "consume": [
+      149,
+      185
+    ],
+    "loss": [
+      310,
+      329
+    ],
+    "cut": [
+      480,
+      498
+    ],
+    "pause": [
+      516,
+      537
+    ],
+    "compare": [
+      563,
+      583
+    ],
+    "riskReveal": [
+      739,
+      758
+    ],
+    "avoid": [
+      783,
+      807
+    ],
+    "debt": [
+      856,
+      882
+    ]
+  },
+  "stateTransitions": {
+    "principalBefore": 8,
+    "lossResult": 4,
+    "principalAfterAdvice": 8,
+    "debtBefore": 6,
+    "debtAfter": 2,
+    "extraDenied": true
+  },
+  "paths": {
+    "removal": [
+      -230,
+      -100
+    ],
+    "riskReveal": "line-retract"
+  },
+  "settleFrames": 12,
+  "reason": "消减、否定、揭示都由当前词句触发，并保留结果状态。",
+  "selectedStandards": [
+    "trace-build",
+    "sort-compare",
+    "accumulate-reduce",
+    "reveal-consequence"
+  ],
+  "anchorOffsets": {
+    "cut": 19
+  }
+}

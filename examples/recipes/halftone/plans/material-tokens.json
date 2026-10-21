@@ -1,0 +1,19 @@
+{
+  "surfaceAssignments": {
+    "objects": "粗轮廓、网点色层、可分拆的印刷分格",
+    "background": "fiber-paper",
+    "person": "source-original-unfiltered",
+    "text": "crisp-overlay"
+  },
+  "textureScale": 12,
+  "edgeTreatment": {
+    "strokeWidth": 8,
+    "roughness": 0,
+    "registrationOffset": 3
+  },
+  "reason": "材质仅作用于示意对象与纸底，不覆盖原色人像与字形。",
+  "selectedStandards": [
+    "paper-grain",
+    "ink-print"
+  ]
+}

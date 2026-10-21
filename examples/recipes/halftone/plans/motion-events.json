@@ -1,0 +1,63 @@
+{
+  "language": "套色逐层落位、重复印样相遇后否定、色签抽离揭示风险",
+  "actions": {
+    "consume": [
+      149,
+      185
+    ],
+    "loss": [
+      310,
+      329
+    ],
+    "cut": [
+      480,
+      498
+    ],
+    "pause": [
+      516,
+      537
+    ],
+    "compare": [
+      563,
+      583
+    ],
+    "riskReveal": [
+      739,
+      758
+    ],
+    "avoid": [
+      783,
+      807
+    ],
+    "debt": [
+      856,
+      882
+    ]
+  },
+  "stateTransitions": {
+    "principalBefore": 8,
+    "lossResult": 4,
+    "principalAfterAdvice": 8,
+    "debtBefore": 6,
+    "debtAfter": 2,
+    "extraDenied": true
+  },
+  "paths": {
+    "removal": [
+      440,
+      -25
+    ],
+    "riskReveal": "print-ticket"
+  },
+  "settleFrames": 10,
+  "reason": "消减、否定、揭示都由当前词句触发，并保留结果状态。",
+  "selectedStandards": [
+    "stamp-reveal",
+    "sort-compare",
+    "accumulate-reduce",
+    "reveal-consequence"
+  ],
+  "anchorOffsets": {
+    "cut": 19
+  }
+}

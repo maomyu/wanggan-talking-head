@@ -1,0 +1,14 @@
+{
+  "id": "same-source-halftone-03",
+  "recipeId": "halftone",
+  "status": "user-approved",
+  "approvalDate": "2026-10-21",
+  "approvalText": "新完成的三套配方我觉得也没问题",
+  "videoSha256": "e6d583656206e592eadfc3d8caecf76d6907cb081886d0f8b9043df030e0d868",
+  "sourceUploadSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "frames": 1100,
+  "fps": 30,
+  "axesWithActualLiveBindings": 11,
+  "htmlSha256": "56896395719a9d5344c993bd1e8c9d016047e40552301d456b2cd2536f24b7bf",
+  "scope": "本段自有口播完整片用户认可；不是任意素材或自由组合自动渲染证明"
+}

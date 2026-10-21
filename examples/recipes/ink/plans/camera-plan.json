@@ -1,0 +1,27 @@
+{
+  "language": "非对称留白中的局部推近与回到长卷",
+  "shotFraming": [
+    90,
+    560,
+    900,
+    660
+  ],
+  "viewTransforms": {
+    "problem": 1,
+    "spend": 1.03,
+    "risk": 1.025,
+    "recap": 1
+  },
+  "focusTargets": [
+    "existing-object",
+    "extra-object",
+    "principal",
+    "risk",
+    "burden"
+  ],
+  "reason": "水墨局部取笔势，单线沿路阅读，网点用双格对照，不做无理由持续推镜。",
+  "selectedStandards": [
+    "planar-push-pull",
+    "wide-detail-return"
+  ]
+}

@@ -44,6 +44,36 @@
         "branchId": null,
         "baseLegacyId": "A14"
       }
+    },
+    {
+      "id": "ink",
+      "name": "水墨写意 · 同源完整配方",
+      "status": "user-approved",
+      "hierarchy": {
+        "familyId": "F10",
+        "branchId": null,
+        "baseLegacyId": "A13"
+      }
+    },
+    {
+      "id": "line",
+      "name": "单线手绘 · 同源完整配方",
+      "status": "user-approved",
+      "hierarchy": {
+        "familyId": "F05",
+        "branchId": null,
+        "baseLegacyId": "A06"
+      }
+    },
+    {
+      "id": "halftone",
+      "name": "复古网点 · 同源完整配方",
+      "status": "user-approved",
+      "hierarchy": {
+        "familyId": "F08",
+        "branchId": null,
+        "baseLegacyId": "A10"
+      }
     }
   ],
   "default": "minimal"

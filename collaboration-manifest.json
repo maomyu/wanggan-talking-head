@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "1.18.0",
+  "version": "1.19.0",
   "entry": "skills/talking-head-video/SKILL.md",
   "compositionSkill": "skills/talking-head-composition/SKILL.md",
   "axes": [

@@ -1,0 +1,545 @@
+{
+  "claims": [
+    {
+      "id": 1,
+      "startFrame": 0,
+      "endFrame": 58,
+      "text": "为什么越努力上班越存不到钱",
+      "sourceStart": 0,
+      "sourceEnd": 1.9333333333333333,
+      "segment": "A",
+      "sourceId": 1
+    },
+    {
+      "id": 2,
+      "startFrame": 58,
+      "endFrame": 95,
+      "text": "今天就给普通人讲一讲",
+      "sourceStart": 1.9333333333333333,
+      "sourceEnd": 3.1666666666666665,
+      "segment": "A",
+      "sourceId": 2
+    },
+    {
+      "id": 3,
+      "startFrame": 95,
+      "endFrame": 149,
+      "text": "当下最接地气的财富真相",
+      "sourceStart": 3.1666666666666665,
+      "sourceEnd": 4.966666666666667,
+      "segment": "A",
+      "sourceId": 3
+    },
+    {
+      "id": 4,
+      "startFrame": 149,
+      "endFrame": 198,
+      "text": "很多人习惯跟风消费",
+      "sourceStart": 4.966666666666667,
+      "sourceEnd": 6.6,
+      "segment": "A",
+      "sourceId": 4
+    },
+    {
+      "id": 5,
+      "startFrame": 198,
+      "endFrame": 224,
+      "text": "盲目打理资产",
+      "sourceStart": 6.6,
+      "sourceEnd": 7.466666666666667,
+      "segment": "A",
+      "sourceId": 5
+    },
+    {
+      "id": 6,
+      "startFrame": 224,
+      "endFrame": 266,
+      "text": "要么透支负债前行",
+      "sourceStart": 7.466666666666667,
+      "sourceEnd": 8.866666666666667,
+      "segment": "A",
+      "sourceId": 6
+    },
+    {
+      "id": 7,
+      "startFrame": 266,
+      "endFrame": 310,
+      "text": "要么跟风盲目炒股",
+      "sourceStart": 8.866666666666667,
+      "sourceEnd": 10.333333333333334,
+      "segment": "A",
+      "sourceId": 7
+    },
+    {
+      "id": 8,
+      "startFrame": 310,
+      "endFrame": 349,
+      "text": "最后本金受损",
+      "sourceStart": 10.333333333333334,
+      "sourceEnd": 11.633333333333333,
+      "segment": "A",
+      "sourceId": 8
+    },
+    {
+      "id": 9,
+      "startFrame": 349,
+      "endFrame": 388,
+      "text": "生活压力越来越大",
+      "sourceStart": 11.633333333333333,
+      "sourceEnd": 12.933333333333334,
+      "segment": "A",
+      "sourceId": 9
+    },
+    {
+      "id": 10,
+      "startFrame": 388,
+      "endFrame": 461,
+      "text": "给大家三个普通人的财经底线",
+      "sourceStart": 12.933333333333334,
+      "sourceEnd": 15.366666666666667,
+      "segment": "A",
+      "sourceId": 10
+    },
+    {
+      "id": 11,
+      "startFrame": 461,
+      "endFrame": 516,
+      "text": "第一，砍掉无效消费",
+      "sourceStart": 15.366666666666667,
+      "sourceEnd": 17.2,
+      "segment": "A",
+      "sourceId": 11
+    },
+    {
+      "id": 12,
+      "startFrame": 516,
+      "endFrame": 563,
+      "text": "戒掉冲动的购物",
+      "sourceStart": 17.2,
+      "sourceEnd": 18.766666666666666,
+      "segment": "A",
+      "sourceId": 12
+    },
+    {
+      "id": 13,
+      "startFrame": 563,
+      "endFrame": 616,
+      "text": "分清楚想要和需要",
+      "sourceStart": 18.766666666666666,
+      "sourceEnd": 20.533333333333335,
+      "segment": "A",
+      "sourceId": 13
+    },
+    {
+      "id": 14,
+      "startFrame": 616,
+      "endFrame": 686,
+      "text": "第二守住本金永远优先",
+      "sourceStart": 20.533333333333335,
+      "sourceEnd": 22.866666666666667,
+      "segment": "A",
+      "sourceId": 14
+    },
+    {
+      "id": 15,
+      "startFrame": 686,
+      "endFrame": 783,
+      "text": "市面上夸大收益理财的都暗藏风险",
+      "sourceStart": 22.866666666666667,
+      "sourceEnd": 26.1,
+      "segment": "A",
+      "sourceId": 15
+    },
+    {
+      "id": 16,
+      "startFrame": 783,
+      "endFrame": 856,
+      "text": "普通人要远离投机跟炒作",
+      "sourceStart": 26.1,
+      "sourceEnd": 28.533333333333335,
+      "segment": "A",
+      "sourceId": 16
+    },
+    {
+      "id": 17,
+      "startFrame": 856,
+      "endFrame": 898,
+      "text": "第三减少负债",
+      "sourceStart": 28.533333333333335,
+      "sourceEnd": 29.933333333333334,
+      "segment": "A",
+      "sourceId": 17
+    },
+    {
+      "id": 18,
+      "startFrame": 898,
+      "endFrame": 959,
+      "text": "财富从来不是靠蛮力争取的",
+      "sourceStart": 29.933333333333334,
+      "sourceEnd": 31.966666666666665,
+      "segment": "A",
+      "sourceId": 18
+    },
+    {
+      "id": 19,
+      "startFrame": 959,
+      "endFrame": 1003,
+      "text": "而是靠认知筛选",
+      "sourceStart": 31.966666666666665,
+      "sourceEnd": 33.43333333333333,
+      "segment": "A",
+      "sourceId": 19
+    },
+    {
+      "id": 20,
+      "startFrame": 1003,
+      "endFrame": 1036,
+      "text": "不跟风不浮躁",
+      "sourceStart": 33.43333333333333,
+      "sourceEnd": 34.53333333333333,
+      "segment": "A",
+      "sourceId": 20
+    },
+    {
+      "id": 21,
+      "startFrame": 1036,
+      "endFrame": 1100,
+      "text": "才是普通人该走的路",
+      "sourceStart": 34.53333333333333,
+      "sourceEnd": 36.666666666666664,
+      "segment": "A",
+      "sourceId": 21
+    }
+  ],
+  "relations": [
+    {
+      "id": "scene-1",
+      "startFrame": 0,
+      "endFrame": 149,
+      "sentenceIds": [
+        1,
+        2,
+        3
+      ],
+      "relation": "problem-mechanism-response",
+      "purpose": "提出存不下钱的问题",
+      "action": "墨圈将题目收进留白；人像沿同一圆裁切让位",
+      "result": "人像原色圆窗就位，消费与资金区建立",
+      "readWindow": [
+        121,
+        149
+      ],
+      "objects": [
+        "speaker",
+        "principal"
+      ],
+      "handoff": "前段笔路延伸为下一段的边界，墨幕扫开风险；保持同一对象ID与原声连续"
+    },
+    {
+      "id": "scene-2",
+      "startFrame": 149,
+      "endFrame": 388,
+      "sentenceIds": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "relation": "problem-mechanism-response",
+      "purpose": "并列展示跟风选择及风险后果",
+      "action": "消费物件和负担分别落在墨带两侧，本金示意从完整变为缺口",
+      "result": "消费、资金与负担分区可辨",
+      "readWindow": [
+        329,
+        349
+      ],
+      "objects": [
+        "headphone",
+        "principal",
+        "burden"
+      ],
+      "handoff": "前段笔路延伸为下一段的边界，墨幕扫开风险；保持同一对象ID与原声连续"
+    },
+    {
+      "id": "scene-3",
+      "startFrame": 388,
+      "endFrame": 461,
+      "sentenceIds": [
+        10
+      ],
+      "relation": "parallel-options",
+      "purpose": "三项建议保持同层",
+      "action": "同层展开三个笔触标记，不画因果箭头",
+      "result": "消费、本金与负债是三项并列建议",
+      "readWindow": [
+        419,
+        441
+      ],
+      "objects": [
+        "headphone",
+        "principal",
+        "burden"
+      ],
+      "handoff": "前段笔路延伸为下一段的边界，墨幕扫开风险；保持同一对象ID与原声连续"
+    },
+    {
+      "id": "scene-4",
+      "startFrame": 461,
+      "endFrame": 616,
+      "sentenceIds": [
+        11,
+        12,
+        13
+      ],
+      "relation": "option-comparison",
+      "purpose": "区分想要与需要",
+      "action": "多余耳机被干笔划去，日用食物轮廓保留；同尺度对照想要与需要",
+      "result": "已有耳机与日用采购承担不同任务",
+      "readWindow": [
+        583,
+        611
+      ],
+      "objects": [
+        "headphone",
+        "food",
+        "extra"
+      ],
+      "handoff": "前段笔路延伸为下一段的边界，墨幕扫开风险；保持同一对象ID与原声连续"
+    },
+    {
+      "id": "scene-5",
+      "startFrame": 616,
+      "endFrame": 686,
+      "sentenceIds": [
+        14
+      ],
+      "relation": "parallel-options",
+      "purpose": "本金优先",
+      "action": "本金完整墨格落定；防线留白不向外增长",
+      "result": "示意单位保持不增值",
+      "readWindow": [
+        653,
+        683
+      ],
+      "objects": [
+        "principal"
+      ],
+      "handoff": "前段笔路延伸为下一段的边界，墨幕扫开风险；保持同一对象ID与原声连续"
+    },
+    {
+      "id": "scene-6",
+      "startFrame": 686,
+      "endFrame": 856,
+      "sentenceIds": [
+        15,
+        16
+      ],
+      "relation": "contrast-turn",
+      "purpose": "看清夸大收益说法背后的风险",
+      "action": "上层浓墨被横扫开，在留白里看见风险；本金仍完整",
+      "result": "风险被揭示，本金单位保持",
+      "readWindow": [
+        755,
+        776
+      ],
+      "objects": [
+        "principal",
+        "risk"
+      ],
+      "handoff": "前段笔路延伸为下一段的边界，墨幕扫开风险；保持同一对象ID与原声连续"
+    },
+    {
+      "id": "scene-7",
+      "startFrame": 856,
+      "endFrame": 898,
+      "sentenceIds": [
+        17
+      ],
+      "relation": "parallel-options",
+      "purpose": "减少负债",
+      "action": "负担墨片向外回收，只留下较轻部分",
+      "result": "保留较轻的两层",
+      "readWindow": [
+        882,
+        898
+      ],
+      "objects": [
+        "burden"
+      ],
+      "handoff": "前段笔路延伸为下一段的边界，墨幕扫开风险；保持同一对象ID与原声连续"
+    },
+    {
+      "id": "scene-8",
+      "startFrame": 898,
+      "endFrame": 1100,
+      "sentenceIds": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "relation": "recap-return",
+      "purpose": "回到认知与判断",
+      "action": "同一笔势收回三项底线，人像接住不跟风的结论",
+      "result": "不跟风、不浮躁的结论停稳",
+      "readWindow": [
+        975,
+        1099
+      ],
+      "objects": [
+        "speaker",
+        "headphone",
+        "principal",
+        "burden"
+      ],
+      "handoff": "前段笔路延伸为下一段的边界，墨幕扫开风险；保持同一对象ID与原声连续"
+    }
+  ],
+  "scenePurpose": [
+    "提出存不下钱的问题",
+    "并列展示跟风选择及风险后果",
+    "三项建议保持同层",
+    "区分想要与需要",
+    "本金优先",
+    "看清夸大收益说法背后的风险",
+    "减少负债",
+    "回到认知与判断"
+  ],
+  "assetTasks": {
+    "authored-svg-objects": "原创建模示意；耳机是额外购买与日用采购对照，筹码只示本金原则，均非个人资产证据",
+    "master.mp4": "用户自有真人原色与同源时钟"
+  },
+  "headlineCues": [
+    [
+      0,
+      "越努力上班\n越存不到钱？",
+      112
+    ],
+    [
+      58,
+      "钱，\n去了哪里？",
+      112
+    ],
+    [
+      149,
+      "跟风消费",
+      122
+    ],
+    [
+      198,
+      "选择多，判断少",
+      108
+    ],
+    [
+      224,
+      "透支的负担",
+      116
+    ],
+    [
+      266,
+      "跟风的代价",
+      116
+    ],
+    [
+      310,
+      "受损的是本金",
+      112
+    ],
+    [
+      349,
+      "生活，越来越紧",
+      108
+    ],
+    [
+      388,
+      "三个财经底线",
+      112
+    ],
+    [
+      461,
+      "消费，先做取舍",
+      108
+    ],
+    [
+      516,
+      "冲动之前，停一下",
+      102
+    ],
+    [
+      563,
+      "想要，还是需要？",
+      102
+    ],
+    [
+      616,
+      "本金，优先守住",
+      108
+    ],
+    [
+      686,
+      "别只看这一面",
+      116
+    ],
+    [
+      783,
+      "投机，要有距离",
+      108
+    ],
+    [
+      856,
+      "减少负债",
+      126
+    ],
+    [
+      898,
+      "把判断，\n留给自己",
+      112
+    ]
+  ],
+  "headlines": [
+    [
+      "越努力上班",
+      "为何存不到钱？"
+    ],
+    [
+      "跟着别人走",
+      "代价自己承担"
+    ],
+    [
+      "三条底线",
+      "彼此并列"
+    ],
+    [
+      "先停一下",
+      "分清想要和需要"
+    ],
+    [
+      "守住本金",
+      "永远放在前面"
+    ],
+    [
+      "别只看这一面",
+      "先把风险看清"
+    ],
+    [
+      "减轻负担",
+      "把负债往回收"
+    ],
+    [
+      "不跟风，不浮躁",
+      "回到自己的判断"
+    ]
+  ],
+  "decks": [
+    "从跟风，回到自己的判断",
+    "消费、资产、负担：各有代价",
+    "少冲动 · 守本金 · 减负债",
+    "已有一件，未必还要再加一件",
+    "数量仅作原则示意，不代表金额",
+    "上层说法退开，下面的问题才显出来",
+    "减少不必要的负担",
+    "少冲动 · 守本金 · 减负债"
+  ]
+}

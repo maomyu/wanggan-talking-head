@@ -16,7 +16,7 @@ export const standards=data('standards');
 // Families are the canonical visual-language records. Referencing Fxx directly
 // avoids inventing another set of near-duplicate art-style standards.
 const availableStandards=[...standards,...data('families').map(f=>({id:f.id,axis:'art-style',name:f.name,definition:f.definition,identityRules:f.identityRules,familyIds:[f.id],provides:[],requiresAny:[],availability:'family-reference'}))];
-const keys=['editorial-print','minimal','blueprint','clay'];
+const keys=read(path.join(root,'recipes/index.json')).recipes.filter(r=>r.status==='user-approved').map(r=>r.id);
 export function catalog(kind,id){
  const rows=kind==='recipes'?read(path.join(root,'recipes/index.json')).recipes:kind==='standards'?standards:data(kind);
  if(!id)return rows;
@@ -92,7 +92,7 @@ export function reproduce(o){
  if(!o.source||hash(path.resolve(o.source))!==recipe.implementation.sourceSha256)throw Error('复现仅接受明确选择的原案例840方形代理源片且哈希一致；换素材请用init --recipe重新设计');
  const {dest}=emptyProject(o),from=path.join(root,recipe.implementation.path);
  fs.cpSync(from,dest,{recursive:true});
- fs.copyFileSync(path.join(root,'assets/recipe-images/life-objects.png'),path.join(dest,'assets/life-objects.png'));
+ if(recipe.implementation.photoAsset!==false)fs.copyFileSync(path.join(root,'assets/recipe-images/life-objects.png'),path.join(dest,'assets/life-objects.png'));
  fs.cpSync(path.join(root,'assets/fonts'),path.join(dest,'assets/fonts'),{recursive:true});
  if(recipe.id==='clay')fs.cpSync(path.join(root,'runtime/recipe-vendor'),path.join(dest,'assets/vendor'),{recursive:true});
  fs.copyFileSync(path.join(root,'runtime/recipe-build.mjs'),path.join(dest,'scripts/build-project.mjs'));

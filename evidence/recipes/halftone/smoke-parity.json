@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "framesCompared": 120,
+  "sourceRangeFrames": [
+    681,
+    801
+  ],
+  "mismatches": [],
+  "scope": "Actual full project vs encoded-short source: frame state, masks, visible labels, units and debt visibility for all120frames; encoded MP4 separately decoded/voice-checked."
+}

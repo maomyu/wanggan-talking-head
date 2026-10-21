@@ -1,0 +1,27 @@
+{
+  "language": "整版与双格对照切换，关键时刻短促推近后停稳",
+  "shotFraming": [
+    84,
+    550,
+    912,
+    675
+  ],
+  "viewTransforms": {
+    "problem": 1,
+    "spend": 1,
+    "risk": 1.06,
+    "recap": 1
+  },
+  "focusTargets": [
+    "existing-object",
+    "extra-object",
+    "principal",
+    "risk",
+    "burden"
+  ],
+  "reason": "水墨局部取笔势，单线沿路阅读，网点用双格对照，不做无理由持续推镜。",
+  "selectedStandards": [
+    "parallel-views",
+    "wide-detail-return"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "language": "分格边线接续，下层印版在上层移开后接管画面",
+  "entryExitBridges": [
+    388,
+    461,
+    616,
+    686,
+    856,
+    898
+  ],
+  "coverFrames": {
+    "risk": [
+      750,
+      753
+    ]
+  },
+  "continuityAnchors": [
+    "headphone→comparison",
+    "principal→risk→recap",
+    "burden→reduction→recap"
+  ],
+  "mode": "halftone",
+  "reason": "保留对象与已发生结果，转场来自画面内容；源视频和人声全片连续，没有伪称源跳切。",
+  "selectedStandards": [
+    "type-handoff",
+    "scene-replace"
+  ],
+  "durationFrames": 10,
+  "continuityReason": "共享对象的位置、等比缩放和笔路在相邻解释之间接续；新阅读任务成立后才进入稳定读窗。"
+}

@@ -1,0 +1,19 @@
+{
+  "surfaceAssignments": {
+    "objects": "等线宽连续路径、手绘轮廓、可撤回的线条",
+    "background": "fiber-paper",
+    "person": "source-original-unfiltered",
+    "text": "crisp-overlay"
+  },
+  "textureScale": 7,
+  "edgeTreatment": {
+    "strokeWidth": 6,
+    "roughness": 0,
+    "registrationOffset": 0
+  },
+  "reason": "材质仅作用于示意对象与纸底，不覆盖原色人像与字形。",
+  "selectedStandards": [
+    "paper-grain",
+    "matte"
+  ]
+}

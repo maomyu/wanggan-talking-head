@@ -1,0 +1,9 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "lengthFrames": 1100,
+  "scope": "current-source-full-film-test",
+  "audio": "single-original-voice-no-new-music",
+  "reason": "同一段真实口播比较三套完整语言，保持语义和时长。"
+}

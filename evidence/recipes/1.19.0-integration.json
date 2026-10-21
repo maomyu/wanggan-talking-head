@@ -1,0 +1,56 @@
+{
+  "version": "1.19.0",
+  "approvedRecipes": 7,
+  "newRecipes": [
+    "ink",
+    "line",
+    "halftone"
+  ],
+  "formalReproduceBuild": {
+    "ink": {
+      "ok": true,
+      "actualFormalReproduceAndBuild": true,
+      "matchesApprovedVisualInputs": {
+        "index.html": true,
+        "assets/film-config.js": true,
+        "assets/film.css": true,
+        "assets/paper-grain.svg": true,
+        "scripts/motion.mjs": true
+      },
+      "scope": "正式入口实际复现构建，与认可完整片视觉输入逐字节一致；未重复渲染旧片"
+    },
+    "line": {
+      "ok": true,
+      "actualFormalReproduceAndBuild": true,
+      "matchesApprovedVisualInputs": {
+        "index.html": true,
+        "assets/film-config.js": true,
+        "assets/film.css": true,
+        "assets/paper-grain.svg": true,
+        "scripts/motion.mjs": true
+      },
+      "scope": "正式入口实际复现构建，与认可完整片视觉输入逐字节一致；未重复渲染旧片"
+    },
+    "halftone": {
+      "ok": true,
+      "actualFormalReproduceAndBuild": true,
+      "matchesApprovedVisualInputs": {
+        "index.html": true,
+        "assets/film-config.js": true,
+        "assets/film.css": true,
+        "assets/paper-grain.svg": true,
+        "scripts/motion.mjs": true
+      },
+      "scope": "正式入口实际复现构建，与认可完整片视觉输入逐字节一致；未重复渲染旧片"
+    }
+  },
+  "oldFourRecipeBytesUnchanged": {
+    "editorial-print": true,
+    "minimal": true,
+    "blueprint": true,
+    "clay": true
+  },
+  "privateRepository": "maomyu/wanggan-talking-head",
+  "privateVerified": true,
+  "scope": "three newly approved recipes promoted; new orchestration and rhythm experiments remain test-only"
+}

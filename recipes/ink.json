@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "ink",
+  "name": "水墨写意 · 同源完整配方",
+  "mode": "design-recipe",
+  "status": "user-approved",
+  "hierarchy": {
+    "familyId": "F10",
+    "branchId": null,
+    "baseLegacyId": "A13"
+  },
+  "selections": {
+    "information": [
+      "problem-mechanism-response",
+      "parallel-options",
+      "option-comparison",
+      "contrast-turn",
+      "recap-return"
+    ],
+    "rhythm": [
+      "speech-led",
+      "reveal-hold-release",
+      "progressive-build",
+      "setup-payoff",
+      "ending-resolve"
+    ],
+    "art-style": [
+      "ink-wash"
+    ],
+    "palette": [
+      "monochrome-ink"
+    ],
+    "material": [
+      "paper-grain",
+      "matte"
+    ],
+    "representation": [
+      "line-construction",
+      "flat-symbol"
+    ],
+    "object-motion": [
+      "trace-build",
+      "sort-compare",
+      "accumulate-reduce",
+      "reveal-consequence"
+    ],
+    "camera": [
+      "planar-push-pull",
+      "wide-detail-return"
+    ],
+    "transition": [
+      "foreground-occlusion",
+      "object-match"
+    ],
+    "typography": [
+      "raised-captions",
+      "serif-display",
+      "diagram-callouts"
+    ],
+    "lighting": [
+      "paper-grain-finish",
+      "even-soft"
+    ]
+  },
+  "overrides": {
+    "notes": "用户已认可本案例的完整十一类配方。人物原色、角落真圆、上移字幕；换素材重新设计，不泛化为任意组合已验收。"
+  },
+  "approvalDate": "2026-10-21",
+  "caseId": "same-source-ink-03",
+  "sourceRequiredForProduction": true,
+  "implementation": {
+    "kind": "source-specific-reference",
+    "path": "examples/recipes/ink",
+    "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+    "photoAsset": false,
+    "newSource": "重新执行语义编排；本案例固定文案、物件与时间只用于明确复现"
+  }
+}

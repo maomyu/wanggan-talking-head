@@ -12,6 +12,7 @@ const project=read('project.json'),key=project.recipeId;
 if(!project.referenceFixture)throw Error('历史配方编译器只用于显式案例复现；新素材需要本片build-project实现');
 const map={style:'style-contract',palette:'palette-tokens',material:'material-tokens',representation:'object-spec',motion:'motion-events',camera:'camera-plan',transition:'transition-plan',typography:'layout-plan',lighting:'finish-plan',information:'semantic-plan',rhythm:'timing'};
 if(key==='editorial-print')execFileSync(process.execPath,[path.join(R,'scripts/build.mjs')],{cwd:R,stdio:'inherit'});
+else if(fs.existsSync(path.join(R,'scripts/build-source-case.mjs')))execFileSync(process.execPath,[path.join(R,'scripts/build-source-case.mjs'),'--project',R],{cwd:R,stdio:'inherit'});
 else{
  const C={key,source:read('timing.json')};for(const[k,n]of Object.entries(map))C[k]=read('plans/'+n+'.json');
  const anchorMap={cut:'cut',pause:'pause',compare:'distinguish',avoid:'avoid',reduce:'debt'};
@@ -31,5 +32,10 @@ const plugin=process.env.WG_PLUGIN_ROOT;if(!plugin)throw Error('请经正式stud
 const fonts=JSON.parse(fs.readFileSync(path.join(plugin,'assets/fonts/catalog.json')));
 const allText=JSON.stringify(t)+JSON.stringify(read('plans/semantic-plan.json'))+fs.readFileSync(path.join(R,'index.html'),'utf8').replace(/<[^>]*>/g,'');
 const roles=Object.values(read('plans/layout-plan.json').fontRoles);
-write('font-usage.json',{scope:'approved case timing, semantic text and markup; visual readability checked separately',fonts:Object.fromEntries(fonts.map(f=>[f.file,roles.includes(f.file)?allText:'']))});
+const layout=read('plans/layout-plan.json'),sourceCase=fs.existsSync(path.join(R,'scripts/build-source-case.mjs'));
+// Source-case display faces do not render the caption, footer or JSON metadata.
+// Include actual graphic labels and headline glyphs without testing body-only
+// punctuation against a calligraphic display face.
+const displayText=sourceCase?((fs.readFileSync(path.join(R,'scripts/motion.mjs'),'utf8').match(/[\u4e00-\u9fff，？。、·]/g)||[]).join('')+(read('plans/semantic-plan.json').headlines||[]).flat(Infinity).join('')):allText;
+write('font-usage.json',{scope:'actual source-case display glyphs; body uses approved timing/semantic text and markup; visual readability checked separately',fonts:Object.fromEntries(fonts.map(f=>[f.file,roles.includes(f.file)?sourceCase&&f.file===layout.fontRoles.title&&f.file!==layout.fontRoles.body?displayText:allText:'']))});
 write('qa/module-bindings.json',{axes:Object.keys(map),artifacts:map,recipe:key,scope:'eleven plans compiled into actual frame function; original case only'});

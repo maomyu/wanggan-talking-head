@@ -1,0 +1,28 @@
+{
+  "colorRoles": {
+    "bg": "#fbfaf4",
+    "ink": "#253b48",
+    "accent": "#b44a2f",
+    "secondary": "#e4e8e5",
+    "muted": "#5d6a70"
+  },
+  "contrastPairs": [
+    [
+      "ink",
+      "bg"
+    ],
+    [
+      "accent",
+      "bg"
+    ],
+    [
+      "muted",
+      "bg"
+    ]
+  ],
+  "emphasisBudget": 1,
+  "reason": "墨阶靠疏密；手绘靠一点赭红；网点靠冷暖印色分工。",
+  "selectedStandards": [
+    "neutral-one-accent"
+  ]
+}

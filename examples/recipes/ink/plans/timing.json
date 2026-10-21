@@ -1,0 +1,146 @@
+{
+  "speechAnchors": {
+    "cut": 461,
+    "pause": 516,
+    "distinguish": 563,
+    "capital": 616,
+    "pitch": 686,
+    "riskReveal": 753,
+    "avoid": 783,
+    "debt": 856,
+    "recognition": 959,
+    "noHerd": 1003,
+    "resolve": 1036,
+    "summary": 898
+  },
+  "readWindows": [
+    [
+      121,
+      149
+    ],
+    [
+      329,
+      349
+    ],
+    [
+      419,
+      454
+    ],
+    [
+      583,
+      611
+    ],
+    [
+      653,
+      683
+    ],
+    [
+      758,
+      780
+    ],
+    [
+      882,
+      898
+    ],
+    [
+      971,
+      1099
+    ]
+  ],
+  "densityCurve": [
+    [
+      0,
+      0.2
+    ],
+    [
+      149,
+      0.8
+    ],
+    [
+      388,
+      0.35
+    ],
+    [
+      461,
+      0.8
+    ],
+    [
+      616,
+      0.3
+    ],
+    [
+      686,
+      0.8
+    ],
+    [
+      856,
+      0.5
+    ],
+    [
+      959,
+      0.2
+    ]
+  ],
+  "eventSchedule": {
+    "cut": 461,
+    "pause": 516,
+    "distinguish": 563,
+    "capital": 616,
+    "pitch": 686,
+    "riskReveal": 753,
+    "avoid": 783,
+    "debt": 856,
+    "recognition": 959,
+    "noHerd": 1003,
+    "resolve": 1036,
+    "summary": 898,
+    "firstDiagram": 149,
+    "problemEnd": 388,
+    "overview": 388,
+    "spend": 461,
+    "risk": 686,
+    "recap": 898
+  },
+  "sceneWindows": [
+    [
+      0,
+      149
+    ],
+    [
+      149,
+      388
+    ],
+    [
+      388,
+      461
+    ],
+    [
+      461,
+      616
+    ],
+    [
+      616,
+      686
+    ],
+    [
+      686,
+      856
+    ],
+    [
+      856,
+      898
+    ],
+    [
+      898,
+      1100
+    ]
+  ],
+  "reason": "同一真实句窗中先让主动作完成，再留下完整结果；不为水墨放慢原声或为网点加速。",
+  "selectedStandards": [
+    "speech-led",
+    "reveal-hold-release",
+    "progressive-build",
+    "setup-payoff",
+    "ending-resolve"
+  ]
+}

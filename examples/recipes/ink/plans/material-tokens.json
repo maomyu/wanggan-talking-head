@@ -1,0 +1,19 @@
+{
+  "surfaceAssignments": {
+    "objects": "干湿笔、墨块、留白和可辨轮廓",
+    "background": "fiber-paper",
+    "person": "source-original-unfiltered",
+    "text": "crisp-overlay"
+  },
+  "textureScale": 17,
+  "edgeTreatment": {
+    "strokeWidth": 11,
+    "roughness": 9,
+    "registrationOffset": 0
+  },
+  "reason": "材质仅作用于示意对象与纸底，不覆盖原色人像与字形。",
+  "selectedStandards": [
+    "paper-grain",
+    "matte"
+  ]
+}

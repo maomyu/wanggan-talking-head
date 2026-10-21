@@ -1,0 +1,18 @@
+{
+  "frames": 1100,
+  "glyphs": 47929,
+  "points": 143787,
+  "issues": [],
+  "issueCount": 0,
+  "windows": [],
+  "intentional": [],
+  "scope": "All1100 authored frames; three probe points per nonspace glyph in reading and exiting text (effective opacity>=0.2). Actual DOM paint order, circular clipping and source PNG alpha respected. Hidden reverse paper and intentional semantic strike-through explicitly excluded; complements actual encoded dense-frame review, not universal pixel OCR.",
+  "visualInputs": {
+    "index.html": "2d93882a6c8d78a24dcc8f0bd8cf135aa9d1d579a7918100cc1a61efd1324b54",
+    "assets/film.css": "d2294d632eda8dfdfc376df5f6bae2b84cfb8fa8daece488d034d3be2cfc5028",
+    "scripts/motion.mjs": "7faf58fe0d6c432d79fd8f6a445984ce2bd96d3ab32bc300a1948c2195c535b9",
+    "assets/film-config.js": "6fcae4fdb5a9bc3b56cb33eb9d76507af07b19f97cb5dcf0bdb753f19d8969c0"
+  },
+  "sourceBindingScope": "Current visual inputs recorded after this isolated audit; no edits were made during the run",
+  "ok": true
+}

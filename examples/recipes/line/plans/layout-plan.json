@@ -1,0 +1,43 @@
+{
+  "fontRoles": {
+    "title": "LXGWWenKai-500.woff",
+    "body": "NotoSansSC-700.woff",
+    "caption": "NotoSansSC-700.woff"
+  },
+  "readingZones": {
+    "title": [
+      92,
+      190,
+      900,
+      260
+    ],
+    "diagram": [
+      65,
+      550,
+      950,
+      680
+    ]
+  },
+  "captionZones": {
+    "box": [
+      64,
+      1600,
+      952,
+      150
+    ],
+    "fontSize": 60,
+    "maxLines": 2
+  },
+  "protectedPaths": {
+    "personCircle": "screen-space, never inherits world transform",
+    "labels": "independent screen text above y1225 during diagram sections"
+  },
+  "personCorner": "left",
+  "titleSize": 87,
+  "reason": "墨用非对称衬线，单线用温和手写与笔路标注，网点用粗黑巨字和双格。",
+  "selectedStandards": [
+    "raised-captions",
+    "diagram-callouts",
+    "comparison-alignment"
+  ]
+}

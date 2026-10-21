@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "path": "assets/master.mp4",
+    "sha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+    "ownership": "user-owned"
+  },
+  "frames": 1100,
+  "fps": 30,
+  "objects": [
+    {
+      "id": "burden"
+    },
+    {
+      "id": "extra"
+    },
+    {
+      "id": "food"
+    },
+    {
+      "id": "headphone"
+    },
+    {
+      "id": "principal"
+    },
+    {
+      "id": "risk"
+    },
+    {
+      "id": "speaker"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-1",
+      "startFrame": 0,
+      "endFrame": 149,
+      "sentenceIds": [
+        1,
+        2,
+        3
+      ],
+      "relation": "problem-mechanism-response",
+      "purpose": "提出存不下钱的问题",
+      "action": "连贯弧线圈住题目，人像等比让出手绘画布",
+      "result": "人像原色圆窗就位，消费与资金区建立",
+      "readWindow": [
+        121,
+        149
+      ],
+      "objects": [
+        "speaker",
+        "principal"
+      ],
+      "handoff": "同一条线延伸或回收，不用擦屏替换一切；保持同一对象ID与原声连续"
+    },
+    {
+      "id": "scene-2",
+      "startFrame": 149,
+      "endFrame": 388,
+      "sentenceIds": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "relation": "problem-mechanism-response",
+      "purpose": "并列展示跟风选择及风险后果",
+      "action": "一笔勾出消费对象、账户和负担；账户里原有单元减少",
+      "result": "消费、资金与负担分区可辨",
+      "readWindow": [
+        329,
+        349
+      ],
+      "objects": [
+        "headphone",
+        "principal",
+        "burden"
+      ],
+      "handoff": "同一条线延伸或回收，不用擦屏替换一切；保持同一对象ID与原声连续"
+    },
+    {
+      "id": "scene-3",
+      "startFrame": 388,
+      "endFrame": 461,
+      "sentenceIds": [
+        10
+      ],
+      "relation": "parallel-options",
+      "purpose": "三项建议保持同层",
+      "action": "一根横线挂起三个并列节点",
+      "result": "消费、本金与负债是三项并列建议",
+      "readWindow": [
+        419,
+        441
+      ],
+      "objects": [
+        "headphone",
+        "principal",
+        "burden"
+      ],
+      "handoff": "同一条线延伸或回收，不用擦屏替换一切；保持同一对象ID与原声连续"
+    },
+    {
+      "id": "scene-4",
+      "startFrame": 461,
+      "endFrame": 616,
+      "sentenceIds": [
+        11,
+        12,
+        13
+      ],
+      "relation": "option-comparison",
+      "purpose": "区分想要与需要",
+      "action": "先描已有耳机，再描第二实例；只划掉第二实例，日用对象保留",
+      "result": "已有耳机与日用采购承担不同任务",
+      "readWindow": [
+        583,
+        611
+      ],
+      "objects": [
+        "headphone",
+        "food",
+        "extra"
+      ],
+      "handoff": "同一条线延伸或回收，不用擦屏替换一切；保持同一对象ID与原声连续"
+    },
+    {
+      "id": "scene-5",
+      "startFrame": 616,
+      "endFrame": 686,
+      "sentenceIds": [
+        14
+      ],
+      "relation": "parallel-options",
+      "purpose": "本金优先",
+      "action": "账户闭合边界保护完整本金单元",
+      "result": "示意单位保持不增值",
+      "readWindow": [
+        653,
+        683
+      ],
+      "objects": [
+        "principal"
+      ],
+      "handoff": "同一条线延伸或回收，不用擦屏替换一切；保持同一对象ID与原声连续"
+    },
+    {
+      "id": "scene-6",
+      "startFrame": 686,
+      "endFrame": 856,
+      "sentenceIds": [
+        15,
+        16
+      ],
+      "relation": "contrast-turn",
+      "purpose": "看清夸大收益说法背后的风险",
+      "action": "表层圆润线被撤回，风险尖角从内部显出；再补一条隔离边界",
+      "result": "风险被揭示，本金单位保持",
+      "readWindow": [
+        755,
+        776
+      ],
+      "objects": [
+        "principal",
+        "risk"
+      ],
+      "handoff": "同一条线延伸或回收，不用擦屏替换一切；保持同一对象ID与原声连续"
+    },
+    {
+      "id": "scene-7",
+      "startFrame": 856,
+      "endFrame": 898,
+      "sentenceIds": [
+        17
+      ],
+      "relation": "parallel-options",
+      "purpose": "减少负债",
+      "action": "六层负担线回抽四层，保留两层",
+      "result": "保留较轻的两层",
+      "readWindow": [
+        882,
+        898
+      ],
+      "objects": [
+        "burden"
+      ],
+      "handoff": "同一条线延伸或回收，不用擦屏替换一切；保持同一对象ID与原声连续"
+    },
+    {
+      "id": "scene-8",
+      "startFrame": 898,
+      "endFrame": 1100,
+      "sentenceIds": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "relation": "recap-return",
+      "purpose": "回到认知与判断",
+      "action": "总线回收已讲过的三个节点，停在讲述者身旁",
+      "result": "不跟风、不浮躁的结论停稳",
+      "readWindow": [
+        975,
+        1099
+      ],
+      "objects": [
+        "speaker",
+        "headphone",
+        "principal",
+        "burden"
+      ],
+      "handoff": "同一条线延伸或回收，不用擦屏替换一切；保持同一对象ID与原声连续"
+    }
+  ]
+}
