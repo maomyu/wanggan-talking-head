@@ -1,0 +1,235 @@
+{
+  "fps": 30,
+  "frames": 1100,
+  "speechAnchors": {
+    "cut": 461,
+    "pause": 516,
+    "distinguish": 563,
+    "capital": 616,
+    "pitch": 686,
+    "riskReveal": 753,
+    "avoid": 783,
+    "debt": 856,
+    "recognition": 959,
+    "noHerd": 1003,
+    "resolve": 1036,
+    "summary": 898
+  },
+  "readWindows": [
+    {
+      "scene": "scene-1",
+      "frames": [
+        121,
+        149
+      ]
+    },
+    {
+      "scene": "scene-2",
+      "frames": [
+        329,
+        349
+      ]
+    },
+    {
+      "scene": "scene-3",
+      "frames": [
+        419,
+        441
+      ]
+    },
+    {
+      "scene": "scene-4",
+      "frames": [
+        583,
+        611
+      ]
+    },
+    {
+      "scene": "scene-5",
+      "frames": [
+        653,
+        683
+      ]
+    },
+    {
+      "scene": "scene-6",
+      "frames": [
+        755,
+        776
+      ]
+    },
+    {
+      "scene": "scene-7",
+      "frames": [
+        882,
+        898
+      ]
+    },
+    {
+      "scene": "scene-8",
+      "frames": [
+        975,
+        1099
+      ]
+    }
+  ],
+  "densityCurve": [
+    [
+      0,
+      4
+    ],
+    [
+      149,
+      7
+    ],
+    [
+      388,
+      4
+    ],
+    [
+      461,
+      6
+    ],
+    [
+      616,
+      3
+    ],
+    [
+      739,
+      7
+    ],
+    [
+      856,
+      6
+    ],
+    [
+      975,
+      2
+    ]
+  ],
+  "eventSchedule": {
+    "presenter-shell:0": 0,
+    "presenter-shell:1": 58,
+    "presenter-shell:2": 92,
+    "presenter-shell:3": 898,
+    "presenter-shell:4": 937,
+    "goods-headphone:0": 0,
+    "goods-headphone:1": 147,
+    "goods-headphone:2": 167,
+    "goods-headphone:3": 365,
+    "goods-headphone:4": 410,
+    "goods-headphone:5": 441,
+    "goods-headphone:6": 475,
+    "goods-headphone:7": 562,
+    "goods-headphone:8": 582,
+    "goods-headphone:9": 611,
+    "goods-headphone:10": 620,
+    "goods-headphone:11": 938,
+    "goods-headphone:12": 952,
+    "goods-food:0": 0,
+    "goods-food:1": 552,
+    "goods-food:2": 580,
+    "goods-food:3": 611,
+    "goods-food:4": 620,
+    "extra-headphone:0": 0,
+    "extra-headphone:1": 566,
+    "extra-headphone:2": 582,
+    "extra-headphone:3": 611,
+    "extra-headphone:4": 620,
+    "account:0": 0,
+    "account:1": 95,
+    "account:2": 121,
+    "account:3": 365,
+    "account:4": 410,
+    "account:5": 441,
+    "account:6": 455,
+    "account:7": 634,
+    "account:8": 647,
+    "account:9": 856,
+    "account:10": 869,
+    "account:11": 938,
+    "account:12": 952,
+    "debt:0": 0,
+    "debt:1": 223,
+    "debt:2": 242,
+    "debt:3": 365,
+    "debt:4": 410,
+    "debt:5": 441,
+    "debt:6": 455,
+    "debt:7": 850,
+    "debt:8": 864,
+    "debt:9": 898,
+    "debt:10": 945,
+    "market:0": 0,
+    "market:1": 266,
+    "market:2": 277,
+    "market:3": 375,
+    "market:4": 384,
+    "impulse:0": 0,
+    "impulse:1": 457,
+    "impulse:2": 465,
+    "impulse:3": 490,
+    "impulse:4": 507,
+    "pause-stamp:0": 0,
+    "pause-stamp:1": 517,
+    "pause-stamp:2": 525,
+    "pause-stamp:3": 549,
+    "pause-stamp:4": 558,
+    "risk-page:0": 0,
+    "risk-page:1": 698,
+    "risk-page:2": 710,
+    "risk-page:3": 776,
+    "risk-page:4": 789,
+    "spec-left:0": 0,
+    "spec-left:1": 783,
+    "spec-left:2": 800,
+    "spec-left:3": 813,
+    "spec-left:4": 833,
+    "spec-right:0": 0,
+    "spec-right:1": 790,
+    "spec-right:2": 806,
+    "spec-right:3": 819,
+    "spec-right:4": 840,
+    "overview-pages:0": 0,
+    "overview-pages:1": 395,
+    "overview-pages:2": 411,
+    "overview-pages:3": 441,
+    "overview-pages:4": 457,
+    "class-labels:0": 0,
+    "class-labels:1": 563,
+    "class-labels:2": 574,
+    "class-labels:3": 611,
+    "class-labels:4": 616,
+    "already-label:0": 0,
+    "already-label:1": 575,
+    "already-label:2": 583,
+    "already-label:3": 611,
+    "already-label:4": 616,
+    "extra-label:0": 0,
+    "extra-label:1": 575,
+    "extra-label:2": 583,
+    "extra-label:3": 611,
+    "extra-label:4": 616,
+    "need-label:0": 0,
+    "need-label:1": 575,
+    "need-label:2": 583,
+    "need-label:3": 611,
+    "need-label:4": 616,
+    "extra-cross:0": 0,
+    "extra-cross:1": 588,
+    "extra-cross:2": 592,
+    "extra-cross:3": 611,
+    "extra-cross:4": 616,
+    "recap-labels:0": 0,
+    "recap-labels:1": 944,
+    "recap-labels:2": 953,
+    "ending-note:0": 0,
+    "ending-note:1": 959,
+    "ending-note:2": 975,
+    "ending-note:3": 1100,
+    "account:hold-before-pitch": 683,
+    "account:give-space": 696
+  },
+  "captionSource": "timing.json",
+  "voicePolicy": "original single continuous voice; no added sound"
+}

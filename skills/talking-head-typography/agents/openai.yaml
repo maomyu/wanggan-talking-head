@@ -1,0 +1,4 @@
+interface:
+  display_name: "口播字体版式"
+  short_description: "按真实文案设计字体版式，共享对象、原声与阅读约束"
+  default_prompt: "使用 $talking-head-typography，承接当前配方和真实口播，在本模块职责内完成设计与实际验证；人物原色、角落圆窗、字幕上移。"

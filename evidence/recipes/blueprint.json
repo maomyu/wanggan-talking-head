@@ -1,0 +1,12 @@
+{
+  "id": "same-source-blueprint-02",
+  "videoSha256": "c319e4a36af88bac30e0cddcab322274c74a6ee97bb7d450a3af6df1c2dac2df",
+  "sourceUploadSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "frames": 1100,
+  "fps": 30,
+  "axesWithActualLiveBindings": 11,
+  "recipeId": "blueprint",
+  "status": "user-approved",
+  "approvalDate": "2026-10-21",
+  "scope": "原完整成片及其本次认可；不是任意组合自动渲染证明"
+}

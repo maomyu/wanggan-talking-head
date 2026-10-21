@@ -5,6 +5,7 @@ import crypto from 'node:crypto';
 import {spawn,execFileSync} from 'node:child_process';
 import {fileURLToPath} from 'node:url';
 import * as loaderHooks from 'node:module';
+import {catalog,loadRecipe,resolve,change,compile,collaborationRoute,initCollaboration,reproduce,validateProject,reviseCollaboration,checkCollaborationLibrary} from '../runtime/collaboration.mjs';
 import {systems,system,compositionRecipe,installCompositionExample,checkCompositionLibrary} from '../runtime/choreography.mjs';
 export const plugin=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const runtime=path.join(plugin,'runtime'),hf=path.join(runtime,'node_modules/hyperframes/bin/hyperframes.mjs');
@@ -40,6 +41,7 @@ function doctor(){
  probe('fonts',()=>{const files=read(path.join(plugin,'assets/fonts/catalog.json'));for(const f of files)if(sha(path.join(plugin,'assets/fonts',f.file))!==f.sha256)throw Error('字体哈希不同: '+f.file);return files.length});
  probe('four-full-skills',()=>{const files=read(path.join(plugin,'module-manifest.json')).modules;for(const m of files)if(sha(path.join(plugin,m.frozenCopy,'SKILL.md'))!==m.sha256)throw Error('完整模块正文有改动: '+m.name);return files.length});
  probe('choreography-library',checkCompositionLibrary);
+ probe('eleven-axis-collaboration',checkCollaborationLibrary);
  probe('implemented-style-library',()=>{const c=styleList();if(c.styles.length!==(c.implementedCount??c.approvedCount)||!c.styles.length)throw Error('画风数量与登记不一致');for(const s of c.styles)for(const f of [s.preview,s.implementation,s.evidence])if(!fs.existsSync(path.join(plugin,'style-library',f)))throw Error('画风资源缺失:'+f);return {implemented:c.styles.length,userApproved:c.styles.filter(s=>s.status==='approved-video').length,productionVerified:c.styles.filter(s=>s.status==='verified-video').length}});
  probe('style-recipes',()=>{const c=styleList(),all=[...c.styles,...c.extensions];if(all.length!==c.totalCount||c.extensions.length!==c.plannedCount||new Set(all.map(s=>s.id)).size!==all.length||new Set(all.map(s=>s.key)).size!==all.length)throw Error('创意目录登记不一致');for(const s of all)recipe({style:s.key});return {implemented:c.styles.length,userApproved:c.approvedCount,productionVerified:c.styles.filter(s=>s.status==='verified-video').length,planned:c.plannedCount,total:c.totalCount}});
  const versions=checks.find(c=>c.name==='python');if(versions?.ok){for(const [k,v] of Object.entries({numpy:'2.4.4',Pillow:'12.1.0',fonttools:'4.62.1'}))if(versions.value[k]!==v){versions.ok=false;versions.error=k+'版本需为'+v}}
@@ -51,6 +53,7 @@ function setup(){
  run(py(),['-m','pip','install','--disable-pip-version-check','-r',path.join(runtime,'requirements.txt')],{stdio:'inherit'});return doctor();
 }
 function init(o){
+ if(o.recipe||o.source&&!o.style&&!o.example&&!o.composition&&!o.system)return initCollaboration(o);
  if(!o.project)throw Error('需要 --project 新项目路径');const r=path.resolve(o.project);if(fs.existsSync(r))throw Error('目标已存在，init不覆盖；修改现有项目请用revise');
  if(o.example && o.example!=='approved')throw Error('正式包使用 --example approved --style 画风；新素材使用--source，由完整模块设计');
  if(!o.example && !o.source)throw Error('新项目需 --source 视频，或显式选择 --example approved');
@@ -79,7 +82,7 @@ function init(o){
 }
 function inputFiles(r){const derivedFile=path.join(r,'qa/generated-assets.json'),derived=new Set(fs.existsSync(derivedFile)?read(derivedFile).files:[]);const list=[];for(const folder of ['plans','assets','scripts']){const walk=d=>{if(!fs.existsSync(d))return;for(const n of fs.readdirSync(d)){const f=path.join(d,n);if(fs.lstatSync(f).isSymbolicLink())throw Error('项目输入不能依赖软链接: '+f);if(fs.statSync(f).isDirectory())walk(f);else if(!['edited-voice.wav'].includes(n)&&(!derived.has(path.relative(r,f))||['master.mp4','canonical-native.srt'].includes(n))&&!f.includes(path.sep+'fonts'+path.sep))list.push(f)}};walk(path.join(r,folder))}return Object.fromEntries(list.sort().map(f=>[path.relative(r,f),sha(f)]))}
 function revise(o){
- const old=rootOf({...o,project:o.from||o.project});if(!(o.module in modes))throw Error('单模块修改需 --module art-direction|layout|motion|editing');if(!o.out)throw Error('需要 --out 新版本目录');const dest=path.resolve(o.out);if(fs.existsSync(dest)||dest.startsWith(old+path.sep))throw Error('版本目录必须不存在且位于原项目外');
+ const old=rootOf({...o,project:o.from||o.project});const collab=reviseCollaboration(o,old);if(collab)return collab;if(!(o.module in modes))throw Error('单模块修改需 --module art-direction|layout|motion|editing');if(!o.out)throw Error('需要 --out 新版本目录');const dest=path.resolve(o.out);if(fs.existsSync(dest)||dest.startsWith(old+path.sep))throw Error('版本目录必须不存在且位于原项目外');
  const allowed=new Set([planNames[o.module]]);if(o['allow-dependent']){if(!o.reason)throw Error('扩展相关模块需 --reason 说明实际依赖');for(const k of String(o['allow-dependent']).split(',')){if(!(k in modes))throw Error('未知关联模块');allowed.add(planNames[k])}}
  fs.mkdirSync(dest,{recursive:true});for(const name of ['plans','assets','scripts','project.json','hyperframes.json','source-info.json','composition-selection.json','style-recipe.json','route.json','index.motion.json']){const from=path.join(old,name);if(fs.existsSync(from))fs.cpSync(from,path.join(dest,name),{recursive:true})}for(const n of ['outputs','qa'])fs.mkdirSync(path.join(dest,n));
  const project=read(path.join(dest,'project.json'));project.id=crypto.randomUUID();project.name=path.basename(dest);project.request=o.request||'';project.scope='module';project.modules=[o.module];project.status='revision-pending';write(path.join(dest,'project.json'),project);
@@ -91,12 +94,13 @@ function revise(o){
 }
 function scopeCheck(r,derived=false){
  const file=path.join(r,'revision.json');if(!fs.existsSync(file))return {revision:false};const rev=read(file);
+ if(rev.protectedSelections){const recipe=read(path.join(r,'recipe.json'));for(const[k,v]of Object.entries(rev.protectedSelections))if(JSON.stringify(recipe.selections[k])!==JSON.stringify(v))throw Error('局部修改触及受保护配方选择: '+k);if(rev.protectedHierarchy&&JSON.stringify(recipe.hierarchy)!==JSON.stringify(rev.protectedHierarchy))throw Error('局部修改触及受保护母画风/分支');}
  for(const [rel,hash] of Object.entries(rev.protectedInputs)){const f=path.join(r,rel);if(!fs.existsSync(f)||sha(f)!==hash)throw Error('局部修改触及受保护输入: '+rel)}
  if(derived&&rev.timing){const t=read(path.join(r,'timing.json'));for(const k of ['frameCount','shots'])if(JSON.stringify(t[k])!==JSON.stringify(rev.timing[k]))throw Error('局部修改改变了时序: '+k);const caps=t.captions.map(c=>({startFrame:c.startFrame,endFrame:c.endFrame,text:c.text}));if(JSON.stringify(caps)!==JSON.stringify(rev.timing.captions))throw Error('局部修改改变了口播字幕与时序');if(sha(path.join(r,'assets/edited-voice.wav'))!==rev.voiceWavSha256)throw Error('局部修改改变了原声参考轨')}
  return {revision:true,module:rev.module,protectedInputsPassed:Object.keys(rev.protectedInputs).length,timingAndVoicePreserved:derived&&Boolean(rev.timing)};
 }
 function build(r){
- const project=read(path.join(r,'project.json'));if(sha(path.join(r,'assets/master.mp4'))!==project.sourceSha256)throw Error('源片与init登记哈希不一致；保留已选素材，换素材请另建工程并重新设计');scopeCheck(r);const missing=Object.values(planNames).filter(n=>!fs.existsSync(path.join(r,'plans',n)));if(!fs.existsSync(path.join(r,'plans/brief.json'))||missing.length)throw Error('设计尚未完成，缺少brief或四模块方案：'+missing.join(','));
+ const project=read(path.join(r,'project.json'));if(sha(path.join(r,'assets/master.mp4'))!==project.sourceSha256)throw Error('源片与init登记哈希不一致；保留已选素材，换素材请另建工程并重新设计');scopeCheck(r);const collaboration=validateProject(r);const missing=Object.values(planNames).filter(n=>!fs.existsSync(path.join(r,'plans',n)));if(!fs.existsSync(path.join(r,'plans/brief.json'))||!collaboration&&missing.length)throw Error('设计尚未完成，缺少brief或四模块方案：'+missing.join(','));
  if(project.renderer==='approved-reference')run(process.execPath,[path.join(runtime,'approved-renderer.mjs'),'--project',r],{stdio:'inherit'});
  else{const script=path.join(r,'scripts/build-project.mjs');if(!fs.existsSync(script))throw Error('请先按本片设计实现scripts/build-project.mjs；不会把任意新素材套成参考片');run(process.execPath,[script,'--project',r],{cwd:r,stdio:'inherit',env:{...process.env,WG_PLUGIN_ROOT:plugin}})}
  run(py(),[path.join(runtime,'scripts/media.py'),'prepare',r],{stdio:'inherit'});const scope=scopeCheck(r,true);write(path.join(r,'qa/scope-check.json'),scope);
@@ -111,14 +115,19 @@ async function preview(r,o){
 async function main(){
  const [command,...args]=process.argv.slice(2),o=parse(args);
  if(command==='styles'){if(o.id||o.style)return styleList(o.id||o.style);const c=styleList();if(o.all||o.status){if(o.status&&!['approved','implemented','production','candidate'].includes(o.status))throw Error('status需为approved、implemented、production或candidate');const rows=o.status==='approved'?c.styles.filter(s=>s.status==='approved-video'):o.status==='production'?c.styles.filter(s=>s.status==='verified-video'):o.status==='implemented'?c.styles:o.status==='candidate'?c.extensions:[...c.styles,...c.extensions];return {implementedCount:c.styles.length,approvedCount:c.styles.filter(s=>s.status==='approved-video').length,productionVerifiedCount:c.styles.filter(s=>s.status==='verified-video').length,plannedCount:c.plannedCount,totalCount:c.totalCount,styles:rows.sort((a,b)=>Number(a.id.slice(1))-Number(b.id.slice(1)))}}return c;}
- if(command==='recipe')return recipe(o);
+ if(['families','branches','components','standards','recipes'].includes(command))return catalog(command,o.id);
+ if(command==='resolve')return resolve(o.recipe||o.file||'minimal');
+ if(command==='plan-change')return change(String(o.axes||'').split(',').filter(Boolean));
+ if(command==='compile'){if(!o.plan)throw Error('需要 --plan 场景计划JSON');const f=path.resolve(o.plan);return compile(o.recipe||'minimal',read(f),path.dirname(f));}
+ if(command==='reproduce')return reproduce(o);
+ if(command==='recipe')return o.style?recipe(o):loadRecipe(o.recipe||o.id||'minimal');
  if(command==='choreographies'||command==='systems')return o.id?system(o.id):systems();
- if(command==='route')return {...route(o.request||'',o.mode),styleLibrary:path.join(plugin,'style-library/catalog.json'),commonRules:path.join(plugin,'docs/共同制作规范.md')};
+ if(command==='route')return {...route(o.request||'',o.mode),collaboration:collaborationRoute(o.request||'',o.axes||(o.mode&&o.mode!=='full'?{'art-direction':'art-style,palette,material,representation,lighting',layout:'typography',motion:'object-motion,camera,rhythm',editing:'transition,rhythm'}[o.mode]:null)),styleLibrary:path.join(plugin,'style-library/catalog.json'),commonRules:path.join(plugin,'docs/共同制作规范.md')};
  if(command==='doctor')return doctor();
  if(command==='setup')return setup();
  if(command==='init')return init(o);
  if(command==='revise')return revise(o);
- if(command==='help'||!command)return {commands:['doctor','setup','styles [--id 编号或名称 | --all | --status approved|implemented|production|candidate]','choreographies [--id C01]','recipe --style A58 [--composition auto|C06 --kind cause --layout L10 --motion M09 --editing E04 --sound S01]','route --request 中文需求 [--mode full|layout|motion|editing|art-direction]','init --project 新路径 --source 视频 [--transcript 字幕 --style A58 --composition C06 --request 需求]','init --project 新路径 --example approved --style magazine [--composition auto|C05]','revise --from 原项目 --out 新版本 --module layout --request 需求','run --project 项目 [--until build|check|render|verify]','preview --project 项目 [--port 端口]','stop --project 项目'],guide:'docs/使用说明.md'};
+ if(command==='help'||!command)return {commands:['doctor','setup','families | branches | components [--id ID]','standards [--id 标准ID]','recipes [--id 配方ID]','recipe --id editorial-print|minimal|blueprint|clay','resolve --recipe 配方ID或JSON','plan-change --axes palette,typography','compile --recipe 配方ID或JSON --plan 场景计划JSON','init --project 新路径 --source 自有视频 --recipe 配方ID [--transcript 字幕]','reproduce --project 新路径 --source 原案例方形代理视频 --recipe 配方ID','revise --from 原项目 --out 新版本 --axes typography --request 修改需求','styles [--id 编号或名称 | --all | --status approved|implemented|production|candidate]','choreographies [--id C01]','recipe --style A58 [--composition auto|C06 --kind cause --layout L10 --motion M09 --editing E04 --sound S01]','route --request 中文需求 [--mode full|layout|motion|editing|art-direction]','init --project 新路径 --source 视频 [--transcript 字幕 --style A58 --composition C06 --request 需求]','init --project 新路径 --example approved --style magazine [--composition auto|C05]','revise --from 原项目 --out 新版本 --module layout --request 需求','run --project 项目 [--until build|check|render|verify]','preview --project 项目 [--port 端口]','stop --project 项目'],guide:'docs/使用说明.md'};
  const r=rootOf(o);
  if(command==='preview')return await preview(r,o);
  if(command==='stop'){const d=read(path.join(r,'qa/preview-server.json'));const health=await(await fetch(d.url+'health')).json();if(health.projectId!==read(path.join(r,'project.json')).id)throw Error('服务不属于当前项目');process.kill(d.pid);return {stopped:true}}
@@ -130,4 +139,4 @@ async function main(){
  console.log('[3/4] 渲染实际MP4');hfRun(r,['render','--output',path.join(r,'outputs/final.mp4'),'--fps',String(read(path.join(r,'timing.json')).fps),'--quality','delivery','--gpu','--workers','3','--video-frame-format','png','--skill','general-video'],'render');if(until==='render')return {stage:'rendered',scope};
  console.log('[4/4] 核验编码与声音并生成抽帧');run(py(),[path.join(runtime,'scripts/media.py'),'verify',r],{stdio:'inherit'});scopeCheck(r,true);const project=read(path.join(r,'project.json'));project.status='verified';write(path.join(r,'project.json'),project);return {stage:'verified',project:r,video:path.join(r,'outputs/final.mp4'),report:path.join(r,'qa/delivery.json'),scope};
 }
-if(path.resolve(process.argv[1]||'')===fileURLToPath(import.meta.url))main().then(result=>{console.log(JSON.stringify(result,null,2));if(result?.ready===false)process.exitCode=1}).catch(e=>{console.error(e.message);process.exitCode=1});
+if(path.resolve(process.argv[1]||'')===fileURLToPath(import.meta.url))main().then(result=>{console.log(JSON.stringify(result,null,2));if(result?.ready===false||result?.ok===false)process.exitCode=1}).catch(e=>{console.error(e.message);process.exitCode=1});

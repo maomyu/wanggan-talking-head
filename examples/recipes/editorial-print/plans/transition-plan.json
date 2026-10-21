@@ -1,0 +1,40 @@
+{
+  "entryExitBridges": [
+    {
+      "id": "problem-to-three",
+      "start": 378,
+      "coverIn": 388,
+      "coverOut": 394,
+      "end": 410,
+      "contentSwitch": 390
+    },
+    {
+      "id": "choice-to-capital",
+      "start": 612,
+      "coverIn": 624,
+      "coverOut": 629,
+      "end": 642,
+      "contentSwitch": 626
+    }
+  ],
+  "continuityAnchors": [
+    "goods-headphone",
+    "account",
+    "debt"
+  ],
+  "coverFrames": [
+    [
+      388,
+      394
+    ],
+    [
+      624,
+      629
+    ]
+  ],
+  "paperMatch": [
+    739,
+    762
+  ],
+  "sourceCuts": []
+}

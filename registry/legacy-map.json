@@ -1,0 +1,3969 @@
+[
+  {
+    "id": "A01",
+    "key": "minimal",
+    "oldName": "写实极简",
+    "oldFamily": "真实摄影与现场",
+    "oldStatus": "approved-video",
+    "action": "保留为画风",
+    "familyId": "F01",
+    "familyName": "写实与摄影影像",
+    "newName": "写实与摄影影像",
+    "componentKind": null,
+    "reason": "真实光线、摄影空间和克制图文关系能跨题材持续成立；以写实极简作为默认分支。",
+    "preserve": "原始摄影、自然光与人物留白实现",
+    "extract": [
+      "自然光",
+      "实拍取景"
+    ],
+    "boundary": "极简是默认气质，不要求所有摄影视频都空白或少信息。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "真实环境、自然光与克制包装；留白围绕人物的目光",
+    "oldProfiles": {
+      "layout": "L01",
+      "motion": "M01",
+      "editing": "E01",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/minimal.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/minimal/index.html",
+      "look": "style-library/templates/minimal/index.html",
+      "preview": "style-library/previews/minimal.jpg",
+      "templateSha256": "2005e940e076cd510ae58d52c819d012048a1b310e28e154ad7961bc9349702b",
+      "lookSha256": "2005e940e076cd510ae58d52c819d012048a1b310e28e154ad7961bc9349702b",
+      "previewSha256": "a938e65d8f44596d0cfb5e19bf040ea581edc14b668f91a1e75f1c825603ea65",
+      "legacyEvidence": "style-library/evidence/accepted-20261019.json"
+    }
+  },
+  {
+    "id": "A02",
+    "key": "paper",
+    "oldName": "纸本批注",
+    "oldFamily": "编辑与信息印刷",
+    "oldStatus": "approved-video",
+    "action": "归为分支",
+    "familyId": "F03",
+    "familyName": "编辑出版",
+    "newName": "纸本批注",
+    "componentKind": null,
+    "reason": "纸张、批线、旁注构成编辑出版的笔记分支；不再与杂志并列计为一个母画风。",
+    "preserve": "纸面、批注和笔记阅读实现",
+    "extract": [
+      "纸纹",
+      "批注标记"
+    ],
+    "boundary": "批注必须对应具体原句，不能只作为装饰笔迹。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "正文与批线、注释互相对应，阅读像翻看一份有判断的笔记",
+    "oldProfiles": {
+      "layout": "L03",
+      "motion": "M03",
+      "editing": "E03",
+      "sound": "S03"
+    },
+    "preview": "style-library/previews/paper.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/paper/index.html",
+      "look": "style-library/templates/paper/index.html",
+      "preview": "style-library/previews/paper.jpg",
+      "templateSha256": "21511ec5e7b7f26b989b8e2cdfbb82be8ecf1867f8c19917652cebe754170c30",
+      "lookSha256": "21511ec5e7b7f26b989b8e2cdfbb82be8ecf1867f8c19917652cebe754170c30",
+      "previewSha256": "c3e4e9b2e4397bb348dcb0a281b675618dc8422e2c2d84354818cd1ac4ea5d57",
+      "legacyEvidence": "style-library/evidence/accepted-20261019.json"
+    }
+  },
+  {
+    "id": "A03",
+    "key": "geometry",
+    "oldName": "几何印刷",
+    "oldFamily": "字体与现代平面",
+    "oldStatus": "approved-video",
+    "action": "保留为画风",
+    "familyId": "F02",
+    "familyName": "现代几何平面",
+    "newName": "现代几何平面",
+    "componentKind": null,
+    "reason": "硬边块面、图底、尺度与强字阶形成稳定的视觉语法，配色变化不会使其失去身份。",
+    "preserve": "几何块面与图底组织实现",
+    "extract": [
+      "轴线",
+      "块面",
+      "套色"
+    ],
+    "boundary": "与图形插画的区别是抽象关系和字形主导，而非具象情境主导。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "硬边块面、强字阶与共同轴线，把并列或分类关系组织清楚",
+    "oldProfiles": {
+      "layout": "L06",
+      "motion": "M05",
+      "editing": "E04",
+      "sound": "S05"
+    },
+    "preview": "style-library/previews/geometry.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/geometry/index.html",
+      "look": "style-library/templates/geometry/index.html",
+      "preview": "style-library/previews/geometry.jpg",
+      "templateSha256": "9ecba912186260f93dee9642cfbe2524fa6d0c8454bf906e7868c41a0aaf585c",
+      "lookSha256": "9ecba912186260f93dee9642cfbe2524fa6d0c8454bf906e7868c41a0aaf585c",
+      "previewSha256": "bdd6734fbaa3f1c8f1bdb470fb912b304e76d1d1cd9a66c539b54b0a0e3c2f97",
+      "legacyEvidence": "style-library/evidence/accepted-20261019.json"
+    }
+  },
+  {
+    "id": "A04",
+    "key": "magazine",
+    "oldName": "杂志编辑",
+    "oldFamily": "编辑与信息印刷",
+    "oldStatus": "approved-video",
+    "action": "保留为画风",
+    "familyId": "F03",
+    "familyName": "编辑出版",
+    "newName": "编辑出版",
+    "componentKind": null,
+    "reason": "摄影裁切、文字层级、栏线及留白形成完整的编辑视觉语言；不等于单独一个双栏布局。",
+    "preserve": "杂志图文与编辑节奏实现",
+    "extract": [
+      "栏组",
+      "图注",
+      "页码"
+    ],
+    "boundary": "同一画风内可以满版、单栏或双栏，不能绑定一种固定构图。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "摄影裁切、大小字阶、栏线和不对称留白形成编辑节奏",
+    "oldProfiles": {
+      "layout": "L03",
+      "motion": "M01",
+      "editing": "E02",
+      "sound": "S10"
+    },
+    "preview": "style-library/previews/magazine.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/magazine/index.html",
+      "look": "style-library/templates/magazine/index.html",
+      "preview": "style-library/previews/magazine.jpg",
+      "templateSha256": "3e7c59491e881c31e0df54a32a2c9aee8acb23c0606a035fbc6db7879ea04491",
+      "lookSha256": "3e7c59491e881c31e0df54a32a2c9aee8acb23c0606a035fbc6db7879ea04491",
+      "previewSha256": "ccfff40791420b0b8334bc154479c125131946bc0e27ebfa123e5fc7a4824463",
+      "legacyEvidence": "style-library/evidence/accepted-20261019.json"
+    }
+  },
+  {
+    "id": "A05",
+    "key": "collage",
+    "oldName": "剪贴拼贴",
+    "oldFamily": "编辑与信息印刷",
+    "oldStatus": "approved-video",
+    "action": "保留为画风",
+    "familyId": "F04",
+    "familyName": "拼贴混合媒介",
+    "newName": "拼贴混合媒介",
+    "componentKind": null,
+    "reason": "异质图片、纸片与文字的裁切、叠压及接缝构成整体语言，不只是一种纸材质。",
+    "preserve": "剪贴、异质载体和层间遮挡实现",
+    "extract": [
+      "剪贴边",
+      "载体交接"
+    ],
+    "boundary": "与手工拼构区别在于异质图像的重组，不要求每片都有真实厚度。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "不同内容载体被拼接和遮叠，连接线帮助追踪论证线索",
+    "oldProfiles": {
+      "layout": "L04",
+      "motion": "M03",
+      "editing": "E05",
+      "sound": "S03"
+    },
+    "preview": "style-library/previews/collage.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/collage/index.html",
+      "look": "style-library/templates/collage/index.html",
+      "preview": "style-library/previews/collage.jpg",
+      "templateSha256": "b3ac5ce5b445961b554968a465c26c47458fa7d1888008a061e0976b046fe660",
+      "lookSha256": "b3ac5ce5b445961b554968a465c26c47458fa7d1888008a061e0976b046fe660",
+      "previewSha256": "01d66908afd0e3e5ca63346c2bc3ae662b310583b6292e84d50d3dfb3144d228",
+      "legacyEvidence": "style-library/evidence/accepted-20261019.json"
+    }
+  },
+  {
+    "id": "A06",
+    "key": "line",
+    "oldName": "单线手绘",
+    "oldFamily": "手绘与书写",
+    "oldStatus": "approved-video",
+    "action": "保留为画风",
+    "familyId": "F05",
+    "familyName": "线描与素描",
+    "newName": "线描与素描",
+    "componentKind": null,
+    "reason": "笔路、轮廓、留白和绘制关系可以持续组织不同内容；原单线手绘作为默认分支。",
+    "preserve": "单线图标与推导线实现",
+    "extract": [
+      "描线",
+      "手写注释"
+    ],
+    "boundary": "线条不能把文案中的并列关系随意连成因果。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "一条笔路和语义图标形成推导画布，线条连接真正相关的节点",
+    "oldProfiles": {
+      "layout": "L07",
+      "motion": "M06",
+      "editing": "E04",
+      "sound": "S04"
+    },
+    "preview": "style-library/previews/line.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/line/index.html",
+      "look": "style-library/templates/line/index.html",
+      "preview": "style-library/previews/line.jpg",
+      "templateSha256": "e821fa144b2d60c3beca180cc7156f2c01efe7788a063ca5228073c6e6c07746",
+      "lookSha256": "e821fa144b2d60c3beca180cc7156f2c01efe7788a063ca5228073c6e6c07746",
+      "previewSha256": "5feac990e8176f6c18354ddade721d2f215fdcb704326497653a8f0a9c029434",
+      "legacyEvidence": "style-library/evidence/accepted-20261019.json"
+    }
+  },
+  {
+    "id": "A07",
+    "key": "illustration",
+    "oldName": "图形插画",
+    "oldFamily": "插画与叙事",
+    "oldStatus": "approved-video",
+    "action": "保留为画风",
+    "familyId": "F06",
+    "familyName": "平面插画",
+    "newName": "平面插画",
+    "componentKind": null,
+    "reason": "可识别物件、一致造型和场景色面形成具象插画语言；与抽象几何平面分开。",
+    "preserve": "原创图形物件和插画场景实现",
+    "extract": [
+      "图形造型",
+      "场景色块"
+    ],
+    "boundary": "换成插画不能改变对象含义，也不能把真人插画化。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "一致的图形造型与场景色块，把抽象关系转成可识别物件",
+    "oldProfiles": {
+      "layout": "L09",
+      "motion": "M08",
+      "editing": "E07",
+      "sound": "S05"
+    },
+    "preview": "style-library/previews/illustration.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/illustration/index.html",
+      "look": "style-library/templates/illustration/index.html",
+      "preview": "style-library/previews/illustration.jpg",
+      "templateSha256": "eac7325d184502a8aa025a797da7e7df0b21a85ac16b6e9628d7849ad28c69f6",
+      "lookSha256": "eac7325d184502a8aa025a797da7e7df0b21a85ac16b6e9628d7849ad28c69f6",
+      "previewSha256": "ecb0a0e26050a3aa6a08890a323cb0766c418a89c3c105f07459b20743d1694c",
+      "legacyEvidence": "style-library/evidence/accepted-20261019.json"
+    }
+  },
+  {
+    "id": "A08",
+    "key": "precision",
+    "oldName": "精密界面",
+    "oldFamily": "数字屏幕与系统",
+    "oldStatus": "approved-video",
+    "action": "保留为画风",
+    "familyId": "F07",
+    "familyName": "技术图形与界面",
+    "newName": "技术图形与界面",
+    "componentKind": null,
+    "reason": "功能分区、结构标注和有意义的状态形成系统化视觉语言，颜色与发光不是成立条件。",
+    "preserve": "精密界面与状态层级实现",
+    "extract": [
+      "状态反馈",
+      "结构标注"
+    ],
+    "boundary": "只是科技术语和假数字的装饰不算此画风。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "功能分区、层级和操作结果构成阅读秩序，所有界面状态有实际依据",
+    "oldProfiles": {
+      "layout": "L13",
+      "motion": "M14",
+      "editing": "E03",
+      "sound": "S09"
+    },
+    "preview": "style-library/previews/precision.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/precision/index.html",
+      "look": "style-library/templates/precision/index.html",
+      "preview": "style-library/previews/precision.jpg",
+      "templateSha256": "8c1fd6505efb89c2c12cb25977c17eb6009c2462169aa234e04ff5ac6644173e",
+      "lookSha256": "8c1fd6505efb89c2c12cb25977c17eb6009c2462169aa234e04ff5ac6644173e",
+      "previewSha256": "eacbe96611c13a75fe899c01467edcd6c65a846872d65ae680dd7e04354112ee",
+      "legacyEvidence": "style-library/evidence/accepted-20261019.json"
+    }
+  },
+  {
+    "id": "A09",
+    "key": "blueprint",
+    "oldName": "技术蓝图",
+    "oldFamily": "数字屏幕与系统",
+    "oldStatus": "approved-video",
+    "action": "归为分支",
+    "familyId": "F07",
+    "familyName": "技术图形与界面",
+    "newName": "工程蓝图",
+    "componentKind": null,
+    "reason": "分解视图、结构线和标注属于技术图形的工程表达分支；蓝底只是可替换配色。",
+    "preserve": "工程线框、结构分解与标注实现",
+    "extract": [
+      "尺寸标注",
+      "分解视图"
+    ],
+    "boundary": "不与蓝晒合并：一个解释结构，一个表达感光负形；示意尺寸不冒充工程事实。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "结构线、分解视图和对应标注让关系清楚，示意尺寸不冒充真实工程数据",
+    "oldProfiles": {
+      "layout": "L14",
+      "motion": "M06",
+      "editing": "E10",
+      "sound": "S09"
+    },
+    "preview": "style-library/previews/blueprint.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/blueprint/index.html",
+      "look": "style-library/templates/blueprint/index.html",
+      "preview": "style-library/previews/blueprint.jpg",
+      "templateSha256": "3bf191d5c1bb4bbac49a634396f9ff8f57da389bb0520b57142c20ba4fe30351",
+      "lookSha256": "3bf191d5c1bb4bbac49a634396f9ff8f57da389bb0520b57142c20ba4fe30351",
+      "previewSha256": "a9b36347d5fee336137b2ab9791f9b3545b0b0b16d67aed20f0316edd54b10eb",
+      "legacyEvidence": "style-library/evidence/accepted-20261019.json"
+    }
+  },
+  {
+    "id": "A10",
+    "key": "halftone",
+    "oldName": "复古网点",
+    "oldFamily": "编辑与信息印刷",
+    "oldStatus": "approved-video",
+    "action": "保留为画风",
+    "familyId": "F08",
+    "familyName": "复古套色印刷",
+    "newName": "复古套色印刷",
+    "componentKind": null,
+    "reason": "半色调、有限油墨色层、印面边缘与套色关系组成完整语言，不是全屏网点滤镜。",
+    "preserve": "半色调和印刷色面实现",
+    "extract": [
+      "网点",
+      "套印",
+      "油墨颗粒"
+    ],
+    "boundary": "网点只作用于图解或资料载体，真实人物与正文保持清晰。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "资料图像以半色调和有限套色成为印刷面，正文保持清晰",
+    "oldProfiles": {
+      "layout": "L02",
+      "motion": "M05",
+      "editing": "E04",
+      "sound": "S05"
+    },
+    "preview": "style-library/previews/halftone.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/halftone/index.html",
+      "look": "style-library/templates/halftone/index.html",
+      "preview": "style-library/previews/halftone.jpg",
+      "templateSha256": "ad66bcb3025859c2b5866deaba594bc1779505553781e674d10a3bd3e9689fa6",
+      "lookSha256": "ad66bcb3025859c2b5866deaba594bc1779505553781e674d10a3bd3e9689fa6",
+      "previewSha256": "c8447f690cd3043dbdbbc38d6cbaa9a3f3467ff92c02e8ab0cd8e78afe16266c",
+      "legacyEvidence": "style-library/evidence/accepted-20261019.json"
+    }
+  },
+  {
+    "id": "A11",
+    "key": "comic",
+    "oldName": "漫画描线",
+    "oldFamily": "插画与叙事",
+    "oldStatus": "approved-video",
+    "action": "保留为画风",
+    "familyId": "F09",
+    "familyName": "漫画与动画平涂",
+    "newName": "漫画与动画平涂",
+    "componentKind": null,
+    "reason": "描线、分格、反应特写和明确色面形成漫画表达，原漫画描线作为默认分支。",
+    "preserve": "漫画线条、分格与反应揭示实现",
+    "extract": [
+      "分格",
+      "反应镜头"
+    ],
+    "boundary": "不假设真人素材中存在额外表演或口型。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "分格、粗线、特写和反应揭示信息，真人保持原片独立层",
+    "oldProfiles": {
+      "layout": "L09",
+      "motion": "M08",
+      "editing": "E07",
+      "sound": "S05"
+    },
+    "preview": "style-library/previews/comic.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/comic/index.html",
+      "look": "style-library/templates/comic/index.html",
+      "preview": "style-library/previews/comic.jpg",
+      "templateSha256": "cbffaa5f2a0c7b904f50c52d411b4160cb839206ec26543868eacb6c04d5d34b",
+      "lookSha256": "cbffaa5f2a0c7b904f50c52d411b4160cb839206ec26543868eacb6c04d5d34b",
+      "previewSha256": "cddc854f74663fa50b32756bf3c99c6f170973c6c4d5dd85c3ae124ff38a469f",
+      "legacyEvidence": "style-library/evidence/accepted-20261019.json"
+    }
+  },
+  {
+    "id": "A12",
+    "key": "film",
+    "oldName": "胶片影像",
+    "oldFamily": "真实摄影与现场",
+    "oldStatus": "approved-video",
+    "action": "归为分支",
+    "familyId": "F01",
+    "familyName": "写实与摄影影像",
+    "newName": "胶片影像",
+    "componentKind": null,
+    "reason": "摄影空间仍是主体，影像颗粒、暖冷调性和取景关系构成摄影分支。",
+    "preserve": "胶片背景、摄影取景及图注实现",
+    "extract": [
+      "影像颗粒",
+      "胶片调性"
+    ],
+    "boundary": "胶片调性仅用于非人物材料，不给人物套LUT。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "摄影纵深、环境叙事与镜头关系；颗粒限于背景素材",
+    "oldProfiles": {
+      "layout": "L02",
+      "motion": "M01",
+      "editing": "E02",
+      "sound": "S10"
+    },
+    "preview": "style-library/previews/film.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/film/index.html",
+      "look": "style-library/templates/film/index.html",
+      "preview": "style-library/previews/film.jpg",
+      "templateSha256": "a11167d6e6053eb53bb4a459c5b256fc104e63c6bf4c35bd40a856a779b10cc7",
+      "lookSha256": "a11167d6e6053eb53bb4a459c5b256fc104e63c6bf4c35bd40a856a779b10cc7",
+      "previewSha256": "5b0cafeb7e2bf7c4f5d82495169f3f02ea0449a1a4c088558cf99afc16d81fd9",
+      "legacyEvidence": "style-library/evidence/accepted-20261019.json"
+    }
+  },
+  {
+    "id": "A13",
+    "key": "ink",
+    "oldName": "水墨留白",
+    "oldFamily": "传统绘画与东方",
+    "oldStatus": "approved-video",
+    "action": "保留为画风",
+    "familyId": "F10",
+    "familyName": "水墨",
+    "newName": "水墨",
+    "componentKind": null,
+    "reason": "墨色浓淡、虚实、笔势与留白共同成立，不能用黑白配色替代笔墨语言。",
+    "preserve": "水墨物件、墨色层次与留白实现",
+    "extract": [
+      "墨迹",
+      "虚实交接"
+    ],
+    "boundary": "不把工笔、青绿或水彩仅因东方或纸面特征合并进水墨。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "墨色浓淡、虚实和留白组织信息，现代字幕与原色真人各自清楚",
+    "oldProfiles": {
+      "layout": "L11",
+      "motion": "M11",
+      "editing": "E08",
+      "sound": "S07"
+    },
+    "preview": "style-library/previews/ink.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/ink/index.html",
+      "look": "style-library/templates/ink/index.html",
+      "preview": "style-library/previews/ink.jpg",
+      "templateSha256": "73e1530450d5fc879f8790f6cbdaa4d4bb6c9ed0cd1a300045a2369d87bf82d3",
+      "lookSha256": "73e1530450d5fc879f8790f6cbdaa4d4bb6c9ed0cd1a300045a2369d87bf82d3",
+      "previewSha256": "e5bc6633baadcd45b6ec891c7ce1b4bed1495ff0cc53627dc4574a90213b92b1",
+      "legacyEvidence": "style-library/evidence/accepted-20261019.json"
+    }
+  },
+  {
+    "id": "A14",
+    "key": "clay",
+    "oldName": "柔质立体",
+    "oldFamily": "立体与模型",
+    "oldStatus": "approved-video",
+    "action": "保留为画风",
+    "familyId": "F11",
+    "familyName": "立体造型",
+    "newName": "立体造型",
+    "componentKind": null,
+    "reason": "体积、接触阴影、实体关系和空间行为形成母语言；柔质模型保留为默认分支。",
+    "preserve": "柔质模型及空间舞台实现",
+    "extract": [
+      "接触阴影",
+      "软质形变"
+    ],
+    "boundary": "柔质和硬表的造型、运动差别保留，不能只换材质参数冒充完整分支。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "黏土或软塑体积、接触阴影和微型物件形成亲和解释空间",
+    "oldProfiles": {
+      "layout": "L12",
+      "motion": "M13",
+      "editing": "E07",
+      "sound": "S06"
+    },
+    "preview": "style-library/previews/clay.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/clay/index.html",
+      "look": "style-library/templates/clay/index.html",
+      "preview": "style-library/previews/clay.jpg",
+      "templateSha256": "63bb4e8daf513426d20b64118d10615aa1edb2ee0221648f33a454b2805fd837",
+      "lookSha256": "63bb4e8daf513426d20b64118d10615aa1edb2ee0221648f33a454b2805fd837",
+      "previewSha256": "542e532c11d521eb1c7c4d38eb3ff75589f4077cb0f4ad71fc6aad2b69da9de2",
+      "legacyEvidence": "style-library/evidence/accepted-20261019.json"
+    }
+  },
+  {
+    "id": "A15",
+    "key": "pixel",
+    "oldName": "像素复古",
+    "oldFamily": "数字屏幕与系统",
+    "oldStatus": "approved-video",
+    "action": "保留为画风",
+    "familyId": "F12",
+    "familyName": "像素与点阵图形",
+    "newName": "像素与点阵图形",
+    "componentKind": null,
+    "reason": "离散网格、受限色阶与步进结构形成数字图形语言，原像素复古作为默认分支。",
+    "preserve": "像素场景、方形贴图与步进路径实现",
+    "extract": [
+      "像素栅格",
+      "步进路径"
+    ],
+    "boundary": "像素游戏与圆点显示分支分别保留；不降低真人和字幕清晰度。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "有限色像素场景、步进路径与游戏式物件，真人脸和字幕保持原始清晰度",
+    "oldProfiles": {
+      "layout": "L09",
+      "motion": "M14",
+      "editing": "E07",
+      "sound": "S09"
+    },
+    "preview": "style-library/previews/pixel.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/pixel/index.html",
+      "look": "style-library/templates/pixel/index.html",
+      "preview": "style-library/previews/pixel.jpg",
+      "templateSha256": "d791cc1b1dd5a49b55b2cb9e946b4c6164d2e0d21dfa2959f8945edb557c3af8",
+      "lookSha256": "d791cc1b1dd5a49b55b2cb9e946b4c6164d2e0d21dfa2959f8945edb557c3af8",
+      "previewSha256": "341110759da6e407f0baef98e61c225280c543476897d65e7cae1efc032487c9",
+      "legacyEvidence": "style-library/evidence/accepted-20261019.json"
+    }
+  },
+  {
+    "id": "A16",
+    "key": "chalk",
+    "oldName": "黑板粉笔",
+    "oldFamily": "手绘与书写",
+    "oldStatus": "approved-video",
+    "action": "归为分支",
+    "familyId": "F05",
+    "familyName": "线描与素描",
+    "newName": "粉笔板书",
+    "componentKind": null,
+    "reason": "干粉笔触、板面和擦写推导形成线描家族的板书分支，不只是一张深绿背景。",
+    "preserve": "粉笔笔触、擦写和板书实现",
+    "extract": [
+      "板面",
+      "擦写"
+    ],
+    "boundary": "擦除对应观点修正，不能每次换句都无理由擦屏。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "深绿板面、干粉笔触和板书推导，擦除与重写对应观点修正",
+    "oldProfiles": {
+      "layout": "L07",
+      "motion": "M07",
+      "editing": "E04",
+      "sound": "S04"
+    },
+    "preview": "style-library/previews/chalk.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/chalk/index.html",
+      "look": "style-library/templates/chalk/index.html",
+      "preview": "style-library/previews/chalk.jpg",
+      "templateSha256": "dbd7d005f451096874861ba08dbee846d0df049ec1c5cfa099dbee0c9753ab09",
+      "lookSha256": "dbd7d005f451096874861ba08dbee846d0df049ec1c5cfa099dbee0c9753ab09",
+      "previewSha256": "aaede1f5d89132193364b17d82972198090b596214d4cf74bb6c09509c0cae07",
+      "legacyEvidence": "style-library/evidence/accepted-five-20261019.json"
+    }
+  },
+  {
+    "id": "A17",
+    "key": "paper-stage",
+    "oldName": "剪纸舞台",
+    "oldFamily": "纸与纤维",
+    "oldStatus": "approved-video",
+    "action": "保留为画风",
+    "familyId": "F13",
+    "familyName": "手工拼构",
+    "newName": "手工拼构",
+    "componentKind": null,
+    "reason": "可见切口、片层、连接和定向投影形成制作痕迹鲜明的整体语言；剪纸舞台作为默认分支。",
+    "preserve": "剪纸厚边、片层与舞台实现",
+    "extract": [
+      "切口",
+      "连接",
+      "层间遮挡"
+    ],
+    "boundary": "纸、毡和布可作分支材料，关键是可见拼构关系；与异质照片拼贴分开。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "切口侧壁、纸层遮挡、定向投影和轻微视差形成完整舞台",
+    "oldProfiles": {
+      "layout": "L10",
+      "motion": "M09",
+      "editing": "E05",
+      "sound": "S03"
+    },
+    "preview": "style-library/previews/paper-stage.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/paper-stage/index.html",
+      "look": "style-library/templates/paper-stage/index.html",
+      "preview": "style-library/previews/paper-stage.jpg",
+      "templateSha256": "addc713127a64a1bc283ea1c1b5a232c17eb7c4d50e19a112f64d04d603b5d8c",
+      "lookSha256": "addc713127a64a1bc283ea1c1b5a232c17eb7c4d50e19a112f64d04d603b5d8c",
+      "previewSha256": "42e5ba474e171466fb30e0d14f2d5cb0d4c2cf4ae7708a66d455439741682649",
+      "legacyEvidence": "style-library/evidence/accepted-five-20261019.json"
+    }
+  },
+  {
+    "id": "A18",
+    "key": "type-poster",
+    "oldName": "巨字海报",
+    "oldFamily": "字体与现代平面",
+    "oldStatus": "approved-video",
+    "action": "移入组件",
+    "familyId": "F02",
+    "familyName": "现代几何平面",
+    "newName": "巨字强调",
+    "componentKind": "排版与构图",
+    "reason": "完整关键词成为主体是一种阅读主次安排，可以用于几何、摄影或漫画，不应独占画风名额。",
+    "preserve": "巨字、反白与尺度动画实现",
+    "extract": [
+      "巨字强调"
+    ],
+    "boundary": "需按真实词长和人声阅读窗口重排，不能把一句话全做成大字。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "完整关键词成为主体，反白字面和巨大尺度推进信息",
+    "oldProfiles": {
+      "layout": "L05",
+      "motion": "M04",
+      "editing": "E04",
+      "sound": "S05"
+    },
+    "preview": "style-library/previews/type-poster.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/type-poster/index.html",
+      "look": "style-library/templates/type-poster/index.html",
+      "preview": "style-library/previews/type-poster.jpg",
+      "templateSha256": "6290af3e47653b56f68baa48b43817968e0e4240e93c65ba0af92c673d2c7900",
+      "lookSha256": "6290af3e47653b56f68baa48b43817968e0e4240e93c65ba0af92c673d2c7900",
+      "previewSha256": "f7f395e0e388aa758e90599312685567efcbecc0ea73101e688812c9bb9a1e90",
+      "legacyEvidence": "style-library/evidence/accepted-five-20261019.json"
+    }
+  },
+  {
+    "id": "A19",
+    "key": "cel",
+    "oldName": "赛璐璐",
+    "oldFamily": "插画与叙事",
+    "oldStatus": "approved-video",
+    "action": "归为分支",
+    "familyId": "F09",
+    "familyName": "漫画与动画平涂",
+    "newName": "赛璐璐平涂",
+    "componentKind": null,
+    "reason": "清楚描线、有限姿态与硬边阴影构成动画平涂分支，保留与漫画分格不同的表演方式。",
+    "preserve": "赛璐璐色面、阴影分区与姿态实现",
+    "extract": [
+      "有限姿态",
+      "硬边阴影"
+    ],
+    "boundary": "漫画与赛璐璐不是同义词；这里共享母入口，具体造型与表演仍独立。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "平涂造型、明确阴影分区和有限姿态表演；无真人卡通滤镜",
+    "oldProfiles": {
+      "layout": "L09",
+      "motion": "M08",
+      "editing": "E07",
+      "sound": "S05"
+    },
+    "preview": "style-library/previews/cel.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/cel/index.html",
+      "look": "style-library/templates/cel/index.html",
+      "preview": "style-library/previews/cel.jpg",
+      "templateSha256": "e6b355dadf2230fed1130c10caecb6a25cf522c2febafbb1d0f662cdbd498e51",
+      "lookSha256": "e6b355dadf2230fed1130c10caecb6a25cf522c2febafbb1d0f662cdbd498e51",
+      "previewSha256": "9ea87d23275ce3e6582ef072736c88c560d29061bf7c8596e7a5cd436b256c5f",
+      "legacyEvidence": "style-library/evidence/accepted-five-20261019.json"
+    }
+  },
+  {
+    "id": "A20",
+    "key": "sci-fi-wireframe",
+    "oldName": "科幻线框／硬表立体",
+    "oldFamily": "数字屏幕与系统",
+    "oldStatus": "approved-video",
+    "action": "归为分支",
+    "familyId": "F11",
+    "familyName": "立体造型",
+    "newName": "硬表科幻模型",
+    "componentKind": null,
+    "reason": "倒角实体、机械结构与线框叠层形成立体造型的硬表分支，不等于给软模型换金属色。",
+    "preserve": "硬表模型、拆合与边缘线框实现",
+    "extract": [
+      "线框叠层",
+      "模型拆合"
+    ],
+    "boundary": "科幻只是气质，不能以假HUD和虚构数值充实画面。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "倒角、金属实体、边缘线框与拆合模型；不靠假HUD数值成立",
+    "oldProfiles": {
+      "layout": "L12",
+      "motion": "M13",
+      "editing": "E10",
+      "sound": "S08"
+    },
+    "preview": "style-library/previews/sci-fi-wireframe.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/sci-fi-wireframe/index.html",
+      "look": "style-library/templates/sci-fi-wireframe/index.html",
+      "preview": "style-library/previews/sci-fi-wireframe.jpg",
+      "templateSha256": "3d549f125c510c4f0639fe7a55250eb013c95a6348d79f244db5d5b20c4e0823",
+      "lookSha256": "3d549f125c510c4f0639fe7a55250eb013c95a6348d79f244db5d5b20c4e0823",
+      "previewSha256": "8acf2954497fb7cb61dea3e9e410658ba830623a18d097d97ec3e6bf01dbf0d5",
+      "legacyEvidence": "style-library/evidence/accepted-five-20261019.json"
+    }
+  },
+  {
+    "id": "A21",
+    "key": "documentary",
+    "oldName": "纪实现场",
+    "oldFamily": "真实摄影与现场",
+    "oldStatus": "verified-video",
+    "action": "归为分支",
+    "familyId": "F01",
+    "familyName": "写实与摄影影像",
+    "newName": "纪实影像",
+    "componentKind": null,
+    "reason": "环境上下文、记录图注与观察式取景形成摄影表达的纪实分支。",
+    "preserve": "真实环境资料与记录式图注实现",
+    "extract": [
+      "环境上下文",
+      "记录图注"
+    ],
+    "boundary": "现有城市照片不是本段人物的事件现场，来源身份继续保留。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "真实城市高位资料以宽幅上下文和记录式图注组织，随口播逐项标记消费与投资；不是本段人物或事件现场",
+    "oldProfiles": {
+      "layout": "L01",
+      "motion": "M01",
+      "editing": "E01",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/documentary.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/documentary/index.html",
+      "look": "style-library/templates/documentary/assets/look.js",
+      "preview": "style-library/previews/documentary.jpg",
+      "templateSha256": "723818d3da87783579bdf56e10eb567dedca3e9ab28b249e62d4272a387e564e",
+      "lookSha256": "8024ac45e9c711bb64febf5a1e4c514d5684afc8705d8d2494d53989503c52ab",
+      "previewSha256": "312a04984711aff572d36d04403538ad1056c5a4b5afa82e2512b0de181e9333",
+      "legacyEvidence": "style-library/evidence/production-20261020-a21-a22-a23-a24-a25-a26-a27-a28.json"
+    }
+  },
+  {
+    "id": "A22",
+    "key": "tabletop-stilllife",
+    "oldName": "桌面静物",
+    "oldFamily": "真实摄影与现场",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F01",
+    "familyName": "写实与摄影影像",
+    "newName": "桌面静物场景",
+    "componentKind": "镜头与场景",
+    "reason": "桌面是拍摄和布景载体，可被写实、胶片、纸艺或立体模型共同使用。",
+    "preserve": "真实桌面照片、斜视机位与侧注实现",
+    "extract": [
+      "桌面场景"
+    ],
+    "boundary": "不把叠加的数字图注说成照片上的真实数据或操作。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "真实斜视桌面的计算器、笔记本、电脑与光影保持自然关系，独立侧注与细分隔线承担解释；不伪造操作结果或原纸面金融数据",
+    "oldProfiles": {
+      "layout": "L12",
+      "motion": "M01",
+      "editing": "E02",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/tabletop-stilllife.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/tabletop-stilllife/index.html",
+      "look": "style-library/templates/tabletop-stilllife/assets/look.js",
+      "preview": "style-library/previews/tabletop-stilllife.jpg",
+      "templateSha256": "d414cc9161a396677448d210491edc5ea71814efa2778981481731fcc5ca645d",
+      "lookSha256": "37bc59a3d2b3afcc2fcd01ae02e1bb3a607e1dfd472e55f4318f55dd7fcef8ea",
+      "previewSha256": "19748330e952c38f00b278f3e8985fc0062cd5e877983c6f1617dc5a8a3799b1",
+      "legacyEvidence": "style-library/evidence/production-20261020-a21-a22-a23-a24-a25-a26-a27-a28.json"
+    }
+  },
+  {
+    "id": "A23",
+    "key": "macro-material",
+    "oldName": "微距材质",
+    "oldFamily": "真实摄影与现场",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F01",
+    "familyName": "写实与摄影影像",
+    "newName": "微距与整体对照",
+    "componentKind": "镜头与场景",
+    "reason": "局部放大加整体索引是观察方式，不决定全片的造型和色光语言。",
+    "preserve": "真实微距照片、圆形局部窗与索引实现",
+    "extract": [
+      "微距",
+      "局部放大"
+    ],
+    "boundary": "局部照片不直接成为币种鉴定、收益或产品质量证据。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "历史币表面细节被圆形微距窗口放大，并保留原图索引或整体对照；真实纹理承担主视觉，不作为币种鉴定、现代投资或收益证据",
+    "oldProfiles": {
+      "layout": "L12",
+      "motion": "M01",
+      "editing": "E03",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/macro-material.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/macro-material/index.html",
+      "look": "style-library/templates/macro-material/assets/look.js",
+      "preview": "style-library/previews/macro-material.jpg",
+      "templateSha256": "170396409cd043a031fcaa628790f02c16c9fcde84251e66ea49443f01f2a0dc",
+      "lookSha256": "484187aa6a6e7d7cd86bd48a6e928eea8641fd7d655e8f52c7f4f4f7cc324e81",
+      "previewSha256": "2694cc6de2a441b31a34b8bdcdad36ebfad4971714b8d07ac564a0b3b94c1356",
+      "legacyEvidence": "style-library/evidence/production-20261020-a21-a22-a23-a24-a25-a26-a27-a28.json"
+    }
+  },
+  {
+    "id": "A24",
+    "key": "overhead-workbench",
+    "oldName": "俯拍操作台",
+    "oldFamily": "真实摄影与现场",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F01",
+    "familyName": "写实与摄影影像",
+    "newName": "俯拍操作台",
+    "componentKind": "镜头与场景",
+    "reason": "俯拍是机位，操作台是场景；两者可横跨不同画风，与桌面斜视组件分开保留。",
+    "preserve": "真实俯拍素材、操作载体与独立侧栏实现",
+    "extract": [
+      "俯拍",
+      "操作载体"
+    ],
+    "boundary": "原片没有真实手部操作时，不以数字叠加冒充操作录像。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "真实俯拍网格本和铅笔构成操作载体，数字便笺在独立侧栏排列；裁去广告图册，不把叠加文字当原始手写或真实操作录像",
+    "oldProfiles": {
+      "layout": "L09",
+      "motion": "M02",
+      "editing": "E07",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/overhead-workbench.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/overhead-workbench/index.html",
+      "look": "style-library/templates/overhead-workbench/assets/look.js",
+      "preview": "style-library/previews/overhead-workbench.jpg",
+      "templateSha256": "88120de27ee0db8c22bbeb6c49910d4b9e1c2c2c3249996cb765e683a7046a66",
+      "lookSha256": "5b73ad7ea8f51b6621bca7018d370ef8c015c674cd3c6b5adb3286d489c4c1af",
+      "previewSha256": "f012f48b7406058ae16137d4e4301c83876d5128b7bec82ac3616eb1c42aafda",
+      "legacyEvidence": "style-library/evidence/production-20261020-a21-a22-a23-a24-a25-a26-a27-a28.json"
+    }
+  },
+  {
+    "id": "A25",
+    "key": "architectural-light",
+    "oldName": "建筑光影",
+    "oldFamily": "真实摄影与现场",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F01",
+    "familyName": "写实与摄影影像",
+    "newName": "建筑空间与侧光",
+    "componentKind": "空间与光影",
+    "reason": "建筑是环境，侧光和空间切片是取景方法，可服务摄影或立体场景。",
+    "preserve": "建筑照片、空间切片及光影局部实现",
+    "extract": [
+      "建筑空间",
+      "侧光"
+    ],
+    "boundary": "没有删除建筑场景，只将它从独立母画风移到环境选择。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "实际混凝土坡道、梁和光窗以不对称空间切片形成纵深，主空间与光影局部分开阅读；不靠一层纹理，也不指认本段人物地点",
+    "oldProfiles": {
+      "layout": "L14",
+      "motion": "M01",
+      "editing": "E10",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/architectural-light.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/architectural-light/index.html",
+      "look": "style-library/templates/architectural-light/assets/look.js",
+      "preview": "style-library/previews/architectural-light.jpg",
+      "templateSha256": "0356d4655820244a57f6cf2fd0f428822d0fb46f5ca42abbcaa72217dd84e024",
+      "lookSha256": "4b3400612253d81797588e6c226d4993106e8f83d4bee0c56eda3aca8c426b57",
+      "previewSha256": "fd535a12f31f8730ae458ee894e235cac23fbd1bcce656ff0a0342f3521ff4ac",
+      "legacyEvidence": "style-library/evidence/production-20261020-a21-a22-a23-a24-a25-a26-a27-a28.json"
+    }
+  },
+  {
+    "id": "A26",
+    "key": "everyday-story",
+    "oldName": "生活场景叙事",
+    "oldFamily": "真实摄影与现场",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F01",
+    "familyName": "写实与摄影影像",
+    "newName": "生活场景串联",
+    "componentKind": "叙事策略",
+    "reason": "生活化语境与多场景换镜是一种内容组织方式，不规定画面必须属于哪种媒介。",
+    "preserve": "购物、桌面等场景素材及整体局部切换实现",
+    "extract": [
+      "生活场景串联"
+    ],
+    "boundary": "不同素材不能被剪成虚构的同一次交易或用户个人经历。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "真实购物篮、书桌与历史币资料在并列、整体和局部中换镜，建立消费与判断的生活语境；不虚构同一交易、个人经历、价格或产品背书",
+    "oldProfiles": {
+      "layout": "L01",
+      "motion": "M01",
+      "editing": "E01",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/everyday-story.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/everyday-story/index.html",
+      "look": "style-library/templates/everyday-story/assets/look.js",
+      "preview": "style-library/previews/everyday-story.jpg",
+      "templateSha256": "67a863a4b312927637a4df5aa690782fda855dc654620e11675ae851eede56e9",
+      "lookSha256": "a47e090675af4514857f930278f25fdd8b4f1981febc10bb506dd2ea15a402dc",
+      "previewSha256": "9cb0fd56b49e217e8b2998a83061a01a028c55a17ce0fbffd9627a2ac0c20133",
+      "legacyEvidence": "style-library/evidence/production-20261020-a21-a22-a23-a24-a25-a26-a27-a28.json"
+    }
+  },
+  {
+    "id": "A27",
+    "key": "spotlight-stage",
+    "oldName": "舞台聚光",
+    "oldFamily": "真实摄影与现场",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F11",
+    "familyName": "立体造型",
+    "newName": "舞台聚光",
+    "componentKind": "空间与光影",
+    "reason": "聚光、暗区和舞台是焦点控制工具，可用于摄影、模型或纸艺场景。",
+    "preserve": "舞台局部照片、物件摄影与聚光实现",
+    "extract": [
+      "局部聚光"
+    ],
+    "boundary": "保留摄影合成说明，不冒充实物布景或人物现场。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "真实舞台无人地板局部与单一硬币摄影叠加，局部聚光和暗区控制焦点；明确摄影合成，不冒充实物布景或使用原舞台发言者/投影",
+    "oldProfiles": {
+      "layout": "L12",
+      "motion": "M01",
+      "editing": "E07",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/spotlight-stage.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/spotlight-stage/index.html",
+      "look": "style-library/templates/spotlight-stage/assets/look.js",
+      "preview": "style-library/previews/spotlight-stage.jpg",
+      "templateSha256": "86a41e900dcd49e4ca917dc16995835701651453caa402e2b89610ee7687dd2f",
+      "lookSha256": "ab2b5d946042c9b145ba55c7daaced2fe850ad9b8590a29c1b13751378b5c020",
+      "previewSha256": "f0ddc63dec4f3416d41c2226c19da4466b3f8db89d186d400b191e6d5055da2c",
+      "legacyEvidence": "style-library/evidence/production-20261020-a21-a22-a23-a24-a25-a26-a27-a28.json"
+    }
+  },
+  {
+    "id": "A28",
+    "key": "darkroom-prints",
+    "oldName": "黑白暗房",
+    "oldFamily": "真实摄影与现场",
+    "oldStatus": "verified-video",
+    "action": "归为分支",
+    "familyId": "F01",
+    "familyName": "写实与摄影影像",
+    "newName": "黑白接触印样",
+    "componentKind": null,
+    "reason": "数字黑白、印样尺度及索引形成摄影分支；与胶片影像共享母入口，但不抹去各自图文组织。",
+    "preserve": "黑白资料照片、白边印样和索引实现",
+    "extract": [
+      "资料黑白",
+      "接触印样"
+    ],
+    "boundary": "仅资料照片转黑白，人物原色；不伪造真实暗房工艺。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "仅真实资料照片做数字黑白，白边接触印样与图像索引组织多图阅读；主次由印样尺度变化，不伪造胶片曝光或真实暗房工艺，真人持续原色",
+    "oldProfiles": {
+      "layout": "L02",
+      "motion": "M01",
+      "editing": "E02",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/darkroom-prints.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/darkroom-prints/index.html",
+      "look": "style-library/templates/darkroom-prints/assets/look.js",
+      "preview": "style-library/previews/darkroom-prints.jpg",
+      "templateSha256": "66950a29a41773b5202689587711707b3c9e3d23253320e385de534a5d0425fd",
+      "lookSha256": "448f6e349639310dfe731aca207eb05a05773d78b98b057a6161a63a81c7174a",
+      "previewSha256": "6b723fb8df6e0778fe9f813ed202f1601d124f3ad763209bad13c57ed007857e",
+      "legacyEvidence": "style-library/evidence/production-20261020-a21-a22-a23-a24-a25-a26-a27-a28.json"
+    }
+  },
+  {
+    "id": "A29",
+    "key": "newspaper",
+    "oldName": "新闻报纸",
+    "oldFamily": "编辑与信息印刷",
+    "oldStatus": "verified-video",
+    "action": "归为分支",
+    "familyId": "F03",
+    "familyName": "编辑出版",
+    "newName": "新闻报刊",
+    "componentKind": null,
+    "reason": "报头、密度受控的栏组及图注形成编辑出版的报刊分支。",
+    "preserve": "报纸栏组、标题和图片说明实现",
+    "extract": [
+      "报刊栏组"
+    ],
+    "boundary": "密度由真实内容决定，不为像报纸填充虚构新闻。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "密度有秩序的栏组、标题与图片说明共同建立新闻阅读面",
+    "oldProfiles": {
+      "layout": "L03",
+      "motion": "M03",
+      "editing": "E03",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/newspaper.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/newspaper/index.html",
+      "look": "style-library/templates/newspaper/assets/look.js",
+      "preview": "style-library/previews/newspaper.jpg",
+      "templateSha256": "dce53aef2ec973910faff28e9135b37fadb56e6454a220db55e73ec20c161d78",
+      "lookSha256": "ecbdd59163f6e781767c9c2a674dd768338b520a7a86525da8bf97015d755b7e",
+      "previewSha256": "a4883647be1a23f813f32768018cbfaf5239f51a89aadd29643ff3467aaeea14",
+      "legacyEvidence": "style-library/evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json"
+    }
+  },
+  {
+    "id": "A30",
+    "key": "archive-dossier",
+    "oldName": "档案卷宗",
+    "oldFamily": "编辑与信息印刷",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F03",
+    "familyName": "编辑出版",
+    "newName": "档案索引与交叉引用",
+    "componentKind": "信息组织",
+    "reason": "来源页、页签和引用是整理证据的方式，可被编辑、拼贴或界面画风共同使用。",
+    "preserve": "档案页签、引用线索与证据区分实现",
+    "extract": [
+      "档案索引",
+      "交叉引用"
+    ],
+    "boundary": "来源和解释示意仍分别标明，组件不自动提供证据真实性。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "来源页、页签和交叉引用组织材料，真实证据与解释示意分开标明",
+    "oldProfiles": {
+      "layout": "L04",
+      "motion": "M03",
+      "editing": "E09",
+      "sound": "S03"
+    },
+    "preview": "style-library/previews/archive-dossier.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/archive-dossier/index.html",
+      "look": "style-library/templates/archive-dossier/assets/look.js",
+      "preview": "style-library/previews/archive-dossier.jpg",
+      "templateSha256": "032792ed47c426c7a83042ec90f2ec1bf33cec87ab8f543f09134f0a8a22a8e6",
+      "lookSha256": "7a743b3c86dfad70a3b95b705405d836f8c451a404fd0d319aab16f02fc3f70d",
+      "previewSha256": "502fe00b0c08063d6cf27e28d0d07b4073469ebdc104aadd5d52e7ff3e397c13",
+      "legacyEvidence": "style-library/evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json"
+    }
+  },
+  {
+    "id": "A31",
+    "key": "photo-book",
+    "oldName": "摄影画册",
+    "oldFamily": "编辑与信息印刷",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F03",
+    "familyName": "编辑出版",
+    "newName": "摄影画册展陈",
+    "componentKind": "排版与构图",
+    "reason": "大图、跨页与短图注是一组展陈排版，可承载摄影、油画或插画。",
+    "preserve": "画册留白、大幅图像与图注实现",
+    "extract": [
+      "大图展陈",
+      "跨页"
+    ],
+    "boundary": "保留看清图片的停留，不能统一套翻页动作。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "大幅照片、跨页留白与简短图注，镜头停留为看清照片服务",
+    "oldProfiles": {
+      "layout": "L02",
+      "motion": "M03",
+      "editing": "E08",
+      "sound": "S10"
+    },
+    "preview": "style-library/previews/photo-book.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/photo-book/index.html",
+      "look": "style-library/templates/photo-book/assets/look.js",
+      "preview": "style-library/previews/photo-book.jpg",
+      "templateSha256": "4f99c26478e84a85e8985142f4bb4c3c52df169bf080b22ce5fad635a46fdbc9",
+      "lookSha256": "4d7e4ce312ee21338c5791f9d9475c21677134f6d2f910e7620051fee09695ae",
+      "previewSha256": "aef04b6eb177e90777ae216e702641fc9de259d8c61b474e649c99691cefa2ed",
+      "legacyEvidence": "style-library/evidence/production-20261020-a31-a34-a39-a40-a41-a42-a59-a60.json"
+    }
+  },
+  {
+    "id": "A32",
+    "key": "dictionary-entry",
+    "oldName": "字典辞条",
+    "oldFamily": "编辑与信息印刷",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F03",
+    "familyName": "编辑出版",
+    "newName": "术语释义条目",
+    "componentKind": "信息组织",
+    "reason": "术语、定义、例子与小图是一种知识结构，不限制色彩、线条或材料。",
+    "preserve": "辞条层级、释义与例图展开实现",
+    "extract": [
+      "定义展开"
+    ],
+    "boundary": "仅在内容确实需要解释术语时使用，不强行把所有句子改成辞典。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "术语、释义、例子和对应小图形成可查阅条目，重点由定义展开",
+    "oldProfiles": {
+      "layout": "L03",
+      "motion": "M04",
+      "editing": "E03",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/dictionary-entry.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/dictionary-entry/index.html",
+      "look": "style-library/templates/dictionary-entry/assets/look.js",
+      "preview": "style-library/previews/dictionary-entry.jpg",
+      "templateSha256": "0689bad79309081a4195876dcf9a3d7d2bee852b253a8d417a31faf75d3da648",
+      "lookSha256": "f0470fd257803875344f95e7efc1b93dcaa794bc80cc7c5dcdc42443b70287d2",
+      "previewSha256": "48fafdec31fae3258e7b0b512957507d123da505e112d2c7e89b90a13b1bf4c1",
+      "legacyEvidence": "style-library/evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json"
+    }
+  },
+  {
+    "id": "A33",
+    "key": "lab-notebook",
+    "oldName": "实验记录",
+    "oldFamily": "编辑与信息印刷",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F03",
+    "familyName": "编辑出版",
+    "newName": "步骤—观察—结论",
+    "componentKind": "信息组织",
+    "reason": "实验记录的核心是三类信息的组织和推导，不是独立画风。",
+    "preserve": "步骤、观察区与结论区实现",
+    "extract": [
+      "观察记录"
+    ],
+    "boundary": "量尺、实验数据和步骤结果须有来源或明确标成示意。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "步骤、观察和结论分别落在记录区，量尺及数据仅在有来源时出现",
+    "oldProfiles": {
+      "layout": "L07",
+      "motion": "M06",
+      "editing": "E03",
+      "sound": "S04"
+    },
+    "preview": "style-library/previews/lab-notebook.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/lab-notebook/index.html",
+      "look": "style-library/templates/lab-notebook/assets/look.js",
+      "preview": "style-library/previews/lab-notebook.jpg",
+      "templateSha256": "33cf753b7437132d000452ee2338be7535427061aa122a9131fc8f4319d103b3",
+      "lookSha256": "30cf12dc9ad941d7fc4eb2be725f500b36f9f794c9a07d4223f0c5489be2435b",
+      "previewSha256": "9784f6af36fb109bb17041eae1eb29583e91cdacfbfd0f104ca77ffad8260996",
+      "legacyEvidence": "style-library/evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json"
+    }
+  },
+  {
+    "id": "A34",
+    "key": "timeline-almanac",
+    "oldName": "时间轴年鉴",
+    "oldFamily": "编辑与信息印刷",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F03",
+    "familyName": "编辑出版",
+    "newName": "时间轴与事件索引",
+    "componentKind": "信息组织",
+    "reason": "时间带是一种按时间组织内容的结构，可以使用任何适合的画风。",
+    "preserve": "时间带、节点及事件对应实现",
+    "extract": [
+      "时间轴"
+    ],
+    "boundary": "只在确有先后关系时使用；并列建议不应被画成时间顺序。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "以可核对的日期或时间点、事件组成时间带；本例明确采用口播视频分秒，未来节点不冒充已经发生的历史",
+    "oldProfiles": {
+      "layout": "L11",
+      "motion": "M03",
+      "editing": "E09",
+      "sound": "S10"
+    },
+    "preview": "style-library/previews/timeline-almanac.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/timeline-almanac/index.html",
+      "look": "style-library/templates/timeline-almanac/assets/look.js",
+      "preview": "style-library/previews/timeline-almanac.jpg",
+      "templateSha256": "337cd2165298d9e829b2aaf9a9d424c282989d308e588715aa8d50911acd5ea7",
+      "lookSha256": "963afbcc1a8c152194163cb4ba68533f53c5373e780ad64b2027420fc64f1713",
+      "previewSha256": "f210cfa9362c83951dc7f0a3b7aa3874bcf21579d6215e6a55f2e053397a4f32",
+      "legacyEvidence": "style-library/evidence/production-20261020-a31-a34-a39-a40-a41-a42-a59-a60.json"
+    }
+  },
+  {
+    "id": "A35",
+    "key": "swiss-grid",
+    "oldName": "瑞士网格",
+    "oldFamily": "字体与现代平面",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F02",
+    "familyName": "现代几何平面",
+    "newName": "非对称网格排版",
+    "componentKind": "排版与构图",
+    "reason": "对齐、栏宽、字距与非对称网格是跨画风可复用的组织规则；原名称的历史含义保留在备注。",
+    "preserve": "现有网格、对齐和字距实现",
+    "extract": [
+      "非对称网格"
+    ],
+    "boundary": "瑞士设计作为历史风格不被否定；本库这一项以排版能力为主。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "严密网格、非对称排印和字距控制，以对齐而非容器形成秩序",
+    "oldProfiles": {
+      "layout": "L03",
+      "motion": "M04",
+      "editing": "E01",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/swiss-grid.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/swiss-grid/index.html",
+      "look": "style-library/templates/swiss-grid/assets/look.js",
+      "preview": "style-library/previews/swiss-grid.jpg",
+      "templateSha256": "03c09e7b9722aaaa3df17d04f2e91b000a94b3fcfe05db989646bceece87c28d",
+      "lookSha256": "061b53948e24d3c47486f7a59d16f7f8d1026b869814e3373d21ae5fc78c80f2",
+      "previewSha256": "9a89045f4f790d9e65f74833cb45bb7b377a9d3315accad7fdf2246231ee36f1",
+      "legacyEvidence": "style-library/evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json"
+    }
+  },
+  {
+    "id": "A36",
+    "key": "constructivist",
+    "oldName": "构成主义",
+    "oldFamily": "字体与现代平面",
+    "oldStatus": "verified-video",
+    "action": "归为分支",
+    "familyId": "F02",
+    "familyName": "现代几何平面",
+    "newName": "构成主义几何",
+    "componentKind": null,
+    "reason": "斜向轴线、摄影碎片和张力尺度构成现代几何家族的独立分支。",
+    "preserve": "斜轴、摄影切片与几何张力实现",
+    "extract": [
+      "斜轴构图"
+    ],
+    "boundary": "分支地位不表示与其他几何预设等价，不借用政治口号。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "斜向轴线、摄影片段与几何张力组织观点；不借用历史政治口号",
+    "oldProfiles": {
+      "layout": "L06",
+      "motion": "M05",
+      "editing": "E05",
+      "sound": "S05"
+    },
+    "preview": "style-library/previews/constructivist.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/constructivist/index.html",
+      "look": "style-library/templates/constructivist/assets/look.js",
+      "preview": "style-library/previews/constructivist.jpg",
+      "templateSha256": "bfab42d32716aba93a3a703669e400e154bb938ca5bdd9c81f90a1cf28cd07ee",
+      "lookSha256": "ee144fbc4abd4d48fce43e67f99205c03b799507fc1af07119580a8096a8b6f8",
+      "previewSha256": "0eaf9c6d6ce67d0f6bdc908cdba993acc3f4be8c507b86964a6d4326e5d98ace",
+      "legacyEvidence": "style-library/evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json"
+    }
+  },
+  {
+    "id": "A37",
+    "key": "art-deco",
+    "oldName": "装饰艺术",
+    "oldFamily": "字体与现代平面",
+    "oldStatus": "verified-video",
+    "action": "归为分支",
+    "familyId": "F02",
+    "familyName": "现代几何平面",
+    "newName": "装饰艺术几何",
+    "componentKind": null,
+    "reason": "阶梯、对称与金属细节形成明确的几何分支，保留其与现代极简不同的秩序。",
+    "preserve": "阶梯几何、门框与金属细节实现",
+    "extract": [
+      "对称阶梯"
+    ],
+    "boundary": "不把装饰艺术简化成金色配色；对称与轮廓规则必须留下。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "阶梯几何、对称门框和金属细节营造秩序，段落像逐级展开的立面",
+    "oldProfiles": {
+      "layout": "L06",
+      "motion": "M12",
+      "editing": "E04",
+      "sound": "S07"
+    },
+    "preview": "style-library/previews/art-deco.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/art-deco/index.html",
+      "look": "style-library/templates/art-deco/assets/look.js",
+      "preview": "style-library/previews/art-deco.jpg",
+      "templateSha256": "b2bb5d2f7f08aee496319eefbed477f5f7a0f5b015a1fd575d98956297b85c51",
+      "lookSha256": "f9976fd5e9dd299f9abcf9da16be06b4beb22ecc10bb461d34f59cc24088de39",
+      "previewSha256": "51bbeb185ccc405ccf390d46f800521bb2c75a87d3de1ad6c1739cf929981de5",
+      "legacyEvidence": "style-library/evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json"
+    }
+  },
+  {
+    "id": "A38",
+    "key": "art-nouveau",
+    "oldName": "新艺术曲线",
+    "oldFamily": "字体与现代平面",
+    "oldStatus": "verified-video",
+    "action": "归为分支",
+    "familyId": "F06",
+    "familyName": "平面插画",
+    "newName": "新艺术有机装饰",
+    "componentKind": null,
+    "reason": "植物式曲线、有机轮廓与框架阅读路径形成平面插画的装饰分支。",
+    "preserve": "连续曲线、有机边缘与阅读框架实现",
+    "extract": [
+      "有机框架"
+    ],
+    "boundary": "它不是几何装饰艺术的换色版本，二者保留不同分支。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "植物式曲线、连贯边缘和有机框架构成阅读路径，不只贴花边",
+    "oldProfiles": {
+      "layout": "L11",
+      "motion": "M06",
+      "editing": "E04",
+      "sound": "S07"
+    },
+    "preview": "style-library/previews/art-nouveau.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/art-nouveau/index.html",
+      "look": "style-library/templates/art-nouveau/assets/look.js",
+      "preview": "style-library/previews/art-nouveau.jpg",
+      "templateSha256": "9982e1b76a5970641767815b90a92d4b697ff1715ff32b5e560e39dd6c70e22f",
+      "lookSha256": "4ab457892f858ae47a1de60d2feabf0566b21e87b0e9b10c0b53047506e47e2f",
+      "previewSha256": "c47bcb8f0df4ba1c6fc6df2a2275f5fcb1ece9bfe32f693a6de724717d3795ce",
+      "legacyEvidence": "style-library/evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json"
+    }
+  },
+  {
+    "id": "A39",
+    "key": "memphis",
+    "oldName": "孟菲斯几何",
+    "oldFamily": "字体与现代平面",
+    "oldStatus": "verified-video",
+    "action": "归为分支",
+    "familyId": "F02",
+    "familyName": "现代几何平面",
+    "newName": "孟菲斯几何",
+    "componentKind": null,
+    "reason": "错位尺度、制衡纹样和轻快物件感构成几何平面的活泼分支。",
+    "preserve": "几何纹样、错位比例与稳定正文底面实现",
+    "extract": [
+      "错位纹样"
+    ],
+    "boundary": "纹样不得进入人物或压低正文对比。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "互相制衡的几何纹样、错位尺度与轻快物件感，正文仍有稳定底面",
+    "oldProfiles": {
+      "layout": "L06",
+      "motion": "M05",
+      "editing": "E04",
+      "sound": "S05"
+    },
+    "preview": "style-library/previews/memphis.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/memphis/index.html",
+      "look": "style-library/templates/memphis/assets/look.js",
+      "preview": "style-library/previews/memphis.jpg",
+      "templateSha256": "e904224affff8e516051c3bdc3188c2c10907d70f20004012b41cb42ff8e6ef7",
+      "lookSha256": "fd1c1c0c6c35f7ab59845a6d7f414d89b433ea6c4dcb3e531f32c5df5e54070e",
+      "previewSha256": "fd2be869ac385e39342f32e85f8f98319681a09f8da1960fd8e6c775a2ece10d",
+      "legacyEvidence": "style-library/evidence/production-20261020-a31-a34-a39-a40-a41-a42-a59-a60.json"
+    }
+  },
+  {
+    "id": "A40",
+    "key": "brutalist-type",
+    "oldName": "粗野排印",
+    "oldFamily": "字体与现代平面",
+    "oldStatus": "verified-video",
+    "action": "归为分支",
+    "familyId": "F02",
+    "familyName": "现代几何平面",
+    "newName": "粗野排印",
+    "componentKind": null,
+    "reason": "暴露网格、强字重、粗线与直接结构形成整体语气；比单独巨字组件更完整。",
+    "preserve": "粗网格、强字重与未修饰结构实现",
+    "extract": [
+      "强字重",
+      "暴露网格"
+    ],
+    "boundary": "不与巨字海报直接判重：一个是整套语气，一个是阅读尺度工具。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "直接暴露网格和强字重，以粗线和不修饰的结构承载冲突观点",
+    "oldProfiles": {
+      "layout": "L05",
+      "motion": "M04",
+      "editing": "E01",
+      "sound": "S05"
+    },
+    "preview": "style-library/previews/brutalist-type.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/brutalist-type/index.html",
+      "look": "style-library/templates/brutalist-type/assets/look.js",
+      "preview": "style-library/previews/brutalist-type.jpg",
+      "templateSha256": "e640a2cfd97408ae02843f71fc47cbc0e87686955130e0009e57137c66c72e19",
+      "lookSha256": "bd3010fc53cf9d4bd5dd4b32dc434cfd15329d5eb02267b324463d2e870a4155",
+      "previewSha256": "c4665bf5638a4794647cf6d2292bfdc5436a43bfc556ebf842475c4b95d2cc75",
+      "legacyEvidence": "style-library/evidence/production-20261020-a31-a34-a39-a40-a41-a42-a59-a60.json"
+    }
+  },
+  {
+    "id": "A41",
+    "key": "optical-graphic",
+    "oldName": "动势错视",
+    "oldFamily": "字体与现代平面",
+    "oldStatus": "verified-video",
+    "action": "归为分支",
+    "familyId": "F02",
+    "familyName": "现代几何平面",
+    "newName": "图底错视",
+    "componentKind": null,
+    "reason": "稳定的图底反转和方向错觉构成几何平面的特定分支，而非通用背景。",
+    "preserve": "粗尺度黑白错视与图底实现",
+    "extract": [
+      "图底错视"
+    ],
+    "boundary": "不采用高频闪烁；错视退让于正文阅读。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "粗尺度黑白图底产生静态方向错觉；不使用高频闪烁或细密频闪纹",
+    "oldProfiles": {
+      "layout": "L06",
+      "motion": "M05",
+      "editing": "E06",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/optical-graphic.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/optical-graphic/index.html",
+      "look": "style-library/templates/optical-graphic/assets/look.js",
+      "preview": "style-library/previews/optical-graphic.jpg",
+      "templateSha256": "6394d7d90ddc2c296cc2c7ab05d2595bde950b7019ecb549d639fa611f1b0761",
+      "lookSha256": "1dabe25e120539f6e5c2126d895e638fae051ee5905a41070385003fcbe604ca",
+      "previewSha256": "8c15d4b5c31c59a7c39b05a992b4f6519127f35fbcec1ce9a8782b1876998cd7",
+      "legacyEvidence": "style-library/evidence/production-20261020-a31-a34-a39-a40-a41-a42-a59-a60.json"
+    }
+  },
+  {
+    "id": "A42",
+    "key": "negative-space",
+    "oldName": "负空间图形",
+    "oldFamily": "字体与现代平面",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F02",
+    "familyName": "现代几何平面",
+    "newName": "负空间揭示",
+    "componentKind": "排版与构图",
+    "reason": "借空白形成第二层意义是图底构图技法，可用于标志、插画或文字。",
+    "preserve": "负形轮廓和图底依次辨认实现",
+    "extract": [
+      "负空间"
+    ],
+    "boundary": "只有空白确实承载含义时使用，不用无关图形谜题打断口播。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "借轮廓之间留下的空白显示另一层意义，图与底依次被辨认",
+    "oldProfiles": {
+      "layout": "L06",
+      "motion": "M05",
+      "editing": "E04",
+      "sound": "S07"
+    },
+    "preview": "style-library/previews/negative-space.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/negative-space/index.html",
+      "look": "style-library/templates/negative-space/assets/look.js",
+      "preview": "style-library/previews/negative-space.jpg",
+      "templateSha256": "457aa5ba8f0de7939d985ca00ae84dc66eacf926ec6fe5115687e8c3b36ea9be",
+      "lookSha256": "59bca8bec89dc619e49165a7d65af70abfb5d01c6dd32c75a306130c1204c71b",
+      "previewSha256": "db42b307d621775d0e48d1d379cc1ceb5bf8782c5670f0f61afa0b019e29725c",
+      "legacyEvidence": "style-library/evidence/production-20261020-a31-a34-a39-a40-a41-a42-a59-a60.json"
+    }
+  },
+  {
+    "id": "A43",
+    "key": "pencil-sketch",
+    "oldName": "铅笔素描",
+    "oldFamily": "手绘与书写",
+    "oldStatus": "verified-video",
+    "action": "归为分支",
+    "familyId": "F05",
+    "familyName": "线描与素描",
+    "newName": "铅笔素描",
+    "componentKind": null,
+    "reason": "石墨灰阶、结构线和排线塑造体积，是线描家族的素描分支。",
+    "preserve": "石墨图形、结构线与区域显现实现",
+    "extract": [
+      "石墨笔触"
+    ],
+    "boundary": "区域显现不是逐笔绘制，不夸大笔顺模拟能力。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "石墨灰阶、细排线与结构辅助线建立体积，原始透明概念图按局部区域建立后停稳；不伪称真实笔顺",
+    "oldProfiles": {
+      "layout": "L07",
+      "motion": "M06",
+      "editing": "E02",
+      "sound": "S04"
+    },
+    "preview": "style-library/previews/pencil-sketch.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/pencil-sketch/index.html",
+      "look": "style-library/templates/pencil-sketch/assets/look.js",
+      "preview": "style-library/previews/pencil-sketch.jpg",
+      "templateSha256": "1a427a643194785adfd5386668f6050b0c94bb21ba702ea17c739c94441bb423",
+      "lookSha256": "277cddcdc2127d12207ab26b9ebf726c5bf9f33d419451dad4be74e374c5d4f0",
+      "previewSha256": "d65510ecf51227ae7061599071deba8ac360c866f599071615245ca7786051a9",
+      "legacyEvidence": "style-library/evidence/production-20261020-a43-a44-a45-a46-a47-a48-a49-a50.json"
+    }
+  },
+  {
+    "id": "A44",
+    "key": "colored-pencil",
+    "oldName": "彩铅笔记",
+    "oldFamily": "手绘与书写",
+    "oldStatus": "verified-video",
+    "action": "归为分支",
+    "familyId": "F05",
+    "familyName": "线描与素描",
+    "newName": "彩铅笔记",
+    "componentKind": null,
+    "reason": "彩色细线、纸白与笔记式注释构成线描家族的彩铅分支。",
+    "preserve": "彩铅图形与错峰注释实现",
+    "extract": [
+      "彩铅",
+      "旁注"
+    ],
+    "boundary": "纸白和线层关系保留，不能用统一彩色滤镜替代。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "细彩色线交叠、纸白间隙、笔记页与文楷图注；图像区域和注释错开显现",
+    "oldProfiles": {
+      "layout": "L03",
+      "motion": "M06",
+      "editing": "E03",
+      "sound": "S04"
+    },
+    "preview": "style-library/previews/colored-pencil.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/colored-pencil/index.html",
+      "look": "style-library/templates/colored-pencil/assets/look.js",
+      "preview": "style-library/previews/colored-pencil.jpg",
+      "templateSha256": "e6c0bf0f25b9dcf392dabeec78fb36eaee040fc8cf48404e1efaeea1dd2ed023",
+      "lookSha256": "7829f96bcd71fe2b94c9ccd8050ad0001c00be61793562ea639a03811823634f",
+      "previewSha256": "4e876bff0a464d1a09cf60aa994520dd9c183395fcb4cd926bd768e456758afe",
+      "legacyEvidence": "style-library/evidence/production-20261020-a43-a44-a45-a46-a47-a48-a49-a50.json"
+    }
+  },
+  {
+    "id": "A45",
+    "key": "charcoal",
+    "oldName": "炭笔擦绘",
+    "oldFamily": "手绘与书写",
+    "oldStatus": "verified-video",
+    "action": "归为分支",
+    "familyId": "F05",
+    "familyName": "线描与素描",
+    "newName": "炭笔擦绘",
+    "componentKind": null,
+    "reason": "失边炭迹和擦出的白面形成粗犷素描分支，与细钢笔排线不同。",
+    "preserve": "炭迹、灰纸与局部擦除实现",
+    "extract": [
+      "炭迹",
+      "擦白"
+    ],
+    "boundary": "擦除只在解释区域，不能覆盖人物或造成无意义闪动。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "宽幅松散炭迹、失边与擦出的白面构成形体；不透明灰纸仅在解释区擦除换图",
+    "oldProfiles": {
+      "layout": "L02",
+      "motion": "M07",
+      "editing": "E05",
+      "sound": "S04"
+    },
+    "preview": "style-library/previews/charcoal.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/charcoal/index.html",
+      "look": "style-library/templates/charcoal/assets/look.js",
+      "preview": "style-library/previews/charcoal.jpg",
+      "templateSha256": "984277d10d9e5207167e6e19918bbeb23bd0220c91f4cd310bac324c18af376f",
+      "lookSha256": "e06f85e7777b9736000aa406e9d90a36a016dd3283592f2be77b8ff62667c2ef",
+      "previewSha256": "5fb32a999801958b550b3ec6221cd0a7e354d3681c7d105d87d57faaa76e09a3",
+      "legacyEvidence": "style-library/evidence/production-20261020-a43-a44-a45-a46-a47-a48-a49-a50.json"
+    }
+  },
+  {
+    "id": "A46",
+    "key": "pen-hatching",
+    "oldName": "钢笔排线",
+    "oldFamily": "手绘与书写",
+    "oldStatus": "verified-video",
+    "action": "归为分支",
+    "familyId": "F05",
+    "familyName": "线描与素描",
+    "newName": "钢笔排线",
+    "componentKind": null,
+    "reason": "稀疏黑线、交叉排线和大块纸白形成线描分支；不与密集铜版刻线判重。",
+    "preserve": "钢笔轮廓、疏排线与区域建立实现",
+    "extract": [
+      "疏排线"
+    ],
+    "boundary": "与蚀刻共享线条工具不等于画面等价，灰调和线密度分别保留。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "清楚而稀疏的黑色平行与交叉排线、细轮廓和大块纸白，与密集版画刻线区分；分区域建立",
+    "oldProfiles": {
+      "layout": "L07",
+      "motion": "M06",
+      "editing": "E02",
+      "sound": "S04"
+    },
+    "preview": "style-library/previews/pen-hatching.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/pen-hatching/index.html",
+      "look": "style-library/templates/pen-hatching/assets/look.js",
+      "preview": "style-library/previews/pen-hatching.jpg",
+      "templateSha256": "fd5d59c68f80e1488ceb50985c0e2335fd0df68355c2e383c67a320c54a87ab0",
+      "lookSha256": "d4bf339155410432cfd981754aec542a0d4875652941fb41fbf9657b720ca84c",
+      "previewSha256": "8dfb17affaa9fb3bfcd103f0fe9e8f5098a12643b935510be9dff019f23e29a4",
+      "legacyEvidence": "style-library/evidence/production-20261020-a43-a44-a45-a46-a47-a48-a49-a50.json"
+    }
+  },
+  {
+    "id": "A47",
+    "key": "wax-crayon",
+    "oldName": "蜡笔涂绘",
+    "oldFamily": "手绘与书写",
+    "oldStatus": "verified-video",
+    "action": "归为分支",
+    "familyId": "F06",
+    "familyName": "平面插画",
+    "newName": "蜡笔平涂",
+    "componentKind": null,
+    "reason": "明快蜡色、断线与纸白孔隙形成具象插画的粗笔分支。",
+    "preserve": "蜡色物件、粗断线与底块实现",
+    "extract": [
+      "蜡色",
+      "纸白孔隙"
+    ],
+    "boundary": "有限姿态显现不等于逐笔手作录像。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "明快蜡色、粗断线和纸白孔隙组成图形；并列比较用双底块，三项概览用整体底面，有限步显现",
+    "oldProfiles": {
+      "layout": "L09",
+      "motion": "M08",
+      "editing": "E07",
+      "sound": "S06"
+    },
+    "preview": "style-library/previews/wax-crayon.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/wax-crayon/index.html",
+      "look": "style-library/templates/wax-crayon/assets/look.js",
+      "preview": "style-library/previews/wax-crayon.jpg",
+      "templateSha256": "a19a55f9e59d3018780227c03074fc9fcdf6e702d225a2acb8ab8f1aa021d7fb",
+      "lookSha256": "2942ebbb271449554c4330e0db9d2c656f6cbc7ef3cd5222554d6baa1bbeef8f",
+      "previewSha256": "3852e52e83611aa248a81851f603e353f4867b62e00a01101e2aa6cd9483804f",
+      "legacyEvidence": "style-library/evidence/production-20261020-a43-a44-a45-a46-a47-a48-a49-a50.json"
+    }
+  },
+  {
+    "id": "A48",
+    "key": "soft-pastel",
+    "oldName": "粉彩晕染",
+    "oldFamily": "手绘与书写",
+    "oldStatus": "verified-video",
+    "action": "归为分支",
+    "familyId": "F06",
+    "familyName": "平面插画",
+    "newName": "粉彩绘制",
+    "componentKind": null,
+    "reason": "不透明粉状色面、纸齿和柔边形成平面插画分支，与透明水彩分开。",
+    "preserve": "粉彩物件、纸齿和柔和显现实现",
+    "extract": [
+      "粉彩",
+      "柔边"
+    ],
+    "boundary": "不因都柔和就并入水彩，透明度与覆盖关系仍不同。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "粉状不透明色面、纸齿和柔边描绘物件，以柔和区域显现保持材质；人物与文字清晰",
+    "oldProfiles": {
+      "layout": "L02",
+      "motion": "M11",
+      "editing": "E08",
+      "sound": "S07"
+    },
+    "preview": "style-library/previews/soft-pastel.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/soft-pastel/index.html",
+      "look": "style-library/templates/soft-pastel/assets/look.js",
+      "preview": "style-library/previews/soft-pastel.jpg",
+      "templateSha256": "76eeb72503e0e82938bcceb62aa9a7aef83026c1e8b55c9adf41d6d39a734017",
+      "lookSha256": "3caa3afbedf6b3bdcdc20616bd7a9ad79029c4d38a71be315c022eb72b9b7a5b",
+      "previewSha256": "3812f1252fbb38252535d3d96623b4e36c0b225af644ecfbae9d2921ec20cb7a",
+      "legacyEvidence": "style-library/evidence/production-20261020-a43-a44-a45-a46-a47-a48-a49-a50.json"
+    }
+  },
+  {
+    "id": "A49",
+    "key": "marker-sketch",
+    "oldName": "记号笔速写",
+    "oldFamily": "手绘与书写",
+    "oldStatus": "verified-video",
+    "action": "归为分支",
+    "familyId": "F05",
+    "familyName": "线描与素描",
+    "newName": "记号笔速写",
+    "componentKind": null,
+    "reason": "宽笔叠色、高光留白和粗细轮廓形成速写分支，保留有方向的笔带。",
+    "preserve": "记号笔物件及分组显现实现",
+    "extract": [
+      "宽笔叠色"
+    ],
+    "boundary": "不是所有对象统一变粗边；笔带方向应服务造型。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "有方向的宽笔叠色带、留白高光和粗细轮廓体现速写；色面分组显现而非统一滤镜",
+    "oldProfiles": {
+      "layout": "L07",
+      "motion": "M06",
+      "editing": "E04",
+      "sound": "S04"
+    },
+    "preview": "style-library/previews/marker-sketch.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/marker-sketch/index.html",
+      "look": "style-library/templates/marker-sketch/assets/look.js",
+      "preview": "style-library/previews/marker-sketch.jpg",
+      "templateSha256": "9aa910efdef435829dfdb58dfb1762f3050dc83f9eee621da2bfcd3057f581f7",
+      "lookSha256": "86b7532f50f1355a987b4eb0be6192eb006aaf3306c4ef16d6f597b92b3c6e4a",
+      "previewSha256": "359d0f128dcf893e8033e085b4f680a17609ec6ce2015d06bb3b5bd361de463f",
+      "legacyEvidence": "style-library/evidence/production-20261020-a43-a44-a45-a46-a47-a48-a49-a50.json"
+    }
+  },
+  {
+    "id": "A50",
+    "key": "brush-lettering",
+    "oldName": "刷笔字形",
+    "oldFamily": "手绘与书写",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F05",
+    "familyName": "线描与素描",
+    "newName": "刷笔短标题",
+    "componentKind": "字体与字形",
+    "reason": "真实毛笔字体、整词显现和辅助正字属于字体表达能力，可用于水墨或现代平面。",
+    "preserve": "本地刷笔字体、整词显现与清晰辅助字实现",
+    "extract": [
+      "刷笔标题"
+    ],
+    "boundary": "现有实现没有真实笔顺动画，不把整词显现说成书法书写。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "真实毛笔字体的短词、压力形态笔势与大片留白；整词显现，辅助字随后进入，字幕用清晰正字",
+    "oldProfiles": {
+      "layout": "L05",
+      "motion": "M06",
+      "editing": "E04",
+      "sound": "S07"
+    },
+    "preview": "style-library/previews/brush-lettering.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/brush-lettering/index.html",
+      "look": "style-library/templates/brush-lettering/assets/look.js",
+      "preview": "style-library/previews/brush-lettering.jpg",
+      "templateSha256": "d142dc1bc96e262de5d18bb4df4e922a550273c9d25476b6c3bd8173e9928337",
+      "lookSha256": "83a7e59cb613b2e577a9158b947ec0ae688ea47e14f8ea3db30e4fe9cb96c2f1",
+      "previewSha256": "cd2f8521eff2f4f68cb1b75559e3fd127c1e504419ef960a53067d2c7801fed4",
+      "legacyEvidence": "style-library/evidence/production-20261020-a43-a44-a45-a46-a47-a48-a49-a50.json"
+    }
+  },
+  {
+    "id": "A51",
+    "key": "picture-book",
+    "oldName": "儿童绘本",
+    "oldFamily": "插画与叙事",
+    "oldStatus": "verified-video",
+    "action": "归为分支",
+    "familyId": "F06",
+    "familyName": "平面插画",
+    "newName": "绘本叙事插画",
+    "componentKind": null,
+    "reason": "连续水粉场景、路径和物件身份形成具象插画的绘本分支；并非必须面向儿童。",
+    "preserve": "绘本场景、同一路径与页外短句实现",
+    "extract": [
+      "连续场景"
+    ],
+    "boundary": "保留水粉场景特征，但图中物件不能自动沿用到新文案。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "连续水粉故事场景横跨书页，同一条路径与物件维持空间；按讲述作有限位的画面聚焦，页外留短句",
+    "oldProfiles": {
+      "layout": "L09",
+      "motion": "M13",
+      "editing": "E07",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/picture-book.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/picture-book/index.html",
+      "look": "style-library/templates/picture-book/assets/look.js",
+      "preview": "style-library/previews/picture-book.jpg",
+      "templateSha256": "492147e76e82735b3ce4c197561d47ccbca140f60e36ef9ffcbbb40f5816cf27",
+      "lookSha256": "b823269b47869f63b69e73312869eeb683711c662f2e43dc302ebdaf46c0b45d",
+      "previewSha256": "dc7ea34883c8bdda1bbfc488dd7421dcb566fa594a450c22abe91fafbba59774",
+      "legacyEvidence": "style-library/evidence/production-20261020-a51-a52-a53-a54-a55-a56-a57-a61.json"
+    }
+  },
+  {
+    "id": "A52",
+    "key": "natural-history",
+    "oldName": "科学博物插画",
+    "oldFamily": "插画与叙事",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F06",
+    "familyName": "平面插画",
+    "newName": "观察图版与局部引线",
+    "componentKind": "图解",
+    "reason": "主物件、同源放大和细引线是一种观察图版结构，摄影和模型也能使用。",
+    "preserve": "博物图版式排布、局部窗与引线实现",
+    "extract": [
+      "观察图版"
+    ],
+    "boundary": "原AI日常物件是类比，不升级为真实科学图或测量依据。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "借用博物观察图版的主物件、同源像素局部圆窗与细引线；本片AI日常物件类比，不宣称物种或真实科学测量",
+    "oldProfiles": {
+      "layout": "L14",
+      "motion": "M01",
+      "editing": "E02",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/natural-history.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/natural-history/index.html",
+      "look": "style-library/templates/natural-history/assets/look.js",
+      "preview": "style-library/previews/natural-history.jpg",
+      "templateSha256": "8af9b17fa9b46e835156fc0776cd5c29da7075858466450610bf87d24ab14ae5",
+      "lookSha256": "15162932673c17ddf694620d7f1166126020b173ff5968deb65323cab4ca4400",
+      "previewSha256": "e540f5b9e3df9a6243953a4a706b25a835d1405dc2a2532b86244978169412da",
+      "legacyEvidence": "style-library/evidence/production-20261020-a51-a52-a53-a54-a55-a56-a57-a61.json"
+    }
+  },
+  {
+    "id": "A53",
+    "key": "isometric-city",
+    "oldName": "等距城市插画",
+    "oldFamily": "插画与叙事",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F06",
+    "familyName": "平面插画",
+    "newName": "等距城市场景",
+    "componentKind": "镜头与场景",
+    "reason": "等距是投影方式，城市是题材；可供平面插画和立体造型复用。",
+    "preserve": "彩色等距街区、屋顶立面与节点聚焦实现",
+    "extract": [
+      "等距投影",
+      "城市场景"
+    ],
+    "boundary": "与白模不判重：共享投影，但场景与造型材料不同。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "原创彩色等距街区以完整屋顶、两侧立面、窗与道路组织三节点；当前节点加重，其他位置退为背景",
+    "oldProfiles": {
+      "layout": "L11",
+      "motion": "M01",
+      "editing": "E07",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/isometric-city.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/isometric-city/index.html",
+      "look": "style-library/templates/isometric-city/assets/look.js",
+      "preview": "style-library/previews/isometric-city.jpg",
+      "templateSha256": "dc237132cfd0e40750774dea6141cccf994c3a3d85a6c4e4252b977a1e2442b7",
+      "lookSha256": "b764e5d54412e8244ae856f17f618e881e5d66472c5fcd3e3ff71d492e708885",
+      "previewSha256": "f26d67c76edc24feae83b73188cc4d38fd725b4ec43a6caadbb604abfae01ab9",
+      "legacyEvidence": "style-library/evidence/production-20261020-a51-a52-a53-a54-a55-a56-a57-a61.json"
+    }
+  },
+  {
+    "id": "A54",
+    "key": "faceted-vector",
+    "oldName": "低多边形平涂",
+    "oldFamily": "插画与叙事",
+    "oldStatus": "verified-video",
+    "action": "归为分支",
+    "familyId": "F06",
+    "familyName": "平面插画",
+    "newName": "切面平涂插画",
+    "componentKind": null,
+    "reason": "二维多边形切面与硬边色组形成插画分支，不能与折纸厚边混为一谈。",
+    "preserve": "二维切面物件和面组显现实现",
+    "extract": [
+      "多边形切面"
+    ],
+    "boundary": "它没有纸厚或真实体积，不能当作三维模型或折纸模拟。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "有限硬边多边形色面塑造物件，面组逐层显现；无纸厚、纤维或光滑曲面，以二维切面区别折纸",
+    "oldProfiles": {
+      "layout": "L07",
+      "motion": "M01",
+      "editing": "E04",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/faceted-vector.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/faceted-vector/index.html",
+      "look": "style-library/templates/faceted-vector/assets/look.js",
+      "preview": "style-library/previews/faceted-vector.jpg",
+      "templateSha256": "822913456a0e13caa0bcba82a2942a9d2944d3fb305eec97d167cc9eda202dd0",
+      "lookSha256": "dbeb7515d389a9bde1098ed0e84d7c61c16c9d4dc71341a86d9f47f63ca23849",
+      "previewSha256": "4b22ba83a06a8f46104c45042241a49d027fe736dc7b091b5352d859fd16f2a4",
+      "legacyEvidence": "style-library/evidence/production-20261020-a51-a52-a53-a54-a55-a56-a57-a61.json"
+    }
+  },
+  {
+    "id": "A55",
+    "key": "editorial-metaphor",
+    "oldName": "讽刺社论插画",
+    "oldFamily": "插画与叙事",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F06",
+    "familyName": "平面插画",
+    "newName": "夸张视觉比喻",
+    "componentKind": "叙事策略",
+    "reason": "大小反差和对象替代是一种修辞与解释策略，不规定插画、摄影或模型媒介。",
+    "preserve": "原夸张比喻素材、整体与局部聚焦实现",
+    "extract": [
+      "视觉比喻"
+    ],
+    "boundary": "旧消费袋、本金和砝码只属于财经案例，新文案须重做比喻。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "巨大消费袋、小本金与沉重砝码形成一个夸张的视觉比喻；完整关系与局部聚焦交替，明确AI示意身份",
+    "oldProfiles": {
+      "layout": "L09",
+      "motion": "M13",
+      "editing": "E07",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/editorial-metaphor.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/editorial-metaphor/index.html",
+      "look": "style-library/templates/editorial-metaphor/assets/look.js",
+      "preview": "style-library/previews/editorial-metaphor.jpg",
+      "templateSha256": "9bea832d0eecb091926d03766dd0a45834c946d77666b1b5bc05e53781ad4683",
+      "lookSha256": "37ac00dc3838fcdea5d1b3caa5a3cf81ee56e765249123e7b5d63f46447b06d8",
+      "previewSha256": "8d257db28afec7ee62f330e67268c2472110a7329cdaa9ae0e8301d693712de9",
+      "legacyEvidence": "style-library/evidence/production-20261020-a51-a52-a53-a54-a55-a56-a57-a61.json"
+    }
+  },
+  {
+    "id": "A56",
+    "key": "silhouette-fable",
+    "oldName": "剪影寓言",
+    "oldFamily": "插画与叙事",
+    "oldStatus": "verified-video",
+    "action": "归为分支",
+    "familyId": "F06",
+    "familyName": "平面插画",
+    "newName": "剪影叙事",
+    "componentKind": null,
+    "reason": "背光、轮廓、孔洞及明度层形成插画的剪影分支，独立于具体寓言题材。",
+    "preserve": "剪影物件、背光层与拱形舞台实现",
+    "extract": [
+      "剪影",
+      "背光层"
+    ],
+    "boundary": "剪影只作用于图解，真人保持原色摄影层。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "拱形背光舞台、少色明度层、轮廓与孔洞讲述；大字独立于亮幕，原色人物在外层伴随",
+    "oldProfiles": {
+      "layout": "L09",
+      "motion": "M01",
+      "editing": "E07",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/silhouette-fable.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/silhouette-fable/index.html",
+      "look": "style-library/templates/silhouette-fable/assets/look.js",
+      "preview": "style-library/previews/silhouette-fable.jpg",
+      "templateSha256": "f1db8b86907425e3beca5ec0edf11a672d9e7b239abc2f5c2efea6bc6345cdf1",
+      "lookSha256": "c63ff800ee70d7cc03680ec2086a367c62ec9cb6722c91785688bfc86b33913c",
+      "previewSha256": "cc30e77baf6073407563a0ae2ece844f71fb6bfaf4d398e465e5abad51c6b7bd",
+      "legacyEvidence": "style-library/evidence/production-20261020-a51-a52-a53-a54-a55-a56-a57-a61.json"
+    }
+  },
+  {
+    "id": "A57",
+    "key": "illustrated-map",
+    "oldName": "地图旅行插画",
+    "oldFamily": "插画与叙事",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F06",
+    "familyName": "平面插画",
+    "newName": "路线地图",
+    "componentKind": "信息组织",
+    "reason": "地形、路线和站点用于维持位置记忆，是空间化信息结构，不是全片画风。",
+    "preserve": "原创示意地图、路线和站点聚焦实现",
+    "extract": [
+      "路线地图"
+    ],
+    "boundary": "现有地图不是实际地理；无路径关系的并列项不强行串成旅程。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "非真实地理的选择示意地图，以有机地形、河流、路线与三站保持空间记忆；按口播显现并聚焦节点",
+    "oldProfiles": {
+      "layout": "L11",
+      "motion": "M01",
+      "editing": "E04",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/illustrated-map.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/illustrated-map/index.html",
+      "look": "style-library/templates/illustrated-map/assets/look.js",
+      "preview": "style-library/previews/illustrated-map.jpg",
+      "templateSha256": "9740e0e6912d07df93cc5851253c4ee78214b988f30fadefdcc25e8fd683f2fa",
+      "lookSha256": "680d382a5f49d5dca4ac14877eb59ca798e80b4a0324ac7ccfe5845dbea2c2f9",
+      "previewSha256": "d509bb3f45baab1cac65e85e730ff1b65a1081ff2832ab57af9cb57f8047c0e4",
+      "legacyEvidence": "style-library/evidence/production-20261020-a51-a52-a53-a54-a55-a56-a57-a61.json"
+    }
+  },
+  {
+    "id": "A58",
+    "key": "origami",
+    "oldName": "折纸结构",
+    "oldFamily": "纸与纤维",
+    "oldStatus": "verified-video",
+    "action": "归为分支",
+    "familyId": "F13",
+    "familyName": "手工拼构",
+    "newName": "折纸造型",
+    "componentKind": null,
+    "reason": "折线、面与展开关系形成手工拼构中的折纸分支，保留其与剪纸的结构差异。",
+    "preserve": "折线、纸面结构与折合实现",
+    "extract": [
+      "折合关系"
+    ],
+    "boundary": "折合应解释部分与整体，不只作为通用换图效果。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "一张纸围绕折线形成可辨认结构，展开与折合解释部分和整体",
+    "oldProfiles": {
+      "layout": "L10",
+      "motion": "M09",
+      "editing": "E04",
+      "sound": "S03"
+    },
+    "preview": "style-library/previews/origami.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/origami/index.html",
+      "look": "style-library/templates/origami/assets/look.js",
+      "preview": "style-library/previews/origami.jpg",
+      "templateSha256": "cf49fd6a9aee9fb9b7297753cc8c5acb8f6ff73565696328337f320589793fe7",
+      "lookSha256": "87346e1134bf66dbf1a18379730574dd2e6107533725ecb69e3310afc1fd4af9",
+      "previewSha256": "95369bb28c6b5aed489756d0cdc08c8785a9f7a896020a5cf9053c56a63fc24b",
+      "legacyEvidence": "style-library/evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json"
+    }
+  },
+  {
+    "id": "A59",
+    "key": "pop-up-book",
+    "oldName": "立体书机关",
+    "oldFamily": "纸与纤维",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F13",
+    "familyName": "手工拼构",
+    "newName": "立体书铰链展开",
+    "componentKind": "动效机制",
+    "reason": "书脊、V形支撑与翻页是一套机械连接和转场机制，可以承载不同视觉内容。",
+    "preserve": "两页、铰链、支撑与局部翻页实现",
+    "extract": [
+      "铰链展开",
+      "局部翻页"
+    ],
+    "boundary": "现有机关模型继续保留；未证明任意对象都能自动接入。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "书脊、两页、铰链与相连V形支撑使纸形立起；不透明翻页只覆盖需要换图的模型条带",
+    "oldProfiles": {
+      "layout": "L10",
+      "motion": "M09",
+      "editing": "E05",
+      "sound": "S03"
+    },
+    "preview": "style-library/previews/pop-up-book.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/pop-up-book/index.html",
+      "look": "style-library/templates/pop-up-book/assets/look.js",
+      "preview": "style-library/previews/pop-up-book.jpg",
+      "templateSha256": "9458f8da55bd4c990441446db1ca26b951e782220bfec24e3994db19cae8c0e2",
+      "lookSha256": "dfde597b9d7ba75c1da261c1642fbe88b70fa56371d53e0b58031d6ab743e381",
+      "previewSha256": "0ef96e3e04445ea5978ac2c4b6319c9af3e9f319b4660a6504d96d68f6d777ff",
+      "legacyEvidence": "style-library/evidence/production-20261020-a31-a34-a39-a40-a41-a42-a59-a60.json"
+    }
+  },
+  {
+    "id": "A60",
+    "key": "corrugated-model",
+    "oldName": "瓦楞纸模型",
+    "oldFamily": "纸与纤维",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F13",
+    "familyName": "手工拼构",
+    "newName": "瓦楞纸结构材质",
+    "componentKind": "材质与工艺",
+    "reason": "面纸、波纹芯和厚边是材料结构，可应用于纸艺或立体模型。",
+    "preserve": "空心瓦楞芯、厚边和接触阴影实现",
+    "extract": [
+      "瓦楞纸"
+    ],
+    "boundary": "必须保留芯层和侧壁，不能仅贴一张瓦楞纹理。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "两层薄面纸、真正空心波纹芯与厚边构成微型物件，孔洞和接触阴影体现瓦楞结构",
+    "oldProfiles": {
+      "layout": "L12",
+      "motion": "M13",
+      "editing": "E02",
+      "sound": "S06"
+    },
+    "preview": "style-library/previews/corrugated-model.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/corrugated-model/index.html",
+      "look": "style-library/templates/corrugated-model/assets/look.js",
+      "preview": "style-library/previews/corrugated-model.jpg",
+      "templateSha256": "554233ae149c3a80ccdb9107d382cd1f2eed3ba64f170dd2735b202f2ebffb71",
+      "lookSha256": "deacd0b53a7aad603546a6a8e957279669a87ac63d7e86f8a0a22a8ea42a61da",
+      "previewSha256": "42a7c7e73bcc97f532e3d395e5ca8252b07c2cbfd80178f17d4f4f9ccfd08c62",
+      "legacyEvidence": "style-library/evidence/production-20261020-a31-a34-a39-a40-a41-a42-a59-a60.json"
+    }
+  },
+  {
+    "id": "A61",
+    "key": "torn-paper",
+    "oldName": "撕纸肌理",
+    "oldFamily": "纸与纤维",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F04",
+    "familyName": "拼贴混合媒介",
+    "newName": "纤维撕纸边",
+    "componentKind": "材质与工艺",
+    "reason": "不规则纤维撕口和暴露内层是载体边缘特征，可服务拼贴或手工拼构。",
+    "preserve": "原撕纸图记、宽色片与落定实现",
+    "extract": [
+      "纤维撕口"
+    ],
+    "boundary": "原物件素材保留，组件化只是迁移建议，本轮没有拆分运行代码。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "不规则纸纤维撕口与暴露内层塑造物件，宽色片按比较和并列关系组织，完整片层以有限姿态落定",
+    "oldProfiles": {
+      "layout": "L10",
+      "motion": "M08",
+      "editing": "E04",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/torn-paper.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/torn-paper/index.html",
+      "look": "style-library/templates/torn-paper/assets/look.js",
+      "preview": "style-library/previews/torn-paper.jpg",
+      "templateSha256": "26d1f6afad52f0bfa8f168b3aac68704c5631f5b08e88af0151dec8d099bd8c9",
+      "lookSha256": "07482b0463e9295d7062903e0d16f57fc199387910962db42bd636f14ede3b4c",
+      "previewSha256": "df156744447b066c8dfab901f77a6c79f042721607afd9c25acfd5242c1e1dca",
+      "legacyEvidence": "style-library/evidence/production-20261020-a51-a52-a53-a54-a55-a56-a57-a61.json"
+    }
+  },
+  {
+    "id": "A62",
+    "key": "felt-applique",
+    "oldName": "毛毡贴画",
+    "oldFamily": "纸与纤维",
+    "oldStatus": "verified-video",
+    "action": "归为分支",
+    "familyId": "F13",
+    "familyName": "手工拼构",
+    "newName": "毛毡拼构",
+    "componentKind": null,
+    "reason": "厚片、毛边和缝接关系形成手工拼构的毛毡分支，不只是给纸片换色。",
+    "preserve": "毛毡物件、厚片与轻阻尼实现",
+    "extract": [
+      "毛毡",
+      "缝接"
+    ],
+    "boundary": "纤维密度和厚度保留，轻阻尼不能变成所有对象持续弹跳。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "柔软毛边、厚片和缝接构成物件，运动有轻微阻尼和压缩",
+    "oldProfiles": {
+      "layout": "L09",
+      "motion": "M08",
+      "editing": "E07",
+      "sound": "S06"
+    },
+    "preview": "style-library/previews/felt-applique.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/felt-applique/index.html",
+      "look": "style-library/templates/felt-applique/assets/look.js",
+      "preview": "style-library/previews/felt-applique.jpg",
+      "templateSha256": "f79a2894b59af5742552c4782934da5fe0900c73fa83bcc4a4e12d9780a182f9",
+      "lookSha256": "f2bcca5b70fc9913e02caab9d2bc0f3c2c0baa5da1fbbdc0dc96bc8fb08deae6",
+      "previewSha256": "648f9839e1a5f46e0482aeb3b35ac4d0429ee6041b35fc2da4320cbb7f9bce63",
+      "legacyEvidence": "style-library/evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json"
+    }
+  },
+  {
+    "id": "A63",
+    "key": "embroidery",
+    "oldName": "刺绣针脚",
+    "oldFamily": "纸与纤维",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F13",
+    "familyName": "手工拼构",
+    "newName": "针脚与线迹构图",
+    "componentKind": "材质与工艺",
+    "reason": "针脚方向和疏密是表面构成及建立关系的工具，可用于多种手工载体。",
+    "preserve": "原针脚素材、线迹和节点实现",
+    "extract": [
+      "针脚生成"
+    ],
+    "boundary": "现有画面不等于真实逐针工艺录像，不自动宣称物理刺绣模拟。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "线迹的方向和疏密组成图形，节点像逐针建立的联系",
+    "oldProfiles": {
+      "layout": "L07",
+      "motion": "M10",
+      "editing": "E04",
+      "sound": "S06"
+    },
+    "preview": "style-library/previews/embroidery.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/embroidery/index.html",
+      "look": "style-library/templates/embroidery/assets/look.js",
+      "preview": "style-library/previews/embroidery.jpg",
+      "templateSha256": "d6d51d4137d20ab04da25890516dcdedfd9482f7e882b8500b1a0c36e78a0fb5",
+      "lookSha256": "7c63332f507a6e58663506dac6181fbf647f5eebe12298a16e5497e167eaefad",
+      "previewSha256": "5a38a719ae6b18e0631fb8aea9e3a5758ca2f1fedc7897a041ef7abb886a52fe",
+      "legacyEvidence": "style-library/evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json"
+    }
+  },
+  {
+    "id": "A64",
+    "key": "patchwork",
+    "oldName": "织物拼布",
+    "oldFamily": "纸与纤维",
+    "oldStatus": "verified-video",
+    "action": "归为分支",
+    "familyId": "F13",
+    "familyName": "手工拼构",
+    "newName": "织物拼布",
+    "componentKind": null,
+    "reason": "织片、经纬纹和拼缝组织整体画面，形成手工拼构的拼布分支。",
+    "preserve": "织片、拼缝与双格三格布面实现",
+    "extract": [
+      "拼缝",
+      "经纬织纹"
+    ],
+    "boundary": "不能只盖布纹；片之间的拼接关系要留下。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "经纬织纹、不同织片和拼缝共同组织双格/三格布面；完整图记有限姿态落定，不声称逐针手作录像",
+    "oldProfiles": {
+      "layout": "L03",
+      "motion": "M08",
+      "editing": "E04",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/patchwork.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/patchwork/index.html",
+      "look": "style-library/templates/patchwork/assets/look.js",
+      "preview": "style-library/previews/patchwork.jpg",
+      "templateSha256": "39aaf8c320475846723a19fe149a92ed61558f90dd9ddd7908855b0decf162a1",
+      "lookSha256": "c25caa14f4f969bc5a37a6c1fba63ef186a861defe4698420a41b35c701797d1",
+      "previewSha256": "c2964dbcd933db4864525e5a2fa384b84f6005d54d31ba9144b087ba60680533",
+      "legacyEvidence": "style-library/evidence/production-20261020-a64-a65-a66-a68-a69-a70-a71-a72.json"
+    }
+  },
+  {
+    "id": "A65",
+    "key": "knotted-cord",
+    "oldName": "线绳编结",
+    "oldFamily": "纸与纤维",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F13",
+    "familyName": "手工拼构",
+    "newName": "绳结连接与悬挂",
+    "componentKind": "图解",
+    "reason": "交叉、结点、悬挂及深度投影用于表达连接和负担，是关系图形工具。",
+    "preserve": "原绳股、结点和悬挂物实现",
+    "extract": [
+      "绳结",
+      "悬挂关系"
+    ],
+    "boundary": "不是打结教程；结点连接应对应真实关系，而非装饰性连线。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "确定性绳股按深度投影交叉，独立结点表示并列建议；上环保留本金图记、下方挂具体重物，不是打结教程",
+    "oldProfiles": {
+      "layout": "L07",
+      "motion": "M01",
+      "editing": "E04",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/knotted-cord.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/knotted-cord/index.html",
+      "look": "style-library/templates/knotted-cord/assets/look.js",
+      "preview": "style-library/previews/knotted-cord.jpg",
+      "templateSha256": "cb35ae97b30465af4036adf28a49ffbdf58d54ff55945e29927a8c3ac0d3654c",
+      "lookSha256": "de32c69d74f68392651262aa75bb7a8b9836b975b2e9a6e6819ed64f70d6c76d",
+      "previewSha256": "14b9e37717a3cd9b3c497813c494f454d8f37982bb59187f43e695a229605b7b",
+      "legacyEvidence": "style-library/evidence/production-20261020-a64-a65-a66-a68-a69-a70-a71-a72.json"
+    }
+  },
+  {
+    "id": "A66",
+    "key": "silk-layers",
+    "oldName": "绢纱叠层",
+    "oldFamily": "纸与纤维",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F13",
+    "familyName": "手工拼构",
+    "newName": "半透明绢纱叠层",
+    "componentKind": "材质与工艺",
+    "reason": "织纹、褶皱与整层透叠是表面和层合规则，可给不同画风的载体使用。",
+    "preserve": "绢纱、软褶皱与整层叠合实现",
+    "extract": [
+      "绢纱叠层"
+    ],
+    "boundary": "原实现没有折射模拟，标签保持在布层外。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "半透明纱片的细织纹和软褶皱按整层叠合，清晰图记在前，阅读标签保持在布层外；不模拟折射",
+    "oldProfiles": {
+      "layout": "L10",
+      "motion": "M01",
+      "editing": "E02",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/silk-layers.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/silk-layers/index.html",
+      "look": "style-library/templates/silk-layers/assets/look.js",
+      "preview": "style-library/previews/silk-layers.jpg",
+      "templateSha256": "2ba9154d427d667cfd301b435f8eb27e7d3fbd34cd0edf709699d9f4ce2d6fee",
+      "lookSha256": "db3678a9fcbdf9dd746d3c3181de78d39bd64b10767371171b8fbc74ef3c7e5e",
+      "previewSha256": "0125c2c238c2a024e840d507626ec4bd791950cb3e5ba1484f514a7d335ae39e",
+      "legacyEvidence": "style-library/evidence/production-20261020-a64-a65-a66-a68-a69-a70-a71-a72.json"
+    }
+  },
+  {
+    "id": "A67",
+    "key": "gongbi",
+    "oldName": "工笔设色",
+    "oldFamily": "传统绘画与东方",
+    "oldStatus": "verified-video",
+    "action": "保留为画风",
+    "familyId": "F14",
+    "familyName": "工笔设色",
+    "newName": "工笔设色",
+    "componentKind": null,
+    "reason": "细线立骨、层层淡设色和清楚对象边界形成独立语言，与水墨浓淡分开。",
+    "preserve": "工笔对象、细线和多层设色实现",
+    "extract": [
+      "细线立骨",
+      "淡设色"
+    ],
+    "boundary": "不把工笔当作水墨加颜色，也不把所有东方绘画都并为一类。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "细线立骨、多层淡设色和局部放大，解释对象边界清楚而不靠墨块",
+    "oldProfiles": {
+      "layout": "L02",
+      "motion": "M11",
+      "editing": "E02",
+      "sound": "S07"
+    },
+    "preview": "style-library/previews/gongbi.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/gongbi/index.html",
+      "look": "style-library/templates/gongbi/assets/look.js",
+      "preview": "style-library/previews/gongbi.jpg",
+      "templateSha256": "79990a04cbe285509deaaa9e209da0ba086ab13d62cb446c2073ebcf3a4f029b",
+      "lookSha256": "7a12c2eb561c4224173c041cda0ddc1ea3a566343822a80f5fa57eb968e06f44",
+      "previewSha256": "d1aad791d794f9f5093360da3f1eb9153fc2a50ee2379330d6aed4621fe4e6db",
+      "legacyEvidence": "style-library/evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json"
+    }
+  },
+  {
+    "id": "A68",
+    "key": "blue-green-landscape",
+    "oldName": "青绿山水",
+    "oldFamily": "传统绘画与东方",
+    "oldStatus": "verified-video",
+    "action": "保留为画风",
+    "familyId": "F15",
+    "familyName": "青绿山水",
+    "newName": "青绿山水",
+    "componentKind": null,
+    "reason": "山体分组、矿物色层、留水与游观空间共同成立，差异超出一套青绿配色。",
+    "preserve": "原创青绿长卷、山体分组与路径实现",
+    "extract": [
+      "游观空间",
+      "矿物色层"
+    ],
+    "boundary": "当前为意象环境；用于新题材时不机械把所有内容画成山水。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "原创青绿长卷以山体分组、矿物色层、留水和路径维持空间，随语义有限位聚焦；是意象而非真实地理",
+    "oldProfiles": {
+      "layout": "L11",
+      "motion": "M13",
+      "editing": "E07",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/blue-green-landscape.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/blue-green-landscape/index.html",
+      "look": "style-library/templates/blue-green-landscape/assets/look.js",
+      "preview": "style-library/previews/blue-green-landscape.jpg",
+      "templateSha256": "f4432d0c0848ad2a43331d6ad5e85b878b29fdadf883be881430cb8419d4444a",
+      "lookSha256": "859b31d59ad6cea3d0c36a8f62df527a8ddc1567042395f1a791f8df780ceb3d",
+      "previewSha256": "acbdada68b6475dc68ca50bb8aa1c3b7e3c2b4e437414f7c5232da1a882e4ae9",
+      "legacyEvidence": "style-library/evidence/production-20261020-a64-a65-a66-a68-a69-a70-a71-a72.json"
+    }
+  },
+  {
+    "id": "A69",
+    "key": "mural",
+    "oldName": "敦煌壁画",
+    "oldFamily": "传统绘画与东方",
+    "oldStatus": "verified-video",
+    "action": "保留为画风",
+    "familyId": "F16",
+    "familyName": "壁画重彩",
+    "newName": "壁画重彩",
+    "componentKind": null,
+    "reason": "画带、装饰性平面造型、矿物重彩与壁面关系形成完整语言，原敦煌方向作为来源分支。",
+    "preserve": "原创重彩壁面、双画带与有限取景实现",
+    "extract": [
+      "装饰画带",
+      "矿物重彩"
+    ],
+    "boundary": "不把磨损纹理当作画风本身，也不冒称古代文物或复原壁画。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "原创双画带壁面以矿物土色和薄色磨损容纳同一组物件；取景保留本段需要的完整对照，不冒称古代文物",
+    "oldProfiles": {
+      "layout": "L09",
+      "motion": "M13",
+      "editing": "E07",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/mural.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/mural/index.html",
+      "look": "style-library/templates/mural/assets/look.js",
+      "preview": "style-library/previews/mural.jpg",
+      "templateSha256": "bca927255ef2315e9e7894ebd7c395bc73fcc7b8e07ebc4e545ae3d0b3cd621e",
+      "lookSha256": "8b316033599876026346c7bc5319433a910b24758e1f8c7cc823cca39326b0ce",
+      "previewSha256": "f4730b3d8d9993d98e3e0d40cade29986b8ac5548d73691c1d14985a93794ed5",
+      "legacyEvidence": "style-library/evidence/production-20261020-a64-a65-a66-a68-a69-a70-a71-a72.json"
+    }
+  },
+  {
+    "id": "A70",
+    "key": "folk-woodblock",
+    "oldName": "版刻年画",
+    "oldFamily": "传统绘画与东方",
+    "oldStatus": "verified-video",
+    "action": "归为分支",
+    "familyId": "F19",
+    "familyName": "刻印版画",
+    "newName": "民间套色版画",
+    "componentKind": null,
+    "reason": "多色木版、刻白与联屏形成刻印版画的叙事套色分支，与单色木刻分别保留。",
+    "preserve": "多色木版图记、弧顶画屏及套色实现",
+    "extract": [
+      "多色木版"
+    ],
+    "boundary": "不能因都叫木刻直接判重；题材不自动具有传统吉祥寓意。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "多色木版图记进入双联/三联弧顶画屏，墨线、套色和刻白形成印面；现代原创题材不伪称传统吉祥意义",
+    "oldProfiles": {
+      "layout": "L08",
+      "motion": "M01",
+      "editing": "E06",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/folk-woodblock.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/folk-woodblock/index.html",
+      "look": "style-library/templates/folk-woodblock/assets/look.js",
+      "preview": "style-library/previews/folk-woodblock.jpg",
+      "templateSha256": "b8996ae92d442cb39b93377a2e80f1655fee45390fd8b5ec47fa0d965dc49853",
+      "lookSha256": "976fea8f11fcc71e04bbefc08503ea7cd2a1ae8de2df1ebc67893a77b451f15d",
+      "previewSha256": "f8a4d4429f52f8c40ab328ccacd412b3a8d24da6d4f7497179f7f0eadfd0fefa",
+      "legacyEvidence": "style-library/evidence/production-20261020-a64-a65-a66-a68-a69-a70-a71-a72.json"
+    }
+  },
+  {
+    "id": "A71",
+    "key": "porcelain-painting",
+    "oldName": "蓝白瓷绘",
+    "oldFamily": "传统绘画与东方",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F14",
+    "familyName": "工笔设色",
+    "newName": "钴蓝瓷绘载体",
+    "componentKind": "材质与工艺",
+    "reason": "瓷盘、釉面高光和钴蓝笔绘是一种带绘制规则的物件载体，可供工笔或立体表达使用。",
+    "preserve": "完整瓷盘、钴蓝图记和器外文字实现",
+    "extract": [
+      "钴蓝笔绘",
+      "釉面载体"
+    ],
+    "boundary": "瓷绘与普通陶瓷材质不同，绘制层和硬釉层分开保留。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "完整浅盘的器口、白釉高光与凹曲面承载钴蓝笔绘，器外文字平视；独盘重点保留清晰边界与阅读空白",
+    "oldProfiles": {
+      "layout": "L12",
+      "motion": "M01",
+      "editing": "E04",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/porcelain-painting.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/porcelain-painting/index.html",
+      "look": "style-library/templates/porcelain-painting/assets/look.js",
+      "preview": "style-library/previews/porcelain-painting.jpg",
+      "templateSha256": "41df8aee4c1374c5aa9fec324e91c6d050fe297cef21dc3adabca18e76711a4f",
+      "lookSha256": "15d0b32742fff6b89213d8bae2e1eebf422540c9f36eb26879c8b996f8a07805",
+      "previewSha256": "311e6f79e3b0fea404a4e1f2db0044ecb7ad07594bd5d51aed57a57f109e0acf",
+      "legacyEvidence": "style-library/evidence/production-20261020-a64-a65-a66-a68-a69-a70-a71-a72.json"
+    }
+  },
+  {
+    "id": "A72",
+    "key": "seal-carving",
+    "oldName": "篆印朱文",
+    "oldFamily": "传统绘画与东方",
+    "oldStatus": "verified-video",
+    "action": "归为分支",
+    "familyId": "F19",
+    "familyName": "刻印版画",
+    "newName": "朱白印面",
+    "componentKind": null,
+    "reason": "朱白正负、破口边框、边款与印泥孔隙形成刻印版画的印面分支。",
+    "preserve": "现代可读印面、竖排和印泥纹理实现",
+    "extract": [
+      "朱白正负印面"
+    ],
+    "boundary": "保留现代可读字的事实，不把当前实现称为真实篆书或真实印章。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "现代可读字组成朱白正负印面，以竖排、图记边款、破口边框和细印泥孔隙成形；不伪造篆书或真实印章",
+    "oldProfiles": {
+      "layout": "L03",
+      "motion": "M01",
+      "editing": "E06",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/seal-carving.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/seal-carving/index.html",
+      "look": "style-library/templates/seal-carving/assets/look.js",
+      "preview": "style-library/previews/seal-carving.jpg",
+      "templateSha256": "f70816f0727958c3f64e1ef22b1fca809992e97d248cfb0afd2a963a5659bdcb",
+      "lookSha256": "91f2eb674773bc590e926284be78dc3871a9b3469ce05364ef9145e17b3847c3",
+      "previewSha256": "226f9d733e82fe1923a5db31fb44558aa50fb47b8ed084ca291345306f07ecff",
+      "legacyEvidence": "style-library/evidence/production-20261020-a64-a65-a66-a68-a69-a70-a71-a72.json"
+    }
+  },
+  {
+    "id": "A73",
+    "key": "lacquer-gold",
+    "oldName": "漆绘描金",
+    "oldFamily": "传统绘画与东方",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F16",
+    "familyName": "壁画重彩",
+    "newName": "黑红漆面描金",
+    "componentKind": "材质与工艺",
+    "reason": "漆面、细金线、金粉密度和受控反光是表面工艺，可用于重彩或立体载体。",
+    "preserve": "漆片、描金和固定高光实现",
+    "extract": [
+      "漆面",
+      "描金"
+    ],
+    "boundary": "不把固定素材显现称为动态撒金或真实工艺过程。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "深黑红漆片上的细金线、金粉密度和受控高光形成两联/三联比较；配重圆盘作负担意象，不把材料显现称作撒金制作过程",
+    "oldProfiles": {
+      "layout": "L03",
+      "motion": "M01",
+      "editing": "E04",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/lacquer-gold.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/lacquer-gold/index.html",
+      "look": "style-library/templates/lacquer-gold/assets/look.js",
+      "preview": "style-library/previews/lacquer-gold.jpg",
+      "templateSha256": "b6813b571f8ec6a13db8e3a1022595a8e1883b42828f2bdbdb76c0fbd097b260",
+      "lookSha256": "c23a8b1c86859ee1955da04c5bbb7d304785b9e8abb40c74abc1402972d2c9fe",
+      "previewSha256": "e0094c5f0b45c18382feff72f3d9bacca71fc9de0166ba353f9866f173b2711e",
+      "legacyEvidence": "style-library/evidence/production-20261020-a73-a74-a75-a79-a81-a82-a83-a84.json"
+    }
+  },
+  {
+    "id": "A74",
+    "key": "watercolor",
+    "oldName": "水彩洇染",
+    "oldFamily": "传统绘画与东方",
+    "oldStatus": "verified-video",
+    "action": "保留为画风",
+    "familyId": "F17",
+    "familyName": "透明水彩",
+    "newName": "透明水彩",
+    "componentKind": null,
+    "reason": "透明洗色、纸白、湿边与层间透叠共同组织造型，与不透明粉彩或厚涂区分。",
+    "preserve": "水彩物件、纸白与洗色边缘实现",
+    "extract": [
+      "透明洗色",
+      "湿边"
+    ],
+    "boundary": "现有实现是画作分层显露，不是颜料扩散的物理求解。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "松散纸边、纸白和透明洗色承载四个可读物件；无硬框，图注与湿边分离，完整画作逐层显露而非物理扩散模拟",
+    "oldProfiles": {
+      "layout": "L02",
+      "motion": "M01",
+      "editing": "E02",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/watercolor.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/watercolor/index.html",
+      "look": "style-library/templates/watercolor/assets/look.js",
+      "preview": "style-library/previews/watercolor.jpg",
+      "templateSha256": "3ab6489b130052c1ed77cbe4ddedbfd8a970fd98a25a7b974b9314d0ccc354a2",
+      "lookSha256": "ce9a635ad81ed59a00b33e0fb20e9907d2eadfc7b7a42c6d6cdc8ebb128e2886",
+      "previewSha256": "e8a9ba2e1021da7a3ba9127436c43ffdda6d98ac8f00671787fa3d9a93902b04",
+      "legacyEvidence": "style-library/evidence/production-20261020-a73-a74-a75-a79-a81-a82-a83-a84.json"
+    }
+  },
+  {
+    "id": "A75",
+    "key": "impasto",
+    "oldName": "厚涂油彩",
+    "oldFamily": "传统绘画与东方",
+    "oldStatus": "verified-video",
+    "action": "保留为画风",
+    "familyId": "F18",
+    "familyName": "厚涂油画",
+    "newName": "厚涂油画",
+    "componentKind": null,
+    "reason": "覆盖关系、刀脊、笔触和侧光共同形成实体颜料语言，不能归结成油画纹理。",
+    "preserve": "厚涂画作、画布片与展陈实现",
+    "extract": [
+      "厚涂刀脊",
+      "覆盖关系"
+    ],
+    "boundary": "只处理图解画作，人物不进入油彩媒介。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "可辨厚刀脊、覆盖关系与统一侧光让原始画布片成为展陈单元；整幅落位后读标签，人物不进入油彩媒介",
+    "oldProfiles": {
+      "layout": "L12",
+      "motion": "M01",
+      "editing": "E04",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/impasto.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/impasto/index.html",
+      "look": "style-library/templates/impasto/assets/look.js",
+      "preview": "style-library/previews/impasto.jpg",
+      "templateSha256": "42c6c416f2a73ef1023d7bff63a080b1ac8ef45aa0157ebad35579cbb017a9a1",
+      "lookSha256": "f1da5032ad69446685bf695f41bd4922f514219963f19aa447a502e6b6d31249",
+      "previewSha256": "ec744a62eb636e0b2fe2574d1c581cdb6b721f533e887f7bd8f9ccd0ebb01b2c",
+      "legacyEvidence": "style-library/evidence/production-20261020-a73-a74-a75-a79-a81-a82-a83-a84.json"
+    }
+  },
+  {
+    "id": "A76",
+    "key": "woodcut",
+    "oldName": "木刻刀痕",
+    "oldFamily": "工艺表面与印制",
+    "oldStatus": "verified-video",
+    "action": "保留为画风",
+    "familyId": "F19",
+    "familyName": "刻印版画",
+    "newName": "刻印版画",
+    "componentKind": null,
+    "reason": "刻除方向、黑白印面、版边与刻线灰调形成母语言，原单色木刻作为默认分支。",
+    "preserve": "木刻图记、刻白与刀痕实现",
+    "extract": [
+      "刀痕",
+      "刻白"
+    ],
+    "boundary": "木刻、套色年画和铜版蚀刻共享入口但保留不同线密度与套色分支。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "单色刀痕、强黑白和刻除方向构成物件，与年画的叙事套色分开",
+    "oldProfiles": {
+      "layout": "L06",
+      "motion": "M07",
+      "editing": "E04",
+      "sound": "S04"
+    },
+    "preview": "style-library/previews/woodcut.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/woodcut/index.html",
+      "look": "style-library/templates/woodcut/assets/look.js",
+      "preview": "style-library/previews/woodcut.jpg",
+      "templateSha256": "16b7d0b042a345e070197a8be641e5f599d4c2f2d4953e877e87aba5ba5f0938",
+      "lookSha256": "6943aa3c2b8ebdd3e06016b009e19ed99c73bd75c1bff2185db8a1a59d7ebded",
+      "previewSha256": "439c39095ad85e679343ba8ac922d4bec45682593ece02344af77408e153efa9",
+      "legacyEvidence": "style-library/evidence/production-20261020-a76-a78-a80-a95-a96-a97-a98.json"
+    }
+  },
+  {
+    "id": "A77",
+    "key": "etching",
+    "oldName": "蚀刻铜版",
+    "oldFamily": "工艺表面与印制",
+    "oldStatus": "verified-video",
+    "action": "归为分支",
+    "familyId": "F19",
+    "familyName": "刻印版画",
+    "newName": "细线蚀刻",
+    "componentKind": null,
+    "reason": "密集刻线、版边和细灰调形成刻印版画分支；与疏钢笔手绘分开。",
+    "preserve": "蚀刻图记、版边与局部放大实现",
+    "extract": [
+      "密刻线",
+      "版边"
+    ],
+    "boundary": "局部放大服务可读性，不把刻线材料与钢笔实现直接判重。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "细密刻线、版面边界和受控灰调表现对象，细节放大后才可读",
+    "oldProfiles": {
+      "layout": "L02",
+      "motion": "M06",
+      "editing": "E02",
+      "sound": "S04"
+    },
+    "preview": "style-library/previews/etching.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/etching/index.html",
+      "look": "style-library/templates/etching/assets/look.js",
+      "preview": "style-library/previews/etching.jpg",
+      "templateSha256": "22642093c2f6b0cb4af7f70d4d3fe7a56559bbd74ab5bbbf5863413d55a96151",
+      "lookSha256": "c356d41014606210c3b8a286a28995cd6c5b60b8eb0e4ba60b63e664052668dd",
+      "previewSha256": "9e7c4fe44cf7b730e88732377143b591aa325c74bfbe569a5dc9624992aa1a04",
+      "legacyEvidence": "style-library/evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json"
+    }
+  },
+  {
+    "id": "A78",
+    "key": "risograph",
+    "oldName": "孔版套印",
+    "oldFamily": "工艺表面与印制",
+    "oldStatus": "verified-video",
+    "action": "归为分支",
+    "familyId": "F08",
+    "familyName": "复古套色印刷",
+    "newName": "孔版套印",
+    "componentKind": null,
+    "reason": "油墨色层、错版和颗粒形成套色印刷分支，与照片半色调保持区别。",
+    "preserve": "孔版图记、套色错位与颗粒实现",
+    "extract": [
+      "孔版色层",
+      "轻错版"
+    ],
+    "boundary": "不是对所有照片统一加网点，人物与正文仍清晰。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "大面积孔版色层、轻微套版错位和油墨颗粒；不是照片上统一加网点",
+    "oldProfiles": {
+      "layout": "L06",
+      "motion": "M05",
+      "editing": "E04",
+      "sound": "S05"
+    },
+    "preview": "style-library/previews/risograph.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/risograph/index.html",
+      "look": "style-library/templates/risograph/assets/look.js",
+      "preview": "style-library/previews/risograph.jpg",
+      "templateSha256": "336b9ff0c1234b00cee1865fea530e2163a62dd6b7b57e62dfce90157306a79a",
+      "lookSha256": "83cc54c71b9acf51e2832b97c69f5faef461a8eac0b1798757a192367914af34",
+      "previewSha256": "88d08ec6778b87cce46a5edb3b6d058cfa6d212b21688dab48cddfedd5aecdaa",
+      "legacyEvidence": "style-library/evidence/production-20261020-a76-a78-a80-a95-a96-a97-a98.json"
+    }
+  },
+  {
+    "id": "A79",
+    "key": "enamel-badge",
+    "oldName": "珐琅徽章",
+    "oldFamily": "工艺表面与印制",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F11",
+    "familyName": "立体造型",
+    "newName": "金属围边釉面",
+    "componentKind": "材质与工艺",
+    "reason": "不透明釉色、金属围边和薄侧壁是物件表面结构，不规定完整构图与叙事。",
+    "preserve": "珐琅徽章物件、薄侧壁与外置标签实现",
+    "extract": [
+      "围边釉面"
+    ],
+    "boundary": "保留物件资产，不只抽走色值；标签不能贴成不可读的小字。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "不透明釉色、金属围边和薄侧壁形成独立小物件，深色底板和轻微倾角区分并列，标签始终在物件外",
+    "oldProfiles": {
+      "layout": "L12",
+      "motion": "M01",
+      "editing": "E04",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/enamel-badge.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/enamel-badge/index.html",
+      "look": "style-library/templates/enamel-badge/assets/look.js",
+      "preview": "style-library/previews/enamel-badge.jpg",
+      "templateSha256": "414f57a4aeb0e45dfcbf10bbf170ff321591ed60af075cc4cbff93fca906b5c2",
+      "lookSha256": "3b9a4bffac3b9f445653e87c3eee62f5dacea001adc164a76c2ddaace5162b40",
+      "previewSha256": "a6ac286910c8c5bbc7e8ecc32fa957c6e8ac7e29bbd4f58310880ecd57aaa4cb",
+      "legacyEvidence": "style-library/evidence/production-20261020-a73-a74-a75-a79-a81-a82-a83-a84.json"
+    }
+  },
+  {
+    "id": "A80",
+    "key": "cyanotype",
+    "oldName": "蓝晒图像",
+    "oldFamily": "工艺表面与印制",
+    "oldStatus": "verified-video",
+    "action": "归为分支",
+    "familyId": "F01",
+    "familyName": "写实与摄影影像",
+    "newName": "蓝晒感光影像",
+    "componentKind": null,
+    "reason": "负形、感光纸和单色影像生成关系形成摄影影像分支；不因蓝色而归到工程图形。",
+    "preserve": "蓝晒负形图记与感光纸实现",
+    "extract": [
+      "感光负形"
+    ],
+    "boundary": "不与技术蓝图合并；现有数字图解不冒充实际感光制作。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "实物遮挡留下的负形与感光纸肌理，重点在影像生成关系而非工程蓝图",
+    "oldProfiles": {
+      "layout": "L02",
+      "motion": "M11",
+      "editing": "E04",
+      "sound": "S02"
+    },
+    "preview": "style-library/previews/cyanotype.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/cyanotype/index.html",
+      "look": "style-library/templates/cyanotype/assets/look.js",
+      "preview": "style-library/previews/cyanotype.jpg",
+      "templateSha256": "66dabb2dc21b1c82dd016506fe999613420e26aa1849cb8b35d38ae36952e820",
+      "lookSha256": "73b2dd79428bf808e171d9f7635a17c0d12e8c6aa209148eeb2e1f06191ea623",
+      "previewSha256": "ed195f6f65dca0379d0fe163de74f3c65c5230ab473f1be2ef9ff01ecf9fcd69",
+      "legacyEvidence": "style-library/evidence/production-20261020-a76-a78-a80-a95-a96-a97-a98.json"
+    }
+  },
+  {
+    "id": "A81",
+    "key": "foil-deboss",
+    "oldName": "烫金压凹",
+    "oldFamily": "工艺表面与印制",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F03",
+    "familyName": "编辑出版",
+    "newName": "烫金与压凹",
+    "componentKind": "材质与工艺",
+    "reason": "凹槽、压缩边、薄箔与纸纤维是印后工艺，可用于不同排版和图形。",
+    "preserve": "凹槽图记、薄箔与纸面校样实现",
+    "extract": [
+      "压凹",
+      "薄箔"
+    ],
+    "boundary": "现有固定高光不等于可变灯光或真实压印录像。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "纤维纸内凹槽、压缩边和局部薄箔形成低起伏图记，三项校样纵排，纸片与正文平视；没有伪造可变灯光或实际压印录像",
+    "oldProfiles": {
+      "layout": "L03",
+      "motion": "M01",
+      "editing": "E06",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/foil-deboss.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/foil-deboss/index.html",
+      "look": "style-library/templates/foil-deboss/assets/look.js",
+      "preview": "style-library/previews/foil-deboss.jpg",
+      "templateSha256": "6fbac839c5a2693af91731a5bbd577ae1e995f0ec8a489b1d1eab25be583667d",
+      "lookSha256": "4b39db5aaa76d5efd4c940fc4c3412b4fbf07b6be0c4a0799199c4ca7b197512",
+      "previewSha256": "6bdd323237eaa76118305df54119020cf6f1c65e3151c47fea49989faa437c0c",
+      "legacyEvidence": "style-library/evidence/production-20261020-a73-a74-a75-a79-a81-a82-a83-a84.json"
+    }
+  },
+  {
+    "id": "A82",
+    "key": "mosaic",
+    "oldName": "马赛克拼片",
+    "oldFamily": "工艺表面与印制",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F06",
+    "familyName": "平面插画",
+    "newName": "嵌片铺排",
+    "componentKind": "材质与工艺",
+    "reason": "独立嵌片、砂浆缝和随形铺排是一种构造规则，可附着到多种图形内容。",
+    "preserve": "马赛克图版、片缝与随形铺排实现",
+    "extract": [
+      "嵌片",
+      "片缝"
+    ],
+    "boundary": "不以粗块遮罩冒充逐片嵌装，材料边界需保持可见。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "真实可辨的独立嵌片、砂浆缝和随形铺排组成图版；完整图版有限落位后保留，不以粗块空洞模拟逐片嵌装",
+    "oldProfiles": {
+      "layout": "L03",
+      "motion": "M01",
+      "editing": "E04",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/mosaic.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/mosaic/index.html",
+      "look": "style-library/templates/mosaic/assets/look.js",
+      "preview": "style-library/previews/mosaic.jpg",
+      "templateSha256": "7081dc0f3fde5ea617859e7b5ac7edef0329e2dd104ac9698ba53597a31720c0",
+      "lookSha256": "3e087102d0564247968cfb87408b385a107c5510372888e39be3cb24baa6b777",
+      "previewSha256": "2bec3dc2fa6539799b3195be6eb6e50bdb3a8cc70c1e9982a2518817cab885eb",
+      "legacyEvidence": "style-library/evidence/production-20261020-a73-a74-a75-a79-a81-a82-a83-a84.json"
+    }
+  },
+  {
+    "id": "A83",
+    "key": "stained-glass",
+    "oldName": "彩绘玻璃",
+    "oldFamily": "工艺表面与印制",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F06",
+    "familyName": "平面插画",
+    "newName": "铅条玻璃与背光",
+    "componentKind": "材质与工艺",
+    "reason": "连通铅条、玻块纹理和背光是一种透光构造，可承载插画或装饰图形。",
+    "preserve": "连续拼窗、铅条和背光实现",
+    "extract": [
+      "玻块",
+      "铅条",
+      "背光"
+    ],
+    "boundary": "与透明折射玻璃不同，二者作为不同材料组件保留。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "连通的深铅条、纹理玻块和背光形成固定拼窗，连续窗棂组织双联/三联关系；不透明字幕与真实人物独立在前",
+    "oldProfiles": {
+      "layout": "L08",
+      "motion": "M01",
+      "editing": "E06",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/stained-glass.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/stained-glass/index.html",
+      "look": "style-library/templates/stained-glass/assets/look.js",
+      "preview": "style-library/previews/stained-glass.jpg",
+      "templateSha256": "0727b32ea064e3fdf5b5943d9525a0053010b9ec3e6114d1be7e8806cdd727af",
+      "lookSha256": "65a2fd094517fb2ef9ef01135f6cec3454217ae2294f3c34dc0e45e5ecbdf6d7",
+      "previewSha256": "af82b2d08d656422ebd9b17abf6dc72956d07fe38b8e85dfcc384530f236304f",
+      "legacyEvidence": "style-library/evidence/production-20261020-a73-a74-a75-a79-a81-a82-a83-a84.json"
+    }
+  },
+  {
+    "id": "A84",
+    "key": "sandstone-relief",
+    "oldName": "砂岩浮雕",
+    "oldFamily": "工艺表面与印制",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F11",
+    "familyName": "立体造型",
+    "newName": "砂岩浅浮雕",
+    "componentKind": "材质与工艺",
+    "reason": "同材质凸台、凹场和掠射阴影是低浮雕表达规则，可用于不同物件与构图。",
+    "preserve": "砂岩浮雕物件、凹凸场和侧光实现",
+    "extract": [
+      "浅浮雕",
+      "掠射阴影"
+    ],
+    "boundary": "不是石纹背景，也不能假定现有静态素材可实时改变光源。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "同一砂岩材质的浅凸台、下凹场和低角度阴影构成浮雕关系，整块石面有限位移后停稳，不只是石纹背景",
+    "oldProfiles": {
+      "layout": "L12",
+      "motion": "M01",
+      "editing": "E04",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/sandstone-relief.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/sandstone-relief/index.html",
+      "look": "style-library/templates/sandstone-relief/assets/look.js",
+      "preview": "style-library/previews/sandstone-relief.jpg",
+      "templateSha256": "5e2172a5bb7eaa1e6b8ebb6d76cdb3b1e54d168288cd83a3d207263e1dd759d5",
+      "lookSha256": "ebd9caa322de929775a5ee479e0d8cf513ab0fc09ccbcfad3ddd8e1996f8e696",
+      "previewSha256": "1e4680f54c4b7348327afdeee8b3c0d201834e978401927171b030bc546fbb38",
+      "legacyEvidence": "style-library/evidence/production-20261020-a73-a74-a75-a79-a81-a82-a83-a84.json"
+    }
+  },
+  {
+    "id": "A85",
+    "key": "chased-metal",
+    "oldName": "金属錾刻",
+    "oldFamily": "工艺表面与印制",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F11",
+    "familyName": "立体造型",
+    "newName": "金属錾刻表面",
+    "componentKind": "材质与工艺",
+    "reason": "锤痕、包浆、刻痕与固定高光是表面工艺，不足以单独规定整片画风。",
+    "preserve": "金属器物图记、锤痕和包浆实现",
+    "extract": [
+      "金属錾刻"
+    ],
+    "boundary": "现有整件落位不等于动态錾刻，保留能力边界。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "成形金属薄板的锤痕、刮痕、暗包浆和固定高光构成器物，纵排目录与双物比较交替；原始图像有限落位，不伪造动态錾刻过程",
+    "oldProfiles": {
+      "layout": "L02",
+      "motion": "M01",
+      "editing": "E02",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/chased-metal.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/chased-metal/index.html",
+      "look": "style-library/templates/chased-metal/assets/look.js",
+      "preview": "style-library/previews/chased-metal.jpg",
+      "templateSha256": "e3c9d22b8a9c35e508ac23292884e4d48eb603e8a71aefd47d81f1565b1e78ba",
+      "lookSha256": "627d2123dad242f3124beaf1317b69bfadba55d3ac656ac4875600a973ee9eb5",
+      "previewSha256": "718215ca6b68470fcf4ba61cbbfc0781577d11211c7aa16aa1d72d19e594da59",
+      "legacyEvidence": "style-library/evidence/production-20261020-a85-a86-a87-a88-a89-a90-a91-a92-a93-a100.json"
+    }
+  },
+  {
+    "id": "A86",
+    "key": "miniature-puppet",
+    "oldName": "微缩木偶",
+    "oldFamily": "立体与模型",
+    "oldStatus": "verified-video",
+    "action": "归为分支",
+    "familyId": "F11",
+    "familyName": "立体造型",
+    "newName": "微缩木偶",
+    "componentKind": null,
+    "reason": "关节外形、布衣、场外控制和有限姿态形成微缩模型的戏剧分支。",
+    "preserve": "原木偶四姿态、轻摆与控制线实现",
+    "extract": [
+      "有限姿态",
+      "微缩舞台"
+    ],
+    "boundary": "没有关节绑定和嘴型表演，不能宣称自动角色动画。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "同一木质关节/布衣小演员在袋、币、盾、负重四姿态间切换，整姿态轻摆与场外控制线建立微缩舞台；不是关节绑定或嘴型表演，真人保持原色独立",
+    "oldProfiles": {
+      "layout": "L09",
+      "motion": "M01",
+      "editing": "E07",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/miniature-puppet.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/miniature-puppet/index.html",
+      "look": "style-library/templates/miniature-puppet/assets/look.js",
+      "preview": "style-library/previews/miniature-puppet.jpg",
+      "templateSha256": "6794a9df7fb8b8dbc5aea4e160bef3f3b33b145a9a02ef4bc6a6afbf07e408c3",
+      "lookSha256": "97f20223a87d5fce526416cab3afe2a4819d7ae22d3a3840b8aa622a0a1e4577",
+      "previewSha256": "e05dc010cce426ff2a8dceee5ca88030d9cdec4b102b9599c70ccc47c6bc9e3d",
+      "legacyEvidence": "style-library/evidence/production-20261020-a85-a86-a87-a88-a89-a90-a91-a92-a93-a100.json"
+    }
+  },
+  {
+    "id": "A87",
+    "key": "building-blocks",
+    "oldName": "硬质积木",
+    "oldFamily": "立体与模型",
+    "oldStatus": "verified-video",
+    "action": "归为分支",
+    "familyId": "F11",
+    "familyName": "立体造型",
+    "newName": "积木构造",
+    "componentKind": null,
+    "reason": "拼块接缝、凸点、硬边与就位关系构成立体造型的积木分支。",
+    "preserve": "积木物件、接缝与短距离就位实现",
+    "extract": [
+      "硬块拼装"
+    ],
+    "boundary": "不冒用品牌，也不声称原物件可按图实际搭建。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "硬质拼块、清晰接缝和圆凸点组成物件，平直基线与短距离就位体现硬结构；配重环仅作负担意象，不冒用品牌或声称可照图搭建",
+    "oldProfiles": {
+      "layout": "L14",
+      "motion": "M02",
+      "editing": "E04",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/building-blocks.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/building-blocks/index.html",
+      "look": "style-library/templates/building-blocks/assets/look.js",
+      "preview": "style-library/previews/building-blocks.jpg",
+      "templateSha256": "13682534159f76867ba5b4935bc36f5511a7f30b53bdb687fc0885c14e15b60a",
+      "lookSha256": "818bb0e930e114f947b43063ba957fa404a73a4b02b8b8cc2efcfa8bba0e1e89",
+      "previewSha256": "1d00dd69451b49a847626987f6b24b15e9742749416edda69297d731c942f62c",
+      "legacyEvidence": "style-library/evidence/production-20261020-a85-a86-a87-a88-a89-a90-a91-a92-a93-a100.json"
+    }
+  },
+  {
+    "id": "A88",
+    "key": "optical-glass",
+    "oldName": "透明玻璃",
+    "oldFamily": "立体与模型",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F11",
+    "familyName": "立体造型",
+    "newName": "透明折射玻璃",
+    "componentKind": "材质与工艺",
+    "reason": "厚度、透射、折射和环境反射是一组可附着不同造型的材质规则。",
+    "preserve": "代码玻璃实体、折射条纹与反射实现",
+    "extract": [
+      "透明折射"
+    ],
+    "boundary": "现有代码实体保留；新对象接入仍需验证，文字与人物不进入折射层。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "代码实体具有非零厚度、透射与折射背景条纹，控制环境反射形成透明边界；文字和真人在独立平面，不作为真实光学实验",
+    "oldProfiles": {
+      "layout": "L12",
+      "motion": "M13",
+      "editing": "E02",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/optical-glass.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/optical-glass/index.html",
+      "look": "style-library/templates/optical-glass/assets/look.js",
+      "preview": "style-library/previews/optical-glass.jpg",
+      "templateSha256": "961b3f5851264e327874bf4c00577bb21b24895844c7976f9686e19e724d3b34",
+      "lookSha256": "f8df205c72bdd20bb2f2659c6f679c50b2378577c4116e79962ad526b65ba925",
+      "previewSha256": "8a8934f62ef179c3ff9322dc5f8c734274b42932907607eaa1dfbbd3067ef02a",
+      "legacyEvidence": "style-library/evidence/production-20261020-a85-a86-a87-a88-a89-a90-a91-a92-a93-a100.json"
+    }
+  },
+  {
+    "id": "A89",
+    "key": "ceramic-objects",
+    "oldName": "陶瓷物件",
+    "oldFamily": "立体与模型",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F11",
+    "familyName": "立体造型",
+    "newName": "硬釉陶瓷",
+    "componentKind": "材质与工艺",
+    "reason": "厚壁、足部、釉色和烧成斑点是立体物件的材质与构造特征。",
+    "preserve": "完整陶瓷器物、足部与硬釉素材实现",
+    "extract": [
+      "硬釉",
+      "陶瓷足部"
+    ],
+    "boundary": "与柔质黏土的运动规则分开，陶瓷不做软糖回弹。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "完整硬釉器物具有厚壁、足部、烧成斑点与灰蓝釉色差，器物自身足部与独立图注组织阅读；整件停稳而不软糖回弹，非真实窑烧录像",
+    "oldProfiles": {
+      "layout": "L12",
+      "motion": "M01",
+      "editing": "E07",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/ceramic-objects.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/ceramic-objects/index.html",
+      "look": "style-library/templates/ceramic-objects/assets/look.js",
+      "preview": "style-library/previews/ceramic-objects.jpg",
+      "templateSha256": "675850e0bc98050cb34945ad2e6ee5b719567c803cc62b018f45751a0bef69a0",
+      "lookSha256": "e94336ba2ce18ef36b239d6762054cf42286694d2a76e3f9a851a8e9b2011c41",
+      "previewSha256": "822182918260da7a4f0dc8c0384d4b2504c7d7a5bd9cdb3682745ba654354057",
+      "legacyEvidence": "style-library/evidence/production-20261020-a85-a86-a87-a88-a89-a90-a91-a92-a93-a100.json"
+    }
+  },
+  {
+    "id": "A90",
+    "key": "liquid-chrome",
+    "oldName": "镀铬液态",
+    "oldFamily": "立体与模型",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F11",
+    "familyName": "立体造型",
+    "newName": "镜面连续曲面",
+    "componentKind": "材质与形变",
+    "reason": "连续圆曲面、环境反射与受控回归属于造型材质及形变组合，不是另一套完整画风。",
+    "preserve": "液态铬几何、环境灯板和回归实现",
+    "extract": [
+      "镜面铬",
+      "连续曲面"
+    ],
+    "boundary": "不是流体求解，也不能给任意图片套镜面滤镜就复用。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "无接缝的连续圆曲面与本地灯板环境反射构成液态铬意象，几何在入场后回归稳定形体，镜面明暗跟随曲面；不是流体求解或机械剖面换色",
+    "oldProfiles": {
+      "layout": "L12",
+      "motion": "M13",
+      "editing": "E04",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/liquid-chrome.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/liquid-chrome/index.html",
+      "look": "style-library/templates/liquid-chrome/assets/look.js",
+      "preview": "style-library/previews/liquid-chrome.jpg",
+      "templateSha256": "c5a7630cb2848aa9c8e12ef564933622c40d1a0cef627869e3afb508af905087",
+      "lookSha256": "377bc25f9b93551a37b476726521ed5136c4af2da09a06fd4c674eb0f16b6544",
+      "previewSha256": "6830996f51561887941db919d5f98497d6d29443c816bf9dc245a2c5b174535f",
+      "legacyEvidence": "style-library/evidence/production-20261020-a85-a86-a87-a88-a89-a90-a91-a92-a93-a100.json"
+    }
+  },
+  {
+    "id": "A91",
+    "key": "isometric-maquette",
+    "oldName": "等距白模",
+    "oldFamily": "立体与模型",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F11",
+    "familyName": "立体造型",
+    "newName": "正交等距白模",
+    "componentKind": "空间与光影",
+    "reason": "正交机位、白色体块和底座是空间预设，可服务技术解释或模型展陈。",
+    "preserve": "原白模体块、台阶底座与正交机位实现",
+    "extract": [
+      "正交机位",
+      "白模"
+    ],
+    "boundary": "等距城市插画仍保留彩色场景语义，不能因投影相同直接合并素材。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "正交机位下的白色体块、底座、台阶和接触阴影把物件做成建筑小模型；相同斜投影贯穿比较，不使用彩色城市或仅给图标加投影",
+    "oldProfiles": {
+      "layout": "L14",
+      "motion": "M13",
+      "editing": "E10",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/isometric-maquette.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/isometric-maquette/index.html",
+      "look": "style-library/templates/isometric-maquette/assets/look.js",
+      "preview": "style-library/previews/isometric-maquette.jpg",
+      "templateSha256": "e7c46ceb0147fe3138595c2137f0fefc6cd0d14ec5142fb978fa13d713950477",
+      "lookSha256": "f65a9f9543fa3dbaeff58f94229e0e5ed9933f2e36378dfb80c64140a71bb418",
+      "previewSha256": "3f139a665dc61e42817d343af5ff91f91e27ecba2d49809c64c094a22c831f8e",
+      "legacyEvidence": "style-library/evidence/production-20261020-a85-a86-a87-a88-a89-a90-a91-a92-a93-a100.json"
+    }
+  },
+  {
+    "id": "A92",
+    "key": "inflatable-sculpture",
+    "oldName": "充气软雕",
+    "oldFamily": "立体与模型",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F11",
+    "familyName": "立体造型",
+    "newName": "充气软壳",
+    "componentKind": "材质与形变",
+    "reason": "鼓胀、焊缝、气阀和张力皱纹是一套软壳材料规则，可服务不同造型。",
+    "preserve": "PVC软壳物件、焊缝与小幅形变实现",
+    "extract": [
+      "充气软壳"
+    ],
+    "boundary": "现有图像形变不等于真实充气模拟，文字不跟随变形。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "PVC鼓胀体积、焊缝、张力皱纹与气阀形成软壳物件；小幅图像形变后停稳，文字不变形，黄色负重物仅为意象而非真实质量演示",
+    "oldProfiles": {
+      "layout": "L12",
+      "motion": "M13",
+      "editing": "E04",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/inflatable-sculpture.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/inflatable-sculpture/index.html",
+      "look": "style-library/templates/inflatable-sculpture/assets/look.js",
+      "preview": "style-library/previews/inflatable-sculpture.jpg",
+      "templateSha256": "119d4502912238694991b27e80829a9a479ad3850ebe1f729f83665b5020d9fe",
+      "lookSha256": "80f025c4b7700bdc499af209bc54b2d3e0eaaccb02345e9bf4315e0b15eca765",
+      "previewSha256": "85706756cff626d09a9e34c2135a1e53d7990bd4ac3071c85eb68bc3c4907f4f",
+      "legacyEvidence": "style-library/evidence/production-20261020-a85-a86-a87-a88-a89-a90-a91-a92-a93-a100.json"
+    }
+  },
+  {
+    "id": "A93",
+    "key": "viscous-gel",
+    "oldName": "流体凝胶",
+    "oldFamily": "立体与模型",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F11",
+    "familyName": "立体造型",
+    "newName": "半透明凝胶",
+    "componentKind": "材质与形变",
+    "reason": "透明色体积、回流轮廓和稳定内芯属于材料与形变能力，不决定所有构图与剪辑。",
+    "preserve": "凝胶代码实体、内芯与绝对帧回归实现",
+    "extract": [
+      "凝胶",
+      "慢回流"
+    ],
+    "boundary": "现有解析形变不是物理流体模拟，新造型尚需实测。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "有色半透明体积慢慢回流并包裹稳定内芯，轮廓几何按绝对帧回归；图注与人物保持清晰稳定，不将解析形变称为真实流体模拟",
+    "oldProfiles": {
+      "layout": "L12",
+      "motion": "M13",
+      "editing": "E07",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/viscous-gel.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/viscous-gel/index.html",
+      "look": "style-library/templates/viscous-gel/assets/look.js",
+      "preview": "style-library/previews/viscous-gel.jpg",
+      "templateSha256": "9a8e4e0a5bf67fd5ace26b878f54ed96a8394a12c3e0ff070bcbceaa84dea834",
+      "lookSha256": "969e229e3738012d567d6001da21126bad6fcc9619d0acd643791c124cd84ecf",
+      "previewSha256": "bfa49f827458d6c7ca70fbd2c1c8ca39b5766c6adf10a08113aeae9da2b782f5",
+      "legacyEvidence": "style-library/evidence/production-20261020-a85-a86-a87-a88-a89-a90-a91-a92-a93-a100.json"
+    }
+  },
+  {
+    "id": "A94",
+    "key": "mechanical-cutaway",
+    "oldName": "机械剖面",
+    "oldFamily": "立体与模型",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F07",
+    "familyName": "技术图形与界面",
+    "newName": "剖切与分解说明",
+    "componentKind": "图解",
+    "reason": "剖切、爆炸分解和对应标注是解释内部关系的方法，可以使用写实、线描或立体造型。",
+    "preserve": "剖切体、分解模型和稳定标注实现",
+    "extract": [
+      "剖切",
+      "爆炸分解"
+    ],
+    "boundary": "只有真实存在的内部结构才能作为事实，其他明确标成示意。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "真实或明确示意的剖切体、分解结构和稳定标注，展示内部因果",
+    "oldProfiles": {
+      "layout": "L14",
+      "motion": "M13",
+      "editing": "E10",
+      "sound": "S08"
+    },
+    "preview": "style-library/previews/mechanical-cutaway.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/mechanical-cutaway/index.html",
+      "look": "style-library/templates/mechanical-cutaway/assets/look.js",
+      "preview": "style-library/previews/mechanical-cutaway.jpg",
+      "templateSha256": "5c1bffd4a0e8bb655920f82bbf7c0de1336939bd5c71c741f4b54cf16c750ae8",
+      "lookSha256": "920a3783994e860e547e47d7452d9ce921c4587a7b6efafb13bc91acf1c85a64",
+      "previewSha256": "0cad1ddf27af5d22676ad47fae29c26c2e35aa7cb4b59c9ed319933eed26171e",
+      "legacyEvidence": "style-library/evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json"
+    }
+  },
+  {
+    "id": "A95",
+    "key": "terminal-ascii",
+    "oldName": "终端字符",
+    "oldFamily": "数字屏幕与系统",
+    "oldStatus": "verified-video",
+    "action": "归为分支",
+    "familyId": "F07",
+    "familyName": "技术图形与界面",
+    "newName": "终端字符界面",
+    "componentKind": null,
+    "reason": "等宽字、状态输出与字符结构形成技术图形的终端分支。",
+    "preserve": "字符图形、等宽排版与状态输出实现",
+    "extract": [
+      "字符输出"
+    ],
+    "boundary": "不得伪装真实系统日志或虚构运行结果。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "等宽字符组成状态和结构，实际文字逐段输出；不伪装真实系统日志",
+    "oldProfiles": {
+      "layout": "L13",
+      "motion": "M14",
+      "editing": "E04",
+      "sound": "S09"
+    },
+    "preview": "style-library/previews/terminal-ascii.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/terminal-ascii/index.html",
+      "look": "style-library/templates/terminal-ascii/assets/look.js",
+      "preview": "style-library/previews/terminal-ascii.jpg",
+      "templateSha256": "593e7416d11d2358eb32351b7bfc55a0800b5cb7d0a29a8b7f861a7251199944",
+      "lookSha256": "08f27406f09478d67ab079936d3cc7e73bde8a8e4f40c35b1d732ea1c394b3b2",
+      "previewSha256": "f2a91cd21b5738010da672bb5d99a4fcf5edb0e776537469f146dae0fd2cba3e",
+      "legacyEvidence": "style-library/evidence/production-20261020-a76-a78-a80-a95-a96-a97-a98.json"
+    }
+  },
+  {
+    "id": "A96",
+    "key": "vector-oscilloscope",
+    "oldName": "矢量示波",
+    "oldFamily": "数字屏幕与系统",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F07",
+    "familyName": "技术图形与界面",
+    "newName": "发光轨迹与余辉",
+    "componentKind": "渲染与显示",
+    "reason": "连续线迹和余辉是一种显示渲染方式，可用于图形、音频或技术界面。",
+    "preserve": "发光线、连续轨迹和余辉实现",
+    "extract": [
+      "发光轨迹",
+      "余辉"
+    ],
+    "boundary": "波形用真实音频或明确标为示意，不把装饰线当作测量。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "连续发光线与轨迹余辉构成图形，波形使用真实音频或明确标为示意",
+    "oldProfiles": {
+      "layout": "L07",
+      "motion": "M14",
+      "editing": "E04",
+      "sound": "S09"
+    },
+    "preview": "style-library/previews/vector-oscilloscope.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/vector-oscilloscope/index.html",
+      "look": "style-library/templates/vector-oscilloscope/assets/look.js",
+      "preview": "style-library/previews/vector-oscilloscope.jpg",
+      "templateSha256": "c667878b9e561aa51c5c6cc13c902e1ed8ebf94edf650f6fea25ff6a2ba0fc76",
+      "lookSha256": "9605f07ed7eb0a6cc4c808af9f69d5ae8d3f548f0107369ca7c6d6cb75364d6b",
+      "previewSha256": "cefbf6114b96275ebd1d4e6ace672302361b583bd83429feb8416e327cb15705",
+      "legacyEvidence": "style-library/evidence/production-20261020-a76-a78-a80-a95-a96-a97-a98.json"
+    }
+  },
+  {
+    "id": "A97",
+    "key": "led-dot-matrix",
+    "oldName": "低帧点阵",
+    "oldFamily": "数字屏幕与系统",
+    "oldStatus": "verified-video",
+    "action": "归为分支",
+    "familyId": "F12",
+    "familyName": "像素与点阵图形",
+    "newName": "圆点阵显示",
+    "componentKind": null,
+    "reason": "圆点字模、单色显示和分段更新与像素共享离散网格，但具体显示规则不同。",
+    "preserve": "圆点阵列、字模与分段更新实现",
+    "extract": [
+      "圆点字模",
+      "分段更新"
+    ],
+    "boundary": "不直接与像素游戏判重；低帧是局部表现节奏，不降低全片交付帧率。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "单色圆点阵列、字模和分段更新，区别于像素游戏的场景与方形贴图",
+    "oldProfiles": {
+      "layout": "L05",
+      "motion": "M14",
+      "editing": "E04",
+      "sound": "S09"
+    },
+    "preview": "style-library/previews/led-dot-matrix.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/led-dot-matrix/index.html",
+      "look": "style-library/templates/led-dot-matrix/assets/look.js",
+      "preview": "style-library/previews/led-dot-matrix.jpg",
+      "templateSha256": "e80933168a369f699238d1b58b2f2ff4feb7144560a9578dd0be84c1754bb80a",
+      "lookSha256": "fac9c67955e3954552ce6a08eaec42364f2d4a9221b4533ac51e0cd28c8388f9",
+      "previewSha256": "8fef556b1eb49501294bd1b660550e6cbdaa54a6270d93fb29032af8a6681c78",
+      "legacyEvidence": "style-library/evidence/production-20261020-a76-a78-a80-a95-a96-a97-a98.json"
+    }
+  },
+  {
+    "id": "A98",
+    "key": "early-desktop",
+    "oldName": "早期桌面",
+    "oldFamily": "数字屏幕与系统",
+    "oldStatus": "verified-video",
+    "action": "归为分支",
+    "familyId": "F07",
+    "familyName": "技术图形与界面",
+    "newName": "复古桌面界面",
+    "componentKind": null,
+    "reason": "窗口、位图图标和任务层级形成技术界面的年代分支，复古调性可单独更换。",
+    "preserve": "原窗口、位图图标与任务层级实现",
+    "extract": [
+      "窗口任务",
+      "位图图标"
+    ],
+    "boundary": "不复制系统商标，也不冒充真实软件操作录屏。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "窗口、位图图标与明确层级组织任务，不复制未经授权的系统品牌界面",
+    "oldProfiles": {
+      "layout": "L13",
+      "motion": "M14",
+      "editing": "E03",
+      "sound": "S09"
+    },
+    "preview": "style-library/previews/early-desktop.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/early-desktop/index.html",
+      "look": "style-library/templates/early-desktop/assets/look.js",
+      "preview": "style-library/previews/early-desktop.jpg",
+      "templateSha256": "5354a3e2e17f4fc69411e816bf8dc30bd2b024c188ebdca0b5fef17ead5a26b6",
+      "lookSha256": "0cd11202cd09a9550aa92c3c4de4d8cb6c13973ceec2265e13c90b318a716815",
+      "previewSha256": "15a9618575335010ea8fb8df726809bd4a25b2e603d1b2ae94d9d7a166ea0601",
+      "legacyEvidence": "style-library/evidence/production-20261020-a76-a78-a80-a95-a96-a97-a98.json"
+    }
+  },
+  {
+    "id": "A99",
+    "key": "spatial-pointcloud",
+    "oldName": "空间点云",
+    "oldFamily": "数字屏幕与系统",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F07",
+    "familyName": "技术图形与界面",
+    "newName": "空间点采样",
+    "componentKind": "渲染与显示",
+    "reason": "稀疏到密集的点、前后遮挡和剖切观察是一种空间表示，可附着不同对象。",
+    "preserve": "代码点云、深度和采样变化实现",
+    "extract": [
+      "点采样",
+      "空间剖切"
+    ],
+    "boundary": "不把真人点云化，也不把示意点云称作真实扫描结果。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "稀疏到密集的空间采样、点的前后关系和剖切观察；不把真人点云化",
+    "oldProfiles": {
+      "layout": "L14",
+      "motion": "M13",
+      "editing": "E10",
+      "sound": "S08"
+    },
+    "preview": "style-library/previews/spatial-pointcloud.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/spatial-pointcloud/index.html",
+      "look": "style-library/templates/spatial-pointcloud/assets/look.js",
+      "preview": "style-library/previews/spatial-pointcloud.jpg",
+      "templateSha256": "b5e9a3c6b454f49bda183eaea38413761b500e843f1b2cc699d43744fa395c56",
+      "lookSha256": "30409d130d2bebe5aa4efd761dc4798203b20f1aba830ef6eecd29bc3fe001c0",
+      "previewSha256": "d419963a2fc1b271e9e31197c6a5d4b5183ea81c07c4fcd2eddc7a773f6e0e00",
+      "legacyEvidence": "style-library/evidence/production-20261020-a58-a62-a63-a67-a77-a94-a99-a29-a30-a32-a33-a35-a36-a37-a38.json"
+    }
+  },
+  {
+    "id": "A100",
+    "key": "holographic-volume",
+    "oldName": "全息投影",
+    "oldFamily": "数字屏幕与系统",
+    "oldStatus": "verified-video",
+    "action": "移入组件",
+    "familyId": "F07",
+    "familyName": "技术图形与界面",
+    "newName": "体积发光切片",
+    "componentKind": "渲染与显示",
+    "reason": "透光切片、发光边界与发射底座属于空间显示效果，不是必须独占的整体画风。",
+    "preserve": "原投影层、前后切片与发射底座实现",
+    "extract": [
+      "透光切片",
+      "体积发光"
+    ],
+    "boundary": "不是随机点云，也不是实际全息设备演示；人物和正文在外层。",
+    "mergeInto": null,
+    "judgment": "user-approved-classification",
+    "migrationState": "registered-preserved",
+    "oldMechanism": "局部发光轮廓、前后分离的透光切片与发射底座形成投影层次，没有随机点云；原色人物和不透明正文在投影之外，图解不是实际全息设备展示",
+    "oldProfiles": {
+      "layout": "L12",
+      "motion": "M13",
+      "editing": "E08",
+      "sound": "S01"
+    },
+    "preview": "style-library/previews/holographic-volume.jpg",
+    "source": {
+      "catalog": "style-library/catalog.json",
+      "template": "style-library/templates/holographic-volume/index.html",
+      "look": "style-library/templates/holographic-volume/assets/look.js",
+      "preview": "style-library/previews/holographic-volume.jpg",
+      "templateSha256": "d110f94b7a248571fdb3c48de9192dc519e5803efa170f7c947926c32ca5a485",
+      "lookSha256": "4b2fac2249cfdc67ada63ec7baa7f93086e0a85b3247ce109c6fa8aa80f1c6a3",
+      "previewSha256": "a817809f7544a233782562193e94a49b3516b4d69c532f38f7f15e7591f68d33",
+      "legacyEvidence": "style-library/evidence/production-20261020-a85-a86-a87-a88-a89-a90-a91-a92-a93-a100.json"
+    }
+  }
+]

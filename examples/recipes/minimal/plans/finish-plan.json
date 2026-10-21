@@ -1,0 +1,20 @@
+{
+  "lightAssignments": {
+    "ambient": 2.2,
+    "key": 3.2,
+    "direction": [
+      -4,
+      8,
+      6
+    ]
+  },
+  "shadowRules": {
+    "contact": false,
+    "color": "#8d7694",
+    "opacity": 0.17
+  },
+  "finishLayers": {
+    "gridStep": 0,
+    "grainOpacity": 0
+  }
+}

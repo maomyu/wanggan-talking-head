@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "version": "1.18.0",
+  "entry": "skills/talking-head-video/SKILL.md",
+  "compositionSkill": "skills/talking-head-composition/SKILL.md",
+  "axes": [
+    {
+      "id": "art-style",
+      "name": "主画风",
+      "ownership": "视觉语言及可辨认特征；定义全片的审美方向，不吞并其他十类选择。",
+      "artifact": "style-contract.json",
+      "ownedFields": [
+        "identityRules",
+        "referencePrinciples",
+        "driftChecks"
+      ],
+      "skill": "talking-head-art-style"
+    },
+    {
+      "id": "palette",
+      "name": "配色",
+      "ownership": "背景、文字、图解与强调色的角色及对比关系。",
+      "artifact": "palette-tokens.json",
+      "ownedFields": [
+        "colorRoles",
+        "contrastPairs",
+        "emphasisBudget"
+      ],
+      "skill": "talking-head-palette"
+    },
+    {
+      "id": "material",
+      "name": "材质外观",
+      "ownership": "对象表面的纸、布、墨、金属等外观及尺度。",
+      "artifact": "material-tokens.json",
+      "ownedFields": [
+        "surfaceAssignments",
+        "textureScale",
+        "edgeTreatment"
+      ],
+      "skill": "talking-head-material"
+    },
+    {
+      "id": "representation",
+      "name": "造型呈现",
+      "ownership": "对象以照片、纸页、平面符号、模型或舞台等何种结构存在。",
+      "artifact": "object-spec.json",
+      "ownedFields": [
+        "objectGeometry",
+        "objectIdentity",
+        "anchors",
+        "surfaceSides"
+      ],
+      "skill": "talking-head-representation"
+    },
+    {
+      "id": "object-motion",
+      "name": "物体动效",
+      "ownership": "对象怎样发生有语义结果的位移、显现、变化和响应。",
+      "artifact": "motion-events.json",
+      "ownedFields": [
+        "actions",
+        "stateTransitions",
+        "paths",
+        "settleFrames"
+      ],
+      "skill": "talking-head-object-motion"
+    },
+    {
+      "id": "camera",
+      "name": "镜头",
+      "ownership": "观察空间的景别、取景、视轴及运动；不擅自移动对象的语义关系。",
+      "artifact": "camera-plan.json",
+      "ownedFields": [
+        "shotFraming",
+        "viewTransforms",
+        "focusTargets"
+      ],
+      "skill": "talking-head-camera"
+    },
+    {
+      "id": "transition",
+      "name": "转场",
+      "ownership": "前一状态如何交出对象与注意力，后一状态如何接住。",
+      "artifact": "transition-plan.json",
+      "ownedFields": [
+        "entryExitBridges",
+        "coverFrames",
+        "continuityAnchors"
+      ],
+      "skill": "talking-head-transition"
+    },
+    {
+      "id": "typography",
+      "name": "字体版式",
+      "ownership": "人物、标题、字幕、图片、图解与来源的阅读主次和空间保护。",
+      "artifact": "layout-plan.json",
+      "ownedFields": [
+        "fontRoles",
+        "readingZones",
+        "captionZones",
+        "protectedPaths"
+      ],
+      "skill": "talking-head-typography"
+    },
+    {
+      "id": "lighting",
+      "name": "光影质感",
+      "ownership": "明暗、投影、聚光、颗粒与合成的整体收束。",
+      "artifact": "finish-plan.json",
+      "ownedFields": [
+        "lightAssignments",
+        "shadowRules",
+        "finishLayers"
+      ],
+      "skill": "talking-head-lighting"
+    },
+    {
+      "id": "information",
+      "name": "信息组织",
+      "ownership": "因果、对比、并列、转折、引句等内容关系如何被解释。",
+      "artifact": "semantic-plan.json",
+      "ownedFields": [
+        "claims",
+        "relations",
+        "assetTasks",
+        "scenePurpose"
+      ],
+      "skill": "talking-head-information"
+    },
+    {
+      "id": "rhythm",
+      "name": "节奏",
+      "ownership": "人声重音、动作密度、完整显现、读图停留及段落松紧。",
+      "artifact": "timing.json",
+      "ownedFields": [
+        "speechAnchors",
+        "readWindows",
+        "densityCurve",
+        "eventSchedule"
+      ],
+      "skill": "talking-head-rhythm"
+    }
+  ],
+  "registries": {
+    "families": "registry/families.json",
+    "branches": "registry/branches.json",
+    "components": "registry/components.json",
+    "legacy-map": "registry/legacy-map.json",
+    "standards": "registry/standards.json",
+    "policy": "registry/policy.json"
+  },
+  "recipes": "recipes/index.json",
+  "preservedExperts": "module-manifest.json",
+  "legacyImplementationFiles": 901
+}

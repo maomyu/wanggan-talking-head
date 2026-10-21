@@ -1,0 +1,16 @@
+{
+  "compositionMode": "technical-blueprint",
+  "name": "技术蓝图",
+  "identityRules": [
+    "同一套结构线、节点与投影图，不伪造读数",
+    "上方标题与左侧索引，结构舞台横向展开",
+    "描线组装、层间分解、节点接管下一镜"
+  ],
+  "referencePrinciples": [
+    "承接用户认可的语义连续方法，本片独立重排对象和动作"
+  ],
+  "driftChecks": [
+    "移除配色仍能由版式与行为辨认",
+    "人物完全豁免风格处理"
+  ]
+}

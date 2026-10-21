@@ -1,0 +1,49 @@
+{
+  "language": "weighted-arc",
+  "actionWindows": {
+    "loss": [
+      310,
+      331
+    ],
+    "cut": [
+      461,
+      483
+    ],
+    "pause": [
+      516,
+      535
+    ],
+    "compare": [
+      563,
+      585
+    ],
+    "riskReveal": [
+      738,
+      755
+    ],
+    "avoid": [
+      783,
+      804
+    ],
+    "reduce": [
+      856,
+      882
+    ]
+  },
+  "settleFrames": {
+    "compare": 585,
+    "risk": 755,
+    "debt": 882
+  },
+  "paths": "per-style explicit pure-frame state ladders in motion.mjs",
+  "extraIdentity": {
+    "existingObject": "h stays fixed on its own podium",
+    "newObject": "extra remains separately placed then rejected",
+    "rejectionMark": "slash shares extra translation/rotation and ends with it",
+    "settleAndRejectFrames": [
+      485,
+      516,
+      538
+    ]
+  }
+}

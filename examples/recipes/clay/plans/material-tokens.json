@@ -1,0 +1,11 @@
+{
+  "surfaceAssignments": {
+    "objects": "soft-clay",
+    "presenter": "original-video"
+  },
+  "roughness": 0.91,
+  "edgeTreatment": {
+    "radius": 0.18
+  },
+  "textureScale": 1
+}

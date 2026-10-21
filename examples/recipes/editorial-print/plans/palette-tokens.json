@@ -1,0 +1,25 @@
+{
+  "colorRoles": {
+    "ink": "#24231F",
+    "paper": "#EEE5D2",
+    "page": "#FAF5E9",
+    "red": "#A62E24",
+    "grey": "#615D55",
+    "white": "#FFFFFF"
+  },
+  "contrastPairs": [
+    [
+      "ink",
+      "page"
+    ],
+    [
+      "red",
+      "page"
+    ],
+    [
+      "ink",
+      "paper"
+    ]
+  ],
+  "emphasisBudget": "一处主要批注；同一红色统一表示提醒/取舍，不伪造认证"
+}

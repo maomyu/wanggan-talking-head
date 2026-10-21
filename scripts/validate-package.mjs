@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import {fileURLToPath} from 'node:url';
+import {checkCollaborationLibrary} from '../runtime/collaboration.mjs';
 import {checkCompositionLibrary} from '../runtime/choreography.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
@@ -26,8 +27,8 @@ check('plugin metadata',()=>{
  requireThat(p.name==='wanggan-talking-head'&&/^\d+\.\d+\.\d+/.test(p.version)&&p.skills==='./skills/','插件名称、版本或skills路径不正确');
  requireThat(fs.statSync(path.join(root,p.skills)).isDirectory(),'skills目录不存在');return {name:p.name,version:p.version};
 });
-check('five discoverable skills',()=>{
- const names=fs.readdirSync(path.join(root,'skills')).sort();requireThat(names.length===5,'应有四专业模块与一个统筹入口');
+check('seventeen discoverable skills',()=>{
+ const names=fs.readdirSync(path.join(root,'skills')).sort();requireThat(names.length===17,'应有十一类、协作统筹、原四专家与总入口');
  for(const name of names){
   const text=fs.readFileSync(path.join(root,'skills',name,'SKILL.md'),'utf8');
   const front=text.match(/^---\r?\n([\s\S]*?)\r?\n---/);requireThat(front,'缺少frontmatter: '+name);
@@ -75,4 +76,5 @@ check('sealed source manifest',()=>{
  return {files:files.length,scope:'源包结构与内容；不包含全局安装验收'};
 });
 check('choreography library and source versions',checkCompositionLibrary);
+check('eleven-axis registries and approved recipes',checkCollaborationLibrary);
 const result={ok:checks.every(c=>c.ok),root,checks};console.log(JSON.stringify(result,null,2));if(!result.ok)process.exitCode=1;

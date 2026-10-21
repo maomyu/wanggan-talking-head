@@ -1,0 +1,12 @@
+{
+  "id": "editorial-print-own-full-01",
+  "videoSha256": "1b7476b6a069bbd5b524aa633048e631b02dac461d78c344c3e29738b5af06d8",
+  "sourceUploadSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "frames": 1100,
+  "fps": 30,
+  "axesWithActualLiveBindings": 11,
+  "recipeId": "editorial-print",
+  "status": "user-approved",
+  "approvalDate": "2026-10-21",
+  "scope": "原完整成片及其本次认可；不是任意组合自动渲染证明"
+}

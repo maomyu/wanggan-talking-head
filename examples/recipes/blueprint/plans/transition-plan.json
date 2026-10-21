@@ -1,0 +1,35 @@
+{
+  "language": "continuous-axes-inspection",
+  "entryExitBridges": [
+    {
+      "frame": 388,
+      "from": "consequence inspection",
+      "to": "same engineering whole plan",
+      "anchor": "three fixed stations; camera pulls back"
+    },
+    {
+      "frame": 616,
+      "from": "comparison grid",
+      "to": "capital cross-section",
+      "anchor": "same axis path coordinates interpolate, existing capital station remains"
+    },
+    {
+      "frame": 856,
+      "from": "isolated risk branch",
+      "to": "debt station",
+      "anchor": "camera follows continuous bus; debt retracts left then down the rail"
+    },
+    {
+      "frame": 898,
+      "from": "two retained debt layers",
+      "to": "whole plan recap",
+      "anchor": "all stations retained; portrait stays in corner"
+    }
+  ],
+  "continuityAnchors": [
+    "headphone",
+    "principal",
+    "debt"
+  ],
+  "coverFrames": []
+}

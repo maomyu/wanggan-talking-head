@@ -1,0 +1,103 @@
+{
+  "speechAnchors": {
+    "cut": 461,
+    "pause": 516,
+    "distinguish": 563,
+    "capital": 616,
+    "pitch": 686,
+    "riskReveal": 753,
+    "avoid": 783,
+    "debt": 856,
+    "recognition": 959,
+    "noHerd": 1003,
+    "resolve": 1036,
+    "summary": 898
+  },
+  "openingAnchors": {
+    "question": 0,
+    "introduce": 58,
+    "truth": 95,
+    "consume": 149,
+    "manage": 198,
+    "debt": 224,
+    "speculate": 266,
+    "loss": 310,
+    "pressure": 349,
+    "overview": 388,
+    "first": 461
+  },
+  "readWindows": [
+    [
+      121,
+      148
+    ],
+    [
+      418,
+      454
+    ],
+    [
+      585,
+      614
+    ],
+    [
+      654,
+      684
+    ],
+    [
+      755,
+      782
+    ],
+    [
+      883,
+      897
+    ],
+    [
+      980,
+      1099
+    ]
+  ],
+  "densityCurve": [
+    [
+      "hook",
+      2
+    ],
+    [
+      "problem",
+      6
+    ],
+    [
+      "overview",
+      3
+    ],
+    [
+      "compare",
+      5
+    ],
+    [
+      "risk",
+      6
+    ],
+    [
+      "debt",
+      5
+    ],
+    [
+      "ending",
+      2
+    ]
+  ],
+  "eventSchedule": {
+    "cut": 461,
+    "pause": 516,
+    "distinguish": 563,
+    "capital": 616,
+    "pitch": 686,
+    "riskReveal": 753,
+    "avoid": 783,
+    "debt": 856,
+    "recognition": 959,
+    "noHerd": 1003,
+    "resolve": 1036,
+    "summary": 898
+  }
+}

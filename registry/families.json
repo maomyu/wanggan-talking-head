@@ -1,0 +1,567 @@
+[
+  {
+    "id": "F01",
+    "name": "写实与摄影影像",
+    "representative": "A01",
+    "definition": "以真实影像、摄影光线、自然空间和图文关系成立。极简是默认分支，可切换纪实、胶片、黑白印样或感光影像。",
+    "identityRules": [
+      "真实影像与空间",
+      "明确影像调性",
+      "图文层级"
+    ],
+    "members": [
+      "A01",
+      "A12",
+      "A21",
+      "A22",
+      "A23",
+      "A24",
+      "A25",
+      "A26",
+      "A28",
+      "A80"
+    ],
+    "branches": [
+      "A12",
+      "A21",
+      "A28",
+      "A80"
+    ],
+    "componentReferences": [
+      "A22",
+      "A23",
+      "A24",
+      "A25",
+      "A26"
+    ],
+    "preview": "style-library/previews/minimal.jpg",
+    "defaultLegacyId": "A01",
+    "defaultName": "写实极简",
+    "defaultLegacyKey": "minimal"
+  },
+  {
+    "id": "F02",
+    "name": "现代几何平面",
+    "representative": "A03",
+    "definition": "抽象几何、图底、轴线与文字尺度主导画面；不是某一组颜色或固定网格。",
+    "identityRules": [
+      "硬边块面",
+      "抽象比例与轴线",
+      "图底及字阶"
+    ],
+    "members": [
+      "A03",
+      "A18",
+      "A35",
+      "A36",
+      "A37",
+      "A39",
+      "A40",
+      "A41",
+      "A42"
+    ],
+    "branches": [
+      "A36",
+      "A37",
+      "A39",
+      "A40",
+      "A41"
+    ],
+    "componentReferences": [
+      "A18",
+      "A35",
+      "A42"
+    ],
+    "preview": "style-library/previews/geometry.jpg",
+    "defaultLegacyId": "A03",
+    "defaultName": "几何印刷",
+    "defaultLegacyKey": "geometry"
+  },
+  {
+    "id": "F03",
+    "name": "编辑出版",
+    "representative": "A04",
+    "definition": "以图文编辑、裁切、留白和信息载体建立整片气质；纸本、杂志、报刊可共享母入口。",
+    "identityRules": [
+      "图文编辑",
+      "层级与留白",
+      "载体秩序"
+    ],
+    "members": [
+      "A02",
+      "A04",
+      "A29",
+      "A30",
+      "A31",
+      "A32",
+      "A33",
+      "A34",
+      "A81"
+    ],
+    "branches": [
+      "A02",
+      "A29"
+    ],
+    "componentReferences": [
+      "A30",
+      "A31",
+      "A32",
+      "A33",
+      "A34",
+      "A81"
+    ],
+    "preview": "style-library/previews/magazine.jpg",
+    "defaultLegacyId": "A04",
+    "defaultName": "杂志编辑",
+    "defaultLegacyKey": "magazine"
+  },
+  {
+    "id": "F04",
+    "name": "拼贴混合媒介",
+    "representative": "A05",
+    "definition": "异质图像、文字与载体通过裁切、接缝、叠压组成新的关系。",
+    "identityRules": [
+      "异质媒介",
+      "裁切接缝",
+      "层间叠压"
+    ],
+    "members": [
+      "A05",
+      "A61"
+    ],
+    "branches": [],
+    "componentReferences": [
+      "A61"
+    ],
+    "preview": "style-library/previews/collage.jpg",
+    "defaultLegacyId": "A05",
+    "defaultName": "剪贴拼贴",
+    "defaultLegacyKey": "collage"
+  },
+  {
+    "id": "F05",
+    "name": "线描与素描",
+    "representative": "A06",
+    "definition": "笔路、线条密度、轮廓与纸白组织对象；不同笔具保留为有造型差异的分支。",
+    "identityRules": [
+      "笔路轮廓",
+      "线密度",
+      "描绘与留白"
+    ],
+    "members": [
+      "A06",
+      "A16",
+      "A43",
+      "A44",
+      "A45",
+      "A46",
+      "A49",
+      "A50"
+    ],
+    "branches": [
+      "A16",
+      "A43",
+      "A44",
+      "A45",
+      "A46",
+      "A49"
+    ],
+    "componentReferences": [
+      "A50"
+    ],
+    "preview": "style-library/previews/line.jpg",
+    "defaultLegacyId": "A06",
+    "defaultName": "单线手绘",
+    "defaultLegacyKey": "line"
+  },
+  {
+    "id": "F06",
+    "name": "平面插画",
+    "representative": "A07",
+    "definition": "具象物件、一致图形造型与场景色面主导，而不是抽象几何或纯文字主导。",
+    "identityRules": [
+      "一致具象造型",
+      "场景色面",
+      "边缘与明暗规则"
+    ],
+    "members": [
+      "A07",
+      "A38",
+      "A47",
+      "A48",
+      "A51",
+      "A52",
+      "A53",
+      "A54",
+      "A55",
+      "A56",
+      "A57",
+      "A82",
+      "A83"
+    ],
+    "branches": [
+      "A38",
+      "A47",
+      "A48",
+      "A51",
+      "A54",
+      "A56"
+    ],
+    "componentReferences": [
+      "A52",
+      "A53",
+      "A55",
+      "A57",
+      "A82",
+      "A83"
+    ],
+    "preview": "style-library/previews/illustration.jpg",
+    "defaultLegacyId": "A07",
+    "defaultName": "图形插画",
+    "defaultLegacyKey": "illustration"
+  },
+  {
+    "id": "F07",
+    "name": "技术图形与界面",
+    "representative": "A08",
+    "definition": "结构、标注、功能层级与状态反馈共同成立；工程图、终端与桌面分别保留。",
+    "identityRules": [
+      "结构标注",
+      "功能层级",
+      "有意义的状态"
+    ],
+    "members": [
+      "A08",
+      "A09",
+      "A94",
+      "A95",
+      "A96",
+      "A98",
+      "A99",
+      "A100"
+    ],
+    "branches": [
+      "A09",
+      "A95",
+      "A98"
+    ],
+    "componentReferences": [
+      "A94",
+      "A96",
+      "A99",
+      "A100"
+    ],
+    "preview": "style-library/previews/precision.jpg",
+    "defaultLegacyId": "A08",
+    "defaultName": "精密界面",
+    "defaultLegacyKey": "precision"
+  },
+  {
+    "id": "F08",
+    "name": "复古套色印刷",
+    "representative": "A10",
+    "definition": "半色调、有限油墨、套印和印面共同产生印刷观感。",
+    "identityRules": [
+      "色层套印",
+      "印面边缘",
+      "半色调或孔版"
+    ],
+    "members": [
+      "A10",
+      "A78"
+    ],
+    "branches": [
+      "A78"
+    ],
+    "componentReferences": [],
+    "preview": "style-library/previews/halftone.jpg",
+    "defaultLegacyId": "A10",
+    "defaultName": "复古网点",
+    "defaultLegacyKey": "halftone"
+  },
+  {
+    "id": "F09",
+    "name": "漫画与动画平涂",
+    "representative": "A11",
+    "definition": "描线、色面、分格或有限姿态表演组织表达；漫画与赛璐璐保持各自分支规则。",
+    "identityRules": [
+      "描线",
+      "明确色面",
+      "分格或有限姿态"
+    ],
+    "members": [
+      "A11",
+      "A19"
+    ],
+    "branches": [
+      "A19"
+    ],
+    "componentReferences": [],
+    "preview": "style-library/previews/comic.jpg",
+    "defaultLegacyId": "A11",
+    "defaultName": "漫画描线",
+    "defaultLegacyKey": "comic"
+  },
+  {
+    "id": "F10",
+    "name": "水墨",
+    "representative": "A13",
+    "definition": "浓淡、虚实、笔势及留白共同构成笔墨语言，不是黑白色板。",
+    "identityRules": [
+      "墨色浓淡",
+      "笔势边缘",
+      "虚实留白"
+    ],
+    "members": [
+      "A13"
+    ],
+    "branches": [],
+    "componentReferences": [],
+    "preview": "style-library/previews/ink.jpg",
+    "defaultLegacyId": "A13",
+    "defaultName": "水墨留白",
+    "defaultLegacyKey": "ink"
+  },
+  {
+    "id": "F11",
+    "name": "立体造型",
+    "representative": "A14",
+    "definition": "实体体积、空间、接触关系与材质行为形成解释环境。柔质模型是默认分支，硬表与微缩分别保留。",
+    "identityRules": [
+      "实体体积",
+      "接触与投影",
+      "空间及材料行为"
+    ],
+    "members": [
+      "A14",
+      "A20",
+      "A27",
+      "A79",
+      "A84",
+      "A85",
+      "A86",
+      "A87",
+      "A88",
+      "A89",
+      "A90",
+      "A91",
+      "A92",
+      "A93"
+    ],
+    "branches": [
+      "A20",
+      "A86",
+      "A87"
+    ],
+    "componentReferences": [
+      "A27",
+      "A79",
+      "A84",
+      "A85",
+      "A88",
+      "A89",
+      "A90",
+      "A91",
+      "A92",
+      "A93"
+    ],
+    "preview": "style-library/previews/clay.jpg",
+    "defaultLegacyId": "A14",
+    "defaultName": "柔质立体",
+    "defaultLegacyKey": "clay"
+  },
+  {
+    "id": "F12",
+    "name": "像素与点阵图形",
+    "representative": "A15",
+    "definition": "离散网格、受限显示和步进结构形成视觉语言；方像素与圆点显示不直接判重。",
+    "identityRules": [
+      "离散网格",
+      "受限显示",
+      "步进结构"
+    ],
+    "members": [
+      "A15",
+      "A97"
+    ],
+    "branches": [
+      "A97"
+    ],
+    "componentReferences": [],
+    "preview": "style-library/previews/pixel.jpg",
+    "defaultLegacyId": "A15",
+    "defaultName": "像素复古",
+    "defaultLegacyKey": "pixel"
+  },
+  {
+    "id": "F13",
+    "name": "手工拼构",
+    "representative": "A17",
+    "definition": "切口、片层、连接与制作痕迹共同成立。剪纸、折纸、毛毡和拼布仍保留不同分支。",
+    "identityRules": [
+      "可见片层",
+      "连接或接缝",
+      "厚边与制作痕迹"
+    ],
+    "members": [
+      "A17",
+      "A58",
+      "A59",
+      "A60",
+      "A62",
+      "A63",
+      "A64",
+      "A65",
+      "A66"
+    ],
+    "branches": [
+      "A58",
+      "A62",
+      "A64"
+    ],
+    "componentReferences": [
+      "A59",
+      "A60",
+      "A63",
+      "A65",
+      "A66"
+    ],
+    "preview": "style-library/previews/paper-stage.jpg",
+    "defaultLegacyId": "A17",
+    "defaultName": "剪纸舞台",
+    "defaultLegacyKey": "paper-stage"
+  },
+  {
+    "id": "F14",
+    "name": "工笔设色",
+    "representative": "A67",
+    "definition": "细线立骨、层层淡设色及清楚对象边界共同成立。",
+    "identityRules": [
+      "细线立骨",
+      "多层淡设色",
+      "明确对象边界"
+    ],
+    "members": [
+      "A67",
+      "A71"
+    ],
+    "branches": [],
+    "componentReferences": [
+      "A71"
+    ],
+    "preview": "style-library/previews/gongbi.jpg",
+    "defaultLegacyId": "A67",
+    "defaultName": "工笔设色",
+    "defaultLegacyKey": "gongbi"
+  },
+  {
+    "id": "F15",
+    "name": "青绿山水",
+    "representative": "A68",
+    "definition": "山体分组、矿物色层、留水与游观空间一起成立，不能只留下青绿配色。",
+    "identityRules": [
+      "山体分组",
+      "矿物色层与留水",
+      "游观空间"
+    ],
+    "members": [
+      "A68"
+    ],
+    "branches": [],
+    "componentReferences": [],
+    "preview": "style-library/previews/blue-green-landscape.jpg",
+    "defaultLegacyId": "A68",
+    "defaultName": "青绿山水",
+    "defaultLegacyKey": "blue-green-landscape"
+  },
+  {
+    "id": "F16",
+    "name": "壁画重彩",
+    "representative": "A69",
+    "definition": "装饰性平面造型、画带、矿物重彩与壁面关系成立；保留原敦煌方向的制作来源。",
+    "identityRules": [
+      "装饰性造型",
+      "重彩画带",
+      "壁面空间"
+    ],
+    "members": [
+      "A69",
+      "A73"
+    ],
+    "branches": [],
+    "componentReferences": [
+      "A73"
+    ],
+    "preview": "style-library/previews/mural.jpg",
+    "defaultLegacyId": "A69",
+    "defaultName": "敦煌壁画",
+    "defaultLegacyKey": "mural"
+  },
+  {
+    "id": "F17",
+    "name": "透明水彩",
+    "representative": "A74",
+    "definition": "纸白、透明洗色、湿边与层间透叠成立，与不透明粉彩分开。",
+    "identityRules": [
+      "透明洗色",
+      "纸白湿边",
+      "透叠关系"
+    ],
+    "members": [
+      "A74"
+    ],
+    "branches": [],
+    "componentReferences": [],
+    "preview": "style-library/previews/watercolor.jpg",
+    "defaultLegacyId": "A74",
+    "defaultName": "水彩洇染",
+    "defaultLegacyKey": "watercolor"
+  },
+  {
+    "id": "F18",
+    "name": "厚涂油画",
+    "representative": "A75",
+    "definition": "覆盖关系、刀脊、笔触与侧光共同呈现实体颜料。",
+    "identityRules": [
+      "实体笔触",
+      "覆盖关系",
+      "刀脊侧光"
+    ],
+    "members": [
+      "A75"
+    ],
+    "branches": [],
+    "componentReferences": [],
+    "preview": "style-library/previews/impasto.jpg",
+    "defaultLegacyId": "A75",
+    "defaultName": "厚涂油彩",
+    "defaultLegacyKey": "impasto"
+  },
+  {
+    "id": "F19",
+    "name": "刻印版画",
+    "representative": "A76",
+    "definition": "刻除、印面、刻线灰调与版边形成语言，单色木刻、套色和蚀刻分别保留。",
+    "identityRules": [
+      "刻除与刻线",
+      "印面",
+      "版边与灰调"
+    ],
+    "members": [
+      "A70",
+      "A72",
+      "A76",
+      "A77"
+    ],
+    "branches": [
+      "A70",
+      "A72",
+      "A77"
+    ],
+    "componentReferences": [],
+    "preview": "style-library/previews/woodcut.jpg",
+    "defaultLegacyId": "A76",
+    "defaultName": "木刻刀痕",
+    "defaultLegacyKey": "woodcut"
+  }
+]

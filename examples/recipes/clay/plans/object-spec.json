@@ -1,0 +1,30 @@
+{
+  "objectIdentity": {
+    "headphone": "概念示意物件，跨镜保持",
+    "principal": "本金原则示意，八单位不是金额",
+    "debt": "负担示意，六件减至两件",
+    "food": "需要对照示意",
+    "risk": "夸大收益信息背后的风险示意"
+  },
+  "objectGeometry": {
+    "photoSize": 330,
+    "unitCount": 8,
+    "debtCount": 6,
+    "stage": [
+      50,
+      490,
+      980,
+      735
+    ]
+  },
+  "anchors": {
+    "stageCenter": [
+      540,
+      850
+    ]
+  },
+  "surfaceSides": [
+    "front",
+    "inside"
+  ]
+}

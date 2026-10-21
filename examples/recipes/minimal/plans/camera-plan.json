@@ -1,0 +1,21 @@
+{
+  "language": "detail-return",
+  "shotFraming": {
+    "hook": "真人与问题",
+    "problem": "对象后果",
+    "compare": "同尺度对照",
+    "risk": "外观与内部",
+    "recap": "回到真人并保留结果"
+  },
+  "viewTransforms": {
+    "detailScale": 1.06,
+    "orbitDegrees": [
+      0
+    ]
+  },
+  "focusTargets": [
+    "headphone",
+    "principal",
+    "debt"
+  ]
+}

@@ -1,3 +1,26 @@
+# 网感口播 · 1.18.0
+
+以用户自己的真实口播和原声为源，按文案重新设计图片任务、对象动作、可见结果与前后衔接。人物原色、角落圆窗、字幕上移。
+
+正式采用十一类协作：主画风、配色、材质、造型、物体动效、镜头、转场、字体版式、光影、信息组织、节奏。原四份完整专家正文按原哈希保留，十一类进一步明确职责与交接，不缩短专业方法。
+
+母画风、分支、组件分别管理；原100项编号、素材和实现完整保留。四套用户认可配方：编辑拼贴与印刷、写实极简、技术蓝图、柔质立体，带44份实际专业计划、原案例代码与认可哈希。新素材重新设计内容，85项设计标准不冒称通用渲染组件。
+
+```sh
+node scripts/studio.mjs doctor
+node scripts/studio.mjs recipes
+node scripts/studio.mjs families
+node scripts/studio.mjs branches
+node scripts/studio.mjs components
+node scripts/studio.mjs standards
+node scripts/studio.mjs init --project /path/to/film --source /path/to/own.mp4 --recipe minimal
+node scripts/studio.mjs revise --from /path/to/film --out /path/to/film-v2 --axes typography --request "只调整标题与字幕"
+```
+
+完整制作与命令见[分类与配方](docs/分类与配方.md)、[协作合同](docs/协作合同.md)、[能力边界](docs/能力边界.md)。旧工程和`styles --all`、`recipe --style Axx`、`choreographies`继续兼容。工程与临时文件放插件外，默认不上传用户原片与最终视频。
+
+以下保留历史版本的具体实现与制作说明；目录数量、分类入口和职责以本节及协作合同为准。
+
 # 网感口播 1.17.0
 
 正式接入[新素材制作流程](docs/新素材制作流程.md)：读懂新文案，重新设计对象、图片任务、动作结果和连续转场，实际编码后检查并清理制作残留。默认使用用户自己的口播与原声，详见[素材与原声](docs/素材与原声.md)。保留四个完整专家skill、100种画风和12套编排；当前认可与验证边界见[1.17.0验收](docs/1.17.0验收.md)。

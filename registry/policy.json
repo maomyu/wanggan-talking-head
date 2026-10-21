@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "selectionPolicy": "每类可提供候选池；逐场只用必要项，不要求把池内全部技法都用一遍。主画风、配色默认各一个主项。",
+  "person": {
+    "color": "source-original",
+    "cornerMask": "circle-through-motion",
+    "source": "user-owned",
+    "styleEffectsAllowed": false
+  },
+  "captions": {
+    "referenceCanvas": [
+      1080,
+      1920
+    ],
+    "referenceTop": 1600,
+    "referenceFontSize": 60,
+    "maxLines": 2,
+    "adjustment": "按实际长文字与画幅重排，保持上移与动态避让"
+  },
+  "audio": {
+    "mode": "original-voice",
+    "audibleVoiceTracks": 1,
+    "newMusicOrSfx": "only-on-request"
+  },
+  "priority": [
+    "current-user-intent",
+    "source-meaning-and-evidence",
+    "person-and-reading-protection",
+    "approved-visual-contract",
+    "selected-standards",
+    "defaults"
+  ],
+  "status": "production-contract"
+}

@@ -1,0 +1,29 @@
+{
+  "language": "object-match",
+  "entryExitBridges": [
+    {
+      "frame": 388,
+      "from": "problem",
+      "to": "three-principles",
+      "anchor": "same three objects"
+    },
+    {
+      "frame": 616,
+      "from": "consumption",
+      "to": "principal",
+      "anchor": "principal model"
+    },
+    {
+      "frame": 898,
+      "from": "debt",
+      "to": "recap",
+      "anchor": "reduced debt retained"
+    }
+  ],
+  "continuityAnchors": [
+    "headphone",
+    "principal",
+    "debt"
+  ],
+  "coverFrames": []
+}

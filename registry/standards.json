@@ -1,0 +1,1759 @@
+[
+  {
+    "id": "editorial-print",
+    "axis": "art-style",
+    "name": "编辑拼贴与印刷",
+    "definition": "以编辑取舍、纸页层次、印刷痕迹和注释关系形成统一语言。",
+    "suitable": "观点评论、文化讲解、对照和原文解读。",
+    "avoid": "只换米黄底就自称纸本；把人物也套旧化滤镜。",
+    "handoff": "给出留白、裁切、叠置与印记的身份规则，至少一处跨镜延续。",
+    "controls": [
+      "identityRules",
+      "allowedVariants",
+      "referencePrinciples"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": [],
+    "familyIds": [
+      "F03",
+      "F04"
+    ]
+  },
+  {
+    "id": "realistic-minimal",
+    "axis": "art-style",
+    "name": "写实极简",
+    "definition": "真实影像与少量准确的文字、符号共同解释内容。",
+    "suitable": "真人口播、具体物品与事实说明。",
+    "avoid": "空洞大留白；整屏商品轮播代替动作解释。",
+    "handoff": "图片的任务、裁切、对象身份与大中小景别规则。",
+    "controls": [
+      "identityRules",
+      "allowedVariants",
+      "referencePrinciples"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": [],
+    "familyIds": [
+      "F01"
+    ]
+  },
+  {
+    "id": "geometric-flat",
+    "axis": "art-style",
+    "name": "现代几何平面",
+    "definition": "靠图底、硬边块面、尺度和轴线组织信息。",
+    "suitable": "抽象关系、方法框架、清楚对照。",
+    "avoid": "每段同一张圆角卡；无意义几何装饰。",
+    "handoff": "几何词汇、比例、边界及图形与语义的映射。",
+    "controls": [
+      "identityRules",
+      "allowedVariants",
+      "referencePrinciples"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": [],
+    "familyIds": [
+      "F02"
+    ]
+  },
+  {
+    "id": "ink-wash",
+    "axis": "art-style",
+    "name": "水墨写意",
+    "definition": "以墨色浓淡、虚实、笔势与留白形成空间。",
+    "suitable": "意象表达、传统文化与疏密叙述。",
+    "avoid": "水墨滤镜套真人；用水墨气氛掩盖证据细节。",
+    "handoff": "墨层边界、主笔势、清晰文字层和不能晕染的区域。",
+    "controls": [
+      "identityRules",
+      "allowedVariants",
+      "referencePrinciples"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": [],
+    "familyIds": [
+      "F10"
+    ]
+  },
+  {
+    "id": "monoline-drawing",
+    "axis": "art-style",
+    "name": "单线手绘",
+    "definition": "以统一线宽、连续笔迹与少量手绘符号解释关系。",
+    "suitable": "推演、过程、动作演示。",
+    "avoid": "所有线条同时乱画；把线条动画当成真实结构证明。",
+    "handoff": "对象轮廓、笔画顺序、线宽和关键形状识别条件。",
+    "controls": [
+      "identityRules",
+      "allowedVariants",
+      "referencePrinciples"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": [],
+    "familyIds": [
+      "F05"
+    ]
+  },
+  {
+    "id": "precision-interface",
+    "axis": "art-style",
+    "name": "精密界面",
+    "definition": "以标度、对齐、状态反馈和受控显示表达操作关系。",
+    "suitable": "步骤、机制、技术对象的明确反馈。",
+    "avoid": "随意编造监测值；把普通观点包装成测量结果。",
+    "handoff": "网格、信息读数身份、反馈状态与技术示意标识。",
+    "controls": [
+      "identityRules",
+      "allowedVariants",
+      "referencePrinciples"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": [],
+    "familyIds": [
+      "F07"
+    ]
+  },
+  {
+    "id": "soft-volume",
+    "axis": "art-style",
+    "name": "柔质立体",
+    "definition": "体量、圆角、接触阴影与软硬对比共同构成可触感空间。",
+    "suitable": "实体比喻、堆叠、承重和形变解释。",
+    "avoid": "把人物黏土化；用塑料材质覆盖所有信息。",
+    "handoff": "体量、轮廓、受力与材质分区，文字保持外层清楚。",
+    "controls": [
+      "identityRules",
+      "allowedVariants",
+      "referencePrinciples"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": [],
+    "familyIds": [
+      "F11"
+    ]
+  },
+  {
+    "id": "retro-halftone",
+    "axis": "art-style",
+    "name": "复古网点",
+    "definition": "用网点、套色、印刷边缘和图像裁切形成印样语言。",
+    "suitable": "传播史、视觉评论、强调对比。",
+    "avoid": "低频网点吞掉小字或人脸；只加噪点不编辑。",
+    "handoff": "点距、色层、可处理图像范围与清晰文字层。",
+    "controls": [
+      "identityRules",
+      "allowedVariants",
+      "referencePrinciples"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": [],
+    "familyIds": [
+      "F08"
+    ]
+  },
+  {
+    "id": "ink-paper-cinnabar",
+    "axis": "palette",
+    "name": "墨黑·纸米黄·朱红·灰白",
+    "definition": "墨黑承载阅读，纸米黄为空间，朱红只作批注或强调，灰白作次级面。",
+    "suitable": "编辑印刷、纸本与注释式说明。",
+    "avoid": "红色同时承担否定、肯定和装饰而无角色区分。",
+    "handoff": "四个颜色token、角色分配和真实背景上的文字对比。",
+    "controls": [
+      "colorRoles",
+      "textContrast",
+      "emphasisUse"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "neutral-one-accent",
+    "axis": "palette",
+    "name": "中性色与单强调色",
+    "definition": "用明暗层次承载主体，只给一个颜色承担语义重点。",
+    "suitable": "写实极简、长段解说。",
+    "avoid": "每件物品都涂强调色；仅靠色差区分类别。",
+    "handoff": "主次文字色、基底色、强调色和辅助形状编码。",
+    "controls": [
+      "colorRoles",
+      "textContrast",
+      "emphasisUse"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "blue-white-technical",
+    "axis": "palette",
+    "name": "蓝白技术色",
+    "definition": "蓝系建立技术空间，白与浅灰负责文字和结构。",
+    "suitable": "蓝图、精密界面。",
+    "avoid": "蓝色发光文字落在蓝底上；伪造品牌识别。",
+    "handoff": "明暗蓝层级、白字对比与禁用发光正文。",
+    "controls": [
+      "colorRoles",
+      "textContrast",
+      "emphasisUse"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "monochrome-ink",
+    "axis": "palette",
+    "name": "单色墨阶",
+    "definition": "通过明度、线宽和留白区分层次。",
+    "suitable": "水墨、单线和刻印。",
+    "avoid": "细灰字与浅纸底；让人物失去原色。",
+    "handoff": "前景墨阶、背景墨阶及非颜色区分方法。",
+    "controls": [
+      "colorRoles",
+      "textContrast",
+      "emphasisUse"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "warm-cool-comparison",
+    "axis": "palette",
+    "name": "冷暖对照",
+    "definition": "两组颜色承载明确的两个比较对象。",
+    "suitable": "同尺度选项比较和前后变化。",
+    "avoid": "把暖色天然等同正确；把不同量纲放同坐标。",
+    "handoff": "两组角色、图例与色弱可辨的字形标记。",
+    "controls": [
+      "colorRoles",
+      "textContrast",
+      "emphasisUse"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "soft-earth",
+    "axis": "palette",
+    "name": "柔和大地色",
+    "definition": "用低饱和土色、奶白与深褐形成温和层次。",
+    "suitable": "手作、软质模型和生活主题。",
+    "avoid": "低对比文字；所有物体同色难以辨认。",
+    "handoff": "背景与对象分离、深色文字和有限强调。",
+    "controls": [
+      "colorRoles",
+      "textContrast",
+      "emphasisUse"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "vivid-blocks",
+    "axis": "palette",
+    "name": "高纯度块色",
+    "definition": "用少量高纯度色块建立明确图底和段落对比。",
+    "suitable": "几何平面、短论点与活跃表达。",
+    "avoid": "每秒换色；颜色变化没有语义理由。",
+    "handoff": "色块占比、文字反色及跨段保留色。",
+    "controls": [
+      "colorRoles",
+      "textContrast",
+      "emphasisUse"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "paper-grain",
+    "axis": "material",
+    "name": "纸张外观与纹理",
+    "definition": "具有可控尺度的纤维、颗粒、纸边和轻微明暗。",
+    "suitable": "纸页、批注载体、印刷物。",
+    "avoid": "纹理压过字形；跨镜粒度无理由变化。",
+    "handoff": "纸面纹理尺度、纸边与不覆盖文字的合成层。",
+    "controls": [
+      "surfaceId",
+      "textureScale",
+      "opacity",
+      "edgeRule"
+    ],
+    "provides": [
+      "finish.texture.paper"
+    ],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "matte",
+    "axis": "material",
+    "name": "哑光外观",
+    "definition": "反射收敛、面色稳定，适合长时间阅读。",
+    "suitable": "纸本、平面图解、软质模型。",
+    "avoid": "用重投影冒充哑光；把真人皮肤磨平。",
+    "handoff": "粗糙度或二维近似、阴影范围和高光上限。",
+    "controls": [
+      "surfaceId",
+      "textureScale",
+      "opacity",
+      "edgeRule"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "ink-print",
+    "axis": "material",
+    "name": "油墨与套印",
+    "definition": "边缘、墨密度和轻微套色差呈现印刷痕迹。",
+    "suitable": "标题、照片载体、印章。",
+    "avoid": "正文错版影响阅读；伪造真实认证印章。",
+    "handoff": "错位范围、墨层顺序与清晰正文豁免。",
+    "controls": [
+      "surfaceId",
+      "textureScale",
+      "opacity",
+      "edgeRule"
+    ],
+    "provides": [],
+    "requiresAny": [
+      "surface.paper",
+      "object.type",
+      "object.photo",
+      "object.symbol"
+    ],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "fabric-felt",
+    "axis": "material",
+    "name": "布料与毛毡",
+    "definition": "可辨纤维、缝边和柔软片层表现手工材料。",
+    "suitable": "手作对象、生活比喻。",
+    "avoid": "把每个标签也做毛绒导致糊字。",
+    "handoff": "纤维尺度、厚边、接缝及独立文字层。",
+    "controls": [
+      "surfaceId",
+      "textureScale",
+      "opacity",
+      "edgeRule"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "soft-clay",
+    "axis": "material",
+    "name": "软陶与黏土",
+    "definition": "通过圆角、接触点和受控凹凸表现实体软质。",
+    "suitable": "压、堆、承重和变形。",
+    "avoid": "把缩放当受力；随机抖动冒充质感。",
+    "handoff": "形状约束、接触面、回弹上限与固定内核。",
+    "controls": [
+      "surfaceId",
+      "textureScale",
+      "opacity",
+      "edgeRule"
+    ],
+    "provides": [
+      "material.soft"
+    ],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "metal-brushed",
+    "axis": "material",
+    "name": "拉丝金属",
+    "definition": "有方向的细纹和受控反射表达硬质零件。",
+    "suitable": "机械对象、结构示意。",
+    "avoid": "镜面高光遮标签；把金属贴图当结构。",
+    "handoff": "拉丝方向、反射范围与清晰标注层。",
+    "controls": [
+      "surfaceId",
+      "textureScale",
+      "opacity",
+      "edgeRule"
+    ],
+    "provides": [
+      "material.metal"
+    ],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "glass-clear",
+    "axis": "material",
+    "name": "玻璃与透明体",
+    "definition": "借透射、边缘和前后层次表达透明结构。",
+    "suitable": "容器、分层与内部观察。",
+    "avoid": "透明叠字；不存在的内部结构被称真实。",
+    "handoff": "透明层顺序、边缘与不受折射的标签。",
+    "controls": [
+      "surfaceId",
+      "textureScale",
+      "opacity",
+      "edgeRule"
+    ],
+    "provides": [
+      "material.transparent"
+    ],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "photo-original",
+    "axis": "material",
+    "name": "照片原貌",
+    "definition": "保留原始照片的识别线索与自然颜色。",
+    "suitable": "证据图片、生活物品。",
+    "avoid": "改造证据内容；把生成概念图说成实拍。",
+    "handoff": "原图哈希、裁切边界与图像身份标识。",
+    "controls": [
+      "surfaceId",
+      "textureScale",
+      "opacity",
+      "edgeRule"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "printed-page",
+    "axis": "representation",
+    "name": "印刷纸页",
+    "definition": "有正反面、边缘和内容区的纸页对象。",
+    "suitable": "引句、图文编辑、翻面解释。",
+    "avoid": "翻面时正文镜像；每页换成无关物件。",
+    "handoff": "页对象ID、正反面内容、轴心与文字区域。",
+    "controls": [
+      "objectId",
+      "geometry",
+      "anchor",
+      "parts",
+      "sides"
+    ],
+    "provides": [
+      "surface.paper",
+      "object.layered",
+      "world.2d"
+    ],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "fixed-film-frame",
+    "axis": "representation",
+    "name": "固定胶片框",
+    "definition": "稳定取景框承载照片或原视频局部，不冒充源录像边框。",
+    "suitable": "影像对照、同一对象的连续观察。",
+    "avoid": "胶片孔挤占字幕；框自己持续乱动。",
+    "handoff": "框内外关系、裁切、固定锚点和内容移动权限。",
+    "controls": [
+      "objectId",
+      "geometry",
+      "anchor",
+      "parts",
+      "sides"
+    ],
+    "provides": [
+      "object.frame",
+      "world.2d"
+    ],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "inset-stage",
+    "axis": "representation",
+    "name": "内嵌舞台",
+    "definition": "有边界的局部空间容纳一组可操作对象。",
+    "suitable": "分组、对照、小型情境。",
+    "avoid": "舞台嵌套过深；舞台边缘遮人物或字。",
+    "handoff": "舞台边界、层级、对象入口和阅读保护区。",
+    "controls": [
+      "objectId",
+      "geometry",
+      "anchor",
+      "parts",
+      "sides"
+    ],
+    "provides": [
+      "world.stage",
+      "object.layered"
+    ],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "photo-cutout",
+    "axis": "representation",
+    "name": "摄影物件切片",
+    "definition": "从照片中保留可识别对象和透明边缘。",
+    "suitable": "真实商品、工具、生活对象。",
+    "avoid": "靠漂移轮播解释所有动词；胡乱补造缺失部分。",
+    "handoff": "透明边界、真实来源、对象原点和可执行部件。",
+    "controls": [
+      "objectId",
+      "geometry",
+      "anchor",
+      "parts",
+      "sides"
+    ],
+    "provides": [
+      "object.photo",
+      "world.2d"
+    ],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "flat-symbol",
+    "axis": "representation",
+    "name": "平面符号与关系图",
+    "definition": "以清楚的符号和连接表达关系，身份与数量可追溯。",
+    "suitable": "比较、并列、因果和过程。",
+    "avoid": "装饰箭头被误读为因果；示意数量当真实数据。",
+    "handoff": "符号图例、数量身份和连接关系。",
+    "controls": [
+      "objectId",
+      "geometry",
+      "anchor",
+      "parts",
+      "sides"
+    ],
+    "provides": [
+      "object.symbol",
+      "world.2d"
+    ],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "physical-model",
+    "axis": "representation",
+    "name": "实体模型",
+    "definition": "可辨体积、朝向、接触面与部件关系的三维或二维近似模型。",
+    "suitable": "承重、拆解、空间关系。",
+    "avoid": "宣称二维缩放是真物理模拟。",
+    "handoff": "几何体、部件、接触面、真实或示意标识。",
+    "controls": [
+      "objectId",
+      "geometry",
+      "anchor",
+      "parts",
+      "sides"
+    ],
+    "provides": [
+      "object.volume",
+      "world.3d"
+    ],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "line-construction",
+    "axis": "representation",
+    "name": "线稿构造",
+    "definition": "可分步骤显现的线条轮廓和标注。",
+    "suitable": "机制、路径、结构推演。",
+    "avoid": "画错内部结构；动态线头抢阅读。",
+    "handoff": "线段ID、拓扑连接、笔顺和标注锚点。",
+    "controls": [
+      "objectId",
+      "geometry",
+      "anchor",
+      "parts",
+      "sides"
+    ],
+    "provides": [
+      "object.lines",
+      "world.2d"
+    ],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "type-as-object",
+    "axis": "representation",
+    "name": "文字作为对象",
+    "definition": "关键词本身占据空间并参与关系，但保持可读。",
+    "suitable": "强调概念、对比名词与一句结论。",
+    "avoid": "拉伸变形到难认；口播逐字乱跳。",
+    "handoff": "字形边界、基线、分词和完整可读状态。",
+    "controls": [
+      "objectId",
+      "geometry",
+      "anchor",
+      "parts",
+      "sides"
+    ],
+    "provides": [
+      "object.type",
+      "world.2d"
+    ],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "paper-shift-flip",
+    "axis": "object-motion",
+    "name": "纸页位移与翻转",
+    "definition": "纸页先有动机位移，再围绕明确轴心交出正反面。",
+    "suitable": "解释观点背面、展开原文和纸页交接。",
+    "avoid": "翻转过程中继续读小字；错误镜像或穿模。",
+    "handoff": "预备、转动、遮字、背面显现、停稳五段帧号。",
+    "controls": [
+      "objectId",
+      "verb",
+      "startFrame",
+      "settleFrame",
+      "endState",
+      "path"
+    ],
+    "provides": [],
+    "requiresAny": [
+      "surface.paper"
+    ],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "stamp-reveal",
+    "axis": "object-motion",
+    "name": "印章显现",
+    "definition": "印记落在指定对象上并留下可读结果。",
+    "suitable": "已确定的分类、批注或结论。",
+    "avoid": "伪造机构认证；每句话都盖章。",
+    "handoff": "落点、一次接触、印记内容身份与结果停留。",
+    "controls": [
+      "objectId",
+      "verb",
+      "startFrame",
+      "settleFrame",
+      "endState",
+      "path"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "motivated-move",
+    "axis": "object-motion",
+    "name": "有动机的物件位移",
+    "definition": "对象因分类、让位、交接或因果而移动。",
+    "suitable": "把同一物件从问题区带入解释区。",
+    "avoid": "相关图片无任务地来回漂；仅终点不遮字。",
+    "handoff": "起点、路径、落点、理由及整个路径保护区。",
+    "controls": [
+      "objectId",
+      "verb",
+      "startFrame",
+      "settleFrame",
+      "endState",
+      "path"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "sort-compare",
+    "axis": "object-motion",
+    "name": "归类与比较",
+    "definition": "相同对象按真实关系进入可读分组，差异有落点。",
+    "suitable": "选项、需要与想要、前后对照。",
+    "avoid": "分类重叠；横向位置暗示无依据排名。",
+    "handoff": "分类依据、对象ID、组标签与结果读图窗。",
+    "controls": [
+      "objectId",
+      "verb",
+      "startFrame",
+      "settleFrame",
+      "endState",
+      "path"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "accumulate-reduce",
+    "axis": "object-motion",
+    "name": "累积与消减",
+    "definition": "可追踪的同类单位增加、减少或重新分配。",
+    "suitable": "负担、资源、数量关系的示意。",
+    "avoid": "把八个示意单位说成实际金额；凭空增减。",
+    "handoff": "单位身份、数量前后值、变化原因与示意说明。",
+    "controls": [
+      "objectId",
+      "verb",
+      "startFrame",
+      "settleFrame",
+      "endState",
+      "path"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "mechanism-transform",
+    "axis": "object-motion",
+    "name": "机制驱动变形",
+    "definition": "变形有输入、约束与结果，关键结构可追踪。",
+    "suitable": "压力、伸缩、展开和状态变化。",
+    "avoid": "物件无意义液化；把动画当科学模拟。",
+    "handoff": "输入、约束、变形前后状态及模拟精度声明。",
+    "controls": [
+      "objectId",
+      "verb",
+      "startFrame",
+      "settleFrame",
+      "endState",
+      "path"
+    ],
+    "provides": [],
+    "requiresAny": [
+      "object.volume",
+      "object.layered"
+    ],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "trace-build",
+    "axis": "object-motion",
+    "name": "逐步描出与组装",
+    "definition": "按逻辑次序建立结构，已建立部分继续服务下一步。",
+    "suitable": "结构解释、步骤与推演。",
+    "avoid": "所有线同时画；组装顺序和口播相反。",
+    "handoff": "部件依赖、笔顺、完整结构与最终静读窗。",
+    "controls": [
+      "objectId",
+      "verb",
+      "startFrame",
+      "settleFrame",
+      "endState",
+      "path"
+    ],
+    "provides": [],
+    "requiresAny": [
+      "object.lines",
+      "object.volume",
+      "object.symbol"
+    ],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "focus-response",
+    "axis": "object-motion",
+    "name": "局部响应与强调",
+    "definition": "对象只在被讲到时给出一次明确反馈。",
+    "suitable": "重音、操作结果、关键词。",
+    "avoid": "持续弹跳、闪烁和所有物体同时强调。",
+    "handoff": "触发词、响应幅度、回归帧和一处主注意。",
+    "controls": [
+      "objectId",
+      "verb",
+      "startFrame",
+      "settleFrame",
+      "endState",
+      "path"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "reveal-consequence",
+    "axis": "object-motion",
+    "name": "动作揭示后果",
+    "definition": "前景动作暴露原本隐藏的结果或条件。",
+    "suitable": "转折、风险、表里关系。",
+    "avoid": "在口播揭示前泄露结论；揭开后没有读图时间。",
+    "handoff": "遮挡物、隐藏内容、揭示锚点与结果保持。",
+    "controls": [
+      "objectId",
+      "verb",
+      "startFrame",
+      "settleFrame",
+      "endState",
+      "path"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "planar-push-pull",
+    "axis": "camera",
+    "name": "二维推拉",
+    "definition": "改变整体取景尺度，保留对象相对关系和二维语言。",
+    "suitable": "纸页、照片、平面图解。",
+    "avoid": "把对象乱飞当推镜；无动机持续呼吸缩放。",
+    "handoff": "取景框、焦点、尺度起止和文字最小可读状态。",
+    "controls": [
+      "shotId",
+      "focalObject",
+      "framing",
+      "startFrame",
+      "endFrame"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "locked-stage",
+    "axis": "camera",
+    "name": "固定机位",
+    "definition": "观察点稳定，由对象行为和局部显现解释内容。",
+    "suitable": "密图、比较、长引句。",
+    "avoid": "静止等于没设计；对象动作过多破坏稳定。",
+    "handoff": "固定视域、允许动作范围和注意力交接。",
+    "controls": [
+      "shotId",
+      "focalObject",
+      "framing",
+      "startFrame",
+      "endFrame"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "follow-object",
+    "axis": "camera",
+    "name": "跟随对象",
+    "definition": "跟随一个连续对象穿过不同语义状态。",
+    "suitable": "资源流向、步骤交接、空间追踪。",
+    "avoid": "同时跟随多对象；观众失去方位。",
+    "handoff": "主对象ID、屏幕锚点、路径和背景参照。",
+    "controls": [
+      "shotId",
+      "focalObject",
+      "framing",
+      "startFrame",
+      "endFrame"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "wide-detail-return",
+    "axis": "camera",
+    "name": "全景·特写·回看",
+    "definition": "先建立关系，再看关键细节，最后回到整体理解。",
+    "suitable": "结构、证据和结果解释。",
+    "avoid": "特写裁掉证据上下文；只放大无新信息。",
+    "handoff": "三段景别、细节依据与回看时保留的状态。",
+    "controls": [
+      "shotId",
+      "focalObject",
+      "framing",
+      "startFrame",
+      "endFrame"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "parallel-views",
+    "axis": "camera",
+    "name": "双视图对照",
+    "definition": "同尺度、同时间或有明确差异标识地展示两组视图。",
+    "suitable": "选项、前后状态和机制比较。",
+    "avoid": "不同尺度暗示胜负；镜头不同步。",
+    "handoff": "对齐轴、尺度、时序与不相同比较条件。",
+    "controls": [
+      "shotId",
+      "focalObject",
+      "framing",
+      "startFrame",
+      "endFrame"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "orthographic-space",
+    "axis": "camera",
+    "name": "正交空间观察",
+    "definition": "用稳定正交投影解释三维关系。",
+    "suitable": "模型、拆解和空间位置。",
+    "avoid": "为了炫技持续绕转；真实人物透视被拉扁。",
+    "handoff": "机位、投影、遮挡和外层标签投影规则。",
+    "controls": [
+      "shotId",
+      "focalObject",
+      "framing",
+      "startFrame",
+      "endFrame"
+    ],
+    "provides": [],
+    "requiresAny": [
+      "object.volume"
+    ],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "paper-wipe",
+    "axis": "transition",
+    "name": "纸页擦除",
+    "definition": "已有纸页沿有动机路径覆盖旧状态并交出新状态。",
+    "suitable": "纸本段落、条件与结论转换。",
+    "avoid": "随便飞一张纸挡住接不上的关系。",
+    "handoff": "旧画面最后可读帧、完全覆盖帧和新画面首帧。",
+    "controls": [
+      "fromScene",
+      "toScene",
+      "sharedObjectId",
+      "handoffFrame",
+      "coverInterval"
+    ],
+    "provides": [],
+    "requiresAny": [
+      "surface.paper"
+    ],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "page-match",
+    "axis": "transition",
+    "name": "翻面衔接",
+    "definition": "同一页的正反面或相邻页承接语义。",
+    "suitable": "表面与背面、问题与解释。",
+    "avoid": "翻面换了对象身份；文字镜像闪现。",
+    "handoff": "页ID、轴心、遮字窗口和两面内容。",
+    "controls": [
+      "fromScene",
+      "toScene",
+      "sharedObjectId",
+      "handoffFrame",
+      "coverInterval"
+    ],
+    "provides": [],
+    "requiresAny": [
+      "surface.paper"
+    ],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "scene-replace",
+    "axis": "transition",
+    "name": "场景替换",
+    "definition": "在明确语义断点替换环境，保留必要注意锚点。",
+    "suitable": "段落转折、对象不连续的主题变化。",
+    "avoid": "硬造物件变形来追求无缝；声音突然断开。",
+    "handoff": "源与目标状态、保留锚点及原声连续条件。",
+    "controls": [
+      "fromScene",
+      "toScene",
+      "sharedObjectId",
+      "handoffFrame",
+      "coverInterval"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "object-match",
+    "axis": "transition",
+    "name": "同物承接",
+    "definition": "同一对象以相同或可解释的位置、朝向和尺度进入下一状态。",
+    "suitable": "跨图景追踪一个资源或物件。",
+    "avoid": "只凭颜色相似假称同一物件；暗改数量。",
+    "handoff": "对象ID、两端锚点、出入速度和身份核验。",
+    "controls": [
+      "fromScene",
+      "toScene",
+      "sharedObjectId",
+      "handoffFrame",
+      "coverInterval"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "foreground-occlusion",
+    "axis": "transition",
+    "name": "前景遮挡交接",
+    "definition": "有意义的前景对象短暂覆盖连接边界。",
+    "suitable": "人物跳切覆盖、近景物件交接。",
+    "avoid": "覆盖不足露出断点；任意黑块遮镜头。",
+    "handoff": "覆盖几何、有效不透明帧与底层切换点。",
+    "controls": [
+      "fromScene",
+      "toScene",
+      "sharedObjectId",
+      "handoffFrame",
+      "coverInterval"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "relation-expand",
+    "axis": "transition",
+    "name": "关系展开",
+    "definition": "从一处局部关系扩展成下一张完整关系图。",
+    "suitable": "分解、框架和因果延展。",
+    "avoid": "图形变化但关系无新信息；所有元素重建。",
+    "handoff": "共享对象、展开次序与旧关系保留范围。",
+    "controls": [
+      "fromScene",
+      "toScene",
+      "sharedObjectId",
+      "handoffFrame",
+      "coverInterval"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "type-handoff",
+    "axis": "transition",
+    "name": "字形与概念交接",
+    "definition": "前句关键词成为后句标题、标签或对象。",
+    "suitable": "概念递进、术语解释。",
+    "avoid": "形似但语义无关的字变形；文字重复过多。",
+    "handoff": "原词与新角色、基线、停稳与可读过渡。",
+    "controls": [
+      "fromScene",
+      "toScene",
+      "sharedObjectId",
+      "handoffFrame",
+      "coverInterval"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "clean-cut",
+    "axis": "transition",
+    "name": "有依据的直切",
+    "definition": "在语义、动作或观察目的改变时直接切换。",
+    "suitable": "真人表述、清楚的段落转换。",
+    "avoid": "每刀都加特效；不听原声接续就切。",
+    "handoff": "切点理由、声画连续和首末可读帧。",
+    "controls": [
+      "fromScene",
+      "toScene",
+      "sharedObjectId",
+      "handoffFrame",
+      "coverInterval"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "serif-display",
+    "axis": "typography",
+    "name": "衬线大字",
+    "definition": "以有分量的衬线标题建立编辑层级。",
+    "suitable": "文化观点、纸本主题与结论。",
+    "avoid": "粗细笔画在手机上断裂；长句强塞一行。",
+    "handoff": "具体本地字体、字号角色、字距和实际长标题测试。",
+    "controls": [
+      "textId",
+      "role",
+      "fontFile",
+      "fontSize",
+      "bounds",
+      "readInterval"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "red-annotation",
+    "axis": "typography",
+    "name": "红色批注与印章",
+    "definition": "批注是对正文的关系性回应，红色有统一含义。",
+    "suitable": "重点、纠错、选项判定。",
+    "avoid": "红色随意等同正确或错误；覆盖正文。",
+    "handoff": "批注指向、印记身份、正文避让与单处强调。",
+    "controls": [
+      "textId",
+      "role",
+      "fontFile",
+      "fontSize",
+      "bounds",
+      "readInterval"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "clean-sans",
+    "axis": "typography",
+    "name": "无衬线清晰层级",
+    "definition": "用有限字阶与空间建立普通阅读和短标题。",
+    "suitable": "真实影像、技术说明与长段口播。",
+    "avoid": "所有文字同字号；副标题重复旁白。",
+    "handoff": "标题、字幕、标签、来源四类角色与度量。",
+    "controls": [
+      "textId",
+      "role",
+      "fontFile",
+      "fontSize",
+      "bounds",
+      "readInterval"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "editorial-columns",
+    "axis": "typography",
+    "name": "编辑分栏",
+    "definition": "通过栏宽、跨栏和图片锚点组织并行内容。",
+    "suitable": "引文、图文对照、杂志阅读关系。",
+    "avoid": "静态版面原封搬进手机；过多同时读的栏。",
+    "handoff": "阅读顺序、每时刻主栏与移动端可读宽度。",
+    "controls": [
+      "textId",
+      "role",
+      "fontFile",
+      "fontSize",
+      "bounds",
+      "readInterval"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "comparison-alignment",
+    "axis": "typography",
+    "name": "对照排版",
+    "definition": "把比较对象、维度和结论放在一致轴线上。",
+    "suitable": "两项或少量选项对照。",
+    "avoid": "用字号大小暗示不存在的价值排序。",
+    "handoff": "比较维度、同尺度对齐及可见差异。",
+    "controls": [
+      "textId",
+      "role",
+      "fontFile",
+      "fontSize",
+      "bounds",
+      "readInterval"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "diagram-callouts",
+    "axis": "typography",
+    "name": "图解标注",
+    "definition": "标签绑定对象，连接线最短且避免穿字。",
+    "suitable": "部件、位置、过程图。",
+    "avoid": "标注乱飞；相同标签跨镜换对象。",
+    "handoff": "对象锚点、字框、连线和相机运动映射。",
+    "controls": [
+      "textId",
+      "role",
+      "fontFile",
+      "fontSize",
+      "bounds",
+      "readInterval"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "keyword-scene",
+    "axis": "typography",
+    "name": "关键词主场",
+    "definition": "一个短词或短句成为当前画面主阅读对象。",
+    "suitable": "转折、结论和概念定义。",
+    "avoid": "逐字跳动导致读不完；压住原字幕或人物。",
+    "handoff": "分词依据、显现顺序与完整读窗。",
+    "controls": [
+      "textId",
+      "role",
+      "fontFile",
+      "fontSize",
+      "bounds",
+      "readInterval"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "raised-captions",
+    "axis": "typography",
+    "name": "上移字幕与安全区",
+    "definition": "字幕按认可基线及真实字数保持手机可读。",
+    "suitable": "所有当前口播任务的基础保护层。",
+    "avoid": "回落到底边；拿提高z-index替代路径避让。",
+    "handoff": "top1600参考、最多两行、字形实测及动态保护区。",
+    "controls": [
+      "textId",
+      "role",
+      "fontFile",
+      "fontSize",
+      "bounds",
+      "readInterval"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "paper-grain-finish",
+    "axis": "lighting",
+    "name": "纸面颗粒收束",
+    "definition": "在合成层控制纸感的统一尺度与轻微变化。",
+    "suitable": "印刷、纸页和拼贴。",
+    "avoid": "与材质模块重复叠两层颗粒；噪点爬满字。",
+    "handoff": "引用材质纹理ID，只调合成强度，不重复生纹理。",
+    "controls": [
+      "targetObject",
+      "lightRegion",
+      "shadowRule",
+      "compositeOrder"
+    ],
+    "provides": [
+      "finish.composite.paper"
+    ],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "local-spotlight",
+    "axis": "lighting",
+    "name": "局部聚光",
+    "definition": "让当前对象略亮，周围保持可辨认和阅读对比。",
+    "suitable": "注视、结论和局部展示。",
+    "avoid": "对人物单独调色；黑场吞掉字幕。",
+    "handoff": "光区、衰减、亮度变化及文字对比复查。",
+    "controls": [
+      "targetObject",
+      "lightRegion",
+      "shadowRule",
+      "compositeOrder"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "even-soft",
+    "axis": "lighting",
+    "name": "均匀柔光",
+    "definition": "稳定、低刺激的面光支持阅读。",
+    "suitable": "写实极简、长段解说、纸本。",
+    "avoid": "阴影全无致对象层次不清；真人强美颜。",
+    "handoff": "背景、对象亮度与原人像独立合成。",
+    "controls": [
+      "targetObject",
+      "lightRegion",
+      "shadowRule",
+      "compositeOrder"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "contact-shadow",
+    "axis": "lighting",
+    "name": "接触阴影",
+    "definition": "以局部投影说明对象落点、叠层和承重。",
+    "suitable": "纸页、模型和叠放。",
+    "avoid": "对象离地而阴影不变；大黑影压字。",
+    "handoff": "接触面、离地高度、阴影方向和层级。",
+    "controls": [
+      "targetObject",
+      "lightRegion",
+      "shadowRule",
+      "compositeOrder"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "controlled-rim",
+    "axis": "lighting",
+    "name": "受控轮廓光",
+    "definition": "用有限边缘亮度分离体量。",
+    "suitable": "模型、金属和暗背景对象。",
+    "avoid": "所有边缘都发光；正文发光变糊。",
+    "handoff": "轮廓范围、背景分离和亮度上限。",
+    "controls": [
+      "targetObject",
+      "lightRegion",
+      "shadowRule",
+      "compositeOrder"
+    ],
+    "provides": [],
+    "requiresAny": [
+      "object.volume",
+      "material.metal",
+      "material.transparent"
+    ],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "flat-print-light",
+    "axis": "lighting",
+    "name": "平面印刷明暗",
+    "definition": "以墨面、留白和少量层影建立深度，不模拟强镜面。",
+    "suitable": "网点、几何印刷和编辑图形。",
+    "avoid": "纸面出现液态金属反射；多光源不一致。",
+    "handoff": "明暗面、层影与无反射区域。",
+    "controls": [
+      "targetObject",
+      "lightRegion",
+      "shadowRule",
+      "compositeOrder"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "literary-quote",
+    "axis": "information",
+    "name": "文学引句",
+    "definition": "把真实引文作为被解读的对象，并明确出处与语境。",
+    "suitable": "文本解读、观点引用。",
+    "avoid": "编造名人名言；断章取义；无引文硬加。",
+    "handoff": "逐字原文、来源、解释与作者观点分层。",
+    "controls": [
+      "sentenceIds",
+      "relation",
+      "evidence",
+      "assetTask",
+      "visibleResult"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "option-comparison",
+    "axis": "information",
+    "name": "选项对照",
+    "definition": "用共同维度比较真实可选项，展示成立条件。",
+    "suitable": "选择、需要与想要、方案判断。",
+    "avoid": "文案无比较也强分左右；掩盖量纲差异。",
+    "handoff": "对象、比较维度、证据与结论条件。",
+    "controls": [
+      "sentenceIds",
+      "relation",
+      "evidence",
+      "assetTask",
+      "visibleResult"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "character-parable",
+    "axis": "information",
+    "name": "人物寓言",
+    "definition": "以明确虚构或真实有来源的人物行为承载关系。",
+    "suitable": "抽象机制、行为后果。",
+    "avoid": "让真人说未说过的话；编造真实人物经历。",
+    "handoff": "人物身份、行为、后果与寓言/真实标识。",
+    "controls": [
+      "sentenceIds",
+      "relation",
+      "evidence",
+      "assetTask",
+      "visibleResult"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "cause-effect",
+    "axis": "information",
+    "name": "因果解释",
+    "definition": "展示条件如何通过机制带来结果。",
+    "suitable": "因果明确且来源支持的句段。",
+    "avoid": "并列建议画成因果链；相关性冒充因果。",
+    "handoff": "条件、机制、结果、限定条件与证据。",
+    "controls": [
+      "sentenceIds",
+      "relation",
+      "evidence",
+      "assetTask",
+      "visibleResult"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "contrast-turn",
+    "axis": "information",
+    "name": "对比与转折",
+    "definition": "保留预期，再揭示修正预期的条件或结果。",
+    "suitable": "但是、反而、看似与实际。",
+    "avoid": "提前泄底；只有换色没有预期变化。",
+    "handoff": "原预期、转折锚词、真正改变的状态。",
+    "controls": [
+      "sentenceIds",
+      "relation",
+      "evidence",
+      "assetTask",
+      "visibleResult"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "parallel-options",
+    "axis": "information",
+    "name": "并列建议",
+    "definition": "多项处于同一层级，可分别行动。",
+    "suitable": "三条建议、多个风险、可选方法。",
+    "avoid": "用箭头排成必经步骤；无依据主次排名。",
+    "handoff": "共同父主题、每项任务和独立结果。",
+    "controls": [
+      "sentenceIds",
+      "relation",
+      "evidence",
+      "assetTask",
+      "visibleResult"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "process-steps",
+    "axis": "information",
+    "name": "过程步骤",
+    "definition": "按先后依赖解释有顺序的过程。",
+    "suitable": "操作流程、制作机制。",
+    "avoid": "把可选建议排成顺序；遗漏前置条件。",
+    "handoff": "步骤依赖、进入条件、输出及失败分支。",
+    "controls": [
+      "sentenceIds",
+      "relation",
+      "evidence",
+      "assetTask",
+      "visibleResult"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "evidence-interpretation",
+    "axis": "information",
+    "name": "证据与解读",
+    "definition": "先呈现能核查的材料，再标出据此得出的判断。",
+    "suitable": "数据、原文、截图和事实论证。",
+    "avoid": "生成图冒充证据；只给结论无材料。",
+    "handoff": "证据源、原文边界、标注与推断身份。",
+    "controls": [
+      "sentenceIds",
+      "relation",
+      "evidence",
+      "assetTask",
+      "visibleResult"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "problem-mechanism-response",
+    "axis": "information",
+    "name": "问题·机制·应对",
+    "definition": "从具体问题进入原因和可行应对，各段有独立任务。",
+    "suitable": "科普、方法类口播。",
+    "avoid": "所有问题套同一故事；无依据保证效果。",
+    "handoff": "问题场景、机制、应对条件与现实限制。",
+    "controls": [
+      "sentenceIds",
+      "relation",
+      "evidence",
+      "assetTask",
+      "visibleResult"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "recap-return",
+    "axis": "information",
+    "name": "回收与总结",
+    "definition": "用前文保留的对象状态回看主要结论。",
+    "suitable": "结尾、段落小结。",
+    "avoid": "换一套新图重新讲；无依据增加新结论。",
+    "handoff": "复用对象ID、已发生变化和最终记忆点。",
+    "controls": [
+      "sentenceIds",
+      "relation",
+      "evidence",
+      "assetTask",
+      "visibleResult"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "speech-led",
+    "axis": "rhythm",
+    "name": "人声主导",
+    "definition": "语义与真实重音决定动作落点，音乐不覆盖讲述逻辑。",
+    "suitable": "当前全部自有原声口播。",
+    "avoid": "每刀强踩音乐；加速人声替动画腾时间。",
+    "handoff": "词句锚点、置信度、动作对齐与原声连续。",
+    "controls": [
+      "anchorFrame",
+      "fullyReadableFrame",
+      "holdEndFrame",
+      "density",
+      "priority"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "reveal-hold-release",
+    "axis": "rhythm",
+    "name": "显现·读图·释放",
+    "definition": "完整显现后留可读状态，再交出注意力。",
+    "suitable": "关键图解、引句、标签和结果。",
+    "avoid": "动作结束即切走；把移动时长当完整阅读时长。",
+    "handoff": "完全可读帧、实测读窗与退出结束帧。",
+    "controls": [
+      "anchorFrame",
+      "fullyReadableFrame",
+      "holdEndFrame",
+      "density",
+      "priority"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "contrast-pulse",
+    "axis": "rhythm",
+    "name": "强弱对比",
+    "definition": "重要转折一次有力，普通解释降低动作密度。",
+    "suitable": "转折、反驳、揭示。",
+    "avoid": "每句话都高潮；固定每两秒必换镜。",
+    "handoff": "强弱段标注、主动作预算和安静区。",
+    "controls": [
+      "anchorFrame",
+      "fullyReadableFrame",
+      "holdEndFrame",
+      "density",
+      "priority"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "progressive-build",
+    "axis": "rhythm",
+    "name": "逐层展开",
+    "definition": "依据理解依赖逐步加信息，保留已理解的结构。",
+    "suitable": "机制与步骤。",
+    "avoid": "越叠越满；每一步都从零重画。",
+    "handoff": "进入顺序、保留层与最终结构读窗。",
+    "controls": [
+      "anchorFrame",
+      "fullyReadableFrame",
+      "holdEndFrame",
+      "density",
+      "priority"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "deliberate-pause",
+    "axis": "rhythm",
+    "name": "有意停顿",
+    "definition": "让关键结果被看见，允许充分稳定而非强迫万物运动。",
+    "suitable": "转折后的理解、情绪与复杂图。",
+    "avoid": "为躲冻结指标加无意义漂移；停顿与人声相冲。",
+    "handoff": "停顿理由、持续区间及仍需保留的原声。",
+    "controls": [
+      "anchorFrame",
+      "fullyReadableFrame",
+      "holdEndFrame",
+      "density",
+      "priority"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "setup-payoff",
+    "axis": "rhythm",
+    "name": "铺垫与兑现",
+    "definition": "早先建立的对象或问题在后段得到有意义的回答。",
+    "suitable": "前后连续、寓言和观点收束。",
+    "avoid": "为了回收硬套无关对象；悬念不兑现。",
+    "handoff": "铺垫对象、未决问题、兑现锚点及结果。",
+    "controls": [
+      "anchorFrame",
+      "fullyReadableFrame",
+      "holdEndFrame",
+      "density",
+      "priority"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  },
+  {
+    "id": "ending-resolve",
+    "axis": "rhythm",
+    "name": "结尾收束",
+    "definition": "减少新动作，用既有状态和人物完成最后理解。",
+    "suitable": "总结、态度和行动结尾。",
+    "avoid": "最后一秒塞新信息或强造行动号召。",
+    "handoff": "最后主阅读对象、回收完成与末帧停稳。",
+    "controls": [
+      "anchorFrame",
+      "fullyReadableFrame",
+      "holdEndFrame",
+      "density",
+      "priority"
+    ],
+    "provides": [],
+    "requiresAny": [],
+    "availability": "design-standard",
+    "evidence": []
+  }
+]

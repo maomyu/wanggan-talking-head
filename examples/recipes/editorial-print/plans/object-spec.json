@@ -1,0 +1,67 @@
+{
+  "objectGeometry": {
+    "presenter-shell": [
+      840,
+      840
+    ],
+    "goods-headphone": [
+      330,
+      375
+    ],
+    "goods-food": [
+      330,
+      375
+    ],
+    "extra-headphone": [
+      330,
+      375
+    ],
+    "account": [
+      800,
+      300
+    ],
+    "debt": [
+      500,
+      300
+    ],
+    "market": [
+      500,
+      300
+    ],
+    "bridge": [
+      1160,
+      800
+    ]
+  },
+  "objectIdentity": {
+    "goods-headphone": "同一耳机示意，非个人持有事实",
+    "extra-headphone": "同图第二实例，明确标再加一件",
+    "goods-food": "日用采购示意",
+    "account": "保留资金→本金示意，单位不指真实金额",
+    "debt": "同一六层负担→抽走四层→保留两层",
+    "speaker": "已确认用户原声原色视频"
+  },
+  "anchors": {
+    "speakerCorner": [
+      716,
+      1255,
+      300
+    ],
+    "speakerHero": [
+      210,
+      620,
+      660
+    ],
+    "speakerEnd": [
+      240,
+      550,
+      600
+    ]
+  },
+  "surfaceSides": {
+    "risk-page": [
+      "夸大收益的说法",
+      "暗藏风险"
+    ]
+  }
+}

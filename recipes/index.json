@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "recipes": [
+    {
+      "id": "editorial-print",
+      "name": "编辑拼贴与印刷 · 自有口播完整成片",
+      "status": "user-approved",
+      "hierarchy": {
+        "familyId": "F03",
+        "branchId": null,
+        "baseLegacyId": "A04",
+        "influences": [
+          "F04",
+          "F08"
+        ]
+      }
+    },
+    {
+      "id": "minimal",
+      "name": "写实极简 · 同源完整配方",
+      "status": "user-approved",
+      "hierarchy": {
+        "familyId": "F01",
+        "branchId": null,
+        "baseLegacyId": "A01"
+      }
+    },
+    {
+      "id": "blueprint",
+      "name": "技术蓝图 · 同源完整配方",
+      "status": "user-approved",
+      "hierarchy": {
+        "familyId": "F07",
+        "branchId": "A09",
+        "baseLegacyId": "A09"
+      }
+    },
+    {
+      "id": "clay",
+      "name": "柔质立体 · 同源完整配方",
+      "status": "user-approved",
+      "hierarchy": {
+        "familyId": "F11",
+        "branchId": null,
+        "baseLegacyId": "A14"
+      }
+    }
+  ],
+  "default": "minimal"
+}

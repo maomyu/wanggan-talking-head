@@ -1,0 +1,18 @@
+{
+  "lightAssignments": {
+    "target": "paper-stage",
+    "center": [
+      530,
+      780
+    ],
+    "radius": 720,
+    "strength": 0.5
+  },
+  "shadowRules": "纸页接触影；人像不调光",
+  "finishLayers": {
+    "textureId": "paper-fibre-01",
+    "opacity": 0.11,
+    "order": "background-only"
+  },
+  "note": "不重复生成纸面颗粒"
+}

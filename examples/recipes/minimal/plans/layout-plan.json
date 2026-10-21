@@ -1,0 +1,37 @@
+{
+  "mode": "asymmetric-photo",
+  "fontRoles": {
+    "title": "NotoSansSC-700.woff",
+    "body": "NotoSansSC-500.woff"
+  },
+  "readingZones": {
+    "title": [
+      80,
+      190,
+      920,
+      290
+    ],
+    "stage": [
+      50,
+      490,
+      980,
+      735
+    ]
+  },
+  "captionZones": {
+    "box": [
+      64,
+      1600,
+      952,
+      170
+    ],
+    "fontSize": 58,
+    "maxLines": 2
+  },
+  "personCorner": "left",
+  "protectedPaths": [
+    "face",
+    "caption",
+    "headline"
+  ]
+}

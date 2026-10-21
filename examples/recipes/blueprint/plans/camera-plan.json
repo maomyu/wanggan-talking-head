@@ -1,0 +1,22 @@
+{
+  "language": "continuous-plan-inspection",
+  "shotFraming": {
+    "hook": "右下定圆窗与完整工程图",
+    "problem": "机位连续横移检查三个固定节点",
+    "compare": "同张图的下层比较支路",
+    "risk": "比较轴线延展为剖面，局部扫描检查",
+    "recap": "拉回全图，节点与结果保留，不放大人像"
+  },
+  "viewTransforms": {
+    "detailScale": 1.65,
+    "orbitDegrees": [
+      0
+    ],
+    "focusCoordinates": "blueprint-plan.mjs poses; one persistent SVG coordinate system"
+  },
+  "focusTargets": [
+    "headphone",
+    "principal",
+    "debt"
+  ]
+}

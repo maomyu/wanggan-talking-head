@@ -1,0 +1,14 @@
+{
+  "surfaceAssignments": {
+    "paper": "paper-grain.svg",
+    "photo-frame": "matte",
+    "speaker": "original-video-no-filter"
+  },
+  "textureScale": 180,
+  "textureOpacity": 0.11,
+  "edgeTreatment": {
+    "paperShadow": "0 12px 26px #24231f1c",
+    "paperBorder": "1px solid #c8bda9"
+  },
+  "textureId": "paper-fibre-01"
+}

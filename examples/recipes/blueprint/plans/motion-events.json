@@ -1,0 +1,39 @@
+{
+  "language": "trace-build",
+  "actionWindows": {
+    "loss": [
+      310,
+      331
+    ],
+    "cut": [
+      461,
+      483
+    ],
+    "pause": [
+      516,
+      535
+    ],
+    "compare": [
+      563,
+      585
+    ],
+    "riskReveal": [
+      738,
+      755
+    ],
+    "avoid": [
+      783,
+      804
+    ],
+    "reduce": [
+      856,
+      882
+    ]
+  },
+  "settleFrames": {
+    "compare": 585,
+    "risk": 755,
+    "debt": 882
+  },
+  "paths": "blueprint-plan.mjs: fixed engineering stations, camera pans, continuous grid-to-section paths, xray scan, isolated risk branch, L-rail debt retirement"
+}

@@ -1,0 +1,37 @@
+{
+  "fontRoles": {
+    "title": "NotoSerifSC-700.woff",
+    "body": "NotoSansSC-700.woff",
+    "small": "NotoSansSC-500.woff"
+  },
+  "readingZones": {
+    "headline": [
+      86,
+      178,
+      920,
+      286
+    ],
+    "scene": [
+      70,
+      520,
+      940,
+      710
+    ]
+  },
+  "captionZones": {
+    "box": [
+      64,
+      1600,
+      952,
+      180
+    ],
+    "fontSize": 58,
+    "maxLines": 2
+  },
+  "protectedPaths": [
+    "人像圆窗内层不受纸纹/光影影响",
+    "旧分组字在616前清空",
+    "纸页翻面隐藏背向字",
+    "运动全路径避字"
+  ]
+}

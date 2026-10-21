@@ -1,0 +1,235 @@
+{
+  "version": "1.18.0",
+  "status": "user-approved-production-migration",
+  "approvalDate": "2026-10-21",
+  "structure": {
+    "axes": 11,
+    "discoverableSkills": 17,
+    "fullExpertsPreserved": 4,
+    "families": 19,
+    "branches": 38,
+    "componentSources": 43,
+    "designStandards": 85,
+    "legacyIds": 100,
+    "approvedRecipes": 4
+  },
+  "legacyResourceHashesPreserved": 901,
+  "fullExpertSha256": {
+    "talking-head-art-direction": "fb6490017d61837f288b95f6413b550d96fb0e598dc9e140c4ac5beeca69ecec",
+    "talking-head-layout": "e304eb6cd3a4d7d41cd62aed33fa4ab115c2740bee91de1c744e640228392eef",
+    "talking-head-motion": "276ce1fe8cefa672d70d1e3de4792f48d27cf286b6e9e8862dc60fca25a3ed1d",
+    "talking-head-editing": "731498a6dc151c574a3de1d551c0e786480fb390ed1cb1fea0c2af35dad0073c"
+  },
+  "acceptance": [
+    {
+      "name": "901 legacy resource files preserved",
+      "ok": true,
+      "result": 901
+    },
+    {
+      "name": "four full expert hashes",
+      "ok": true,
+      "result": 4
+    },
+    {
+      "name": "all approved recipes resolve",
+      "ok": true,
+      "result": [
+        "editorial-print",
+        "minimal",
+        "blueprint",
+        "clay"
+      ]
+    },
+    {
+      "name": "hierarchy mismatch rejected",
+      "ok": true,
+      "result": ""
+    },
+    {
+      "name": "new own source does not inherit financial scenes",
+      "ok": true,
+      "result": {
+        "status": "awaiting-design",
+        "plans": 11,
+        "runRejects": "十一类设计尚未完成: 主画风,配色,材质外观,造型呈现,物体动效,镜头,转场,字体版式,光影质感,信息组织,节奏"
+      }
+    },
+    {
+      "name": "wrong-source reproduction rejected before writing",
+      "ok": true,
+      "result": "复现仅接受明确选择的原案例840方形代理源片且哈希一致；换素材请用init --recipe重新设计"
+    },
+    {
+      "name": "editorial-print actual formal reproduction build",
+      "ok": true,
+      "result": {
+        "source": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+        "html": "cd1252a4018c9dff1badfbbe531172594ab02c06fa7f78e44bd714ebefc14ec0",
+        "stage": "built"
+      }
+    },
+    {
+      "name": "minimal actual formal reproduction build",
+      "ok": true,
+      "result": {
+        "source": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+        "html": "6cb3b73e3170afcbe640cbafa069983b702f69253678aa221bf12e9012d11520",
+        "stage": "built"
+      }
+    },
+    {
+      "name": "blueprint actual formal reproduction build",
+      "ok": true,
+      "result": {
+        "source": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+        "html": "19e43f4c5998569f18479b2fbaf4cbcbb4a9727a055f9b4b518006180c9adf75",
+        "stage": "built"
+      }
+    },
+    {
+      "name": "clay actual formal reproduction build",
+      "ok": true,
+      "result": {
+        "source": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+        "html": "38e35ff47fbbda01028402780d15882b86540f63b69698d6f5077f9c24946cc3",
+        "stage": "built"
+      }
+    },
+    {
+      "name": "single-axis revision and protected decisions",
+      "ok": true,
+      "result": {
+        "paletteBuild": "passed",
+        "protectedPlan": "局部修改触及受保护输入: plans/layout-plan.json",
+        "protectedSelection": "局部修改触及受保护配方选择: camera"
+      }
+    },
+    {
+      "name": "legacy commands remain usable",
+      "ok": true,
+      "result": {
+        "ids": 100,
+        "oldStyle": "A04",
+        "explicitMode": [
+          "typography"
+        ]
+      }
+    },
+    {
+      "name": "single-axis existing image guard",
+      "ok": true,
+      "result": "palette-only revision rejects mutation of existing life-objects.png; original media preserved"
+    }
+  ],
+  "browserFrameParity": {
+    "ok": true,
+    "recipes": 4,
+    "samplesPerRecipe": 18,
+    "actualScreenshotPairs": 72,
+    "allPixelsAndStatesEqual": true,
+    "scope": "18 actual browser states and 1080p RGB screenshot pairs per approved recipe; not full encoded-film equivalence"
+  },
+  "actualHyperFramesCheck": {
+    "ok": true,
+    "browserSkipped": false,
+    "motionSamples": 0,
+    "scope": "actual minimal layout/runtime/contrast check; zero custom-clock motion samples not counted as an animation audit"
+  },
+  "shortEncode": {
+    "ok": true,
+    "videoSha256": "f8c87d4776c6a4c7b3a680c32f9c1e6504bacf872caf2e5464c3e32ac7c6b4bd",
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "frames": 120,
+    "sourceRangeSeconds": [
+      22.7,
+      26.7
+    ],
+    "singleVoiceTrack": true,
+    "originalVoiceCorrelation": 0.9999449213174575,
+    "personRGBSamples": [
+      {
+        "time": 0,
+        "mae": 4.636815545207167
+      },
+      {
+        "time": 0.8,
+        "mae": 4.24482318709426
+      },
+      {
+        "time": 2,
+        "mae": 4.318250661438007
+      },
+      {
+        "time": 3.8,
+        "mae": 4.211396215506244
+      }
+    ],
+    "scope": "实际4秒MP4完整解码与原声/人物RGB程序核验；不冒称新一轮完整片全速听感验收"
+  },
+  "sourceAndApprovedMovieHashes": {
+    "upload": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+    "editorial-print": "1b7476b6a069bbd5b524aa633048e631b02dac461d78c344c3e29738b5af06d8",
+    "minimal": "1ee225be63f17ce6ca780918a840b7fca24645aa4fe41045c97ab107afdf86b4",
+    "blueprint": "c319e4a36af88bac30e0cddcab322274c74a6ee97bb7d450a3af6df1c2dac2df",
+    "clay": "1ded6ac852d6b0f8ed1135ae075dbe0a580e68cbac41dfe163deeac830879a00"
+  },
+  "installedPlugin": {
+    "id": "wanggan-talking-head@personal",
+    "version": "1.18.0",
+    "enabled": true,
+    "doctorReady": true
+  },
+  "cleanup": {
+    "complete": true,
+    "ownedTemporaryCopiesAndCaches": [
+      {
+        "name": "new-own-source",
+        "files": 19,
+        "logicalBytes": 43593702
+      },
+      {
+        "name": "editorial-print",
+        "files": 55,
+        "logicalBytes": 42785257
+      },
+      {
+        "name": "minimal",
+        "files": 59,
+        "logicalBytes": 42739680
+      },
+      {
+        "name": "blueprint",
+        "files": 54,
+        "logicalBytes": 42722119
+      },
+      {
+        "name": "clay",
+        "files": 58,
+        "logicalBytes": 44827253
+      },
+      {
+        "name": "minimal-color-v2",
+        "files": 54,
+        "logicalBytes": 42716143
+      },
+      {
+        "name": "smoke-clay",
+        "files": 160,
+        "logicalBytes": 111262492
+      }
+    ],
+    "logicalBytesUnlinked": 441846717,
+    "originalSourceAndApprovedMoviesUnchanged": true,
+    "preserved": "原上传素材、原认可四片、正式代码/素材/完整计划、关键JSON证据、4秒实际回归片与拼版",
+    "diskScope": "logical bytes only; APFS actual free-space changes not inferred",
+    "additionalAssetGuardTemporaryLogicalBytesUnlinked": 71200071
+  },
+  "limits": [
+    "未批量重渲染原四条完整片；原认可片保留并绑定哈希，迁移后进行实际关键帧对照与短片回归",
+    "没有新增完整片1倍速听感验收；程序音频核对与抽帧不冒充听感",
+    "85设计标准及43组件来源不等于任意组合自动执行能力"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "clay",
+  "name": "柔质立体 · 同源完整配方",
+  "mode": "design-recipe",
+  "selections": {
+    "art-style": [
+      "soft-volume"
+    ],
+    "palette": [
+      "soft-earth"
+    ],
+    "material": [
+      "soft-clay",
+      "matte"
+    ],
+    "representation": [
+      "physical-model",
+      "inset-stage"
+    ],
+    "object-motion": [
+      "mechanism-transform",
+      "accumulate-reduce",
+      "motivated-move",
+      "reveal-consequence"
+    ],
+    "camera": [
+      "orthographic-space",
+      "follow-object"
+    ],
+    "transition": [
+      "object-match"
+    ],
+    "typography": [
+      "clean-sans",
+      "keyword-scene",
+      "raised-captions"
+    ],
+    "lighting": [
+      "even-soft",
+      "contact-shadow"
+    ],
+    "information": [
+      "problem-mechanism-response",
+      "parallel-options",
+      "option-comparison",
+      "contrast-turn",
+      "recap-return"
+    ],
+    "rhythm": [
+      "speech-led",
+      "reveal-hold-release",
+      "contrast-pulse",
+      "ending-resolve"
+    ]
+  },
+  "overrides": {
+    "notes": "参数见本片十一份专业产物；人物原色、圆窗、字幕与原声保护保持。"
+  },
+  "sourceRequiredForProduction": true,
+  "caseId": "same-source-clay-02",
+  "status": "user-approved",
+  "approvalDate": "2026-10-21",
+  "hierarchy": {
+    "familyId": "F11",
+    "branchId": null,
+    "baseLegacyId": "A14"
+  },
+  "implementation": {
+    "kind": "source-specific-reference",
+    "path": "examples/recipes/clay",
+    "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+    "newSource": "重新执行语义编排，不复用此案例固定台词、物件与秒点"
+  }
+}
