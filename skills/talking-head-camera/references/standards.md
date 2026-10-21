@@ -67,4 +67,3 @@
 - 控制字段：shotId, focalObject, framing, startFrame, endFrame
 - 结构依赖：object.volume
 - 状态：设计标准；尚无该11模块体系下的通用渲染验收。
-

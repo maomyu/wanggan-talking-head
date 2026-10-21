@@ -1,0 +1,3 @@
+
+# Preserve licensed upstream vendor bytes; do not apply project whitespace rules.
+runtime/recipe-vendor/** -whitespace

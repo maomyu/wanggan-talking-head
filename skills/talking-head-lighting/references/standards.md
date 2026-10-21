@@ -67,4 +67,3 @@
 - 控制字段：targetObject, lightRegion, shadowRule, compositeOrder
 - 结构依赖：由本片语义和共享合同决定
 - 状态：设计标准；尚无该11模块体系下的通用渲染验收。
-
