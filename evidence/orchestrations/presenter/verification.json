@@ -1,0 +1,107 @@
+{
+  "status": "verified",
+  "key": "presenter",
+  "video": {
+    "sha256": "18113b496754fe8aa96b52f858ed358789caac0995d0d3037543382396250b1a",
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "frames": 1100,
+    "duration": 36.666666666666664,
+    "bytes": 52143837,
+    "faststart": true,
+    "sharedFinalPlaybackInode": true
+  },
+  "audio": {
+    "originalVoiceCorrelation": 0.9999823504746719,
+    "offsetSamples": 0,
+    "decodedSamplesCompared": 1760000,
+    "min100msVoiceRmsRatio": 0.9925177151927742,
+    "dropped100msVoiceWindows": 0,
+    "audibleTracks": 1,
+    "scope": "actual decoded original-voice comparison; not subjective listening review"
+  },
+  "person": {
+    "actualEncodedSamples": [
+      {
+        "frame": 0,
+        "box": [
+          230,
+          580,
+          620,
+          620
+        ],
+        "innerRGBMeanAbsoluteError": 2.5302558629072904
+      },
+      {
+        "frame": 75,
+        "box": [
+          114,
+          544,
+          620,
+          620
+        ],
+        "innerRGBMeanAbsoluteError": 2.786493414083915
+      },
+      {
+        "frame": 180,
+        "box": [
+          100,
+          540,
+          620,
+          620
+        ],
+        "innerRGBMeanAbsoluteError": 2.0850279904802718
+      },
+      {
+        "frame": 750,
+        "box": [
+          64,
+          550,
+          580,
+          580
+        ],
+        "innerRGBMeanAbsoluteError": 2.143167389034184
+      },
+      {
+        "frame": 1030,
+        "box": [
+          190,
+          500,
+          700,
+          700
+        ],
+        "innerRGBMeanAbsoluteError": 2.109867306337693
+      },
+      {
+        "frame": 1099,
+        "box": [
+          190,
+          500,
+          700,
+          700
+        ],
+        "innerRGBMeanAbsoluteError": 2.111153417395921
+      }
+    ],
+    "all1100AuthoredCircleFrames": 1100
+  },
+  "captionCount": 21,
+  "denseFrames": 183,
+  "htmlSha256": "3dd49272880bf37dedc7d26d286c41a578a95ce80e9f8846f8c52ee9f249747d",
+  "sceneContractSha256": "fca82182dab1227a970c9b6055172faeb5fd3a8f8943825db627bb6dc319e3b1",
+  "textAuditSha256": "13ef873cf76d32ea652631e0b45e1d6b0b694ea7ae0461db731f4cc2119103ef",
+  "capturePolicy": {
+    "kind": "opaque-SDR PNG compression only",
+    "engineVersion": "0.8.174",
+    "engineSha256": "e80a9d81838c0fe034f4d00af1c0262f570d64b2bb8b8c487a22cf7d8a70cc4e",
+    "installedModuleUnchanged": true,
+    "applications": 1,
+    "outputPixelEquivalenceSamples": 48,
+    "pixelEquivalenceReportSha256": "2429fc85f9ee5abaaf24c8324f04a37450a74bdf50efc49f86e922b855ea9a98",
+    "alphaAndHDRCaptureUnchanged": true,
+    "geometryTimingFontsAudioAndEncodingUnchanged": true,
+    "exitCode": 0
+  },
+  "scope": "one actual complete source-specific film; technical/author checks, not independent review"
+}

@@ -1,0 +1,19 @@
+{
+  "language": "稳定物件接走下一场理解任务",
+  "entryExitBridges": [
+    388,
+    461,
+    616,
+    686,
+    856,
+    898
+  ],
+  "continuityAnchors": [
+    "headphone",
+    "principal",
+    "burden"
+  ],
+  "coverFrames": [],
+  "reason": "保持同一对象ID与已经发生的结果；源片没有实际跳切，不伪称源剪辑转场。",
+  "labelClearFrames": 5
+}

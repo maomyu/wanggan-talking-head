@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "1.19.0",
+  "version": "1.20.0",
   "entry": "skills/talking-head-video/SKILL.md",
   "compositionSkill": "skills/talking-head-composition/SKILL.md",
   "axes": [
@@ -148,9 +148,11 @@
     "components": "registry/components.json",
     "legacy-map": "registry/legacy-map.json",
     "standards": "registry/standards.json",
-    "policy": "registry/policy.json"
+    "policy": "registry/policy.json",
+    "orchestrations": "registry/orchestrations.json"
   },
   "recipes": "recipes/index.json",
   "preservedExperts": "module-manifest.json",
-  "legacyImplementationFiles": 901
+  "legacyImplementationFiles": 901,
+  "orchestrationGuide": "docs/编排选择与局部节奏.md"
 }

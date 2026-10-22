@@ -1,0 +1,227 @@
+{
+  "ok": true,
+  "metadata": [
+    {
+      "id": "film-presenter",
+      "time": 0,
+      "duration": 36.666667,
+      "width": 1080,
+      "height": 1920,
+      "paused": true,
+      "ended": false,
+      "muted": false,
+      "controls": true,
+      "inline": true,
+      "error": null,
+      "quality": {
+        "totalVideoFrames": 0,
+        "droppedVideoFrames": 0
+      }
+    },
+    {
+      "id": "film-diagram",
+      "time": 0,
+      "duration": 36.666667,
+      "width": 1080,
+      "height": 1920,
+      "paused": true,
+      "ended": false,
+      "muted": true,
+      "controls": true,
+      "inline": true,
+      "error": null,
+      "quality": {
+        "totalVideoFrames": 0,
+        "droppedVideoFrames": 0
+      }
+    },
+    {
+      "id": "film-diagram-rhythm",
+      "time": 0,
+      "duration": 36.666667,
+      "width": 1080,
+      "height": 1920,
+      "paused": true,
+      "ended": false,
+      "muted": true,
+      "controls": true,
+      "inline": true,
+      "error": null,
+      "quality": {
+        "totalVideoFrames": 0,
+        "droppedVideoFrames": 0
+      }
+    }
+  ],
+  "simultaneousStart": [
+    {
+      "id": "film-presenter",
+      "time": 0.703549,
+      "duration": 36.666667,
+      "width": 1080,
+      "height": 1920,
+      "paused": false,
+      "ended": false,
+      "muted": false,
+      "controls": true,
+      "inline": true,
+      "error": null,
+      "quality": {
+        "totalVideoFrames": 27,
+        "droppedVideoFrames": 1
+      }
+    },
+    {
+      "id": "film-diagram",
+      "time": 0.855988,
+      "duration": 36.666667,
+      "width": 1080,
+      "height": 1920,
+      "paused": false,
+      "ended": false,
+      "muted": true,
+      "controls": true,
+      "inline": true,
+      "error": null,
+      "quality": {
+        "totalVideoFrames": 31,
+        "droppedVideoFrames": 1
+      }
+    },
+    {
+      "id": "film-diagram-rhythm",
+      "time": 0.618708,
+      "duration": 36.666667,
+      "width": 1080,
+      "height": 1920,
+      "paused": false,
+      "ended": false,
+      "muted": true,
+      "controls": true,
+      "inline": true,
+      "error": null,
+      "quality": {
+        "totalVideoFrames": 37,
+        "droppedVideoFrames": 0
+      }
+    }
+  ],
+  "riskSeek": [
+    {
+      "id": "film-presenter",
+      "time": 24.6,
+      "duration": 36.666667,
+      "width": 1080,
+      "height": 1920,
+      "paused": true,
+      "ended": false,
+      "muted": true,
+      "controls": true,
+      "inline": true,
+      "error": null,
+      "quality": {
+        "totalVideoFrames": 44,
+        "droppedVideoFrames": 5
+      }
+    },
+    {
+      "id": "film-diagram",
+      "time": 24.6,
+      "duration": 36.666667,
+      "width": 1080,
+      "height": 1920,
+      "paused": true,
+      "ended": false,
+      "muted": false,
+      "controls": true,
+      "inline": true,
+      "error": null,
+      "quality": {
+        "totalVideoFrames": 42,
+        "droppedVideoFrames": 1
+      }
+    },
+    {
+      "id": "film-diagram-rhythm",
+      "time": 24.6,
+      "duration": 36.666667,
+      "width": 1080,
+      "height": 1920,
+      "paused": true,
+      "ended": false,
+      "muted": true,
+      "controls": true,
+      "inline": true,
+      "error": null,
+      "quality": {
+        "totalVideoFrames": 54,
+        "droppedVideoFrames": 1
+      }
+    }
+  ],
+  "naturalEnds": [
+    {
+      "id": "film-presenter",
+      "time": 36.666667,
+      "duration": 36.666667,
+      "width": 1080,
+      "height": 1920,
+      "paused": true,
+      "ended": true,
+      "muted": true,
+      "controls": true,
+      "inline": true,
+      "error": null,
+      "quality": {
+        "totalVideoFrames": 1142,
+        "droppedVideoFrames": 8
+      }
+    },
+    {
+      "id": "film-diagram",
+      "time": 36.666667,
+      "duration": 36.666667,
+      "width": 1080,
+      "height": 1920,
+      "paused": true,
+      "ended": true,
+      "muted": false,
+      "controls": true,
+      "inline": true,
+      "error": null,
+      "quality": {
+        "totalVideoFrames": 1142,
+        "droppedVideoFrames": 59
+      }
+    },
+    {
+      "id": "film-diagram-rhythm",
+      "time": 36.666667,
+      "duration": 36.666667,
+      "width": 1080,
+      "height": 1920,
+      "paused": true,
+      "ended": true,
+      "muted": true,
+      "controls": true,
+      "inline": true,
+      "error": null,
+      "quality": {
+        "totalVideoFrames": 1155,
+        "droppedVideoFrames": 9
+      }
+    }
+  ],
+  "voiceSwitch": "diagram only",
+  "pauseAll": true,
+  "resetAll": true,
+  "responsive": {
+    "width": 390,
+    "scrollWidth": 390,
+    "players": 3,
+    "downloads": 3
+  },
+  "errors": [],
+  "failed": [],
+  "scope": "Actual headless Chromium HTML video playback to natural end; source MP4 technically decoded and checked separately. Does not claim subjective real-time hearing or frame-locked multi-player synchronization."
+}

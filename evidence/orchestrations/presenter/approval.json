@@ -1,0 +1,30 @@
+{
+  "status": "user-approved",
+  "date": "2026-10-22",
+  "userInstruction": "这三版可以，把人物主导、连续图解这两套编排和单独调整节奏的方法正式并入插件",
+  "sourceSpecific": true,
+  "testedRecipe": "minimal",
+  "videoSha256": "18113b496754fe8aa96b52f858ed358789caac0995d0d3037543382396250b1a",
+  "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+  "inputHashes": {
+    "index.html": "3dd49272880bf37dedc7d26d286c41a578a95ce80e9f8846f8c52ee9f249747d",
+    "assets/film-config.js": "7e52605c02c259885732aa84f6a47894c58e241d380d6df0f2d642641326a323",
+    "assets/film.css": "b11a33bf9c7286b6f27e7a251bca16fce5fa60da075bdd4137af08489b4b2fe5",
+    "scripts/motion.mjs": "8912f948e94c450f02929f9c79d2aa2675a328de83e83765adba8af89d615adf",
+    "scripts/build-core.mjs": "0f7e5bf9dfcf09175165b24635a787f91e3f39386cf46ae85b378ad09f129728",
+    "timing.json": "c2fd00b17ded4a7866ec5b3b12c659b8b25934bb0fbf12a5dc45736eb097153a",
+    "recipe.json": "51cb99c2a64bc6532834c0f0bfae8e6f068e6aa423a221c20f690e6298b325b9",
+    "plans/style-contract.json": "079a09ba1b9c989842edfe3927dc511f38872e5317d483fa824db1547550d4c6",
+    "plans/palette-tokens.json": "72836170b0505c97a00007b7e3011a8138f78c91337ec194a52691a9644e6e4a",
+    "plans/material-tokens.json": "75ac0c8a0ac7895af9bf4975160601521d17412b2a94aed8321f651a71044314",
+    "plans/object-spec.json": "f07c5cf4763a82b41ea4e13891d36d9d6047f12405a0af37cf1f5739b137d5de",
+    "plans/motion-events.json": "fe317d0d1fcf2933c4e847bb081390d8d9792bb898a5612042c9f8d3585233db",
+    "plans/camera-plan.json": "660cef9c11a4fac5d54e940a43a9ff62ecf7d35ee1d09dc23cb20bf4d4644d62",
+    "plans/transition-plan.json": "1ec81aab83ca1daacef3254052ec2d874f2e8d1f0a4f7fb99f0e3ab0eb1c3a91",
+    "plans/layout-plan.json": "13dd6391960e309b9dc51498062e8ba37a186a06e513c714e6ff84bd7c3bf1a3",
+    "plans/finish-plan.json": "23113424f32c213ee3d7339f700c0f7465028d675ba1313d888cf67365f7497c",
+    "plans/semantic-plan.json": "5385491807a8ba27ae915fe096b0155eefa0831ffaa3a2b948fe39190ce8aa87",
+    "plans/timing.json": "5e595fb0e603e7b3615fbd40007860e2f7edf27929e75c8f8c7eb7713e8434fd"
+  },
+  "scope": "原案例完整成片已获认可；未将其他画风或新素材组合宣称实测"
+}

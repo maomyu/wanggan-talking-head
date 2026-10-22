@@ -4,6 +4,7 @@ import crypto from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 import {execFileSync} from 'node:child_process';
 import {resolveRecipe,planChange,compileScenes} from './composition-core.mjs';
+import {orchestrations,loadOrchestration,selectOrchestration,orchestrationAxes,checkEventTiming} from './orchestration.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
@@ -18,7 +19,7 @@ export const standards=data('standards');
 const availableStandards=[...standards,...data('families').map(f=>({id:f.id,axis:'art-style',name:f.name,definition:f.definition,identityRules:f.identityRules,familyIds:[f.id],provides:[],requiresAny:[],availability:'family-reference'}))];
 const keys=read(path.join(root,'recipes/index.json')).recipes.filter(r=>r.status==='user-approved').map(r=>r.id);
 export function catalog(kind,id){
- const rows=kind==='recipes'?read(path.join(root,'recipes/index.json')).recipes:kind==='standards'?standards:data(kind);
+ const rows=kind==='recipes'?read(path.join(root,'recipes/index.json')).recipes:kind==='orchestrations'?orchestrations():kind==='standards'?standards:data(kind);
  if(!id)return rows;
  const found=rows.find(r=>[r.id,r.name,r.key,r.legacyKey,r.defaultLegacyKey].includes(id));
  if(!found)throw Error('未登记'+kind+': '+id);return found;
@@ -51,16 +52,22 @@ export function compile(value,plan,project){
  if(plan?.source?.path){const p=path.resolve(project||process.cwd(),plan.source.path);if(!fs.existsSync(p)||hash(p)!==plan.source.sha256)result.errors.push('实际源片SHA256与场景计划不一致');}
  result.ok=result.errors.length===0;return result;
 }
-export function collaborationRoute(request='',requested){
+export function collaborationRoute(request='',requested,orchestration){
+ const arrangement=selectOrchestration(request,orchestration);
  let selected=requested?String(requested).split(','):[];
  if(!selected.length){
   const active=request.split(/[，。；,;\n]/).filter(s=>!/^\s*(保留|沿用|保持|不改|别改|不要改|维持)/.test(s)).join('，');
   const signals={'art-style':/画风|风格/,palette:/配色|颜色/,material:/材质|纹理/,representation:/造型|模型|载体/,'object-motion':/动效|动画|运动/,camera:/镜头|机位|景别/,transition:/转场|衔接/,typography:/排版|字幕|字体|字号|标题|构图/,lighting:/光影|照明|投影/,information:/文案|内容关系|因果|对比|信息组织/,rhythm:/节奏|读窗|停留/};
   selected=Object.entries(signals).filter(([,rx])=>rx.test(active)).map(([id])=>id);
+  // A stated single-module boundary owns the route; later clauses can describe
+  // a goal such as “让对比更早落定”, which does not rewrite information design.
+  const only=active.match(/(?:^|，)\s*(?:只|仅)(?:调整|修改|改动|改)?(.+?)(?=，|$)/)?.[1]?.split(/让|使|以便/)[0];
+  if(only){const scoped=Object.entries(signals).filter(([,rx])=>rx.test(only)).map(([id])=>id);if(scoped.length)selected=scoped;}
   if(!selected.length||/制作|重做|做一条|做个|生成/.test(active)&&/完整|整片|口播/.test(active)&&!/只|仅/.test(active))selected=axes.map(a=>a.id);
+  if(arrangement&&arrangement.id!=='auto'&&selected.length===11&&!/制作|重做|做一条|做个|生成|完整|整片/.test(active))selected=orchestrationAxes;
  }
  if(selected.some(id=>!axes.some(a=>a.id===id)))throw Error('未知十一类技能: '+selected.join(','));
- return {scope:selected.length===11?'full':'module',axes:selected,change:change(selected),requiredSkills:axes.filter(a=>selected.includes(a.id)).map(a=>({axis:a.id,path:path.join(root,'skills',a.skill,'SKILL.md')})),entry:path.join(root,'skills/talking-head-composition/SKILL.md'),policy};
+ return {scope:selected.length===11?'full':'module',axes:selected,orchestration:arrangement,change:change(selected),requiredSkills:axes.filter(a=>selected.includes(a.id)).map(a=>({axis:a.id,path:path.join(root,'skills',a.skill,'SKILL.md')})),requiredReferences:[path.join(root,'docs/编排选择与局部节奏.md')],entry:path.join(root,'skills/talking-head-composition/SKILL.md'),policy};
 }
 function emptyProject(o){
  if(!o.project||!o.source)throw Error('需要 --project 新目录及 --source 自有视频');
@@ -69,15 +76,17 @@ function emptyProject(o){
  if(fs.existsSync(dest))throw Error('目标已存在，不覆盖工程');
  if(!fs.statSync(source).isFile())throw Error('源片不存在');
  const recipe=loadRecipe(o.recipe),check=resolve(recipe);if(!check.ok)throw Error(check.errors.join('; '));
+ const orchestration=selectOrchestration(o.request||'',o.orchestration)||selectOrchestration('','auto');
  const probe=JSON.parse(execFileSync('ffprobe',['-v','error','-show_streams','-show_format','-of','json',source],{encoding:'utf8'}));
  for(const d of ['plans','assets/fonts','scripts','qa','outputs'])fs.mkdirSync(path.join(dest,d),{recursive:true});
  fs.copyFileSync(source,path.join(dest,'assets/master.mp4'));
  if(o.transcript)fs.copyFileSync(path.resolve(o.transcript),path.join(dest,'assets/canonical-native.srt'));
  fs.copyFileSync(path.join(root,'assets/gsap.min.js'),path.join(dest,'assets/gsap.min.js'));
- write(path.join(dest,'project.json'),{schemaVersion:2,collaborationVersion:1,id:crypto.randomUUID(),name:path.basename(dest),recipeId:recipe.id,status:'awaiting-design',renderer:'custom',request:o.request||'',sourcePolicy:read(path.join(root,'source-policy.json')),sourceSha256:hash(source),referenceFixture:false});
+ write(path.join(dest,'project.json'),{schemaVersion:2,collaborationVersion:1,id:crypto.randomUUID(),name:path.basename(dest),recipeId:recipe.id,orchestration,status:'awaiting-design',renderer:'custom',request:o.request||'',sourcePolicy:read(path.join(root,'source-policy.json')),sourceSha256:hash(source),referenceFixture:false});
+ write(path.join(dest,'orchestration.json'),orchestration.id==='auto'?orchestration:{...orchestration,profile:loadOrchestration(orchestration.id),status:'awaiting-content-design'});
  write(path.join(dest,'recipe.json'),recipe);write(path.join(dest,'source-info.json'),probe);
  write(path.join(dest,'hyperframes.json'),{paths:{blocks:'compositions',components:'compositions/components',assets:'assets'},media:{autoProxy:true},authoringSkill:'general-video'});
- write(path.join(dest,'route.json'),collaborationRoute(o.request||'制作完整口播'));
+ write(path.join(dest,'route.json'),collaborationRoute(o.request||'制作完整口播',null,o.orchestration));
  return {dest,recipe};
 }
 export function initCollaboration(o){
@@ -85,12 +94,17 @@ export function initCollaboration(o){
  const {dest,recipe}=emptyProject(o);
  for(const a of axes)write(path.join(dest,'plans',a.artifact),{status:'awaiting-design',axis:a.id,standards:recipe.selections[a.id],ownedFields:a.ownedFields});
  fs.writeFileSync(path.join(dest,'设计交接.md'),'按本次真实文案新建scene-plan.json、timing.json、plans/brief.json及十一份专业计划，落实对象、动作、可见结果和连续交接。实现scripts/build-project.mjs；构建生成index.html与edit-plan.json（原声EDL）。不要复制示例财经文案、耳机、数量或秒点。可复用配方语言与有效机制。原色人像、角落圆窗、字幕上移、一路原声；计划检查不代表已完成视频。读取正式插件docs/分类与配方.md和docs/协作合同.md。\n');
- return {project:dest,status:'awaiting-design',recipe:recipe.id,axes:axes.map(a=>a.id),next:'根据新文案完成专业设计与帧函数，再run --project；不会直接套入参考片'};
+ fs.appendFileSync(path.join(dest,'设计交接.md'),'编排选择见orchestration.json及正式docs/编排选择与局部节奏.md。auto时代理按内容作选择并记录；明确选择优先。编排与画风分开，不复制参考人物尺寸或固定秒点。\n');
+ return {project:dest,status:'awaiting-design',recipe:recipe.id,orchestration:read(path.join(dest,'orchestration.json')),axes:axes.map(a=>a.id),next:'根据新文案完成专业设计与帧函数，再run --project；不会直接套入参考片'};
 }
 export function reproduce(o){
  const recipe=loadRecipe(o.recipe);if(!keys.includes(recipe.id))throw Error('此配方没有正式复现实现');
- if(!o.source||hash(path.resolve(o.source))!==recipe.implementation.sourceSha256)throw Error('复现仅接受明确选择的原案例840方形代理源片且哈希一致；换素材请用init --recipe重新设计');
- const {dest}=emptyProject(o),from=path.join(root,recipe.implementation.path);
+ const choice=selectOrchestration(o.request||'',o.orchestration);
+ if(choice?.id==='auto')throw Error('复现需要明确编排；自动判断用于新素材init');
+ const profile=choice?loadOrchestration(choice.id):null,implementation=profile?.reference||recipe.implementation;
+ if(profile&&recipe.id!==implementation.recipeId)throw Error('该编排的认可复现仅为写实极简；其他配方组合请init后按内容适配');
+ if(!o.source||hash(path.resolve(o.source))!==implementation.sourceSha256)throw Error('复现仅接受明确选择的原案例840方形代理源片且哈希一致；换素材请用init --recipe重新设计');
+ const {dest}=emptyProject(o),from=path.join(root,implementation.path);
  fs.cpSync(from,dest,{recursive:true});
  if(recipe.implementation.photoAsset!==false)fs.copyFileSync(path.join(root,'assets/recipe-images/life-objects.png'),path.join(dest,'assets/life-objects.png'));
  fs.cpSync(path.join(root,'assets/fonts'),path.join(dest,'assets/fonts'),{recursive:true});
@@ -98,11 +112,12 @@ export function reproduce(o){
  fs.copyFileSync(path.join(root,'runtime/recipe-build.mjs'),path.join(dest,'scripts/build-project.mjs'));
  const timing=read(path.join(dest,'timing.json'));
  write(path.join(dest,'plans/brief.json'),{width:timing.width,height:timing.height,fps:timing.fps,source:'explicit-approved-recipe-reference'});
- const p=read(path.join(dest,'project.json'));p.referenceFixture=true;p.status='planned-approved-recipe';write(path.join(dest,'project.json'),p);
- return {project:dest,status:p.status,recipe:recipe.id,scope:'仅明确选定的历史同源案例复现；新素材必须重新设计'};
+ const p=read(path.join(dest,'project.json'));p.referenceFixture=true;p.status='planned-approved-recipe';if(profile)p.timingContract='symbolic-events-v1';write(path.join(dest,'project.json'),p);
+ return {project:dest,status:p.status,recipe:recipe.id,orchestration:p.orchestration,scope:'仅明确选定的历史同源案例复现；新素材必须重新设计'};
 }
 export function validateProject(r){
  const p=read(path.join(r,'project.json'));if(!p.collaborationVersion)return null;
+ if(p.orchestration){const selection=read(path.join(r,'orchestration.json'));if(selection.id!==p.orchestration.id)throw Error('编排选择与project.json不一致');if(selection.id!=='auto')loadOrchestration(selection.id);else if(p.referenceFixture)throw Error('案例复现不能使用待判断编排');}
  const draft=axes.filter(a=>!fs.existsSync(path.join(r,'plans',a.artifact))||read(path.join(r,'plans',a.artifact)).status==='awaiting-design');
  if(draft.length)throw Error('十一类设计尚未完成: '+draft.map(a=>a.name).join(','));
  const plan=read(path.join(r,'scene-plan.json')),result=compile(read(path.join(r,'recipe.json')),plan,r);
@@ -110,30 +125,43 @@ export function validateProject(r){
  if(plan.source.sha256!==p.sourceSha256)throw Error('场景计划没有绑定init所选源片');
  const t=read(path.join(r,'timing.json'));if(t.frameCount!==plan.frames||t.fps!==plan.fps)throw Error('场景计划与实际时间轴不一致');
  const caps=new Set((t.captions||[]).map(c=>c.id));if(plan.scenes.some(s=>s.sentenceIds.some(id=>!caps.has(id))))throw Error('场景引用未知字幕原句ID');
- write(path.join(r,'qa/scene-plan-check.json'),result);return result;
+ result.eventTiming=checkEventTiming(r);write(path.join(r,'qa/scene-plan-check.json'),result);return result;
 }
 export function reviseCollaboration(o,old){
  const p=read(path.join(old,'project.json'));if(!p.collaborationVersion)return null;
- const selected=String(o.axes||o.module||'').split(',').filter(Boolean),impact=change(selected);
+ if(!o.axes&&!o.module&&!o.request&&!o.orchestration)throw Error('需要指定修改轴或实际需求');
+ const newChoice=selectOrchestration(o.request||'',o.orchestration);
+ const selected=String(o.axes||o.module||(newChoice?orchestrationAxes.join(','):collaborationRoute(o.request||'').axes.join(','))).split(',').filter(Boolean),impact=change(selected);
+ if(newChoice&&orchestrationAxes.some(a=>!selected.includes(a)))throw Error('选择新编排需联动信息、造型、排版、动作、镜头、转场、节奏；仅改节奏请保留已有编排');
  if(!o.out)throw Error('需要 --out 新版本目录');const dest=path.resolve(o.out);
  if(fs.existsSync(dest)||dest.startsWith(old+path.sep)||dest===root||dest.startsWith(root+path.sep))throw Error('新版本必须放在原项目及插件之外且不能覆盖已有目录');
  const allowed=new Set(selected.map(id=>axes.find(a=>a.id===id).artifact));
  for(const id of String(o['allow-dependent']||'').split(',').filter(Boolean)){const a=axes.find(a=>a.id===id);if(!a||!o.reason)throw Error('兼容修复需要有效关联轴及--reason');allowed.add(a.artifact)}
  fs.mkdirSync(dest,{recursive:true});
- for(const n of ['assets','scripts','plans','project.json','source-info.json','recipe.json','scene-plan.json','timing.json','hyperframes.json','route.json','font-usage.json','index.motion.json','edit-plan.json'])if(fs.existsSync(path.join(old,n)))fs.cpSync(path.join(old,n),path.join(dest,n),{recursive:true});
+ for(const n of ['assets','scripts','plans','project.json','source-info.json','recipe.json','scene-plan.json','timing.json','hyperframes.json','route.json','orchestration.json','font-usage.json','index.motion.json','edit-plan.json'])if(fs.existsSync(path.join(old,n)))fs.cpSync(path.join(old,n),path.join(dest,n),{recursive:true});
  for(const n of ['outputs','qa'])fs.mkdirSync(path.join(dest,n));
  const protectedInputs={};
  for(const a of axes)if(!allowed.has(a.artifact)){const rel='plans/'+a.artifact;protectedInputs[rel]=hash(path.join(old,rel));}
  const protectAssets=dir=>{for(const entry of fs.readdirSync(dir,{withFileTypes:true})){const p=path.join(dir,entry.name),rel=path.relative(old,p);if(entry.isSymbolicLink())throw Error('项目输入不能依赖软链接');if(entry.isDirectory()){if(entry.name!=='fonts'||!allowed.has('layout-plan.json'))protectAssets(p)}else if(!['film-config.js','film.css'].includes(entry.name))protectedInputs[rel]=hash(p)}};
  protectAssets(path.join(old,'assets'));
+ // Approved event-driven rhythm edits need no implementation rewrite. Freeze
+ // their code as well as the other ten plans; a real compatibility change must
+ // be declared through allow-dependent with a reason.
+ if(selected.length===1&&selected[0]==='rhythm'&&allowed.size===1&&p.timingContract==='symbolic-events-v1'){
+  const protectCode=dir=>{for(const e of fs.readdirSync(dir,{withFileTypes:true})){const f=path.join(dir,e.name);if(e.isSymbolicLink())throw Error('项目实现不能依赖软链接');if(e.isDirectory())protectCode(f);else protectedInputs[path.relative(old,f)]=hash(f);}};
+  protectCode(path.join(old,'scripts'));
+ }
  for(const rel of ['assets/master.mp4','assets/edited-voice.wav','timing.json'])if(fs.existsSync(path.join(old,rel)))protectedInputs[rel]=hash(path.join(old,rel));
  // The scene meanings and source/voice mapping stay fixed in a visual-only revision.
  if(!selected.includes('information'))protectedInputs['scene-plan.json']=hash(path.join(old,'scene-plan.json'));
+ if(!newChoice&&fs.existsSync(path.join(old,'orchestration.json')))protectedInputs['orchestration.json']=hash(path.join(old,'orchestration.json'));
+ const protectedOrchestration=newChoice?undefined:(p.orchestration??null);
+ if(newChoice){p.orchestration=newChoice;write(path.join(dest,'orchestration.json'),newChoice.id==='auto'?newChoice:{...newChoice,profile:loadOrchestration(newChoice.id),status:'awaiting-content-design'});}
  p.id=crypto.randomUUID();p.name=path.basename(dest);p.request=o.request||'';p.status='revision-pending';p.axes=selected;write(path.join(dest,'project.json'),p);
  const beforeRecipe=read(path.join(old,'recipe.json'));
  const protectedSelections=Object.fromEntries(axes.filter(a=>!allowed.has(a.artifact)).map(a=>[a.id,beforeRecipe.selections[a.id]]));
- write(path.join(dest,'revision.json'),{parent:old,module:selected.join(','),protectedInputs,protectedSelections,protectedHierarchy:selected.includes('art-style')?null:beforeRecipe.hierarchy,allowedPlanFiles:[...allowed],impact,reason:o.reason||'',timing:null});
- write(path.join(dest,'route.json'),collaborationRoute(o.request||'',selected.join(',')));
+ write(path.join(dest,'revision.json'),{parent:old,module:selected.join(','),protectedInputs,protectedSelections,protectedOrchestration,protectedTimingContract:p.timingContract??null,protectedHierarchy:selected.includes('art-style')?null:beforeRecipe.hierarchy,allowedPlanFiles:[...allowed],impact,reason:o.reason||'',timing:null});
+ write(path.join(dest,'route.json'),collaborationRoute(o.request||'',selected.join(','),o.orchestration));
  return {project:dest,impact,next:'只改允许轴；复查关联项不等于全部重做。另改EDL需重新建源映射，不能借视觉修改暗改原声。'};
 }
 export function checkCollaborationLibrary(){
@@ -145,5 +173,7 @@ export function checkCollaborationLibrary(){
  for(const l of legacy){for(const k of ['template','look','preview'])if(l.source?.[k]){const p=path.join(root,l.source[k]);if(!fs.existsSync(p))throw Error('保留实现缺失: '+l.id+'/'+k);if(l.source[k+'Sha256']&&hash(p)!==l.source[k+'Sha256'])throw Error('保留实现哈希变化: '+l.id+'/'+k)}}
  for(const a of axes)if(!fs.existsSync(path.join(root,'skills',a.skill,'SKILL.md')))throw Error('缺少协作技能: '+a.id);
  for(const key of keys){const r=loadRecipe(key),result=resolve(r);if(!result.ok)throw Error(key+': '+result.errors.join('; '));const example=path.join(root,r.implementation.path);for(const a of axes)if(!fs.existsSync(path.join(example,'plans',a.artifact)))throw Error('配方实际计划缺失: '+key+'/'+a.id);}
- return {axes:axes.length,designStandards:standards.length,families:families.length,branches:branches.length,components:components.length,legacyIds:legacy.length,approvedRecipes:keys.length,scope:'登记、引用、结构及原案例实现；不是任意组合渲染证明'};
+ const arrangements=orchestrations();if(new Set(arrangements.map(r=>r.id)).size!==arrangements.length)throw Error('编排ID重复');
+ for(const row of arrangements){const from=path.join(root,row.reference.path);for(const a of axes)if(!fs.existsSync(path.join(from,'plans',a.artifact)))throw Error('编排实际计划缺失: '+row.id+'/'+a.id);if(!fs.existsSync(path.join(root,row.evidence)))throw Error('编排认可证据缺失');}
+ return {axes:axes.length,designStandards:standards.length,families:families.length,branches:branches.length,components:components.length,legacyIds:legacy.length,approvedRecipes:keys.length,approvedOrchestrations:arrangements.length,scope:'登记、引用、结构及原案例实现；不是任意组合渲染证明'};
 }

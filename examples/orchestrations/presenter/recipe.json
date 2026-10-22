@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "minimal-presenter-04",
+  "name": "写实极简 · 人物主导",
+  "mode": "design-recipe",
+  "selections": {
+    "art-style": [
+      "realistic-minimal"
+    ],
+    "palette": [
+      "neutral-one-accent"
+    ],
+    "material": [
+      "photo-original",
+      "matte"
+    ],
+    "representation": [
+      "photo-cutout",
+      "flat-symbol"
+    ],
+    "object-motion": [
+      "motivated-move",
+      "sort-compare",
+      "accumulate-reduce",
+      "reveal-consequence"
+    ],
+    "camera": [
+      "locked-stage",
+      "wide-detail-return"
+    ],
+    "transition": [
+      "object-match",
+      "clean-cut"
+    ],
+    "typography": [
+      "clean-sans",
+      "comparison-alignment",
+      "raised-captions"
+    ],
+    "lighting": [
+      "even-soft",
+      "contact-shadow"
+    ],
+    "information": [
+      "problem-mechanism-response",
+      "parallel-options",
+      "option-comparison",
+      "contrast-turn",
+      "recap-return"
+    ],
+    "rhythm": [
+      "speech-led",
+      "reveal-hold-release",
+      "contrast-pulse",
+      "ending-resolve"
+    ]
+  },
+  "overrides": {
+    "notes": "参数见本片十一份专业产物；人物原色、圆窗、字幕与原声保护保持。"
+  },
+  "sourceRequiredForProduction": true,
+  "caseId": "same-source-minimal-02",
+  "status": "test-candidate",
+  "hierarchy": {
+    "familyId": "F01",
+    "branchId": null,
+    "baseLegacyId": "A01"
+  }
+}

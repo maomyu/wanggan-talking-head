@@ -1,0 +1,161 @@
+{
+  "ok": true,
+  "selectedAxis": "rhythm",
+  "protectedInputs": [
+    {
+      "file": "plans/style-contract.json",
+      "ok": true
+    },
+    {
+      "file": "plans/palette-tokens.json",
+      "ok": true
+    },
+    {
+      "file": "plans/material-tokens.json",
+      "ok": true
+    },
+    {
+      "file": "plans/object-spec.json",
+      "ok": true
+    },
+    {
+      "file": "plans/motion-events.json",
+      "ok": true
+    },
+    {
+      "file": "plans/camera-plan.json",
+      "ok": true
+    },
+    {
+      "file": "plans/transition-plan.json",
+      "ok": true
+    },
+    {
+      "file": "plans/layout-plan.json",
+      "ok": true
+    },
+    {
+      "file": "plans/finish-plan.json",
+      "ok": true
+    },
+    {
+      "file": "plans/semantic-plan.json",
+      "ok": true
+    },
+    {
+      "file": "assets/edited-voice.wav",
+      "ok": true
+    },
+    {
+      "file": "assets/fonts/LICENSES.md",
+      "ok": true
+    },
+    {
+      "file": "assets/fonts/NotoSansSC-500.woff",
+      "ok": true
+    },
+    {
+      "file": "assets/fonts/NotoSansSC-700.woff",
+      "ok": true
+    },
+    {
+      "file": "assets/fonts/NotoSerifSC-700.woff",
+      "ok": true
+    },
+    {
+      "file": "assets/fonts/NotoSerifSC-OFL.txt",
+      "ok": true
+    },
+    {
+      "file": "assets/fonts/OFL.txt",
+      "ok": true
+    },
+    {
+      "file": "assets/gsap.min.js",
+      "ok": true
+    },
+    {
+      "file": "assets/life-objects.png",
+      "ok": true
+    },
+    {
+      "file": "assets/master.mp4",
+      "ok": true
+    },
+    {
+      "file": "timing.json",
+      "ok": true
+    },
+    {
+      "file": "scene-plan.json",
+      "ok": true
+    }
+  ],
+  "frozenPlans": [
+    {
+      "file": "brief.json",
+      "equal": true
+    },
+    {
+      "file": "camera-plan.json",
+      "equal": true
+    },
+    {
+      "file": "finish-plan.json",
+      "equal": true
+    },
+    {
+      "file": "layout-plan.json",
+      "equal": true
+    },
+    {
+      "file": "material-tokens.json",
+      "equal": true
+    },
+    {
+      "file": "motion-events.json",
+      "equal": true
+    },
+    {
+      "file": "object-spec.json",
+      "equal": true
+    },
+    {
+      "file": "palette-tokens.json",
+      "equal": true
+    },
+    {
+      "file": "semantic-plan.json",
+      "equal": true
+    },
+    {
+      "file": "style-contract.json",
+      "equal": true
+    },
+    {
+      "file": "transition-plan.json",
+      "equal": true
+    }
+  ],
+  "changedEvents": [
+    "extraReady",
+    "denyStart",
+    "denyEnd",
+    "compareReady",
+    "capitalReady",
+    "riskRevealStart",
+    "riskRevealEnd",
+    "debtReady"
+  ],
+  "framesChecked": 1100,
+  "changedSpatialStateFrames": 142,
+  "identicalResultFrames": [
+    615,
+    685,
+    782,
+    897,
+    1099
+  ],
+  "sourceTimingVoiceCaptionsPersonAndTenPlansPreserved": true,
+  "scope": "Actual formal revise clone plus real authored-frame comparison. Only rhythm professional plan differs; scene semantics, geometry, paths, type, assets and source/voice mapping frozen."
+}

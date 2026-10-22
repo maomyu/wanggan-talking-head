@@ -1,0 +1,28 @@
+{
+  "reason": "实际编码765帧看到风险对象内部文字与外部标签重复；保留实际揭示对象，删除外部重复标签。",
+  "cases": [
+    {
+      "key": "presenter",
+      "file": "plans/layout-plan.json",
+      "before": "a327640e0dd7c1b06401fc70be0eee1db4f735c8a722060a8e0564cb3f0d281d",
+      "after": "13dd6391960e309b9dc51498062e8ba37a186a06e513c714e6ff84bd7c3bf1a3",
+      "removed": "重复的外部暗藏风险标注；物件内部揭示文字继续保留"
+    },
+    {
+      "key": "diagram",
+      "file": "plans/layout-plan.json",
+      "before": "c1a970fb6e0e2a5ee1c5cd7a6c4d26758b072ba640c4b05c30bc27fb0518159f",
+      "after": "64dbb19f224bee02093080e221345cae829fa6bfe111b3c0ba0ac9c465ec2fbc",
+      "removed": "重复的外部暗藏风险标注；物件内部揭示文字继续保留"
+    },
+    {
+      "key": "diagram-rhythm",
+      "file": "plans/layout-plan.json",
+      "before": "c1a970fb6e0e2a5ee1c5cd7a6c4d26758b072ba640c4b05c30bc27fb0518159f",
+      "after": "64dbb19f224bee02093080e221345cae829fa6bfe111b3c0ba0ac9c465ec2fbc",
+      "removed": "重复的外部暗藏风险标注；物件内部揭示文字继续保留"
+    }
+  ],
+  "formalPluginChanged": false,
+  "rhythmComparisonBaselineUpdatedEqually": true
+}

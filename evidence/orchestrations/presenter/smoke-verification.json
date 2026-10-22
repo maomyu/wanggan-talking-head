@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "frames": 120,
+  "width": 1080,
+  "height": 1920,
+  "sourceRangeSeconds": [
+    22.7,
+    26.7
+  ],
+  "sha256": "45c0d37f08ac1c49d68f31ac58cba8c3985a04e5a4d9233809011c34bb5b827a",
+  "originalVoiceCorrelation": 0.9999449213174575,
+  "scope": "Actual encoded 4s MP4, decoded fully; original continuous voice slice. Full-project short-frame parity recorded separately."
+}

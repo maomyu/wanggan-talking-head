@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "status": "user-approved",
+  "date": "2026-10-22",
+  "orchestration": "diagram",
+  "recipe": "minimal",
+  "basePlanSha256": "5e595fb0e603e7b3615fbd40007860e2f7edf27929e75c8f8c7eb7713e8434fd",
+  "variantPlanSha256": "716022e3223ca1d34fd15599b9f68123de94ee42f719307dd609946823d74893",
+  "baseVideoSha256": "15025d21164b214a914746f553bb986054862c1d8967ba2c226cd714956a975e",
+  "variantVideoSha256": "804d969de4fdc9e3d505bbe8bf161f2112dea14fa3ad8cdd4975b89c7db3df8a",
+  "changedEvents": {
+    "extraReady": {
+      "before": 490,
+      "after": 480
+    },
+    "denyStart": {
+      "before": 492,
+      "after": 481
+    },
+    "denyEnd": {
+      "before": 509,
+      "after": 491
+    },
+    "compareReady": {
+      "before": 587,
+      "after": 575
+    },
+    "capitalReady": {
+      "before": 642,
+      "after": 632
+    },
+    "riskRevealStart": {
+      "before": 739,
+      "after": 744
+    },
+    "riskRevealEnd": {
+      "before": 759,
+      "after": 755
+    },
+    "debtReady": {
+      "before": 882,
+      "after": 872
+    }
+  },
+  "afterPlan": {
+    "speechAnchors": {
+      "cut": 461,
+      "pause": 516,
+      "distinguish": 563,
+      "capital": 616,
+      "pitch": 686,
+      "riskReveal": 753,
+      "avoid": 783,
+      "debt": 856,
+      "recognition": 959,
+      "noHerd": 1003,
+      "resolve": 1036,
+      "summary": 898
+    },
+    "eventSchedule": {
+      "extraStart": 470,
+      "extraReady": 480,
+      "denyStart": 481,
+      "denyEnd": 491,
+      "compareStart": 563,
+      "compareReady": 575,
+      "capitalStart": 616,
+      "capitalReady": 632,
+      "riskRevealStart": 744,
+      "riskRevealEnd": 755,
+      "debtStart": 856,
+      "debtReady": 872,
+      "recapReady": 960,
+      "lossStart": 310,
+      "lossEnd": 331
+    },
+    "readWindows": [
+      [
+        121,
+        149
+      ],
+      [
+        331,
+        349
+      ],
+      [
+        419,
+        454
+      ],
+      [
+        576,
+        615
+      ],
+      [
+        637,
+        683
+      ],
+      [
+        756,
+        782
+      ],
+      [
+        873,
+        897
+      ],
+      [
+        975,
+        1099
+      ]
+    ],
+    "densityCurve": [
+      [
+        0,
+        0.2
+      ],
+      [
+        149,
+        0.6
+      ],
+      [
+        388,
+        0.3
+      ],
+      [
+        461,
+        0.7
+      ],
+      [
+        616,
+        0.2
+      ],
+      [
+        744,
+        0.9
+      ],
+      [
+        856,
+        0.65
+      ],
+      [
+        960,
+        0.15
+      ]
+    ],
+    "reason": "只改节奏：缩短加购否定与本金落位的准备，比较更早停稳；风险揭示集中在原声风险句内，减少负债更快完成并延长结果读窗。原声、字幕、空间、动作路径不变。"
+  },
+  "scope": "仅供这个明确同源案例复现节奏修改，不是新片默认秒点；正式revise --axes rhythm另存后按本片重音与读窗设计"
+}

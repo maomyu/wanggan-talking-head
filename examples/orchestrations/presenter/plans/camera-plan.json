@@ -1,0 +1,29 @@
+{
+  "language": "locked-presenter",
+  "shotFraming": {
+    "main": "人物"
+  },
+  "viewTransforms": [
+    {
+      "at": 0,
+      "x": 0,
+      "y": 0,
+      "s": 1,
+      "a": 1
+    },
+    {
+      "at": 1099,
+      "x": 0,
+      "y": 0,
+      "s": 1,
+      "a": 1
+    }
+  ],
+  "focusTargets": [
+    "headphone",
+    "principal",
+    "risk",
+    "burden"
+  ],
+  "reason": "人物主导版保持观察稳定；图解版随本片解释任务局部推近并回看，人物不继承图解镜头。"
+}

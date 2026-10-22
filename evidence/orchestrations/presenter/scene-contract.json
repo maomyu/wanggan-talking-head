@@ -1,0 +1,67 @@
+{
+  "framesChecked": 1100,
+  "issues": [],
+  "poses": [
+    {
+      "frame": 0,
+      "x": 230,
+      "y": 580,
+      "w": 620
+    },
+    {
+      "frame": 75,
+      "x": 114.49588012695312,
+      "y": 544.4602661132812,
+      "w": 620
+    },
+    {
+      "frame": 180,
+      "x": 100,
+      "y": 540,
+      "w": 620
+    },
+    {
+      "frame": 750,
+      "x": 64,
+      "y": 550,
+      "w": 580
+    },
+    {
+      "frame": 1030,
+      "x": 190,
+      "y": 500,
+      "w": 700
+    },
+    {
+      "frame": 1099,
+      "x": 190,
+      "y": 500,
+      "w": 700
+    }
+  ],
+  "deterministic": true,
+  "maxCaptionBottom": 1768,
+  "moduleBindings": {
+    "style": "realistic-minimal",
+    "palette": "#f7f8f6",
+    "material": "photo-original",
+    "representation": 8,
+    "motion": "讲述者旁的定点示意与取舍",
+    "camera": "locked-presenter",
+    "transition": 8,
+    "typography": "presenter",
+    "lighting": 0,
+    "information": 8,
+    "rhythm": 8
+  },
+  "voices": 1,
+  "captionCount": 21,
+  "errors": [],
+  "ok": true,
+  "visualInputs": {
+    "index.html": "3dd49272880bf37dedc7d26d286c41a578a95ce80e9f8846f8c52ee9f249747d",
+    "assets/film.css": "b11a33bf9c7286b6f27e7a251bca16fce5fa60da075bdd4137af08489b4b2fe5",
+    "scripts/motion.mjs": "8912f948e94c450f02929f9c79d2aa2675a328de83e83765adba8af89d615adf",
+    "assets/film-config.js": "7e52605c02c259885732aa84f6a47894c58e241d380d6df0f2d642641326a323"
+  }
+}

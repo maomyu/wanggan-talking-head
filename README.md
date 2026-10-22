@@ -1,4 +1,4 @@
-# 网感口播 · 1.19.0
+# 网感口播 · 1.20.0
 
 以用户自己的真实口播和原声为源，按文案重新设计图片任务、对象动作、可见结果与前后衔接。人物原色、角落圆窗、字幕上移。
 
@@ -6,14 +6,17 @@
 
 母画风、分支、组件分别管理；原100项编号、素材和实现完整保留。七套用户认可配方：编辑拼贴与印刷、写实极简、技术蓝图、柔质立体、水墨写意、单线手绘、复古网点，带77份实际专业计划、原案例代码与认可哈希。新素材重新设计内容，85项设计标准不冒称通用渲染组件。
 
+新增人物主导、连续图解两套可选编排，与画风分别管理；只改节奏时保护其他十类计划、原片、原声、字幕与编排选择。完整方法和自然语言示例见[编排选择与局部节奏](docs/编排选择与局部节奏.md)，实际收录范围见[1.20.0验收](docs/1.20.0验收.md)。
+
 ```sh
 node scripts/studio.mjs doctor
 node scripts/studio.mjs recipes
+node scripts/studio.mjs orchestrations
 node scripts/studio.mjs families
 node scripts/studio.mjs branches
 node scripts/studio.mjs components
 node scripts/studio.mjs standards
-node scripts/studio.mjs init --project /path/to/film --source /path/to/own.mp4 --recipe minimal
+node scripts/studio.mjs init --project /path/to/film --source /path/to/own.mp4 --recipe minimal --orchestration diagram
 node scripts/studio.mjs revise --from /path/to/film --out /path/to/film-v2 --axes typography --request "只调整标题与字幕"
 ```
 

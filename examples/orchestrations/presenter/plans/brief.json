@@ -1,0 +1,8 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "lengthFrames": 1100,
+  "audio": "single-original-voice",
+  "scope": "same-source-new-orchestration-test"
+}
