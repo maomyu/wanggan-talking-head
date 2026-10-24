@@ -1,0 +1,14 @@
+{
+  "surfaceAssignments": {
+    "objects": "硬边像素纯色，无UI玻璃、无扫描线覆盖人物与字形",
+    "person": "original-color-no-treatment"
+  },
+  "textureScale": 6,
+  "edgeTreatment": {
+    "strokeWidth": 4,
+    "roughness": 0
+  },
+  "standards": [
+    "matte"
+  ]
+}

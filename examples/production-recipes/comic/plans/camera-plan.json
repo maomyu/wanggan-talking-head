@@ -1,0 +1,29 @@
+{
+  "language": "二维整页固定观察，分格边界移动与局部近景改变注意顺序；字幕与人物不跟随页变形",
+  "viewTransforms": [
+    {
+      "at": 0,
+      "x": 0,
+      "y": 0,
+      "s": 1,
+      "a": 1
+    },
+    {
+      "at": 1099,
+      "x": 0,
+      "y": 0,
+      "s": 1,
+      "a": 1
+    }
+  ],
+  "protected": [
+    "person",
+    "captions",
+    "title",
+    "all reading labels"
+  ],
+  "standards": [
+    "locked-stage",
+    "wide-detail-return"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "surfaceAssignments": {
+    "objects": "复用原原创水彩袋像素，透明叠色、边缘积色、纸面颗粒，正文无颗粒",
+    "person": "original-color-no-treatment"
+  },
+  "textureScale": 6,
+  "edgeTreatment": {
+    "strokeWidth": 4,
+    "roughness": 0
+  },
+  "standards": [
+    "matte",
+    "paper-grain"
+  ]
+}

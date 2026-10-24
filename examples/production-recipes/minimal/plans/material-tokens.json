@@ -1,0 +1,15 @@
+{
+  "surfaceAssignments": {
+    "objects": "photo-original",
+    "presenter": "original-video"
+  },
+  "roughness": 1,
+  "edgeTreatment": {
+    "radius": 0
+  },
+  "textureScale": 1,
+  "standards": [
+    "photo-original",
+    "matte"
+  ]
+}

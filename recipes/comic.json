@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "id": "comic",
+  "name": "漫画描线",
+  "mode": "design-recipe",
+  "status": "user-approved",
+  "hierarchy": {
+    "familyId": "F09",
+    "branchId": null,
+    "baseLegacyId": "A11"
+  },
+  "selections": {
+    "information": [
+      "problem-mechanism-response",
+      "parallel-options",
+      "option-comparison",
+      "contrast-turn",
+      "recap-return"
+    ],
+    "rhythm": [
+      "speech-led",
+      "reveal-hold-release",
+      "progressive-build",
+      "setup-payoff",
+      "ending-resolve"
+    ],
+    "art-style": [
+      "F09"
+    ],
+    "palette": [
+      "vivid-blocks"
+    ],
+    "material": [
+      "matte"
+    ],
+    "representation": [
+      "flat-symbol",
+      "inset-stage"
+    ],
+    "object-motion": [
+      "sort-compare",
+      "accumulate-reduce",
+      "reveal-consequence",
+      "motivated-move"
+    ],
+    "camera": [
+      "locked-stage",
+      "wide-detail-return"
+    ],
+    "transition": [
+      "object-match",
+      "relation-expand",
+      "foreground-occlusion"
+    ],
+    "typography": [
+      "raised-captions",
+      "clean-sans",
+      "comparison-alignment"
+    ],
+    "lighting": [
+      "flat-print-light"
+    ]
+  },
+  "overrides": {
+    "notes": "用户已认可本案例的完整十一类配方。人物原色、角落真圆、上移字幕；换素材重新设计，不泛化为任意组合已验收。"
+  },
+  "caseId": null,
+  "sourceRequiredForProduction": true,
+  "implementation": {
+    "kind": "source-specific-reference",
+    "path": "examples/production-recipes/comic",
+    "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+    "buildMode": "preserved-production-case",
+    "photoAsset": true,
+    "vendor": false,
+    "timingContract": "study-custom-symbolic-events",
+    "orchestration": {
+      "id": "diagram",
+      "selection": "explicit",
+      "reason": "用户明确选择"
+    },
+    "voiceSha256": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+    "edlSha256": "699c481b98445d39dedb1b09bf46e5f7db6b5dfe422e67bbeaf6718a2c335cf2",
+    "newSource": "按本片原句重设计语义、对象、动作、结果、读窗和交接；跨文案等待用户新素材验证"
+  },
+  "productionRules": {
+    "layout": "分格与视线安排先后，真人独立原色层",
+    "objectMotion": "格内对象动作/有限姿态辅助真人表达",
+    "camera": "从分格总览进入关键格，再回收关系",
+    "transition": "同物越格或格边展开；不用无意义闪白",
+    "typography": "对白、论点、字幕不同字阶，边框不遮字",
+    "preserve": [
+      "描线",
+      "明确色面",
+      "分格或有限姿态"
+    ],
+    "adaptOnNewContent": [
+      "原句和关系",
+      "每张图片的任务",
+      "对象初态、动作及结果",
+      "阅读窗口",
+      "前后交接",
+      "真实源时间与字幕"
+    ],
+    "neverInheritAsDefault": [
+      "当前财经物件",
+      "示意数量",
+      "固定秒点",
+      "固定三项建议",
+      "本片人像位置"
+    ]
+  },
+  "axisReferences": {
+    "art-style": {
+      "skill": "skills/talking-head-art-style/SKILL.md",
+      "casePlan": "examples/production-recipes/comic/plans/style-contract.json",
+      "sha256": "b6ab6cadb10e6ba51bcf3b6754a22fd7ad9dddf0023209dd1799cbeb05a25ccd",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "palette": {
+      "skill": "skills/talking-head-palette/SKILL.md",
+      "casePlan": "examples/production-recipes/comic/plans/palette-tokens.json",
+      "sha256": "4c7abaf16b8256a272c097d5e7df62719ef75706947b7980523666fc89676674",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "material": {
+      "skill": "skills/talking-head-material/SKILL.md",
+      "casePlan": "examples/production-recipes/comic/plans/material-tokens.json",
+      "sha256": "9ddcbefcf512daa2e3eb5ebae92d5ed1706611df3fd873fa9302198c3a814f5d",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "representation": {
+      "skill": "skills/talking-head-representation/SKILL.md",
+      "casePlan": "examples/production-recipes/comic/plans/object-spec.json",
+      "sha256": "8b6c32b3c96abb77cd3dae1c5e2437b4b63593e3c8446aa1dad527f481570202",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "object-motion": {
+      "skill": "skills/talking-head-object-motion/SKILL.md",
+      "casePlan": "examples/production-recipes/comic/plans/motion-events.json",
+      "sha256": "4e809fcd0ac7e8656a155000dea0c127c05f5a892c89d7ffab80ce0b48844e78",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "camera": {
+      "skill": "skills/talking-head-camera/SKILL.md",
+      "casePlan": "examples/production-recipes/comic/plans/camera-plan.json",
+      "sha256": "6b577d57f61570c3dadd4a4667c8779e1eccc9fede127c8a32b7cd9f7a14f9f7",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "transition": {
+      "skill": "skills/talking-head-transition/SKILL.md",
+      "casePlan": "examples/production-recipes/comic/plans/transition-plan.json",
+      "sha256": "543072182aa848bc43eac81f4b5366857752d16a747941d66fbfa44146f63a20",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "typography": {
+      "skill": "skills/talking-head-typography/SKILL.md",
+      "casePlan": "examples/production-recipes/comic/plans/layout-plan.json",
+      "sha256": "ca1c871dd893c43399c29ed084238660784dcdf230c8ee34d89bb4f0b9b932dd",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "lighting": {
+      "skill": "skills/talking-head-lighting/SKILL.md",
+      "casePlan": "examples/production-recipes/comic/plans/finish-plan.json",
+      "sha256": "cff4f38a9f751bdbe0aed0ed8b7f2508d0b7d271904d10a1734aac1888b8cf74",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "information": {
+      "skill": "skills/talking-head-information/SKILL.md",
+      "casePlan": "examples/production-recipes/comic/plans/semantic-plan.json",
+      "sha256": "6b75b9199943656e0e72b3112e8c521bd99558e889a131fd7d3e2ad034c9d45c",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "rhythm": {
+      "skill": "skills/talking-head-rhythm/SKILL.md",
+      "casePlan": "examples/production-recipes/comic/plans/timing.json",
+      "sha256": "6d37eb62a35fe2fb94608e69afca87485d3970ea08317cd068570caac51456b1",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    }
+  },
+  "approvalDate": "2026-10-24"
+}

@@ -1,0 +1,13 @@
+{
+  "surfaceAssignments": {
+    "objects": "printed-photo-and-cut-paper",
+    "person": "unfiltered-original"
+  },
+  "roughness": 0.84,
+  "edgeTreatment": "thin-ink-and-cut-edge",
+  "textureScale": 260,
+  "standards": [
+    "paper-grain",
+    "matte"
+  ]
+}

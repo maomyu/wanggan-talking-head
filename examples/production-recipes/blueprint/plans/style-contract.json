@@ -1,0 +1,20 @@
+{
+  "name": "技术蓝图",
+  "compositionMode": "blueprint",
+  "identityRules": [
+    "共用工程坐标",
+    "导轨与剖视",
+    "对象状态与扫描揭示"
+  ],
+  "referencePrinciples": [
+    "继承已认可语言和有效对象，但重做原句对应动作与前后状态"
+  ],
+  "driftChecks": [
+    "人物不受风格滤镜",
+    "字幕不随世界相机移动",
+    "不能只换底图"
+  ],
+  "standards": [
+    "precision-interface"
+  ]
+}

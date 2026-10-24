@@ -1,0 +1,1455 @@
+{
+  "version": "1.21.0",
+  "approvalDate": "2026-10-24",
+  "approvedScope": "用户认可19套母画风统一配方与调用入口正式并入；技术蓝图独立为分支",
+  "recipeId": "line",
+  "familyId": "F05",
+  "branchId": null,
+  "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+  "originalVideoSha256": "05a25cdd47ca2b6ee08c17b2f98d45bb2cfa5f69012ba1b5659c70a28be263b0",
+  "duration": 36.666666666666664,
+  "sourceSpecific": true,
+  "crossScript": "deferred-by-user",
+  "preservedImplementation": {
+    "examples/production-recipes/line/edit-plan.json": "699c481b98445d39dedb1b09bf46e5f7db6b5dfe422e67bbeaf6718a2c335cf2",
+    "examples/production-recipes/line/scene-plan.json": "269b0aba4898071a79bbd72b09ad711f49dd7faa3cd4198b22f502036bdb6e09",
+    "examples/production-recipes/line/timing.json": "c2fd00b17ded4a7866ec5b3b12c659b8b25934bb0fbf12a5dc45736eb097153a",
+    "examples/production-recipes/line/orchestration.json": "56d8e258699e1e17a20cb9923e78cf9f3f84f6118fb6637b549b55a3a7235f87",
+    "examples/production-recipes/line/recipe.json": "c376e268c0b213baa2120bb163dc1d50a9a3c5405728e34f66fa46c9cdee4204",
+    "examples/production-recipes/line/facts.json": "ea57140e17c2f65668dc79baa82b63647c9043dd170e8e9c76d2fcc7884c389b",
+    "examples/production-recipes/line/plans/palette-tokens.json": "8ec8d07f81d22b1543eff2796bb76908f77134a3a7d314ff61bd52fc9657dcf5",
+    "examples/production-recipes/line/plans/transition-plan.json": "86904b8d153d0bb9f521f0adf89448d46447d79562d0e115dab87a3ac183741e",
+    "examples/production-recipes/line/plans/timing.json": "1e1163e0fb6cd736710be75e171c4400381e2bdb68be16f7e502eeff61e8eb70",
+    "examples/production-recipes/line/plans/layout-plan.json": "4b22fc9c8b6128dffbba487625f244a9805d24bdad19af10678e108b4c6776a0",
+    "examples/production-recipes/line/plans/brief.json": "1c87713a11a9ebeb719d4192c06b2f1caf03da7e2c14298885b25b74a4e99a87",
+    "examples/production-recipes/line/plans/semantic-plan.json": "be9b9436636a44f20ffd608800612ee531d8df8795a33acbf69d64f7e72870e1",
+    "examples/production-recipes/line/plans/finish-plan.json": "a76497676fc74bae1a60f89ec8fe0faac90350151c4000ff7fe5cefa3056d30e",
+    "examples/production-recipes/line/plans/camera-plan.json": "a6f991bdb873964164a3be9f5861e537a7ff9128502fac2d6c55f39f6221b08a",
+    "examples/production-recipes/line/plans/object-spec.json": "b872746bbcc39c3bbeaae1807f5308508bfdb19ae3d21d372f4b252c15e87edd",
+    "examples/production-recipes/line/plans/material-tokens.json": "2c5e05a152688f0a50c23609420ae930e91ecd4f4155c2c70b733ba5fe4fc911",
+    "examples/production-recipes/line/plans/style-contract.json": "c2b2ada6040c37f6bf091f54f5c8abb9e83ab4dee47f6a72b2c16a7f6dd9011a",
+    "examples/production-recipes/line/plans/motion-events.json": "1e6e91cd5063943b620928dc86fa6add01380317160f4e72dd0a41c8da1a3fb9",
+    "examples/production-recipes/line/scripts/motion.mjs": "987cb7e1ad21f410badf66f23655569acd34095a4e3332b0c4cd2ce4e9051dac",
+    "examples/production-recipes/line/scripts/composition.template": "ca5c142b104d2245ed429464590f275f2ba666ca1cef322b96458c1293b6c65f",
+    "examples/production-recipes/line/scripts/film.css": "29e60972887a40b4fd37f7ee08ae3ec508d5952b4962b783727e6b8046253f78",
+    "examples/production-recipes/line/scripts/build-project.mjs": "3d1f13f3fff4454b706bdc03110a2db2deb435ae2c4ddc6eba1e5e416e18c753"
+  },
+  "technicalChecks": {
+    "verification.json": {
+      "sha256": "6224c44a9430f4d79d6995edaf92c70fb12d9b719fbe283d4504451372e29781",
+      "data": {
+        "status": "verified",
+        "key": "line",
+        "video": {
+          "sha256": "05a25cdd47ca2b6ee08c17b2f98d45bb2cfa5f69012ba1b5659c70a28be263b0",
+          "width": 1080,
+          "height": 1920,
+          "fps": "30/1",
+          "frames": 1100,
+          "duration": 36.666666666666664,
+          "bytes": 33249916,
+          "faststart": true,
+          "sharedFinalPlaybackInode": true
+        },
+        "audio": {
+          "originalVoiceCorrelation": 0.9999823504746719,
+          "offsetSamples": 0,
+          "decodedSamplesCompared": 1760000,
+          "min100msVoiceRmsRatio": 0.9925177151927742,
+          "dropped100msVoiceWindows": 0,
+          "audibleTracks": 1,
+          "scope": "actual decoded original-voice comparison; not subjective listening review"
+        },
+        "person": {
+          "actualEncodedSamples": [
+            {
+              "frame": 0,
+              "box": [
+                230,
+                570,
+                620,
+                620
+              ],
+              "innerRGBMeanAbsoluteError": 2.523005560362138
+            },
+            {
+              "frame": 75,
+              "box": [
+                503,
+                955,
+                440,
+                440
+              ],
+              "innerRGBMeanAbsoluteError": 2.7459715639810427
+            },
+            {
+              "frame": 180,
+              "box": [
+                716,
+                1255,
+                300,
+                300
+              ],
+              "innerRGBMeanAbsoluteError": 2.4450362581998872
+            },
+            {
+              "frame": 750,
+              "box": [
+                716,
+                1255,
+                300,
+                300
+              ],
+              "innerRGBMeanAbsoluteError": 2.428330969921258
+            },
+            {
+              "frame": 1030,
+              "box": [
+                240,
+                540,
+                600,
+                600
+              ],
+              "innerRGBMeanAbsoluteError": 2.0641549415399143
+            },
+            {
+              "frame": 1099,
+              "box": [
+                240,
+                540,
+                600,
+                600
+              ],
+              "innerRGBMeanAbsoluteError": 2.063415013344619
+            }
+          ],
+          "all1100AuthoredCircleFrames": 1100
+        },
+        "captionCount": 21,
+        "denseFrames": 183,
+        "htmlSha256": "ac0c5237c2b0bab87fba7ba4521596ce8be06b4c6c742cdeb92e71fff2563e71",
+        "sceneContractSha256": "3e7de8320261da5d8166bbacd37888dd48885d6f77685c7076e8c51ddd66dcd0",
+        "textAuditSha256": "aeb823a85c869ea92f72cd09aa875a358f9ebd984cdff454e6189ae7eff4aeac",
+        "capturePolicy": {
+          "kind": "opaque-SDR PNG compression only",
+          "engineVersion": "0.8.174",
+          "engineSha256": "e80a9d81838c0fe034f4d00af1c0262f570d64b2bb8b8c487a22cf7d8a70cc4e",
+          "installedModuleUnchanged": true,
+          "applications": 1,
+          "outputPixelEquivalenceSamples": 64,
+          "pixelEquivalenceReportSha256": "3d51cb1cca8e7974fbdc6ce029027b7adbd3fb2aa07bbdf6730581c8e0e6ab6e",
+          "alphaAndHDRCaptureUnchanged": true,
+          "geometryTimingFontsAudioAndEncodingUnchanged": true,
+          "exitCode": 0
+        },
+        "scope": "one actual complete source-specific film; technical/author checks, not independent review"
+      }
+    },
+    "scene-contract.json": {
+      "sha256": "3e7de8320261da5d8166bbacd37888dd48885d6f77685c7076e8c51ddd66dcd0",
+      "data": {
+        "framesChecked": 1100,
+        "issues": [],
+        "poses": [
+          {
+            "frame": 0,
+            "x": 230,
+            "y": 570,
+            "w": 620
+          },
+          {
+            "frame": 75,
+            "x": 503.3345642089844,
+            "y": 955.2554931640625,
+            "w": 440.0266418457031
+          },
+          {
+            "frame": 180,
+            "x": 716,
+            "y": 1255,
+            "w": 300
+          },
+          {
+            "frame": 750,
+            "x": 716,
+            "y": 1255,
+            "w": 300
+          },
+          {
+            "frame": 1030,
+            "x": 240,
+            "y": 540,
+            "w": 600
+          },
+          {
+            "frame": 1099,
+            "x": 240,
+            "y": 540,
+            "w": 600
+          }
+        ],
+        "deterministic": true,
+        "maxCaptionBottom": 1765,
+        "states": {
+          "0": {
+            "frame": 0,
+            "sourceFrame": 0,
+            "person": {
+              "x": 230,
+              "y": 570,
+              "w": 620,
+              "h": 620,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 280,
+                "y": 820,
+                "s": 0.9,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "extra": {
+                "x": 755,
+                "y": 830,
+                "s": 1.05,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "food": {
+                "x": 800,
+                "y": 920,
+                "s": 0.98,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "principal": {
+                "x": 790,
+                "y": 800,
+                "s": 0.72,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "burden": {
+                "x": 520,
+                "y": 1117,
+                "s": 0.55,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1090,
+                "s": 0.65,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "risk": {
+                "x": 760,
+                "y": 820,
+                "s": 0.82,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "route": {
+                "x": 540,
+                "y": 1210,
+                "s": 1,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "choice-link": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 0,
+                "r": 0,
+                "draw": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "z": 1
+            },
+            "principalUnits": 8,
+            "debtUnits": 6,
+            "style": "line",
+            "extraDenied": false,
+            "riskRevealed": false,
+            "modules": {
+              "style": [
+                "连续等线宽描物",
+                "撤回额外加购",
+                "同一关系线接续观察"
+              ],
+              "palette": "#fbfaf4",
+              "material": "等线宽连续路径、手绘轮廓、可撤回的线条",
+              "representation": {
+                "language": "line",
+                "stage": [
+                  90,
+                  555,
+                  900,
+                  660
+                ],
+                "headphone": [
+                  250,
+                  240
+                ],
+                "food": [
+                  250,
+                  240
+                ],
+                "principalUnits": 8,
+                "debtLayers": 6
+              },
+              "motion": "单线描物、加购线原路撤回、对照基线接成风险边界，连续同物不整屏重画",
+              "camera": "随线条局部观察而保持阅读平面",
+              "transition": "已画轮廓保留，关系线续接，不把并列画成因果",
+              "typography": "LXGWWenKai-500.woff",
+              "lighting": {
+                "paperGrainOpacity": 0.014,
+                "halftonePitch": 12,
+                "inkSpread": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "334": {
+            "frame": 334,
+            "sourceFrame": 334,
+            "person": {
+              "x": 716,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 240,
+                "y": 710,
+                "s": 0.55,
+                "a": 0.55,
+                "r": 0,
+                "draw": 1,
+                "visible": true
+              },
+              "extra": {
+                "x": 755,
+                "y": 830,
+                "s": 1.05,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "food": {
+                "x": 800,
+                "y": 920,
+                "s": 0.98,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "principal": {
+                "x": 600,
+                "y": 810,
+                "s": 0.8,
+                "a": 1,
+                "r": 0,
+                "draw": 1,
+                "visible": true
+              },
+              "burden": {
+                "x": 520,
+                "y": 1117,
+                "s": 0.55,
+                "a": 1,
+                "r": 0,
+                "draw": 1,
+                "visible": true
+              },
+              "trend": {
+                "x": 520,
+                "y": 1090,
+                "s": 0.65,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "risk": {
+                "x": 773.1326688365768,
+                "y": 898.7960130194609,
+                "s": 0.8024897748845642,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "route": {
+                "x": 540,
+                "y": 1210,
+                "s": 1,
+                "a": 0.4,
+                "r": 0,
+                "draw": 1,
+                "visible": true
+              },
+              "choice-link": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 0,
+                "r": 0,
+                "draw": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "z": 1
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "style": "line",
+            "extraDenied": false,
+            "riskRevealed": false,
+            "modules": {
+              "style": [
+                "连续等线宽描物",
+                "撤回额外加购",
+                "同一关系线接续观察"
+              ],
+              "palette": "#fbfaf4",
+              "material": "等线宽连续路径、手绘轮廓、可撤回的线条",
+              "representation": {
+                "language": "line",
+                "stage": [
+                  90,
+                  555,
+                  900,
+                  660
+                ],
+                "headphone": [
+                  250,
+                  240
+                ],
+                "food": [
+                  250,
+                  240
+                ],
+                "principalUnits": 8,
+                "debtLayers": 6
+              },
+              "motion": "单线描物、加购线原路撤回、对照基线接成风险边界，连续同物不整屏重画",
+              "camera": "随线条局部观察而保持阅读平面",
+              "transition": "已画轮廓保留，关系线续接，不把并列画成因果",
+              "typography": "LXGWWenKai-500.woff",
+              "lighting": {
+                "paperGrainOpacity": 0.014,
+                "halftonePitch": 12,
+                "inkSpread": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "615": {
+            "frame": 615,
+            "sourceFrame": 615,
+            "person": {
+              "x": 716,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 300,
+                "y": 720,
+                "s": 0.82,
+                "a": 1,
+                "r": 0,
+                "draw": 1,
+                "visible": true
+              },
+              "extra": {
+                "x": 755,
+                "y": 830,
+                "s": 1.05,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "food": {
+                "x": 790,
+                "y": 1030,
+                "s": 0.85,
+                "a": 1,
+                "r": 0,
+                "draw": 1,
+                "visible": true
+              },
+              "principal": {
+                "x": 540,
+                "y": 850,
+                "s": 1.13,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "burden": {
+                "x": 821.5142303367255,
+                "y": 806.3782418406237,
+                "s": 0.5722867408604021,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1090,
+                "s": 0.65,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "risk": {
+                "x": 789.9942995071874,
+                "y": 999.9657970431242,
+                "s": 0.7800076006570835,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "route": {
+                "x": 540,
+                "y": 1200,
+                "s": 1,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "choice-link": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 0.65,
+                "r": 0,
+                "draw": 1,
+                "visible": true
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "z": 1
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "style": "line",
+            "extraDenied": true,
+            "riskRevealed": false,
+            "modules": {
+              "style": [
+                "连续等线宽描物",
+                "撤回额外加购",
+                "同一关系线接续观察"
+              ],
+              "palette": "#fbfaf4",
+              "material": "等线宽连续路径、手绘轮廓、可撤回的线条",
+              "representation": {
+                "language": "line",
+                "stage": [
+                  90,
+                  555,
+                  900,
+                  660
+                ],
+                "headphone": [
+                  250,
+                  240
+                ],
+                "food": [
+                  250,
+                  240
+                ],
+                "principalUnits": 8,
+                "debtLayers": 6
+              },
+              "motion": "单线描物、加购线原路撤回、对照基线接成风险边界，连续同物不整屏重画",
+              "camera": "随线条局部观察而保持阅读平面",
+              "transition": "已画轮廓保留，关系线续接，不把并列画成因果",
+              "typography": "LXGWWenKai-500.woff",
+              "lighting": {
+                "paperGrainOpacity": 0.014,
+                "halftonePitch": 12,
+                "inkSpread": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "685": {
+            "frame": 685,
+            "sourceFrame": 685,
+            "person": {
+              "x": 716,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 110.10417331155969,
+                "y": 810.5625358824224,
+                "s": 0.4998958266884403,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "extra": {
+                "x": 755,
+                "y": 830,
+                "s": 1.05,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "food": {
+                "x": 1000,
+                "y": 820,
+                "s": 0.8,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "principal": {
+                "x": 539.7715237698578,
+                "y": 849.9333610995419,
+                "s": 1.1296382459689414,
+                "a": 1,
+                "r": 0,
+                "draw": 1,
+                "visible": true
+              },
+              "burden": {
+                "x": 625.9269635391769,
+                "y": 843.6329593258711,
+                "s": 0.994506872359872,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1090,
+                "s": 0.65,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "risk": {
+                "x": 789.9999999999968,
+                "y": 999.999999999981,
+                "s": 0.7800000000000042,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "route": {
+                "x": 540,
+                "y": 1200,
+                "s": 1,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "choice-link": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "z": 1
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "style": "line",
+            "extraDenied": true,
+            "riskRevealed": false,
+            "modules": {
+              "style": [
+                "连续等线宽描物",
+                "撤回额外加购",
+                "同一关系线接续观察"
+              ],
+              "palette": "#fbfaf4",
+              "material": "等线宽连续路径、手绘轮廓、可撤回的线条",
+              "representation": {
+                "language": "line",
+                "stage": [
+                  90,
+                  555,
+                  900,
+                  660
+                ],
+                "headphone": [
+                  250,
+                  240
+                ],
+                "food": [
+                  250,
+                  240
+                ],
+                "principalUnits": 8,
+                "debtLayers": 6
+              },
+              "motion": "单线描物、加购线原路撤回、对照基线接成风险边界，连续同物不整屏重画",
+              "camera": "随线条局部观察而保持阅读平面",
+              "transition": "已画轮廓保留，关系线续接，不把并列画成因果",
+              "typography": "LXGWWenKai-500.woff",
+              "lighting": {
+                "paperGrainOpacity": 0.014,
+                "halftonePitch": 12,
+                "inkSpread": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "782": {
+            "frame": 782,
+            "sourceFrame": 782,
+            "person": {
+              "x": 716,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 159.09749666276446,
+                "y": 1075.126481978928,
+                "s": 0.4509025033372355,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "extra": {
+                "x": 755,
+                "y": 830,
+                "s": 1.05,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "food": {
+                "x": 1000,
+                "y": 820,
+                "s": 0.8,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "principal": {
+                "x": 300,
+                "y": 780,
+                "s": 0.75,
+                "a": 1,
+                "r": 0,
+                "draw": 1,
+                "visible": true
+              },
+              "burden": {
+                "x": 540.9352142611392,
+                "y": 859.8218639502592,
+                "s": 1.1779811247696041,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1090,
+                "s": 0.65,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "risk": {
+                "x": 790,
+                "y": 1000,
+                "s": 0.78,
+                "a": 1,
+                "r": 0,
+                "draw": 1,
+                "visible": true
+              },
+              "route": {
+                "x": 540,
+                "y": 1200,
+                "s": 1,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "choice-link": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "z": 1
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "style": "line",
+            "extraDenied": true,
+            "riskRevealed": true,
+            "modules": {
+              "style": [
+                "连续等线宽描物",
+                "撤回额外加购",
+                "同一关系线接续观察"
+              ],
+              "palette": "#fbfaf4",
+              "material": "等线宽连续路径、手绘轮廓、可撤回的线条",
+              "representation": {
+                "language": "line",
+                "stage": [
+                  90,
+                  555,
+                  900,
+                  660
+                ],
+                "headphone": [
+                  250,
+                  240
+                ],
+                "food": [
+                  250,
+                  240
+                ],
+                "principalUnits": 8,
+                "debtLayers": 6
+              },
+              "motion": "单线描物、加购线原路撤回、对照基线接成风险边界，连续同物不整屏重画",
+              "camera": "随线条局部观察而保持阅读平面",
+              "transition": "已画轮廓保留，关系线续接，不把并列画成因果",
+              "typography": "LXGWWenKai-500.woff",
+              "lighting": {
+                "paperGrainOpacity": 0.014,
+                "halftonePitch": 12,
+                "inkSpread": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "897": {
+            "frame": 897,
+            "sourceFrame": 897,
+            "person": {
+              "x": 716,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 209.99345219565777,
+                "y": 1349.9646418565521,
+                "s": 0.40000654780434225,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "extra": {
+                "x": 755,
+                "y": 830,
+                "s": 1.05,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "food": {
+                "x": 1000,
+                "y": 820,
+                "s": 0.8,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "principal": {
+                "x": 506.22906450617285,
+                "y": 1283.7824794238684,
+                "s": 0.38356881975308643,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "burden": {
+                "x": 540,
+                "y": 860,
+                "s": 1.18,
+                "a": 1,
+                "r": 0,
+                "draw": 1,
+                "visible": true
+              },
+              "trend": {
+                "x": 520,
+                "y": 1090,
+                "s": 0.65,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "risk": {
+                "x": 1030,
+                "y": 1000,
+                "s": 0.8,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "route": {
+                "x": 540,
+                "y": 1200,
+                "s": 1,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "choice-link": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "z": 1
+            },
+            "principalUnits": 4,
+            "debtUnits": 2,
+            "style": "line",
+            "extraDenied": true,
+            "riskRevealed": true,
+            "modules": {
+              "style": [
+                "连续等线宽描物",
+                "撤回额外加购",
+                "同一关系线接续观察"
+              ],
+              "palette": "#fbfaf4",
+              "material": "等线宽连续路径、手绘轮廓、可撤回的线条",
+              "representation": {
+                "language": "line",
+                "stage": [
+                  90,
+                  555,
+                  900,
+                  660
+                ],
+                "headphone": [
+                  250,
+                  240
+                ],
+                "food": [
+                  250,
+                  240
+                ],
+                "principalUnits": 8,
+                "debtLayers": 6
+              },
+              "motion": "单线描物、加购线原路撤回、对照基线接成风险边界，连续同物不整屏重画",
+              "camera": "随线条局部观察而保持阅读平面",
+              "transition": "已画轮廓保留，关系线续接，不把并列画成因果",
+              "typography": "LXGWWenKai-500.woff",
+              "lighting": {
+                "paperGrainOpacity": 0.014,
+                "halftonePitch": 12,
+                "inkSpread": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "1099": {
+            "frame": 1099,
+            "sourceFrame": 1099,
+            "person": {
+              "x": 240,
+              "y": 540,
+              "w": 600,
+              "h": 600,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 210,
+                "y": 1350,
+                "s": 0.4,
+                "a": 1,
+                "r": 0,
+                "draw": 1,
+                "visible": true
+              },
+              "extra": {
+                "x": 755,
+                "y": 830,
+                "s": 1.05,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "food": {
+                "x": 1000,
+                "y": 820,
+                "s": 0.8,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "principal": {
+                "x": 540,
+                "y": 1350,
+                "s": 0.32,
+                "a": 1,
+                "r": 0,
+                "draw": 1,
+                "visible": true
+              },
+              "burden": {
+                "x": 875,
+                "y": 1350,
+                "s": 0.3,
+                "a": 1,
+                "r": 0,
+                "draw": 1,
+                "visible": true
+              },
+              "trend": {
+                "x": 520,
+                "y": 1090,
+                "s": 0.65,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "risk": {
+                "x": 1030,
+                "y": 1000,
+                "s": 0.8,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "route": {
+                "x": 540,
+                "y": 1200,
+                "s": 1,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              },
+              "choice-link": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 0,
+                "r": 0,
+                "draw": 1,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "z": 1
+            },
+            "principalUnits": 4,
+            "debtUnits": 2,
+            "style": "line",
+            "extraDenied": true,
+            "riskRevealed": true,
+            "modules": {
+              "style": [
+                "连续等线宽描物",
+                "撤回额外加购",
+                "同一关系线接续观察"
+              ],
+              "palette": "#fbfaf4",
+              "material": "等线宽连续路径、手绘轮廓、可撤回的线条",
+              "representation": {
+                "language": "line",
+                "stage": [
+                  90,
+                  555,
+                  900,
+                  660
+                ],
+                "headphone": [
+                  250,
+                  240
+                ],
+                "food": [
+                  250,
+                  240
+                ],
+                "principalUnits": 8,
+                "debtLayers": 6
+              },
+              "motion": "单线描物、加购线原路撤回、对照基线接成风险边界，连续同物不整屏重画",
+              "camera": "随线条局部观察而保持阅读平面",
+              "transition": "已画轮廓保留，关系线续接，不把并列画成因果",
+              "typography": "LXGWWenKai-500.woff",
+              "lighting": {
+                "paperGrainOpacity": 0.014,
+                "halftonePitch": 12,
+                "inkSpread": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          }
+        },
+        "moduleBindings": {
+          "style": [
+            "连续等线宽描物",
+            "撤回额外加购",
+            "同一关系线接续观察"
+          ],
+          "palette": "#fbfaf4",
+          "material": "等线宽连续路径、手绘轮廓、可撤回的线条",
+          "representation": {
+            "language": "line",
+            "stage": [
+              90,
+              555,
+              900,
+              660
+            ],
+            "headphone": [
+              250,
+              240
+            ],
+            "food": [
+              250,
+              240
+            ],
+            "principalUnits": 8,
+            "debtLayers": 6
+          },
+          "motion": "单线描物、加购线原路撤回、对照基线接成风险边界，连续同物不整屏重画",
+          "camera": "随线条局部观察而保持阅读平面",
+          "transition": "已画轮廓保留，关系线续接，不把并列画成因果",
+          "typography": "LXGWWenKai-500.woff",
+          "lighting": {
+            "paperGrainOpacity": 0.014,
+            "halftonePitch": 12,
+            "inkSpread": 0
+          },
+          "information": {
+            "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+            "food": "日常需要的对照示意，不代表具体购买建议",
+            "capital": "同一示意本金；受损后不凭空补满",
+            "debt": "负担层数消减示意，不代表实际金额",
+            "risk": "夸大收益说法与风险揭示的比喻载体"
+          },
+          "rhythm": {
+            "extraStart": 470,
+            "extraReady": 490,
+            "denyStart": 516,
+            "denyEnd": 538,
+            "compareStart": 563,
+            "compareReady": 587,
+            "capitalStart": 616,
+            "capitalReady": 643,
+            "riskRevealStart": 744,
+            "riskRevealEnd": 759,
+            "debtStart": 856,
+            "debtReady": 882,
+            "recapReady": 970,
+            "lossStart": 310,
+            "lossEnd": 334
+          }
+        },
+        "voices": 1,
+        "captionCount": 21,
+        "mediaErrors": [
+          null,
+          null
+        ],
+        "allImagesLoaded": true,
+        "errors": [],
+        "failedRequests": [],
+        "noCapitalReplenishment": true,
+        "debtResult": true,
+        "ok": true,
+        "visualInputs": {
+          "index.html": "ac0c5237c2b0bab87fba7ba4521596ce8be06b4c6c742cdeb92e71fff2563e71",
+          "assets/film.css": "29e60972887a40b4fd37f7ee08ae3ec508d5952b4962b783727e6b8046253f78",
+          "assets/film-config.js": "775e564508f0f5450444ac84de38bbc12c4fdd1f82f78645aaacc118c9d81b81",
+          "scripts/build-project.mjs": "3d1f13f3fff4454b706bdc03110a2db2deb435ae2c4ddc6eba1e5e416e18c753",
+          "scripts/motion.mjs": "987cb7e1ad21f410badf66f23655569acd34095a4e3332b0c4cd2ce4e9051dac",
+          "scripts/render-opaque-png.mjs": "5d7a94f835eed9fa7643ffb4e0d2ad25a33f1e1076f658465b511e3d1ecd3f62"
+        }
+      }
+    },
+    "text-path-audit.json": {
+      "sha256": "aeb823a85c869ea92f72cd09aa875a358f9ebd984cdff454e6189ae7eff4aeac",
+      "data": {
+        "frames": 1100,
+        "glyphs": 44059,
+        "points": 132177,
+        "issues": [],
+        "issueCount": 0,
+        "windows": [],
+        "intentional": [],
+        "scope": "All1100 authored frames; three probe points per nonspace glyph in reading and exiting text (effective opacity>=0.2). Actual DOM paint order, circular clipping and source PNG alpha respected. Hidden reverse paper and intentional semantic strike-through explicitly excluded; complements actual encoded dense-frame review, not universal pixel OCR.",
+        "visualInputs": {
+          "index.html": "ac0c5237c2b0bab87fba7ba4521596ce8be06b4c6c742cdeb92e71fff2563e71",
+          "assets/film.css": "29e60972887a40b4fd37f7ee08ae3ec508d5952b4962b783727e6b8046253f78",
+          "scripts/motion.mjs": "987cb7e1ad21f410badf66f23655569acd34095a4e3332b0c4cd2ce4e9051dac",
+          "assets/film-config.js": "775e564508f0f5450444ac84de38bbc12c4fdd1f82f78645aaacc118c9d81b81"
+        },
+        "sourceBindingScope": "Current visual inputs recorded after this isolated audit; no edits were made during the run",
+        "ok": true
+      }
+    }
+  }
+}

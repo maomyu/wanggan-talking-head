@@ -1,0 +1,976 @@
+{
+  "version": "1.21.0",
+  "approvalDate": "2026-10-24",
+  "approvedScope": "用户认可19套母画风统一配方与调用入口正式并入；技术蓝图独立为分支",
+  "recipeId": "blueprint",
+  "familyId": "F07",
+  "branchId": "A09",
+  "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+  "originalVideoSha256": "05b55164f6cb54418c7aa32ab16ab6bf8ff9359bb47811d67cc5d61c6c663a11",
+  "duration": 36.666666666666664,
+  "sourceSpecific": true,
+  "crossScript": "deferred-by-user",
+  "preservedImplementation": {
+    "examples/production-recipes/blueprint/edit-plan.json": "699c481b98445d39dedb1b09bf46e5f7db6b5dfe422e67bbeaf6718a2c335cf2",
+    "examples/production-recipes/blueprint/scene-plan.json": "ed2d49c45695acb2ed826bd8d238c49f886c50439a78e62d159f3f50419bf3bd",
+    "examples/production-recipes/blueprint/timing.json": "c2fd00b17ded4a7866ec5b3b12c659b8b25934bb0fbf12a5dc45736eb097153a",
+    "examples/production-recipes/blueprint/orchestration.json": "56d8e258699e1e17a20cb9923e78cf9f3f84f6118fb6637b549b55a3a7235f87",
+    "examples/production-recipes/blueprint/recipe.json": "a17f92ab8e04917b92eed7b4957a9770d81d0eda9a5eda505eb7ea1c39a4fc91",
+    "examples/production-recipes/blueprint/facts.json": "ea57140e17c2f65668dc79baa82b63647c9043dd170e8e9c76d2fcc7884c389b",
+    "examples/production-recipes/blueprint/plans/palette-tokens.json": "f7730a7564e15c760976123a3b51ad0e723a14bf96bacbb82b40be0ad515f748",
+    "examples/production-recipes/blueprint/plans/transition-plan.json": "1012f584a9f7a8ea23548ae5ad6ffac5dc8cabeef3b9b932c4271ba144e43b78",
+    "examples/production-recipes/blueprint/plans/timing.json": "495b3b794e9f47623ebc568390d88049698f1748492fcd8985649e5538b2f556",
+    "examples/production-recipes/blueprint/plans/layout-plan.json": "1d16351f5d535fbbe8e360ce01c7fbaf7f5908183e96ce193c09e52aaebccf7a",
+    "examples/production-recipes/blueprint/plans/brief.json": "33e7e08eebdc28d42a4a7163c83ec6fbbdfb088f0df803c81a2d83c9cbdafb10",
+    "examples/production-recipes/blueprint/plans/semantic-plan.json": "a934a53fb77f79282f72545f4603533a8826a9d916441bb23bede48482570d0a",
+    "examples/production-recipes/blueprint/plans/finish-plan.json": "2eab388d9235714672e0a8b7de89485387a62931e3b9d3de3cb68eac18b0b2ad",
+    "examples/production-recipes/blueprint/plans/camera-plan.json": "a468b6ae24961a0af86591f3ab2939cb789b62a6826bcd3a056a37b9b337903b",
+    "examples/production-recipes/blueprint/plans/object-spec.json": "0fc24c5c361cbe6fb7f6e868d7e9019c31c99b0afbfcf5eb36aee767f2dce1aa",
+    "examples/production-recipes/blueprint/plans/material-tokens.json": "bc8ec6c15550b23562c492b2f545fcd152003f25780ac2fd956178650f499935",
+    "examples/production-recipes/blueprint/plans/style-contract.json": "b1cf6edd6feaf0bb3099e9320a164a4afb57d5caef2ecdf339798087b3c1cd03",
+    "examples/production-recipes/blueprint/plans/motion-events.json": "94862de616d1699d9336dd876964ea8902c3ac56cf62943120b67076af4caa2e",
+    "examples/production-recipes/blueprint/scripts/clay-world.mjs": "93064c7de5a2e6906d205f9ae8c79a7b6da87459c3771f24e9743b64e928d0c0",
+    "examples/production-recipes/blueprint/scripts/motion.mjs": "0a52b69086fbf0fcfbf65d5ee45c4019ede0c5b58c70dbfabab5376184ff050b",
+    "examples/production-recipes/blueprint/scripts/paper-world.mjs": "7c7ccf708933d9b2acb652989bea8e382646a0e4385f35c5a6181e7aecc53e31",
+    "examples/production-recipes/blueprint/scripts/blueprint-plan.mjs": "fbfb35b3903f1ba40327b93415a5470c263b413566cae6087f380ceb04389e7a",
+    "examples/production-recipes/blueprint/scripts/composition.template": "b1b33610c4e53b9cc968c6418d1bb9e69d93ae8d6d5ff3aa9d9efb7ac97bacd6",
+    "examples/production-recipes/blueprint/scripts/film.css": "9ee52f89a8665df9f75eec7feecd9bde32c34a87dd5ec8da589eb2d2264492ae",
+    "examples/production-recipes/blueprint/scripts/build-project.mjs": "e1d3ac3a1ce52c284848dee2e3ed09854611e9c5a6c047d051378174602978c5"
+  },
+  "technicalChecks": {
+    "verification.json": {
+      "sha256": "e9ecec104ab7b6730ad3df339a29db13b0e06cc0b3598a2c2fbcf75ad4cab900",
+      "data": {
+        "status": "verified",
+        "key": "blueprint",
+        "video": {
+          "sha256": "05b55164f6cb54418c7aa32ab16ab6bf8ff9359bb47811d67cc5d61c6c663a11",
+          "width": 1080,
+          "height": 1920,
+          "fps": "30/1",
+          "frames": 1100,
+          "duration": 36.666666666666664,
+          "bytes": 34604293,
+          "faststart": true,
+          "sharedFinalPlaybackInode": true
+        },
+        "audio": {
+          "originalVoiceCorrelation": 0.9999823504746719,
+          "offsetSamples": 0,
+          "decodedSamplesCompared": 1760000,
+          "min100msVoiceRmsRatio": 0.9925177151927742,
+          "dropped100msVoiceWindows": 0,
+          "audibleTracks": 1,
+          "scope": "actual decoded original-voice comparison; not subjective listening review"
+        },
+        "person": {
+          "actualEncodedSamples": [
+            {
+              "frame": 0,
+              "box": [
+                230,
+                570,
+                620,
+                620
+              ],
+              "innerRGBMeanAbsoluteError": 2.5168818847552283
+            },
+            {
+              "frame": 75,
+              "box": [
+                503,
+                955,
+                440,
+                440
+              ],
+              "innerRGBMeanAbsoluteError": 2.7532813880632983
+            },
+            {
+              "frame": 180,
+              "box": [
+                716,
+                1255,
+                300,
+                300
+              ],
+              "innerRGBMeanAbsoluteError": 2.44605079606636
+            },
+            {
+              "frame": 750,
+              "box": [
+                716,
+                1255,
+                300,
+                300
+              ],
+              "innerRGBMeanAbsoluteError": 2.4339109281868594
+            },
+            {
+              "frame": 1030,
+              "box": [
+                240,
+                540,
+                600,
+                600
+              ],
+              "innerRGBMeanAbsoluteError": 2.065905433145904
+            },
+            {
+              "frame": 1099,
+              "box": [
+                240,
+                540,
+                600,
+                600
+              ],
+              "innerRGBMeanAbsoluteError": 2.0682518980453803
+            }
+          ],
+          "all1100AuthoredCircleFrames": 1100
+        },
+        "captionCount": 21,
+        "denseFrames": 183,
+        "htmlSha256": "d98e286e0d7bfff5cc5cc5c0afddf9900989f48a748fd63f448f48bd089441ed",
+        "sceneContractSha256": "d8cf3c66b58915efcbe51856ba3607d4f0afdcdb3f19704e9ed281124a12a48d",
+        "textAuditSha256": "cd82ffaab92e125817c38b56f68a6ffd254ec83ec951e8b7657994f583a28bde",
+        "capturePolicy": {
+          "kind": "opaque-SDR PNG compression only",
+          "engineVersion": "0.8.174",
+          "engineSha256": "e80a9d81838c0fe034f4d00af1c0262f570d64b2bb8b8c487a22cf7d8a70cc4e",
+          "installedModuleUnchanged": true,
+          "applications": 1,
+          "outputPixelEquivalenceSamples": 48,
+          "pixelEquivalenceReportSha256": "504c29b7da4e7aa2a7eb1c057f9862b064b3de7db27de4b2eb9d6b50dc6de31d",
+          "alphaAndHDRCaptureUnchanged": true,
+          "geometryTimingFontsAudioAndEncodingUnchanged": true,
+          "exitCode": 0
+        },
+        "scope": "one actual complete source-specific film; technical/author checks, not independent review"
+      }
+    },
+    "scene-contract.json": {
+      "sha256": "d8cf3c66b58915efcbe51856ba3607d4f0afdcdb3f19704e9ed281124a12a48d",
+      "data": {
+        "framesChecked": 1100,
+        "issues": [],
+        "poses": [
+          {
+            "frame": 0,
+            "x": 230,
+            "y": 570,
+            "w": 620
+          },
+          {
+            "frame": 75,
+            "x": 503.3345642089844,
+            "y": 955.2554931640625,
+            "w": 440.0266418457031
+          },
+          {
+            "frame": 180,
+            "x": 716,
+            "y": 1255,
+            "w": 300
+          },
+          {
+            "frame": 750,
+            "x": 716,
+            "y": 1255,
+            "w": 300
+          },
+          {
+            "frame": 1030,
+            "x": 240,
+            "y": 540,
+            "w": 600
+          },
+          {
+            "frame": 1099,
+            "x": 240,
+            "y": 540,
+            "w": 600
+          }
+        ],
+        "deterministic": true,
+        "maxCaptionBottom": 1768,
+        "states": {
+          "0": {
+            "frame": 0,
+            "sourceFrame": 0,
+            "person": {
+              "x": 230,
+              "y": 570,
+              "w": 620,
+              "h": 620,
+              "circle": true
+            },
+            "actors": {},
+            "camera": {
+              "scale": 1,
+              "focus": [
+                490,
+                490
+              ],
+              "recapShift": 0
+            },
+            "principalUnits": 8,
+            "debtUnits": 6,
+            "engine": {
+              "principalUnits": 8,
+              "debtUnits": 6,
+              "camera": {
+                "scale": 1,
+                "focus": [
+                  490,
+                  490
+                ],
+                "recapShift": 0
+              },
+              "planPersistent": true,
+              "tableToSection": 0,
+              "scan": 0,
+              "retainedDebtUnits": 2,
+              "portrait": "fixed-right-circle",
+              "stations": [
+                "spend",
+                "capital",
+                "debt"
+              ]
+            },
+            "style": "blueprint",
+            "modules": {
+              "style": [
+                "共用工程坐标",
+                "导轨与剖视",
+                "对象状态与扫描揭示"
+              ],
+              "palette": "#102c43",
+              "material": "technical-linework",
+              "representation": {
+                "headphone": "同一个物品；加购是标明的第二实例",
+                "capital": "损失后保留4个示意单位，后文不补回8个",
+                "debt": "同一6层负担，减少后保留2层",
+                "risk": "夸大收益说法的载体，揭示后隔离"
+              },
+              "motion": "共用坐标下的导轨、剖视、扫描与隔离",
+              "camera": "同一工程平面观察点接续",
+              "transition": "对照基准延长为剖视引线，再回到结构总图",
+              "typography": "blueprint",
+              "lighting": {
+                "ambient": 2.2,
+                "key": 3.2,
+                "direction": [
+                  -4,
+                  8,
+                  6
+                ]
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "334": {
+            "frame": 334,
+            "sourceFrame": 334,
+            "person": {
+              "x": 716,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {},
+            "camera": {
+              "scale": 1.5425130181639264,
+              "focus": [
+                490,
+                342.041904137111
+              ],
+              "recapShift": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "engine": {
+              "principalUnits": 4,
+              "debtUnits": 6,
+              "camera": {
+                "scale": 1.5425130181639264,
+                "focus": [
+                  490,
+                  342.041904137111
+                ],
+                "recapShift": 0
+              },
+              "planPersistent": true,
+              "tableToSection": 0,
+              "scan": 0,
+              "retainedDebtUnits": 2,
+              "portrait": "fixed-right-circle",
+              "stations": [
+                "spend",
+                "capital",
+                "debt"
+              ]
+            },
+            "style": "blueprint",
+            "modules": {
+              "style": [
+                "共用工程坐标",
+                "导轨与剖视",
+                "对象状态与扫描揭示"
+              ],
+              "palette": "#102c43",
+              "material": "technical-linework",
+              "representation": {
+                "headphone": "同一个物品；加购是标明的第二实例",
+                "capital": "损失后保留4个示意单位，后文不补回8个",
+                "debt": "同一6层负担，减少后保留2层",
+                "risk": "夸大收益说法的载体，揭示后隔离"
+              },
+              "motion": "共用坐标下的导轨、剖视、扫描与隔离",
+              "camera": "同一工程平面观察点接续",
+              "transition": "对照基准延长为剖视引线，再回到结构总图",
+              "typography": "blueprint",
+              "lighting": {
+                "ambient": 2.2,
+                "key": 3.2,
+                "direction": [
+                  -4,
+                  8,
+                  6
+                ]
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "615": {
+            "frame": 615,
+            "sourceFrame": 615,
+            "person": {
+              "x": 716,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {},
+            "camera": {
+              "scale": 1,
+              "focus": [
+                490,
+                490
+              ],
+              "recapShift": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "engine": {
+              "principalUnits": 4,
+              "debtUnits": 6,
+              "camera": {
+                "scale": 1,
+                "focus": [
+                  490,
+                  490
+                ],
+                "recapShift": 0
+              },
+              "planPersistent": true,
+              "tableToSection": 0,
+              "scan": 0,
+              "retainedDebtUnits": 2,
+              "portrait": "fixed-right-circle",
+              "stations": [
+                "spend",
+                "capital",
+                "debt"
+              ]
+            },
+            "style": "blueprint",
+            "modules": {
+              "style": [
+                "共用工程坐标",
+                "导轨与剖视",
+                "对象状态与扫描揭示"
+              ],
+              "palette": "#102c43",
+              "material": "technical-linework",
+              "representation": {
+                "headphone": "同一个物品；加购是标明的第二实例",
+                "capital": "损失后保留4个示意单位，后文不补回8个",
+                "debt": "同一6层负担，减少后保留2层",
+                "risk": "夸大收益说法的载体，揭示后隔离"
+              },
+              "motion": "共用坐标下的导轨、剖视、扫描与隔离",
+              "camera": "同一工程平面观察点接续",
+              "transition": "对照基准延长为剖视引线，再回到结构总图",
+              "typography": "blueprint",
+              "lighting": {
+                "ambient": 2.2,
+                "key": 3.2,
+                "direction": [
+                  -4,
+                  8,
+                  6
+                ]
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "685": {
+            "frame": 685,
+            "sourceFrame": 685,
+            "person": {
+              "x": 716,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {},
+            "camera": {
+              "scale": 1.4,
+              "focus": [
+                490,
+                400
+              ],
+              "recapShift": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "engine": {
+              "principalUnits": 4,
+              "debtUnits": 6,
+              "camera": {
+                "scale": 1.4,
+                "focus": [
+                  490,
+                  400
+                ],
+                "recapShift": 0
+              },
+              "planPersistent": true,
+              "tableToSection": 1,
+              "scan": 0,
+              "retainedDebtUnits": 2,
+              "portrait": "fixed-right-circle",
+              "stations": [
+                "spend",
+                "capital",
+                "debt"
+              ]
+            },
+            "style": "blueprint",
+            "modules": {
+              "style": [
+                "共用工程坐标",
+                "导轨与剖视",
+                "对象状态与扫描揭示"
+              ],
+              "palette": "#102c43",
+              "material": "technical-linework",
+              "representation": {
+                "headphone": "同一个物品；加购是标明的第二实例",
+                "capital": "损失后保留4个示意单位，后文不补回8个",
+                "debt": "同一6层负担，减少后保留2层",
+                "risk": "夸大收益说法的载体，揭示后隔离"
+              },
+              "motion": "共用坐标下的导轨、剖视、扫描与隔离",
+              "camera": "同一工程平面观察点接续",
+              "transition": "对照基准延长为剖视引线，再回到结构总图",
+              "typography": "blueprint",
+              "lighting": {
+                "ambient": 2.2,
+                "key": 3.2,
+                "direction": [
+                  -4,
+                  8,
+                  6
+                ]
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "782": {
+            "frame": 782,
+            "sourceFrame": 782,
+            "person": {
+              "x": 716,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {},
+            "camera": {
+              "scale": 1.399098422238918,
+              "focus": [
+                490.60105184072125,
+                400.18031555221637
+              ],
+              "recapShift": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "engine": {
+              "principalUnits": 4,
+              "debtUnits": 6,
+              "camera": {
+                "scale": 1.399098422238918,
+                "focus": [
+                  490.60105184072125,
+                  400.18031555221637
+                ],
+                "recapShift": 0
+              },
+              "planPersistent": true,
+              "tableToSection": 1,
+              "scan": 1,
+              "retainedDebtUnits": 2,
+              "portrait": "fixed-right-circle",
+              "stations": [
+                "spend",
+                "capital",
+                "debt"
+              ]
+            },
+            "style": "blueprint",
+            "modules": {
+              "style": [
+                "共用工程坐标",
+                "导轨与剖视",
+                "对象状态与扫描揭示"
+              ],
+              "palette": "#102c43",
+              "material": "technical-linework",
+              "representation": {
+                "headphone": "同一个物品；加购是标明的第二实例",
+                "capital": "损失后保留4个示意单位，后文不补回8个",
+                "debt": "同一6层负担，减少后保留2层",
+                "risk": "夸大收益说法的载体，揭示后隔离"
+              },
+              "motion": "共用坐标下的导轨、剖视、扫描与隔离",
+              "camera": "同一工程平面观察点接续",
+              "transition": "对照基准延长为剖视引线，再回到结构总图",
+              "typography": "blueprint",
+              "lighting": {
+                "ambient": 2.2,
+                "key": 3.2,
+                "direction": [
+                  -4,
+                  8,
+                  6
+                ]
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "897": {
+            "frame": 897,
+            "sourceFrame": 897,
+            "person": {
+              "x": 716,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {},
+            "camera": {
+              "scale": 1.2,
+              "focus": [
+                700,
+                430
+              ],
+              "recapShift": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 2,
+            "engine": {
+              "principalUnits": 4,
+              "debtUnits": 2,
+              "camera": {
+                "scale": 1.2,
+                "focus": [
+                  700,
+                  430
+                ],
+                "recapShift": 0
+              },
+              "planPersistent": true,
+              "tableToSection": 1,
+              "scan": 1,
+              "retainedDebtUnits": 2,
+              "portrait": "fixed-right-circle",
+              "stations": [
+                "spend",
+                "capital",
+                "debt"
+              ]
+            },
+            "style": "blueprint",
+            "modules": {
+              "style": [
+                "共用工程坐标",
+                "导轨与剖视",
+                "对象状态与扫描揭示"
+              ],
+              "palette": "#102c43",
+              "material": "technical-linework",
+              "representation": {
+                "headphone": "同一个物品；加购是标明的第二实例",
+                "capital": "损失后保留4个示意单位，后文不补回8个",
+                "debt": "同一6层负担，减少后保留2层",
+                "risk": "夸大收益说法的载体，揭示后隔离"
+              },
+              "motion": "共用坐标下的导轨、剖视、扫描与隔离",
+              "camera": "同一工程平面观察点接续",
+              "transition": "对照基准延长为剖视引线，再回到结构总图",
+              "typography": "blueprint",
+              "lighting": {
+                "ambient": 2.2,
+                "key": 3.2,
+                "direction": [
+                  -4,
+                  8,
+                  6
+                ]
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "1099": {
+            "frame": 1099,
+            "sourceFrame": 1099,
+            "person": {
+              "x": 240,
+              "y": 540,
+              "w": 600,
+              "h": 600,
+              "circle": true
+            },
+            "actors": {},
+            "camera": {
+              "scale": 0.7,
+              "focus": [
+                490,
+                490
+              ],
+              "recapShift": 504
+            },
+            "principalUnits": 4,
+            "debtUnits": 2,
+            "engine": {
+              "principalUnits": 4,
+              "debtUnits": 2,
+              "camera": {
+                "scale": 0.7,
+                "focus": [
+                  490,
+                  490
+                ],
+                "recapShift": 504
+              },
+              "planPersistent": true,
+              "tableToSection": 1,
+              "scan": 1,
+              "retainedDebtUnits": 2,
+              "portrait": "fixed-right-circle",
+              "stations": [
+                "spend",
+                "capital",
+                "debt"
+              ]
+            },
+            "style": "blueprint",
+            "modules": {
+              "style": [
+                "共用工程坐标",
+                "导轨与剖视",
+                "对象状态与扫描揭示"
+              ],
+              "palette": "#102c43",
+              "material": "technical-linework",
+              "representation": {
+                "headphone": "同一个物品；加购是标明的第二实例",
+                "capital": "损失后保留4个示意单位，后文不补回8个",
+                "debt": "同一6层负担，减少后保留2层",
+                "risk": "夸大收益说法的载体，揭示后隔离"
+              },
+              "motion": "共用坐标下的导轨、剖视、扫描与隔离",
+              "camera": "同一工程平面观察点接续",
+              "transition": "对照基准延长为剖视引线，再回到结构总图",
+              "typography": "blueprint",
+              "lighting": {
+                "ambient": 2.2,
+                "key": 3.2,
+                "direction": [
+                  -4,
+                  8,
+                  6
+                ]
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          }
+        },
+        "moduleBindings": {
+          "style": [
+            "共用工程坐标",
+            "导轨与剖视",
+            "对象状态与扫描揭示"
+          ],
+          "palette": "#102c43",
+          "material": "technical-linework",
+          "representation": {
+            "headphone": "同一个物品；加购是标明的第二实例",
+            "capital": "损失后保留4个示意单位，后文不补回8个",
+            "debt": "同一6层负担，减少后保留2层",
+            "risk": "夸大收益说法的载体，揭示后隔离"
+          },
+          "motion": "共用坐标下的导轨、剖视、扫描与隔离",
+          "camera": "同一工程平面观察点接续",
+          "transition": "对照基准延长为剖视引线，再回到结构总图",
+          "typography": "blueprint",
+          "lighting": {
+            "ambient": 2.2,
+            "key": 3.2,
+            "direction": [
+              -4,
+              8,
+              6
+            ]
+          },
+          "information": {
+            "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+            "food": "日常需要的对照示意，不代表具体购买建议",
+            "capital": "同一示意本金；受损后不凭空补满",
+            "debt": "负担层数消减示意，不代表实际金额",
+            "risk": "夸大收益说法与风险揭示的比喻载体"
+          },
+          "rhythm": {
+            "extraStart": 470,
+            "extraReady": 490,
+            "denyStart": 516,
+            "denyEnd": 538,
+            "compareStart": 563,
+            "compareReady": 587,
+            "capitalStart": 616,
+            "capitalReady": 643,
+            "riskRevealStart": 744,
+            "riskRevealEnd": 759,
+            "debtStart": 856,
+            "debtReady": 882,
+            "recapReady": 970,
+            "lossStart": 310,
+            "lossEnd": 334
+          }
+        },
+        "voices": 1,
+        "captionCount": 21,
+        "mediaErrors": [
+          null,
+          null
+        ],
+        "allImagesLoaded": true,
+        "errors": [],
+        "failedRequests": [],
+        "noCapitalReplenishment": true,
+        "debtResult": true,
+        "ok": true,
+        "visualInputs": {
+          "index.html": "d98e286e0d7bfff5cc5cc5c0afddf9900989f48a748fd63f448f48bd089441ed",
+          "assets/film.css": "9ee52f89a8665df9f75eec7feecd9bde32c34a87dd5ec8da589eb2d2264492ae",
+          "assets/film-config.js": "3e4393ab651682ddfa01ba659f81cf23c89cbf1cc0879845a9c1fa1f2f197fdf",
+          "scripts/blueprint-plan.mjs": "fbfb35b3903f1ba40327b93415a5470c263b413566cae6087f380ceb04389e7a",
+          "scripts/build-project.mjs": "e1d3ac3a1ce52c284848dee2e3ed09854611e9c5a6c047d051378174602978c5",
+          "scripts/clay-world.mjs": "93064c7de5a2e6906d205f9ae8c79a7b6da87459c3771f24e9743b64e928d0c0",
+          "scripts/motion.mjs": "0a52b69086fbf0fcfbf65d5ee45c4019ede0c5b58c70dbfabab5376184ff050b",
+          "scripts/paper-world.mjs": "7c7ccf708933d9b2acb652989bea8e382646a0e4385f35c5a6181e7aecc53e31",
+          "scripts/render-opaque-png.mjs": "49ffa1860f6194756d723cd58642d7125229db811c376e7ffc843ce9d52fc909"
+        }
+      }
+    },
+    "text-path-audit.json": {
+      "sha256": "cd82ffaab92e125817c38b56f68a6ffd254ec83ec951e8b7657994f583a28bde",
+      "data": {
+        "frames": 1100,
+        "glyphs": 62863,
+        "points": 188589,
+        "issues": [],
+        "issueCount": 0,
+        "windows": [],
+        "intentional": [],
+        "scope": "All1100 authored frames; three probe points per nonspace glyph in reading and exiting text (effective opacity>=0.2). Actual DOM paint order, circular clipping and source PNG alpha respected. Hidden reverse paper and intentional semantic strike-through explicitly excluded; complements actual encoded dense-frame review, not universal pixel OCR.",
+        "visualInputs": {
+          "index.html": "d98e286e0d7bfff5cc5cc5c0afddf9900989f48a748fd63f448f48bd089441ed",
+          "assets/film.css": "9ee52f89a8665df9f75eec7feecd9bde32c34a87dd5ec8da589eb2d2264492ae",
+          "scripts/motion.mjs": "0a52b69086fbf0fcfbf65d5ee45c4019ede0c5b58c70dbfabab5376184ff050b",
+          "assets/film-config.js": "3e4393ab651682ddfa01ba659f81cf23c89cbf1cc0879845a9c1fa1f2f197fdf"
+        },
+        "sourceBindingScope": "Current visual inputs recorded after this isolated audit; no edits were made during the run",
+        "ok": true
+      }
+    }
+  }
+}

@@ -37,7 +37,8 @@
     "preview": "style-library/previews/minimal.jpg",
     "defaultLegacyId": "A01",
     "defaultName": "写实极简",
-    "defaultLegacyKey": "minimal"
+    "defaultLegacyKey": "minimal",
+    "defaultRecipeId": "minimal"
   },
   {
     "id": "F02",
@@ -75,7 +76,8 @@
     "preview": "style-library/previews/geometry.jpg",
     "defaultLegacyId": "A03",
     "defaultName": "几何印刷",
-    "defaultLegacyKey": "geometry"
+    "defaultLegacyKey": "geometry",
+    "defaultRecipeId": "geometry"
   },
   {
     "id": "F03",
@@ -113,7 +115,8 @@
     "preview": "style-library/previews/magazine.jpg",
     "defaultLegacyId": "A04",
     "defaultName": "杂志编辑",
-    "defaultLegacyKey": "magazine"
+    "defaultLegacyKey": "magazine",
+    "defaultRecipeId": "editorial-print"
   },
   {
     "id": "F04",
@@ -136,7 +139,8 @@
     "preview": "style-library/previews/collage.jpg",
     "defaultLegacyId": "A05",
     "defaultName": "剪贴拼贴",
-    "defaultLegacyKey": "collage"
+    "defaultLegacyKey": "collage",
+    "defaultRecipeId": "collage"
   },
   {
     "id": "F05",
@@ -172,7 +176,8 @@
     "preview": "style-library/previews/line.jpg",
     "defaultLegacyId": "A06",
     "defaultName": "单线手绘",
-    "defaultLegacyKey": "line"
+    "defaultLegacyKey": "line",
+    "defaultRecipeId": "line"
   },
   {
     "id": "F06",
@@ -218,7 +223,8 @@
     "preview": "style-library/previews/illustration.jpg",
     "defaultLegacyId": "A07",
     "defaultName": "图形插画",
-    "defaultLegacyKey": "illustration"
+    "defaultLegacyKey": "illustration",
+    "defaultRecipeId": "illustration"
   },
   {
     "id": "F07",
@@ -254,7 +260,8 @@
     "preview": "style-library/previews/precision.jpg",
     "defaultLegacyId": "A08",
     "defaultName": "精密界面",
-    "defaultLegacyKey": "precision"
+    "defaultLegacyKey": "precision",
+    "defaultRecipeId": "precision"
   },
   {
     "id": "F08",
@@ -277,7 +284,8 @@
     "preview": "style-library/previews/halftone.jpg",
     "defaultLegacyId": "A10",
     "defaultName": "复古网点",
-    "defaultLegacyKey": "halftone"
+    "defaultLegacyKey": "halftone",
+    "defaultRecipeId": "halftone"
   },
   {
     "id": "F09",
@@ -300,7 +308,8 @@
     "preview": "style-library/previews/comic.jpg",
     "defaultLegacyId": "A11",
     "defaultName": "漫画描线",
-    "defaultLegacyKey": "comic"
+    "defaultLegacyKey": "comic",
+    "defaultRecipeId": "comic"
   },
   {
     "id": "F10",
@@ -320,7 +329,8 @@
     "preview": "style-library/previews/ink.jpg",
     "defaultLegacyId": "A13",
     "defaultName": "水墨留白",
-    "defaultLegacyKey": "ink"
+    "defaultLegacyKey": "ink",
+    "defaultRecipeId": "ink"
   },
   {
     "id": "F11",
@@ -368,7 +378,8 @@
     "preview": "style-library/previews/clay.jpg",
     "defaultLegacyId": "A14",
     "defaultName": "柔质立体",
-    "defaultLegacyKey": "clay"
+    "defaultLegacyKey": "clay",
+    "defaultRecipeId": "clay"
   },
   {
     "id": "F12",
@@ -391,7 +402,8 @@
     "preview": "style-library/previews/pixel.jpg",
     "defaultLegacyId": "A15",
     "defaultName": "像素复古",
-    "defaultLegacyKey": "pixel"
+    "defaultLegacyKey": "pixel",
+    "defaultRecipeId": "pixel"
   },
   {
     "id": "F13",
@@ -429,7 +441,8 @@
     "preview": "style-library/previews/paper-stage.jpg",
     "defaultLegacyId": "A17",
     "defaultName": "剪纸舞台",
-    "defaultLegacyKey": "paper-stage"
+    "defaultLegacyKey": "paper-stage",
+    "defaultRecipeId": "papercut"
   },
   {
     "id": "F14",
@@ -452,7 +465,8 @@
     "preview": "style-library/previews/gongbi.jpg",
     "defaultLegacyId": "A67",
     "defaultName": "工笔设色",
-    "defaultLegacyKey": "gongbi"
+    "defaultLegacyKey": "gongbi",
+    "defaultRecipeId": "gongbi"
   },
   {
     "id": "F15",
@@ -472,7 +486,8 @@
     "preview": "style-library/previews/blue-green-landscape.jpg",
     "defaultLegacyId": "A68",
     "defaultName": "青绿山水",
-    "defaultLegacyKey": "blue-green-landscape"
+    "defaultLegacyKey": "blue-green-landscape",
+    "defaultRecipeId": "landscape"
   },
   {
     "id": "F16",
@@ -495,7 +510,8 @@
     "preview": "style-library/previews/mural.jpg",
     "defaultLegacyId": "A69",
     "defaultName": "敦煌壁画",
-    "defaultLegacyKey": "mural"
+    "defaultLegacyKey": "mural",
+    "defaultRecipeId": "mural"
   },
   {
     "id": "F17",
@@ -515,7 +531,8 @@
     "preview": "style-library/previews/watercolor.jpg",
     "defaultLegacyId": "A74",
     "defaultName": "水彩洇染",
-    "defaultLegacyKey": "watercolor"
+    "defaultLegacyKey": "watercolor",
+    "defaultRecipeId": "watercolor"
   },
   {
     "id": "F18",
@@ -535,7 +552,8 @@
     "preview": "style-library/previews/impasto.jpg",
     "defaultLegacyId": "A75",
     "defaultName": "厚涂油彩",
-    "defaultLegacyKey": "impasto"
+    "defaultLegacyKey": "impasto",
+    "defaultRecipeId": "oil"
   },
   {
     "id": "F19",
@@ -562,6 +580,7 @@
     "preview": "style-library/previews/woodcut.jpg",
     "defaultLegacyId": "A76",
     "defaultName": "木刻刀痕",
-    "defaultLegacyKey": "woodcut"
+    "defaultLegacyKey": "woodcut",
+    "defaultRecipeId": "woodcut"
   }
 ]

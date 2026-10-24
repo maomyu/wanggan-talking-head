@@ -1,0 +1,15 @@
+{
+  "surfaceAssignments": {
+    "objects": "赭土、石绿、薄色磨损和清晰轮廓；纹理只在壁面与解释物件，不进入字与脸",
+    "person": "original-color-no-treatment"
+  },
+  "textureScale": 6,
+  "edgeTreatment": {
+    "strokeWidth": 4,
+    "roughness": 0
+  },
+  "standards": [
+    "matte",
+    "paper-grain"
+  ]
+}

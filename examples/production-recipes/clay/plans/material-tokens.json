@@ -1,0 +1,13 @@
+{
+  "surfaceAssignments": {
+    "objects": "matte-soft-solid",
+    "person": "unfiltered-original"
+  },
+  "roughness": 0.84,
+  "edgeTreatment": "rounded-volume",
+  "textureScale": 260,
+  "standards": [
+    "soft-clay",
+    "matte"
+  ]
+}

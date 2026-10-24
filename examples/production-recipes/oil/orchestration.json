@@ -1,0 +1,47 @@
+{
+  "id": "diagram",
+  "selection": "explicit",
+  "reason": "用户明确选择",
+  "profile": {
+    "id": "diagram",
+    "name": "连续图解",
+    "aliases": [
+      "连续图解编排"
+    ],
+    "status": "user-approved",
+    "when": "因果、对比、转折或机制需要多个状态连续解释",
+    "principle": "对象承担解释主线；人物以原色圆窗让位，保持对象身份、初态、动作、结果和跨段交接，结尾回收。",
+    "coordinationAxes": [
+      "information",
+      "representation",
+      "typography",
+      "object-motion",
+      "camera",
+      "transition",
+      "rhythm"
+    ],
+    "preserve": [
+      "人物原色",
+      "角落真圆且全路径等比",
+      "字幕上移",
+      "自有原声",
+      "本次文案真实关系"
+    ],
+    "avoid": [
+      "固定人物尺寸或固定秒点当通用规则",
+      "图片来回移动代替解释",
+      "任意新素材套财经示例"
+    ],
+    "reference": {
+      "path": "examples/orchestrations/diagram",
+      "recipeId": "minimal",
+      "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "videoSha256": "15025d21164b214a914746f553bb986054862c1d8967ba2c226cd714956a975e",
+      "frames": 1100,
+      "fps": 30
+    },
+    "evidence": "evidence/orchestrations/diagram/approval.json",
+    "otherRecipeCompatibility": "design-adaptation-required; not cross-recipe rendering verification"
+  },
+  "status": "awaiting-content-design"
+}

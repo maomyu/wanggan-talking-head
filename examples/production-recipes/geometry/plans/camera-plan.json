@@ -1,0 +1,28 @@
+{
+  "language": "固定正交观察；对象重排改变图底，不模拟镜头漂移",
+  "viewTransforms": [
+    {
+      "at": 0,
+      "x": 0,
+      "y": 0,
+      "s": 1,
+      "a": 1
+    },
+    {
+      "at": 1099,
+      "x": 0,
+      "y": 0,
+      "s": 1,
+      "a": 1
+    }
+  ],
+  "protected": [
+    "person",
+    "captions",
+    "title"
+  ],
+  "standards": [
+    "locked-stage",
+    "wide-detail-return"
+  ]
+}

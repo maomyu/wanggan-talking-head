@@ -1,0 +1,1401 @@
+{
+  "version": "1.21.0",
+  "approvalDate": "2026-10-24",
+  "approvedScope": "用户认可19套母画风统一配方与调用入口正式并入；技术蓝图独立为分支",
+  "recipeId": "collage",
+  "familyId": "F04",
+  "branchId": null,
+  "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+  "originalVideoSha256": "9ae8556c91610238bce8c295e8df982234dc8c8a2e5bb7514d418b3f13d483ff",
+  "duration": 36.666666666666664,
+  "sourceSpecific": true,
+  "crossScript": "deferred-by-user",
+  "preservedImplementation": {
+    "examples/production-recipes/collage/edit-plan.json": "699c481b98445d39dedb1b09bf46e5f7db6b5dfe422e67bbeaf6718a2c335cf2",
+    "examples/production-recipes/collage/scene-plan.json": "9375caf95342d1cb05111893d7c5e112485437e4f1a68075ee35efc9e8e47e3e",
+    "examples/production-recipes/collage/timing.json": "c2fd00b17ded4a7866ec5b3b12c659b8b25934bb0fbf12a5dc45736eb097153a",
+    "examples/production-recipes/collage/orchestration.json": "56d8e258699e1e17a20cb9923e78cf9f3f84f6118fb6637b549b55a3a7235f87",
+    "examples/production-recipes/collage/recipe.json": "6508f637db45627132fa13748a0b2ea0b4805d3a6c538ea5cc5af6826f92958b",
+    "examples/production-recipes/collage/facts.json": "ea57140e17c2f65668dc79baa82b63647c9043dd170e8e9c76d2fcc7884c389b",
+    "examples/production-recipes/collage/plans/palette-tokens.json": "d24f0b8e33a815fe8b8882749d83dba677cd550f536af4c9f4fd6d2ad47d897a",
+    "examples/production-recipes/collage/plans/transition-plan.json": "41a0e63fa662fb835e2ee3f8041e94369be08e1a716ab01598635939567f8a88",
+    "examples/production-recipes/collage/plans/timing.json": "6d37eb62a35fe2fb94608e69afca87485d3970ea08317cd068570caac51456b1",
+    "examples/production-recipes/collage/plans/layout-plan.json": "6aaf100f6c2d64c18dcf92ea7a9c3371c19a607874f631c21e2b7da7f626c367",
+    "examples/production-recipes/collage/plans/brief.json": "316204e6e0110f3ead7128533faf7df555453a82914e17e3a90bfb8df5ce7d21",
+    "examples/production-recipes/collage/plans/semantic-plan.json": "6b75b9199943656e0e72b3112e8c521bd99558e889a131fd7d3e2ad034c9d45c",
+    "examples/production-recipes/collage/plans/finish-plan.json": "d8505d7a9576f88082fbcc7869d32770ba235bf12fbbc948e9b72f9d816bafe7",
+    "examples/production-recipes/collage/plans/camera-plan.json": "4a53c6c2c2f8c515d0b9cdbd300057a00038bf69a566d2f9f03e2828547e43ad",
+    "examples/production-recipes/collage/plans/object-spec.json": "6b5118b5a7a6847d51a9c609612ddcbb07de70808f05edb5b8f7fbc620885506",
+    "examples/production-recipes/collage/plans/material-tokens.json": "9e6d698d1dfbab4499d7deb70d97fd343ad780b3dead504b189df71e0020ffb1",
+    "examples/production-recipes/collage/plans/style-contract.json": "f7063567b74f4adc80db390a8934838adb85b2a7c7e4f9801f1e201dc9a5ca2c",
+    "examples/production-recipes/collage/plans/motion-events.json": "549dbe836a58cc9564c7f9a9177b946dd217404a25d368b754128fdbd757554e",
+    "examples/production-recipes/collage/scripts/motion.mjs": "5d0067766c7493f6f013680deba9779eca44c5e68ef42ff091c372d58be05952",
+    "examples/production-recipes/collage/scripts/composition.template": "88b79d51e08cc2937d88bf58ef19f05ae249cc68e7a2a6a148fab389ff5e8b75",
+    "examples/production-recipes/collage/scripts/film.css": "b1515434f4849dc44704c3a2b77a8068e5a0ad9e26f72c6f56ef36035ddfe66c",
+    "examples/production-recipes/collage/scripts/build-project.mjs": "06dd000a8393fdc4f3d2a603ea2ace64f1ec3993f11f234c9a63df41dda1254e"
+  },
+  "technicalChecks": {
+    "verification.json": {
+      "sha256": "4666c9e4ff63011685f72d1d1afb547c6dfc4f6883bb348e753cea95da3cf527",
+      "data": {
+        "status": "verified",
+        "key": "collage",
+        "video": {
+          "sha256": "9ae8556c91610238bce8c295e8df982234dc8c8a2e5bb7514d418b3f13d483ff",
+          "width": 1080,
+          "height": 1920,
+          "fps": "30/1",
+          "frames": 1100,
+          "duration": 36.666666666666664,
+          "bytes": 50394806,
+          "faststart": true,
+          "sharedFinalPlaybackInode": true
+        },
+        "audio": {
+          "originalVoiceCorrelation": 0.9999823504746719,
+          "offsetSamples": 0,
+          "decodedSamplesCompared": 1760000,
+          "min100msVoiceRmsRatio": 0.9925177151927742,
+          "dropped100msVoiceWindows": 0,
+          "audibleTracks": 1,
+          "scope": "actual decoded original-voice comparison; not subjective listening review"
+        },
+        "person": {
+          "actualEncodedSamples": [
+            {
+              "frame": 0,
+              "box": [
+                230,
+                570,
+                620,
+                620
+              ],
+              "innerRGBMeanAbsoluteError": 2.517895309943696
+            },
+            {
+              "frame": 75,
+              "box": [
+                503,
+                955,
+                440,
+                440
+              ],
+              "innerRGBMeanAbsoluteError": 2.751460626020832
+            },
+            {
+              "frame": 180,
+              "box": [
+                716,
+                1255,
+                300,
+                300
+              ],
+              "innerRGBMeanAbsoluteError": 2.44790693920843
+            },
+            {
+              "frame": 750,
+              "box": [
+                716,
+                1255,
+                300,
+                300
+              ],
+              "innerRGBMeanAbsoluteError": 2.441600664061149
+            },
+            {
+              "frame": 1030,
+              "box": [
+                240,
+                540,
+                600,
+                600
+              ],
+              "innerRGBMeanAbsoluteError": 2.065729808165698
+            },
+            {
+              "frame": 1099,
+              "box": [
+                240,
+                540,
+                600,
+                600
+              ],
+              "innerRGBMeanAbsoluteError": 2.059035905231609
+            }
+          ],
+          "all1100AuthoredCircleFrames": 1100
+        },
+        "captionCount": 21,
+        "denseFrames": 183,
+        "htmlSha256": "662d67d9083fca0d13a00db32d8bd8bcf9dac40e9f15a986733aded1174ebc59",
+        "sceneContractSha256": "fcccc71067b0be3c0019578b640485c3932618de27c523b7d31d58965e723892",
+        "textAuditSha256": "14aa8cd7bce889394ac294dcaf34c5d970b83a8af2509a9b87b9e129708313c0",
+        "capturePolicy": {
+          "kind": "opaque-SDR PNG compression only",
+          "engineVersion": "0.8.174",
+          "engineSha256": "e80a9d81838c0fe034f4d00af1c0262f570d64b2bb8b8c487a22cf7d8a70cc4e",
+          "installedModuleUnchanged": true,
+          "applications": 1,
+          "outputPixelEquivalenceSamples": 64,
+          "pixelEquivalenceReportSha256": "b2ac5dd893574606f0c5c754baa11fca2b87e52fbb26895fb056a2fc45c0d73d",
+          "alphaAndHDRCaptureUnchanged": true,
+          "geometryTimingFontsAudioAndEncodingUnchanged": true,
+          "exitCode": 0
+        },
+        "scope": "one actual complete source-specific film; technical/author checks, not independent review"
+      }
+    },
+    "scene-contract.json": {
+      "sha256": "fcccc71067b0be3c0019578b640485c3932618de27c523b7d31d58965e723892",
+      "data": {
+        "framesChecked": 1100,
+        "issues": [],
+        "poses": [
+          {
+            "frame": 0,
+            "x": 230,
+            "y": 570,
+            "w": 620
+          },
+          {
+            "frame": 75,
+            "x": 503.3345642089844,
+            "y": 955.2554931640625,
+            "w": 440.0266418457031
+          },
+          {
+            "frame": 180,
+            "x": 716,
+            "y": 1255,
+            "w": 300
+          },
+          {
+            "frame": 750,
+            "x": 716,
+            "y": 1255,
+            "w": 300
+          },
+          {
+            "frame": 1030,
+            "x": 240,
+            "y": 540,
+            "w": 600
+          },
+          {
+            "frame": 1099,
+            "x": 240,
+            "y": 540,
+            "w": 600
+          }
+        ],
+        "deterministic": true,
+        "maxCaptionBottom": 1765,
+        "states": {
+          "0": {
+            "frame": 0,
+            "sourceFrame": 0,
+            "person": {
+              "x": 230,
+              "y": 570,
+              "w": 620,
+              "h": 620,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 240,
+                "y": 800,
+                "s": 0.9,
+                "a": 0,
+                "r": -7,
+                "visible": false
+              },
+              "extra": {
+                "x": 795,
+                "y": 880,
+                "s": 0.95,
+                "a": 0,
+                "r": -7,
+                "visible": false
+              },
+              "food": {
+                "x": 800,
+                "y": 900,
+                "s": 1,
+                "a": 0,
+                "r": -7,
+                "visible": false
+              },
+              "principal": {
+                "x": 790,
+                "y": 820,
+                "s": 0.7,
+                "a": 0,
+                "r": -7,
+                "visible": false
+              },
+              "burden": {
+                "x": 500,
+                "y": 1135,
+                "s": 0.5,
+                "a": 0,
+                "r": -7,
+                "visible": false
+              },
+              "risk": {
+                "x": 735,
+                "y": 875,
+                "s": 1,
+                "a": 0,
+                "r": 7,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 8,
+            "debtUnits": 6,
+            "style": "collage",
+            "extraDenied": false,
+            "riskRevealed": false,
+            "modules": {
+              "style": [
+                "摄影切片、色纸、撕边与收据共同承担解释",
+                "不使用统一杂志栏框：物件搭在错位剪贴台上",
+                "撕去的是额外购买或收益表层，保留的是既有对象与结果"
+              ],
+              "palette": {
+                "bg": "#e8dfca",
+                "ink": "#27252c",
+                "accent": "#b64432",
+                "secondary": "#b7a1d2",
+                "muted": "#665c64"
+              },
+              "material": {
+                "objects": "异质纸边、哑光摄影与局部胶带，颗粒只在背景",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "有锚点的贴合、翻折与沿撕口撤离；收益票揭去后风险底纸仍在",
+              "camera": "先全台看到关系，再随剪贴对象轻推局部，人物和文字保持独立",
+              "transition": "共享收据撕口从消费区延续成风险票的揭露边，票据碎片接到减少负担",
+              "typography": {
+                "title": "NotoSerifSC-700.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0.035,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "334": {
+            "frame": 334,
+            "sourceFrame": 334,
+            "person": {
+              "x": 716,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 240,
+                "y": 800,
+                "s": 0.9,
+                "a": 0.5000247664542141,
+                "r": -7,
+                "visible": true
+              },
+              "extra": {
+                "x": 795,
+                "y": 880,
+                "s": 0.95,
+                "a": 0,
+                "r": -7,
+                "visible": false
+              },
+              "food": {
+                "x": 800,
+                "y": 900,
+                "s": 1,
+                "a": 0,
+                "r": -7,
+                "visible": false
+              },
+              "principal": {
+                "x": 620,
+                "y": 840,
+                "s": 0.8,
+                "a": 1,
+                "r": -7,
+                "visible": true
+              },
+              "burden": {
+                "x": 500,
+                "y": 1135,
+                "s": 0.5,
+                "a": 1,
+                "r": -7,
+                "visible": true
+              },
+              "risk": {
+                "x": 735,
+                "y": 875,
+                "s": 1,
+                "a": 0,
+                "r": 7,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 1,
+                "visible": true
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "style": "collage",
+            "extraDenied": false,
+            "riskRevealed": false,
+            "modules": {
+              "style": [
+                "摄影切片、色纸、撕边与收据共同承担解释",
+                "不使用统一杂志栏框：物件搭在错位剪贴台上",
+                "撕去的是额外购买或收益表层，保留的是既有对象与结果"
+              ],
+              "palette": {
+                "bg": "#e8dfca",
+                "ink": "#27252c",
+                "accent": "#b64432",
+                "secondary": "#b7a1d2",
+                "muted": "#665c64"
+              },
+              "material": {
+                "objects": "异质纸边、哑光摄影与局部胶带，颗粒只在背景",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "有锚点的贴合、翻折与沿撕口撤离；收益票揭去后风险底纸仍在",
+              "camera": "先全台看到关系，再随剪贴对象轻推局部，人物和文字保持独立",
+              "transition": "共享收据撕口从消费区延续成风险票的揭露边，票据碎片接到减少负担",
+              "typography": {
+                "title": "NotoSerifSC-700.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0.035,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "615": {
+            "frame": 615,
+            "sourceFrame": 615,
+            "person": {
+              "x": 716,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 300,
+                "y": 820,
+                "s": 0.92,
+                "a": 1,
+                "r": -7,
+                "visible": true
+              },
+              "extra": {
+                "x": 895,
+                "y": 690,
+                "s": 0.95,
+                "a": 0,
+                "r": -25.00193852265079,
+                "visible": false
+              },
+              "food": {
+                "x": 800,
+                "y": 900,
+                "s": 1,
+                "a": 1,
+                "r": -3,
+                "visible": true
+              },
+              "principal": {
+                "x": 510.00000000925843,
+                "y": 874.9999999944449,
+                "s": 1.1499999997592814,
+                "a": 0,
+                "r": -6.999999997407647,
+                "visible": false
+              },
+              "burden": {
+                "x": 809.0776422839253,
+                "y": 818.1107823517573,
+                "s": 0.568941649989937,
+                "a": 0,
+                "r": -0.7096934557787631,
+                "visible": false
+              },
+              "risk": {
+                "x": 735,
+                "y": 875,
+                "s": 1,
+                "a": 0,
+                "r": 7,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 1,
+                "visible": true
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "style": "collage",
+            "extraDenied": true,
+            "riskRevealed": false,
+            "modules": {
+              "style": [
+                "摄影切片、色纸、撕边与收据共同承担解释",
+                "不使用统一杂志栏框：物件搭在错位剪贴台上",
+                "撕去的是额外购买或收益表层，保留的是既有对象与结果"
+              ],
+              "palette": {
+                "bg": "#e8dfca",
+                "ink": "#27252c",
+                "accent": "#b64432",
+                "secondary": "#b7a1d2",
+                "muted": "#665c64"
+              },
+              "material": {
+                "objects": "异质纸边、哑光摄影与局部胶带，颗粒只在背景",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "有锚点的贴合、翻折与沿撕口撤离；收益票揭去后风险底纸仍在",
+              "camera": "先全台看到关系，再随剪贴对象轻推局部，人物和文字保持独立",
+              "transition": "共享收据撕口从消费区延续成风险票的揭露边，票据碎片接到减少负担",
+              "typography": {
+                "title": "NotoSerifSC-700.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0.035,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "685": {
+            "frame": 685,
+            "sourceFrame": 685,
+            "person": {
+              "x": 716,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 299.9062440195963,
+                "y": 820.5521185512664,
+                "s": 0.4499479133442202,
+                "a": 0,
+                "r": -6.992707868190822,
+                "visible": false
+              },
+              "extra": {
+                "x": 895,
+                "y": 690,
+                "s": 0.95,
+                "a": 0,
+                "r": -25.096863325073482,
+                "visible": false
+              },
+              "food": {
+                "x": 800,
+                "y": 900,
+                "s": 0.5,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "principal": {
+                "x": 509.7620039269352,
+                "y": 874.9666805497709,
+                "s": 1.1495240078538704,
+                "a": 1,
+                "r": -7,
+                "visible": true
+              },
+              "burden": {
+                "x": 620.497303366666,
+                "y": 867.5744778054647,
+                "s": 0.9893830613464496,
+                "a": 0,
+                "r": -5.037766807978158,
+                "visible": false
+              },
+              "risk": {
+                "x": 735,
+                "y": 875,
+                "s": 1,
+                "a": 0,
+                "r": 7,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 1,
+                "visible": true
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "style": "collage",
+            "extraDenied": true,
+            "riskRevealed": false,
+            "modules": {
+              "style": [
+                "摄影切片、色纸、撕边与收据共同承担解释",
+                "不使用统一杂志栏框：物件搭在错位剪贴台上",
+                "撕去的是额外购买或收益表层，保留的是既有对象与结果"
+              ],
+              "palette": {
+                "bg": "#e8dfca",
+                "ink": "#27252c",
+                "accent": "#b64432",
+                "secondary": "#b7a1d2",
+                "muted": "#665c64"
+              },
+              "material": {
+                "objects": "异质纸边、哑光摄影与局部胶带，颗粒只在背景",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "有锚点的贴合、翻折与沿撕口撤离；收益票揭去后风险底纸仍在",
+              "camera": "先全台看到关系，再随剪贴对象轻推局部，人物和文字保持独立",
+              "transition": "共享收据撕口从消费区延续成风险票的揭露边，票据碎片接到减少负担",
+              "typography": {
+                "title": "NotoSerifSC-700.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0.035,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "782": {
+            "frame": 782,
+            "sourceFrame": 782,
+            "person": {
+              "x": 716,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 255.81225300351198,
+                "y": 1080.2167323126516,
+                "s": 0.4254512516686178,
+                "a": 0,
+                "r": -3.5631752336064877,
+                "visible": false
+              },
+              "extra": {
+                "x": 895,
+                "y": 690,
+                "s": 0.95,
+                "a": 0,
+                "r": -26.598648621201768,
+                "visible": false
+              },
+              "food": {
+                "x": 800,
+                "y": 900,
+                "s": 0.5,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "principal": {
+                "x": 260,
+                "y": 840,
+                "s": 0.65,
+                "a": 1,
+                "r": -7,
+                "visible": true
+              },
+              "burden": {
+                "x": 535.9305379138762,
+                "y": 889.7559244816063,
+                "s": 1.1779253580936533,
+                "a": 0,
+                "r": -6.978643392140549,
+                "visible": false
+              },
+              "risk": {
+                "x": 735,
+                "y": 875,
+                "s": 1,
+                "a": 1,
+                "r": 7,
+                "visible": true
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 1,
+                "visible": true
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "style": "collage",
+            "extraDenied": true,
+            "riskRevealed": true,
+            "modules": {
+              "style": [
+                "摄影切片、色纸、撕边与收据共同承担解释",
+                "不使用统一杂志栏框：物件搭在错位剪贴台上",
+                "撕去的是额外购买或收益表层，保留的是既有对象与结果"
+              ],
+              "palette": {
+                "bg": "#e8dfca",
+                "ink": "#27252c",
+                "accent": "#b64432",
+                "secondary": "#b7a1d2",
+                "muted": "#665c64"
+              },
+              "material": {
+                "objects": "异质纸边、哑光摄影与局部胶带，颗粒只在背景",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "有锚点的贴合、翻折与沿撕口撤离；收益票揭去后风险底纸仍在",
+              "camera": "先全台看到关系，再随剪贴对象轻推局部，人物和文字保持独立",
+              "transition": "共享收据撕口从消费区延续成风险票的揭露边，票据碎片接到减少负担",
+              "typography": {
+                "title": "NotoSerifSC-700.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0.035,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "897": {
+            "frame": 897,
+            "sourceFrame": 897,
+            "person": {
+              "x": 716,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 210.00589302390802,
+                "y": 1349.9652966369863,
+                "s": 0.40000327390217116,
+                "a": 0,
+                "r": -0.0004583463039562474,
+                "visible": false
+              },
+              "extra": {
+                "x": 895,
+                "y": 690,
+                "s": 0.95,
+                "a": 0,
+                "r": -32.08805705278601,
+                "visible": false
+              },
+              "food": {
+                "x": 800,
+                "y": 900,
+                "s": 0.5,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "principal": {
+                "x": 513.14548432827,
+                "y": 1301.0864178836346,
+                "s": 0.3516499648988247,
+                "a": 0,
+                "r": -0.671362891793251,
+                "visible": false
+              },
+              "burden": {
+                "x": 535,
+                "y": 890,
+                "s": 1.18,
+                "a": 1,
+                "r": -7,
+                "visible": true
+              },
+              "risk": {
+                "at": 856,
+                "x": 885,
+                "y": 875,
+                "s": 1,
+                "a": 0,
+                "r": 7,
+                "f": 856,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 1,
+                "visible": true
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 2,
+            "style": "collage",
+            "extraDenied": true,
+            "riskRevealed": true,
+            "modules": {
+              "style": [
+                "摄影切片、色纸、撕边与收据共同承担解释",
+                "不使用统一杂志栏框：物件搭在错位剪贴台上",
+                "撕去的是额外购买或收益表层，保留的是既有对象与结果"
+              ],
+              "palette": {
+                "bg": "#e8dfca",
+                "ink": "#27252c",
+                "accent": "#b64432",
+                "secondary": "#b7a1d2",
+                "muted": "#665c64"
+              },
+              "material": {
+                "objects": "异质纸边、哑光摄影与局部胶带，颗粒只在背景",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "有锚点的贴合、翻折与沿撕口撤离；收益票揭去后风险底纸仍在",
+              "camera": "先全台看到关系，再随剪贴对象轻推局部，人物和文字保持独立",
+              "transition": "共享收据撕口从消费区延续成风险票的揭露边，票据碎片接到减少负担",
+              "typography": {
+                "title": "NotoSerifSC-700.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0.035,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "1099": {
+            "frame": 1099,
+            "sourceFrame": 1099,
+            "person": {
+              "x": 240,
+              "y": 540,
+              "w": 600,
+              "h": 600,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "at": 1099,
+                "x": 210,
+                "y": 1350,
+                "s": 0.4,
+                "a": 1,
+                "r": 0,
+                "f": 1099,
+                "visible": true
+              },
+              "extra": {
+                "at": 1099,
+                "x": 895,
+                "y": 690,
+                "s": 0.95,
+                "a": 0,
+                "r": -33,
+                "f": 1099,
+                "visible": false
+              },
+              "food": {
+                "at": 1099,
+                "x": 800,
+                "y": 900,
+                "s": 0.5,
+                "a": 0,
+                "r": 0,
+                "f": 1099,
+                "visible": false
+              },
+              "principal": {
+                "at": 1099,
+                "x": 540,
+                "y": 1350,
+                "s": 0.32,
+                "a": 1,
+                "r": 0,
+                "f": 1099,
+                "visible": true
+              },
+              "burden": {
+                "at": 1099,
+                "x": 875,
+                "y": 1350,
+                "s": 0.3,
+                "a": 1,
+                "r": 0,
+                "f": 1099,
+                "visible": true
+              },
+              "risk": {
+                "at": 856,
+                "x": 885,
+                "y": 875,
+                "s": 1,
+                "a": 0,
+                "r": 7,
+                "f": 856,
+                "visible": false
+              },
+              "trend": {
+                "at": 1099,
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "f": 1099,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "at": 1099,
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "f": 1099
+            },
+            "principalUnits": 4,
+            "debtUnits": 2,
+            "style": "collage",
+            "extraDenied": true,
+            "riskRevealed": true,
+            "modules": {
+              "style": [
+                "摄影切片、色纸、撕边与收据共同承担解释",
+                "不使用统一杂志栏框：物件搭在错位剪贴台上",
+                "撕去的是额外购买或收益表层，保留的是既有对象与结果"
+              ],
+              "palette": {
+                "bg": "#e8dfca",
+                "ink": "#27252c",
+                "accent": "#b64432",
+                "secondary": "#b7a1d2",
+                "muted": "#665c64"
+              },
+              "material": {
+                "objects": "异质纸边、哑光摄影与局部胶带，颗粒只在背景",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "有锚点的贴合、翻折与沿撕口撤离；收益票揭去后风险底纸仍在",
+              "camera": "先全台看到关系，再随剪贴对象轻推局部，人物和文字保持独立",
+              "transition": "共享收据撕口从消费区延续成风险票的揭露边，票据碎片接到减少负担",
+              "typography": {
+                "title": "NotoSerifSC-700.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0.035,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          }
+        },
+        "moduleBindings": {
+          "style": [
+            "摄影切片、色纸、撕边与收据共同承担解释",
+            "不使用统一杂志栏框：物件搭在错位剪贴台上",
+            "撕去的是额外购买或收益表层，保留的是既有对象与结果"
+          ],
+          "palette": {
+            "bg": "#e8dfca",
+            "ink": "#27252c",
+            "accent": "#b64432",
+            "secondary": "#b7a1d2",
+            "muted": "#665c64"
+          },
+          "material": {
+            "objects": "异质纸边、哑光摄影与局部胶带，颗粒只在背景",
+            "person": "original-color-no-treatment"
+          },
+          "representation": {
+            "principalUnits": 8,
+            "remainingPrincipal": 4,
+            "debtLayers": 6,
+            "remainingDebt": 2
+          },
+          "motion": "有锚点的贴合、翻折与沿撕口撤离；收益票揭去后风险底纸仍在",
+          "camera": "先全台看到关系，再随剪贴对象轻推局部，人物和文字保持独立",
+          "transition": "共享收据撕口从消费区延续成风险票的揭露边，票据碎片接到减少负担",
+          "typography": {
+            "title": "NotoSerifSC-700.woff",
+            "body": "NotoSansSC-500.woff",
+            "caption": "NotoSansSC-700.woff"
+          },
+          "lighting": {
+            "grainOpacity": 0.035,
+            "contactShadowOpacity": 0
+          },
+          "information": {
+            "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+            "food": "日常需要的对照示意，不代表具体购买建议",
+            "capital": "同一示意本金；受损后不凭空补满",
+            "debt": "负担层数消减示意，不代表实际金额",
+            "risk": "夸大收益说法与风险揭示的比喻载体"
+          },
+          "rhythm": {
+            "extraStart": 470,
+            "extraReady": 490,
+            "denyStart": 516,
+            "denyEnd": 538,
+            "compareStart": 563,
+            "compareReady": 587,
+            "capitalStart": 616,
+            "capitalReady": 643,
+            "riskRevealStart": 744,
+            "riskRevealEnd": 759,
+            "debtStart": 856,
+            "debtReady": 882,
+            "recapReady": 970,
+            "lossStart": 310,
+            "lossEnd": 334
+          }
+        },
+        "voices": 1,
+        "captionCount": 21,
+        "mediaErrors": [
+          null,
+          null
+        ],
+        "allImagesLoaded": true,
+        "errors": [],
+        "failedRequests": [],
+        "noCapitalReplenishment": true,
+        "debtResult": true,
+        "ok": true,
+        "visualInputs": {
+          "index.html": "662d67d9083fca0d13a00db32d8bd8bcf9dac40e9f15a986733aded1174ebc59",
+          "assets/film.css": "b1515434f4849dc44704c3a2b77a8068e5a0ad9e26f72c6f56ef36035ddfe66c",
+          "assets/film-config.js": "11fe5ae6f20f878662a9879f311702ef90bc2f64ac94b552e8a6e569df4327a3",
+          "scripts/build-project.mjs": "06dd000a8393fdc4f3d2a603ea2ace64f1ec3993f11f234c9a63df41dda1254e",
+          "scripts/motion.mjs": "5d0067766c7493f6f013680deba9779eca44c5e68ef42ff091c372d58be05952",
+          "scripts/render-opaque-png.mjs": "5d7a94f835eed9fa7643ffb4e0d2ad25a33f1e1076f658465b511e3d1ecd3f62"
+        }
+      }
+    },
+    "text-path-audit.json": {
+      "sha256": "14aa8cd7bce889394ac294dcaf34c5d970b83a8af2509a9b87b9e129708313c0",
+      "data": {
+        "frames": 1100,
+        "glyphs": 56744,
+        "points": 170232,
+        "issues": [],
+        "issueCount": 0,
+        "windows": [],
+        "intentional": [],
+        "scope": "All1100 authored frames; three probe points per nonspace glyph in reading and exiting text (effective opacity>=0.2). Actual DOM paint order, circular clipping and source PNG alpha respected. Hidden reverse paper and intentional semantic strike-through explicitly excluded; complements actual encoded dense-frame review, not universal pixel OCR.",
+        "visualInputs": {
+          "index.html": "662d67d9083fca0d13a00db32d8bd8bcf9dac40e9f15a986733aded1174ebc59",
+          "assets/film.css": "b1515434f4849dc44704c3a2b77a8068e5a0ad9e26f72c6f56ef36035ddfe66c",
+          "scripts/motion.mjs": "5d0067766c7493f6f013680deba9779eca44c5e68ef42ff091c372d58be05952",
+          "assets/film-config.js": "11fe5ae6f20f878662a9879f311702ef90bc2f64ac94b552e8a6e569df4327a3"
+        },
+        "sourceBindingScope": "Current visual inputs recorded after this isolated audit; no edits were made during the run",
+        "ok": true
+      }
+    }
+  }
+}

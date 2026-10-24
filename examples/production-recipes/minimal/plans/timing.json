@@ -1,0 +1,109 @@
+{
+  "speechAnchors": {
+    "cut": 461,
+    "pause": 516,
+    "distinguish": 563,
+    "capital": 616,
+    "pitch": 686,
+    "riskReveal": 753,
+    "avoid": 783,
+    "debt": 856,
+    "recognition": 959,
+    "noHerd": 1003,
+    "resolve": 1036,
+    "summary": 898
+  },
+  "eventSchedule": {
+    "extraStart": 470,
+    "extraReady": 490,
+    "denyStart": 516,
+    "denyEnd": 538,
+    "compareStart": 563,
+    "compareReady": 587,
+    "capitalStart": 616,
+    "capitalReady": 643,
+    "riskRevealStart": 744,
+    "riskRevealEnd": 759,
+    "debtStart": 856,
+    "debtReady": 882,
+    "recapReady": 970,
+    "lossStart": 310,
+    "lossEnd": 334
+  },
+  "readWindows": [
+    [
+      121,
+      149
+    ],
+    [
+      334,
+      349
+    ],
+    [
+      419,
+      454
+    ],
+    [
+      587,
+      616
+    ],
+    [
+      643,
+      686
+    ],
+    [
+      760,
+      783
+    ],
+    [
+      883,
+      898
+    ],
+    [
+      979,
+      1100
+    ]
+  ],
+  "densityCurve": [
+    [
+      0,
+      0.2
+    ],
+    [
+      149,
+      0.6
+    ],
+    [
+      388,
+      0.3
+    ],
+    [
+      461,
+      0.75
+    ],
+    [
+      616,
+      0.3
+    ],
+    [
+      739,
+      0.85
+    ],
+    [
+      856,
+      0.6
+    ],
+    [
+      960,
+      0.15
+    ]
+  ],
+  "reason": "原声固定；对象先落定再读，关键揭示前有准备，结尾减少新动作。",
+  "standards": [
+    "speech-led",
+    "reveal-hold-release",
+    "contrast-pulse",
+    "ending-resolve"
+  ],
+  "sourceTiming": "same corrected21 source captions; event anchors manually set for this approved clip, not word-level1frame truth"
+}

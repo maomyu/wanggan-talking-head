@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "id": "oil",
+  "name": "厚涂油画",
+  "mode": "design-recipe",
+  "status": "user-approved",
+  "hierarchy": {
+    "familyId": "F18",
+    "branchId": null,
+    "baseLegacyId": "A75"
+  },
+  "selections": {
+    "information": [
+      "problem-mechanism-response",
+      "parallel-options",
+      "option-comparison",
+      "contrast-turn",
+      "recap-return"
+    ],
+    "rhythm": [
+      "speech-led",
+      "reveal-hold-release",
+      "progressive-build",
+      "setup-payoff",
+      "ending-resolve"
+    ],
+    "art-style": [
+      "F18"
+    ],
+    "palette": [
+      "soft-earth"
+    ],
+    "material": [
+      "matte",
+      "paper-grain"
+    ],
+    "representation": [
+      "flat-symbol",
+      "inset-stage"
+    ],
+    "object-motion": [
+      "trace-build",
+      "sort-compare",
+      "accumulate-reduce",
+      "reveal-consequence"
+    ],
+    "camera": [
+      "locked-stage",
+      "wide-detail-return"
+    ],
+    "transition": [
+      "object-match",
+      "relation-expand",
+      "foreground-occlusion"
+    ],
+    "typography": [
+      "raised-captions",
+      "serif-display",
+      "comparison-alignment"
+    ],
+    "lighting": [
+      "flat-print-light",
+      "paper-grain-finish"
+    ]
+  },
+  "overrides": {
+    "notes": "用户已认可本案例的完整十一类配方。人物原色、角落真圆、上移字幕；换素材重新设计，不泛化为任意组合已验收。"
+  },
+  "caseId": null,
+  "sourceRequiredForProduction": true,
+  "implementation": {
+    "kind": "source-specific-reference",
+    "path": "examples/production-recipes/oil",
+    "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+    "buildMode": "preserved-production-case",
+    "photoAsset": true,
+    "vendor": false,
+    "timingContract": "study-custom-symbolic-events",
+    "orchestration": {
+      "id": "diagram",
+      "selection": "explicit",
+      "reason": "用户明确选择"
+    },
+    "voiceSha256": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+    "edlSha256": "699c481b98445d39dedb1b09bf46e5f7db6b5dfe422e67bbeaf6718a2c335cf2",
+    "newSource": "按本片原句重设计语义、对象、动作、结果、读窗和交接；跨文案等待用户新素材验证"
+  },
+  "productionRules": {
+    "layout": "覆盖关系、笔触方向、体块与侧光建立层次",
+    "objectMotion": "刮色揭示/厚涂覆盖对应取舍，结果保持可辨",
+    "camera": "从整体到局部厚涂体块，高低位服务比较",
+    "transition": "同一色面边缘/刮痕交接，避免纹理整屏闪动",
+    "typography": "稳定清晰字层与油彩分开，不把文字厚涂到难读",
+    "preserve": [
+      "实体笔触",
+      "覆盖关系",
+      "刀脊侧光"
+    ],
+    "adaptOnNewContent": [
+      "原句和关系",
+      "每张图片的任务",
+      "对象初态、动作及结果",
+      "阅读窗口",
+      "前后交接",
+      "真实源时间与字幕"
+    ],
+    "neverInheritAsDefault": [
+      "当前财经物件",
+      "示意数量",
+      "固定秒点",
+      "固定三项建议",
+      "本片人像位置"
+    ]
+  },
+  "axisReferences": {
+    "art-style": {
+      "skill": "skills/talking-head-art-style/SKILL.md",
+      "casePlan": "examples/production-recipes/oil/plans/style-contract.json",
+      "sha256": "b820d2fc902f36dee0597835dd56ba0655b3bbd09f1ffec9fdf869743e560590",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "palette": {
+      "skill": "skills/talking-head-palette/SKILL.md",
+      "casePlan": "examples/production-recipes/oil/plans/palette-tokens.json",
+      "sha256": "a0b89cda3d3dbd485718dc247b0015f42281eea83568067eee7b5729e39e6a15",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "material": {
+      "skill": "skills/talking-head-material/SKILL.md",
+      "casePlan": "examples/production-recipes/oil/plans/material-tokens.json",
+      "sha256": "8ef2c5185310302d5f8a68bf51811904bee82f39551649ab5055d31725194a4b",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "representation": {
+      "skill": "skills/talking-head-representation/SKILL.md",
+      "casePlan": "examples/production-recipes/oil/plans/object-spec.json",
+      "sha256": "712792c69c05cca973f1703497d2c27d882087a4627f7aca4d367fa25a7ae58e",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "object-motion": {
+      "skill": "skills/talking-head-object-motion/SKILL.md",
+      "casePlan": "examples/production-recipes/oil/plans/motion-events.json",
+      "sha256": "bde8583a389513d39f8511a7e2d7150c3537048a397a412720ecc334cad33893",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "camera": {
+      "skill": "skills/talking-head-camera/SKILL.md",
+      "casePlan": "examples/production-recipes/oil/plans/camera-plan.json",
+      "sha256": "5db2b26cf614326caee626f6c78320f40b01690f7997732984547f054566f46a",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "transition": {
+      "skill": "skills/talking-head-transition/SKILL.md",
+      "casePlan": "examples/production-recipes/oil/plans/transition-plan.json",
+      "sha256": "732a2ced4674e67cc4ee4d53430114210c0cfd7dc14f57c9eddf88134acab5f7",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "typography": {
+      "skill": "skills/talking-head-typography/SKILL.md",
+      "casePlan": "examples/production-recipes/oil/plans/layout-plan.json",
+      "sha256": "3a83d932cb1bb50dd631d48238f1b1cced3639e55fe639f2bd741b2ba245f790",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "lighting": {
+      "skill": "skills/talking-head-lighting/SKILL.md",
+      "casePlan": "examples/production-recipes/oil/plans/finish-plan.json",
+      "sha256": "68956002de627008728ea4b0e4d575dec08bc80cdaeee8f1e075658e3c27e0ff",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "information": {
+      "skill": "skills/talking-head-information/SKILL.md",
+      "casePlan": "examples/production-recipes/oil/plans/semantic-plan.json",
+      "sha256": "6b75b9199943656e0e72b3112e8c521bd99558e889a131fd7d3e2ad034c9d45c",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "rhythm": {
+      "skill": "skills/talking-head-rhythm/SKILL.md",
+      "casePlan": "examples/production-recipes/oil/plans/timing.json",
+      "sha256": "6d37eb62a35fe2fb94608e69afca87485d3970ea08317cd068570caac51456b1",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    }
+  },
+  "approvalDate": "2026-10-24"
+}

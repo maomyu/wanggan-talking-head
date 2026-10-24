@@ -1,0 +1,14 @@
+{
+  "colorRoles": {
+    "bg": "#fff4df",
+    "ink": "#213b38",
+    "accent": "#bd5137",
+    "secondary": "#719d8e",
+    "muted": "#506d61",
+    "textAccent": "#9d3b28"
+  },
+  "reason": "强调用于否定/风险；其余颜色区分对象角色，人物保留原色；强调文字独立采用深色角色，保持4.5:1阅读对比",
+  "standards": [
+    "soft-earth"
+  ]
+}

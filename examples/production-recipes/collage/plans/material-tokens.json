@@ -1,0 +1,16 @@
+{
+  "surfaceAssignments": {
+    "objects": "异质纸边、哑光摄影与局部胶带，颗粒只在背景",
+    "person": "original-color-no-treatment"
+  },
+  "textureScale": 6,
+  "edgeTreatment": {
+    "strokeWidth": 4,
+    "roughness": 0
+  },
+  "standards": [
+    "photo-original",
+    "paper-grain",
+    "matte"
+  ]
+}

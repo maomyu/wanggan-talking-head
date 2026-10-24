@@ -1,0 +1,36 @@
+{
+  "language": "逐块构成的耳机与购物袋、可数资金块与阶梯负担；中文正文使用清晰本地字体",
+  "objectGeometry": {
+    "principalUnits": 8,
+    "remainingPrincipal": 4,
+    "debtLayers": 6,
+    "remainingDebt": 2
+  },
+  "objectIdentity": {
+    "headphone": "已有耳机",
+    "extra": "额外购买的第二实例",
+    "food": "日常所需购物",
+    "principal": "原八格本金损失后四格",
+    "burden": "六层负担减少后两层",
+    "risk": "收益表层下面的警示，非实际金融产品"
+  },
+  "anchors": {
+    "person": "own840square",
+    "caption": [
+      64,
+      1600,
+      952,
+      170
+    ]
+  },
+  "surfaceSides": {
+    "risk-cover": [
+      "收益说法",
+      "风险警示"
+    ]
+  },
+  "standards": [
+    "flat-symbol",
+    "inset-stage"
+  ]
+}

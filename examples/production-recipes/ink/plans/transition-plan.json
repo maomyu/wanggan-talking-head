@@ -1,0 +1,42 @@
+{
+  "language": "同物笔路与墨幕退开，重点转移后保留纸白",
+  "entryExitBridges": [
+    149,
+    198,
+    224,
+    266,
+    349,
+    388,
+    461,
+    563,
+    616,
+    686,
+    783,
+    856,
+    898
+  ],
+  "coverFrames": {
+    "risk": [
+      750,
+      753
+    ]
+  },
+  "continuityAnchors": [
+    "headphone→comparison",
+    "principal→risk→recap",
+    "burden→reduction→recap"
+  ],
+  "mode": "ink",
+  "reason": "保留对象与已发生结果，转场来自画面内容；源视频和人声全片连续，没有伪称源跳切。",
+  "selectedStandards": [
+    "foreground-occlusion",
+    "object-match"
+  ],
+  "durationFrames": 16,
+  "continuityReason": "共享对象的位置、等比缩放和笔路在相邻解释之间接续；新阅读任务成立后才进入稳定读窗。",
+  "standards": [
+    "foreground-occlusion",
+    "object-match"
+  ],
+  "labelClearFrames": 9
+}

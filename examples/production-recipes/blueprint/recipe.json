@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "blueprint-rebuild-05",
+  "name": "技术蓝图 · 同源完整配方",
+  "mode": "design-recipe",
+  "selections": {
+    "art-style": [
+      "precision-interface"
+    ],
+    "palette": [
+      "blue-white-technical"
+    ],
+    "material": [
+      "matte"
+    ],
+    "representation": [
+      "line-construction",
+      "flat-symbol"
+    ],
+    "object-motion": [
+      "trace-build",
+      "motivated-move",
+      "sort-compare",
+      "accumulate-reduce",
+      "reveal-consequence"
+    ],
+    "camera": [
+      "planar-push-pull",
+      "wide-detail-return"
+    ],
+    "transition": [
+      "relation-expand",
+      "object-match"
+    ],
+    "typography": [
+      "clean-sans",
+      "diagram-callouts",
+      "raised-captions"
+    ],
+    "lighting": [
+      "flat-print-light"
+    ],
+    "information": [
+      "problem-mechanism-response",
+      "parallel-options",
+      "option-comparison",
+      "contrast-turn",
+      "recap-return"
+    ],
+    "rhythm": [
+      "speech-led",
+      "reveal-hold-release",
+      "contrast-pulse",
+      "ending-resolve"
+    ]
+  },
+  "overrides": {
+    "notes": "参数见本片十一份专业产物；人物原色、圆窗、字幕与原声保护保持。"
+  },
+  "sourceRequiredForProduction": true,
+  "caseId": "same-source-blueprint-02",
+  "status": "test-candidate",
+  "approvalDate": "2026-10-21",
+  "hierarchy": {
+    "familyId": "F07",
+    "branchId": "A09",
+    "baseLegacyId": "A09"
+  },
+  "implementation": {
+    "kind": "source-specific-reference",
+    "path": "examples/recipes/blueprint",
+    "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+    "newSource": "重新执行语义编排，不复用此案例固定台词、物件与秒点"
+  }
+}

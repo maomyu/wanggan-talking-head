@@ -1,0 +1,61 @@
+{
+  "objectGeometry": {
+    "language": "ink",
+    "stage": [
+      90,
+      560,
+      900,
+      660
+    ],
+    "headphone": [
+      250,
+      240
+    ],
+    "food": [
+      250,
+      240
+    ],
+    "principalUnits": 8,
+    "debtLayers": 6
+  },
+  "objectIdentity": {
+    "headphone": "已有一件",
+    "extra": "第二实例，非事实数量",
+    "food": "日常需要示意",
+    "principal": "本金原则示意，非真实金额",
+    "burden": "负担层数示意",
+    "risk": "原文风险判断的示意"
+  },
+  "anchors": {
+    "comparison": [
+      [
+        320,
+        850
+      ],
+      [
+        755,
+        850
+      ]
+    ],
+    "principal": [
+      290,
+      865
+    ],
+    "risk": [
+      760,
+      815
+    ]
+  },
+  "surfaceSides": {
+    "risk": "遮盖与揭示两状态，不伪造证据内部结构"
+  },
+  "reason": "同一组名词维持身份，但三种造型使用不同的构造方法。",
+  "selectedStandards": [
+    "line-construction",
+    "flat-symbol"
+  ],
+  "standards": [
+    "line-construction",
+    "flat-symbol"
+  ]
+}

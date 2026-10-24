@@ -1,0 +1,20 @@
+{
+  "name": "柔质立体",
+  "compositionMode": "clay",
+  "identityRules": [
+    "真实本地三维体积",
+    "哑光材质与接触关系",
+    "局部机位与同一物件开合消减"
+  ],
+  "referencePrinciples": [
+    "继承已认可语言和有效对象，但重做原句对应动作与前后状态"
+  ],
+  "driftChecks": [
+    "人物不受风格滤镜",
+    "字幕不随世界相机移动",
+    "不能只换底图"
+  ],
+  "standards": [
+    "soft-volume"
+  ]
+}

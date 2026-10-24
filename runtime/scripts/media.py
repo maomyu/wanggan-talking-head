@@ -13,26 +13,39 @@ def prepare(root):
  from fontTools.ttLib import TTFont
  plan=json.loads((root/'edit-plan.json').read_text());rate=48000;fps=Fraction(str(plan['fps']));tailPadding=0
  metadata=json.loads((root/'source-info.json').read_text());v=next(x for x in metadata['streams']if x['codec_type']=='video');videoSamples=round(float(v.get('duration',metadata['format']['duration']))*rate)
- raw=call(['ffmpeg','-v','error','-i',str(root/'assets/master.mp4'),'-vn','-ar',str(rate),'-ac','2','-f','f32le','-']);source=np.frombuffer(raw,dtype='<f4').reshape(-1,2);parts=[]
- for seg in plan['audioSegments']:
-  a=round(Fraction(seg['sourceIn'])*rate/fps);b=round(Fraction(seg['sourceOut'])*rate/fps);part=source[a:b].copy();expected=round(Fraction(seg['outputOut']-seg['outputIn'])*rate/fps)
-  if len(part)!=expected:
-   short=expected-len(part)
-   if b>len(source) and 0<short<=round(rate/fps) and b<=videoSamples+1:
-    part=np.pad(part,((0,short),(0,0)));tailPadding+=short
-   else:raise ValueError('源音频区间不完整或帧时间不匹配')
-  parts.append(part)
- fade=plan.get('audio',{}).get('fadeSamplesAtActualSeams',240)
- for i in range(len(parts)-1):
-  size=min(fade,len(parts[i])//2,len(parts[i+1])//2)
-  if size:parts[i][-size:]*=np.linspace(1,0,size)[:,None];parts[i+1][:size]*=np.linspace(0,1,size)[:,None]
- voice=np.concatenate(parts);expected=round(Fraction(plan['frameCount'])*rate/fps);delta=expected-len(voice)
- if abs(delta)>len(parts):raise ValueError('音频累计长度不匹配')
- if delta>0:voice=np.pad(voice,((0,delta),(0,0)))
- elif delta<0:voice=voice[:expected]
- wav=root/'assets/edited-voice.wav'
- with wave.open(str(wav),'wb') as w:w.setnchannels(2);w.setsampwidth(2);w.setframerate(rate);w.writeframes(np.round(np.clip(voice,-1,1)*32767).astype('<i2').tobytes())
- save(root/'qa/audio-conform.json',{'sampleRate':rate,'channels':2,'samplesPerChannel':len(voice),'segments':plan['audioSegments'],'fadeSamplesPerSide':fade,'sourceTailSilencePaddingSamples':tailPadding,'wavSha256':sha(wav)})
+ wav=root/'assets/edited-voice.wav';sourceHash=sha(root/'assets/master.mp4');edlHash=sha(root/'edit-plan.json')
+ revision=json.loads((root/'revision.json').read_text())if(root/'revision.json').exists()else{}
+ cached=json.loads((root/'qa/audio-conform.json').read_text())if(root/'qa/audio-conform.json').exists()else{}
+ binding=revision.get('voiceBinding')or cached.get('binding')or json.loads((root/'project.json').read_text()).get('productionReference')or{}
+ bound=wav.exists()and binding.get('sourceSha256')==sourceHash and binding.get('edlSha256')==edlHash and binding.get('voiceSha256')==sha(wav)
+ if wav.exists()and 'assets/edited-voice.wav'in revision.get('protectedInputs',{})and not bound:raise ValueError('受保护原声缺少匹配的源片/EDL绑定；不能在视觉修改中重编码')
+ if bound:
+  with wave.open(str(wav))as w:
+   voiceSamples=w.getnframes();assert w.getframerate()==rate and voiceSamples==round(Fraction(plan['frameCount'])*rate/fps)
+  save(root/'qa/audio-conform.json',{'preserved':True,'sampleRate':rate,'samplesPerChannel':voiceSamples,'binding':binding,'wavSha256':sha(wav)})
+ else:
+  raw=call(['ffmpeg','-v','error','-i',str(root/'assets/master.mp4'),'-vn','-ar',str(rate),'-ac','2','-f','f32le','-']);source=np.frombuffer(raw,dtype='<f4').reshape(-1,2);parts=[]
+  for seg in plan['audioSegments']:
+   a=round(Fraction(seg['sourceIn'])*rate/fps);b=round(Fraction(seg['sourceOut'])*rate/fps);part=source[a:b].copy();expected=round(Fraction(seg['outputOut']-seg['outputIn'])*rate/fps)
+   if len(part)!=expected:
+    short=expected-len(part)
+    if b>len(source) and 0<short<=round(rate/fps) and b<=videoSamples+1:
+     part=np.pad(part,((0,short),(0,0)));tailPadding+=short
+    else:raise ValueError('源音频区间不完整或帧时间不匹配')
+   parts.append(part)
+  fade=plan.get('audio',{}).get('fadeSamplesAtActualSeams',240)
+  for i in range(len(parts)-1):
+   size=min(fade,len(parts[i])//2,len(parts[i+1])//2)
+   if size:parts[i][-size:]*=np.linspace(1,0,size)[:,None];parts[i+1][:size]*=np.linspace(0,1,size)[:,None]
+  voice=np.concatenate(parts);expected=round(Fraction(plan['frameCount'])*rate/fps);delta=expected-len(voice)
+  if abs(delta)>len(parts):raise ValueError('音频累计长度不匹配')
+  if delta>0:voice=np.pad(voice,((0,delta),(0,0)))
+  elif delta<0:voice=voice[:expected]
+  wav=root/'assets/edited-voice.wav'
+  with wave.open(str(wav),'wb') as w:w.setnchannels(2);w.setsampwidth(2);w.setframerate(rate);w.writeframes(np.round(np.clip(voice,-1,1)*32767).astype('<i2').tobytes())
+  save(root/'qa/audio-conform.json',{'sampleRate':rate,'channels':2,'samplesPerChannel':len(voice),'segments':plan['audioSegments'],'fadeSamplesPerSide':fade,'sourceTailSilencePaddingSamples':tailPadding,'wavSha256':sha(wav)})
+  voiceSamples=len(voice)
+  report=json.loads((root/'qa/audio-conform.json').read_text());report['binding']={'sourceSha256':sourceHash,'edlSha256':edlHash,'voiceSha256':sha(wav)};save(root/'qa/audio-conform.json',report)
  html=(root/'index.html').read_text();body=re.sub(r'<script[^>]*>.*?</script>|<style[^>]*>.*?</style>','',html,flags=re.S);body=re.sub('<[^>]*>','',body);font_report=[];dest=root/'assets/fonts';dest.mkdir(exist_ok=True)
  usage=json.loads((root/'font-usage.json').read_text())if(root/'font-usage.json').exists()else None
  if usage is not None:
@@ -45,7 +58,7 @@ def prepare(root):
   if missing:raise ValueError(f'{name} 缺字：{missing}。补充可用字体后再运行。')
   font_report.append({'font':name,'missing':missing,'checkedCharacters':len(set(required)),'coverageScope':usage.get('scope','declared-project-usage')if usage else'conservative-static-html','sha256':sha(target),'source':'bundled' if sha(target)==item['sha256'] else 'project override'})
  save(root/'qa/font-coverage.json',font_report)
- print(json.dumps({'audioSamples':len(voice),'fontsChecked':len(font_report)}))
+ print(json.dumps({'audioSamples':voiceSamples,'fontsChecked':len(font_report)}))
 
 def verify(root):
  import numpy as np

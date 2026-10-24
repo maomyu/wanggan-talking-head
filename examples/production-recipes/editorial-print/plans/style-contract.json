@@ -1,0 +1,20 @@
+{
+  "name": "编辑拼贴与印刷",
+  "compositionMode": "editorial-print",
+  "identityRules": [
+    "衬线与编辑页栏",
+    "同一物件与纸页接缝",
+    "印刷层被抽离后露出结果"
+  ],
+  "referencePrinciples": [
+    "继承已认可语言和有效对象，但重做原句对应动作与前后状态"
+  ],
+  "driftChecks": [
+    "人物不受风格滤镜",
+    "字幕不随世界相机移动",
+    "不能只换底图"
+  ],
+  "standards": [
+    "editorial-print"
+  ]
+}

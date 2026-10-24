@@ -1,10 +1,53 @@
 {
   "schemaVersion": 1,
+  "version": "1.21.0",
+  "motherCount": 19,
+  "implementedBranchCount": 1,
   "recipes": [
     {
-      "id": "editorial-print",
-      "name": "编辑拼贴与印刷 · 自有口播完整成片",
+      "id": "minimal",
+      "name": "写实极简",
       "status": "user-approved",
+      "kind": "mother",
+      "hierarchy": {
+        "familyId": "F01",
+        "branchId": null,
+        "baseLegacyId": "A01"
+      },
+      "aliases": [
+        "F01",
+        "写实与摄影影像",
+        "写实极简",
+        "minimal",
+        "A01"
+      ],
+      "evidence": "evidence/production-recipes/minimal.json"
+    },
+    {
+      "id": "geometry",
+      "name": "现代几何平面",
+      "status": "user-approved",
+      "kind": "mother",
+      "hierarchy": {
+        "familyId": "F02",
+        "branchId": null,
+        "baseLegacyId": "A03"
+      },
+      "aliases": [
+        "F02",
+        "现代几何平面",
+        "几何印刷",
+        "geometry",
+        "A03",
+        "几何"
+      ],
+      "evidence": "evidence/production-recipes/geometry.json"
+    },
+    {
+      "id": "editorial-print",
+      "name": "编辑拼贴与印刷",
+      "status": "user-approved",
+      "kind": "mother",
       "hierarchy": {
         "familyId": "F03",
         "branchId": null,
@@ -13,67 +56,352 @@
           "F04",
           "F08"
         ]
-      }
+      },
+      "aliases": [
+        "F03",
+        "编辑出版",
+        "杂志编辑",
+        "magazine",
+        "A04",
+        "编辑拼贴与印刷",
+        "editorial-print"
+      ],
+      "evidence": "evidence/production-recipes/editorial-print.json"
     },
     {
-      "id": "minimal",
-      "name": "写实极简 · 同源完整配方",
+      "id": "collage",
+      "name": "拼贴混合媒介",
       "status": "user-approved",
+      "kind": "mother",
       "hierarchy": {
-        "familyId": "F01",
+        "familyId": "F04",
         "branchId": null,
-        "baseLegacyId": "A01"
-      }
-    },
-    {
-      "id": "blueprint",
-      "name": "技术蓝图 · 同源完整配方",
-      "status": "user-approved",
-      "hierarchy": {
-        "familyId": "F07",
-        "branchId": "A09",
-        "baseLegacyId": "A09"
-      }
-    },
-    {
-      "id": "clay",
-      "name": "柔质立体 · 同源完整配方",
-      "status": "user-approved",
-      "hierarchy": {
-        "familyId": "F11",
-        "branchId": null,
-        "baseLegacyId": "A14"
-      }
-    },
-    {
-      "id": "ink",
-      "name": "水墨写意 · 同源完整配方",
-      "status": "user-approved",
-      "hierarchy": {
-        "familyId": "F10",
-        "branchId": null,
-        "baseLegacyId": "A13"
-      }
+        "baseLegacyId": "A05"
+      },
+      "aliases": [
+        "F04",
+        "拼贴混合媒介",
+        "剪贴拼贴",
+        "collage",
+        "A05"
+      ],
+      "evidence": "evidence/production-recipes/collage.json"
     },
     {
       "id": "line",
-      "name": "单线手绘 · 同源完整配方",
+      "name": "单线手绘",
       "status": "user-approved",
+      "kind": "mother",
       "hierarchy": {
         "familyId": "F05",
         "branchId": null,
         "baseLegacyId": "A06"
-      }
+      },
+      "aliases": [
+        "F05",
+        "线描与素描",
+        "单线手绘",
+        "line",
+        "A06"
+      ],
+      "evidence": "evidence/production-recipes/line.json"
+    },
+    {
+      "id": "illustration",
+      "name": "平面插画",
+      "status": "user-approved",
+      "kind": "mother",
+      "hierarchy": {
+        "familyId": "F06",
+        "branchId": null,
+        "baseLegacyId": "A07"
+      },
+      "aliases": [
+        "F06",
+        "平面插画",
+        "图形插画",
+        "illustration",
+        "A07"
+      ],
+      "evidence": "evidence/production-recipes/illustration.json"
+    },
+    {
+      "id": "precision",
+      "name": "精密界面",
+      "status": "user-approved",
+      "kind": "mother",
+      "hierarchy": {
+        "familyId": "F07",
+        "branchId": null,
+        "baseLegacyId": "A08"
+      },
+      "aliases": [
+        "F07",
+        "技术图形与界面",
+        "精密界面",
+        "precision",
+        "A08",
+        "精密UI"
+      ],
+      "evidence": "evidence/production-recipes/precision.json"
     },
     {
       "id": "halftone",
-      "name": "复古网点 · 同源完整配方",
+      "name": "复古网点",
       "status": "user-approved",
+      "kind": "mother",
       "hierarchy": {
         "familyId": "F08",
         "branchId": null,
         "baseLegacyId": "A10"
-      }
+      },
+      "aliases": [
+        "F08",
+        "复古套色印刷",
+        "复古网点",
+        "halftone",
+        "A10"
+      ],
+      "evidence": "evidence/production-recipes/halftone.json"
+    },
+    {
+      "id": "comic",
+      "name": "漫画描线",
+      "status": "user-approved",
+      "kind": "mother",
+      "hierarchy": {
+        "familyId": "F09",
+        "branchId": null,
+        "baseLegacyId": "A11"
+      },
+      "aliases": [
+        "F09",
+        "漫画与动画平涂",
+        "漫画描线",
+        "comic",
+        "A11"
+      ],
+      "evidence": "evidence/production-recipes/comic.json"
+    },
+    {
+      "id": "ink",
+      "name": "水墨写意",
+      "status": "user-approved",
+      "kind": "mother",
+      "hierarchy": {
+        "familyId": "F10",
+        "branchId": null,
+        "baseLegacyId": "A13"
+      },
+      "aliases": [
+        "F10",
+        "水墨",
+        "水墨留白",
+        "ink",
+        "A13",
+        "水墨写意",
+        "水墨写意",
+        "水墨风"
+      ],
+      "evidence": "evidence/production-recipes/ink.json"
+    },
+    {
+      "id": "clay",
+      "name": "柔质立体",
+      "status": "user-approved",
+      "kind": "mother",
+      "hierarchy": {
+        "familyId": "F11",
+        "branchId": null,
+        "baseLegacyId": "A14"
+      },
+      "aliases": [
+        "F11",
+        "立体造型",
+        "柔质立体",
+        "clay",
+        "A14"
+      ],
+      "evidence": "evidence/production-recipes/clay.json"
+    },
+    {
+      "id": "pixel",
+      "name": "像素复古",
+      "status": "user-approved",
+      "kind": "mother",
+      "hierarchy": {
+        "familyId": "F12",
+        "branchId": null,
+        "baseLegacyId": "A15"
+      },
+      "aliases": [
+        "F12",
+        "像素与点阵图形",
+        "像素复古",
+        "pixel",
+        "A15"
+      ],
+      "evidence": "evidence/production-recipes/pixel.json"
+    },
+    {
+      "id": "papercut",
+      "name": "剪纸舞台",
+      "status": "user-approved",
+      "kind": "mother",
+      "hierarchy": {
+        "familyId": "F13",
+        "branchId": null,
+        "baseLegacyId": "A17"
+      },
+      "aliases": [
+        "F13",
+        "手工拼构",
+        "剪纸舞台",
+        "paper-stage",
+        "A17",
+        "papercut",
+        "剪纸"
+      ],
+      "evidence": "evidence/production-recipes/papercut.json"
+    },
+    {
+      "id": "gongbi",
+      "name": "工笔设色",
+      "status": "user-approved",
+      "kind": "mother",
+      "hierarchy": {
+        "familyId": "F14",
+        "branchId": null,
+        "baseLegacyId": "A67"
+      },
+      "aliases": [
+        "F14",
+        "工笔设色",
+        "gongbi",
+        "A67"
+      ],
+      "evidence": "evidence/production-recipes/gongbi.json"
+    },
+    {
+      "id": "landscape",
+      "name": "青绿山水",
+      "status": "user-approved",
+      "kind": "mother",
+      "hierarchy": {
+        "familyId": "F15",
+        "branchId": null,
+        "baseLegacyId": "A68"
+      },
+      "aliases": [
+        "F15",
+        "青绿山水",
+        "blue-green-landscape",
+        "A68",
+        "landscape",
+        "山水"
+      ],
+      "evidence": "evidence/production-recipes/landscape.json"
+    },
+    {
+      "id": "mural",
+      "name": "壁画重彩",
+      "status": "user-approved",
+      "kind": "mother",
+      "hierarchy": {
+        "familyId": "F16",
+        "branchId": null,
+        "baseLegacyId": "A69"
+      },
+      "aliases": [
+        "F16",
+        "壁画重彩",
+        "敦煌壁画",
+        "mural",
+        "A69"
+      ],
+      "evidence": "evidence/production-recipes/mural.json"
+    },
+    {
+      "id": "watercolor",
+      "name": "水彩洇染",
+      "status": "user-approved",
+      "kind": "mother",
+      "hierarchy": {
+        "familyId": "F17",
+        "branchId": null,
+        "baseLegacyId": "A74"
+      },
+      "aliases": [
+        "F17",
+        "透明水彩",
+        "水彩洇染",
+        "watercolor",
+        "A74",
+        "水彩"
+      ],
+      "evidence": "evidence/production-recipes/watercolor.json"
+    },
+    {
+      "id": "oil",
+      "name": "厚涂油画",
+      "status": "user-approved",
+      "kind": "mother",
+      "hierarchy": {
+        "familyId": "F18",
+        "branchId": null,
+        "baseLegacyId": "A75"
+      },
+      "aliases": [
+        "F18",
+        "厚涂油画",
+        "厚涂油彩",
+        "impasto",
+        "A75",
+        "oil",
+        "油画",
+        "厚涂油彩"
+      ],
+      "evidence": "evidence/production-recipes/oil.json"
+    },
+    {
+      "id": "woodcut",
+      "name": "木刻版画",
+      "status": "user-approved",
+      "kind": "mother",
+      "hierarchy": {
+        "familyId": "F19",
+        "branchId": null,
+        "baseLegacyId": "A76"
+      },
+      "aliases": [
+        "F19",
+        "刻印版画",
+        "木刻刀痕",
+        "woodcut",
+        "A76",
+        "木刻版画",
+        "版画",
+        "木刻"
+      ],
+      "evidence": "evidence/production-recipes/woodcut.json"
+    },
+    {
+      "id": "blueprint",
+      "name": "技术蓝图",
+      "status": "user-approved",
+      "kind": "branch",
+      "hierarchy": {
+        "familyId": "F07",
+        "branchId": "A09",
+        "baseLegacyId": "A09"
+      },
+      "aliases": [
+        "技术蓝图",
+        "工程蓝图",
+        "A09",
+        "blueprint"
+      ],
+      "evidence": "evidence/production-recipes/blueprint.json"
     }
   ],
   "default": "minimal"

@@ -1,0 +1,26 @@
+{
+  "language": "保留面板壳与选择状态，内容行重排和详情展开接住前一对象",
+  "continuityAnchors": [
+    "headphone",
+    "principal-four-remain",
+    "burden-two-remain"
+  ],
+  "entryExitBridges": [
+    149,
+    388,
+    461,
+    563,
+    616,
+    686,
+    783,
+    856,
+    898
+  ],
+  "labelClearFrames": 6,
+  "coverFrames": [],
+  "sourceCut": "continuous original voice, no source jump cuts",
+  "standards": [
+    "object-match",
+    "relation-expand"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "surfaceAssignments": {
+    "objects": "淡纸底、细描边、淡彩和局部植物纹饰；已有透明工笔概念资产不覆盖真人",
+    "person": "original-color-no-treatment"
+  },
+  "textureScale": 6,
+  "edgeTreatment": {
+    "strokeWidth": 4,
+    "roughness": 0
+  },
+  "standards": [
+    "matte",
+    "paper-grain"
+  ]
+}

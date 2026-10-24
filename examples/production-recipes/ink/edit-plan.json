@@ -1,0 +1,15 @@
+{
+  "fps": 30,
+  "frameCount": 1100,
+  "audioSegments": [
+    {
+      "sourceIn": 0,
+      "sourceOut": 1100,
+      "outputIn": 0,
+      "outputOut": 1100
+    }
+  ],
+  "audio": {
+    "fadeSamplesAtActualSeams": 0
+  }
+}

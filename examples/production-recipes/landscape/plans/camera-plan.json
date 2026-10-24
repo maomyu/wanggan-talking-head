@@ -1,0 +1,28 @@
+{
+  "language": "固定画幅观察同一长卷；前后景作有限相对位移，图文和人物不随背景漂移",
+  "viewTransforms": [
+    {
+      "at": 0,
+      "x": 0,
+      "y": 0,
+      "s": 1,
+      "a": 1
+    },
+    {
+      "at": 1099,
+      "x": 0,
+      "y": 0,
+      "s": 1,
+      "a": 1
+    }
+  ],
+  "protected": [
+    "person",
+    "captions",
+    "title"
+  ],
+  "standards": [
+    "locked-stage",
+    "parallel-views"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "surfaceAssignments": {
+    "objects": "technical-linework",
+    "person": "unfiltered-original"
+  },
+  "roughness": 0.84,
+  "edgeTreatment": "precise-ruled-line",
+  "textureScale": 260,
+  "standards": [
+    "matte"
+  ]
+}

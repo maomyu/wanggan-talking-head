@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "id": "geometry",
+  "name": "现代几何平面",
+  "mode": "design-recipe",
+  "status": "user-approved",
+  "hierarchy": {
+    "familyId": "F02",
+    "branchId": null,
+    "baseLegacyId": "A03"
+  },
+  "selections": {
+    "information": [
+      "problem-mechanism-response",
+      "parallel-options",
+      "option-comparison",
+      "contrast-turn",
+      "recap-return"
+    ],
+    "rhythm": [
+      "speech-led",
+      "reveal-hold-release",
+      "progressive-build",
+      "setup-payoff",
+      "ending-resolve"
+    ],
+    "art-style": [
+      "F02"
+    ],
+    "palette": [
+      "vivid-blocks"
+    ],
+    "material": [
+      "matte"
+    ],
+    "representation": [
+      "flat-symbol",
+      "inset-stage"
+    ],
+    "object-motion": [
+      "sort-compare",
+      "accumulate-reduce",
+      "reveal-consequence",
+      "motivated-move"
+    ],
+    "camera": [
+      "locked-stage",
+      "wide-detail-return"
+    ],
+    "transition": [
+      "object-match",
+      "relation-expand"
+    ],
+    "typography": [
+      "raised-captions",
+      "clean-sans",
+      "comparison-alignment"
+    ],
+    "lighting": [
+      "flat-print-light"
+    ]
+  },
+  "overrides": {
+    "notes": "用户已认可本案例的完整十一类配方。人物原色、角落真圆、上移字幕；换素材重新设计，不泛化为任意组合已验收。"
+  },
+  "caseId": null,
+  "sourceRequiredForProduction": true,
+  "implementation": {
+    "kind": "source-specific-reference",
+    "path": "examples/production-recipes/geometry",
+    "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+    "buildMode": "preserved-production-case",
+    "photoAsset": true,
+    "vendor": false,
+    "timingContract": "study-custom-symbolic-events",
+    "orchestration": {
+      "id": "diagram",
+      "selection": "explicit",
+      "reason": "用户明确选择"
+    },
+    "voiceSha256": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+    "edlSha256": "699c481b98445d39dedb1b09bf46e5f7db6b5dfe422e67bbeaf6718a2c335cf2",
+    "newSource": "按本片原句重设计语义、对象、动作、结果、读窗和交接；跨文案等待用户新素材验证"
+  },
+  "productionRules": {
+    "layout": "用块面、轴线与明确图底组织关系",
+    "objectMotion": "块面聚合、分裂、分组或消减对应语义",
+    "camera": "平面轴向推拉，避免无意义浮动",
+    "transition": "共享形状保持坐标，块面展开下一关系",
+    "typography": "大字与几何对齐，颜色以角色分配",
+    "preserve": [
+      "硬边块面",
+      "抽象比例与轴线",
+      "图底及字阶"
+    ],
+    "adaptOnNewContent": [
+      "原句和关系",
+      "每张图片的任务",
+      "对象初态、动作及结果",
+      "阅读窗口",
+      "前后交接",
+      "真实源时间与字幕"
+    ],
+    "neverInheritAsDefault": [
+      "当前财经物件",
+      "示意数量",
+      "固定秒点",
+      "固定三项建议",
+      "本片人像位置"
+    ]
+  },
+  "axisReferences": {
+    "art-style": {
+      "skill": "skills/talking-head-art-style/SKILL.md",
+      "casePlan": "examples/production-recipes/geometry/plans/style-contract.json",
+      "sha256": "f8dda87e544b0635d5b750bfcfc45b7ea5747194ae4ca68e3a7173e32fce0609",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "palette": {
+      "skill": "skills/talking-head-palette/SKILL.md",
+      "casePlan": "examples/production-recipes/geometry/plans/palette-tokens.json",
+      "sha256": "7cd3714da7559f73c5ad69aba271825e7450a627fbbf15283371cfebaf65fccb",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "material": {
+      "skill": "skills/talking-head-material/SKILL.md",
+      "casePlan": "examples/production-recipes/geometry/plans/material-tokens.json",
+      "sha256": "69e06afe0117a6c4c918a46a5b7992946cca929ea8562f541adf54f100b4c880",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "representation": {
+      "skill": "skills/talking-head-representation/SKILL.md",
+      "casePlan": "examples/production-recipes/geometry/plans/object-spec.json",
+      "sha256": "bdfb7ce5d81fc44683cd68f25e72806b069c1b40104f34e9e6f3217332a218b2",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "object-motion": {
+      "skill": "skills/talking-head-object-motion/SKILL.md",
+      "casePlan": "examples/production-recipes/geometry/plans/motion-events.json",
+      "sha256": "18a8218cc380d2b996ed08d267ceedf4937f04f54ff0911c35f05dda1a57f552",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "camera": {
+      "skill": "skills/talking-head-camera/SKILL.md",
+      "casePlan": "examples/production-recipes/geometry/plans/camera-plan.json",
+      "sha256": "b1b7a1da4d1f28d9d056195fecc4d300c2b9ee3b3d4c0d4aa251a71e1d453b35",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "transition": {
+      "skill": "skills/talking-head-transition/SKILL.md",
+      "casePlan": "examples/production-recipes/geometry/plans/transition-plan.json",
+      "sha256": "0bfcde6b8dde23e1c4c9de4f07064ffbef019aed9503abcfd21942f916cb8be2",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "typography": {
+      "skill": "skills/talking-head-typography/SKILL.md",
+      "casePlan": "examples/production-recipes/geometry/plans/layout-plan.json",
+      "sha256": "a2cf54b403c48f60bc27680cc00755aa707633364be41bce04f02eb0fefaf750",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "lighting": {
+      "skill": "skills/talking-head-lighting/SKILL.md",
+      "casePlan": "examples/production-recipes/geometry/plans/finish-plan.json",
+      "sha256": "cff4f38a9f751bdbe0aed0ed8b7f2508d0b7d271904d10a1734aac1888b8cf74",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "information": {
+      "skill": "skills/talking-head-information/SKILL.md",
+      "casePlan": "examples/production-recipes/geometry/plans/semantic-plan.json",
+      "sha256": "6b75b9199943656e0e72b3112e8c521bd99558e889a131fd7d3e2ad034c9d45c",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "rhythm": {
+      "skill": "skills/talking-head-rhythm/SKILL.md",
+      "casePlan": "examples/production-recipes/geometry/plans/timing.json",
+      "sha256": "6d37eb62a35fe2fb94608e69afca87485d3970ea08317cd068570caac51456b1",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    }
+  },
+  "approvalDate": "2026-10-24"
+}

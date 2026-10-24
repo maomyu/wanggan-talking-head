@@ -1,0 +1,877 @@
+{
+  "version": "1.21.0",
+  "approvalDate": "2026-10-24",
+  "approvedScope": "用户认可19套母画风统一配方与调用入口正式并入；技术蓝图独立为分支",
+  "recipeId": "minimal",
+  "familyId": "F01",
+  "branchId": null,
+  "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+  "originalVideoSha256": "f536cf567f9d4bd44f38a68b743716cbf7bab14be4162a86b6c89e8697949d1b",
+  "duration": 36.666666666666664,
+  "sourceSpecific": true,
+  "crossScript": "deferred-by-user",
+  "preservedImplementation": {
+    "examples/production-recipes/minimal/edit-plan.json": "699c481b98445d39dedb1b09bf46e5f7db6b5dfe422e67bbeaf6718a2c335cf2",
+    "examples/production-recipes/minimal/scene-plan.json": "22585804c7b7dcef29705c7e322f007b909d15561c26c326b31eea801c15f4cd",
+    "examples/production-recipes/minimal/timing.json": "c2fd00b17ded4a7866ec5b3b12c659b8b25934bb0fbf12a5dc45736eb097153a",
+    "examples/production-recipes/minimal/orchestration.json": "e6a23f0c84ce2f8eeb753c1c68de1f3ba0fd3cf29354b0f82e3da679804f19de",
+    "examples/production-recipes/minimal/recipe.json": "0e4221b9fc8d0c85eaf5045ebbdeab66277556a1692adfbdf964652da5727bed",
+    "examples/production-recipes/minimal/facts.json": "ea57140e17c2f65668dc79baa82b63647c9043dd170e8e9c76d2fcc7884c389b",
+    "examples/production-recipes/minimal/plans/palette-tokens.json": "626eeee0d7777e01e369c8ab99c5a7d26e28d663b6d6c8cb6a647dc9743b8345",
+    "examples/production-recipes/minimal/plans/transition-plan.json": "e529c4a632f7208ec960479f63e37c6e810d0f05a93805371bf8d21c1a8e44ae",
+    "examples/production-recipes/minimal/plans/timing.json": "b08b69a5a8fd0814d1421c4c9be03a82cd365a7d293c3daaaaf115bc475f69fc",
+    "examples/production-recipes/minimal/plans/layout-plan.json": "538435e577e2faf96d36aea392e81c817e861ba02acbf10ab855ad844b120250",
+    "examples/production-recipes/minimal/plans/brief.json": "1c87713a11a9ebeb719d4192c06b2f1caf03da7e2c14298885b25b74a4e99a87",
+    "examples/production-recipes/minimal/plans/semantic-plan.json": "4b6782a155a7d5fbd502b247db889438f34267ee4695937a83ce4d9698c01b5b",
+    "examples/production-recipes/minimal/plans/finish-plan.json": "b0465dcba09becd05eebe3cd3d262f3812fd4425fb05999464be54c1a2ad0504",
+    "examples/production-recipes/minimal/plans/camera-plan.json": "2049c246502fb1559bcdb6133300e4b4350e44f8da002bee996d79434b6b6bfe",
+    "examples/production-recipes/minimal/plans/object-spec.json": "ae405fc8be0127e04dc764a4b5bf5c83ff7d2efc1bffa93a75ccc61ee674418a",
+    "examples/production-recipes/minimal/plans/material-tokens.json": "0b34e827436826fcf59e33998a2ef6a53153adeb1fbdf72102421df22236f024",
+    "examples/production-recipes/minimal/plans/style-contract.json": "7118cea9e73796b09e167365b716be6af90acf8600668b122e37a4243cac2239",
+    "examples/production-recipes/minimal/plans/motion-events.json": "4a0d49d06a590a5e4f58fa9aad39b16e8802f346465189143cbccb68852b9e53",
+    "examples/production-recipes/minimal/scripts/motion.mjs": "619f5b54f7cab7ad86b82e2f0463c7270096de90c36a003943634b3e5ec818cf",
+    "examples/production-recipes/minimal/scripts/composition.template": "ee479671aed1dbe8b10e32aa693d2bc5f6b0e98d0c1adce58f0db35d243bad09",
+    "examples/production-recipes/minimal/scripts/film.css": "b11a33bf9c7286b6f27e7a251bca16fce5fa60da075bdd4137af08489b4b2fe5",
+    "examples/production-recipes/minimal/scripts/build-project.mjs": "3d1f13f3fff4454b706bdc03110a2db2deb435ae2c4ddc6eba1e5e416e18c753"
+  },
+  "technicalChecks": {
+    "verification.json": {
+      "sha256": "aed60fbd6f368f815c5786a8edc2e9f3ca5f49a8e444ebf58cbd885170fcf595",
+      "data": {
+        "status": "verified",
+        "key": "minimal",
+        "video": {
+          "sha256": "f536cf567f9d4bd44f38a68b743716cbf7bab14be4162a86b6c89e8697949d1b",
+          "width": 1080,
+          "height": 1920,
+          "fps": "30/1",
+          "frames": 1100,
+          "duration": 36.666666666666664,
+          "bytes": 52095339,
+          "faststart": true,
+          "sharedFinalPlaybackInode": true
+        },
+        "audio": {
+          "originalVoiceCorrelation": 0.9999823504746719,
+          "offsetSamples": 0,
+          "decodedSamplesCompared": 1760000,
+          "min100msVoiceRmsRatio": 0.9925177151927742,
+          "dropped100msVoiceWindows": 0,
+          "audibleTracks": 1,
+          "scope": "actual decoded original-voice comparison; not subjective listening review"
+        },
+        "person": {
+          "actualEncodedSamples": [
+            {
+              "frame": 0,
+              "box": [
+                230,
+                580,
+                620,
+                620
+              ],
+              "innerRGBMeanAbsoluteError": 2.5302558629072904
+            },
+            {
+              "frame": 75,
+              "box": [
+                114,
+                544,
+                620,
+                620
+              ],
+              "innerRGBMeanAbsoluteError": 2.786493414083915
+            },
+            {
+              "frame": 180,
+              "box": [
+                100,
+                540,
+                620,
+                620
+              ],
+              "innerRGBMeanAbsoluteError": 2.0850279904802718
+            },
+            {
+              "frame": 750,
+              "box": [
+                64,
+                550,
+                580,
+                580
+              ],
+              "innerRGBMeanAbsoluteError": 2.142736124844822
+            },
+            {
+              "frame": 1030,
+              "box": [
+                190,
+                500,
+                700,
+                700
+              ],
+              "innerRGBMeanAbsoluteError": 2.1105378609519336
+            },
+            {
+              "frame": 1099,
+              "box": [
+                190,
+                500,
+                700,
+                700
+              ],
+              "innerRGBMeanAbsoluteError": 2.1132158487804156
+            }
+          ],
+          "all1100AuthoredCircleFrames": 1100
+        },
+        "captionCount": 21,
+        "denseFrames": 183,
+        "htmlSha256": "4d083f8bbaf49ae9148fb2c19a1bbbbbaa957f3941b77f7e0749fd952ace6f3a",
+        "sceneContractSha256": "735778ccd892b35697097ee0970a9f08f139d8a7602813bb69ae8cb8ac8f6034",
+        "textAuditSha256": "2e5b379a63b5e40d76b8971ee4b431f55edb7e3a4fa15db7bd447fd9c627ca2d",
+        "capturePolicy": {
+          "kind": "opaque-SDR PNG compression only",
+          "engineVersion": "0.8.174",
+          "engineSha256": "e80a9d81838c0fe034f4d00af1c0262f570d64b2bb8b8c487a22cf7d8a70cc4e",
+          "installedModuleUnchanged": true,
+          "applications": 1,
+          "outputPixelEquivalenceSamples": 64,
+          "pixelEquivalenceReportSha256": "3d51cb1cca8e7974fbdc6ce029027b7adbd3fb2aa07bbdf6730581c8e0e6ab6e",
+          "alphaAndHDRCaptureUnchanged": true,
+          "geometryTimingFontsAudioAndEncodingUnchanged": true,
+          "exitCode": 0
+        },
+        "scope": "one actual complete source-specific film; technical/author checks, not independent review"
+      }
+    },
+    "scene-contract.json": {
+      "sha256": "735778ccd892b35697097ee0970a9f08f139d8a7602813bb69ae8cb8ac8f6034",
+      "data": {
+        "framesChecked": 1100,
+        "issues": [],
+        "poses": [
+          {
+            "frame": 0,
+            "x": 230,
+            "y": 580,
+            "w": 620
+          },
+          {
+            "frame": 75,
+            "x": 114.49588012695312,
+            "y": 544.4602661132812,
+            "w": 620
+          },
+          {
+            "frame": 180,
+            "x": 100,
+            "y": 540,
+            "w": 620
+          },
+          {
+            "frame": 750,
+            "x": 64,
+            "y": 550,
+            "w": 580
+          },
+          {
+            "frame": 1030,
+            "x": 190,
+            "y": 500,
+            "w": 700
+          },
+          {
+            "frame": 1099,
+            "x": 190,
+            "y": 500,
+            "w": 700
+          }
+        ],
+        "deterministic": true,
+        "maxCaptionBottom": 1768,
+        "states": {
+          "0": {
+            "frame": 0,
+            "person": {
+              "x": 230,
+              "y": 580,
+              "w": 620,
+              "h": 620,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 760,
+                "y": 700,
+                "s": 0.6,
+                "a": 0
+              },
+              "extra": {
+                "x": 350,
+                "y": 1230,
+                "s": 0.6,
+                "a": 0
+              },
+              "food": {
+                "x": 760,
+                "y": 1195,
+                "s": 0.7,
+                "a": 0
+              },
+              "principal": {
+                "x": 780,
+                "y": 720,
+                "s": 0.3,
+                "a": 0
+              },
+              "burden": {
+                "x": 760,
+                "y": 750,
+                "s": 0.44,
+                "a": 0
+              },
+              "trend": {
+                "x": 750,
+                "y": 750,
+                "s": 0.44,
+                "a": 0
+              },
+              "risk": {
+                "x": 674,
+                "y": 650,
+                "s": 0.43,
+                "a": 0
+              },
+              "avoid": {
+                "x": 665,
+                "y": 850,
+                "s": 0.43,
+                "a": 0
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1
+            },
+            "principalUnits": 8,
+            "debtUnits": 6,
+            "sourceFrame": 0,
+            "style": "minimal",
+            "modules": {
+              "style": "minimal",
+              "palette": "#f7f8f6",
+              "material": "photo-original",
+              "representation": 8,
+              "motion": "讲述者保留主位，摄影物件作已有/加购与需要的共同尺度对比；状态保留到结尾",
+              "camera": "locked-presenter",
+              "transition": 8,
+              "typography": "presenter",
+              "lighting": 0,
+              "information": 8,
+              "rhythm": 8
+            }
+          },
+          "334": {
+            "frame": 334,
+            "person": {
+              "x": 100,
+              "y": 540,
+              "w": 620,
+              "h": 620,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 165.49062357591674,
+                "y": 1236.9762109636881,
+                "s": 0.42740050361881454,
+                "a": 0
+              },
+              "extra": {
+                "x": 350,
+                "y": 1230,
+                "s": 0.6,
+                "a": 0
+              },
+              "food": {
+                "x": 760,
+                "y": 1207.3279370877133,
+                "s": 0.7,
+                "a": 0
+              },
+              "principal": {
+                "x": 760,
+                "y": 760,
+                "s": 0.34,
+                "a": 1
+              },
+              "burden": {
+                "x": 760,
+                "y": 750,
+                "s": 0.44,
+                "a": 0
+              },
+              "trend": {
+                "at": 323,
+                "x": 750,
+                "y": 750,
+                "s": 0.44,
+                "a": 0,
+                "f": 323
+              },
+              "risk": {
+                "x": 674,
+                "y": 650,
+                "s": 0.43,
+                "a": 0
+              },
+              "avoid": {
+                "x": 665,
+                "y": 850,
+                "s": 0.43,
+                "a": 0
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "sourceFrame": 334,
+            "style": "minimal",
+            "modules": {
+              "style": "minimal",
+              "palette": "#f7f8f6",
+              "material": "photo-original",
+              "representation": 8,
+              "motion": "讲述者保留主位，摄影物件作已有/加购与需要的共同尺度对比；状态保留到结尾",
+              "camera": "locked-presenter",
+              "transition": 8,
+              "typography": "presenter",
+              "lighting": 0,
+              "information": 8,
+              "rhythm": 8
+            }
+          },
+          "615": {
+            "frame": 615,
+            "person": {
+              "x": 64,
+              "y": 550,
+              "w": 580,
+              "h": 580,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 100,
+                "y": 1230,
+                "s": 0.6,
+                "a": 1
+              },
+              "extra": {
+                "x": 350,
+                "y": 1230,
+                "s": 0.6,
+                "a": 1
+              },
+              "food": {
+                "x": 760,
+                "y": 1195,
+                "s": 0.7,
+                "a": 1
+              },
+              "principal": {
+                "x": 700,
+                "y": 780,
+                "s": 0.42,
+                "a": 0
+              },
+              "burden": {
+                "x": 757.9307631665727,
+                "y": 1263.0959870807487,
+                "s": 0.3924154210005639,
+                "a": 0
+              },
+              "trend": {
+                "at": 323,
+                "x": 750,
+                "y": 750,
+                "s": 0.44,
+                "a": 0,
+                "f": 323
+              },
+              "risk": {
+                "x": 674,
+                "y": 650,
+                "s": 0.43,
+                "a": 0
+              },
+              "avoid": {
+                "x": 665,
+                "y": 850,
+                "s": 0.43,
+                "a": 0
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "sourceFrame": 615,
+            "style": "minimal",
+            "modules": {
+              "style": "minimal",
+              "palette": "#f7f8f6",
+              "material": "photo-original",
+              "representation": 8,
+              "motion": "讲述者保留主位，摄影物件作已有/加购与需要的共同尺度对比；状态保留到结尾",
+              "camera": "locked-presenter",
+              "transition": 8,
+              "typography": "presenter",
+              "lighting": 0,
+              "information": 8,
+              "rhythm": 8
+            }
+          },
+          "685": {
+            "frame": 685,
+            "person": {
+              "x": 64,
+              "y": 550,
+              "w": 580,
+              "h": 580,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 100,
+                "y": 1230.2263374485597,
+                "s": 0.5997942386831275,
+                "a": 0
+              },
+              "extra": {
+                "at": 638,
+                "x": 350,
+                "y": 1230,
+                "s": 0.6,
+                "a": 0,
+                "f": 638
+              },
+              "food": {
+                "at": 638,
+                "x": 760,
+                "y": 1195,
+                "s": 0.7,
+                "a": 0,
+                "f": 638
+              },
+              "principal": {
+                "x": 699.9809603141548,
+                "y": 780.2284762301422,
+                "s": 0.4200285595287678,
+                "a": 1
+              },
+              "burden": {
+                "x": 745.6436630808363,
+                "y": 925.2007347229983,
+                "s": 0.4661380215149822,
+                "a": 0
+              },
+              "trend": {
+                "at": 323,
+                "x": 750,
+                "y": 750,
+                "s": 0.44,
+                "a": 0,
+                "f": 323
+              },
+              "risk": {
+                "x": 674,
+                "y": 650,
+                "s": 0.43,
+                "a": 0
+              },
+              "avoid": {
+                "x": 665,
+                "y": 850,
+                "s": 0.43,
+                "a": 0
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "sourceFrame": 685,
+            "style": "minimal",
+            "modules": {
+              "style": "minimal",
+              "palette": "#f7f8f6",
+              "material": "photo-original",
+              "representation": 8,
+              "motion": "讲述者保留主位，摄影物件作已有/加购与需要的共同尺度对比；状态保留到结尾",
+              "camera": "locked-presenter",
+              "transition": 8,
+              "typography": "presenter",
+              "lighting": 0,
+              "information": 8,
+              "rhythm": 8
+            }
+          },
+          "782": {
+            "frame": 782,
+            "person": {
+              "x": 64,
+              "y": 550,
+              "w": 580,
+              "h": 580,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 100,
+                "y": 1290.60732375133,
+                "s": 0.5449024329533365,
+                "a": 0
+              },
+              "extra": {
+                "at": 638,
+                "x": 350,
+                "y": 1230,
+                "s": 0.6,
+                "a": 0,
+                "f": 638
+              },
+              "food": {
+                "at": 638,
+                "x": 760,
+                "y": 1195,
+                "s": 0.7,
+                "a": 0,
+                "f": 638
+              },
+              "principal": {
+                "x": 680,
+                "y": 1020,
+                "s": 0.45,
+                "a": 1
+              },
+              "burden": {
+                "x": 740.0670943456198,
+                "y": 771.8450945045435,
+                "s": 0.4995974339262814,
+                "a": 0
+              },
+              "trend": {
+                "at": 323,
+                "x": 750,
+                "y": 750,
+                "s": 0.44,
+                "a": 0,
+                "f": 323
+              },
+              "risk": {
+                "x": 674,
+                "y": 650,
+                "s": 0.43,
+                "a": 1
+              },
+              "avoid": {
+                "x": 665,
+                "y": 850,
+                "s": 0.43,
+                "a": 0
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "sourceFrame": 782,
+            "style": "minimal",
+            "modules": {
+              "style": "minimal",
+              "palette": "#f7f8f6",
+              "material": "photo-original",
+              "representation": 8,
+              "motion": "讲述者保留主位，摄影物件作已有/加购与需要的共同尺度对比；状态保留到结尾",
+              "camera": "locked-presenter",
+              "transition": 8,
+              "typography": "presenter",
+              "lighting": 0,
+              "information": 8,
+              "rhythm": 8
+            }
+          },
+          "897": {
+            "frame": 897,
+            "person": {
+              "x": 64,
+              "y": 550,
+              "w": 580,
+              "h": 580,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 100,
+                "y": 1339.993648061182,
+                "s": 0.5000057744898345,
+                "a": 0
+              },
+              "extra": {
+                "at": 638,
+                "x": 350,
+                "y": 1230,
+                "s": 0.6,
+                "a": 0,
+                "f": 638
+              },
+              "food": {
+                "at": 638,
+                "x": 760,
+                "y": 1195,
+                "s": 0.7,
+                "a": 0,
+                "f": 638
+              },
+              "principal": {
+                "x": 497.6035574277431,
+                "y": 1279.564168275904,
+                "s": 0.3588017787138716,
+                "a": 0
+              },
+              "burden": {
+                "x": 740,
+                "y": 770,
+                "s": 0.5,
+                "a": 1
+              },
+              "trend": {
+                "at": 323,
+                "x": 750,
+                "y": 750,
+                "s": 0.44,
+                "a": 0,
+                "f": 323
+              },
+              "risk": {
+                "at": 856,
+                "x": 674,
+                "y": 650,
+                "s": 0.43,
+                "a": 0,
+                "f": 856
+              },
+              "avoid": {
+                "at": 856,
+                "x": 665,
+                "y": 850,
+                "s": 0.43,
+                "a": 0,
+                "f": 856
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1
+            },
+            "principalUnits": 4,
+            "debtUnits": 2,
+            "sourceFrame": 897,
+            "style": "minimal",
+            "modules": {
+              "style": "minimal",
+              "palette": "#f7f8f6",
+              "material": "photo-original",
+              "representation": 8,
+              "motion": "讲述者保留主位，摄影物件作已有/加购与需要的共同尺度对比；状态保留到结尾",
+              "camera": "locked-presenter",
+              "transition": 8,
+              "typography": "presenter",
+              "lighting": 0,
+              "information": 8,
+              "rhythm": 8
+            }
+          },
+          "1099": {
+            "frame": 1099,
+            "person": {
+              "x": 190,
+              "y": 500,
+              "w": 700,
+              "h": 700,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "at": 1099,
+                "x": 100,
+                "y": 1340,
+                "s": 0.5,
+                "a": 1,
+                "f": 1099
+              },
+              "extra": {
+                "at": 638,
+                "x": 350,
+                "y": 1230,
+                "s": 0.6,
+                "a": 0,
+                "f": 638
+              },
+              "food": {
+                "at": 638,
+                "x": 760,
+                "y": 1195,
+                "s": 0.7,
+                "a": 0,
+                "f": 638
+              },
+              "principal": {
+                "at": 1099,
+                "x": 420,
+                "y": 1390,
+                "s": 0.32,
+                "a": 1,
+                "f": 1099
+              },
+              "burden": {
+                "at": 1099,
+                "x": 800,
+                "y": 1380,
+                "s": 0.35,
+                "a": 1,
+                "f": 1099
+              },
+              "trend": {
+                "at": 323,
+                "x": 750,
+                "y": 750,
+                "s": 0.44,
+                "a": 0,
+                "f": 323
+              },
+              "risk": {
+                "at": 856,
+                "x": 674,
+                "y": 650,
+                "s": 0.43,
+                "a": 0,
+                "f": 856
+              },
+              "avoid": {
+                "at": 856,
+                "x": 665,
+                "y": 850,
+                "s": 0.43,
+                "a": 0,
+                "f": 856
+              }
+            },
+            "camera": {
+              "at": 1099,
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "f": 1099
+            },
+            "principalUnits": 4,
+            "debtUnits": 2,
+            "sourceFrame": 1099,
+            "style": "minimal",
+            "modules": {
+              "style": "minimal",
+              "palette": "#f7f8f6",
+              "material": "photo-original",
+              "representation": 8,
+              "motion": "讲述者保留主位，摄影物件作已有/加购与需要的共同尺度对比；状态保留到结尾",
+              "camera": "locked-presenter",
+              "transition": 8,
+              "typography": "presenter",
+              "lighting": 0,
+              "information": 8,
+              "rhythm": 8
+            }
+          }
+        },
+        "moduleBindings": {
+          "style": "minimal",
+          "palette": "#f7f8f6",
+          "material": "photo-original",
+          "representation": 8,
+          "motion": "讲述者保留主位，摄影物件作已有/加购与需要的共同尺度对比；状态保留到结尾",
+          "camera": "locked-presenter",
+          "transition": 8,
+          "typography": "presenter",
+          "lighting": 0,
+          "information": 8,
+          "rhythm": 8
+        },
+        "voices": 1,
+        "captionCount": 21,
+        "mediaErrors": [
+          null,
+          null
+        ],
+        "allImagesLoaded": true,
+        "errors": [],
+        "failedRequests": [],
+        "noCapitalReplenishment": true,
+        "debtResult": true,
+        "ok": true,
+        "visualInputs": {
+          "index.html": "4d083f8bbaf49ae9148fb2c19a1bbbbbaa957f3941b77f7e0749fd952ace6f3a",
+          "assets/film.css": "b11a33bf9c7286b6f27e7a251bca16fce5fa60da075bdd4137af08489b4b2fe5",
+          "assets/film-config.js": "f89f514d658b7a9911df68f2b756726f2d9c311e3182d313fd72a00b10b1e8ba",
+          "scripts/build-project.mjs": "3d1f13f3fff4454b706bdc03110a2db2deb435ae2c4ddc6eba1e5e416e18c753",
+          "scripts/motion.mjs": "619f5b54f7cab7ad86b82e2f0463c7270096de90c36a003943634b3e5ec818cf",
+          "scripts/render-opaque-png.mjs": "5d7a94f835eed9fa7643ffb4e0d2ad25a33f1e1076f658465b511e3d1ecd3f62"
+        }
+      }
+    },
+    "text-path-audit.json": {
+      "sha256": "2e5b379a63b5e40d76b8971ee4b431f55edb7e3a4fa15db7bd447fd9c627ca2d",
+      "data": {
+        "frames": 1100,
+        "glyphs": 62448,
+        "points": 187344,
+        "issues": [],
+        "issueCount": 0,
+        "windows": [],
+        "intentional": [],
+        "scope": "All1100 authored frames; three probe points per nonspace glyph in reading and exiting text (effective opacity>=0.2). Actual DOM paint order, circular clipping and source PNG alpha respected. Hidden reverse paper and intentional semantic strike-through explicitly excluded; complements actual encoded dense-frame review, not universal pixel OCR.",
+        "visualInputs": {
+          "index.html": "4d083f8bbaf49ae9148fb2c19a1bbbbbaa957f3941b77f7e0749fd952ace6f3a",
+          "assets/film.css": "b11a33bf9c7286b6f27e7a251bca16fce5fa60da075bdd4137af08489b4b2fe5",
+          "scripts/motion.mjs": "619f5b54f7cab7ad86b82e2f0463c7270096de90c36a003943634b3e5ec818cf",
+          "assets/film-config.js": "f89f514d658b7a9911df68f2b756726f2d9c311e3182d313fd72a00b10b1e8ba"
+        },
+        "sourceBindingScope": "Current visual inputs recorded after this isolated audit; no edits were made during the run",
+        "ok": true
+      }
+    }
+  }
+}

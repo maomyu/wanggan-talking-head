@@ -1,0 +1,27 @@
+{
+  "language": "同一分格的黑边由三列合为两格，再由风险页侧推接入减负担；对象身份跨格保留",
+  "continuityAnchors": [
+    "headphone",
+    "principal-four-remain",
+    "burden-two-remain"
+  ],
+  "entryExitBridges": [
+    149,
+    388,
+    461,
+    563,
+    616,
+    686,
+    783,
+    856,
+    898
+  ],
+  "labelClearFrames": 6,
+  "coverFrames": [],
+  "sourceCut": "continuous original voice, no source jump cuts",
+  "standards": [
+    "object-match",
+    "relation-expand",
+    "foreground-occlusion"
+  ]
+}

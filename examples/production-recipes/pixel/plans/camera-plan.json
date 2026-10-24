@@ -1,0 +1,29 @@
+{
+  "language": "锁定平面格坐标，对象在格场中重组；真人原生连续30帧，像素步进只作用图解",
+  "viewTransforms": [
+    {
+      "at": 0,
+      "x": 0,
+      "y": 0,
+      "s": 1,
+      "a": 1
+    },
+    {
+      "at": 1099,
+      "x": 0,
+      "y": 0,
+      "s": 1,
+      "a": 1
+    }
+  ],
+  "protected": [
+    "person",
+    "captions",
+    "title",
+    "all reading labels"
+  ],
+  "standards": [
+    "locked-stage",
+    "wide-detail-return"
+  ]
+}

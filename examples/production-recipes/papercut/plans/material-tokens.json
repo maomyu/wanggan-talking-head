@@ -1,0 +1,14 @@
+{
+  "surfaceAssignments": {
+    "objects": "哑光彩纸、清楚切边、有限折面和接触影，非撕纸票据或照片拼贴",
+    "person": "original-color-no-treatment"
+  },
+  "textureScale": 6,
+  "edgeTreatment": {
+    "strokeWidth": 4,
+    "roughness": 0
+  },
+  "standards": [
+    "matte"
+  ]
+}

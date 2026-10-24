@@ -1,0 +1,15 @@
+{
+  "surfaceAssignments": {
+    "objects": "复用青绿原始概念长卷的矿物色、细皴与纸白；图解用稳定实色阅读面",
+    "person": "original-color-no-treatment"
+  },
+  "textureScale": 6,
+  "edgeTreatment": {
+    "strokeWidth": 4,
+    "roughness": 0
+  },
+  "standards": [
+    "matte",
+    "paper-grain"
+  ]
+}

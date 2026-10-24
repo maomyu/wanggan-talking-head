@@ -1,0 +1,14 @@
+{
+  "surfaceAssignments": {
+    "objects": "低反光界面表面、细边界、无发光泛滥",
+    "person": "original-color-no-treatment"
+  },
+  "textureScale": 6,
+  "edgeTreatment": {
+    "strokeWidth": 4,
+    "roughness": 0
+  },
+  "standards": [
+    "matte"
+  ]
+}

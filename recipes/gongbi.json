@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "id": "gongbi",
+  "name": "工笔设色",
+  "mode": "design-recipe",
+  "status": "user-approved",
+  "hierarchy": {
+    "familyId": "F14",
+    "branchId": null,
+    "baseLegacyId": "A67"
+  },
+  "selections": {
+    "information": [
+      "problem-mechanism-response",
+      "parallel-options",
+      "option-comparison",
+      "contrast-turn",
+      "recap-return"
+    ],
+    "rhythm": [
+      "speech-led",
+      "reveal-hold-release",
+      "progressive-build",
+      "setup-payoff",
+      "ending-resolve"
+    ],
+    "art-style": [
+      "F14"
+    ],
+    "palette": [
+      "soft-earth"
+    ],
+    "material": [
+      "matte",
+      "paper-grain"
+    ],
+    "representation": [
+      "flat-symbol",
+      "inset-stage"
+    ],
+    "object-motion": [
+      "trace-build",
+      "sort-compare",
+      "accumulate-reduce",
+      "reveal-consequence"
+    ],
+    "camera": [
+      "locked-stage",
+      "parallel-views"
+    ],
+    "transition": [
+      "object-match",
+      "relation-expand",
+      "foreground-occlusion"
+    ],
+    "typography": [
+      "raised-captions",
+      "serif-display",
+      "comparison-alignment"
+    ],
+    "lighting": [
+      "flat-print-light",
+      "paper-grain-finish"
+    ]
+  },
+  "overrides": {
+    "notes": "用户已认可本案例的完整十一类配方。人物原色、角落真圆、上移字幕；换素材重新设计，不泛化为任意组合已验收。"
+  },
+  "caseId": null,
+  "sourceRequiredForProduction": true,
+  "implementation": {
+    "kind": "source-specific-reference",
+    "path": "examples/production-recipes/gongbi",
+    "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+    "buildMode": "preserved-production-case",
+    "photoAsset": true,
+    "vendor": false,
+    "timingContract": "study-custom-symbolic-events",
+    "orchestration": {
+      "id": "diagram",
+      "selection": "explicit",
+      "reason": "用户明确选择"
+    },
+    "voiceSha256": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+    "edlSha256": "699c481b98445d39dedb1b09bf46e5f7db6b5dfe422e67bbeaf6718a2c335cf2",
+    "newSource": "按本片原句重设计语义、对象、动作、结果、读窗和交接；跨文案等待用户新素材验证"
+  },
+  "productionRules": {
+    "layout": "细线立骨、多层淡色保持清楚对象边界",
+    "objectMotion": "先明确轮廓，再分层设色或揭示状态",
+    "camera": "克制局部推进，精细边界保持可见",
+    "transition": "沿轮廓/留白衔接，避免粗暴墨幕",
+    "typography": "细节与文字错峰；字幕稳读而非描字",
+    "preserve": [
+      "细线立骨",
+      "多层淡设色",
+      "明确对象边界"
+    ],
+    "adaptOnNewContent": [
+      "原句和关系",
+      "每张图片的任务",
+      "对象初态、动作及结果",
+      "阅读窗口",
+      "前后交接",
+      "真实源时间与字幕"
+    ],
+    "neverInheritAsDefault": [
+      "当前财经物件",
+      "示意数量",
+      "固定秒点",
+      "固定三项建议",
+      "本片人像位置"
+    ]
+  },
+  "axisReferences": {
+    "art-style": {
+      "skill": "skills/talking-head-art-style/SKILL.md",
+      "casePlan": "examples/production-recipes/gongbi/plans/style-contract.json",
+      "sha256": "a598206afec29bc649ea599e5bf37e4f1f6fab1627658894fe4034fd6958aac9",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "palette": {
+      "skill": "skills/talking-head-palette/SKILL.md",
+      "casePlan": "examples/production-recipes/gongbi/plans/palette-tokens.json",
+      "sha256": "6d672df25b69de6d9078ee9224ca6d88da4bec37e899ad10f10c4ade2f46a381",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "material": {
+      "skill": "skills/talking-head-material/SKILL.md",
+      "casePlan": "examples/production-recipes/gongbi/plans/material-tokens.json",
+      "sha256": "774fa32461223b7eede674d50f4fa785414574c1f3f9087dceac860893df446c",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "representation": {
+      "skill": "skills/talking-head-representation/SKILL.md",
+      "casePlan": "examples/production-recipes/gongbi/plans/object-spec.json",
+      "sha256": "a7fc5aa0be2b8fdc214a3ef562bce964985552374e4a3f3deeafdc9cf0a541e3",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "object-motion": {
+      "skill": "skills/talking-head-object-motion/SKILL.md",
+      "casePlan": "examples/production-recipes/gongbi/plans/motion-events.json",
+      "sha256": "14e77d0fdd83376473f65ede1faac3044a9b604fa4fa921b26686e6c20312bc0",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "camera": {
+      "skill": "skills/talking-head-camera/SKILL.md",
+      "casePlan": "examples/production-recipes/gongbi/plans/camera-plan.json",
+      "sha256": "8ab25278c038364867e22083b8734db9d6da12a44d9e70da98b248cd93359bc2",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "transition": {
+      "skill": "skills/talking-head-transition/SKILL.md",
+      "casePlan": "examples/production-recipes/gongbi/plans/transition-plan.json",
+      "sha256": "3d2145b8f243f64f150254fa9905da4ffb0bb46969642f71f8aa74676d24a192",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "typography": {
+      "skill": "skills/talking-head-typography/SKILL.md",
+      "casePlan": "examples/production-recipes/gongbi/plans/layout-plan.json",
+      "sha256": "4267babd2b3bd1caaa390326d68d302e362410b26cd702c2cb3b1095b7f9aedc",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "lighting": {
+      "skill": "skills/talking-head-lighting/SKILL.md",
+      "casePlan": "examples/production-recipes/gongbi/plans/finish-plan.json",
+      "sha256": "68956002de627008728ea4b0e4d575dec08bc80cdaeee8f1e075658e3c27e0ff",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "information": {
+      "skill": "skills/talking-head-information/SKILL.md",
+      "casePlan": "examples/production-recipes/gongbi/plans/semantic-plan.json",
+      "sha256": "6b75b9199943656e0e72b3112e8c521bd99558e889a131fd7d3e2ad034c9d45c",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "rhythm": {
+      "skill": "skills/talking-head-rhythm/SKILL.md",
+      "casePlan": "examples/production-recipes/gongbi/plans/timing.json",
+      "sha256": "6d37eb62a35fe2fb94608e69afca87485d3970ea08317cd068570caac51456b1",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    }
+  },
+  "approvalDate": "2026-10-24"
+}

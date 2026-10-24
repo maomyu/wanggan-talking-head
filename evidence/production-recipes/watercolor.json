@@ -1,0 +1,1402 @@
+{
+  "version": "1.21.0",
+  "approvalDate": "2026-10-24",
+  "approvedScope": "用户认可19套母画风统一配方与调用入口正式并入；技术蓝图独立为分支",
+  "recipeId": "watercolor",
+  "familyId": "F17",
+  "branchId": null,
+  "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+  "originalVideoSha256": "7775649579d55b563e874a71a6f0c1bd0e8f080f7663d0f66791823032a060c8",
+  "duration": 36.666666666666664,
+  "sourceSpecific": true,
+  "crossScript": "deferred-by-user",
+  "preservedImplementation": {
+    "examples/production-recipes/watercolor/edit-plan.json": "699c481b98445d39dedb1b09bf46e5f7db6b5dfe422e67bbeaf6718a2c335cf2",
+    "examples/production-recipes/watercolor/scene-plan.json": "dd036392ea8f7484b1539d3816ce82e43b4aec1be540d28860b75b43ffe1619e",
+    "examples/production-recipes/watercolor/timing.json": "c2fd00b17ded4a7866ec5b3b12c659b8b25934bb0fbf12a5dc45736eb097153a",
+    "examples/production-recipes/watercolor/orchestration.json": "56d8e258699e1e17a20cb9923e78cf9f3f84f6118fb6637b549b55a3a7235f87",
+    "examples/production-recipes/watercolor/recipe.json": "b9bcf93cf385b941dc90a727c0f62873822121c4e3e02a95ff6cab3040e44dd2",
+    "examples/production-recipes/watercolor/facts.json": "1fdb5a84265a53146c1768fd00b3306d79bdf1121729ce68bf91ea1412da6c2b",
+    "examples/production-recipes/watercolor/plans/palette-tokens.json": "c6c51a7e7e52e2a9721037ac1bbf6ad6de80184d74d748220edd3a3c859f6673",
+    "examples/production-recipes/watercolor/plans/transition-plan.json": "873119ca93bf472caf63120e593e142474bb5b8627eada5ffbfd126928d374bf",
+    "examples/production-recipes/watercolor/plans/timing.json": "6d37eb62a35fe2fb94608e69afca87485d3970ea08317cd068570caac51456b1",
+    "examples/production-recipes/watercolor/plans/layout-plan.json": "e608d433accef88ff3f6c8a70b829d557157aefdb815fe9984db5fd1e573e7ee",
+    "examples/production-recipes/watercolor/plans/brief.json": "1a0a84b92734fd4c17d0720e110af4d502904f86e2ca495092bace4ed07cf140",
+    "examples/production-recipes/watercolor/plans/semantic-plan.json": "6b75b9199943656e0e72b3112e8c521bd99558e889a131fd7d3e2ad034c9d45c",
+    "examples/production-recipes/watercolor/plans/finish-plan.json": "4097146db04c5d1e1bb713fb26084391c2372cbdf8b85dab44823157ec774b17",
+    "examples/production-recipes/watercolor/plans/camera-plan.json": "ca04f8a5d3abf85a87e58debeab3fdc7e7ed9cd6f80cf696498b19b0a206e32d",
+    "examples/production-recipes/watercolor/plans/object-spec.json": "53c77d8082209744064d3a230f5aafca11d2513b0fb2575875a00f011625b5b6",
+    "examples/production-recipes/watercolor/plans/material-tokens.json": "9291dffa7faaf214131b2a7fb26b5515dbe7a74df7bdc4ffdd1d1878bb0d411d",
+    "examples/production-recipes/watercolor/plans/style-contract.json": "2d794f3dc2f6461e3250f9b1e8fe1d5b1957a1ce059c0f33a0a1e4681489754b",
+    "examples/production-recipes/watercolor/plans/motion-events.json": "c3806a05c37f67f05793e96b4a6fe51afa9defddfaff2605f44df656e56d44ff",
+    "examples/production-recipes/watercolor/scripts/motion.mjs": "4c2550a3de2a48d07fde3b113cc2ba65c9c088f0c423aeabfb52e39c4364ad54",
+    "examples/production-recipes/watercolor/scripts/composition.template": "457586f2f0fc88e328075c9b29f1ef9572da3af3ed25081e42b106a51c7da16e",
+    "examples/production-recipes/watercolor/scripts/film.css": "677c54b84c780f58f1eebe5fd17f2d72006a19b9a09431e9c2c08422dcaa1b1e",
+    "examples/production-recipes/watercolor/scripts/build-project.mjs": "06dd000a8393fdc4f3d2a603ea2ace64f1ec3993f11f234c9a63df41dda1254e",
+    "examples/production-recipes/watercolor/assets/art-atlas.png": "b9b28382e13dc322ded45090e0f58012500bcad7e3b96ec4cfa8c0b4120db4ad"
+  },
+  "technicalChecks": {
+    "verification.json": {
+      "sha256": "fb6ba7f24daa1888f7659c5b03bfe1e5dc771f34549083846ed8e6f3d72f07bf",
+      "data": {
+        "status": "verified",
+        "key": "watercolor",
+        "video": {
+          "sha256": "7775649579d55b563e874a71a6f0c1bd0e8f080f7663d0f66791823032a060c8",
+          "width": 1080,
+          "height": 1920,
+          "fps": "30/1",
+          "frames": 1100,
+          "duration": 36.666666666666664,
+          "bytes": 53326853,
+          "faststart": true,
+          "sharedFinalPlaybackInode": true
+        },
+        "audio": {
+          "originalVoiceCorrelation": 0.9999823504746719,
+          "offsetSamples": 0,
+          "decodedSamplesCompared": 1760000,
+          "min100msVoiceRmsRatio": 0.9925177151927742,
+          "dropped100msVoiceWindows": 0,
+          "audibleTracks": 1,
+          "scope": "actual decoded original-voice comparison; not subjective listening review"
+        },
+        "person": {
+          "actualEncodedSamples": [
+            {
+              "frame": 0,
+              "box": [
+                230,
+                570,
+                620,
+                620
+              ],
+              "innerRGBMeanAbsoluteError": 2.5100574364116124
+            },
+            {
+              "frame": 75,
+              "box": [
+                503,
+                955,
+                440,
+                440
+              ],
+              "innerRGBMeanAbsoluteError": 2.7412750689479743
+            },
+            {
+              "frame": 180,
+              "box": [
+                716,
+                1255,
+                300,
+                300
+              ],
+              "innerRGBMeanAbsoluteError": 2.445658815527041
+            },
+            {
+              "frame": 750,
+              "box": [
+                716,
+                1255,
+                300,
+                300
+              ],
+              "innerRGBMeanAbsoluteError": 2.4313515258418934
+            },
+            {
+              "frame": 1030,
+              "box": [
+                240,
+                540,
+                600,
+                600
+              ],
+              "innerRGBMeanAbsoluteError": 2.063201960089943
+            },
+            {
+              "frame": 1099,
+              "box": [
+                240,
+                540,
+                600,
+                600
+              ],
+              "innerRGBMeanAbsoluteError": 2.0650042754605837
+            }
+          ],
+          "all1100AuthoredCircleFrames": 1100
+        },
+        "captionCount": 21,
+        "denseFrames": 183,
+        "htmlSha256": "d9ae3127ceb6fc7dc537044754e6e63876901493ec4ce6df42627b4f3f4e566e",
+        "sceneContractSha256": "b495c8454f09cee64dc64d4caa6f0783a6875ff034038e8a0842625bdf010d4c",
+        "textAuditSha256": "af5540b12ad5ce48ac1e6bf7f6be1e761a4e695cfc90922735a24f3289671b6f",
+        "capturePolicy": {
+          "kind": "opaque-SDR PNG compression only",
+          "engineVersion": "0.8.174",
+          "engineSha256": "e80a9d81838c0fe034f4d00af1c0262f570d64b2bb8b8c487a22cf7d8a70cc4e",
+          "installedModuleUnchanged": true,
+          "applications": 1,
+          "outputPixelEquivalenceSamples": 48,
+          "pixelEquivalenceReportSha256": "fa2ee414c327081768ac68a89a26263a1c44340f0e85bfd1b87eb30cb08036fd",
+          "alphaAndHDRCaptureUnchanged": true,
+          "geometryTimingFontsAudioAndEncodingUnchanged": true,
+          "exitCode": 0
+        },
+        "scope": "one actual complete source-specific film; technical/author checks, not independent review"
+      }
+    },
+    "scene-contract.json": {
+      "sha256": "b495c8454f09cee64dc64d4caa6f0783a6875ff034038e8a0842625bdf010d4c",
+      "data": {
+        "framesChecked": 1100,
+        "issues": [],
+        "poses": [
+          {
+            "frame": 0,
+            "x": 230,
+            "y": 570,
+            "w": 620
+          },
+          {
+            "frame": 75,
+            "x": 503.3345642089844,
+            "y": 955.2554931640625,
+            "w": 440.0266418457031
+          },
+          {
+            "frame": 180,
+            "x": 716,
+            "y": 1255,
+            "w": 300
+          },
+          {
+            "frame": 750,
+            "x": 716,
+            "y": 1255,
+            "w": 300
+          },
+          {
+            "frame": 1030,
+            "x": 240,
+            "y": 540,
+            "w": 600
+          },
+          {
+            "frame": 1099,
+            "x": 240,
+            "y": 540,
+            "w": 600
+          }
+        ],
+        "deterministic": true,
+        "maxCaptionBottom": 1765,
+        "states": {
+          "0": {
+            "frame": 0,
+            "sourceFrame": 0,
+            "person": {
+              "x": 230,
+              "y": 570,
+              "w": 620,
+              "h": 620,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 240,
+                "y": 800,
+                "s": 0.9,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "extra": {
+                "x": 790,
+                "y": 930,
+                "s": 0.9,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "food": {
+                "x": 795,
+                "y": 920,
+                "s": 0.95,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "principal": {
+                "x": 790,
+                "y": 820,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "burden": {
+                "x": 500,
+                "y": 1135,
+                "s": 0.5,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "risk": {
+                "x": 790,
+                "y": 850,
+                "s": 0.9,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 8,
+            "debtUnits": 6,
+            "style": "watercolor",
+            "extraDenied": false,
+            "riskRevealed": false,
+            "modules": {
+              "style": [
+                "透明色层与纸白构成轻重，软边只在物件与洗色内",
+                "对象由扩散洗色显现，否定时颜色回收；文字始终稳定",
+                "原色真人独立于水彩，原图概念资产不能当金融证据"
+              ],
+              "palette": {
+                "bg": "#f8f4e9",
+                "ink": "#213e49",
+                "accent": "#97462f",
+                "secondary": "#54888a",
+                "muted": "#52676b"
+              },
+              "material": {
+                "objects": "复用原原创水彩袋像素，透明叠色、边缘积色、纸面颗粒，正文无颗粒",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "色层从小范围扩散建立，额外消费的洗色向中心收回；收益洗色被纸白从中间打开露出风险",
+              "camera": "同一水彩画纸平面，比较区舒展；轻微广景到局部再回到人物，文字不跟随图解漂移",
+              "transition": "同一物件与洗色接入下一阅读区，保留纸白和四格本金，结尾收回原对象",
+              "typography": {
+                "title": "LXGWWenKai-500.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0.035,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "334": {
+            "frame": 334,
+            "sourceFrame": 334,
+            "person": {
+              "x": 716,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 240,
+                "y": 800,
+                "s": 0.9,
+                "a": 0.5000247664542141,
+                "r": 0,
+                "visible": true
+              },
+              "extra": {
+                "x": 790,
+                "y": 930,
+                "s": 0.9,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "food": {
+                "x": 795,
+                "y": 920,
+                "s": 0.95,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "principal": {
+                "x": 620,
+                "y": 840,
+                "s": 0.8,
+                "a": 1,
+                "r": 0,
+                "visible": true
+              },
+              "burden": {
+                "x": 500,
+                "y": 1135,
+                "s": 0.5,
+                "a": 1,
+                "r": 0,
+                "visible": true
+              },
+              "risk": {
+                "x": 790,
+                "y": 850,
+                "s": 0.9,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 1,
+                "visible": true
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "style": "watercolor",
+            "extraDenied": false,
+            "riskRevealed": false,
+            "modules": {
+              "style": [
+                "透明色层与纸白构成轻重，软边只在物件与洗色内",
+                "对象由扩散洗色显现，否定时颜色回收；文字始终稳定",
+                "原色真人独立于水彩，原图概念资产不能当金融证据"
+              ],
+              "palette": {
+                "bg": "#f8f4e9",
+                "ink": "#213e49",
+                "accent": "#97462f",
+                "secondary": "#54888a",
+                "muted": "#52676b"
+              },
+              "material": {
+                "objects": "复用原原创水彩袋像素，透明叠色、边缘积色、纸面颗粒，正文无颗粒",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "色层从小范围扩散建立，额外消费的洗色向中心收回；收益洗色被纸白从中间打开露出风险",
+              "camera": "同一水彩画纸平面，比较区舒展；轻微广景到局部再回到人物，文字不跟随图解漂移",
+              "transition": "同一物件与洗色接入下一阅读区，保留纸白和四格本金，结尾收回原对象",
+              "typography": {
+                "title": "LXGWWenKai-500.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0.035,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "615": {
+            "frame": 615,
+            "sourceFrame": 615,
+            "person": {
+              "x": 716,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 270,
+                "y": 800,
+                "s": 0.96,
+                "a": 1,
+                "r": 0,
+                "visible": true
+              },
+              "extra": {
+                "x": 790,
+                "y": 895,
+                "s": 0.9,
+                "a": 0,
+                "r": 7.998061477349209,
+                "visible": false
+              },
+              "food": {
+                "x": 795,
+                "y": 920,
+                "s": 0.95,
+                "a": 1,
+                "r": 4,
+                "visible": true
+              },
+              "principal": {
+                "x": 540,
+                "y": 859.9999999925933,
+                "s": 1.1499999997592814,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "burden": {
+                "x": 827.5568705929709,
+                "y": 841.0138477939697,
+                "s": 0.562858563226119,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "risk": {
+                "x": 790,
+                "y": 850,
+                "s": 0.9,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 1,
+                "visible": true
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "style": "watercolor",
+            "extraDenied": true,
+            "riskRevealed": false,
+            "modules": {
+              "style": [
+                "透明色层与纸白构成轻重，软边只在物件与洗色内",
+                "对象由扩散洗色显现，否定时颜色回收；文字始终稳定",
+                "原色真人独立于水彩，原图概念资产不能当金融证据"
+              ],
+              "palette": {
+                "bg": "#f8f4e9",
+                "ink": "#213e49",
+                "accent": "#97462f",
+                "secondary": "#54888a",
+                "muted": "#52676b"
+              },
+              "material": {
+                "objects": "复用原原创水彩袋像素，透明叠色、边缘积色、纸面颗粒，正文无颗粒",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "色层从小范围扩散建立，额外消费的洗色向中心收回；收益洗色被纸白从中间打开露出风险",
+              "camera": "同一水彩画纸平面，比较区舒展；轻微广景到局部再回到人物，文字不跟随图解漂移",
+              "transition": "同一物件与洗色接入下一阅读区，保留纸白和四格本金，结尾收回原对象",
+              "typography": {
+                "title": "LXGWWenKai-500.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0.035,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "685": {
+            "frame": 685,
+            "sourceFrame": 685,
+            "person": {
+              "x": 716,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 269.93749601306416,
+                "y": 800.5729532135783,
+                "s": 0.4499479133442202,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "extra": {
+                "x": 790,
+                "y": 895,
+                "s": 0.9,
+                "a": 0,
+                "r": 7.903136674926518,
+                "visible": false
+              },
+              "food": {
+                "x": 795,
+                "y": 920,
+                "s": 0.5,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "principal": {
+                "x": 539.7382043196287,
+                "y": 860.0142797643839,
+                "s": 1.1496287261260187,
+                "a": 1,
+                "r": 0,
+                "visible": true
+              },
+              "burden": {
+                "x": 629.7020887781414,
+                "y": 847.1968097256831,
+                "s": 0.9462022029923511,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "risk": {
+                "x": 790,
+                "y": 850,
+                "s": 0.9,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 1,
+                "visible": true
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": -8,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "style": "watercolor",
+            "extraDenied": true,
+            "riskRevealed": false,
+            "modules": {
+              "style": [
+                "透明色层与纸白构成轻重，软边只在物件与洗色内",
+                "对象由扩散洗色显现，否定时颜色回收；文字始终稳定",
+                "原色真人独立于水彩，原图概念资产不能当金融证据"
+              ],
+              "palette": {
+                "bg": "#f8f4e9",
+                "ink": "#213e49",
+                "accent": "#97462f",
+                "secondary": "#54888a",
+                "muted": "#52676b"
+              },
+              "material": {
+                "objects": "复用原原创水彩袋像素，透明叠色、边缘积色、纸面颗粒，正文无颗粒",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "色层从小范围扩散建立，额外消费的洗色向中心收回；收益洗色被纸白从中间打开露出风险",
+              "camera": "同一水彩画纸平面，比较区舒展；轻微广景到局部再回到人物，文字不跟随图解漂移",
+              "transition": "同一物件与洗色接入下一阅读区，保留纸白和四格本金，结尾收回原对象",
+              "typography": {
+                "title": "LXGWWenKai-500.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0.035,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "782": {
+            "frame": 782,
+            "sourceFrame": 782,
+            "person": {
+              "x": 716,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 240.54150200234133,
+                "y": 1070.0362316452047,
+                "s": 0.4254512516686178,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "extra": {
+                "x": 790,
+                "y": 895,
+                "s": 0.9,
+                "a": 0,
+                "r": 6.401351378798234,
+                "visible": false
+              },
+              "food": {
+                "x": 795,
+                "y": 920,
+                "s": 0.5,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "principal": {
+                "x": 265,
+                "y": 875,
+                "s": 0.76,
+                "a": 1,
+                "r": 0,
+                "visible": true
+              },
+              "burden": {
+                "x": 540.976302073575,
+                "y": 849.9694905602008,
+                "s": 1.1181084147324487,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "risk": {
+                "x": 790,
+                "y": 850,
+                "s": 0.9,
+                "a": 1,
+                "r": 0,
+                "visible": true
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 1,
+                "visible": true
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "style": "watercolor",
+            "extraDenied": true,
+            "riskRevealed": true,
+            "modules": {
+              "style": [
+                "透明色层与纸白构成轻重，软边只在物件与洗色内",
+                "对象由扩散洗色显现，否定时颜色回收；文字始终稳定",
+                "原色真人独立于水彩，原图概念资产不能当金融证据"
+              ],
+              "palette": {
+                "bg": "#f8f4e9",
+                "ink": "#213e49",
+                "accent": "#97462f",
+                "secondary": "#54888a",
+                "muted": "#52676b"
+              },
+              "material": {
+                "objects": "复用原原创水彩袋像素，透明叠色、边缘积色、纸面颗粒，正文无颗粒",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "色层从小范围扩散建立，额外消费的洗色向中心收回；收益洗色被纸白从中间打开露出风险",
+              "camera": "同一水彩画纸平面，比较区舒展；轻微广景到局部再回到人物，文字不跟随图解漂移",
+              "transition": "同一物件与洗色接入下一阅读区，保留纸白和四格本金，结尾收回原对象",
+              "typography": {
+                "title": "LXGWWenKai-500.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0.035,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "897": {
+            "frame": 897,
+            "sourceFrame": 897,
+            "person": {
+              "x": 716,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 210.00392868260533,
+                "y": 1349.9639870761177,
+                "s": 0.40000327390217116,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "extra": {
+                "x": 790,
+                "y": 895,
+                "s": 0.9,
+                "a": 0,
+                "r": 0.9119429472139835,
+                "visible": false
+              },
+              "food": {
+                "x": 795,
+                "y": 920,
+                "s": 0.5,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "principal": {
+                "x": 513.6250292509794,
+                "y": 1304.4432323426008,
+                "s": 0.36219995319843296,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "burden": {
+                "x": 540,
+                "y": 850,
+                "s": 1.12,
+                "a": 1,
+                "r": 0,
+                "visible": true
+              },
+              "risk": {
+                "at": 856,
+                "x": 940,
+                "y": 850,
+                "s": 0.9,
+                "a": 0,
+                "r": 0,
+                "f": 856,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 1,
+                "visible": true
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 2,
+            "style": "watercolor",
+            "extraDenied": true,
+            "riskRevealed": true,
+            "modules": {
+              "style": [
+                "透明色层与纸白构成轻重，软边只在物件与洗色内",
+                "对象由扩散洗色显现，否定时颜色回收；文字始终稳定",
+                "原色真人独立于水彩，原图概念资产不能当金融证据"
+              ],
+              "palette": {
+                "bg": "#f8f4e9",
+                "ink": "#213e49",
+                "accent": "#97462f",
+                "secondary": "#54888a",
+                "muted": "#52676b"
+              },
+              "material": {
+                "objects": "复用原原创水彩袋像素，透明叠色、边缘积色、纸面颗粒，正文无颗粒",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "色层从小范围扩散建立，额外消费的洗色向中心收回；收益洗色被纸白从中间打开露出风险",
+              "camera": "同一水彩画纸平面，比较区舒展；轻微广景到局部再回到人物，文字不跟随图解漂移",
+              "transition": "同一物件与洗色接入下一阅读区，保留纸白和四格本金，结尾收回原对象",
+              "typography": {
+                "title": "LXGWWenKai-500.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0.035,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "1099": {
+            "frame": 1099,
+            "sourceFrame": 1099,
+            "person": {
+              "x": 240,
+              "y": 540,
+              "w": 600,
+              "h": 600,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "at": 1099,
+                "x": 210,
+                "y": 1350,
+                "s": 0.4,
+                "a": 1,
+                "r": 0,
+                "f": 1099,
+                "visible": true
+              },
+              "extra": {
+                "at": 1099,
+                "x": 790,
+                "y": 895,
+                "s": 0.9,
+                "a": 0,
+                "r": 0,
+                "f": 1099,
+                "visible": false
+              },
+              "food": {
+                "at": 1099,
+                "x": 795,
+                "y": 920,
+                "s": 0.5,
+                "a": 0,
+                "r": 0,
+                "f": 1099,
+                "visible": false
+              },
+              "principal": {
+                "at": 1099,
+                "x": 540,
+                "y": 1350,
+                "s": 0.32,
+                "a": 1,
+                "r": 0,
+                "f": 1099,
+                "visible": true
+              },
+              "burden": {
+                "at": 1099,
+                "x": 875,
+                "y": 1350,
+                "s": 0.3,
+                "a": 1,
+                "r": 0,
+                "f": 1099,
+                "visible": true
+              },
+              "risk": {
+                "at": 856,
+                "x": 940,
+                "y": 850,
+                "s": 0.9,
+                "a": 0,
+                "r": 0,
+                "f": 856,
+                "visible": false
+              },
+              "trend": {
+                "at": 1099,
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "f": 1099,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "at": 1099,
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "f": 1099
+            },
+            "principalUnits": 4,
+            "debtUnits": 2,
+            "style": "watercolor",
+            "extraDenied": true,
+            "riskRevealed": true,
+            "modules": {
+              "style": [
+                "透明色层与纸白构成轻重，软边只在物件与洗色内",
+                "对象由扩散洗色显现，否定时颜色回收；文字始终稳定",
+                "原色真人独立于水彩，原图概念资产不能当金融证据"
+              ],
+              "palette": {
+                "bg": "#f8f4e9",
+                "ink": "#213e49",
+                "accent": "#97462f",
+                "secondary": "#54888a",
+                "muted": "#52676b"
+              },
+              "material": {
+                "objects": "复用原原创水彩袋像素，透明叠色、边缘积色、纸面颗粒，正文无颗粒",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "色层从小范围扩散建立，额外消费的洗色向中心收回；收益洗色被纸白从中间打开露出风险",
+              "camera": "同一水彩画纸平面，比较区舒展；轻微广景到局部再回到人物，文字不跟随图解漂移",
+              "transition": "同一物件与洗色接入下一阅读区，保留纸白和四格本金，结尾收回原对象",
+              "typography": {
+                "title": "LXGWWenKai-500.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0.035,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          }
+        },
+        "moduleBindings": {
+          "style": [
+            "透明色层与纸白构成轻重，软边只在物件与洗色内",
+            "对象由扩散洗色显现，否定时颜色回收；文字始终稳定",
+            "原色真人独立于水彩，原图概念资产不能当金融证据"
+          ],
+          "palette": {
+            "bg": "#f8f4e9",
+            "ink": "#213e49",
+            "accent": "#97462f",
+            "secondary": "#54888a",
+            "muted": "#52676b"
+          },
+          "material": {
+            "objects": "复用原原创水彩袋像素，透明叠色、边缘积色、纸面颗粒，正文无颗粒",
+            "person": "original-color-no-treatment"
+          },
+          "representation": {
+            "principalUnits": 8,
+            "remainingPrincipal": 4,
+            "debtLayers": 6,
+            "remainingDebt": 2
+          },
+          "motion": "色层从小范围扩散建立，额外消费的洗色向中心收回；收益洗色被纸白从中间打开露出风险",
+          "camera": "同一水彩画纸平面，比较区舒展；轻微广景到局部再回到人物，文字不跟随图解漂移",
+          "transition": "同一物件与洗色接入下一阅读区，保留纸白和四格本金，结尾收回原对象",
+          "typography": {
+            "title": "LXGWWenKai-500.woff",
+            "body": "NotoSansSC-500.woff",
+            "caption": "NotoSansSC-700.woff"
+          },
+          "lighting": {
+            "grainOpacity": 0.035,
+            "contactShadowOpacity": 0
+          },
+          "information": {
+            "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+            "food": "日常需要的对照示意，不代表具体购买建议",
+            "capital": "同一示意本金；受损后不凭空补满",
+            "debt": "负担层数消减示意，不代表实际金额",
+            "risk": "夸大收益说法与风险揭示的比喻载体"
+          },
+          "rhythm": {
+            "extraStart": 470,
+            "extraReady": 490,
+            "denyStart": 516,
+            "denyEnd": 538,
+            "compareStart": 563,
+            "compareReady": 587,
+            "capitalStart": 616,
+            "capitalReady": 643,
+            "riskRevealStart": 744,
+            "riskRevealEnd": 759,
+            "debtStart": 856,
+            "debtReady": 882,
+            "recapReady": 970,
+            "lossStart": 310,
+            "lossEnd": 334
+          }
+        },
+        "voices": 1,
+        "captionCount": 21,
+        "mediaErrors": [
+          null,
+          null
+        ],
+        "allImagesLoaded": true,
+        "errors": [],
+        "failedRequests": [],
+        "noCapitalReplenishment": true,
+        "debtResult": true,
+        "ok": true,
+        "visualInputs": {
+          "index.html": "d9ae3127ceb6fc7dc537044754e6e63876901493ec4ce6df42627b4f3f4e566e",
+          "assets/film.css": "677c54b84c780f58f1eebe5fd17f2d72006a19b9a09431e9c2c08422dcaa1b1e",
+          "assets/film-config.js": "07f7e8f4189c024bea1c336a6d2dc341ca21e91d30f10d9defbd4ce4d0b85a66",
+          "scripts/build-project.mjs": "06dd000a8393fdc4f3d2a603ea2ace64f1ec3993f11f234c9a63df41dda1254e",
+          "scripts/motion.mjs": "4c2550a3de2a48d07fde3b113cc2ba65c9c088f0c423aeabfb52e39c4364ad54",
+          "scripts/render-opaque-png.mjs": "49ffa1860f6194756d723cd58642d7125229db811c376e7ffc843ce9d52fc909"
+        }
+      }
+    },
+    "text-path-audit.json": {
+      "sha256": "af5540b12ad5ce48ac1e6bf7f6be1e761a4e695cfc90922735a24f3289671b6f",
+      "data": {
+        "frames": 1100,
+        "glyphs": 54544,
+        "points": 163632,
+        "issues": [],
+        "issueCount": 0,
+        "windows": [],
+        "intentional": [],
+        "scope": "All1100 authored frames; three probe points per nonspace glyph in reading and exiting text (effective opacity>=0.2). Actual DOM paint order, circular clipping and source PNG alpha respected. Hidden reverse paper and intentional semantic strike-through explicitly excluded; complements actual encoded dense-frame review, not universal pixel OCR.",
+        "visualInputs": {
+          "index.html": "d9ae3127ceb6fc7dc537044754e6e63876901493ec4ce6df42627b4f3f4e566e",
+          "assets/film.css": "677c54b84c780f58f1eebe5fd17f2d72006a19b9a09431e9c2c08422dcaa1b1e",
+          "scripts/motion.mjs": "4c2550a3de2a48d07fde3b113cc2ba65c9c088f0c423aeabfb52e39c4364ad54",
+          "assets/film-config.js": "07f7e8f4189c024bea1c336a6d2dc341ca21e91d30f10d9defbd4ce4d0b85a66"
+        },
+        "sourceBindingScope": "Current visual inputs recorded after this isolated audit; no edits were made during the run",
+        "ok": true
+      }
+    }
+  }
+}

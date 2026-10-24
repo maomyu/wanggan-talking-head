@@ -1,0 +1,26 @@
+{
+  "language": "同一个底座由横向分区收拢为三列，再展开当前阅读区",
+  "continuityAnchors": [
+    "headphone",
+    "principal-four-remain",
+    "burden-two-remain"
+  ],
+  "entryExitBridges": [
+    149,
+    388,
+    461,
+    563,
+    616,
+    686,
+    783,
+    856,
+    898
+  ],
+  "labelClearFrames": 6,
+  "coverFrames": [],
+  "sourceCut": "continuous original voice, no source jump cuts",
+  "standards": [
+    "object-match",
+    "relation-expand"
+  ]
+}

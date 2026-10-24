@@ -1,0 +1,1733 @@
+{
+  "version": "1.21.0",
+  "approvalDate": "2026-10-24",
+  "approvedScope": "用户认可19套母画风统一配方与调用入口正式并入；技术蓝图独立为分支",
+  "recipeId": "editorial-print",
+  "familyId": "F03",
+  "branchId": null,
+  "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+  "originalVideoSha256": "c197692f73ca1c01e1b96ea0393d4da6a2750f0bf5335b54d15c7d8a06ff5668",
+  "duration": 36.666666666666664,
+  "sourceSpecific": true,
+  "crossScript": "deferred-by-user",
+  "preservedImplementation": {
+    "examples/production-recipes/editorial-print/edit-plan.json": "699c481b98445d39dedb1b09bf46e5f7db6b5dfe422e67bbeaf6718a2c335cf2",
+    "examples/production-recipes/editorial-print/scene-plan.json": "1f5f829f6fe165defdc80871c28ff3c8aef1ffc4f9df67335b3507a0f3403cd9",
+    "examples/production-recipes/editorial-print/timing.json": "c2fd00b17ded4a7866ec5b3b12c659b8b25934bb0fbf12a5dc45736eb097153a",
+    "examples/production-recipes/editorial-print/orchestration.json": "56d8e258699e1e17a20cb9923e78cf9f3f84f6118fb6637b549b55a3a7235f87",
+    "examples/production-recipes/editorial-print/recipe.json": "4bb6121130dced1e8fca589e4ede426a0ac34ff94c50f2d4fa41a97bae4b6675",
+    "examples/production-recipes/editorial-print/facts.json": "ea57140e17c2f65668dc79baa82b63647c9043dd170e8e9c76d2fcc7884c389b",
+    "examples/production-recipes/editorial-print/plans/palette-tokens.json": "0b6072559a45b4b0d1004fd08bf8c0057d0c2ba13fd15265ee1c7afe0eeb3ea6",
+    "examples/production-recipes/editorial-print/plans/transition-plan.json": "aace5dda9b36c80118e817933d601f43519acf48f051e76f5a5ae49d13fe104e",
+    "examples/production-recipes/editorial-print/plans/timing.json": "495b3b794e9f47623ebc568390d88049698f1748492fcd8985649e5538b2f556",
+    "examples/production-recipes/editorial-print/plans/layout-plan.json": "2218bf1599f9f801f57c843b00ad3dc7ac569bd6d443ecd0302c74d6c9422e52",
+    "examples/production-recipes/editorial-print/plans/brief.json": "33e7e08eebdc28d42a4a7163c83ec6fbbdfb088f0df803c81a2d83c9cbdafb10",
+    "examples/production-recipes/editorial-print/plans/semantic-plan.json": "fb315777d75fc58f28446d5041a76235311cca759e36a53a086bfe8ae0208c39",
+    "examples/production-recipes/editorial-print/plans/finish-plan.json": "dadca89b7227b254196b31793914a82a6f5582ef79ed7f3503db27e7f32a9c6a",
+    "examples/production-recipes/editorial-print/plans/camera-plan.json": "d2c71d6adbfa2b6710b58369a3b0b66539ff07e33c222472d802c0e8a19fe3fe",
+    "examples/production-recipes/editorial-print/plans/object-spec.json": "391368850496c600948a633a337ec0cc7c325419b781d84f29f8726eb04bafb0",
+    "examples/production-recipes/editorial-print/plans/material-tokens.json": "bd7d2c5626c9dc81dec29885564a5263ff2c3ebdd25c51c57c2cebc29f81968c",
+    "examples/production-recipes/editorial-print/plans/style-contract.json": "140b4cf0c1889cec9ee66382c1702ef586b06655e9767cc6275434957259ca35",
+    "examples/production-recipes/editorial-print/plans/motion-events.json": "381f9c6f55a9dbb1b0a9ab4d2a33688f034fb8388d063e536ee3decc50a21eb8",
+    "examples/production-recipes/editorial-print/scripts/clay-world.mjs": "93064c7de5a2e6906d205f9ae8c79a7b6da87459c3771f24e9743b64e928d0c0",
+    "examples/production-recipes/editorial-print/scripts/motion.mjs": "0a52b69086fbf0fcfbf65d5ee45c4019ede0c5b58c70dbfabab5376184ff050b",
+    "examples/production-recipes/editorial-print/scripts/paper-world.mjs": "d622bfc6d133d47d04af292e9961a6ec87fee5a688a07baf236be3d3faae8dc1",
+    "examples/production-recipes/editorial-print/scripts/blueprint-plan.mjs": "fbfb35b3903f1ba40327b93415a5470c263b413566cae6087f380ceb04389e7a",
+    "examples/production-recipes/editorial-print/scripts/composition.template": "b1b33610c4e53b9cc968c6418d1bb9e69d93ae8d6d5ff3aa9d9efb7ac97bacd6",
+    "examples/production-recipes/editorial-print/scripts/film.css": "9ee52f89a8665df9f75eec7feecd9bde32c34a87dd5ec8da589eb2d2264492ae",
+    "examples/production-recipes/editorial-print/scripts/build-project.mjs": "e1d3ac3a1ce52c284848dee2e3ed09854611e9c5a6c047d051378174602978c5"
+  },
+  "technicalChecks": {
+    "verification.json": {
+      "sha256": "eb537b2fa8e25ef5493064558832bd814a24fa699f5a08584697bbcb413033a4",
+      "data": {
+        "status": "verified",
+        "key": "editorial-print",
+        "video": {
+          "sha256": "c197692f73ca1c01e1b96ea0393d4da6a2750f0bf5335b54d15c7d8a06ff5668",
+          "width": 1080,
+          "height": 1920,
+          "fps": "30/1",
+          "frames": 1100,
+          "duration": 36.666666666666664,
+          "bytes": 28898701,
+          "faststart": true,
+          "sharedFinalPlaybackInode": true
+        },
+        "audio": {
+          "originalVoiceCorrelation": 0.9999823504746719,
+          "offsetSamples": 0,
+          "decodedSamplesCompared": 1760000,
+          "min100msVoiceRmsRatio": 0.9925177151927742,
+          "dropped100msVoiceWindows": 0,
+          "audibleTracks": 1,
+          "scope": "actual decoded original-voice comparison; not subjective listening review"
+        },
+        "person": {
+          "actualEncodedSamples": [
+            {
+              "frame": 0,
+              "box": [
+                230,
+                570,
+                620,
+                620
+              ],
+              "innerRGBMeanAbsoluteError": 2.521329096353556
+            },
+            {
+              "frame": 75,
+              "box": [
+                503,
+                955,
+                440,
+                440
+              ],
+              "innerRGBMeanAbsoluteError": 2.7460626020831658
+            },
+            {
+              "frame": 180,
+              "box": [
+                716,
+                1255,
+                300,
+                300
+              ],
+              "innerRGBMeanAbsoluteError": 2.448079871799306
+            },
+            {
+              "frame": 750,
+              "box": [
+                716,
+                1255,
+                300,
+                300
+              ],
+              "innerRGBMeanAbsoluteError": 2.433011678714304
+            },
+            {
+              "frame": 1030,
+              "box": [
+                240,
+                540,
+                600,
+                600
+              ],
+              "innerRGBMeanAbsoluteError": 2.0667576461646093
+            },
+            {
+              "frame": 1099,
+              "box": [
+                240,
+                540,
+                600,
+                600
+              ],
+              "innerRGBMeanAbsoluteError": 2.0679467136535465
+            }
+          ],
+          "all1100AuthoredCircleFrames": 1100
+        },
+        "captionCount": 21,
+        "denseFrames": 183,
+        "htmlSha256": "d8664829ba650e6ce9d95e9776a63f159335bfd05f4c145cdea2b1561b7f7c83",
+        "sceneContractSha256": "2ac98644ba47f4eff2957ab0b8a71698635dafa55bee50e16115d22f081a401d",
+        "textAuditSha256": "c77d22647a22f2a63d48177d310065dcab17c89d9ae9405a1aa6d0344922ece6",
+        "capturePolicy": {
+          "kind": "opaque-SDR PNG compression only",
+          "engineVersion": "0.8.174",
+          "engineSha256": "e80a9d81838c0fe034f4d00af1c0262f570d64b2bb8b8c487a22cf7d8a70cc4e",
+          "installedModuleUnchanged": true,
+          "applications": 1,
+          "outputPixelEquivalenceSamples": 48,
+          "pixelEquivalenceReportSha256": "504c29b7da4e7aa2a7eb1c057f9862b064b3de7db27de4b2eb9d6b50dc6de31d",
+          "alphaAndHDRCaptureUnchanged": true,
+          "geometryTimingFontsAudioAndEncodingUnchanged": true,
+          "exitCode": 0
+        },
+        "scope": "one actual complete source-specific film; technical/author checks, not independent review"
+      }
+    },
+    "scene-contract.json": {
+      "sha256": "2ac98644ba47f4eff2957ab0b8a71698635dafa55bee50e16115d22f081a401d",
+      "data": {
+        "framesChecked": 1100,
+        "issues": [],
+        "poses": [
+          {
+            "frame": 0,
+            "x": 230,
+            "y": 570,
+            "w": 620
+          },
+          {
+            "frame": 75,
+            "x": 503.3345642089844,
+            "y": 955.2554931640625,
+            "w": 440.0266418457031
+          },
+          {
+            "frame": 180,
+            "x": 716,
+            "y": 1255,
+            "w": 300
+          },
+          {
+            "frame": 750,
+            "x": 716,
+            "y": 1255,
+            "w": 300
+          },
+          {
+            "frame": 1030,
+            "x": 240,
+            "y": 540,
+            "w": 600
+          },
+          {
+            "frame": 1099,
+            "x": 240,
+            "y": 540,
+            "w": 600
+          }
+        ],
+        "deterministic": true,
+        "maxCaptionBottom": 1768,
+        "states": {
+          "0": {
+            "frame": 0,
+            "sourceFrame": 0,
+            "person": {
+              "x": 230,
+              "y": 570,
+              "w": 620,
+              "h": 620,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 360,
+                "y": 650,
+                "s": 1,
+                "a": 0,
+                "r": -1.4
+              },
+              "extra": {
+                "x": 520,
+                "y": 650,
+                "s": 0.85,
+                "a": 0,
+                "r": 2.4
+              },
+              "food": {
+                "x": 760,
+                "y": 720,
+                "s": 0.65,
+                "a": 0,
+                "r": 0
+              },
+              "principal": {
+                "x": 590,
+                "y": 700,
+                "s": 0.52,
+                "a": 0,
+                "r": 0
+              },
+              "burden": {
+                "x": 450,
+                "y": 990,
+                "s": 0.5,
+                "a": 0,
+                "r": 0
+              },
+              "trend": {
+                "x": 480,
+                "y": 610,
+                "s": 0.85,
+                "a": 0,
+                "r": 0
+              },
+              "risk": {
+                "x": 500,
+                "y": 720,
+                "s": 0.58,
+                "a": 0,
+                "r": 0
+              },
+              "avoid": {
+                "x": 500,
+                "y": 1020,
+                "s": 0.58,
+                "a": 0,
+                "r": 0
+              }
+            },
+            "camera": {
+              "scale": 1
+            },
+            "principalUnits": 8,
+            "debtUnits": 6,
+            "engine": {
+              "actors": {
+                "headphone": {
+                  "x": 360,
+                  "y": 650,
+                  "s": 1,
+                  "a": 0,
+                  "r": -1.4
+                },
+                "extra": {
+                  "x": 520,
+                  "y": 650,
+                  "s": 0.85,
+                  "a": 0,
+                  "r": 2.4
+                },
+                "food": {
+                  "x": 760,
+                  "y": 720,
+                  "s": 0.65,
+                  "a": 0,
+                  "r": 0
+                },
+                "principal": {
+                  "x": 590,
+                  "y": 700,
+                  "s": 0.52,
+                  "a": 0,
+                  "r": 0
+                },
+                "burden": {
+                  "x": 450,
+                  "y": 990,
+                  "s": 0.5,
+                  "a": 0,
+                  "r": 0
+                },
+                "trend": {
+                  "x": 480,
+                  "y": 610,
+                  "s": 0.85,
+                  "a": 0,
+                  "r": 0
+                },
+                "risk": {
+                  "x": 500,
+                  "y": 720,
+                  "s": 0.58,
+                  "a": 0,
+                  "r": 0
+                },
+                "avoid": {
+                  "x": 500,
+                  "y": 1020,
+                  "s": 0.58,
+                  "a": 0,
+                  "r": 0
+                }
+              },
+              "camera": {
+                "scale": 1
+              },
+              "principalUnits": 8,
+              "debtUnits": 6,
+              "frontPaperAngle": 0,
+              "continuity": "same-photo, same-capital and same-debt IDs; no replenishment"
+            },
+            "style": "editorial-print",
+            "modules": {
+              "style": [
+                "衬线与编辑页栏",
+                "同一物件与纸页接缝",
+                "印刷层被抽离后露出结果"
+              ],
+              "palette": "#eee7d7",
+              "material": "printed-photo-and-cut-paper",
+              "representation": {
+                "headphone": "同一个物品；加购是标明的第二实例",
+                "capital": "损失后保留4个示意单位，后文不补回8个",
+                "debt": "同一6层负担，减少后保留2层",
+                "risk": "夸大收益说法的载体，揭示后隔离"
+              },
+              "motion": "纸页抽离、剪贴取舍与同物回收",
+              "camera": "二维翻阅与细节回看",
+              "transition": "翻阅接缝与有内容的纸层抽离",
+              "typography": "editorial-print",
+              "lighting": {
+                "ambient": 2.2,
+                "key": 3.2,
+                "direction": [
+                  -4,
+                  8,
+                  6
+                ]
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "334": {
+            "frame": 334,
+            "sourceFrame": 334,
+            "person": {
+              "x": 716,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 101.32380626621024,
+                "y": 653.0888812878239,
+                "s": 0.716911118712176,
+                "a": 0,
+                "r": -1.4
+              },
+              "extra": {
+                "x": 520,
+                "y": 650,
+                "s": 0.85,
+                "a": 0,
+                "r": 2.4
+              },
+              "food": {
+                "x": 760,
+                "y": 769.3117483508528,
+                "s": 0.65,
+                "a": 0,
+                "r": 0
+              },
+              "principal": {
+                "x": 210,
+                "y": 800,
+                "s": 0.92,
+                "a": 1,
+                "r": 0
+              },
+              "burden": {
+                "x": 450,
+                "y": 990,
+                "s": 0.5,
+                "a": 0,
+                "r": 0
+              },
+              "trend": {
+                "at": 331,
+                "x": 480,
+                "y": 610,
+                "s": 0.85,
+                "a": 0,
+                "f": 331,
+                "r": 0
+              },
+              "risk": {
+                "x": 342.40797396107826,
+                "y": 671.8468809325517,
+                "s": 0.7638573637120754,
+                "a": 0,
+                "r": 0
+              },
+              "avoid": {
+                "x": 418.65216347819245,
+                "y": 927.3538528501637,
+                "s": 0.6749058092754421,
+                "a": 0,
+                "r": 0
+              }
+            },
+            "camera": {
+              "scale": 1
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "engine": {
+              "actors": {
+                "headphone": {
+                  "x": 101.32380626621024,
+                  "y": 653.0888812878239,
+                  "s": 0.716911118712176,
+                  "a": 0,
+                  "r": -1.4
+                },
+                "extra": {
+                  "x": 520,
+                  "y": 650,
+                  "s": 0.85,
+                  "a": 0,
+                  "r": 2.4
+                },
+                "food": {
+                  "x": 760,
+                  "y": 769.3117483508528,
+                  "s": 0.65,
+                  "a": 0,
+                  "r": 0
+                },
+                "principal": {
+                  "x": 210,
+                  "y": 800,
+                  "s": 0.92,
+                  "a": 1,
+                  "r": 0
+                },
+                "burden": {
+                  "x": 450,
+                  "y": 990,
+                  "s": 0.5,
+                  "a": 0,
+                  "r": 0
+                },
+                "trend": {
+                  "at": 331,
+                  "x": 480,
+                  "y": 610,
+                  "s": 0.85,
+                  "a": 0,
+                  "f": 331,
+                  "r": 0
+                },
+                "risk": {
+                  "x": 342.40797396107826,
+                  "y": 671.8468809325517,
+                  "s": 0.7638573637120754,
+                  "a": 0,
+                  "r": 0
+                },
+                "avoid": {
+                  "x": 418.65216347819245,
+                  "y": 927.3538528501637,
+                  "s": 0.6749058092754421,
+                  "a": 0,
+                  "r": 0
+                }
+              },
+              "camera": {
+                "scale": 1
+              },
+              "principalUnits": 4,
+              "debtUnits": 6,
+              "frontPaperAngle": 0,
+              "continuity": "same-photo, same-capital and same-debt IDs; no replenishment"
+            },
+            "style": "editorial-print",
+            "modules": {
+              "style": [
+                "衬线与编辑页栏",
+                "同一物件与纸页接缝",
+                "印刷层被抽离后露出结果"
+              ],
+              "palette": "#eee7d7",
+              "material": "printed-photo-and-cut-paper",
+              "representation": {
+                "headphone": "同一个物品；加购是标明的第二实例",
+                "capital": "损失后保留4个示意单位，后文不补回8个",
+                "debt": "同一6层负担，减少后保留2层",
+                "risk": "夸大收益说法的载体，揭示后隔离"
+              },
+              "motion": "纸页抽离、剪贴取舍与同物回收",
+              "camera": "二维翻阅与细节回看",
+              "transition": "翻阅接缝与有内容的纸层抽离",
+              "typography": "editorial-print",
+              "lighting": {
+                "ambient": 2.2,
+                "key": 3.2,
+                "direction": [
+                  -4,
+                  8,
+                  6
+                ]
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "615": {
+            "frame": 615,
+            "sourceFrame": 615,
+            "person": {
+              "x": 716,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 110,
+                "y": 720,
+                "s": 0.65,
+                "a": 1,
+                "r": -1.4
+              },
+              "extra": {
+                "x": 350,
+                "y": 720,
+                "s": 0.65,
+                "a": 1,
+                "r": 2.4
+              },
+              "food": {
+                "x": 760,
+                "y": 720,
+                "s": 0.65,
+                "a": 1,
+                "r": 0
+              },
+              "principal": {
+                "x": 210.00000006534,
+                "y": 799.9999999965611,
+                "s": 0.9199999998211748,
+                "a": 0,
+                "r": 0
+              },
+              "burden": {
+                "x": 727.9110249682396,
+                "y": 776.8108790796881,
+                "s": 0.4637824184062372,
+                "a": 0,
+                "r": 0
+              },
+              "trend": {
+                "at": 331,
+                "x": 480,
+                "y": 610,
+                "s": 0.85,
+                "a": 0,
+                "f": 331,
+                "r": 0
+              },
+              "risk": {
+                "x": 140.0684059137517,
+                "y": 610.0209018069797,
+                "s": 0.999920193100623,
+                "a": 0,
+                "r": 0
+              },
+              "avoid": {
+                "x": 142.6191482532845,
+                "y": 612.9829188440185,
+                "s": 0.9969443270378348,
+                "a": 0,
+                "r": 0
+              }
+            },
+            "camera": {
+              "scale": 1
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "engine": {
+              "actors": {
+                "headphone": {
+                  "x": 110,
+                  "y": 720,
+                  "s": 0.65,
+                  "a": 1,
+                  "r": -1.4
+                },
+                "extra": {
+                  "x": 350,
+                  "y": 720,
+                  "s": 0.65,
+                  "a": 1,
+                  "r": 2.4
+                },
+                "food": {
+                  "x": 760,
+                  "y": 720,
+                  "s": 0.65,
+                  "a": 1,
+                  "r": 0
+                },
+                "principal": {
+                  "x": 210.00000006534,
+                  "y": 799.9999999965611,
+                  "s": 0.9199999998211748,
+                  "a": 0,
+                  "r": 0
+                },
+                "burden": {
+                  "x": 727.9110249682396,
+                  "y": 776.8108790796881,
+                  "s": 0.4637824184062372,
+                  "a": 0,
+                  "r": 0
+                },
+                "trend": {
+                  "at": 331,
+                  "x": 480,
+                  "y": 610,
+                  "s": 0.85,
+                  "a": 0,
+                  "f": 331,
+                  "r": 0
+                },
+                "risk": {
+                  "x": 140.0684059137517,
+                  "y": 610.0209018069797,
+                  "s": 0.999920193100623,
+                  "a": 0,
+                  "r": 0
+                },
+                "avoid": {
+                  "x": 142.6191482532845,
+                  "y": 612.9829188440185,
+                  "s": 0.9969443270378348,
+                  "a": 0,
+                  "r": 0
+                }
+              },
+              "camera": {
+                "scale": 1
+              },
+              "principalUnits": 4,
+              "debtUnits": 6,
+              "frontPaperAngle": 0,
+              "continuity": "same-photo, same-capital and same-debt IDs; no replenishment"
+            },
+            "style": "editorial-print",
+            "modules": {
+              "style": [
+                "衬线与编辑页栏",
+                "同一物件与纸页接缝",
+                "印刷层被抽离后露出结果"
+              ],
+              "palette": "#eee7d7",
+              "material": "printed-photo-and-cut-paper",
+              "representation": {
+                "headphone": "同一个物品；加购是标明的第二实例",
+                "capital": "损失后保留4个示意单位，后文不补回8个",
+                "debt": "同一6层负担，减少后保留2层",
+                "risk": "夸大收益说法的载体，揭示后隔离"
+              },
+              "motion": "纸页抽离、剪贴取舍与同物回收",
+              "camera": "二维翻阅与细节回看",
+              "transition": "翻阅接缝与有内容的纸层抽离",
+              "typography": "editorial-print",
+              "lighting": {
+                "ambient": 2.2,
+                "key": 3.2,
+                "direction": [
+                  -4,
+                  8,
+                  6
+                ]
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "685": {
+            "frame": 685,
+            "sourceFrame": 685,
+            "person": {
+              "x": 716,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 110,
+                "y": 721.0293039637502,
+                "s": 0.6497426740090625,
+                "a": 0,
+                "r": -1.4
+              },
+              "extra": {
+                "at": 640,
+                "x": 350,
+                "y": 720,
+                "s": 0.65,
+                "a": 0,
+                "f": 640,
+                "r": 2.4
+              },
+              "food": {
+                "at": 640,
+                "x": 760,
+                "y": 720,
+                "s": 0.65,
+                "a": 0,
+                "f": 640,
+                "r": 0
+              },
+              "principal": {
+                "x": 209.93336109954186,
+                "y": 800.1713571726067,
+                "s": 0.919885761884929,
+                "a": 1,
+                "r": 0
+              },
+              "burden": {
+                "x": 423.6641655053863,
+                "y": 758.1835203370645,
+                "s": 0.8363295932587107,
+                "a": 0,
+                "r": 0
+              },
+              "trend": {
+                "at": 331,
+                "x": 480,
+                "y": 610,
+                "s": 0.85,
+                "a": 0,
+                "f": 331,
+                "r": 0
+              },
+              "risk": {
+                "x": 140.00000000003791,
+                "y": 610.0000000000116,
+                "s": 0.9999999999999558,
+                "a": 0,
+                "r": 0
+              },
+              "avoid": {
+                "x": 140.17690660643706,
+                "y": 610.2014769684422,
+                "s": 0.9997936089591568,
+                "a": 0,
+                "r": 0
+              }
+            },
+            "camera": {
+              "scale": 1.0794976530349796
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "engine": {
+              "actors": {
+                "headphone": {
+                  "x": 110,
+                  "y": 721.0293039637502,
+                  "s": 0.6497426740090625,
+                  "a": 0,
+                  "r": -1.4
+                },
+                "extra": {
+                  "at": 640,
+                  "x": 350,
+                  "y": 720,
+                  "s": 0.65,
+                  "a": 0,
+                  "f": 640,
+                  "r": 2.4
+                },
+                "food": {
+                  "at": 640,
+                  "x": 760,
+                  "y": 720,
+                  "s": 0.65,
+                  "a": 0,
+                  "f": 640,
+                  "r": 0
+                },
+                "principal": {
+                  "x": 209.93336109954186,
+                  "y": 800.1713571726067,
+                  "s": 0.919885761884929,
+                  "a": 1,
+                  "r": 0
+                },
+                "burden": {
+                  "x": 423.6641655053863,
+                  "y": 758.1835203370645,
+                  "s": 0.8363295932587107,
+                  "a": 0,
+                  "r": 0
+                },
+                "trend": {
+                  "at": 331,
+                  "x": 480,
+                  "y": 610,
+                  "s": 0.85,
+                  "a": 0,
+                  "f": 331,
+                  "r": 0
+                },
+                "risk": {
+                  "x": 140.00000000003791,
+                  "y": 610.0000000000116,
+                  "s": 0.9999999999999558,
+                  "a": 0,
+                  "r": 0
+                },
+                "avoid": {
+                  "x": 140.17690660643706,
+                  "y": 610.2014769684422,
+                  "s": 0.9997936089591568,
+                  "a": 0,
+                  "r": 0
+                }
+              },
+              "camera": {
+                "scale": 1.0794976530349796
+              },
+              "principalUnits": 4,
+              "debtUnits": 6,
+              "frontPaperAngle": 0,
+              "continuity": "same-photo, same-capital and same-debt IDs; no replenishment"
+            },
+            "style": "editorial-print",
+            "modules": {
+              "style": [
+                "衬线与编辑页栏",
+                "同一物件与纸页接缝",
+                "印刷层被抽离后露出结果"
+              ],
+              "palette": "#eee7d7",
+              "material": "printed-photo-and-cut-paper",
+              "representation": {
+                "headphone": "同一个物品；加购是标明的第二实例",
+                "capital": "损失后保留4个示意单位，后文不补回8个",
+                "debt": "同一6层负担，减少后保留2层",
+                "risk": "夸大收益说法的载体，揭示后隔离"
+              },
+              "motion": "纸页抽离、剪贴取舍与同物回收",
+              "camera": "二维翻阅与细节回看",
+              "transition": "翻阅接缝与有内容的纸层抽离",
+              "typography": "editorial-print",
+              "lighting": {
+                "ambient": 2.2,
+                "key": 3.2,
+                "direction": [
+                  -4,
+                  8,
+                  6
+                ]
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "782": {
+            "frame": 782,
+            "sourceFrame": 782,
+            "person": {
+              "x": 716,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 110,
+                "y": 1040.825010590825,
+                "s": 0.5697937473522937,
+                "a": 0,
+                "r": -1.4
+              },
+              "extra": {
+                "at": 640,
+                "x": 350,
+                "y": 720,
+                "s": 0.65,
+                "a": 0,
+                "f": 640,
+                "r": 2.4
+              },
+              "food": {
+                "at": 640,
+                "x": 760,
+                "y": 720,
+                "s": 0.65,
+                "a": 0,
+                "f": 640,
+                "r": 0
+              },
+              "principal": {
+                "x": 140,
+                "y": 980,
+                "s": 0.8,
+                "a": 1,
+                "r": 0
+              },
+              "burden": {
+                "x": 291.4547777395499,
+                "y": 750.0890680248704,
+                "s": 0.9982186395025919,
+                "a": 0,
+                "r": 0
+              },
+              "trend": {
+                "at": 331,
+                "x": 480,
+                "y": 610,
+                "s": 0.85,
+                "a": 0,
+                "f": 331,
+                "r": 0
+              },
+              "risk": {
+                "x": 140,
+                "y": 610,
+                "s": 1,
+                "a": 1,
+                "r": 0
+              },
+              "avoid": {
+                "x": 140.0000000000196,
+                "y": 610.0000000000223,
+                "s": 0.9999999999999771,
+                "a": 0,
+                "r": 0
+              }
+            },
+            "camera": {
+              "scale": 1
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "engine": {
+              "actors": {
+                "headphone": {
+                  "x": 110,
+                  "y": 1040.825010590825,
+                  "s": 0.5697937473522937,
+                  "a": 0,
+                  "r": -1.4
+                },
+                "extra": {
+                  "at": 640,
+                  "x": 350,
+                  "y": 720,
+                  "s": 0.65,
+                  "a": 0,
+                  "f": 640,
+                  "r": 2.4
+                },
+                "food": {
+                  "at": 640,
+                  "x": 760,
+                  "y": 720,
+                  "s": 0.65,
+                  "a": 0,
+                  "f": 640,
+                  "r": 0
+                },
+                "principal": {
+                  "x": 140,
+                  "y": 980,
+                  "s": 0.8,
+                  "a": 1,
+                  "r": 0
+                },
+                "burden": {
+                  "x": 291.4547777395499,
+                  "y": 750.0890680248704,
+                  "s": 0.9982186395025919,
+                  "a": 0,
+                  "r": 0
+                },
+                "trend": {
+                  "at": 331,
+                  "x": 480,
+                  "y": 610,
+                  "s": 0.85,
+                  "a": 0,
+                  "f": 331,
+                  "r": 0
+                },
+                "risk": {
+                  "x": 140,
+                  "y": 610,
+                  "s": 1,
+                  "a": 1,
+                  "r": 0
+                },
+                "avoid": {
+                  "x": 140.0000000000196,
+                  "y": 610.0000000000223,
+                  "s": 0.9999999999999771,
+                  "a": 0,
+                  "r": 0
+                }
+              },
+              "camera": {
+                "scale": 1
+              },
+              "principalUnits": 4,
+              "debtUnits": 6,
+              "frontPaperAngle": -155,
+              "continuity": "same-photo, same-capital and same-debt IDs; no replenishment"
+            },
+            "style": "editorial-print",
+            "modules": {
+              "style": [
+                "衬线与编辑页栏",
+                "同一物件与纸页接缝",
+                "印刷层被抽离后露出结果"
+              ],
+              "palette": "#eee7d7",
+              "material": "printed-photo-and-cut-paper",
+              "representation": {
+                "headphone": "同一个物品；加购是标明的第二实例",
+                "capital": "损失后保留4个示意单位，后文不补回8个",
+                "debt": "同一6层负担，减少后保留2层",
+                "risk": "夸大收益说法的载体，揭示后隔离"
+              },
+              "motion": "纸页抽离、剪贴取舍与同物回收",
+              "camera": "二维翻阅与细节回看",
+              "transition": "翻阅接缝与有内容的纸层抽离",
+              "typography": "editorial-print",
+              "lighting": {
+                "ambient": 2.2,
+                "key": 3.2,
+                "direction": [
+                  -4,
+                  8,
+                  6
+                ]
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "897": {
+            "frame": 897,
+            "sourceFrame": 897,
+            "person": {
+              "x": 716,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 110,
+                "y": 1319.9640978665884,
+                "s": 0.5000089755333529,
+                "a": 0,
+                "r": -1.4
+              },
+              "extra": {
+                "at": 640,
+                "x": 350,
+                "y": 720,
+                "s": 0.65,
+                "a": 0,
+                "f": 640,
+                "r": 2.4
+              },
+              "food": {
+                "at": 640,
+                "x": 760,
+                "y": 720,
+                "s": 0.65,
+                "a": 0,
+                "f": 640,
+                "r": 0
+              },
+              "principal": {
+                "x": 379.58411909639835,
+                "y": 1287.3909452557564,
+                "s": 0.39315904304385185,
+                "a": 0,
+                "r": 0
+              },
+              "burden": {
+                "x": 290,
+                "y": 750,
+                "s": 1,
+                "a": 1,
+                "r": 0
+              },
+              "trend": {
+                "at": 331,
+                "x": 480,
+                "y": 610,
+                "s": 0.85,
+                "a": 0,
+                "f": 331,
+                "r": 0
+              },
+              "risk": {
+                "at": 856,
+                "x": 140,
+                "y": 610,
+                "s": 1,
+                "a": 0,
+                "f": 856,
+                "r": 0
+              },
+              "avoid": {
+                "at": 856,
+                "x": 140,
+                "y": 610,
+                "s": 1,
+                "a": 0,
+                "f": 856,
+                "r": 0
+              }
+            },
+            "camera": {
+              "scale": 1
+            },
+            "principalUnits": 4,
+            "debtUnits": 2,
+            "engine": {
+              "actors": {
+                "headphone": {
+                  "x": 110,
+                  "y": 1319.9640978665884,
+                  "s": 0.5000089755333529,
+                  "a": 0,
+                  "r": -1.4
+                },
+                "extra": {
+                  "at": 640,
+                  "x": 350,
+                  "y": 720,
+                  "s": 0.65,
+                  "a": 0,
+                  "f": 640,
+                  "r": 2.4
+                },
+                "food": {
+                  "at": 640,
+                  "x": 760,
+                  "y": 720,
+                  "s": 0.65,
+                  "a": 0,
+                  "f": 640,
+                  "r": 0
+                },
+                "principal": {
+                  "x": 379.58411909639835,
+                  "y": 1287.3909452557564,
+                  "s": 0.39315904304385185,
+                  "a": 0,
+                  "r": 0
+                },
+                "burden": {
+                  "x": 290,
+                  "y": 750,
+                  "s": 1,
+                  "a": 1,
+                  "r": 0
+                },
+                "trend": {
+                  "at": 331,
+                  "x": 480,
+                  "y": 610,
+                  "s": 0.85,
+                  "a": 0,
+                  "f": 331,
+                  "r": 0
+                },
+                "risk": {
+                  "at": 856,
+                  "x": 140,
+                  "y": 610,
+                  "s": 1,
+                  "a": 0,
+                  "f": 856,
+                  "r": 0
+                },
+                "avoid": {
+                  "at": 856,
+                  "x": 140,
+                  "y": 610,
+                  "s": 1,
+                  "a": 0,
+                  "f": 856,
+                  "r": 0
+                }
+              },
+              "camera": {
+                "scale": 1
+              },
+              "principalUnits": 4,
+              "debtUnits": 2,
+              "frontPaperAngle": -155,
+              "continuity": "same-photo, same-capital and same-debt IDs; no replenishment"
+            },
+            "style": "editorial-print",
+            "modules": {
+              "style": [
+                "衬线与编辑页栏",
+                "同一物件与纸页接缝",
+                "印刷层被抽离后露出结果"
+              ],
+              "palette": "#eee7d7",
+              "material": "printed-photo-and-cut-paper",
+              "representation": {
+                "headphone": "同一个物品；加购是标明的第二实例",
+                "capital": "损失后保留4个示意单位，后文不补回8个",
+                "debt": "同一6层负担，减少后保留2层",
+                "risk": "夸大收益说法的载体，揭示后隔离"
+              },
+              "motion": "纸页抽离、剪贴取舍与同物回收",
+              "camera": "二维翻阅与细节回看",
+              "transition": "翻阅接缝与有内容的纸层抽离",
+              "typography": "editorial-print",
+              "lighting": {
+                "ambient": 2.2,
+                "key": 3.2,
+                "direction": [
+                  -4,
+                  8,
+                  6
+                ]
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "1099": {
+            "frame": 1099,
+            "sourceFrame": 1099,
+            "person": {
+              "x": 240,
+              "y": 540,
+              "w": 600,
+              "h": 600,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "f": 1099,
+                "x": 110,
+                "y": 1280,
+                "s": 0.5,
+                "a": 1,
+                "r": -1.4
+              },
+              "extra": {
+                "at": 640,
+                "x": 350,
+                "y": 720,
+                "s": 0.65,
+                "a": 0,
+                "f": 640,
+                "r": 2.4
+              },
+              "food": {
+                "at": 640,
+                "x": 760,
+                "y": 720,
+                "s": 0.65,
+                "a": 0,
+                "f": 640,
+                "r": 0
+              },
+              "principal": {
+                "f": 1099,
+                "x": 405,
+                "y": 1280,
+                "s": 0.35,
+                "a": 1,
+                "r": 0
+              },
+              "burden": {
+                "f": 1099,
+                "x": 790,
+                "y": 1280,
+                "s": 0.38,
+                "a": 1,
+                "r": 0
+              },
+              "trend": {
+                "at": 331,
+                "x": 480,
+                "y": 610,
+                "s": 0.85,
+                "a": 0,
+                "f": 331,
+                "r": 0
+              },
+              "risk": {
+                "at": 856,
+                "x": 140,
+                "y": 610,
+                "s": 1,
+                "a": 0,
+                "f": 856,
+                "r": 0
+              },
+              "avoid": {
+                "at": 856,
+                "x": 140,
+                "y": 610,
+                "s": 1,
+                "a": 0,
+                "f": 856,
+                "r": 0
+              }
+            },
+            "camera": {
+              "scale": 1
+            },
+            "principalUnits": 4,
+            "debtUnits": 2,
+            "engine": {
+              "actors": {
+                "headphone": {
+                  "f": 1099,
+                  "x": 110,
+                  "y": 1280,
+                  "s": 0.5,
+                  "a": 1,
+                  "r": -1.4
+                },
+                "extra": {
+                  "at": 640,
+                  "x": 350,
+                  "y": 720,
+                  "s": 0.65,
+                  "a": 0,
+                  "f": 640,
+                  "r": 2.4
+                },
+                "food": {
+                  "at": 640,
+                  "x": 760,
+                  "y": 720,
+                  "s": 0.65,
+                  "a": 0,
+                  "f": 640,
+                  "r": 0
+                },
+                "principal": {
+                  "f": 1099,
+                  "x": 405,
+                  "y": 1280,
+                  "s": 0.35,
+                  "a": 1,
+                  "r": 0
+                },
+                "burden": {
+                  "f": 1099,
+                  "x": 790,
+                  "y": 1280,
+                  "s": 0.38,
+                  "a": 1,
+                  "r": 0
+                },
+                "trend": {
+                  "at": 331,
+                  "x": 480,
+                  "y": 610,
+                  "s": 0.85,
+                  "a": 0,
+                  "f": 331,
+                  "r": 0
+                },
+                "risk": {
+                  "at": 856,
+                  "x": 140,
+                  "y": 610,
+                  "s": 1,
+                  "a": 0,
+                  "f": 856,
+                  "r": 0
+                },
+                "avoid": {
+                  "at": 856,
+                  "x": 140,
+                  "y": 610,
+                  "s": 1,
+                  "a": 0,
+                  "f": 856,
+                  "r": 0
+                }
+              },
+              "camera": {
+                "scale": 1
+              },
+              "principalUnits": 4,
+              "debtUnits": 2,
+              "frontPaperAngle": -155,
+              "continuity": "same-photo, same-capital and same-debt IDs; no replenishment"
+            },
+            "style": "editorial-print",
+            "modules": {
+              "style": [
+                "衬线与编辑页栏",
+                "同一物件与纸页接缝",
+                "印刷层被抽离后露出结果"
+              ],
+              "palette": "#eee7d7",
+              "material": "printed-photo-and-cut-paper",
+              "representation": {
+                "headphone": "同一个物品；加购是标明的第二实例",
+                "capital": "损失后保留4个示意单位，后文不补回8个",
+                "debt": "同一6层负担，减少后保留2层",
+                "risk": "夸大收益说法的载体，揭示后隔离"
+              },
+              "motion": "纸页抽离、剪贴取舍与同物回收",
+              "camera": "二维翻阅与细节回看",
+              "transition": "翻阅接缝与有内容的纸层抽离",
+              "typography": "editorial-print",
+              "lighting": {
+                "ambient": 2.2,
+                "key": 3.2,
+                "direction": [
+                  -4,
+                  8,
+                  6
+                ]
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          }
+        },
+        "moduleBindings": {
+          "style": [
+            "衬线与编辑页栏",
+            "同一物件与纸页接缝",
+            "印刷层被抽离后露出结果"
+          ],
+          "palette": "#eee7d7",
+          "material": "printed-photo-and-cut-paper",
+          "representation": {
+            "headphone": "同一个物品；加购是标明的第二实例",
+            "capital": "损失后保留4个示意单位，后文不补回8个",
+            "debt": "同一6层负担，减少后保留2层",
+            "risk": "夸大收益说法的载体，揭示后隔离"
+          },
+          "motion": "纸页抽离、剪贴取舍与同物回收",
+          "camera": "二维翻阅与细节回看",
+          "transition": "翻阅接缝与有内容的纸层抽离",
+          "typography": "editorial-print",
+          "lighting": {
+            "ambient": 2.2,
+            "key": 3.2,
+            "direction": [
+              -4,
+              8,
+              6
+            ]
+          },
+          "information": {
+            "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+            "food": "日常需要的对照示意，不代表具体购买建议",
+            "capital": "同一示意本金；受损后不凭空补满",
+            "debt": "负担层数消减示意，不代表实际金额",
+            "risk": "夸大收益说法与风险揭示的比喻载体"
+          },
+          "rhythm": {
+            "extraStart": 470,
+            "extraReady": 490,
+            "denyStart": 516,
+            "denyEnd": 538,
+            "compareStart": 563,
+            "compareReady": 587,
+            "capitalStart": 616,
+            "capitalReady": 643,
+            "riskRevealStart": 744,
+            "riskRevealEnd": 759,
+            "debtStart": 856,
+            "debtReady": 882,
+            "recapReady": 970,
+            "lossStart": 310,
+            "lossEnd": 334
+          }
+        },
+        "voices": 1,
+        "captionCount": 21,
+        "mediaErrors": [
+          null,
+          null
+        ],
+        "allImagesLoaded": true,
+        "errors": [],
+        "failedRequests": [],
+        "noCapitalReplenishment": true,
+        "debtResult": true,
+        "ok": true,
+        "visualInputs": {
+          "index.html": "d8664829ba650e6ce9d95e9776a63f159335bfd05f4c145cdea2b1561b7f7c83",
+          "assets/film.css": "9ee52f89a8665df9f75eec7feecd9bde32c34a87dd5ec8da589eb2d2264492ae",
+          "assets/film-config.js": "f99d3d1c900305dc7bca15de41498ffe044f84b6f8d48cd9cc9dca36b79cc30e",
+          "scripts/blueprint-plan.mjs": "fbfb35b3903f1ba40327b93415a5470c263b413566cae6087f380ceb04389e7a",
+          "scripts/build-project.mjs": "e1d3ac3a1ce52c284848dee2e3ed09854611e9c5a6c047d051378174602978c5",
+          "scripts/clay-world.mjs": "93064c7de5a2e6906d205f9ae8c79a7b6da87459c3771f24e9743b64e928d0c0",
+          "scripts/motion.mjs": "0a52b69086fbf0fcfbf65d5ee45c4019ede0c5b58c70dbfabab5376184ff050b",
+          "scripts/paper-world.mjs": "d622bfc6d133d47d04af292e9961a6ec87fee5a688a07baf236be3d3faae8dc1",
+          "scripts/render-opaque-png.mjs": "49ffa1860f6194756d723cd58642d7125229db811c376e7ffc843ce9d52fc909"
+        }
+      }
+    },
+    "text-path-audit.json": {
+      "sha256": "c77d22647a22f2a63d48177d310065dcab17c89d9ae9405a1aa6d0344922ece6",
+      "data": {
+        "frames": 1100,
+        "glyphs": 67907,
+        "points": 203721,
+        "issues": [],
+        "issueCount": 0,
+        "windows": [],
+        "intentional": [],
+        "scope": "All1100 authored frames; three probe points per nonspace glyph in reading and exiting text (effective opacity>=0.2). Actual DOM paint order, circular clipping and source PNG alpha respected. Hidden reverse paper and intentional semantic strike-through explicitly excluded; complements actual encoded dense-frame review, not universal pixel OCR.",
+        "visualInputs": {
+          "index.html": "d8664829ba650e6ce9d95e9776a63f159335bfd05f4c145cdea2b1561b7f7c83",
+          "assets/film.css": "9ee52f89a8665df9f75eec7feecd9bde32c34a87dd5ec8da589eb2d2264492ae",
+          "scripts/motion.mjs": "0a52b69086fbf0fcfbf65d5ee45c4019ede0c5b58c70dbfabab5376184ff050b",
+          "assets/film-config.js": "f99d3d1c900305dc7bca15de41498ffe044f84b6f8d48cd9cc9dca36b79cc30e"
+        },
+        "sourceBindingScope": "Current visual inputs recorded after this isolated audit; no edits were made during the run",
+        "ok": true
+      }
+    }
+  }
+}

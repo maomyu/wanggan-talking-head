@@ -1,0 +1,11 @@
+import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';import{fileURLToPath}from'node:url';
+const i=process.argv.indexOf('--project'),R=i>=0?path.resolve(process.argv[i+1]):path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const read=n=>JSON.parse(fs.readFileSync(path.join(R,n))),map={style:'style-contract',palette:'palette-tokens',material:'material-tokens',representation:'object-spec',motion:'motion-events',camera:'camera-plan',transition:'transition-plan',typography:'layout-plan',lighting:'finish-plan',information:'semantic-plan',rhythm:'timing'},C={source:read('timing.json')};
+for(const[k,n]of Object.entries(map))C[k]=read('plans/'+n+'.json');C.key=C.style.compositionMode;
+fs.writeFileSync(path.join(R,'assets/film-config.js'),'window.FILM_CONFIG='+JSON.stringify(C)+';\n');
+const L=C.typography,css=`:root{${Object.entries(C.palette.colorRoles).map(([k,v])=>`--${k}:${v}`).join(';')};--grain:${C.lighting.finishLayers.grainOpacity}}@font-face{font-family:FilmTitle;src:url(assets/fonts/${L.fontRoles.title});font-weight:700}@font-face{font-family:FilmBody;src:url(assets/fonts/${L.fontRoles.body});font-weight:500}@font-face{font-family:FilmBold;src:url(assets/fonts/NotoSansSC-700.woff);font-weight:700}#captions{left:${L.captionZones.box[0]}px;top:${L.captionZones.box[1]}px;width:${L.captionZones.box[2]}px}#caption-text{font-size:${L.captionZones.fontSize}px}`;
+fs.writeFileSync(path.join(R,'index.html'),fs.readFileSync(path.join(R,'scripts/composition.template'),'utf8').replace('__TOKENS__',css).replaceAll('__KEY__',C.key).replaceAll('__NAME__',C.style.name));
+fs.copyFileSync(path.join(R,'scripts/film.css'),path.join(R,'assets/film.css'));
+const files=['index.html','assets/film-config.js','assets/film.css','scripts/motion.mjs','scripts/paper-world.mjs','scripts/blueprint-plan.mjs','scripts/clay-world.mjs','scripts/build-project.mjs','recipe.json','timing.json',...Object.values(map).map(n=>'plans/'+n+'.json')].filter(n=>fs.existsSync(path.join(R,n)));
+fs.writeFileSync(path.join(R,'qa/build-inputs.json'),JSON.stringify({modules:map,inputs:Object.fromEntries(files.map(n=>[n,crypto.createHash('sha256').update(fs.readFileSync(path.join(R,n))).digest('hex')]))},null,2));
+console.log(C.key,'compiled actual eleven plans');

@@ -1,0 +1,28 @@
+{
+  "language": "固定阅读平面，面板内部聚焦行，避免UI和外部镜头同时运动",
+  "viewTransforms": [
+    {
+      "at": 0,
+      "x": 0,
+      "y": 0,
+      "s": 1,
+      "a": 1
+    },
+    {
+      "at": 1099,
+      "x": 0,
+      "y": 0,
+      "s": 1,
+      "a": 1
+    }
+  ],
+  "protected": [
+    "person",
+    "captions",
+    "title"
+  ],
+  "standards": [
+    "locked-stage",
+    "wide-detail-return"
+  ]
+}

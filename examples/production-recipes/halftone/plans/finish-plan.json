@@ -1,0 +1,18 @@
+{
+  "lightAssignments": "flat-even-paper",
+  "shadowRules": "no synthetic lighting on person",
+  "finishLayers": {
+    "paperGrainOpacity": 0.025,
+    "halftonePitch": 12,
+    "inkSpread": 0
+  },
+  "reason": "统一纸面和轮廓强度，阅读与人物保持独立清晰层。",
+  "selectedStandards": [
+    "flat-print-light",
+    "paper-grain-finish"
+  ],
+  "standards": [
+    "flat-print-light",
+    "paper-grain-finish"
+  ]
+}

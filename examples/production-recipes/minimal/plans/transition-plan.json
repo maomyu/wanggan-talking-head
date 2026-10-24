@@ -1,0 +1,23 @@
+{
+  "language": "旁侧示意更替，讲话连续",
+  "entryExitBridges": [
+    388,
+    461,
+    616,
+    686,
+    856,
+    898
+  ],
+  "continuityAnchors": [
+    "headphone",
+    "principal",
+    "burden"
+  ],
+  "coverFrames": [],
+  "reason": "保持同一对象ID与已经发生的结果；源片没有实际跳切，不伪称源剪辑转场。",
+  "labelClearFrames": 8,
+  "standards": [
+    "object-match",
+    "clean-cut"
+  ]
+}

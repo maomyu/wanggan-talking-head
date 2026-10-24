@@ -1,0 +1,1409 @@
+{
+  "version": "1.21.0",
+  "approvalDate": "2026-10-24",
+  "approvedScope": "用户认可19套母画风统一配方与调用入口正式并入；技术蓝图独立为分支",
+  "recipeId": "papercut",
+  "familyId": "F13",
+  "branchId": null,
+  "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+  "originalVideoSha256": "076ed7a89c12797afdba778a7a2f8b90ba42a06b9339805568f90660d74affa6",
+  "duration": 36.666666666666664,
+  "sourceSpecific": true,
+  "crossScript": "deferred-by-user",
+  "preservedImplementation": {
+    "examples/production-recipes/papercut/edit-plan.json": "699c481b98445d39dedb1b09bf46e5f7db6b5dfe422e67bbeaf6718a2c335cf2",
+    "examples/production-recipes/papercut/scene-plan.json": "5e07aa843626b67e584ed5f1d749eaafe3e01650f1290a4061a648123b2fe224",
+    "examples/production-recipes/papercut/timing.json": "c2fd00b17ded4a7866ec5b3b12c659b8b25934bb0fbf12a5dc45736eb097153a",
+    "examples/production-recipes/papercut/orchestration.json": "56d8e258699e1e17a20cb9923e78cf9f3f84f6118fb6637b549b55a3a7235f87",
+    "examples/production-recipes/papercut/recipe.json": "239cac3b2d8990a2e929c196f611e29b88792d4fd32dd23a3fdd794ea749b794",
+    "examples/production-recipes/papercut/facts.json": "ea57140e17c2f65668dc79baa82b63647c9043dd170e8e9c76d2fcc7884c389b",
+    "examples/production-recipes/papercut/plans/palette-tokens.json": "3821089a01a14cb6d827dbd0bde74dca83f011704931af3cc58749c6b3d17f9e",
+    "examples/production-recipes/papercut/plans/transition-plan.json": "cac2f5a44b15e5341e05cb680e869f95c5e07e428c38dc5de336fa39bb186684",
+    "examples/production-recipes/papercut/plans/timing.json": "6d37eb62a35fe2fb94608e69afca87485d3970ea08317cd068570caac51456b1",
+    "examples/production-recipes/papercut/plans/layout-plan.json": "aba802bb9535461c5c23cc3dacc6f8f631bda8e02d74e6ce4b2da35379b24be9",
+    "examples/production-recipes/papercut/plans/brief.json": "ff95a5a81fce2b3173d59b5cc4cd19d3d4aa7869b525a9a7e0026b20aea8a398",
+    "examples/production-recipes/papercut/plans/semantic-plan.json": "6b75b9199943656e0e72b3112e8c521bd99558e889a131fd7d3e2ad034c9d45c",
+    "examples/production-recipes/papercut/plans/finish-plan.json": "7320454387556a2c666afb48a1f871fd9956f4aa905f9a7548008000fc62f843",
+    "examples/production-recipes/papercut/plans/camera-plan.json": "024e13281ce2d53fc7a7162ad57250f5ecd88ed447c1d1f4c4ff4dc6105a921e",
+    "examples/production-recipes/papercut/plans/object-spec.json": "4f4ce49eac89cff69456d307dcd029fdf25a536a252a2a8b686d7740e3fa4831",
+    "examples/production-recipes/papercut/plans/material-tokens.json": "7aef058f1f842d8015c97294467391b6cf9ba8b9b0fa0366946ac82cb5addf96",
+    "examples/production-recipes/papercut/plans/style-contract.json": "3b8b6fbea110f773e19856a9aa72a4f9be28ccd9f8a359f731ea0bd72c08a3bd",
+    "examples/production-recipes/papercut/plans/motion-events.json": "b27b08c967c5823524aee7fb5793f743fd43421d86de4bfc1e709337a863a42f",
+    "examples/production-recipes/papercut/scripts/motion.mjs": "124b158cf6e0030dd0b2b60d32ac8b3eba32ab24b942d795cdd405d332e82520",
+    "examples/production-recipes/papercut/scripts/composition.template": "6ecebe3caab651c33ca20a5890a71f2e810a9d0e5cc4222f395b8b8bfc499a9e",
+    "examples/production-recipes/papercut/scripts/film.css": "a8c3847997534fa5ac9c87ff0939cf132d47a00f44322fe6f5554cffb3ddc745",
+    "examples/production-recipes/papercut/scripts/build-project.mjs": "06dd000a8393fdc4f3d2a603ea2ace64f1ec3993f11f234c9a63df41dda1254e"
+  },
+  "technicalChecks": {
+    "verification.json": {
+      "sha256": "3eb6eaa6229fbc55c6fcd3a7add45fbaf55c3d832183aa467329792bc292e3b8",
+      "data": {
+        "status": "verified",
+        "key": "papercut",
+        "video": {
+          "sha256": "076ed7a89c12797afdba778a7a2f8b90ba42a06b9339805568f90660d74affa6",
+          "width": 1080,
+          "height": 1920,
+          "fps": "30/1",
+          "frames": 1100,
+          "duration": 36.666666666666664,
+          "bytes": 26318907,
+          "faststart": true,
+          "sharedFinalPlaybackInode": true
+        },
+        "audio": {
+          "originalVoiceCorrelation": 0.9999823504746719,
+          "offsetSamples": 0,
+          "decodedSamplesCompared": 1760000,
+          "min100msVoiceRmsRatio": 0.9925177151927742,
+          "dropped100msVoiceWindows": 0,
+          "audibleTracks": 1,
+          "scope": "actual decoded original-voice comparison; not subjective listening review"
+        },
+        "person": {
+          "actualEncodedSamples": [
+            {
+              "frame": 0,
+              "box": [
+                230,
+                570,
+                620,
+                620
+              ],
+              "innerRGBMeanAbsoluteError": 2.512038467032686
+            },
+            {
+              "frame": 75,
+              "box": [
+                137,
+                955,
+                440,
+                440
+              ],
+              "innerRGBMeanAbsoluteError": 2.747112217848823
+            },
+            {
+              "frame": 180,
+              "box": [
+                64,
+                1255,
+                300,
+                300
+              ],
+              "innerRGBMeanAbsoluteError": 2.45434003158902
+            },
+            {
+              "frame": 750,
+              "box": [
+                64,
+                1255,
+                300,
+                300
+              ],
+              "innerRGBMeanAbsoluteError": 2.4302908726178534
+            },
+            {
+              "frame": 1030,
+              "box": [
+                240,
+                540,
+                600,
+                600
+              ],
+              "innerRGBMeanAbsoluteError": 2.0697202380438258
+            },
+            {
+              "frame": 1099,
+              "box": [
+                240,
+                540,
+                600,
+                600
+              ],
+              "innerRGBMeanAbsoluteError": 2.0655714577737085
+            }
+          ],
+          "all1100AuthoredCircleFrames": 1100
+        },
+        "captionCount": 21,
+        "denseFrames": 183,
+        "htmlSha256": "ffb76623c54789fc1a9f4dc40563e7883fc11a5f5883e68bfa169ab1c453499c",
+        "sceneContractSha256": "d6996cd3624b13c011e908f3f31a52f96a9bb0242a3c4d205ab16ce1e07ab3ac",
+        "textAuditSha256": "908e2d18efdda5a5f69e474099162e7beabfe6e30fe4bd1b5d5023e3987c4df6",
+        "capturePolicy": {
+          "kind": "opaque-SDR PNG compression only",
+          "engineVersion": "0.8.174",
+          "engineSha256": "e80a9d81838c0fe034f4d00af1c0262f570d64b2bb8b8c487a22cf7d8a70cc4e",
+          "installedModuleUnchanged": true,
+          "applications": 1,
+          "outputPixelEquivalenceSamples": 48,
+          "pixelEquivalenceReportSha256": "18df55135cbfbd2e204a965b1fbf334d67ff04c439be35e812d4196d94d1a837",
+          "alphaAndHDRCaptureUnchanged": true,
+          "geometryTimingFontsAudioAndEncodingUnchanged": true,
+          "exitCode": 0
+        },
+        "scope": "one actual complete source-specific film; technical/author checks, not independent review"
+      }
+    },
+    "scene-contract.json": {
+      "sha256": "d6996cd3624b13c011e908f3f31a52f96a9bb0242a3c4d205ab16ce1e07ab3ac",
+      "data": {
+        "framesChecked": 1100,
+        "issues": [],
+        "poses": [
+          {
+            "frame": 0,
+            "x": 230,
+            "y": 570,
+            "w": 620
+          },
+          {
+            "frame": 75,
+            "x": 136.63880920410156,
+            "y": 955.2554931640625,
+            "w": 440.026611328125
+          },
+          {
+            "frame": 180,
+            "x": 64,
+            "y": 1255,
+            "w": 300
+          },
+          {
+            "frame": 750,
+            "x": 64,
+            "y": 1255,
+            "w": 300
+          },
+          {
+            "frame": 1030,
+            "x": 240,
+            "y": 540,
+            "w": 600
+          },
+          {
+            "frame": 1099,
+            "x": 240,
+            "y": 540,
+            "w": 600
+          }
+        ],
+        "deterministic": true,
+        "maxCaptionBottom": 1765,
+        "states": {
+          "0": {
+            "frame": 0,
+            "sourceFrame": 0,
+            "person": {
+              "x": 230,
+              "y": 570,
+              "w": 620,
+              "h": 620,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 240,
+                "y": 800,
+                "s": 0.9,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "extra": {
+                "x": 790,
+                "y": 840,
+                "s": 0.98,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "food": {
+                "x": 790,
+                "y": 840,
+                "s": 1.03,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "principal": {
+                "x": 790,
+                "y": 820,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "burden": {
+                "x": 500,
+                "y": 1135,
+                "s": 0.5,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "risk": {
+                "x": 780,
+                "y": 860,
+                "s": 0.91,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 8,
+            "debtUnits": 6,
+            "style": "papercut",
+            "extraDenied": false,
+            "riskRevealed": false,
+            "modules": {
+              "style": [
+                "镂空轮廓、折页与前中后景构成立体纸舞台，区别于撕贴摄影拼贴",
+                "同一纸片物件绕固定折点交出下一状态，纸层接触影有明确方向",
+                "人物保留源色且置于独立圆窗，未把纸片变形当真人或真实物理模拟"
+              ],
+              "palette": {
+                "bg": "#ede4ce",
+                "ink": "#273b3e",
+                "accent": "#b4533e",
+                "secondary": "#8caa8a",
+                "muted": "#526258",
+                "textAccent": "#963e2d"
+              },
+              "material": {
+                "objects": "哑光彩纸、清楚切边、有限折面和接触影，非撕纸票据或照片拼贴",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "物件沿台面插槽就位，加购绕纸脚折回；双扇纸门从中心打开露出风险，负担纸层向后折去",
+              "camera": "正面舞台全景到层间轻推再回全景；前景翼片缓动交接，字幕与人保持独立",
+              "transition": "侧幕和双扇纸门以固定折点开合，上一物件保留在台面，遮挡区只位于图解舞台",
+              "typography": {
+                "title": "NotoSerifSC-700.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0,
+                "contactShadowOpacity": 0.17
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "334": {
+            "frame": 334,
+            "sourceFrame": 334,
+            "person": {
+              "x": 64,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 240,
+                "y": 800,
+                "s": 0.9,
+                "a": 0.5000247664542141,
+                "r": 0,
+                "visible": true
+              },
+              "extra": {
+                "x": 790,
+                "y": 840,
+                "s": 0.98,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "food": {
+                "x": 790,
+                "y": 840,
+                "s": 1.03,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "principal": {
+                "x": 620,
+                "y": 840,
+                "s": 0.8,
+                "a": 1,
+                "r": 0,
+                "visible": true
+              },
+              "burden": {
+                "x": 500,
+                "y": 1135,
+                "s": 0.5,
+                "a": 1,
+                "r": 0,
+                "visible": true
+              },
+              "risk": {
+                "x": 780,
+                "y": 860,
+                "s": 0.91,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 1,
+                "visible": true
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "style": "papercut",
+            "extraDenied": false,
+            "riskRevealed": false,
+            "modules": {
+              "style": [
+                "镂空轮廓、折页与前中后景构成立体纸舞台，区别于撕贴摄影拼贴",
+                "同一纸片物件绕固定折点交出下一状态，纸层接触影有明确方向",
+                "人物保留源色且置于独立圆窗，未把纸片变形当真人或真实物理模拟"
+              ],
+              "palette": {
+                "bg": "#ede4ce",
+                "ink": "#273b3e",
+                "accent": "#b4533e",
+                "secondary": "#8caa8a",
+                "muted": "#526258",
+                "textAccent": "#963e2d"
+              },
+              "material": {
+                "objects": "哑光彩纸、清楚切边、有限折面和接触影，非撕纸票据或照片拼贴",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "物件沿台面插槽就位，加购绕纸脚折回；双扇纸门从中心打开露出风险，负担纸层向后折去",
+              "camera": "正面舞台全景到层间轻推再回全景；前景翼片缓动交接，字幕与人保持独立",
+              "transition": "侧幕和双扇纸门以固定折点开合，上一物件保留在台面，遮挡区只位于图解舞台",
+              "typography": {
+                "title": "NotoSerifSC-700.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0,
+                "contactShadowOpacity": 0.17
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "615": {
+            "frame": 615,
+            "sourceFrame": 615,
+            "person": {
+              "x": 64,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 285,
+                "y": 840,
+                "s": 1.06,
+                "a": 1,
+                "r": 0,
+                "visible": true
+              },
+              "extra": {
+                "x": 790,
+                "y": 995,
+                "s": 0.29400000000000004,
+                "a": 0,
+                "r": -65,
+                "visible": false
+              },
+              "food": {
+                "x": 790,
+                "y": 840,
+                "s": 1.03,
+                "a": 1,
+                "r": 4,
+                "visible": true
+              },
+              "principal": {
+                "x": 540,
+                "y": 850,
+                "s": 1.1199999997703918,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "burden": {
+                "x": 827.5568705929709,
+                "y": 850,
+                "s": 0.5588031720502403,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "risk": {
+                "x": 780,
+                "y": 860,
+                "s": 0.91,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 1,
+                "visible": true
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "style": "papercut",
+            "extraDenied": true,
+            "riskRevealed": false,
+            "modules": {
+              "style": [
+                "镂空轮廓、折页与前中后景构成立体纸舞台，区别于撕贴摄影拼贴",
+                "同一纸片物件绕固定折点交出下一状态，纸层接触影有明确方向",
+                "人物保留源色且置于独立圆窗，未把纸片变形当真人或真实物理模拟"
+              ],
+              "palette": {
+                "bg": "#ede4ce",
+                "ink": "#273b3e",
+                "accent": "#b4533e",
+                "secondary": "#8caa8a",
+                "muted": "#526258",
+                "textAccent": "#963e2d"
+              },
+              "material": {
+                "objects": "哑光彩纸、清楚切边、有限折面和接触影，非撕纸票据或照片拼贴",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "物件沿台面插槽就位，加购绕纸脚折回；双扇纸门从中心打开露出风险，负担纸层向后折去",
+              "camera": "正面舞台全景到层间轻推再回全景；前景翼片缓动交接，字幕与人保持独立",
+              "transition": "侧幕和双扇纸门以固定折点开合，上一物件保留在台面，遮挡区只位于图解舞台",
+              "typography": {
+                "title": "NotoSerifSC-700.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0,
+                "contactShadowOpacity": 0.17
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "685": {
+            "frame": 685,
+            "sourceFrame": 685,
+            "person": {
+              "x": 64,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 284.9218700163302,
+                "y": 840.5312838889545,
+                "s": 0.4499479133442202,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "extra": {
+                "x": 790,
+                "y": 995,
+                "s": 0.29400000000000004,
+                "a": 0,
+                "r": -65,
+                "visible": false
+              },
+              "food": {
+                "x": 790,
+                "y": 840,
+                "s": 0.5,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "principal": {
+                "x": 539.74296424109,
+                "y": 850.0095198429226,
+                "s": 1.1196477658118642,
+                "a": 1,
+                "r": 0,
+                "visible": true
+              },
+              "burden": {
+                "x": 629.7020887781414,
+                "y": 850,
+                "s": 0.9174149640896188,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "risk": {
+                "x": 780,
+                "y": 860,
+                "s": 0.91,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 1,
+                "visible": true
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "style": "papercut",
+            "extraDenied": true,
+            "riskRevealed": false,
+            "modules": {
+              "style": [
+                "镂空轮廓、折页与前中后景构成立体纸舞台，区别于撕贴摄影拼贴",
+                "同一纸片物件绕固定折点交出下一状态，纸层接触影有明确方向",
+                "人物保留源色且置于独立圆窗，未把纸片变形当真人或真实物理模拟"
+              ],
+              "palette": {
+                "bg": "#ede4ce",
+                "ink": "#273b3e",
+                "accent": "#b4533e",
+                "secondary": "#8caa8a",
+                "muted": "#526258",
+                "textAccent": "#963e2d"
+              },
+              "material": {
+                "objects": "哑光彩纸、清楚切边、有限折面和接触影，非撕纸票据或照片拼贴",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "物件沿台面插槽就位，加购绕纸脚折回；双扇纸门从中心打开露出风险，负担纸层向后折去",
+              "camera": "正面舞台全景到层间轻推再回全景；前景翼片缓动交接，字幕与人保持独立",
+              "transition": "侧幕和双扇纸门以固定折点开合，上一物件保留在台面，遮挡区只位于图解舞台",
+              "typography": {
+                "title": "NotoSerifSC-700.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0,
+                "contactShadowOpacity": 0.17
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "782": {
+            "frame": 782,
+            "sourceFrame": 782,
+            "person": {
+              "x": 64,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 248.17687750292666,
+                "y": 1090.3972329800988,
+                "s": 0.4254512516686178,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "extra": {
+                "x": 790,
+                "y": 995,
+                "s": 0.29400000000000004,
+                "a": 0,
+                "r": -65,
+                "visible": false
+              },
+              "food": {
+                "x": 790,
+                "y": 840,
+                "s": 0.5,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "principal": {
+                "x": 270,
+                "y": 860,
+                "s": 0.75,
+                "a": 1,
+                "r": 0,
+                "visible": true
+              },
+              "burden": {
+                "x": 540.976302073575,
+                "y": 850,
+                "s": 1.0782304524916455,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "risk": {
+                "x": 780,
+                "y": 860,
+                "s": 0.91,
+                "a": 1,
+                "r": 0,
+                "visible": true
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 1,
+                "visible": true
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "style": "papercut",
+            "extraDenied": true,
+            "riskRevealed": true,
+            "modules": {
+              "style": [
+                "镂空轮廓、折页与前中后景构成立体纸舞台，区别于撕贴摄影拼贴",
+                "同一纸片物件绕固定折点交出下一状态，纸层接触影有明确方向",
+                "人物保留源色且置于独立圆窗，未把纸片变形当真人或真实物理模拟"
+              ],
+              "palette": {
+                "bg": "#ede4ce",
+                "ink": "#273b3e",
+                "accent": "#b4533e",
+                "secondary": "#8caa8a",
+                "muted": "#526258",
+                "textAccent": "#963e2d"
+              },
+              "material": {
+                "objects": "哑光彩纸、清楚切边、有限折面和接触影，非撕纸票据或照片拼贴",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "物件沿台面插槽就位，加购绕纸脚折回；双扇纸门从中心打开露出风险，负担纸层向后折去",
+              "camera": "正面舞台全景到层间轻推再回全景；前景翼片缓动交接，字幕与人保持独立",
+              "transition": "侧幕和双扇纸门以固定折点开合，上一物件保留在台面，遮挡区只位于图解舞台",
+              "typography": {
+                "title": "NotoSerifSC-700.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0,
+                "contactShadowOpacity": 0.17
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "897": {
+            "frame": 897,
+            "sourceFrame": 897,
+            "person": {
+              "x": 64,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 210.00491085325666,
+                "y": 1349.9666061978546,
+                "s": 0.40000327390217116,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "extra": {
+                "x": 790,
+                "y": 995,
+                "s": 0.29400000000000004,
+                "a": 0,
+                "r": -65,
+                "visible": false
+              },
+              "food": {
+                "x": 790,
+                "y": 840,
+                "s": 0.5,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "principal": {
+                "x": 514.1045741736889,
+                "y": 1303.0045975744724,
+                "s": 0.361240863353014,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "burden": {
+                "x": 540,
+                "y": 850,
+                "s": 1.08,
+                "a": 1,
+                "r": 0,
+                "visible": true
+              },
+              "risk": {
+                "at": 856,
+                "x": 930,
+                "y": 860,
+                "s": 0.91,
+                "a": 0,
+                "r": 0,
+                "f": 856,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 1,
+                "visible": true
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 2,
+            "style": "papercut",
+            "extraDenied": true,
+            "riskRevealed": true,
+            "modules": {
+              "style": [
+                "镂空轮廓、折页与前中后景构成立体纸舞台，区别于撕贴摄影拼贴",
+                "同一纸片物件绕固定折点交出下一状态，纸层接触影有明确方向",
+                "人物保留源色且置于独立圆窗，未把纸片变形当真人或真实物理模拟"
+              ],
+              "palette": {
+                "bg": "#ede4ce",
+                "ink": "#273b3e",
+                "accent": "#b4533e",
+                "secondary": "#8caa8a",
+                "muted": "#526258",
+                "textAccent": "#963e2d"
+              },
+              "material": {
+                "objects": "哑光彩纸、清楚切边、有限折面和接触影，非撕纸票据或照片拼贴",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "物件沿台面插槽就位，加购绕纸脚折回；双扇纸门从中心打开露出风险，负担纸层向后折去",
+              "camera": "正面舞台全景到层间轻推再回全景；前景翼片缓动交接，字幕与人保持独立",
+              "transition": "侧幕和双扇纸门以固定折点开合，上一物件保留在台面，遮挡区只位于图解舞台",
+              "typography": {
+                "title": "NotoSerifSC-700.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0,
+                "contactShadowOpacity": 0.17
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "1099": {
+            "frame": 1099,
+            "sourceFrame": 1099,
+            "person": {
+              "x": 240,
+              "y": 540,
+              "w": 600,
+              "h": 600,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "at": 1099,
+                "x": 210,
+                "y": 1350,
+                "s": 0.4,
+                "a": 1,
+                "r": 0,
+                "f": 1099,
+                "visible": true
+              },
+              "extra": {
+                "at": 1099,
+                "x": 790,
+                "y": 995,
+                "s": 0.29400000000000004,
+                "a": 0,
+                "r": -65,
+                "f": 1099,
+                "visible": false
+              },
+              "food": {
+                "at": 1099,
+                "x": 790,
+                "y": 840,
+                "s": 0.5,
+                "a": 0,
+                "r": 0,
+                "f": 1099,
+                "visible": false
+              },
+              "principal": {
+                "at": 1099,
+                "x": 540,
+                "y": 1350,
+                "s": 0.32,
+                "a": 1,
+                "r": 0,
+                "f": 1099,
+                "visible": true
+              },
+              "burden": {
+                "at": 1099,
+                "x": 875,
+                "y": 1350,
+                "s": 0.3,
+                "a": 1,
+                "r": 0,
+                "f": 1099,
+                "visible": true
+              },
+              "risk": {
+                "at": 856,
+                "x": 930,
+                "y": 860,
+                "s": 0.91,
+                "a": 0,
+                "r": 0,
+                "f": 856,
+                "visible": false
+              },
+              "trend": {
+                "at": 1099,
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "f": 1099,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "at": 1099,
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "f": 1099
+            },
+            "principalUnits": 4,
+            "debtUnits": 2,
+            "style": "papercut",
+            "extraDenied": true,
+            "riskRevealed": true,
+            "modules": {
+              "style": [
+                "镂空轮廓、折页与前中后景构成立体纸舞台，区别于撕贴摄影拼贴",
+                "同一纸片物件绕固定折点交出下一状态，纸层接触影有明确方向",
+                "人物保留源色且置于独立圆窗，未把纸片变形当真人或真实物理模拟"
+              ],
+              "palette": {
+                "bg": "#ede4ce",
+                "ink": "#273b3e",
+                "accent": "#b4533e",
+                "secondary": "#8caa8a",
+                "muted": "#526258",
+                "textAccent": "#963e2d"
+              },
+              "material": {
+                "objects": "哑光彩纸、清楚切边、有限折面和接触影，非撕纸票据或照片拼贴",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "物件沿台面插槽就位，加购绕纸脚折回；双扇纸门从中心打开露出风险，负担纸层向后折去",
+              "camera": "正面舞台全景到层间轻推再回全景；前景翼片缓动交接，字幕与人保持独立",
+              "transition": "侧幕和双扇纸门以固定折点开合，上一物件保留在台面，遮挡区只位于图解舞台",
+              "typography": {
+                "title": "NotoSerifSC-700.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0,
+                "contactShadowOpacity": 0.17
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          }
+        },
+        "moduleBindings": {
+          "style": [
+            "镂空轮廓、折页与前中后景构成立体纸舞台，区别于撕贴摄影拼贴",
+            "同一纸片物件绕固定折点交出下一状态，纸层接触影有明确方向",
+            "人物保留源色且置于独立圆窗，未把纸片变形当真人或真实物理模拟"
+          ],
+          "palette": {
+            "bg": "#ede4ce",
+            "ink": "#273b3e",
+            "accent": "#b4533e",
+            "secondary": "#8caa8a",
+            "muted": "#526258",
+            "textAccent": "#963e2d"
+          },
+          "material": {
+            "objects": "哑光彩纸、清楚切边、有限折面和接触影，非撕纸票据或照片拼贴",
+            "person": "original-color-no-treatment"
+          },
+          "representation": {
+            "principalUnits": 8,
+            "remainingPrincipal": 4,
+            "debtLayers": 6,
+            "remainingDebt": 2
+          },
+          "motion": "物件沿台面插槽就位，加购绕纸脚折回；双扇纸门从中心打开露出风险，负担纸层向后折去",
+          "camera": "正面舞台全景到层间轻推再回全景；前景翼片缓动交接，字幕与人保持独立",
+          "transition": "侧幕和双扇纸门以固定折点开合，上一物件保留在台面，遮挡区只位于图解舞台",
+          "typography": {
+            "title": "NotoSerifSC-700.woff",
+            "body": "NotoSansSC-500.woff",
+            "caption": "NotoSansSC-700.woff"
+          },
+          "lighting": {
+            "grainOpacity": 0,
+            "contactShadowOpacity": 0.17
+          },
+          "information": {
+            "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+            "food": "日常需要的对照示意，不代表具体购买建议",
+            "capital": "同一示意本金；受损后不凭空补满",
+            "debt": "负担层数消减示意，不代表实际金额",
+            "risk": "夸大收益说法与风险揭示的比喻载体"
+          },
+          "rhythm": {
+            "extraStart": 470,
+            "extraReady": 490,
+            "denyStart": 516,
+            "denyEnd": 538,
+            "compareStart": 563,
+            "compareReady": 587,
+            "capitalStart": 616,
+            "capitalReady": 643,
+            "riskRevealStart": 744,
+            "riskRevealEnd": 759,
+            "debtStart": 856,
+            "debtReady": 882,
+            "recapReady": 970,
+            "lossStart": 310,
+            "lossEnd": 334
+          }
+        },
+        "voices": 1,
+        "captionCount": 21,
+        "mediaErrors": [
+          null,
+          null
+        ],
+        "allImagesLoaded": true,
+        "errors": [],
+        "failedRequests": [],
+        "noCapitalReplenishment": true,
+        "debtResult": true,
+        "ok": true,
+        "visualInputs": {
+          "index.html": "ffb76623c54789fc1a9f4dc40563e7883fc11a5f5883e68bfa169ab1c453499c",
+          "assets/film.css": "a8c3847997534fa5ac9c87ff0939cf132d47a00f44322fe6f5554cffb3ddc745",
+          "assets/film-config.js": "d745f303559c2d464e875725196b9977bc2d010568a82d983bbaffa5da2a2120",
+          "scripts/build-project.mjs": "06dd000a8393fdc4f3d2a603ea2ace64f1ec3993f11f234c9a63df41dda1254e",
+          "scripts/motion.mjs": "124b158cf6e0030dd0b2b60d32ac8b3eba32ab24b942d795cdd405d332e82520",
+          "scripts/render-opaque-png.mjs": "49ffa1860f6194756d723cd58642d7125229db811c376e7ffc843ce9d52fc909"
+        }
+      }
+    },
+    "text-path-audit.json": {
+      "sha256": "908e2d18efdda5a5f69e474099162e7beabfe6e30fe4bd1b5d5023e3987c4df6",
+      "data": {
+        "frames": 1100,
+        "glyphs": 54544,
+        "points": 163632,
+        "issues": [],
+        "issueCount": 0,
+        "windows": [],
+        "intentional": [],
+        "scope": "All1100 authored frames; three probe points per nonspace glyph in reading and exiting text (effective opacity>=0.2). Actual DOM paint order, circular clipping and source PNG alpha respected. Hidden reverse paper and intentional semantic strike-through explicitly excluded; complements actual encoded dense-frame review, not universal pixel OCR.",
+        "visualInputs": {
+          "index.html": "ffb76623c54789fc1a9f4dc40563e7883fc11a5f5883e68bfa169ab1c453499c",
+          "assets/film.css": "a8c3847997534fa5ac9c87ff0939cf132d47a00f44322fe6f5554cffb3ddc745",
+          "scripts/motion.mjs": "124b158cf6e0030dd0b2b60d32ac8b3eba32ab24b942d795cdd405d332e82520",
+          "assets/film-config.js": "d745f303559c2d464e875725196b9977bc2d010568a82d983bbaffa5da2a2120"
+        },
+        "sourceBindingScope": "Current visual inputs recorded after this isolated audit; no edits were made during the run",
+        "ok": true
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "comic-mother-04",
+  "name": "漫画描线 · 新编排研究",
+  "mode": "design-recipe",
+  "status": "test-candidate",
+  "hierarchy": {
+    "familyId": "F09",
+    "branchId": null,
+    "baseLegacyId": "A11"
+  },
+  "selections": {
+    "information": [
+      "problem-mechanism-response",
+      "parallel-options",
+      "option-comparison",
+      "contrast-turn",
+      "recap-return"
+    ],
+    "rhythm": [
+      "speech-led",
+      "reveal-hold-release",
+      "progressive-build",
+      "setup-payoff",
+      "ending-resolve"
+    ],
+    "art-style": [
+      "F09"
+    ],
+    "palette": [
+      "vivid-blocks"
+    ],
+    "material": [
+      "matte"
+    ],
+    "representation": [
+      "flat-symbol",
+      "inset-stage"
+    ],
+    "object-motion": [
+      "sort-compare",
+      "accumulate-reduce",
+      "reveal-consequence",
+      "motivated-move"
+    ],
+    "camera": [
+      "locked-stage",
+      "wide-detail-return"
+    ],
+    "transition": [
+      "object-match",
+      "relation-expand",
+      "foreground-occlusion"
+    ],
+    "typography": [
+      "raised-captions",
+      "clean-sans",
+      "comparison-alignment"
+    ],
+    "lighting": [
+      "flat-print-light"
+    ]
+  },
+  "overrides": {
+    "notes": "用户已认可本案例的完整十一类配方。人物原色、角落真圆、上移字幕；换素材重新设计，不泛化为任意组合已验收。"
+  },
+  "approvalDate": null,
+  "caseId": "same-source-line-03",
+  "sourceRequiredForProduction": true,
+  "implementation": {
+    "kind": "new-source-specific-test",
+    "productionStatus": "awaiting-design"
+  }
+}

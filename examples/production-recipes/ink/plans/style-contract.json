@@ -1,0 +1,24 @@
+{
+  "name": "水墨写意",
+  "mode": "ink",
+  "identityRules": [
+    "干笔墨阶与纸白构图",
+    "墨幕退开揭示",
+    "笔势延续已有对象"
+  ],
+  "referencePrinciples": [
+    "保留已认可有效素材和轮廓，按当前原句重做动作结果与交接"
+  ],
+  "driftChecks": [
+    "人物无风格滤镜",
+    "不得重置损失/减少结果",
+    "字形和圆窗全路径避让"
+  ],
+  "selectedStandards": [
+    "ink-wash"
+  ],
+  "standards": [
+    "ink-wash"
+  ],
+  "compositionMode": "ink"
+}

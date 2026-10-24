@@ -1,0 +1,29 @@
+{
+  "language": "正面舞台全景到层间轻推再回全景；前景翼片缓动交接，字幕与人保持独立",
+  "viewTransforms": [
+    {
+      "at": 0,
+      "x": 0,
+      "y": 0,
+      "s": 1,
+      "a": 1
+    },
+    {
+      "at": 1099,
+      "x": 0,
+      "y": 0,
+      "s": 1,
+      "a": 1
+    }
+  ],
+  "protected": [
+    "person",
+    "captions",
+    "title",
+    "all reading labels"
+  ],
+  "standards": [
+    "locked-stage",
+    "wide-detail-return"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "language": "正视壁面与叙事分区，二维构图变换承担观察顺序；不做无动机绕镜",
+  "viewTransforms": [
+    {
+      "at": 0,
+      "x": 0,
+      "y": 0,
+      "s": 1,
+      "a": 1
+    },
+    {
+      "at": 1099,
+      "x": 0,
+      "y": 0,
+      "s": 1,
+      "a": 1
+    }
+  ],
+  "protected": [
+    "person",
+    "captions",
+    "title"
+  ],
+  "standards": [
+    "locked-stage",
+    "parallel-views"
+  ]
+}

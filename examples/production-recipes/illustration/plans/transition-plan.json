@@ -1,0 +1,26 @@
+{
+  "language": "对象不清空，桌沿与物件接触点引导注意从消费移到资金和负担",
+  "continuityAnchors": [
+    "headphone",
+    "principal-four-remain",
+    "burden-two-remain"
+  ],
+  "entryExitBridges": [
+    149,
+    388,
+    461,
+    563,
+    616,
+    686,
+    783,
+    856,
+    898
+  ],
+  "labelClearFrames": 6,
+  "coverFrames": [],
+  "sourceCut": "continuous original voice, no source jump cuts",
+  "standards": [
+    "object-match",
+    "relation-expand"
+  ]
+}

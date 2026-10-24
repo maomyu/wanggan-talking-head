@@ -1,0 +1,1401 @@
+{
+  "version": "1.21.0",
+  "approvalDate": "2026-10-24",
+  "approvedScope": "用户认可19套母画风统一配方与调用入口正式并入；技术蓝图独立为分支",
+  "recipeId": "comic",
+  "familyId": "F09",
+  "branchId": null,
+  "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+  "originalVideoSha256": "46272a088c94e049667771d99c096a566622da0ddee2cced0c18d746ca449e59",
+  "duration": 36.666666666666664,
+  "sourceSpecific": true,
+  "crossScript": "deferred-by-user",
+  "preservedImplementation": {
+    "examples/production-recipes/comic/edit-plan.json": "699c481b98445d39dedb1b09bf46e5f7db6b5dfe422e67bbeaf6718a2c335cf2",
+    "examples/production-recipes/comic/scene-plan.json": "5bb871ca7bbd956e3e3c22834955bae7645c39517d1d5febd1c0e1ad65f7e6bf",
+    "examples/production-recipes/comic/timing.json": "c2fd00b17ded4a7866ec5b3b12c659b8b25934bb0fbf12a5dc45736eb097153a",
+    "examples/production-recipes/comic/orchestration.json": "56d8e258699e1e17a20cb9923e78cf9f3f84f6118fb6637b549b55a3a7235f87",
+    "examples/production-recipes/comic/recipe.json": "43e4cba5858ca0fb12a659d657865315a368b9dc94f6acfd4cb7bb4cca00a682",
+    "examples/production-recipes/comic/facts.json": "ea57140e17c2f65668dc79baa82b63647c9043dd170e8e9c76d2fcc7884c389b",
+    "examples/production-recipes/comic/plans/palette-tokens.json": "4c7abaf16b8256a272c097d5e7df62719ef75706947b7980523666fc89676674",
+    "examples/production-recipes/comic/plans/transition-plan.json": "543072182aa848bc43eac81f4b5366857752d16a747941d66fbfa44146f63a20",
+    "examples/production-recipes/comic/plans/timing.json": "6d37eb62a35fe2fb94608e69afca87485d3970ea08317cd068570caac51456b1",
+    "examples/production-recipes/comic/plans/layout-plan.json": "ca1c871dd893c43399c29ed084238660784dcdf230c8ee34d89bb4f0b9b932dd",
+    "examples/production-recipes/comic/plans/brief.json": "ff95a5a81fce2b3173d59b5cc4cd19d3d4aa7869b525a9a7e0026b20aea8a398",
+    "examples/production-recipes/comic/plans/semantic-plan.json": "6b75b9199943656e0e72b3112e8c521bd99558e889a131fd7d3e2ad034c9d45c",
+    "examples/production-recipes/comic/plans/finish-plan.json": "cff4f38a9f751bdbe0aed0ed8b7f2508d0b7d271904d10a1734aac1888b8cf74",
+    "examples/production-recipes/comic/plans/camera-plan.json": "6b577d57f61570c3dadd4a4667c8779e1eccc9fede127c8a32b7cd9f7a14f9f7",
+    "examples/production-recipes/comic/plans/object-spec.json": "8b6c32b3c96abb77cd3dae1c5e2437b4b63593e3c8446aa1dad527f481570202",
+    "examples/production-recipes/comic/plans/material-tokens.json": "9ddcbefcf512daa2e3eb5ebae92d5ed1706611df3fd873fa9302198c3a814f5d",
+    "examples/production-recipes/comic/plans/style-contract.json": "b6ab6cadb10e6ba51bcf3b6754a22fd7ad9dddf0023209dd1799cbeb05a25ccd",
+    "examples/production-recipes/comic/plans/motion-events.json": "4e809fcd0ac7e8656a155000dea0c127c05f5a892c89d7ffab80ce0b48844e78",
+    "examples/production-recipes/comic/scripts/motion.mjs": "090cc8d7739312e49124ea85e94c61e59459767f8942a5225b3f792e744c0804",
+    "examples/production-recipes/comic/scripts/composition.template": "6ecebe3caab651c33ca20a5890a71f2e810a9d0e5cc4222f395b8b8bfc499a9e",
+    "examples/production-recipes/comic/scripts/film.css": "a8c3847997534fa5ac9c87ff0939cf132d47a00f44322fe6f5554cffb3ddc745",
+    "examples/production-recipes/comic/scripts/build-project.mjs": "06dd000a8393fdc4f3d2a603ea2ace64f1ec3993f11f234c9a63df41dda1254e"
+  },
+  "technicalChecks": {
+    "verification.json": {
+      "sha256": "3921d51a61225283a9ea5bafc2cd2314f7dee200f78c7d627a2f258611ec36b8",
+      "data": {
+        "status": "verified",
+        "key": "comic",
+        "video": {
+          "sha256": "46272a088c94e049667771d99c096a566622da0ddee2cced0c18d746ca449e59",
+          "width": 1080,
+          "height": 1920,
+          "fps": "30/1",
+          "frames": 1100,
+          "duration": 36.666666666666664,
+          "bytes": 29412965,
+          "faststart": true,
+          "sharedFinalPlaybackInode": true
+        },
+        "audio": {
+          "originalVoiceCorrelation": 0.9999823504746719,
+          "offsetSamples": 0,
+          "decodedSamplesCompared": 1760000,
+          "min100msVoiceRmsRatio": 0.9925177151927742,
+          "dropped100msVoiceWindows": 0,
+          "audibleTracks": 1,
+          "scope": "actual decoded original-voice comparison; not subjective listening review"
+        },
+        "person": {
+          "actualEncodedSamples": [
+            {
+              "frame": 0,
+              "box": [
+                230,
+                570,
+                620,
+                620
+              ],
+              "innerRGBMeanAbsoluteError": 2.552729105517507
+            },
+            {
+              "frame": 75,
+              "box": [
+                137,
+                955,
+                440,
+                440
+              ],
+              "innerRGBMeanAbsoluteError": 2.7509840147803035
+            },
+            {
+              "frame": 180,
+              "box": [
+                64,
+                1255,
+                300,
+                300
+              ],
+              "innerRGBMeanAbsoluteError": 2.4483104485871405
+            },
+            {
+              "frame": 750,
+              "box": [
+                64,
+                1255,
+                300,
+                300
+              ],
+              "innerRGBMeanAbsoluteError": 2.4284693159939588
+            },
+            {
+              "frame": 1030,
+              "box": [
+                240,
+                540,
+                600,
+                600
+              ],
+              "innerRGBMeanAbsoluteError": 2.0643852693828078
+            },
+            {
+              "frame": 1099,
+              "box": [
+                240,
+                540,
+                600,
+                600
+              ],
+              "innerRGBMeanAbsoluteError": 2.066749008870501
+            }
+          ],
+          "all1100AuthoredCircleFrames": 1100
+        },
+        "captionCount": 21,
+        "denseFrames": 183,
+        "htmlSha256": "8294fb086c44bdd99fff50113617055781d4c0b08bc9896cef8ab8e990bfcbcc",
+        "sceneContractSha256": "accb85f14bb745073ec40938d3d3c5957b5fcc0debf324f849c9b8a77f042104",
+        "textAuditSha256": "f8427f68da4924d942d4d07adf424bf27b1afebeb7a16aea07812ea36985fedc",
+        "capturePolicy": {
+          "kind": "opaque-SDR PNG compression only",
+          "engineVersion": "0.8.174",
+          "engineSha256": "e80a9d81838c0fe034f4d00af1c0262f570d64b2bb8b8c487a22cf7d8a70cc4e",
+          "installedModuleUnchanged": true,
+          "applications": 1,
+          "outputPixelEquivalenceSamples": 48,
+          "pixelEquivalenceReportSha256": "18df55135cbfbd2e204a965b1fbf334d67ff04c439be35e812d4196d94d1a837",
+          "alphaAndHDRCaptureUnchanged": true,
+          "geometryTimingFontsAudioAndEncodingUnchanged": true,
+          "exitCode": 0
+        },
+        "scope": "one actual complete source-specific film; technical/author checks, not independent review"
+      }
+    },
+    "scene-contract.json": {
+      "sha256": "accb85f14bb745073ec40938d3d3c5957b5fcc0debf324f849c9b8a77f042104",
+      "data": {
+        "framesChecked": 1100,
+        "issues": [],
+        "poses": [
+          {
+            "frame": 0,
+            "x": 230,
+            "y": 570,
+            "w": 620
+          },
+          {
+            "frame": 75,
+            "x": 136.63880920410156,
+            "y": 955.2554931640625,
+            "w": 440.026611328125
+          },
+          {
+            "frame": 180,
+            "x": 64,
+            "y": 1255,
+            "w": 300
+          },
+          {
+            "frame": 750,
+            "x": 64,
+            "y": 1255,
+            "w": 300
+          },
+          {
+            "frame": 1030,
+            "x": 240,
+            "y": 540,
+            "w": 600
+          },
+          {
+            "frame": 1099,
+            "x": 240,
+            "y": 540,
+            "w": 600
+          }
+        ],
+        "deterministic": true,
+        "maxCaptionBottom": 1765,
+        "states": {
+          "0": {
+            "frame": 0,
+            "sourceFrame": 0,
+            "person": {
+              "x": 230,
+              "y": 570,
+              "w": 620,
+              "h": 620,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 240,
+                "y": 800,
+                "s": 0.9,
+                "a": 0,
+                "r": -3,
+                "visible": false
+              },
+              "extra": {
+                "x": 790,
+                "y": 890,
+                "s": 0.96,
+                "a": 0,
+                "r": -3,
+                "visible": false
+              },
+              "food": {
+                "x": 790,
+                "y": 890,
+                "s": 1.02,
+                "a": 0,
+                "r": -3,
+                "visible": false
+              },
+              "principal": {
+                "x": 790,
+                "y": 820,
+                "s": 0.7,
+                "a": 0,
+                "r": -3,
+                "visible": false
+              },
+              "burden": {
+                "x": 500,
+                "y": 1135,
+                "s": 0.5,
+                "a": 0,
+                "r": -3,
+                "visible": false
+              },
+              "risk": {
+                "x": 790,
+                "y": 900,
+                "s": 0.87,
+                "a": 0,
+                "r": 3,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 8,
+            "debtUnits": 6,
+            "style": "comic",
+            "extraDenied": false,
+            "riskRevealed": false,
+            "modules": {
+              "style": [
+                "粗细描线、分格与页内阅读次序构成漫画语言",
+                "加购从右格退回，保留对象跨格交接，损失单位离格后不补回",
+                "真人始终独立原色圆窗，不描线、不网点化；不伪造人物对白"
+              ],
+              "palette": {
+                "bg": "#fff6de",
+                "ink": "#211f25",
+                "accent": "#d3452f",
+                "secondary": "#efc344",
+                "muted": "#675e59"
+              },
+              "material": {
+                "objects": "平涂纸底、浓黑轮廓与局部短排线，正文区域留净",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "分格伸缩让出阅读主位；额外购买被斜向退回；风险覆盖页侧推，债务层退到格外",
+              "camera": "二维整页固定观察，分格边界移动与局部近景改变注意顺序；字幕与人物不跟随页变形",
+              "transition": "同一分格的黑边由三列合为两格，再由风险页侧推接入减负担；对象身份跨格保留",
+              "typography": {
+                "title": "NotoSansSC-900.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "334": {
+            "frame": 334,
+            "sourceFrame": 334,
+            "person": {
+              "x": 64,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 240,
+                "y": 800,
+                "s": 0.9,
+                "a": 0.5000247664542141,
+                "r": -3,
+                "visible": true
+              },
+              "extra": {
+                "x": 790,
+                "y": 890,
+                "s": 0.96,
+                "a": 0,
+                "r": -3,
+                "visible": false
+              },
+              "food": {
+                "x": 790,
+                "y": 890,
+                "s": 1.02,
+                "a": 0,
+                "r": -3,
+                "visible": false
+              },
+              "principal": {
+                "x": 620,
+                "y": 840,
+                "s": 0.8,
+                "a": 1,
+                "r": -3,
+                "visible": true
+              },
+              "burden": {
+                "x": 500,
+                "y": 1135,
+                "s": 0.5,
+                "a": 1,
+                "r": -3,
+                "visible": true
+              },
+              "risk": {
+                "x": 790,
+                "y": 900,
+                "s": 0.87,
+                "a": 0,
+                "r": 3,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 1,
+                "visible": true
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "style": "comic",
+            "extraDenied": false,
+            "riskRevealed": false,
+            "modules": {
+              "style": [
+                "粗细描线、分格与页内阅读次序构成漫画语言",
+                "加购从右格退回，保留对象跨格交接，损失单位离格后不补回",
+                "真人始终独立原色圆窗，不描线、不网点化；不伪造人物对白"
+              ],
+              "palette": {
+                "bg": "#fff6de",
+                "ink": "#211f25",
+                "accent": "#d3452f",
+                "secondary": "#efc344",
+                "muted": "#675e59"
+              },
+              "material": {
+                "objects": "平涂纸底、浓黑轮廓与局部短排线，正文区域留净",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "分格伸缩让出阅读主位；额外购买被斜向退回；风险覆盖页侧推，债务层退到格外",
+              "camera": "二维整页固定观察，分格边界移动与局部近景改变注意顺序；字幕与人物不跟随页变形",
+              "transition": "同一分格的黑边由三列合为两格，再由风险页侧推接入减负担；对象身份跨格保留",
+              "typography": {
+                "title": "NotoSansSC-900.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "615": {
+            "frame": 615,
+            "sourceFrame": 615,
+            "person": {
+              "x": 64,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 270,
+                "y": 835,
+                "s": 1.02,
+                "a": 1,
+                "r": -3,
+                "visible": true
+              },
+              "extra": {
+                "x": 1000,
+                "y": 750,
+                "s": 0.96,
+                "a": 0,
+                "r": 29.99806147734921,
+                "visible": false
+              },
+              "food": {
+                "x": 790,
+                "y": 890,
+                "s": 1.02,
+                "a": 1,
+                "r": 1,
+                "visible": true
+              },
+              "principal": {
+                "x": 540,
+                "y": 850,
+                "s": 1.189999999744468,
+                "a": 0,
+                "r": -2.999999998888992,
+                "visible": false
+              },
+              "burden": {
+                "x": 836.5430227990012,
+                "y": 850.5069238969849,
+                "s": 0.565900106608028,
+                "a": 0,
+                "r": -0.30415433819089843,
+                "visible": false
+              },
+              "risk": {
+                "x": 790,
+                "y": 900,
+                "s": 0.87,
+                "a": 0,
+                "r": 3,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 1,
+                "visible": true
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "style": "comic",
+            "extraDenied": true,
+            "riskRevealed": false,
+            "modules": {
+              "style": [
+                "粗细描线、分格与页内阅读次序构成漫画语言",
+                "加购从右格退回，保留对象跨格交接，损失单位离格后不补回",
+                "真人始终独立原色圆窗，不描线、不网点化；不伪造人物对白"
+              ],
+              "palette": {
+                "bg": "#fff6de",
+                "ink": "#211f25",
+                "accent": "#d3452f",
+                "secondary": "#efc344",
+                "muted": "#675e59"
+              },
+              "material": {
+                "objects": "平涂纸底、浓黑轮廓与局部短排线，正文区域留净",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "分格伸缩让出阅读主位；额外购买被斜向退回；风险覆盖页侧推，债务层退到格外",
+              "camera": "二维整页固定观察，分格边界移动与局部近景改变注意顺序；字幕与人物不跟随页变形",
+              "transition": "同一分格的黑边由三列合为两格，再由风险页侧推接入减负担；对象身份跨格保留",
+              "typography": {
+                "title": "NotoSansSC-900.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "685": {
+            "frame": 685,
+            "sourceFrame": 685,
+            "person": {
+              "x": 64,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 269.93749601306416,
+                "y": 835.5364925545324,
+                "s": 0.4499479133442202,
+                "a": 0,
+                "r": -2.996874800653209,
+                "visible": false
+              },
+              "extra": {
+                "x": 1000,
+                "y": 750,
+                "s": 0.96,
+                "a": 0,
+                "r": 29.903136674926518,
+                "visible": false
+              },
+              "food": {
+                "x": 790,
+                "y": 890,
+                "s": 0.5,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "principal": {
+                "x": 539.7382043196287,
+                "y": 849.9762003926935,
+                "s": 1.189600166597251,
+                "a": 1,
+                "r": -3,
+                "visible": true
+              },
+              "burden": {
+                "x": 632.5052790524583,
+                "y": 853.5984048628416,
+                "s": 0.9677926321694003,
+                "a": 0,
+                "r": -2.159042917704925,
+                "visible": false
+              },
+              "risk": {
+                "x": 790,
+                "y": 900,
+                "s": 0.87,
+                "a": 0,
+                "r": 3,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 1,
+                "visible": true
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "style": "comic",
+            "extraDenied": true,
+            "riskRevealed": false,
+            "modules": {
+              "style": [
+                "粗细描线、分格与页内阅读次序构成漫画语言",
+                "加购从右格退回，保留对象跨格交接，损失单位离格后不补回",
+                "真人始终独立原色圆窗，不描线、不网点化；不伪造人物对白"
+              ],
+              "palette": {
+                "bg": "#fff6de",
+                "ink": "#211f25",
+                "accent": "#d3452f",
+                "secondary": "#efc344",
+                "muted": "#675e59"
+              },
+              "material": {
+                "objects": "平涂纸底、浓黑轮廓与局部短排线，正文区域留净",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "分格伸缩让出阅读主位；额外购买被斜向退回；风险覆盖页侧推，债务层退到格外",
+              "camera": "二维整页固定观察，分格边界移动与局部近景改变注意顺序；字幕与人物不跟随页变形",
+              "transition": "同一分格的黑边由三列合为两格，再由风险页侧推接入减负担；对象身份跨格保留",
+              "typography": {
+                "title": "NotoSansSC-900.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "782": {
+            "frame": 782,
+            "sourceFrame": 782,
+            "person": {
+              "x": 64,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 240.54150200234133,
+                "y": 1087.852107813237,
+                "s": 0.4254512516686178,
+                "a": 0,
+                "r": -1.5270751001170662,
+                "visible": false
+              },
+              "extra": {
+                "x": 1000,
+                "y": 750,
+                "s": 0.96,
+                "a": 0,
+                "r": 28.401351378798232,
+                "visible": false
+              },
+              "food": {
+                "x": 790,
+                "y": 890,
+                "s": 0.5,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "principal": {
+                "x": 265,
+                "y": 825,
+                "s": 0.77,
+                "a": 1,
+                "r": -3,
+                "visible": true
+              },
+              "burden": {
+                "x": 541.006811513374,
+                "y": 854.9847452801004,
+                "s": 1.1480168864130509,
+                "a": 0,
+                "r": -2.9908471680602355,
+                "visible": false
+              },
+              "risk": {
+                "x": 790,
+                "y": 900,
+                "s": 0.87,
+                "a": 1,
+                "r": 3,
+                "visible": true
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 1,
+                "visible": true
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "style": "comic",
+            "extraDenied": true,
+            "riskRevealed": true,
+            "modules": {
+              "style": [
+                "粗细描线、分格与页内阅读次序构成漫画语言",
+                "加购从右格退回，保留对象跨格交接，损失单位离格后不补回",
+                "真人始终独立原色圆窗，不描线、不网点化；不伪造人物对白"
+              ],
+              "palette": {
+                "bg": "#fff6de",
+                "ink": "#211f25",
+                "accent": "#d3452f",
+                "secondary": "#efc344",
+                "muted": "#675e59"
+              },
+              "material": {
+                "objects": "平涂纸底、浓黑轮廓与局部短排线，正文区域留净",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "分格伸缩让出阅读主位；额外购买被斜向退回；风险覆盖页侧推，债务层退到格外",
+              "camera": "二维整页固定观察，分格边界移动与局部近景改变注意顺序；字幕与人物不跟随页变形",
+              "transition": "同一分格的黑边由三列合为两格，再由风险页侧推接入减负担；对象身份跨格保留",
+              "typography": {
+                "title": "NotoSansSC-900.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "897": {
+            "frame": 897,
+            "sourceFrame": 897,
+            "person": {
+              "x": 64,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 210.00392868260533,
+                "y": 1349.9662788076375,
+                "s": 0.40000327390217116,
+                "a": 0,
+                "r": -0.00019643413026670942,
+                "visible": false
+              },
+              "extra": {
+                "x": 1000,
+                "y": 750,
+                "s": 0.96,
+                "a": 0,
+                "r": 22.911942947213984,
+                "visible": false
+              },
+              "food": {
+                "x": 790,
+                "y": 890,
+                "s": 0.5,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "principal": {
+                "x": 513.6250292509794,
+                "y": 1299.6477831155062,
+                "s": 0.3631590430438519,
+                "a": 0,
+                "r": -0.287726953625679,
+                "visible": false
+              },
+              "burden": {
+                "x": 540,
+                "y": 855,
+                "s": 1.15,
+                "a": 1,
+                "r": -3,
+                "visible": true
+              },
+              "risk": {
+                "at": 856,
+                "x": 940,
+                "y": 900,
+                "s": 0.87,
+                "a": 0,
+                "r": 3,
+                "f": 856,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 1,
+                "visible": true
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 2,
+            "style": "comic",
+            "extraDenied": true,
+            "riskRevealed": true,
+            "modules": {
+              "style": [
+                "粗细描线、分格与页内阅读次序构成漫画语言",
+                "加购从右格退回，保留对象跨格交接，损失单位离格后不补回",
+                "真人始终独立原色圆窗，不描线、不网点化；不伪造人物对白"
+              ],
+              "palette": {
+                "bg": "#fff6de",
+                "ink": "#211f25",
+                "accent": "#d3452f",
+                "secondary": "#efc344",
+                "muted": "#675e59"
+              },
+              "material": {
+                "objects": "平涂纸底、浓黑轮廓与局部短排线，正文区域留净",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "分格伸缩让出阅读主位；额外购买被斜向退回；风险覆盖页侧推，债务层退到格外",
+              "camera": "二维整页固定观察，分格边界移动与局部近景改变注意顺序；字幕与人物不跟随页变形",
+              "transition": "同一分格的黑边由三列合为两格，再由风险页侧推接入减负担；对象身份跨格保留",
+              "typography": {
+                "title": "NotoSansSC-900.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "1099": {
+            "frame": 1099,
+            "sourceFrame": 1099,
+            "person": {
+              "x": 240,
+              "y": 540,
+              "w": 600,
+              "h": 600,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "at": 1099,
+                "x": 210,
+                "y": 1350,
+                "s": 0.4,
+                "a": 1,
+                "r": 0,
+                "f": 1099,
+                "visible": true
+              },
+              "extra": {
+                "at": 1099,
+                "x": 1000,
+                "y": 750,
+                "s": 0.96,
+                "a": 0,
+                "r": 22,
+                "f": 1099,
+                "visible": false
+              },
+              "food": {
+                "at": 1099,
+                "x": 790,
+                "y": 890,
+                "s": 0.5,
+                "a": 0,
+                "r": 0,
+                "f": 1099,
+                "visible": false
+              },
+              "principal": {
+                "at": 1099,
+                "x": 540,
+                "y": 1350,
+                "s": 0.32,
+                "a": 1,
+                "r": 0,
+                "f": 1099,
+                "visible": true
+              },
+              "burden": {
+                "at": 1099,
+                "x": 875,
+                "y": 1350,
+                "s": 0.3,
+                "a": 1,
+                "r": 0,
+                "f": 1099,
+                "visible": true
+              },
+              "risk": {
+                "at": 856,
+                "x": 940,
+                "y": 900,
+                "s": 0.87,
+                "a": 0,
+                "r": 3,
+                "f": 856,
+                "visible": false
+              },
+              "trend": {
+                "at": 1099,
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "f": 1099,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "at": 1099,
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "f": 1099
+            },
+            "principalUnits": 4,
+            "debtUnits": 2,
+            "style": "comic",
+            "extraDenied": true,
+            "riskRevealed": true,
+            "modules": {
+              "style": [
+                "粗细描线、分格与页内阅读次序构成漫画语言",
+                "加购从右格退回，保留对象跨格交接，损失单位离格后不补回",
+                "真人始终独立原色圆窗，不描线、不网点化；不伪造人物对白"
+              ],
+              "palette": {
+                "bg": "#fff6de",
+                "ink": "#211f25",
+                "accent": "#d3452f",
+                "secondary": "#efc344",
+                "muted": "#675e59"
+              },
+              "material": {
+                "objects": "平涂纸底、浓黑轮廓与局部短排线，正文区域留净",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "分格伸缩让出阅读主位；额外购买被斜向退回；风险覆盖页侧推，债务层退到格外",
+              "camera": "二维整页固定观察，分格边界移动与局部近景改变注意顺序；字幕与人物不跟随页变形",
+              "transition": "同一分格的黑边由三列合为两格，再由风险页侧推接入减负担；对象身份跨格保留",
+              "typography": {
+                "title": "NotoSansSC-900.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          }
+        },
+        "moduleBindings": {
+          "style": [
+            "粗细描线、分格与页内阅读次序构成漫画语言",
+            "加购从右格退回，保留对象跨格交接，损失单位离格后不补回",
+            "真人始终独立原色圆窗，不描线、不网点化；不伪造人物对白"
+          ],
+          "palette": {
+            "bg": "#fff6de",
+            "ink": "#211f25",
+            "accent": "#d3452f",
+            "secondary": "#efc344",
+            "muted": "#675e59"
+          },
+          "material": {
+            "objects": "平涂纸底、浓黑轮廓与局部短排线，正文区域留净",
+            "person": "original-color-no-treatment"
+          },
+          "representation": {
+            "principalUnits": 8,
+            "remainingPrincipal": 4,
+            "debtLayers": 6,
+            "remainingDebt": 2
+          },
+          "motion": "分格伸缩让出阅读主位；额外购买被斜向退回；风险覆盖页侧推，债务层退到格外",
+          "camera": "二维整页固定观察，分格边界移动与局部近景改变注意顺序；字幕与人物不跟随页变形",
+          "transition": "同一分格的黑边由三列合为两格，再由风险页侧推接入减负担；对象身份跨格保留",
+          "typography": {
+            "title": "NotoSansSC-900.woff",
+            "body": "NotoSansSC-500.woff",
+            "caption": "NotoSansSC-700.woff"
+          },
+          "lighting": {
+            "grainOpacity": 0,
+            "contactShadowOpacity": 0
+          },
+          "information": {
+            "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+            "food": "日常需要的对照示意，不代表具体购买建议",
+            "capital": "同一示意本金；受损后不凭空补满",
+            "debt": "负担层数消减示意，不代表实际金额",
+            "risk": "夸大收益说法与风险揭示的比喻载体"
+          },
+          "rhythm": {
+            "extraStart": 470,
+            "extraReady": 490,
+            "denyStart": 516,
+            "denyEnd": 538,
+            "compareStart": 563,
+            "compareReady": 587,
+            "capitalStart": 616,
+            "capitalReady": 643,
+            "riskRevealStart": 744,
+            "riskRevealEnd": 759,
+            "debtStart": 856,
+            "debtReady": 882,
+            "recapReady": 970,
+            "lossStart": 310,
+            "lossEnd": 334
+          }
+        },
+        "voices": 1,
+        "captionCount": 21,
+        "mediaErrors": [
+          null,
+          null
+        ],
+        "allImagesLoaded": true,
+        "errors": [],
+        "failedRequests": [],
+        "noCapitalReplenishment": true,
+        "debtResult": true,
+        "ok": true,
+        "visualInputs": {
+          "index.html": "8294fb086c44bdd99fff50113617055781d4c0b08bc9896cef8ab8e990bfcbcc",
+          "assets/film.css": "a8c3847997534fa5ac9c87ff0939cf132d47a00f44322fe6f5554cffb3ddc745",
+          "assets/film-config.js": "42f8992878e02324c6b41d480414e7dacfe645f6c27fb2b2021f8cee333a3304",
+          "scripts/build-project.mjs": "06dd000a8393fdc4f3d2a603ea2ace64f1ec3993f11f234c9a63df41dda1254e",
+          "scripts/motion.mjs": "090cc8d7739312e49124ea85e94c61e59459767f8942a5225b3f792e744c0804",
+          "scripts/render-opaque-png.mjs": "49ffa1860f6194756d723cd58642d7125229db811c376e7ffc843ce9d52fc909"
+        }
+      }
+    },
+    "text-path-audit.json": {
+      "sha256": "f8427f68da4924d942d4d07adf424bf27b1afebeb7a16aea07812ea36985fedc",
+      "data": {
+        "frames": 1100,
+        "glyphs": 54544,
+        "points": 163632,
+        "issues": [],
+        "issueCount": 0,
+        "windows": [],
+        "intentional": [],
+        "scope": "All1100 authored frames; three probe points per nonspace glyph in reading and exiting text (effective opacity>=0.2). Actual DOM paint order, circular clipping and source PNG alpha respected. Hidden reverse paper and intentional semantic strike-through explicitly excluded; complements actual encoded dense-frame review, not universal pixel OCR.",
+        "visualInputs": {
+          "index.html": "8294fb086c44bdd99fff50113617055781d4c0b08bc9896cef8ab8e990bfcbcc",
+          "assets/film.css": "a8c3847997534fa5ac9c87ff0939cf132d47a00f44322fe6f5554cffb3ddc745",
+          "scripts/motion.mjs": "090cc8d7739312e49124ea85e94c61e59459767f8942a5225b3f792e744c0804",
+          "assets/film-config.js": "42f8992878e02324c6b41d480414e7dacfe645f6c27fb2b2021f8cee333a3304"
+        },
+        "sourceBindingScope": "Current visual inputs recorded after this isolated audit; no edits were made during the run",
+        "ok": true
+      }
+    }
+  }
+}

@@ -1,0 +1,1402 @@
+{
+  "version": "1.21.0",
+  "approvalDate": "2026-10-24",
+  "approvedScope": "用户认可19套母画风统一配方与调用入口正式并入；技术蓝图独立为分支",
+  "recipeId": "mural",
+  "familyId": "F16",
+  "branchId": null,
+  "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+  "originalVideoSha256": "3acff7b50af5af9f9f0826153af725f9ca7096d83581592558e2f51ebce1ef3a",
+  "duration": 36.666666666666664,
+  "sourceSpecific": true,
+  "crossScript": "deferred-by-user",
+  "preservedImplementation": {
+    "examples/production-recipes/mural/edit-plan.json": "699c481b98445d39dedb1b09bf46e5f7db6b5dfe422e67bbeaf6718a2c335cf2",
+    "examples/production-recipes/mural/scene-plan.json": "82fe78aa721043d8eb7106abfcb271e67583c5cf77c545e4b9931777a81279d0",
+    "examples/production-recipes/mural/timing.json": "c2fd00b17ded4a7866ec5b3b12c659b8b25934bb0fbf12a5dc45736eb097153a",
+    "examples/production-recipes/mural/orchestration.json": "56d8e258699e1e17a20cb9923e78cf9f3f84f6118fb6637b549b55a3a7235f87",
+    "examples/production-recipes/mural/recipe.json": "398e14c7e8ffd4e87fa50312a71cca30e72f99c3fbe14d4e12547171972c742a",
+    "examples/production-recipes/mural/facts.json": "ea57140e17c2f65668dc79baa82b63647c9043dd170e8e9c76d2fcc7884c389b",
+    "examples/production-recipes/mural/plans/palette-tokens.json": "784b869c8fe91d4e81eda755bef94e96093c5c765da31b844d968ff81e5802ae",
+    "examples/production-recipes/mural/plans/transition-plan.json": "6ea39c662d6878a1e7e9321aaf2c90bb2245489869793005ff651aeaea4b975a",
+    "examples/production-recipes/mural/plans/timing.json": "6d37eb62a35fe2fb94608e69afca87485d3970ea08317cd068570caac51456b1",
+    "examples/production-recipes/mural/plans/layout-plan.json": "9cf1abd7a3870d4fbc872ea59688a23f171d58aa2753cfef16e7f8d243eadb4c",
+    "examples/production-recipes/mural/plans/brief.json": "92b217506c4b3ed131b10913eb47550d22198316d3db1b3755b9eda44757aa30",
+    "examples/production-recipes/mural/plans/semantic-plan.json": "6b75b9199943656e0e72b3112e8c521bd99558e889a131fd7d3e2ad034c9d45c",
+    "examples/production-recipes/mural/plans/finish-plan.json": "736d6abe9b49835d667db51c504f0269ab4afbbed22d8011689a38bd20a81e97",
+    "examples/production-recipes/mural/plans/camera-plan.json": "57da6b5d96e1005961158bd6eb1a8248afdb7d7c393c219c5bea7ac6019f35fa",
+    "examples/production-recipes/mural/plans/object-spec.json": "a3886131b91ea93f0b82abc619c66c5c787969caf80898709f01cf5322154a98",
+    "examples/production-recipes/mural/plans/material-tokens.json": "0d11ff601e1306fb17b3105e6664f1555edc31636c4ffc693bb0fd9734d51e16",
+    "examples/production-recipes/mural/plans/style-contract.json": "a8d33adcfe8f82e801bffd23b953060aa5b3cddbb21f0ed9e902c9dd8248fe07",
+    "examples/production-recipes/mural/plans/motion-events.json": "2919146de398c718dd2e7bb768f87a2045b14c4a5a6cfad2d9a0d0b26f087b98",
+    "examples/production-recipes/mural/scripts/motion.mjs": "aa4a0123dd9a2bb9bbb9c5eb617dc6c51ede8ed40f305f58af30c2b330d41cb1",
+    "examples/production-recipes/mural/scripts/composition.template": "4796863c68dcafecbc781bd24159901edbdfb7bea895d36dd20135ab9a058ab6",
+    "examples/production-recipes/mural/scripts/film.css": "ed079c75e37052bbc8b27af5eef237235db106cfc22733451783d0278a133ccd",
+    "examples/production-recipes/mural/scripts/build-project.mjs": "06dd000a8393fdc4f3d2a603ea2ace64f1ec3993f11f234c9a63df41dda1254e",
+    "examples/production-recipes/mural/assets/scene.png": "d90821dc5ec6f2b091e1205552ad8607713026c736488838aaadc62490d5daf3"
+  },
+  "technicalChecks": {
+    "verification.json": {
+      "sha256": "8c9fa2d9745dd37dc242a1d8f7731304aab95d307125c40bd472881ddc8b08be",
+      "data": {
+        "status": "verified",
+        "key": "mural",
+        "video": {
+          "sha256": "3acff7b50af5af9f9f0826153af725f9ca7096d83581592558e2f51ebce1ef3a",
+          "width": 1080,
+          "height": 1920,
+          "fps": "30/1",
+          "frames": 1100,
+          "duration": 36.666666666666664,
+          "bytes": 57056218,
+          "faststart": true,
+          "sharedFinalPlaybackInode": true
+        },
+        "audio": {
+          "originalVoiceCorrelation": 0.9999823504746719,
+          "offsetSamples": 0,
+          "decodedSamplesCompared": 1760000,
+          "min100msVoiceRmsRatio": 0.9925177151927742,
+          "dropped100msVoiceWindows": 0,
+          "audibleTracks": 1,
+          "scope": "actual decoded original-voice comparison; not subjective listening review"
+        },
+        "person": {
+          "actualEncodedSamples": [
+            {
+              "frame": 0,
+              "box": [
+                230,
+                570,
+                620,
+                620
+              ],
+              "innerRGBMeanAbsoluteError": 2.5003517340082313
+            },
+            {
+              "frame": 75,
+              "box": [
+                137,
+                955,
+                440,
+                440
+              ],
+              "innerRGBMeanAbsoluteError": 2.7497201917155327
+            },
+            {
+              "frame": 180,
+              "box": [
+                64,
+                1255,
+                300,
+                300
+              ],
+              "innerRGBMeanAbsoluteError": 2.4491059385051708
+            },
+            {
+              "frame": 750,
+              "box": [
+                64,
+                1255,
+                300,
+                300
+              ],
+              "innerRGBMeanAbsoluteError": 2.4418773562065508
+            },
+            {
+              "frame": 1030,
+              "box": [
+                240,
+                540,
+                600,
+                600
+              ],
+              "innerRGBMeanAbsoluteError": 2.065338250832779
+            },
+            {
+              "frame": 1099,
+              "box": [
+                240,
+                540,
+                600,
+                600
+              ],
+              "innerRGBMeanAbsoluteError": 2.0638785481284425
+            }
+          ],
+          "all1100AuthoredCircleFrames": 1100
+        },
+        "captionCount": 21,
+        "denseFrames": 183,
+        "htmlSha256": "373a68d6fcf4d5664702930131d6fdc567597e28435010b405875d5f73f5aab4",
+        "sceneContractSha256": "a6adca0ec7e9cfd24171d3f406cc58e82f2f8438edb6798fed243a249bf51711",
+        "textAuditSha256": "5068accebdfd671b33bf615bbc010044427401436fb3d76af217997c61d05279",
+        "capturePolicy": {
+          "kind": "opaque-SDR PNG compression only",
+          "engineVersion": "0.8.174",
+          "engineSha256": "e80a9d81838c0fe034f4d00af1c0262f570d64b2bb8b8c487a22cf7d8a70cc4e",
+          "installedModuleUnchanged": true,
+          "applications": 1,
+          "outputPixelEquivalenceSamples": 48,
+          "pixelEquivalenceReportSha256": "221d6d6f034f58cb8e07fbf8c3dae88bc136a68b598e33a659e1fefbf0eef820",
+          "alphaAndHDRCaptureUnchanged": true,
+          "geometryTimingFontsAudioAndEncodingUnchanged": true,
+          "exitCode": 0
+        },
+        "scope": "one actual complete source-specific film; technical/author checks, not independent review"
+      }
+    },
+    "scene-contract.json": {
+      "sha256": "a6adca0ec7e9cfd24171d3f406cc58e82f2f8438edb6798fed243a249bf51711",
+      "data": {
+        "framesChecked": 1100,
+        "issues": [],
+        "poses": [
+          {
+            "frame": 0,
+            "x": 230,
+            "y": 570,
+            "w": 620
+          },
+          {
+            "frame": 75,
+            "x": 136.63880920410156,
+            "y": 955.2554931640625,
+            "w": 440.026611328125
+          },
+          {
+            "frame": 180,
+            "x": 64,
+            "y": 1255,
+            "w": 300
+          },
+          {
+            "frame": 750,
+            "x": 64,
+            "y": 1255,
+            "w": 300
+          },
+          {
+            "frame": 1030,
+            "x": 240,
+            "y": 540,
+            "w": 600
+          },
+          {
+            "frame": 1099,
+            "x": 240,
+            "y": 540,
+            "w": 600
+          }
+        ],
+        "deterministic": true,
+        "maxCaptionBottom": 1765,
+        "states": {
+          "0": {
+            "frame": 0,
+            "sourceFrame": 0,
+            "person": {
+              "x": 230,
+              "y": 570,
+              "w": 620,
+              "h": 620,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 240,
+                "y": 800,
+                "s": 0.9,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "extra": {
+                "x": 790,
+                "y": 1000,
+                "s": 0.9,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "food": {
+                "x": 790,
+                "y": 990,
+                "s": 0.95,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "principal": {
+                "x": 790,
+                "y": 820,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "burden": {
+                "x": 500,
+                "y": 1135,
+                "s": 0.5,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "risk": {
+                "x": 790,
+                "y": 990,
+                "s": 0.83,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 8,
+            "debtUnits": 6,
+            "style": "mural",
+            "extraDenied": false,
+            "riskRevealed": false,
+            "modules": {
+              "style": [
+                "重彩壁面、叙事画带与上下错位阅读，区别于册页和山水长卷",
+                "复用原创壁画下部画带，解释物件重新分层；不是播放整张旧图",
+                "古风意象为原创概念示意，不冒称敦煌实物或修复影像，真人保持源色"
+              ],
+              "palette": {
+                "bg": "#e7d8be",
+                "ink": "#44372c",
+                "accent": "#98482e",
+                "secondary": "#587b73",
+                "muted": "#645745"
+              },
+              "material": {
+                "objects": "赭土、石绿、薄色磨损和清晰轮廓；纹理只在壁面与解释物件，不进入字与脸",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "叙事画带按原句切换主位，额外消费从上层撤去；收益颜料分块剥离显出警示，负担块按原数量消减",
+              "camera": "正视壁面与叙事分区，二维构图变换承担观察顺序；不做无动机绕镜",
+              "transition": "同一画带和壁面框保持，色层分段撤离、上下阅读区交出主位，结论回到人物",
+              "typography": {
+                "title": "NotoSansSC-900.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0.06,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "334": {
+            "frame": 334,
+            "sourceFrame": 334,
+            "person": {
+              "x": 64,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 240,
+                "y": 800,
+                "s": 0.9,
+                "a": 0.5000247664542141,
+                "r": 0,
+                "visible": true
+              },
+              "extra": {
+                "x": 790,
+                "y": 1000,
+                "s": 0.9,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "food": {
+                "x": 790,
+                "y": 990,
+                "s": 0.95,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "principal": {
+                "x": 620,
+                "y": 840,
+                "s": 0.8,
+                "a": 1,
+                "r": 0,
+                "visible": true
+              },
+              "burden": {
+                "x": 500,
+                "y": 1135,
+                "s": 0.5,
+                "a": 1,
+                "r": 0,
+                "visible": true
+              },
+              "risk": {
+                "x": 790,
+                "y": 990,
+                "s": 0.83,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 1,
+                "visible": true
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "style": "mural",
+            "extraDenied": false,
+            "riskRevealed": false,
+            "modules": {
+              "style": [
+                "重彩壁面、叙事画带与上下错位阅读，区别于册页和山水长卷",
+                "复用原创壁画下部画带，解释物件重新分层；不是播放整张旧图",
+                "古风意象为原创概念示意，不冒称敦煌实物或修复影像，真人保持源色"
+              ],
+              "palette": {
+                "bg": "#e7d8be",
+                "ink": "#44372c",
+                "accent": "#98482e",
+                "secondary": "#587b73",
+                "muted": "#645745"
+              },
+              "material": {
+                "objects": "赭土、石绿、薄色磨损和清晰轮廓；纹理只在壁面与解释物件，不进入字与脸",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "叙事画带按原句切换主位，额外消费从上层撤去；收益颜料分块剥离显出警示，负担块按原数量消减",
+              "camera": "正视壁面与叙事分区，二维构图变换承担观察顺序；不做无动机绕镜",
+              "transition": "同一画带和壁面框保持，色层分段撤离、上下阅读区交出主位，结论回到人物",
+              "typography": {
+                "title": "NotoSansSC-900.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0.06,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "615": {
+            "frame": 615,
+            "sourceFrame": 615,
+            "person": {
+              "x": 64,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 280,
+                "y": 760,
+                "s": 0.95,
+                "a": 1,
+                "r": 0,
+                "visible": true
+              },
+              "extra": {
+                "x": 790,
+                "y": 830,
+                "s": 0.36000000000000004,
+                "a": 0,
+                "r": 7.998061477349209,
+                "visible": false
+              },
+              "food": {
+                "x": 790,
+                "y": 990,
+                "s": 0.95,
+                "a": 1,
+                "r": 4,
+                "visible": true
+              },
+              "principal": {
+                "x": 540,
+                "y": 849.9999999814831,
+                "s": 1.1199999997703918,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "burden": {
+                "x": 832.049946695986,
+                "y": 805.0692389698484,
+                "s": 0.5588031720502403,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "risk": {
+                "x": 790,
+                "y": 990,
+                "s": 0.83,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 1,
+                "visible": true
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "style": "mural",
+            "extraDenied": true,
+            "riskRevealed": false,
+            "modules": {
+              "style": [
+                "重彩壁面、叙事画带与上下错位阅读，区别于册页和山水长卷",
+                "复用原创壁画下部画带，解释物件重新分层；不是播放整张旧图",
+                "古风意象为原创概念示意，不冒称敦煌实物或修复影像，真人保持源色"
+              ],
+              "palette": {
+                "bg": "#e7d8be",
+                "ink": "#44372c",
+                "accent": "#98482e",
+                "secondary": "#587b73",
+                "muted": "#645745"
+              },
+              "material": {
+                "objects": "赭土、石绿、薄色磨损和清晰轮廓；纹理只在壁面与解释物件，不进入字与脸",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "叙事画带按原句切换主位，额外消费从上层撤去；收益颜料分块剥离显出警示，负担块按原数量消减",
+              "camera": "正视壁面与叙事分区，二维构图变换承担观察顺序；不做无动机绕镜",
+              "transition": "同一画带和壁面框保持，色层分段撤离、上下阅读区交出主位，结论回到人物",
+              "typography": {
+                "title": "NotoSansSC-900.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0.06,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "685": {
+            "frame": 685,
+            "sourceFrame": 685,
+            "person": {
+              "x": 64,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 279.9270786819082,
+                "y": 760.6146225382022,
+                "s": 0.4499479133442202,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "extra": {
+                "x": 790,
+                "y": 830,
+                "s": 0.36000000000000004,
+                "a": 0,
+                "r": 7.903136674926518,
+                "visible": false
+              },
+              "food": {
+                "x": 790,
+                "y": 990,
+                "s": 0.5,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "principal": {
+                "x": 539.7524840840126,
+                "y": 849.952400785387,
+                "s": 1.1196382459689416,
+                "a": 1,
+                "r": 0,
+                "visible": true
+              },
+              "burden": {
+                "x": 631.1036839152998,
+                "y": 835.9840486284154,
+                "s": 0.9174149640896188,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "risk": {
+                "x": 790,
+                "y": 990,
+                "s": 0.83,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 1,
+                "visible": true
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "style": "mural",
+            "extraDenied": true,
+            "riskRevealed": false,
+            "modules": {
+              "style": [
+                "重彩壁面、叙事画带与上下错位阅读，区别于册页和山水长卷",
+                "复用原创壁画下部画带，解释物件重新分层；不是播放整张旧图",
+                "古风意象为原创概念示意，不冒称敦煌实物或修复影像，真人保持源色"
+              ],
+              "palette": {
+                "bg": "#e7d8be",
+                "ink": "#44372c",
+                "accent": "#98482e",
+                "secondary": "#587b73",
+                "muted": "#645745"
+              },
+              "material": {
+                "objects": "赭土、石绿、薄色磨损和清晰轮廓；纹理只在壁面与解释物件，不进入字与脸",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "叙事画带按原句切换主位，额外消费从上层撤去；收益颜料分块剥离显出警示，负担块按原数量消减",
+              "camera": "正视壁面与叙事分区，二维构图变换承担观察顺序；不做无动机绕镜",
+              "transition": "同一画带和壁面框保持，色层分段撤离、上下阅读区交出主位，结论回到人物",
+              "typography": {
+                "title": "NotoSansSC-900.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0.06,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "782": {
+            "frame": 782,
+            "sourceFrame": 782,
+            "person": {
+              "x": 64,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 245.6317523360649,
+                "y": 1049.6752303103103,
+                "s": 0.4254512516686178,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "extra": {
+                "x": 790,
+                "y": 830,
+                "s": 0.36000000000000004,
+                "a": 0,
+                "r": 6.401351378798234,
+                "visible": false
+              },
+              "food": {
+                "x": 790,
+                "y": 990,
+                "s": 0.5,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "principal": {
+                "x": 280,
+                "y": 800,
+                "s": 0.74,
+                "a": 1,
+                "r": 0,
+                "visible": true
+              },
+              "burden": {
+                "x": 540.9915567934745,
+                "y": 849.8474528010039,
+                "s": 1.0782304524916455,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "risk": {
+                "x": 790,
+                "y": 990,
+                "s": 0.83,
+                "a": 1,
+                "r": 0,
+                "visible": true
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 1,
+                "visible": true
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "style": "mural",
+            "extraDenied": true,
+            "riskRevealed": true,
+            "modules": {
+              "style": [
+                "重彩壁面、叙事画带与上下错位阅读，区别于册页和山水长卷",
+                "复用原创壁画下部画带，解释物件重新分层；不是播放整张旧图",
+                "古风意象为原创概念示意，不冒称敦煌实物或修复影像，真人保持源色"
+              ],
+              "palette": {
+                "bg": "#e7d8be",
+                "ink": "#44372c",
+                "accent": "#98482e",
+                "secondary": "#587b73",
+                "muted": "#645745"
+              },
+              "material": {
+                "objects": "赭土、石绿、薄色磨损和清晰轮廓；纹理只在壁面与解释物件，不进入字与脸",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "叙事画带按原句切换主位，额外消费从上层撤去；收益颜料分块剥离显出警示，负担块按原数量消减",
+              "camera": "正视壁面与叙事分区，二维构图变换承担观察顺序；不做无动机绕镜",
+              "transition": "同一画带和壁面框保持，色层分段撤离、上下阅读区交出主位，结论回到人物",
+              "typography": {
+                "title": "NotoSansSC-900.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0.06,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "897": {
+            "frame": 897,
+            "sourceFrame": 897,
+            "person": {
+              "x": 64,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 210.00458346303958,
+                "y": 1349.9613679543809,
+                "s": 0.40000327390217116,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "extra": {
+                "x": 790,
+                "y": 830,
+                "s": 0.36000000000000004,
+                "a": 0,
+                "r": 0.9119429472139835,
+                "visible": false
+              },
+              "food": {
+                "x": 790,
+                "y": 990,
+                "s": 0.5,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "principal": {
+                "x": 515.0636640191078,
+                "y": 1297.2500585019588,
+                "s": 0.36028177350759505,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "burden": {
+                "x": 540,
+                "y": 850,
+                "s": 1.08,
+                "a": 1,
+                "r": 0,
+                "visible": true
+              },
+              "risk": {
+                "at": 856,
+                "x": 940,
+                "y": 990,
+                "s": 0.83,
+                "a": 0,
+                "r": 0,
+                "f": 856,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 1,
+                "visible": true
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 2,
+            "style": "mural",
+            "extraDenied": true,
+            "riskRevealed": true,
+            "modules": {
+              "style": [
+                "重彩壁面、叙事画带与上下错位阅读，区别于册页和山水长卷",
+                "复用原创壁画下部画带，解释物件重新分层；不是播放整张旧图",
+                "古风意象为原创概念示意，不冒称敦煌实物或修复影像，真人保持源色"
+              ],
+              "palette": {
+                "bg": "#e7d8be",
+                "ink": "#44372c",
+                "accent": "#98482e",
+                "secondary": "#587b73",
+                "muted": "#645745"
+              },
+              "material": {
+                "objects": "赭土、石绿、薄色磨损和清晰轮廓；纹理只在壁面与解释物件，不进入字与脸",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "叙事画带按原句切换主位，额外消费从上层撤去；收益颜料分块剥离显出警示，负担块按原数量消减",
+              "camera": "正视壁面与叙事分区，二维构图变换承担观察顺序；不做无动机绕镜",
+              "transition": "同一画带和壁面框保持，色层分段撤离、上下阅读区交出主位，结论回到人物",
+              "typography": {
+                "title": "NotoSansSC-900.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0.06,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "1099": {
+            "frame": 1099,
+            "sourceFrame": 1099,
+            "person": {
+              "x": 240,
+              "y": 540,
+              "w": 600,
+              "h": 600,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "at": 1099,
+                "x": 210,
+                "y": 1350,
+                "s": 0.4,
+                "a": 1,
+                "r": 0,
+                "f": 1099,
+                "visible": true
+              },
+              "extra": {
+                "at": 1099,
+                "x": 790,
+                "y": 830,
+                "s": 0.36000000000000004,
+                "a": 0,
+                "r": 0,
+                "f": 1099,
+                "visible": false
+              },
+              "food": {
+                "at": 1099,
+                "x": 790,
+                "y": 990,
+                "s": 0.5,
+                "a": 0,
+                "r": 0,
+                "f": 1099,
+                "visible": false
+              },
+              "principal": {
+                "at": 1099,
+                "x": 540,
+                "y": 1350,
+                "s": 0.32,
+                "a": 1,
+                "r": 0,
+                "f": 1099,
+                "visible": true
+              },
+              "burden": {
+                "at": 1099,
+                "x": 875,
+                "y": 1350,
+                "s": 0.3,
+                "a": 1,
+                "r": 0,
+                "f": 1099,
+                "visible": true
+              },
+              "risk": {
+                "at": 856,
+                "x": 940,
+                "y": 990,
+                "s": 0.83,
+                "a": 0,
+                "r": 0,
+                "f": 856,
+                "visible": false
+              },
+              "trend": {
+                "at": 1099,
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "f": 1099,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "at": 1099,
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "f": 1099
+            },
+            "principalUnits": 4,
+            "debtUnits": 2,
+            "style": "mural",
+            "extraDenied": true,
+            "riskRevealed": true,
+            "modules": {
+              "style": [
+                "重彩壁面、叙事画带与上下错位阅读，区别于册页和山水长卷",
+                "复用原创壁画下部画带，解释物件重新分层；不是播放整张旧图",
+                "古风意象为原创概念示意，不冒称敦煌实物或修复影像，真人保持源色"
+              ],
+              "palette": {
+                "bg": "#e7d8be",
+                "ink": "#44372c",
+                "accent": "#98482e",
+                "secondary": "#587b73",
+                "muted": "#645745"
+              },
+              "material": {
+                "objects": "赭土、石绿、薄色磨损和清晰轮廓；纹理只在壁面与解释物件，不进入字与脸",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "叙事画带按原句切换主位，额外消费从上层撤去；收益颜料分块剥离显出警示，负担块按原数量消减",
+              "camera": "正视壁面与叙事分区，二维构图变换承担观察顺序；不做无动机绕镜",
+              "transition": "同一画带和壁面框保持，色层分段撤离、上下阅读区交出主位，结论回到人物",
+              "typography": {
+                "title": "NotoSansSC-900.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0.06,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          }
+        },
+        "moduleBindings": {
+          "style": [
+            "重彩壁面、叙事画带与上下错位阅读，区别于册页和山水长卷",
+            "复用原创壁画下部画带，解释物件重新分层；不是播放整张旧图",
+            "古风意象为原创概念示意，不冒称敦煌实物或修复影像，真人保持源色"
+          ],
+          "palette": {
+            "bg": "#e7d8be",
+            "ink": "#44372c",
+            "accent": "#98482e",
+            "secondary": "#587b73",
+            "muted": "#645745"
+          },
+          "material": {
+            "objects": "赭土、石绿、薄色磨损和清晰轮廓；纹理只在壁面与解释物件，不进入字与脸",
+            "person": "original-color-no-treatment"
+          },
+          "representation": {
+            "principalUnits": 8,
+            "remainingPrincipal": 4,
+            "debtLayers": 6,
+            "remainingDebt": 2
+          },
+          "motion": "叙事画带按原句切换主位，额外消费从上层撤去；收益颜料分块剥离显出警示，负担块按原数量消减",
+          "camera": "正视壁面与叙事分区，二维构图变换承担观察顺序；不做无动机绕镜",
+          "transition": "同一画带和壁面框保持，色层分段撤离、上下阅读区交出主位，结论回到人物",
+          "typography": {
+            "title": "NotoSansSC-900.woff",
+            "body": "NotoSansSC-500.woff",
+            "caption": "NotoSansSC-700.woff"
+          },
+          "lighting": {
+            "grainOpacity": 0.06,
+            "contactShadowOpacity": 0
+          },
+          "information": {
+            "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+            "food": "日常需要的对照示意，不代表具体购买建议",
+            "capital": "同一示意本金；受损后不凭空补满",
+            "debt": "负担层数消减示意，不代表实际金额",
+            "risk": "夸大收益说法与风险揭示的比喻载体"
+          },
+          "rhythm": {
+            "extraStart": 470,
+            "extraReady": 490,
+            "denyStart": 516,
+            "denyEnd": 538,
+            "compareStart": 563,
+            "compareReady": 587,
+            "capitalStart": 616,
+            "capitalReady": 643,
+            "riskRevealStart": 744,
+            "riskRevealEnd": 759,
+            "debtStart": 856,
+            "debtReady": 882,
+            "recapReady": 970,
+            "lossStart": 310,
+            "lossEnd": 334
+          }
+        },
+        "voices": 1,
+        "captionCount": 21,
+        "mediaErrors": [
+          null,
+          null
+        ],
+        "allImagesLoaded": true,
+        "errors": [],
+        "failedRequests": [],
+        "noCapitalReplenishment": true,
+        "debtResult": true,
+        "ok": true,
+        "visualInputs": {
+          "index.html": "373a68d6fcf4d5664702930131d6fdc567597e28435010b405875d5f73f5aab4",
+          "assets/film.css": "ed079c75e37052bbc8b27af5eef237235db106cfc22733451783d0278a133ccd",
+          "assets/film-config.js": "cc57f4c76d61e9d6ca3e6c105af03b3f7a64ae1e79bda9bafc4893ecc543c79b",
+          "scripts/build-project.mjs": "06dd000a8393fdc4f3d2a603ea2ace64f1ec3993f11f234c9a63df41dda1254e",
+          "scripts/motion.mjs": "aa4a0123dd9a2bb9bbb9c5eb617dc6c51ede8ed40f305f58af30c2b330d41cb1",
+          "scripts/render-opaque-png.mjs": "49ffa1860f6194756d723cd58642d7125229db811c376e7ffc843ce9d52fc909"
+        }
+      }
+    },
+    "text-path-audit.json": {
+      "sha256": "5068accebdfd671b33bf615bbc010044427401436fb3d76af217997c61d05279",
+      "data": {
+        "frames": 1100,
+        "glyphs": 54196,
+        "points": 162588,
+        "issues": [],
+        "issueCount": 0,
+        "windows": [],
+        "intentional": [],
+        "scope": "All1100 authored frames; three probe points per nonspace glyph in reading and exiting text (effective opacity>=0.2). Actual DOM paint order, circular clipping and source PNG alpha respected. Hidden reverse paper and intentional semantic strike-through explicitly excluded; complements actual encoded dense-frame review, not universal pixel OCR.",
+        "visualInputs": {
+          "index.html": "373a68d6fcf4d5664702930131d6fdc567597e28435010b405875d5f73f5aab4",
+          "assets/film.css": "ed079c75e37052bbc8b27af5eef237235db106cfc22733451783d0278a133ccd",
+          "scripts/motion.mjs": "aa4a0123dd9a2bb9bbb9c5eb617dc6c51ede8ed40f305f58af30c2b330d41cb1",
+          "assets/film-config.js": "cc57f4c76d61e9d6ca3e6c105af03b3f7a64ae1e79bda9bafc4893ecc543c79b"
+        },
+        "sourceBindingScope": "Current visual inputs recorded after this isolated audit; no edits were made during the run",
+        "ok": true
+      }
+    }
+  }
+}

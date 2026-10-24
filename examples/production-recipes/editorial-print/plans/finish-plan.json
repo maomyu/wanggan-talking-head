@@ -1,0 +1,21 @@
+{
+  "lightAssignments": {
+    "ambient": 2.2,
+    "key": 3.2,
+    "direction": [
+      -4,
+      8,
+      6
+    ]
+  },
+  "shadowRules": {
+    "contact": true,
+    "color": "#8d7694",
+    "opacity": 0.17
+  },
+  "finishLayers": {
+    "grainOpacity": 0.035,
+    "gridStep": 0
+  },
+  "reason": "纹理与灯光只落在背景和对象，人物屏幕层豁免"
+}

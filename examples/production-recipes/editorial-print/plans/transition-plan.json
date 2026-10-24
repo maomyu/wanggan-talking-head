@@ -1,0 +1,37 @@
+{
+  "language": "翻阅接缝与有内容的纸层抽离",
+  "entryExitBridges": [
+    149,
+    198,
+    224,
+    266,
+    349,
+    388,
+    461,
+    563,
+    616,
+    686,
+    783,
+    856,
+    898
+  ],
+  "continuityAnchors": [
+    "headphone",
+    "principal",
+    "burden"
+  ],
+  "coverFrames": [],
+  "reason": "保持同一对象ID与已经发生的结果；源片没有实际跳切，不伪称源剪辑转场。",
+  "labelClearFrames": 9,
+  "standards": [
+    "paper-wipe",
+    "page-match",
+    "scene-replace"
+  ],
+  "riskToAvoid": {
+    "lastRiskReadFrame": 782,
+    "clearStart": 783,
+    "clearEnd": 792,
+    "reason": "先退出风险字形，再进入投机/炒作，避免旧结果被新字遮挡"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "lightAssignments": "flat-even",
+  "shadowRules": {
+    "contact": false
+  },
+  "finishLayers": {
+    "gridStep": 0,
+    "grainOpacity": 0
+  },
+  "reason": "保持原摄影材质与干净平面，不通过光影制造另一种画风。",
+  "standards": [
+    "even-soft",
+    "contact-shadow"
+  ]
+}

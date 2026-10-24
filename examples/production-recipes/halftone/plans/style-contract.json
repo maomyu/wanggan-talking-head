@@ -1,0 +1,24 @@
+{
+  "name": "复古网点",
+  "mode": "halftone",
+  "identityRules": [
+    "粗黑分格与网点色层",
+    "套印只在落版时收束",
+    "上层印签抽离后留出结果"
+  ],
+  "referencePrinciples": [
+    "保留已认可有效素材和轮廓，按当前原句重做动作结果与交接"
+  ],
+  "driftChecks": [
+    "人物无风格滤镜",
+    "不得重置损失/减少结果",
+    "字形和圆窗全路径避让"
+  ],
+  "selectedStandards": [
+    "retro-halftone"
+  ],
+  "standards": [
+    "retro-halftone"
+  ],
+  "compositionMode": "halftone"
+}

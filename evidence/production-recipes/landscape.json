@@ -1,0 +1,1402 @@
+{
+  "version": "1.21.0",
+  "approvalDate": "2026-10-24",
+  "approvedScope": "用户认可19套母画风统一配方与调用入口正式并入；技术蓝图独立为分支",
+  "recipeId": "landscape",
+  "familyId": "F15",
+  "branchId": null,
+  "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+  "originalVideoSha256": "5ee6b61ee889e8ac9bc8d6eff37c6e6679ec2503ddd4657ca55a6ef68d752b93",
+  "duration": 36.666666666666664,
+  "sourceSpecific": true,
+  "crossScript": "deferred-by-user",
+  "preservedImplementation": {
+    "examples/production-recipes/landscape/edit-plan.json": "699c481b98445d39dedb1b09bf46e5f7db6b5dfe422e67bbeaf6718a2c335cf2",
+    "examples/production-recipes/landscape/scene-plan.json": "08de9503d924c480568597e016d23b6cb6b8374afcb37663c8c63def415d4dcb",
+    "examples/production-recipes/landscape/timing.json": "c2fd00b17ded4a7866ec5b3b12c659b8b25934bb0fbf12a5dc45736eb097153a",
+    "examples/production-recipes/landscape/orchestration.json": "56d8e258699e1e17a20cb9923e78cf9f3f84f6118fb6637b549b55a3a7235f87",
+    "examples/production-recipes/landscape/recipe.json": "ba69bc32d4463d7a129cf08808eb59b84eb297ab3725527510ada90f9483dee7",
+    "examples/production-recipes/landscape/facts.json": "ea57140e17c2f65668dc79baa82b63647c9043dd170e8e9c76d2fcc7884c389b",
+    "examples/production-recipes/landscape/plans/palette-tokens.json": "94f5bbe0142e3b1d9c0bfcacdbb3012292f5e23dc99da19ba2f6dc7cdb02cec9",
+    "examples/production-recipes/landscape/plans/transition-plan.json": "788745ec835b9d13c74809272bf15cf05f82ba719b63003a3ce05801417d238f",
+    "examples/production-recipes/landscape/plans/timing.json": "6d37eb62a35fe2fb94608e69afca87485d3970ea08317cd068570caac51456b1",
+    "examples/production-recipes/landscape/plans/layout-plan.json": "2c77c530c6828f84ced4dc92beaeadaa079022d66d28aec681320d6a092bbf5f",
+    "examples/production-recipes/landscape/plans/brief.json": "92b217506c4b3ed131b10913eb47550d22198316d3db1b3755b9eda44757aa30",
+    "examples/production-recipes/landscape/plans/semantic-plan.json": "6b75b9199943656e0e72b3112e8c521bd99558e889a131fd7d3e2ad034c9d45c",
+    "examples/production-recipes/landscape/plans/finish-plan.json": "68956002de627008728ea4b0e4d575dec08bc80cdaeee8f1e075658e3c27e0ff",
+    "examples/production-recipes/landscape/plans/camera-plan.json": "41653bf6062063cb8479fb74c8e16086cbc78a7578ee46f38e5ae6d20a7a78d7",
+    "examples/production-recipes/landscape/plans/object-spec.json": "bab13cae8930f614c20c4ba931d682b55cbfdfaa0d2efd0f0a3d8c0c4b38964c",
+    "examples/production-recipes/landscape/plans/material-tokens.json": "4f72234a640c0ce463ecfa32b27450aef0cff72232b3a59f595ccf9e9fe3c00a",
+    "examples/production-recipes/landscape/plans/style-contract.json": "e369351c9ae9a201aaaad38911e09b2655b36d34322c1b03aa306b7db1fcf58d",
+    "examples/production-recipes/landscape/plans/motion-events.json": "abad45fc041f8a2667f1991e4d27ebd261212acada8b644df4d5d2f3e2ac2b7c",
+    "examples/production-recipes/landscape/scripts/motion.mjs": "c29a1f05fa5fa0aff6aaea20a3d2f4ba44cc6b8fad61e6896be6b7ea977afdcf",
+    "examples/production-recipes/landscape/scripts/composition.template": "4796863c68dcafecbc781bd24159901edbdfb7bea895d36dd20135ab9a058ab6",
+    "examples/production-recipes/landscape/scripts/film.css": "ed079c75e37052bbc8b27af5eef237235db106cfc22733451783d0278a133ccd",
+    "examples/production-recipes/landscape/scripts/build-project.mjs": "06dd000a8393fdc4f3d2a603ea2ace64f1ec3993f11f234c9a63df41dda1254e",
+    "examples/production-recipes/landscape/assets/scene.png": "4c98fa9798e4d47a16f671f3fe8f1079604a2868cc65573f75af89c3fbe34480"
+  },
+  "technicalChecks": {
+    "verification.json": {
+      "sha256": "7a2d33b620f50eabfb4f1e6dc486ae14aabaed3a4350d563a8deb404d77c73bd",
+      "data": {
+        "status": "verified",
+        "key": "landscape",
+        "video": {
+          "sha256": "5ee6b61ee889e8ac9bc8d6eff37c6e6679ec2503ddd4657ca55a6ef68d752b93",
+          "width": 1080,
+          "height": 1920,
+          "fps": "30/1",
+          "frames": 1100,
+          "duration": 36.666666666666664,
+          "bytes": 13166244,
+          "faststart": true,
+          "sharedFinalPlaybackInode": true
+        },
+        "audio": {
+          "originalVoiceCorrelation": 0.9999823504746719,
+          "offsetSamples": 0,
+          "decodedSamplesCompared": 1760000,
+          "min100msVoiceRmsRatio": 0.9925177151927742,
+          "dropped100msVoiceWindows": 0,
+          "audibleTracks": 1,
+          "scope": "actual decoded original-voice comparison; not subjective listening review"
+        },
+        "person": {
+          "actualEncodedSamples": [
+            {
+              "frame": 0,
+              "box": [
+                230,
+                570,
+                620,
+                620
+              ],
+              "innerRGBMeanAbsoluteError": 2.1331656869324753
+            },
+            {
+              "frame": 75,
+              "box": [
+                137,
+                955,
+                440,
+                440
+              ],
+              "innerRGBMeanAbsoluteError": 2.78860417168715
+            },
+            {
+              "frame": 180,
+              "box": [
+                64,
+                1255,
+                300,
+                300
+              ],
+              "innerRGBMeanAbsoluteError": 2.59194825856881
+            },
+            {
+              "frame": 750,
+              "box": [
+                64,
+                1255,
+                300,
+                300
+              ],
+              "innerRGBMeanAbsoluteError": 2.5068884815365635
+            },
+            {
+              "frame": 1030,
+              "box": [
+                240,
+                540,
+                600,
+                600
+              ],
+              "innerRGBMeanAbsoluteError": 2.18514327831377
+            },
+            {
+              "frame": 1099,
+              "box": [
+                240,
+                540,
+                600,
+                600
+              ],
+              "innerRGBMeanAbsoluteError": 2.1683120711943364
+            }
+          ],
+          "all1100AuthoredCircleFrames": 1100
+        },
+        "captionCount": 21,
+        "denseFrames": 183,
+        "htmlSha256": "e1fc26cce4b1d19a34344e94c330752581126bece5c85dfc6ee8bc784521d51c",
+        "sceneContractSha256": "ae6bd1dd40f15d45702a2ffbe6944bd0485575d2adcdc3b9d9269c1f3d245369",
+        "textAuditSha256": "f39e6af967148726f89591ea7ed5a4694bf66dc666d711a6f475a5ecbd34e4fb",
+        "capturePolicy": {
+          "kind": "opaque-SDR PNG compression only",
+          "engineVersion": "0.8.174",
+          "engineSha256": "e80a9d81838c0fe034f4d00af1c0262f570d64b2bb8b8c487a22cf7d8a70cc4e",
+          "installedModuleUnchanged": true,
+          "applications": 1,
+          "outputPixelEquivalenceSamples": 48,
+          "pixelEquivalenceReportSha256": "221d6d6f034f58cb8e07fbf8c3dae88bc136a68b598e33a659e1fefbf0eef820",
+          "alphaAndHDRCaptureUnchanged": true,
+          "geometryTimingFontsAudioAndEncodingUnchanged": true,
+          "exitCode": 0
+        },
+        "scope": "one actual complete source-specific film; technical/author checks, not independent review"
+      }
+    },
+    "scene-contract.json": {
+      "sha256": "ae6bd1dd40f15d45702a2ffbe6944bd0485575d2adcdc3b9d9269c1f3d245369",
+      "data": {
+        "framesChecked": 1100,
+        "issues": [],
+        "poses": [
+          {
+            "frame": 0,
+            "x": 230,
+            "y": 570,
+            "w": 620
+          },
+          {
+            "frame": 75,
+            "x": 136.63880920410156,
+            "y": 955.2554931640625,
+            "w": 440.026611328125
+          },
+          {
+            "frame": 180,
+            "x": 64,
+            "y": 1255,
+            "w": 300
+          },
+          {
+            "frame": 750,
+            "x": 64,
+            "y": 1255,
+            "w": 300
+          },
+          {
+            "frame": 1030,
+            "x": 240,
+            "y": 540,
+            "w": 600
+          },
+          {
+            "frame": 1099,
+            "x": 240,
+            "y": 540,
+            "w": 600
+          }
+        ],
+        "deterministic": true,
+        "maxCaptionBottom": 1765,
+        "states": {
+          "0": {
+            "frame": 0,
+            "sourceFrame": 0,
+            "person": {
+              "x": 230,
+              "y": 570,
+              "w": 620,
+              "h": 620,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 240,
+                "y": 800,
+                "s": 0.9,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "extra": {
+                "x": 790,
+                "y": 900,
+                "s": 0.94,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "food": {
+                "x": 800,
+                "y": 895,
+                "s": 0.98,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "principal": {
+                "x": 790,
+                "y": 820,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "burden": {
+                "x": 500,
+                "y": 1135,
+                "s": 0.5,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "risk": {
+                "x": 790,
+                "y": 820,
+                "s": 0.9,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 8,
+            "debtUnits": 6,
+            "style": "landscape",
+            "extraDenied": false,
+            "riskRevealed": false,
+            "modules": {
+              "style": [
+                "原创青绿长卷提供前后景和留水，物件与关系仍为主要解释",
+                "前景让位、留白展开和两岸对照有语义触发，不随机漂移一张山水图",
+                "山水是空间比喻与概念图，不是真实地理、财富走势或古画原作"
+              ],
+              "palette": {
+                "bg": "#eee3cb",
+                "ink": "#263f3e",
+                "accent": "#9b4b33",
+                "secondary": "#527f76",
+                "muted": "#53665b"
+              },
+              "material": {
+                "objects": "复用青绿原始概念长卷的矿物色、细皴与纸白；图解用稳定实色阅读面",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "长卷从中心打开，前景两岸退让以建立共同对照；前景遮层侧退后露出风险，减负担沿台面逐层撤去",
+              "camera": "固定画幅观察同一长卷；前后景作有限相对位移，图文和人物不随背景漂移",
+              "transition": "保留同一水面与对象，前景岸线从遮挡转成留白，沿同一空间交接至本金和负担",
+              "typography": {
+                "title": "LXGWWenKai-500.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0.025,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "334": {
+            "frame": 334,
+            "sourceFrame": 334,
+            "person": {
+              "x": 64,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 240,
+                "y": 800,
+                "s": 0.9,
+                "a": 0.5000247664542141,
+                "r": 0,
+                "visible": true
+              },
+              "extra": {
+                "x": 790,
+                "y": 900,
+                "s": 0.94,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "food": {
+                "x": 800,
+                "y": 895,
+                "s": 0.98,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "principal": {
+                "x": 620,
+                "y": 840,
+                "s": 0.8,
+                "a": 1,
+                "r": 0,
+                "visible": true
+              },
+              "burden": {
+                "x": 500,
+                "y": 1135,
+                "s": 0.5,
+                "a": 1,
+                "r": 0,
+                "visible": true
+              },
+              "risk": {
+                "x": 790,
+                "y": 820,
+                "s": 0.9,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 1,
+                "visible": true
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "style": "landscape",
+            "extraDenied": false,
+            "riskRevealed": false,
+            "modules": {
+              "style": [
+                "原创青绿长卷提供前后景和留水，物件与关系仍为主要解释",
+                "前景让位、留白展开和两岸对照有语义触发，不随机漂移一张山水图",
+                "山水是空间比喻与概念图，不是真实地理、财富走势或古画原作"
+              ],
+              "palette": {
+                "bg": "#eee3cb",
+                "ink": "#263f3e",
+                "accent": "#9b4b33",
+                "secondary": "#527f76",
+                "muted": "#53665b"
+              },
+              "material": {
+                "objects": "复用青绿原始概念长卷的矿物色、细皴与纸白；图解用稳定实色阅读面",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "长卷从中心打开，前景两岸退让以建立共同对照；前景遮层侧退后露出风险，减负担沿台面逐层撤去",
+              "camera": "固定画幅观察同一长卷；前后景作有限相对位移，图文和人物不随背景漂移",
+              "transition": "保留同一水面与对象，前景岸线从遮挡转成留白，沿同一空间交接至本金和负担",
+              "typography": {
+                "title": "LXGWWenKai-500.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0.025,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "615": {
+            "frame": 615,
+            "sourceFrame": 615,
+            "person": {
+              "x": 64,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 260,
+                "y": 825,
+                "s": 0.98,
+                "a": 1,
+                "r": 0,
+                "visible": true
+              },
+              "extra": {
+                "x": 970,
+                "y": 975,
+                "s": 0.94,
+                "a": 0,
+                "r": 7.998061477349209,
+                "visible": false
+              },
+              "food": {
+                "x": 800,
+                "y": 895,
+                "s": 0.98,
+                "a": 1,
+                "r": 4,
+                "visible": true
+              },
+              "principal": {
+                "x": 544.9999999981483,
+                "y": 850,
+                "s": 1.0799999997852052,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "burden": {
+                "x": 832.049946695986,
+                "y": 852.5346194849242,
+                "s": 0.5588031720502403,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "risk": {
+                "x": 790,
+                "y": 820,
+                "s": 0.9,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 1,
+                "visible": true
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "style": "landscape",
+            "extraDenied": true,
+            "riskRevealed": false,
+            "modules": {
+              "style": [
+                "原创青绿长卷提供前后景和留水，物件与关系仍为主要解释",
+                "前景让位、留白展开和两岸对照有语义触发，不随机漂移一张山水图",
+                "山水是空间比喻与概念图，不是真实地理、财富走势或古画原作"
+              ],
+              "palette": {
+                "bg": "#eee3cb",
+                "ink": "#263f3e",
+                "accent": "#9b4b33",
+                "secondary": "#527f76",
+                "muted": "#53665b"
+              },
+              "material": {
+                "objects": "复用青绿原始概念长卷的矿物色、细皴与纸白；图解用稳定实色阅读面",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "长卷从中心打开，前景两岸退让以建立共同对照；前景遮层侧退后露出风险，减负担沿台面逐层撤去",
+              "camera": "固定画幅观察同一长卷；前后景作有限相对位移，图文和人物不随背景漂移",
+              "transition": "保留同一水面与对象，前景岸线从遮挡转成留白，沿同一空间交接至本金和负担",
+              "typography": {
+                "title": "LXGWWenKai-500.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0.025,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "685": {
+            "frame": 685,
+            "sourceFrame": 685,
+            "person": {
+              "x": 64,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 259.9479133442201,
+                "y": 825.5469098856884,
+                "s": 0.4499479133442202,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "extra": {
+                "x": 970,
+                "y": 975,
+                "s": 0.94,
+                "a": 0,
+                "r": 7.903136674926518,
+                "visible": false
+              },
+              "food": {
+                "x": 800,
+                "y": 895,
+                "s": 0.5,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "principal": {
+                "x": 544.7382043196287,
+                "y": 850.0380793716904,
+                "s": 1.0796763253406318,
+                "a": 1,
+                "r": 0,
+                "visible": true
+              },
+              "burden": {
+                "x": 631.1036839152998,
+                "y": 867.9920243142077,
+                "s": 0.9174149640896188,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "risk": {
+                "x": 790,
+                "y": 820,
+                "s": 0.9,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 1,
+                "visible": true
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "style": "landscape",
+            "extraDenied": true,
+            "riskRevealed": false,
+            "modules": {
+              "style": [
+                "原创青绿长卷提供前后景和留水，物件与关系仍为主要解释",
+                "前景让位、留白展开和两岸对照有语义触发，不随机漂移一张山水图",
+                "山水是空间比喻与概念图，不是真实地理、财富走势或古画原作"
+              ],
+              "palette": {
+                "bg": "#eee3cb",
+                "ink": "#263f3e",
+                "accent": "#9b4b33",
+                "secondary": "#527f76",
+                "muted": "#53665b"
+              },
+              "material": {
+                "objects": "复用青绿原始概念长卷的矿物色、细皴与纸白；图解用稳定实色阅读面",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "长卷从中心打开，前景两岸退让以建立共同对照；前景遮层侧退后露出风险，减负担沿台面逐层撤去",
+              "camera": "固定画幅观察同一长卷；前后景作有限相对位移，图文和人物不随背景漂移",
+              "transition": "保留同一水面与对象，前景岸线从遮挡转成留白，沿同一空间交接至本金和负担",
+              "typography": {
+                "title": "LXGWWenKai-500.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0.025,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "782": {
+            "frame": 782,
+            "sourceFrame": 782,
+            "person": {
+              "x": 64,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 235.45125166861777,
+                "y": 1082.7618574795133,
+                "s": 0.4254512516686178,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "extra": {
+                "x": 970,
+                "y": 975,
+                "s": 0.94,
+                "a": 0,
+                "r": 6.401351378798234,
+                "visible": false
+              },
+              "food": {
+                "x": 800,
+                "y": 895,
+                "s": 0.5,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "principal": {
+                "x": 270,
+                "y": 890,
+                "s": 0.74,
+                "a": 1,
+                "r": 0,
+                "visible": true
+              },
+              "burden": {
+                "x": 540.9915567934745,
+                "y": 874.923726400502,
+                "s": 1.0782304524916455,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "risk": {
+                "x": 790,
+                "y": 820,
+                "s": 0.9,
+                "a": 1,
+                "r": 0,
+                "visible": true
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 1,
+                "visible": true
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 6,
+            "style": "landscape",
+            "extraDenied": true,
+            "riskRevealed": true,
+            "modules": {
+              "style": [
+                "原创青绿长卷提供前后景和留水，物件与关系仍为主要解释",
+                "前景让位、留白展开和两岸对照有语义触发，不随机漂移一张山水图",
+                "山水是空间比喻与概念图，不是真实地理、财富走势或古画原作"
+              ],
+              "palette": {
+                "bg": "#eee3cb",
+                "ink": "#263f3e",
+                "accent": "#9b4b33",
+                "secondary": "#527f76",
+                "muted": "#53665b"
+              },
+              "material": {
+                "objects": "复用青绿原始概念长卷的矿物色、细皴与纸白；图解用稳定实色阅读面",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "长卷从中心打开，前景两岸退让以建立共同对照；前景遮层侧退后露出风险，减负担沿台面逐层撤去",
+              "camera": "固定画幅观察同一长卷；前后景作有限相对位移，图文和人物不随背景漂移",
+              "transition": "保留同一水面与对象，前景岸线从遮挡转成留白，沿同一空间交接至本金和负担",
+              "typography": {
+                "title": "LXGWWenKai-500.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0.025,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "897": {
+            "frame": 897,
+            "sourceFrame": 897,
+            "person": {
+              "x": 64,
+              "y": 1255,
+              "w": 300,
+              "h": 300,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "x": 210.00327390217112,
+                "y": 1349.9656240272034,
+                "s": 0.40000327390217116,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "extra": {
+                "x": 970,
+                "y": 975,
+                "s": 0.94,
+                "a": 0,
+                "r": 0.9119429472139835,
+                "visible": false
+              },
+              "food": {
+                "x": 800,
+                "y": 895,
+                "s": 0.5,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "principal": {
+                "x": 514.1045741736889,
+                "y": 1305.8818671107292,
+                "s": 0.36028177350759505,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "burden": {
+                "x": 540,
+                "y": 875,
+                "s": 1.08,
+                "a": 1,
+                "r": 0,
+                "visible": true
+              },
+              "risk": {
+                "at": 856,
+                "x": 940,
+                "y": 820,
+                "s": 0.9,
+                "a": 0,
+                "r": 0,
+                "f": 856,
+                "visible": false
+              },
+              "trend": {
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 1,
+                "visible": true
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "r": 0
+            },
+            "principalUnits": 4,
+            "debtUnits": 2,
+            "style": "landscape",
+            "extraDenied": true,
+            "riskRevealed": true,
+            "modules": {
+              "style": [
+                "原创青绿长卷提供前后景和留水，物件与关系仍为主要解释",
+                "前景让位、留白展开和两岸对照有语义触发，不随机漂移一张山水图",
+                "山水是空间比喻与概念图，不是真实地理、财富走势或古画原作"
+              ],
+              "palette": {
+                "bg": "#eee3cb",
+                "ink": "#263f3e",
+                "accent": "#9b4b33",
+                "secondary": "#527f76",
+                "muted": "#53665b"
+              },
+              "material": {
+                "objects": "复用青绿原始概念长卷的矿物色、细皴与纸白；图解用稳定实色阅读面",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "长卷从中心打开，前景两岸退让以建立共同对照；前景遮层侧退后露出风险，减负担沿台面逐层撤去",
+              "camera": "固定画幅观察同一长卷；前后景作有限相对位移，图文和人物不随背景漂移",
+              "transition": "保留同一水面与对象，前景岸线从遮挡转成留白，沿同一空间交接至本金和负担",
+              "typography": {
+                "title": "LXGWWenKai-500.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0.025,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          },
+          "1099": {
+            "frame": 1099,
+            "sourceFrame": 1099,
+            "person": {
+              "x": 240,
+              "y": 540,
+              "w": 600,
+              "h": 600,
+              "circle": true
+            },
+            "actors": {
+              "headphone": {
+                "at": 1099,
+                "x": 210,
+                "y": 1350,
+                "s": 0.4,
+                "a": 1,
+                "r": 0,
+                "f": 1099,
+                "visible": true
+              },
+              "extra": {
+                "at": 1099,
+                "x": 970,
+                "y": 975,
+                "s": 0.94,
+                "a": 0,
+                "r": 0,
+                "f": 1099,
+                "visible": false
+              },
+              "food": {
+                "at": 1099,
+                "x": 800,
+                "y": 895,
+                "s": 0.5,
+                "a": 0,
+                "r": 0,
+                "f": 1099,
+                "visible": false
+              },
+              "principal": {
+                "at": 1099,
+                "x": 540,
+                "y": 1350,
+                "s": 0.32,
+                "a": 1,
+                "r": 0,
+                "f": 1099,
+                "visible": true
+              },
+              "burden": {
+                "at": 1099,
+                "x": 875,
+                "y": 1350,
+                "s": 0.3,
+                "a": 1,
+                "r": 0,
+                "f": 1099,
+                "visible": true
+              },
+              "risk": {
+                "at": 856,
+                "x": 940,
+                "y": 820,
+                "s": 0.9,
+                "a": 0,
+                "r": 0,
+                "f": 856,
+                "visible": false
+              },
+              "trend": {
+                "at": 1099,
+                "x": 520,
+                "y": 1120,
+                "s": 0.7,
+                "a": 0,
+                "r": 0,
+                "f": 1099,
+                "visible": false
+              },
+              "stage": {
+                "x": 0,
+                "y": 0,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              },
+              "boundary": {
+                "x": 540,
+                "y": 860,
+                "s": 1,
+                "a": 0,
+                "visible": false
+              }
+            },
+            "camera": {
+              "at": 1099,
+              "x": 0,
+              "y": 0,
+              "s": 1,
+              "a": 1,
+              "f": 1099
+            },
+            "principalUnits": 4,
+            "debtUnits": 2,
+            "style": "landscape",
+            "extraDenied": true,
+            "riskRevealed": true,
+            "modules": {
+              "style": [
+                "原创青绿长卷提供前后景和留水，物件与关系仍为主要解释",
+                "前景让位、留白展开和两岸对照有语义触发，不随机漂移一张山水图",
+                "山水是空间比喻与概念图，不是真实地理、财富走势或古画原作"
+              ],
+              "palette": {
+                "bg": "#eee3cb",
+                "ink": "#263f3e",
+                "accent": "#9b4b33",
+                "secondary": "#527f76",
+                "muted": "#53665b"
+              },
+              "material": {
+                "objects": "复用青绿原始概念长卷的矿物色、细皴与纸白；图解用稳定实色阅读面",
+                "person": "original-color-no-treatment"
+              },
+              "representation": {
+                "principalUnits": 8,
+                "remainingPrincipal": 4,
+                "debtLayers": 6,
+                "remainingDebt": 2
+              },
+              "motion": "长卷从中心打开，前景两岸退让以建立共同对照；前景遮层侧退后露出风险，减负担沿台面逐层撤去",
+              "camera": "固定画幅观察同一长卷；前后景作有限相对位移，图文和人物不随背景漂移",
+              "transition": "保留同一水面与对象，前景岸线从遮挡转成留白，沿同一空间交接至本金和负担",
+              "typography": {
+                "title": "LXGWWenKai-500.woff",
+                "body": "NotoSansSC-500.woff",
+                "caption": "NotoSansSC-700.woff"
+              },
+              "lighting": {
+                "grainOpacity": 0.025,
+                "contactShadowOpacity": 0
+              },
+              "information": {
+                "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+                "food": "日常需要的对照示意，不代表具体购买建议",
+                "capital": "同一示意本金；受损后不凭空补满",
+                "debt": "负担层数消减示意，不代表实际金额",
+                "risk": "夸大收益说法与风险揭示的比喻载体"
+              },
+              "rhythm": {
+                "extraStart": 470,
+                "extraReady": 490,
+                "denyStart": 516,
+                "denyEnd": 538,
+                "compareStart": 563,
+                "compareReady": 587,
+                "capitalStart": 616,
+                "capitalReady": 643,
+                "riskRevealStart": 744,
+                "riskRevealEnd": 759,
+                "debtStart": 856,
+                "debtReady": 882,
+                "recapReady": 970,
+                "lossStart": 310,
+                "lossEnd": 334
+              }
+            }
+          }
+        },
+        "moduleBindings": {
+          "style": [
+            "原创青绿长卷提供前后景和留水，物件与关系仍为主要解释",
+            "前景让位、留白展开和两岸对照有语义触发，不随机漂移一张山水图",
+            "山水是空间比喻与概念图，不是真实地理、财富走势或古画原作"
+          ],
+          "palette": {
+            "bg": "#eee3cb",
+            "ink": "#263f3e",
+            "accent": "#9b4b33",
+            "secondary": "#527f76",
+            "muted": "#53665b"
+          },
+          "material": {
+            "objects": "复用青绿原始概念长卷的矿物色、细皴与纸白；图解用稳定实色阅读面",
+            "person": "original-color-no-treatment"
+          },
+          "representation": {
+            "principalUnits": 8,
+            "remainingPrincipal": 4,
+            "debtLayers": 6,
+            "remainingDebt": 2
+          },
+          "motion": "长卷从中心打开，前景两岸退让以建立共同对照；前景遮层侧退后露出风险，减负担沿台面逐层撤去",
+          "camera": "固定画幅观察同一长卷；前后景作有限相对位移，图文和人物不随背景漂移",
+          "transition": "保留同一水面与对象，前景岸线从遮挡转成留白，沿同一空间交接至本金和负担",
+          "typography": {
+            "title": "LXGWWenKai-500.woff",
+            "body": "NotoSansSC-500.woff",
+            "caption": "NotoSansSC-700.woff"
+          },
+          "lighting": {
+            "grainOpacity": 0.025,
+            "contactShadowOpacity": 0
+          },
+          "information": {
+            "headphone": "跟风消费/已有与加购的共同对比对象；摄影概念图或同义模型",
+            "food": "日常需要的对照示意，不代表具体购买建议",
+            "capital": "同一示意本金；受损后不凭空补满",
+            "debt": "负担层数消减示意，不代表实际金额",
+            "risk": "夸大收益说法与风险揭示的比喻载体"
+          },
+          "rhythm": {
+            "extraStart": 470,
+            "extraReady": 490,
+            "denyStart": 516,
+            "denyEnd": 538,
+            "compareStart": 563,
+            "compareReady": 587,
+            "capitalStart": 616,
+            "capitalReady": 643,
+            "riskRevealStart": 744,
+            "riskRevealEnd": 759,
+            "debtStart": 856,
+            "debtReady": 882,
+            "recapReady": 970,
+            "lossStart": 310,
+            "lossEnd": 334
+          }
+        },
+        "voices": 1,
+        "captionCount": 21,
+        "mediaErrors": [
+          null,
+          null
+        ],
+        "allImagesLoaded": true,
+        "errors": [],
+        "failedRequests": [],
+        "noCapitalReplenishment": true,
+        "debtResult": true,
+        "ok": true,
+        "visualInputs": {
+          "index.html": "e1fc26cce4b1d19a34344e94c330752581126bece5c85dfc6ee8bc784521d51c",
+          "assets/film.css": "ed079c75e37052bbc8b27af5eef237235db106cfc22733451783d0278a133ccd",
+          "assets/film-config.js": "d32960be55df001f18d09ef79bdb86db8acce2db603dace6e4a3ce52fa03929d",
+          "scripts/build-project.mjs": "06dd000a8393fdc4f3d2a603ea2ace64f1ec3993f11f234c9a63df41dda1254e",
+          "scripts/motion.mjs": "c29a1f05fa5fa0aff6aaea20a3d2f4ba44cc6b8fad61e6896be6b7ea977afdcf",
+          "scripts/render-opaque-png.mjs": "49ffa1860f6194756d723cd58642d7125229db811c376e7ffc843ce9d52fc909"
+        }
+      }
+    },
+    "text-path-audit.json": {
+      "sha256": "f39e6af967148726f89591ea7ed5a4694bf66dc666d711a6f475a5ecbd34e4fb",
+      "data": {
+        "frames": 1100,
+        "glyphs": 54544,
+        "points": 163632,
+        "issues": [],
+        "issueCount": 0,
+        "windows": [],
+        "intentional": [],
+        "scope": "All1100 authored frames; three probe points per nonspace glyph in reading and exiting text (effective opacity>=0.2). Actual DOM paint order, circular clipping and source PNG alpha respected. Hidden reverse paper and intentional semantic strike-through explicitly excluded; complements actual encoded dense-frame review, not universal pixel OCR.",
+        "visualInputs": {
+          "index.html": "e1fc26cce4b1d19a34344e94c330752581126bece5c85dfc6ee8bc784521d51c",
+          "assets/film.css": "ed079c75e37052bbc8b27af5eef237235db106cfc22733451783d0278a133ccd",
+          "scripts/motion.mjs": "c29a1f05fa5fa0aff6aaea20a3d2f4ba44cc6b8fad61e6896be6b7ea977afdcf",
+          "assets/film-config.js": "d32960be55df001f18d09ef79bdb86db8acce2db603dace6e4a3ce52fa03929d"
+        },
+        "sourceBindingScope": "Current visual inputs recorded after this isolated audit; no edits were made during the run",
+        "ok": true
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "editorial-print",
-  "name": "编辑拼贴与印刷 · 自有口播完整成片",
+  "name": "编辑拼贴与印刷",
   "mode": "design-recipe",
   "sourceRequiredForProduction": true,
   "usagePolicy": "候选池逐场选用；文学引句与人物寓言只在内容确有依据时使用。",
@@ -64,9 +64,8 @@
   },
   "overrides": {},
   "adaptation": "依据本次真实原句启用并列、对照与转折；无文学引文或人物寓言。",
-  "caseId": "editorial-print-own-full-01",
+  "caseId": null,
   "status": "user-approved",
-  "approvalDate": "2026-10-21",
   "hierarchy": {
     "familyId": "F03",
     "branchId": null,
@@ -78,8 +77,115 @@
   },
   "implementation": {
     "kind": "source-specific-reference",
-    "path": "examples/recipes/editorial-print",
+    "path": "examples/production-recipes/editorial-print",
     "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
-    "newSource": "重新执行语义编排，不复用此案例固定台词、物件与秒点"
-  }
+    "buildMode": "preserved-production-case",
+    "photoAsset": true,
+    "vendor": false,
+    "timingContract": "study-custom-symbolic-events",
+    "orchestration": {
+      "id": "diagram",
+      "selection": "explicit",
+      "reason": "用户明确选择"
+    },
+    "voiceSha256": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+    "edlSha256": "699c481b98445d39dedb1b09bf46e5f7db6b5dfe422e67bbeaf6718a2c335cf2",
+    "newSource": "按本片原句重设计语义、对象、动作、结果、读窗和交接；跨文案等待用户新素材验证"
+  },
+  "productionRules": {
+    "layout": "页栏、裁切、批注分配主次；保留纸页阅读秩序",
+    "objectMotion": "抽页、翻面与印记揭示真实关系，非每句都翻页",
+    "camera": "二维推拉进入局部引句或对象",
+    "transition": "页边、批注或同物接续，旧字退出再读新字",
+    "typography": "衬线标题与稳定字幕，红色批注限一重点",
+    "preserve": [
+      "图文编辑",
+      "层级与留白",
+      "载体秩序"
+    ],
+    "adaptOnNewContent": [
+      "原句和关系",
+      "每张图片的任务",
+      "对象初态、动作及结果",
+      "阅读窗口",
+      "前后交接",
+      "真实源时间与字幕"
+    ],
+    "neverInheritAsDefault": [
+      "当前财经物件",
+      "示意数量",
+      "固定秒点",
+      "固定三项建议",
+      "本片人像位置"
+    ]
+  },
+  "axisReferences": {
+    "art-style": {
+      "skill": "skills/talking-head-art-style/SKILL.md",
+      "casePlan": "examples/production-recipes/editorial-print/plans/style-contract.json",
+      "sha256": "140b4cf0c1889cec9ee66382c1702ef586b06655e9767cc6275434957259ca35",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "palette": {
+      "skill": "skills/talking-head-palette/SKILL.md",
+      "casePlan": "examples/production-recipes/editorial-print/plans/palette-tokens.json",
+      "sha256": "0b6072559a45b4b0d1004fd08bf8c0057d0c2ba13fd15265ee1c7afe0eeb3ea6",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "material": {
+      "skill": "skills/talking-head-material/SKILL.md",
+      "casePlan": "examples/production-recipes/editorial-print/plans/material-tokens.json",
+      "sha256": "bd7d2c5626c9dc81dec29885564a5263ff2c3ebdd25c51c57c2cebc29f81968c",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "representation": {
+      "skill": "skills/talking-head-representation/SKILL.md",
+      "casePlan": "examples/production-recipes/editorial-print/plans/object-spec.json",
+      "sha256": "391368850496c600948a633a337ec0cc7c325419b781d84f29f8726eb04bafb0",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "object-motion": {
+      "skill": "skills/talking-head-object-motion/SKILL.md",
+      "casePlan": "examples/production-recipes/editorial-print/plans/motion-events.json",
+      "sha256": "381f9c6f55a9dbb1b0a9ab4d2a33688f034fb8388d063e536ee3decc50a21eb8",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "camera": {
+      "skill": "skills/talking-head-camera/SKILL.md",
+      "casePlan": "examples/production-recipes/editorial-print/plans/camera-plan.json",
+      "sha256": "d2c71d6adbfa2b6710b58369a3b0b66539ff07e33c222472d802c0e8a19fe3fe",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "transition": {
+      "skill": "skills/talking-head-transition/SKILL.md",
+      "casePlan": "examples/production-recipes/editorial-print/plans/transition-plan.json",
+      "sha256": "aace5dda9b36c80118e817933d601f43519acf48f051e76f5a5ae49d13fe104e",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "typography": {
+      "skill": "skills/talking-head-typography/SKILL.md",
+      "casePlan": "examples/production-recipes/editorial-print/plans/layout-plan.json",
+      "sha256": "2218bf1599f9f801f57c843b00ad3dc7ac569bd6d443ecd0302c74d6c9422e52",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "lighting": {
+      "skill": "skills/talking-head-lighting/SKILL.md",
+      "casePlan": "examples/production-recipes/editorial-print/plans/finish-plan.json",
+      "sha256": "dadca89b7227b254196b31793914a82a6f5582ef79ed7f3503db27e7f32a9c6a",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "information": {
+      "skill": "skills/talking-head-information/SKILL.md",
+      "casePlan": "examples/production-recipes/editorial-print/plans/semantic-plan.json",
+      "sha256": "fb315777d75fc58f28446d5041a76235311cca759e36a53a086bfe8ae0208c39",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "rhythm": {
+      "skill": "skills/talking-head-rhythm/SKILL.md",
+      "casePlan": "examples/production-recipes/editorial-print/plans/timing.json",
+      "sha256": "495b3b794e9f47623ebc568390d88049698f1748492fcd8985649e5538b2f556",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    }
+  },
+  "approvalDate": "2026-10-24"
 }

@@ -1,0 +1,16 @@
+{
+  "baseRecipe": "minimal",
+  "changedAxis": "palette",
+  "patch": {
+    "colorRoles": {
+      "background": "#f4f6fb",
+      "ink": "#17223b",
+      "accent": "#2848a0",
+      "surface": "#e2e8f4",
+      "muted": "#536078",
+      "risk": "#a03932"
+    }
+  },
+  "approvedVideoSha256": "1d1077b1d8edbbda64982767a766233b5635379846cec680a19864e3bb39697b",
+  "scope": "实际同源配色修改通过，其他模块保持；不是新母画风"
+}

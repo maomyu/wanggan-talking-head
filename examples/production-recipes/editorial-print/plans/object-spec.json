@@ -1,0 +1,29 @@
+{
+  "objectIdentity": {
+    "headphone": "同一个物品；加购是标明的第二实例",
+    "capital": "损失后保留4个示意单位，后文不补回8个",
+    "debt": "同一6层负担，减少后保留2层",
+    "risk": "夸大收益说法的载体，揭示后隔离"
+  },
+  "objectGeometry": {
+    "unitCount": 8,
+    "debtCount": 6,
+    "retainedCapital": 4,
+    "retainedDebt": 2
+  },
+  "anchors": {
+    "stageCenter": [
+      540,
+      850
+    ]
+  },
+  "surfaceSides": [
+    "front",
+    "inside"
+  ],
+  "standards": [
+    "printed-page",
+    "fixed-film-frame",
+    "inset-stage"
+  ]
+}

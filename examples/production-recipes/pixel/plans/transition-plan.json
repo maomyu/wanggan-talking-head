@@ -1,0 +1,27 @@
+{
+  "language": "前段方格保留坐标成为下一关系的落点，风险遮片列收拢后接成负担消减，结尾格块归组",
+  "continuityAnchors": [
+    "headphone",
+    "principal-four-remain",
+    "burden-two-remain"
+  ],
+  "entryExitBridges": [
+    149,
+    388,
+    461,
+    563,
+    616,
+    686,
+    783,
+    856,
+    898
+  ],
+  "labelClearFrames": 6,
+  "coverFrames": [],
+  "sourceCut": "continuous original voice, no source jump cuts",
+  "standards": [
+    "object-match",
+    "relation-expand",
+    "foreground-occlusion"
+  ]
+}

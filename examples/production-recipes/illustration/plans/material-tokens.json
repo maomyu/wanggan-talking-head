@@ -1,0 +1,14 @@
+{
+  "surfaceAssignments": {
+    "objects": "纯色哑光填色与有限柔和接触影，无纸边或印刷网点",
+    "person": "original-color-no-treatment"
+  },
+  "textureScale": 6,
+  "edgeTreatment": {
+    "strokeWidth": 4,
+    "roughness": 0
+  },
+  "standards": [
+    "matte"
+  ]
+}

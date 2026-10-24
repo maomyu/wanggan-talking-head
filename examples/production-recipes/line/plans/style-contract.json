@@ -1,0 +1,24 @@
+{
+  "name": "单线手绘",
+  "mode": "line",
+  "identityRules": [
+    "连续等线宽描物",
+    "撤回额外加购",
+    "同一关系线接续观察"
+  ],
+  "referencePrinciples": [
+    "保留已认可有效素材和轮廓，按当前原句重做动作结果与交接"
+  ],
+  "driftChecks": [
+    "人物无风格滤镜",
+    "不得重置损失/减少结果",
+    "字形和圆窗全路径避让"
+  ],
+  "selectedStandards": [
+    "monoline-drawing"
+  ],
+  "standards": [
+    "monoline-drawing"
+  ],
+  "compositionMode": "line"
+}

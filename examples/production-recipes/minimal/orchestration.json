@@ -1,0 +1,47 @@
+{
+  "id": "presenter",
+  "selection": "explicit",
+  "reason": "用户明确选择",
+  "profile": {
+    "id": "presenter",
+    "name": "人物主导",
+    "aliases": [
+      "人物主导编排"
+    ],
+    "status": "user-approved",
+    "when": "观点表达、经验讲述、情绪与身份信任承担主线；图解只辅助需要解释的句子",
+    "principle": "人物是主要阅读重心；辅助对象沿旁侧或下方分组，动作不抢主讲，结论回到人物。",
+    "coordinationAxes": [
+      "information",
+      "representation",
+      "typography",
+      "object-motion",
+      "camera",
+      "transition",
+      "rhythm"
+    ],
+    "preserve": [
+      "人物原色",
+      "角落真圆且全路径等比",
+      "字幕上移",
+      "自有原声",
+      "本次文案真实关系"
+    ],
+    "avoid": [
+      "固定人物尺寸或固定秒点当通用规则",
+      "图片来回移动代替解释",
+      "任意新素材套财经示例"
+    ],
+    "reference": {
+      "path": "examples/orchestrations/presenter",
+      "recipeId": "minimal",
+      "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "videoSha256": "18113b496754fe8aa96b52f858ed358789caac0995d0d3037543382396250b1a",
+      "frames": 1100,
+      "fps": 30
+    },
+    "evidence": "evidence/orchestrations/presenter/approval.json",
+    "otherRecipeCompatibility": "design-adaptation-required; not cross-recipe rendering verification"
+  },
+  "status": "awaiting-content-design"
+}

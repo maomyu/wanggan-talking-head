@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "gongbi-mother-05",
+  "name": "工笔设色 · 新编排研究",
+  "mode": "design-recipe",
+  "status": "test-candidate",
+  "hierarchy": {
+    "familyId": "F14",
+    "branchId": null,
+    "baseLegacyId": "A67"
+  },
+  "selections": {
+    "information": [
+      "problem-mechanism-response",
+      "parallel-options",
+      "option-comparison",
+      "contrast-turn",
+      "recap-return"
+    ],
+    "rhythm": [
+      "speech-led",
+      "reveal-hold-release",
+      "progressive-build",
+      "setup-payoff",
+      "ending-resolve"
+    ],
+    "art-style": [
+      "F14"
+    ],
+    "palette": [
+      "soft-earth"
+    ],
+    "material": [
+      "matte",
+      "paper-grain"
+    ],
+    "representation": [
+      "flat-symbol",
+      "inset-stage"
+    ],
+    "object-motion": [
+      "trace-build",
+      "sort-compare",
+      "accumulate-reduce",
+      "reveal-consequence"
+    ],
+    "camera": [
+      "locked-stage",
+      "parallel-views"
+    ],
+    "transition": [
+      "object-match",
+      "relation-expand",
+      "foreground-occlusion"
+    ],
+    "typography": [
+      "raised-captions",
+      "serif-display",
+      "comparison-alignment"
+    ],
+    "lighting": [
+      "flat-print-light",
+      "paper-grain-finish"
+    ]
+  },
+  "overrides": {
+    "notes": "用户已认可本案例的完整十一类配方。人物原色、角落真圆、上移字幕；换素材重新设计，不泛化为任意组合已验收。"
+  },
+  "approvalDate": null,
+  "caseId": "same-source-line-03",
+  "sourceRequiredForProduction": true,
+  "implementation": {
+    "kind": "new-source-specific-test",
+    "productionStatus": "awaiting-design"
+  }
+}

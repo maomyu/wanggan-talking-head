@@ -1,0 +1,15 @@
+{
+  "surfaceAssignments": {
+    "objects": "复用原创油画袋的厚涂纹理，奶油底、赭色笔脊、局部暗影，非真实物理流体",
+    "person": "original-color-no-treatment"
+  },
+  "textureScale": 6,
+  "edgeTreatment": {
+    "strokeWidth": 4,
+    "roughness": 0
+  },
+  "standards": [
+    "matte",
+    "paper-grain"
+  ]
+}

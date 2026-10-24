@@ -1,0 +1,14 @@
+{
+  "surfaceAssignments": {
+    "objects": "平涂纸底、浓黑轮廓与局部短排线，正文区域留净",
+    "person": "original-color-no-treatment"
+  },
+  "textureScale": 6,
+  "edgeTreatment": {
+    "strokeWidth": 4,
+    "roughness": 0
+  },
+  "standards": [
+    "matte"
+  ]
+}

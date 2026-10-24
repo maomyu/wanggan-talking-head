@@ -1,0 +1,19 @@
+{
+  "finishLayers": {
+    "grainOpacity": 0.06,
+    "contactShadowOpacity": 0
+  },
+  "compositeOrder": [
+    "background",
+    "stage",
+    "objects",
+    "labels",
+    "source-person",
+    "captions"
+  ],
+  "reason": "材料和光影只作用解释区，不覆盖真人",
+  "standards": [
+    "flat-print-light",
+    "paper-grain-finish"
+  ]
+}

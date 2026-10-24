@@ -1,0 +1,220 @@
+{
+  "ok": true,
+  "version": "1.21.0",
+  "checks": [
+    {
+      "name": "19 mothers, blueprint branch and preserved legacy resources",
+      "ok": true
+    },
+    {
+      "name": "init-minimal",
+      "ok": true
+    },
+    {
+      "name": "init-geometry",
+      "ok": true
+    },
+    {
+      "name": "init-editorial-print",
+      "ok": true
+    },
+    {
+      "name": "init-collage",
+      "ok": true
+    },
+    {
+      "name": "init-line",
+      "ok": true
+    },
+    {
+      "name": "init-illustration",
+      "ok": true
+    },
+    {
+      "name": "init-precision",
+      "ok": true
+    },
+    {
+      "name": "init-halftone",
+      "ok": true
+    },
+    {
+      "name": "init-comic",
+      "ok": true
+    },
+    {
+      "name": "init-ink",
+      "ok": true
+    },
+    {
+      "name": "init-clay",
+      "ok": true
+    },
+    {
+      "name": "init-pixel",
+      "ok": true
+    },
+    {
+      "name": "init-papercut",
+      "ok": true
+    },
+    {
+      "name": "init-gongbi",
+      "ok": true
+    },
+    {
+      "name": "init-landscape",
+      "ok": true
+    },
+    {
+      "name": "init-mural",
+      "ok": true
+    },
+    {
+      "name": "init-watercolor",
+      "ok": true
+    },
+    {
+      "name": "init-oil",
+      "ok": true
+    },
+    {
+      "name": "init-woodcut",
+      "ok": true
+    },
+    {
+      "name": "branch uses its own recipe and records component/orchestration",
+      "ok": true
+    },
+    {
+      "name": "reject mismatched branch",
+      "ok": true
+    },
+    {
+      "name": "reject unknown component",
+      "ok": true
+    },
+    {
+      "name": "recipe and only-module route",
+      "ok": true
+    },
+    {
+      "name": "palette-only complete visual-input parity with approved film",
+      "ok": true
+    },
+    {
+      "name": "unselected layout mutation rejected",
+      "ok": true
+    },
+    {
+      "name": "palette-only implementation mutation rejected",
+      "ok": true
+    }
+  ],
+  "parity": [
+    {
+      "id": "minimal",
+      "htmlAndVisualInputsEqual": true,
+      "voiceWavEqual": true
+    },
+    {
+      "id": "geometry",
+      "htmlAndVisualInputsEqual": true,
+      "voiceWavEqual": true
+    },
+    {
+      "id": "editorial-print",
+      "htmlAndVisualInputsEqual": true,
+      "voiceWavEqual": true
+    },
+    {
+      "id": "collage",
+      "htmlAndVisualInputsEqual": true,
+      "voiceWavEqual": true
+    },
+    {
+      "id": "line",
+      "htmlAndVisualInputsEqual": true,
+      "voiceWavEqual": true
+    },
+    {
+      "id": "illustration",
+      "htmlAndVisualInputsEqual": true,
+      "voiceWavEqual": true
+    },
+    {
+      "id": "precision",
+      "htmlAndVisualInputsEqual": true,
+      "voiceWavEqual": true
+    },
+    {
+      "id": "halftone",
+      "htmlAndVisualInputsEqual": true,
+      "voiceWavEqual": true
+    },
+    {
+      "id": "comic",
+      "htmlAndVisualInputsEqual": true,
+      "voiceWavEqual": true
+    },
+    {
+      "id": "ink",
+      "htmlAndVisualInputsEqual": true,
+      "voiceWavEqual": true
+    },
+    {
+      "id": "clay",
+      "htmlAndVisualInputsEqual": true,
+      "voiceWavEqual": true
+    },
+    {
+      "id": "pixel",
+      "htmlAndVisualInputsEqual": true,
+      "voiceWavEqual": true
+    },
+    {
+      "id": "papercut",
+      "htmlAndVisualInputsEqual": true,
+      "voiceWavEqual": true
+    },
+    {
+      "id": "gongbi",
+      "htmlAndVisualInputsEqual": true,
+      "voiceWavEqual": true
+    },
+    {
+      "id": "landscape",
+      "htmlAndVisualInputsEqual": true,
+      "voiceWavEqual": true
+    },
+    {
+      "id": "mural",
+      "htmlAndVisualInputsEqual": true,
+      "voiceWavEqual": true
+    },
+    {
+      "id": "watercolor",
+      "htmlAndVisualInputsEqual": true,
+      "voiceWavEqual": true
+    },
+    {
+      "id": "oil",
+      "htmlAndVisualInputsEqual": true,
+      "voiceWavEqual": true
+    },
+    {
+      "id": "woodcut",
+      "htmlAndVisualInputsEqual": true,
+      "voiceWavEqual": true
+    },
+    {
+      "id": "blueprint",
+      "htmlAndVisualInputsEqual": true,
+      "voiceWavEqual": true
+    }
+  ],
+  "all20Rebuilt": true,
+  "paletteProtectedFiles": 40,
+  "crossScript": "deferred-by-user",
+  "scope": "formal CLI actual reconstruction with original media; 20 visual implementations byte-equal to approved case; palette variant compared to approved encode inputs; no new full20 video encode"
+}

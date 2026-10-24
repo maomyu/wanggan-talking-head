@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "id": "landscape",
+  "name": "青绿山水",
+  "mode": "design-recipe",
+  "status": "user-approved",
+  "hierarchy": {
+    "familyId": "F15",
+    "branchId": null,
+    "baseLegacyId": "A68"
+  },
+  "selections": {
+    "information": [
+      "problem-mechanism-response",
+      "parallel-options",
+      "option-comparison",
+      "contrast-turn",
+      "recap-return"
+    ],
+    "rhythm": [
+      "speech-led",
+      "reveal-hold-release",
+      "progressive-build",
+      "setup-payoff",
+      "ending-resolve"
+    ],
+    "art-style": [
+      "F15"
+    ],
+    "palette": [
+      "soft-earth"
+    ],
+    "material": [
+      "matte",
+      "paper-grain"
+    ],
+    "representation": [
+      "flat-symbol",
+      "inset-stage"
+    ],
+    "object-motion": [
+      "trace-build",
+      "sort-compare",
+      "accumulate-reduce",
+      "reveal-consequence"
+    ],
+    "camera": [
+      "locked-stage",
+      "parallel-views"
+    ],
+    "transition": [
+      "object-match",
+      "relation-expand",
+      "foreground-occlusion"
+    ],
+    "typography": [
+      "raised-captions",
+      "serif-display",
+      "comparison-alignment"
+    ],
+    "lighting": [
+      "flat-print-light",
+      "paper-grain-finish"
+    ]
+  },
+  "overrides": {
+    "notes": "用户已认可本案例的完整十一类配方。人物原色、角落真圆、上移字幕；换素材重新设计，不泛化为任意组合已验收。"
+  },
+  "caseId": null,
+  "sourceRequiredForProduction": true,
+  "implementation": {
+    "kind": "source-specific-reference",
+    "path": "examples/production-recipes/landscape",
+    "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+    "buildMode": "preserved-production-case",
+    "photoAsset": true,
+    "vendor": false,
+    "timingContract": "study-custom-symbolic-events",
+    "orchestration": {
+      "id": "diagram",
+      "selection": "explicit",
+      "reason": "用户明确选择"
+    },
+    "voiceSha256": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+    "edlSha256": "699c481b98445d39dedb1b09bf46e5f7db6b5dfe422e67bbeaf6718a2c335cf2",
+    "newSource": "按本片原句重设计语义、对象、动作、结果、读窗和交接；跨文案等待用户新素材验证"
+  },
+  "productionRules": {
+    "layout": "前中后景、矿物色层与留水构成游观空间",
+    "objectMotion": "对象沿空间层次显现关系，山水不能替代内容",
+    "camera": "从近景关系到远景回收，有明确观察动机",
+    "transition": "山体分组/留水接续空间；物件保持身份",
+    "typography": "留白区承载文字，密景不压正文",
+    "preserve": [
+      "山体分组",
+      "矿物色层与留水",
+      "游观空间"
+    ],
+    "adaptOnNewContent": [
+      "原句和关系",
+      "每张图片的任务",
+      "对象初态、动作及结果",
+      "阅读窗口",
+      "前后交接",
+      "真实源时间与字幕"
+    ],
+    "neverInheritAsDefault": [
+      "当前财经物件",
+      "示意数量",
+      "固定秒点",
+      "固定三项建议",
+      "本片人像位置"
+    ]
+  },
+  "axisReferences": {
+    "art-style": {
+      "skill": "skills/talking-head-art-style/SKILL.md",
+      "casePlan": "examples/production-recipes/landscape/plans/style-contract.json",
+      "sha256": "e369351c9ae9a201aaaad38911e09b2655b36d34322c1b03aa306b7db1fcf58d",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "palette": {
+      "skill": "skills/talking-head-palette/SKILL.md",
+      "casePlan": "examples/production-recipes/landscape/plans/palette-tokens.json",
+      "sha256": "94f5bbe0142e3b1d9c0bfcacdbb3012292f5e23dc99da19ba2f6dc7cdb02cec9",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "material": {
+      "skill": "skills/talking-head-material/SKILL.md",
+      "casePlan": "examples/production-recipes/landscape/plans/material-tokens.json",
+      "sha256": "4f72234a640c0ce463ecfa32b27450aef0cff72232b3a59f595ccf9e9fe3c00a",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "representation": {
+      "skill": "skills/talking-head-representation/SKILL.md",
+      "casePlan": "examples/production-recipes/landscape/plans/object-spec.json",
+      "sha256": "bab13cae8930f614c20c4ba931d682b55cbfdfaa0d2efd0f0a3d8c0c4b38964c",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "object-motion": {
+      "skill": "skills/talking-head-object-motion/SKILL.md",
+      "casePlan": "examples/production-recipes/landscape/plans/motion-events.json",
+      "sha256": "abad45fc041f8a2667f1991e4d27ebd261212acada8b644df4d5d2f3e2ac2b7c",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "camera": {
+      "skill": "skills/talking-head-camera/SKILL.md",
+      "casePlan": "examples/production-recipes/landscape/plans/camera-plan.json",
+      "sha256": "41653bf6062063cb8479fb74c8e16086cbc78a7578ee46f38e5ae6d20a7a78d7",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "transition": {
+      "skill": "skills/talking-head-transition/SKILL.md",
+      "casePlan": "examples/production-recipes/landscape/plans/transition-plan.json",
+      "sha256": "788745ec835b9d13c74809272bf15cf05f82ba719b63003a3ce05801417d238f",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "typography": {
+      "skill": "skills/talking-head-typography/SKILL.md",
+      "casePlan": "examples/production-recipes/landscape/plans/layout-plan.json",
+      "sha256": "2c77c530c6828f84ced4dc92beaeadaa079022d66d28aec681320d6a092bbf5f",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "lighting": {
+      "skill": "skills/talking-head-lighting/SKILL.md",
+      "casePlan": "examples/production-recipes/landscape/plans/finish-plan.json",
+      "sha256": "68956002de627008728ea4b0e4d575dec08bc80cdaeee8f1e075658e3c27e0ff",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "information": {
+      "skill": "skills/talking-head-information/SKILL.md",
+      "casePlan": "examples/production-recipes/landscape/plans/semantic-plan.json",
+      "sha256": "6b75b9199943656e0e72b3112e8c521bd99558e889a131fd7d3e2ad034c9d45c",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    },
+    "rhythm": {
+      "skill": "skills/talking-head-rhythm/SKILL.md",
+      "casePlan": "examples/production-recipes/landscape/plans/timing.json",
+      "sha256": "6d37eb62a35fe2fb94608e69afca87485d3970ea08317cd068570caac51456b1",
+      "scope": "本片实际执行计划；完整保留，按本次内容改写"
+    }
+  },
+  "approvalDate": "2026-10-24"
+}

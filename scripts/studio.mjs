@@ -5,6 +5,8 @@ import crypto from 'node:crypto';
 import {spawn,execFileSync} from 'node:child_process';
 import {fileURLToPath} from 'node:url';
 import * as loaderHooks from 'node:module';
+import {createProductionReview} from '../runtime/production-review.mjs';
+import {productionCatalog,chooseRecipe,recipeIntent,patchPalette,auditProductionLibrary} from '../runtime/production-entry.mjs';
 import {catalog,loadRecipe,resolve,change,compile,collaborationRoute,initCollaboration,reproduce,validateProject,reviseCollaboration,checkCollaborationLibrary} from '../runtime/collaboration.mjs';
 import {systems,system,compositionRecipe,installCompositionExample,checkCompositionLibrary} from '../runtime/choreography.mjs';
 export const plugin=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
@@ -41,7 +43,7 @@ function doctor(){
  probe('fonts',()=>{const files=read(path.join(plugin,'assets/fonts/catalog.json'));for(const f of files)if(sha(path.join(plugin,'assets/fonts',f.file))!==f.sha256)throw Error('字体哈希不同: '+f.file);return files.length});
  probe('four-full-skills',()=>{const files=read(path.join(plugin,'module-manifest.json')).modules;for(const m of files)if(sha(path.join(plugin,m.frozenCopy,'SKILL.md'))!==m.sha256)throw Error('完整模块正文有改动: '+m.name);return files.length});
  probe('choreography-library',checkCompositionLibrary);
- probe('eleven-axis-collaboration',checkCollaborationLibrary);
+ probe('eleven-axis-collaboration',checkCollaborationLibrary);probe('production-recipe-library',auditProductionLibrary);
  probe('implemented-style-library',()=>{const c=styleList();if(c.styles.length!==(c.implementedCount??c.approvedCount)||!c.styles.length)throw Error('画风数量与登记不一致');for(const s of c.styles)for(const f of [s.preview,s.implementation,s.evidence])if(!fs.existsSync(path.join(plugin,'style-library',f)))throw Error('画风资源缺失:'+f);return {implemented:c.styles.length,userApproved:c.styles.filter(s=>s.status==='approved-video').length,productionVerified:c.styles.filter(s=>s.status==='verified-video').length}});
  probe('style-recipes',()=>{const c=styleList(),all=[...c.styles,...c.extensions];if(all.length!==c.totalCount||c.extensions.length!==c.plannedCount||new Set(all.map(s=>s.id)).size!==all.length||new Set(all.map(s=>s.key)).size!==all.length)throw Error('创意目录登记不一致');for(const s of all)recipe({style:s.key});return {implemented:c.styles.length,userApproved:c.approvedCount,productionVerified:c.styles.filter(s=>s.status==='verified-video').length,planned:c.plannedCount,total:c.totalCount}});
  const versions=checks.find(c=>c.name==='python');if(versions?.ok){for(const [k,v] of Object.entries({numpy:'2.4.4',Pillow:'12.1.0',fonttools:'4.62.1'}))if(versions.value[k]!==v){versions.ok=false;versions.error=k+'版本需为'+v}}
@@ -105,6 +107,7 @@ function build(r){
  const project=read(path.join(r,'project.json'));if(sha(path.join(r,'assets/master.mp4'))!==project.sourceSha256)throw Error('源片与init登记哈希不一致；保留已选素材，换素材请另建工程并重新设计');scopeCheck(r);const collaboration=validateProject(r);const missing=Object.values(planNames).filter(n=>!fs.existsSync(path.join(r,'plans',n)));if(!fs.existsSync(path.join(r,'plans/brief.json'))||!collaboration&&missing.length)throw Error('设计尚未完成，缺少brief或四模块方案：'+missing.join(','));
  if(project.renderer==='approved-reference')run(process.execPath,[path.join(runtime,'approved-renderer.mjs'),'--project',r],{stdio:'inherit'});
  else{const script=path.join(r,'scripts/build-project.mjs');if(!fs.existsSync(script))throw Error('请先按本片设计实现scripts/build-project.mjs；不会把任意新素材套成参考片');run(process.execPath,[script,'--project',r],{cwd:r,stdio:'inherit',env:{...process.env,WG_PLUGIN_ROOT:plugin}})}
+ if(collaboration)run(py(),[path.join(runtime,'scripts/declare-font-usage.py'),r],{stdio:'inherit'});
  run(py(),[path.join(runtime,'scripts/media.py'),'prepare',r],{stdio:'inherit'});const scope=scopeCheck(r,true);write(path.join(r,'qa/scope-check.json'),scope);
  fs.copyFileSync(path.join(plugin,'assets/viewer.html'),path.join(r,'review.html'));write(path.join(r,'qa/build-state.json'),{inputs:inputFiles(r),normalizedHtmlSha256:normalHtml(path.join(r,'index.html')),scope});project.status='built';write(path.join(r,'project.json'),project);return scope;
 }
@@ -121,16 +124,23 @@ async function main(){
  if(command==='resolve')return resolve(o.recipe||o.file||'minimal');
  if(command==='plan-change')return change(String(o.axes||'').split(',').filter(Boolean));
  if(command==='compile'){if(!o.plan)throw Error('需要 --plan 场景计划JSON');const f=path.resolve(o.plan);return compile(o.recipe||'minimal',read(f),path.dirname(f));}
- if(command==='reproduce')return reproduce(o);
+ if(command==='reproduce'||command==='reference')return reproduce(o);
+ if(command==='catalog-ui')return createProductionReview(o);
+ if(command==='catalog')return {...productionCatalog(),branches:catalog('branches'),components:catalog('components')};
+ if(command==='inspect'){const e=chooseRecipe(o.recipe);return {entry:e,resolved:resolve(e.id)}}
+ if(command==='audit-library')return auditProductionLibrary();
  if(command==='recipe')return o.style?recipe(o):loadRecipe(o.recipe||o.id||'minimal');
  if(command==='choreographies'||command==='systems')return o.id?system(o.id):systems();
- if(command==='route')return {...route(o.request||'',o.mode),collaboration:collaborationRoute(o.request||'',o.axes||(o.mode&&o.mode!=='full'?{'art-direction':'art-style,palette,material,representation,lighting',layout:'typography',motion:'object-motion,camera,rhythm',editing:'transition,rhythm'}[o.mode]:null),o.orchestration),styleLibrary:path.join(plugin,'style-library/catalog.json'),commonRules:path.join(plugin,'docs/共同制作规范.md')};
+ if(command==='route')return {...route(o.request||'',o.mode),production:recipeIntent(o.request||'',o.recipe),collaboration:collaborationRoute(o.request||'',o.axes||(o.mode&&o.mode!=='full'?{'art-direction':'art-style,palette,material,representation,lighting',layout:'typography',motion:'object-motion,camera,rhythm',editing:'transition,rhythm'}[o.mode]:null),o.orchestration),styleLibrary:path.join(plugin,'style-library/catalog.json'),commonRules:path.join(plugin,'docs/共同制作规范.md')};
  if(command==='doctor')return doctor();
  if(command==='setup')return setup();
  if(command==='init')return init(o);
  if(command==='revise')return revise(o);
- if(command==='help'||!command)return {commands:['doctor','setup','orchestrations [--id presenter|diagram]','families | branches | components [--id ID]','standards [--id 标准ID]','recipes [--id 配方ID]','recipe --id editorial-print|minimal|blueprint|clay|ink|line|halftone','resolve --recipe 配方ID或JSON','plan-change --axes palette,typography','compile --recipe 配方ID或JSON --plan 场景计划JSON','init --project 新路径 --source 自有视频 --recipe 配方ID [--orchestration presenter|diagram|auto --transcript 字幕]','reproduce --project 新路径 --source 原案例方形代理视频 --recipe 配方ID [--orchestration presenter|diagram]','revise --from 原项目 --out 新版本 [--axes rhythm|typography|其他轴 或 --orchestration presenter|diagram] --request 修改需求','styles [--id 编号或名称 | --all | --status approved|implemented|production|candidate]','choreographies [--id C01]','recipe --style A58 [--composition auto|C06 --kind cause --layout L10 --motion M09 --editing E04 --sound S01]','route --request 中文需求 [--mode full|layout|motion|editing|art-direction]','init --project 新路径 --source 视频 [--transcript 字幕 --style A58 --composition C06 --request 需求]','init --project 新路径 --example approved --style magazine [--composition auto|C05]','revise --from 原项目 --out 新版本 --module layout --request 需求','run --project 项目 [--until build|check|render|verify]','preview --project 项目 [--port 端口]','stop --project 项目'],guide:'docs/使用说明.md'};
+ if(command==='help'||!command)return {commands:['catalog-ui --project 新目录 [--media-map 本地样片JSON]','catalog','inspect --recipe 配方ID|Fxx|名称','audit-library','scope --project 项目','patch-palette --project 新版本 --values 补丁JSON','doctor','setup','orchestrations [--id presenter|diagram]','families | branches | components [--id ID]','standards [--id 标准ID]','recipes [--id 配方ID]','recipe --id 任一母画风或分支配方ID','resolve --recipe 配方ID或JSON','plan-change --axes palette,typography','compile --recipe 配方ID或JSON --plan 场景计划JSON','init --project 新路径 --source 自有视频 --recipe 配方ID [--branch A09 --components A61 --orchestration presenter|diagram|auto --transcript 字幕]','reproduce --project 新路径 --source 原案例方形代理视频 --recipe 配方ID [--orchestration presenter|diagram]','revise --from 原项目 --out 新版本 [--axes rhythm|typography|其他轴 或 --orchestration presenter|diagram] --request 修改需求','styles [--id 编号或名称 | --all | --status approved|implemented|production|candidate]','choreographies [--id C01]','recipe --style A58 [--composition auto|C06 --kind cause --layout L10 --motion M09 --editing E04 --sound S01]','route --request 中文需求 [--mode full|layout|motion|editing|art-direction]','init --project 新路径 --source 视频 [--transcript 字幕 --style A58 --composition C06 --request 需求]','init --project 新路径 --example approved --style magazine [--composition auto|C05]','revise --from 原项目 --out 新版本 --module layout --request 需求','run --project 项目 [--until build|check|render|verify]','preview --project 项目 [--port 端口]','stop --project 项目'],guide:'docs/使用说明.md'};
  const r=rootOf(o);
+ if(command==='scope')return {ok:true,...scopeCheck(r,true)};
+ if(command==='patch-palette'){if(!o.values)throw Error('需要 --values 补丁JSON');return patchPalette(r,o.values,scopeCheck)}
+ if(command==='check')return {ok:true,scope:scopeCheck(r),plan:validateProject(r)};
  if(command==='preview')return await preview(r,o);
  if(command==='stop'){const d=read(path.join(r,'qa/preview-server.json'));const health=await(await fetch(d.url+'health')).json();if(health.projectId!==read(path.join(r,'project.json')).id)throw Error('服务不属于当前项目');process.kill(d.pid);return {stopped:true}}
  if(command!=='run')throw Error('未知命令: '+command);

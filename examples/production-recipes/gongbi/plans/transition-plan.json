@@ -1,0 +1,27 @@
+{
+  "language": "同一细线轮廓与已保留对象接入下一状态；设色范围收回后留住结果，不空镜清屏",
+  "continuityAnchors": [
+    "headphone",
+    "principal-four-remain",
+    "burden-two-remain"
+  ],
+  "entryExitBridges": [
+    149,
+    388,
+    461,
+    563,
+    616,
+    686,
+    783,
+    856,
+    898
+  ],
+  "labelClearFrames": 6,
+  "coverFrames": [],
+  "sourceCut": "continuous original voice, no source jump cuts",
+  "standards": [
+    "object-match",
+    "relation-expand",
+    "foreground-occlusion"
+  ]
+}

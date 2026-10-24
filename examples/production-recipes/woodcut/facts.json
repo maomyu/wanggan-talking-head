@@ -1,0 +1,244 @@
+{
+  "sourceOriginal": "/Users/maoyu/Movies/17E901B0-F5D4-482A-A27A-1C48E9598217/17E901B0-F5D4-482A-A27A-1C48E9598217.mp4",
+  "claims": [
+    {
+      "id": "1",
+      "text": "为什么越努力上班越存不到钱",
+      "source": "用户自有视频原声",
+      "sourceFrames": [
+        0,
+        58
+      ],
+      "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "type": "source-speech-not-independent-financial-fact-check"
+    },
+    {
+      "id": "2",
+      "text": "今天就给普通人讲一讲",
+      "source": "用户自有视频原声",
+      "sourceFrames": [
+        58,
+        95
+      ],
+      "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "type": "source-speech-not-independent-financial-fact-check"
+    },
+    {
+      "id": "3",
+      "text": "当下最接地气的财富真相",
+      "source": "用户自有视频原声",
+      "sourceFrames": [
+        95,
+        149
+      ],
+      "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "type": "source-speech-not-independent-financial-fact-check"
+    },
+    {
+      "id": "4",
+      "text": "很多人习惯跟风消费",
+      "source": "用户自有视频原声",
+      "sourceFrames": [
+        149,
+        198
+      ],
+      "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "type": "source-speech-not-independent-financial-fact-check"
+    },
+    {
+      "id": "5",
+      "text": "盲目打理资产",
+      "source": "用户自有视频原声",
+      "sourceFrames": [
+        198,
+        224
+      ],
+      "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "type": "source-speech-not-independent-financial-fact-check"
+    },
+    {
+      "id": "6",
+      "text": "要么透支负债前行",
+      "source": "用户自有视频原声",
+      "sourceFrames": [
+        224,
+        266
+      ],
+      "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "type": "source-speech-not-independent-financial-fact-check"
+    },
+    {
+      "id": "7",
+      "text": "要么跟风盲目炒股",
+      "source": "用户自有视频原声",
+      "sourceFrames": [
+        266,
+        310
+      ],
+      "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "type": "source-speech-not-independent-financial-fact-check"
+    },
+    {
+      "id": "8",
+      "text": "最后本金受损",
+      "source": "用户自有视频原声",
+      "sourceFrames": [
+        310,
+        349
+      ],
+      "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "type": "source-speech-not-independent-financial-fact-check"
+    },
+    {
+      "id": "9",
+      "text": "生活压力越来越大",
+      "source": "用户自有视频原声",
+      "sourceFrames": [
+        349,
+        388
+      ],
+      "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "type": "source-speech-not-independent-financial-fact-check"
+    },
+    {
+      "id": "10",
+      "text": "给大家三个普通人的财经底线",
+      "source": "用户自有视频原声",
+      "sourceFrames": [
+        388,
+        461
+      ],
+      "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "type": "source-speech-not-independent-financial-fact-check"
+    },
+    {
+      "id": "11",
+      "text": "第一，砍掉无效消费",
+      "source": "用户自有视频原声",
+      "sourceFrames": [
+        461,
+        516
+      ],
+      "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "type": "source-speech-not-independent-financial-fact-check"
+    },
+    {
+      "id": "12",
+      "text": "戒掉冲动的购物",
+      "source": "用户自有视频原声",
+      "sourceFrames": [
+        516,
+        563
+      ],
+      "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "type": "source-speech-not-independent-financial-fact-check"
+    },
+    {
+      "id": "13",
+      "text": "分清楚想要和需要",
+      "source": "用户自有视频原声",
+      "sourceFrames": [
+        563,
+        616
+      ],
+      "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "type": "source-speech-not-independent-financial-fact-check"
+    },
+    {
+      "id": "14",
+      "text": "第二守住本金永远优先",
+      "source": "用户自有视频原声",
+      "sourceFrames": [
+        616,
+        686
+      ],
+      "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "type": "source-speech-not-independent-financial-fact-check"
+    },
+    {
+      "id": "15",
+      "text": "市面上夸大收益理财的都暗藏风险",
+      "source": "用户自有视频原声",
+      "sourceFrames": [
+        686,
+        783
+      ],
+      "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "type": "source-speech-not-independent-financial-fact-check"
+    },
+    {
+      "id": "16",
+      "text": "普通人要远离投机跟炒作",
+      "source": "用户自有视频原声",
+      "sourceFrames": [
+        783,
+        856
+      ],
+      "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "type": "source-speech-not-independent-financial-fact-check"
+    },
+    {
+      "id": "17",
+      "text": "第三减少负债",
+      "source": "用户自有视频原声",
+      "sourceFrames": [
+        856,
+        898
+      ],
+      "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "type": "source-speech-not-independent-financial-fact-check"
+    },
+    {
+      "id": "18",
+      "text": "财富从来不是靠蛮力争取的",
+      "source": "用户自有视频原声",
+      "sourceFrames": [
+        898,
+        959
+      ],
+      "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "type": "source-speech-not-independent-financial-fact-check"
+    },
+    {
+      "id": "19",
+      "text": "而是靠认知筛选",
+      "source": "用户自有视频原声",
+      "sourceFrames": [
+        959,
+        1003
+      ],
+      "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "type": "source-speech-not-independent-financial-fact-check"
+    },
+    {
+      "id": "20",
+      "text": "不跟风不浮躁",
+      "source": "用户自有视频原声",
+      "sourceFrames": [
+        1003,
+        1036
+      ],
+      "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "type": "source-speech-not-independent-financial-fact-check"
+    },
+    {
+      "id": "21",
+      "text": "才是普通人该走的路",
+      "source": "用户自有视频原声",
+      "sourceFrames": [
+        1036,
+        1100
+      ],
+      "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "type": "source-speech-not-independent-financial-fact-check"
+    }
+  ],
+  "illustrations": {
+    "shopping-and-groceries": "已有消费物件与日需购物的解释示意，不代表用户持有；水彩/油画原概念图与本片图解组合，版画为本片SVG结构",
+    "eight-to-four-units": "无金额的本金示意，先八个、受损后保留四个，不补满；不表示真实收益或金额",
+    "six-to-two-strips": "六个负担单位减少到两个的示意，不是用户真实负债数据",
+    "unscaled-line": "走势情境示意，非市场价格曲线"
+  },
+  "quotes": "本片没有外部文学引文或真实人物故事",
+  "titles": "原句语义的编辑概括，不作为新增外部事实"
+}

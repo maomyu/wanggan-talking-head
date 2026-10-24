@@ -1,0 +1,27 @@
+{
+  "language": "侧幕和双扇纸门以固定折点开合，上一物件保留在台面，遮挡区只位于图解舞台",
+  "continuityAnchors": [
+    "headphone",
+    "principal-four-remain",
+    "burden-two-remain"
+  ],
+  "entryExitBridges": [
+    149,
+    388,
+    461,
+    563,
+    616,
+    686,
+    783,
+    856,
+    898
+  ],
+  "labelClearFrames": 6,
+  "coverFrames": [],
+  "sourceCut": "continuous original voice, no source jump cuts",
+  "standards": [
+    "object-match",
+    "relation-expand",
+    "foreground-occlusion"
+  ]
+}

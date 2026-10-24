@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "editorial-print-rebuild-05",
+  "name": "编辑拼贴与印刷 · 自有口播完整成片",
+  "mode": "design-recipe",
+  "sourceRequiredForProduction": true,
+  "usagePolicy": "候选池逐场选用；文学引句与人物寓言只在内容确有依据时使用。",
+  "selections": {
+    "art-style": [
+      "editorial-print"
+    ],
+    "palette": [
+      "ink-paper-cinnabar"
+    ],
+    "material": [
+      "paper-grain",
+      "matte"
+    ],
+    "representation": [
+      "printed-page",
+      "fixed-film-frame",
+      "inset-stage"
+    ],
+    "object-motion": [
+      "paper-shift-flip",
+      "stamp-reveal",
+      "motivated-move"
+    ],
+    "camera": [
+      "planar-push-pull"
+    ],
+    "transition": [
+      "paper-wipe",
+      "page-match",
+      "scene-replace"
+    ],
+    "typography": [
+      "serif-display",
+      "red-annotation",
+      "raised-captions"
+    ],
+    "lighting": [
+      "paper-grain-finish",
+      "local-spotlight"
+    ],
+    "information": [
+      "option-comparison",
+      "parallel-options",
+      "contrast-turn",
+      "problem-mechanism-response",
+      "recap-return"
+    ],
+    "rhythm": [
+      "speech-led",
+      "reveal-hold-release",
+      "contrast-pulse",
+      "ending-resolve"
+    ]
+  },
+  "provenance": {
+    "suppliedBy": "user",
+    "rhythm": "assistant-proposed-because-user-left-blank",
+    "captionProtection": "inherited-approved-rule"
+  },
+  "overrides": {},
+  "adaptation": "依据本次真实原句启用并列、对照与转折；无文学引文或人物寓言。",
+  "caseId": "editorial-print-own-full-01",
+  "status": "test-candidate",
+  "approvalDate": "2026-10-21",
+  "hierarchy": {
+    "familyId": "F03",
+    "branchId": null,
+    "baseLegacyId": "A04",
+    "influences": [
+      "F04",
+      "F08"
+    ]
+  },
+  "implementation": {
+    "kind": "source-specific-reference",
+    "path": "examples/recipes/editorial-print",
+    "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+    "newSource": "重新执行语义编排，不复用此案例固定台词、物件与秒点"
+  }
+}

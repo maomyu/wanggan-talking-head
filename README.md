@@ -1,3 +1,24 @@
+# 网感口播 · 1.21.0
+
+19套母画风的完整生产配方与统一调用入口正式收录。母画风、分支、组件分别管理；技术蓝图是精密界面的分支配方，不额外算作母画风。十一类完整协作、原四专家正文与所有旧有效素材/实现保留。
+
+默认只用用户自己的口播和原声，人物原色、角落全路径圆窗、字幕上移。当前已认可方法与同源完整案例继续使用；跨文案等用户有新素材再验证，不冒称任意输入自动成片。
+
+```sh
+node scripts/studio.mjs doctor
+node scripts/studio.mjs catalog
+node scripts/studio.mjs inspect --recipe 水彩
+node scripts/studio.mjs init --project /path/to/film --source /path/to/own.mp4 --recipe precision --branch A09 --orchestration diagram
+node scripts/studio.mjs revise --from /path/to/film --out /path/to/film-v2 --axes palette --request "只改配色"
+node scripts/studio.mjs patch-palette --project /path/to/film-v2 --values /path/to/palette.json
+node scripts/studio.mjs catalog-ui --project /path/to/selector
+node scripts/studio.mjs preview --project /path/to/selector
+```
+
+[19套配方与统一入口](docs/19套配方与统一入口.md) · [分类与配方](docs/分类与配方.md) · [1.21.0收录验收](docs/1.21.0验收.md)。选择页生成制作指令，实际设计和构建由智能体完成；`init`只初始化待设计工程，`reproduce`明确复现绑定源案例。
+
+以下保留历史说明；当前入口和数量以本节为准。
+
 # 网感口播 · 1.20.0
 
 以用户自己的真实口播和原声为源，按文案重新设计图片任务、对象动作、可见结果与前后衔接。人物原色、角落圆窗、字幕上移。

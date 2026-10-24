@@ -1,0 +1,13 @@
+{
+  "colorRoles": {
+    "bg": "#fff6de",
+    "ink": "#211f25",
+    "accent": "#d3452f",
+    "secondary": "#efc344",
+    "muted": "#675e59"
+  },
+  "reason": "强调用于否定/风险；其余颜色区分对象角色，人物保留原色",
+  "standards": [
+    "vivid-blocks"
+  ]
+}

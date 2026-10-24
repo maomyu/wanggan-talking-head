@@ -1,0 +1,42 @@
+{
+  "language": "分格保留对象，广告印层抽离露出风险，再回到并列小结",
+  "entryExitBridges": [
+    149,
+    198,
+    224,
+    266,
+    349,
+    388,
+    461,
+    563,
+    616,
+    686,
+    783,
+    856,
+    898
+  ],
+  "coverFrames": {
+    "risk": [
+      750,
+      753
+    ]
+  },
+  "continuityAnchors": [
+    "headphone→comparison",
+    "principal→risk→recap",
+    "burden→reduction→recap"
+  ],
+  "mode": "halftone",
+  "reason": "保留对象与已发生结果，转场来自画面内容；源视频和人声全片连续，没有伪称源跳切。",
+  "selectedStandards": [
+    "type-handoff",
+    "scene-replace"
+  ],
+  "durationFrames": 10,
+  "continuityReason": "共享对象的位置、等比缩放和笔路在相邻解释之间接续；新阅读任务成立后才进入稳定读窗。",
+  "standards": [
+    "type-handoff",
+    "scene-replace"
+  ],
+  "labelClearFrames": 9
+}

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "blueprint",
-  "name": "技术蓝图 · 同源完整配方",
+  "name": "技术蓝图",
   "mode": "design-recipe",
   "selections": {
     "art-style": [
@@ -60,7 +60,7 @@
   "sourceRequiredForProduction": true,
   "caseId": "same-source-blueprint-02",
   "status": "user-approved",
-  "approvalDate": "2026-10-21",
+  "approvalDate": "2026-10-24",
   "hierarchy": {
     "familyId": "F07",
     "branchId": "A09",
@@ -68,8 +68,94 @@
   },
   "implementation": {
     "kind": "source-specific-reference",
-    "path": "examples/recipes/blueprint",
+    "path": "examples/production-recipes/blueprint",
     "sourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
-    "newSource": "重新执行语义编排，不复用此案例固定台词、物件与秒点"
+    "buildMode": "preserved-production-case",
+    "photoAsset": true,
+    "vendor": false,
+    "timingContract": "study-custom-symbolic-events",
+    "orchestration": {
+      "id": "diagram",
+      "selection": "explicit",
+      "reason": "用户明确选择"
+    },
+    "voiceSha256": "d9b208b0acbb0811e77fdf51bd55cc14fe9169ea6525ebaf56a675542699f472",
+    "edlSha256": "699c481b98445d39dedb1b09bf46e5f7db6b5dfe422e67bbeaf6718a2c335cf2",
+    "newSource": "按本片原句重设计语义、对象、动作、结果、读窗和交接；跨文案等待用户新素材验证"
+  },
+  "productionRules": {
+    "layout": "同一工程平面、轴线和剖面解释关系",
+    "objectMotion": "扫描、导轨、结构显现与回收",
+    "camera": "沿工程平面取景与局部推进",
+    "transition": "前后共用轴线和对象锚点",
+    "typography": "技术字阶、引线与主次清楚的标注"
+  },
+  "axisReferences": {
+    "art-style": {
+      "skill": "skills/talking-head-art-style/SKILL.md",
+      "casePlan": "examples/production-recipes/blueprint/plans/style-contract.json",
+      "sha256": "b1cf6edd6feaf0bb3099e9320a164a4afb57d5caef2ecdf339798087b3c1cd03",
+      "scope": "本片完整实际计划；新片按内容设计"
+    },
+    "palette": {
+      "skill": "skills/talking-head-palette/SKILL.md",
+      "casePlan": "examples/production-recipes/blueprint/plans/palette-tokens.json",
+      "sha256": "f7730a7564e15c760976123a3b51ad0e723a14bf96bacbb82b40be0ad515f748",
+      "scope": "本片完整实际计划；新片按内容设计"
+    },
+    "material": {
+      "skill": "skills/talking-head-material/SKILL.md",
+      "casePlan": "examples/production-recipes/blueprint/plans/material-tokens.json",
+      "sha256": "bc8ec6c15550b23562c492b2f545fcd152003f25780ac2fd956178650f499935",
+      "scope": "本片完整实际计划；新片按内容设计"
+    },
+    "representation": {
+      "skill": "skills/talking-head-representation/SKILL.md",
+      "casePlan": "examples/production-recipes/blueprint/plans/object-spec.json",
+      "sha256": "0fc24c5c361cbe6fb7f6e868d7e9019c31c99b0afbfcf5eb36aee767f2dce1aa",
+      "scope": "本片完整实际计划；新片按内容设计"
+    },
+    "object-motion": {
+      "skill": "skills/talking-head-object-motion/SKILL.md",
+      "casePlan": "examples/production-recipes/blueprint/plans/motion-events.json",
+      "sha256": "94862de616d1699d9336dd876964ea8902c3ac56cf62943120b67076af4caa2e",
+      "scope": "本片完整实际计划；新片按内容设计"
+    },
+    "camera": {
+      "skill": "skills/talking-head-camera/SKILL.md",
+      "casePlan": "examples/production-recipes/blueprint/plans/camera-plan.json",
+      "sha256": "a468b6ae24961a0af86591f3ab2939cb789b62a6826bcd3a056a37b9b337903b",
+      "scope": "本片完整实际计划；新片按内容设计"
+    },
+    "transition": {
+      "skill": "skills/talking-head-transition/SKILL.md",
+      "casePlan": "examples/production-recipes/blueprint/plans/transition-plan.json",
+      "sha256": "1012f584a9f7a8ea23548ae5ad6ffac5dc8cabeef3b9b932c4271ba144e43b78",
+      "scope": "本片完整实际计划；新片按内容设计"
+    },
+    "typography": {
+      "skill": "skills/talking-head-typography/SKILL.md",
+      "casePlan": "examples/production-recipes/blueprint/plans/layout-plan.json",
+      "sha256": "1d16351f5d535fbbe8e360ce01c7fbaf7f5908183e96ce193c09e52aaebccf7a",
+      "scope": "本片完整实际计划；新片按内容设计"
+    },
+    "lighting": {
+      "skill": "skills/talking-head-lighting/SKILL.md",
+      "casePlan": "examples/production-recipes/blueprint/plans/finish-plan.json",
+      "sha256": "2eab388d9235714672e0a8b7de89485387a62931e3b9d3de3cb68eac18b0b2ad",
+      "scope": "本片完整实际计划；新片按内容设计"
+    },
+    "information": {
+      "skill": "skills/talking-head-information/SKILL.md",
+      "casePlan": "examples/production-recipes/blueprint/plans/semantic-plan.json",
+      "sha256": "a934a53fb77f79282f72545f4603533a8826a9d916441bb23bede48482570d0a",
+      "scope": "本片完整实际计划；新片按内容设计"
+    },
+    "rhythm": {
+      "skill": "skills/talking-head-rhythm/SKILL.md",
+      "casePlan": "examples/production-recipes/blueprint/plans/timing.json",
+      "sha256": "495b3b794e9f47623ebc568390d88049698f1748492fcd8985649e5538b2f556",
+      "scope": "本片完整实际计划；新片按内容设计"
+    }
   }
 }

@@ -1,0 +1,14 @@
+{
+  "surfaceAssignments": {
+    "objects": "无纹理硬边哑光块面",
+    "person": "original-color-no-treatment"
+  },
+  "textureScale": 6,
+  "edgeTreatment": {
+    "strokeWidth": 4,
+    "roughness": 0
+  },
+  "standards": [
+    "matte"
+  ]
+}

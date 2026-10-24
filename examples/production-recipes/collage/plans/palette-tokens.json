@@ -1,0 +1,13 @@
+{
+  "colorRoles": {
+    "bg": "#e8dfca",
+    "ink": "#27252c",
+    "accent": "#b64432",
+    "secondary": "#b7a1d2",
+    "muted": "#665c64"
+  },
+  "reason": "强调用于否定/风险；其余颜色区分对象角色，人物保留原色",
+  "standards": [
+    "warm-cool-comparison"
+  ]
+}

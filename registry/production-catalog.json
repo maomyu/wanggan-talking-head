@@ -1,0 +1,984 @@
+{
+  "schemaVersion": 1,
+  "version": "1.21.0",
+  "families": [
+    {
+      "id": "minimal",
+      "familyId": "F01",
+      "name": "写实极简",
+      "familyName": "写实与摄影影像",
+      "aliases": [
+        "F01",
+        "写实与摄影影像",
+        "写实极简",
+        "minimal",
+        "A01"
+      ],
+      "duration": 36.666666666666664,
+      "orchestration": "presenter",
+      "productionRules": {
+        "layout": "人物大景为主，实物在旁侧以共同尺度比较；信息密集时才让位",
+        "objectMotion": "对象选择、暂停、归类有清楚结果；减量保留结果",
+        "camera": "固定机位与有动机的局部取景",
+        "transition": "保留同一物件交接，稳定阅读后干净换场",
+        "typography": "无衬线、宽留白；标题与对象注释分层",
+        "preserve": [
+          "真实影像与空间",
+          "明确影像调性",
+          "图文层级"
+        ],
+        "adaptOnNewContent": [
+          "原句和关系",
+          "每张图片的任务",
+          "对象初态、动作及结果",
+          "阅读窗口",
+          "前后交接",
+          "真实源时间与字幕"
+        ],
+        "neverInheritAsDefault": [
+          "当前财经物件",
+          "示意数量",
+          "固定秒点",
+          "固定三项建议",
+          "本片人像位置"
+        ]
+      },
+      "recipe": "recipes/minimal.json",
+      "referenceProject": "examples/production-recipes/minimal",
+      "videoSha256": "f536cf567f9d4bd44f38a68b743716cbf7bab14be4162a86b6c89e8697949d1b",
+      "referenceSourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "evidence": "evidence/production-recipes/minimal.json",
+      "status": "user-approved-source-specific",
+      "crossScriptStatus": "deferred-by-user"
+    },
+    {
+      "id": "geometry",
+      "familyId": "F02",
+      "name": "现代几何平面",
+      "familyName": "现代几何平面",
+      "aliases": [
+        "F02",
+        "现代几何平面",
+        "几何印刷",
+        "geometry",
+        "A03",
+        "几何"
+      ],
+      "duration": 36.666666666666664,
+      "orchestration": "diagram",
+      "productionRules": {
+        "layout": "用块面、轴线与明确图底组织关系",
+        "objectMotion": "块面聚合、分裂、分组或消减对应语义",
+        "camera": "平面轴向推拉，避免无意义浮动",
+        "transition": "共享形状保持坐标，块面展开下一关系",
+        "typography": "大字与几何对齐，颜色以角色分配",
+        "preserve": [
+          "硬边块面",
+          "抽象比例与轴线",
+          "图底及字阶"
+        ],
+        "adaptOnNewContent": [
+          "原句和关系",
+          "每张图片的任务",
+          "对象初态、动作及结果",
+          "阅读窗口",
+          "前后交接",
+          "真实源时间与字幕"
+        ],
+        "neverInheritAsDefault": [
+          "当前财经物件",
+          "示意数量",
+          "固定秒点",
+          "固定三项建议",
+          "本片人像位置"
+        ]
+      },
+      "recipe": "recipes/geometry.json",
+      "referenceProject": "examples/production-recipes/geometry",
+      "videoSha256": "d7521b5475267c08c862bd6287c625d52292157ec88eb2463bdec681bce58961",
+      "referenceSourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "evidence": "evidence/production-recipes/geometry.json",
+      "status": "user-approved-source-specific",
+      "crossScriptStatus": "deferred-by-user"
+    },
+    {
+      "id": "editorial-print",
+      "familyId": "F03",
+      "name": "编辑拼贴与印刷",
+      "familyName": "编辑出版",
+      "aliases": [
+        "F03",
+        "编辑出版",
+        "杂志编辑",
+        "magazine",
+        "A04",
+        "编辑拼贴与印刷",
+        "editorial-print"
+      ],
+      "duration": 36.666666666666664,
+      "orchestration": "diagram",
+      "productionRules": {
+        "layout": "页栏、裁切、批注分配主次；保留纸页阅读秩序",
+        "objectMotion": "抽页、翻面与印记揭示真实关系，非每句都翻页",
+        "camera": "二维推拉进入局部引句或对象",
+        "transition": "页边、批注或同物接续，旧字退出再读新字",
+        "typography": "衬线标题与稳定字幕，红色批注限一重点",
+        "preserve": [
+          "图文编辑",
+          "层级与留白",
+          "载体秩序"
+        ],
+        "adaptOnNewContent": [
+          "原句和关系",
+          "每张图片的任务",
+          "对象初态、动作及结果",
+          "阅读窗口",
+          "前后交接",
+          "真实源时间与字幕"
+        ],
+        "neverInheritAsDefault": [
+          "当前财经物件",
+          "示意数量",
+          "固定秒点",
+          "固定三项建议",
+          "本片人像位置"
+        ]
+      },
+      "recipe": "recipes/editorial-print.json",
+      "referenceProject": "examples/production-recipes/editorial-print",
+      "videoSha256": "c197692f73ca1c01e1b96ea0393d4da6a2750f0bf5335b54d15c7d8a06ff5668",
+      "referenceSourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "evidence": "evidence/production-recipes/editorial-print.json",
+      "status": "user-approved-source-specific",
+      "crossScriptStatus": "deferred-by-user"
+    },
+    {
+      "id": "collage",
+      "familyId": "F04",
+      "name": "拼贴混合媒介",
+      "familyName": "拼贴混合媒介",
+      "aliases": [
+        "F04",
+        "拼贴混合媒介",
+        "剪贴拼贴",
+        "collage",
+        "A05"
+      ],
+      "duration": 36.666666666666664,
+      "orchestration": "diagram",
+      "productionRules": {
+        "layout": "裁切接缝与异质图像叠压解释对象关系",
+        "objectMotion": "抬起上层揭开下层；重组已有物件而不替换身份",
+        "camera": "层间视差克制，物件细节有阅读任务",
+        "transition": "撕口/裁边接走原物；不随机铺贴纸",
+        "typography": "字体承担定位，裁边不能切入字形",
+        "preserve": [
+          "异质媒介",
+          "裁切接缝",
+          "层间叠压"
+        ],
+        "adaptOnNewContent": [
+          "原句和关系",
+          "每张图片的任务",
+          "对象初态、动作及结果",
+          "阅读窗口",
+          "前后交接",
+          "真实源时间与字幕"
+        ],
+        "neverInheritAsDefault": [
+          "当前财经物件",
+          "示意数量",
+          "固定秒点",
+          "固定三项建议",
+          "本片人像位置"
+        ]
+      },
+      "recipe": "recipes/collage.json",
+      "referenceProject": "examples/production-recipes/collage",
+      "videoSha256": "9ae8556c91610238bce8c295e8df982234dc8c8a2e5bb7514d418b3f13d483ff",
+      "referenceSourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "evidence": "evidence/production-recipes/collage.json",
+      "status": "user-approved-source-specific",
+      "crossScriptStatus": "deferred-by-user"
+    },
+    {
+      "id": "line",
+      "familyId": "F05",
+      "name": "单线手绘",
+      "familyName": "线描与素描",
+      "aliases": [
+        "F05",
+        "线描与素描",
+        "单线手绘",
+        "line",
+        "A06"
+      ],
+      "duration": 36.666666666666664,
+      "orchestration": "diagram",
+      "productionRules": {
+        "layout": "线与纸白分配对象、关系和阅读区",
+        "objectMotion": "描出对象、撤线表示取舍、保留线延伸关系",
+        "camera": "随笔路局部取景，落定后稳读",
+        "transition": "上一轮廓接下一线段，不重启全部画面",
+        "typography": "线宽层级与文字分离，标签避开线的路径",
+        "preserve": [
+          "笔路轮廓",
+          "线密度",
+          "描绘与留白"
+        ],
+        "adaptOnNewContent": [
+          "原句和关系",
+          "每张图片的任务",
+          "对象初态、动作及结果",
+          "阅读窗口",
+          "前后交接",
+          "真实源时间与字幕"
+        ],
+        "neverInheritAsDefault": [
+          "当前财经物件",
+          "示意数量",
+          "固定秒点",
+          "固定三项建议",
+          "本片人像位置"
+        ]
+      },
+      "recipe": "recipes/line.json",
+      "referenceProject": "examples/production-recipes/line",
+      "videoSha256": "05a25cdd47ca2b6ee08c17b2f98d45bb2cfa5f69012ba1b5659c70a28be263b0",
+      "referenceSourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "evidence": "evidence/production-recipes/line.json",
+      "status": "user-approved-source-specific",
+      "crossScriptStatus": "deferred-by-user"
+    },
+    {
+      "id": "illustration",
+      "familyId": "F06",
+      "name": "平面插画",
+      "familyName": "平面插画",
+      "aliases": [
+        "F06",
+        "平面插画",
+        "图形插画",
+        "illustration",
+        "A07"
+      ],
+      "duration": 36.666666666666664,
+      "orchestration": "diagram",
+      "productionRules": {
+        "layout": "具象物件与色面构成可读情境",
+        "objectMotion": "部件变形、拿取、分组展示状态变化",
+        "camera": "情境全景到关键部件再回全景",
+        "transition": "同一具象轮廓或部件接续",
+        "typography": "短标题配对象注释，统一边缘与明暗规则",
+        "preserve": [
+          "一致具象造型",
+          "场景色面",
+          "边缘与明暗规则"
+        ],
+        "adaptOnNewContent": [
+          "原句和关系",
+          "每张图片的任务",
+          "对象初态、动作及结果",
+          "阅读窗口",
+          "前后交接",
+          "真实源时间与字幕"
+        ],
+        "neverInheritAsDefault": [
+          "当前财经物件",
+          "示意数量",
+          "固定秒点",
+          "固定三项建议",
+          "本片人像位置"
+        ]
+      },
+      "recipe": "recipes/illustration.json",
+      "referenceProject": "examples/production-recipes/illustration",
+      "videoSha256": "589810f88ee04f91b6f917ab4c1a2ad4f6dceacb8500f8bc1b2723742d1e983f",
+      "referenceSourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "evidence": "evidence/production-recipes/illustration.json",
+      "status": "user-approved-source-specific",
+      "crossScriptStatus": "deferred-by-user"
+    },
+    {
+      "id": "precision",
+      "familyId": "F07",
+      "name": "精密界面",
+      "familyName": "技术图形与界面",
+      "aliases": [
+        "F07",
+        "技术图形与界面",
+        "精密界面",
+        "precision",
+        "A08",
+        "精密UI"
+      ],
+      "duration": 36.666666666666664,
+      "orchestration": "diagram",
+      "productionRules": {
+        "layout": "功能区域、标注和状态反馈形成解释面板",
+        "objectMotion": "展开结构、扫描定位、切换真实状态；不用虚假仪表数字",
+        "camera": "固定结构的局部取景与尺度标尺",
+        "transition": "共享轴线/定位框延续上下文",
+        "typography": "高对比无衬线，标尺退为次级信息",
+        "preserve": [
+          "结构标注",
+          "功能层级",
+          "有意义的状态"
+        ],
+        "adaptOnNewContent": [
+          "原句和关系",
+          "每张图片的任务",
+          "对象初态、动作及结果",
+          "阅读窗口",
+          "前后交接",
+          "真实源时间与字幕"
+        ],
+        "neverInheritAsDefault": [
+          "当前财经物件",
+          "示意数量",
+          "固定秒点",
+          "固定三项建议",
+          "本片人像位置"
+        ]
+      },
+      "recipe": "recipes/precision.json",
+      "referenceProject": "examples/production-recipes/precision",
+      "videoSha256": "2875eddd2c5d68965b4df209fb7bb9c3774ffc0967f52c88586ebd9651d4cdaa",
+      "referenceSourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "evidence": "evidence/production-recipes/precision.json",
+      "status": "user-approved-source-specific",
+      "crossScriptStatus": "deferred-by-user"
+    },
+    {
+      "id": "halftone",
+      "familyId": "F08",
+      "name": "复古网点",
+      "familyName": "复古套色印刷",
+      "aliases": [
+        "F08",
+        "复古套色印刷",
+        "复古网点",
+        "halftone",
+        "A10"
+      ],
+      "duration": 36.666666666666664,
+      "orchestration": "diagram",
+      "productionRules": {
+        "layout": "有限油墨与分区对照；网点只用于图像/印面",
+        "objectMotion": "版层抽离揭示另一状态，套印到位后停稳",
+        "camera": "二维平面推进，保持网点尺度稳定",
+        "transition": "印签/色版退出暴露后层，正文稳定",
+        "typography": "粗黑字阶、双格对照；字幕不网点化",
+        "preserve": [
+          "色层套印",
+          "印面边缘",
+          "半色调或孔版"
+        ],
+        "adaptOnNewContent": [
+          "原句和关系",
+          "每张图片的任务",
+          "对象初态、动作及结果",
+          "阅读窗口",
+          "前后交接",
+          "真实源时间与字幕"
+        ],
+        "neverInheritAsDefault": [
+          "当前财经物件",
+          "示意数量",
+          "固定秒点",
+          "固定三项建议",
+          "本片人像位置"
+        ]
+      },
+      "recipe": "recipes/halftone.json",
+      "referenceProject": "examples/production-recipes/halftone",
+      "videoSha256": "623e16960ce27cb7dc2aca5521ad67d40ca224c597858f2106808dc9ee7923fd",
+      "referenceSourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "evidence": "evidence/production-recipes/halftone.json",
+      "status": "user-approved-source-specific",
+      "crossScriptStatus": "deferred-by-user"
+    },
+    {
+      "id": "comic",
+      "familyId": "F09",
+      "name": "漫画描线",
+      "familyName": "漫画与动画平涂",
+      "aliases": [
+        "F09",
+        "漫画与动画平涂",
+        "漫画描线",
+        "comic",
+        "A11"
+      ],
+      "duration": 36.666666666666664,
+      "orchestration": "diagram",
+      "productionRules": {
+        "layout": "分格与视线安排先后，真人独立原色层",
+        "objectMotion": "格内对象动作/有限姿态辅助真人表达",
+        "camera": "从分格总览进入关键格，再回收关系",
+        "transition": "同物越格或格边展开；不用无意义闪白",
+        "typography": "对白、论点、字幕不同字阶，边框不遮字",
+        "preserve": [
+          "描线",
+          "明确色面",
+          "分格或有限姿态"
+        ],
+        "adaptOnNewContent": [
+          "原句和关系",
+          "每张图片的任务",
+          "对象初态、动作及结果",
+          "阅读窗口",
+          "前后交接",
+          "真实源时间与字幕"
+        ],
+        "neverInheritAsDefault": [
+          "当前财经物件",
+          "示意数量",
+          "固定秒点",
+          "固定三项建议",
+          "本片人像位置"
+        ]
+      },
+      "recipe": "recipes/comic.json",
+      "referenceProject": "examples/production-recipes/comic",
+      "videoSha256": "46272a088c94e049667771d99c096a566622da0ddee2cced0c18d746ca449e59",
+      "referenceSourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "evidence": "evidence/production-recipes/comic.json",
+      "status": "user-approved-source-specific",
+      "crossScriptStatus": "deferred-by-user"
+    },
+    {
+      "id": "ink",
+      "familyId": "F10",
+      "name": "水墨写意",
+      "familyName": "水墨",
+      "aliases": [
+        "F10",
+        "水墨",
+        "水墨留白",
+        "ink",
+        "A13",
+        "水墨写意",
+        "水墨写意",
+        "水墨风"
+      ],
+      "duration": 36.666666666666664,
+      "orchestration": "diagram",
+      "productionRules": {
+        "layout": "墨阶、虚实与大留白安排解释空间",
+        "objectMotion": "笔势显现关系，墨幕退开露结果；结果需稳定",
+        "camera": "沿笔路二维推拉，密图停稳",
+        "transition": "保留墨迹或纸白开口接下一状态",
+        "typography": "标题可书写气质，字幕用清楚稳定字体",
+        "preserve": [
+          "墨色浓淡",
+          "笔势边缘",
+          "虚实留白"
+        ],
+        "adaptOnNewContent": [
+          "原句和关系",
+          "每张图片的任务",
+          "对象初态、动作及结果",
+          "阅读窗口",
+          "前后交接",
+          "真实源时间与字幕"
+        ],
+        "neverInheritAsDefault": [
+          "当前财经物件",
+          "示意数量",
+          "固定秒点",
+          "固定三项建议",
+          "本片人像位置"
+        ]
+      },
+      "recipe": "recipes/ink.json",
+      "referenceProject": "examples/production-recipes/ink",
+      "videoSha256": "b272bb1f5cfb57a9aa6832fbfbc58f89340f4b114fce70369767a2d369de2819",
+      "referenceSourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "evidence": "evidence/production-recipes/ink.json",
+      "status": "user-approved-source-specific",
+      "crossScriptStatus": "deferred-by-user"
+    },
+    {
+      "id": "clay",
+      "familyId": "F11",
+      "name": "柔质立体",
+      "familyName": "立体造型",
+      "aliases": [
+        "F11",
+        "立体造型",
+        "柔质立体",
+        "clay",
+        "A14"
+      ],
+      "duration": 36.666666666666664,
+      "orchestration": "diagram",
+      "productionRules": {
+        "layout": "真实体量、接触和投影承载对象关系",
+        "objectMotion": "部件真实分离/归位/消减，不能平面图冒充空间动作",
+        "camera": "有动机的三维机位与焦点交接",
+        "transition": "共享部件、接触面或相同空间锚点接续",
+        "typography": "文字独立清楚层，避免跟随三维透视变小",
+        "preserve": [
+          "实体体积",
+          "接触与投影",
+          "空间及材料行为"
+        ],
+        "adaptOnNewContent": [
+          "原句和关系",
+          "每张图片的任务",
+          "对象初态、动作及结果",
+          "阅读窗口",
+          "前后交接",
+          "真实源时间与字幕"
+        ],
+        "neverInheritAsDefault": [
+          "当前财经物件",
+          "示意数量",
+          "固定秒点",
+          "固定三项建议",
+          "本片人像位置"
+        ]
+      },
+      "recipe": "recipes/clay.json",
+      "referenceProject": "examples/production-recipes/clay",
+      "videoSha256": "90ea6c38d797fa0fe3befe10ad08cc86d1a043687dabb844485d01e0e69a6ee6",
+      "referenceSourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "evidence": "evidence/production-recipes/clay.json",
+      "status": "user-approved-source-specific",
+      "crossScriptStatus": "deferred-by-user"
+    },
+    {
+      "id": "pixel",
+      "familyId": "F12",
+      "name": "像素复古",
+      "familyName": "像素与点阵图形",
+      "aliases": [
+        "F12",
+        "像素与点阵图形",
+        "像素复古",
+        "pixel",
+        "A15"
+      ],
+      "duration": 36.666666666666664,
+      "orchestration": "diagram",
+      "productionRules": {
+        "layout": "离散网格与受限显示组织关系",
+        "objectMotion": "网格聚合/消减/步进可见结果，保持输出原帧率",
+        "camera": "整数格点移动，放大后网格规则稳定",
+        "transition": "保留同一像素簇重组，不随机噪点闪烁",
+        "typography": "标签与字幕用可读字体，重要正文不追求低像素",
+        "preserve": [
+          "离散网格",
+          "受限显示",
+          "步进结构"
+        ],
+        "adaptOnNewContent": [
+          "原句和关系",
+          "每张图片的任务",
+          "对象初态、动作及结果",
+          "阅读窗口",
+          "前后交接",
+          "真实源时间与字幕"
+        ],
+        "neverInheritAsDefault": [
+          "当前财经物件",
+          "示意数量",
+          "固定秒点",
+          "固定三项建议",
+          "本片人像位置"
+        ]
+      },
+      "recipe": "recipes/pixel.json",
+      "referenceProject": "examples/production-recipes/pixel",
+      "videoSha256": "06926d1ee056454c06e2d846f70c25a7595b8d069ebabc7a4ca02931d69e7b2c",
+      "referenceSourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "evidence": "evidence/production-recipes/pixel.json",
+      "status": "user-approved-source-specific",
+      "crossScriptStatus": "deferred-by-user"
+    },
+    {
+      "id": "papercut",
+      "familyId": "F13",
+      "name": "剪纸舞台",
+      "familyName": "手工拼构",
+      "aliases": [
+        "F13",
+        "手工拼构",
+        "剪纸舞台",
+        "paper-stage",
+        "A17",
+        "papercut",
+        "剪纸"
+      ],
+      "duration": 36.666666666666664,
+      "orchestration": "diagram",
+      "productionRules": {
+        "layout": "可见片层、切口、连接和厚边形成舞台",
+        "objectMotion": "片层围绕真实锚点翻动，前后片有对应关系",
+        "camera": "前中后层有限视差与二维推拉",
+        "transition": "切口/折页开出下一景，主体身份连续",
+        "typography": "正文置于清楚纸面，连接点避开标签",
+        "preserve": [
+          "可见片层",
+          "连接或接缝",
+          "厚边与制作痕迹"
+        ],
+        "adaptOnNewContent": [
+          "原句和关系",
+          "每张图片的任务",
+          "对象初态、动作及结果",
+          "阅读窗口",
+          "前后交接",
+          "真实源时间与字幕"
+        ],
+        "neverInheritAsDefault": [
+          "当前财经物件",
+          "示意数量",
+          "固定秒点",
+          "固定三项建议",
+          "本片人像位置"
+        ]
+      },
+      "recipe": "recipes/papercut.json",
+      "referenceProject": "examples/production-recipes/papercut",
+      "videoSha256": "076ed7a89c12797afdba778a7a2f8b90ba42a06b9339805568f90660d74affa6",
+      "referenceSourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "evidence": "evidence/production-recipes/papercut.json",
+      "status": "user-approved-source-specific",
+      "crossScriptStatus": "deferred-by-user"
+    },
+    {
+      "id": "gongbi",
+      "familyId": "F14",
+      "name": "工笔设色",
+      "familyName": "工笔设色",
+      "aliases": [
+        "F14",
+        "工笔设色",
+        "gongbi",
+        "A67"
+      ],
+      "duration": 36.666666666666664,
+      "orchestration": "diagram",
+      "productionRules": {
+        "layout": "细线立骨、多层淡色保持清楚对象边界",
+        "objectMotion": "先明确轮廓，再分层设色或揭示状态",
+        "camera": "克制局部推进，精细边界保持可见",
+        "transition": "沿轮廓/留白衔接，避免粗暴墨幕",
+        "typography": "细节与文字错峰；字幕稳读而非描字",
+        "preserve": [
+          "细线立骨",
+          "多层淡设色",
+          "明确对象边界"
+        ],
+        "adaptOnNewContent": [
+          "原句和关系",
+          "每张图片的任务",
+          "对象初态、动作及结果",
+          "阅读窗口",
+          "前后交接",
+          "真实源时间与字幕"
+        ],
+        "neverInheritAsDefault": [
+          "当前财经物件",
+          "示意数量",
+          "固定秒点",
+          "固定三项建议",
+          "本片人像位置"
+        ]
+      },
+      "recipe": "recipes/gongbi.json",
+      "referenceProject": "examples/production-recipes/gongbi",
+      "videoSha256": "dda2686d46736d68bf5c47f02949d43759f69de00f34b86994e0e516e83621f6",
+      "referenceSourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "evidence": "evidence/production-recipes/gongbi.json",
+      "status": "user-approved-source-specific",
+      "crossScriptStatus": "deferred-by-user"
+    },
+    {
+      "id": "landscape",
+      "familyId": "F15",
+      "name": "青绿山水",
+      "familyName": "青绿山水",
+      "aliases": [
+        "F15",
+        "青绿山水",
+        "blue-green-landscape",
+        "A68",
+        "landscape",
+        "山水"
+      ],
+      "duration": 36.666666666666664,
+      "orchestration": "diagram",
+      "productionRules": {
+        "layout": "前中后景、矿物色层与留水构成游观空间",
+        "objectMotion": "对象沿空间层次显现关系，山水不能替代内容",
+        "camera": "从近景关系到远景回收，有明确观察动机",
+        "transition": "山体分组/留水接续空间；物件保持身份",
+        "typography": "留白区承载文字，密景不压正文",
+        "preserve": [
+          "山体分组",
+          "矿物色层与留水",
+          "游观空间"
+        ],
+        "adaptOnNewContent": [
+          "原句和关系",
+          "每张图片的任务",
+          "对象初态、动作及结果",
+          "阅读窗口",
+          "前后交接",
+          "真实源时间与字幕"
+        ],
+        "neverInheritAsDefault": [
+          "当前财经物件",
+          "示意数量",
+          "固定秒点",
+          "固定三项建议",
+          "本片人像位置"
+        ]
+      },
+      "recipe": "recipes/landscape.json",
+      "referenceProject": "examples/production-recipes/landscape",
+      "videoSha256": "5ee6b61ee889e8ac9bc8d6eff37c6e6679ec2503ddd4657ca55a6ef68d752b93",
+      "referenceSourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "evidence": "evidence/production-recipes/landscape.json",
+      "status": "user-approved-source-specific",
+      "crossScriptStatus": "deferred-by-user"
+    },
+    {
+      "id": "mural",
+      "familyId": "F16",
+      "name": "壁画重彩",
+      "familyName": "壁画重彩",
+      "aliases": [
+        "F16",
+        "壁画重彩",
+        "敦煌壁画",
+        "mural",
+        "A69"
+      ],
+      "duration": 36.666666666666664,
+      "orchestration": "diagram",
+      "productionRules": {
+        "layout": "重彩画带、壁面颗粒和叙事分区组织内容",
+        "objectMotion": "分区展开随语句，保留前段结果",
+        "camera": "沿画带二维移动，近看关键状态",
+        "transition": "同一画带或装饰边界交接，不另起无关舞台",
+        "typography": "重彩底上的正文有稳定实底，装饰不抢标题",
+        "preserve": [
+          "装饰性造型",
+          "重彩画带",
+          "壁面空间"
+        ],
+        "adaptOnNewContent": [
+          "原句和关系",
+          "每张图片的任务",
+          "对象初态、动作及结果",
+          "阅读窗口",
+          "前后交接",
+          "真实源时间与字幕"
+        ],
+        "neverInheritAsDefault": [
+          "当前财经物件",
+          "示意数量",
+          "固定秒点",
+          "固定三项建议",
+          "本片人像位置"
+        ]
+      },
+      "recipe": "recipes/mural.json",
+      "referenceProject": "examples/production-recipes/mural",
+      "videoSha256": "3acff7b50af5af9f9f0826153af725f9ca7096d83581592558e2f51ebce1ef3a",
+      "referenceSourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "evidence": "evidence/production-recipes/mural.json",
+      "status": "user-approved-source-specific",
+      "crossScriptStatus": "deferred-by-user"
+    },
+    {
+      "id": "watercolor",
+      "familyId": "F17",
+      "name": "水彩洇染",
+      "familyName": "透明水彩",
+      "aliases": [
+        "F17",
+        "透明水彩",
+        "水彩洇染",
+        "watercolor",
+        "A74",
+        "水彩"
+      ],
+      "duration": 36.666666666666664,
+      "orchestration": "diagram",
+      "productionRules": {
+        "layout": "透明洗色、湿边、纸白与透叠共同成立",
+        "objectMotion": "透明层显现/退让展示关系，标签完整停稳",
+        "camera": "局部二维推进，留白保留阅读基准",
+        "transition": "纸白开窗、湿边让位承接同物",
+        "typography": "深色清楚字形，纹理不能穿正文",
+        "preserve": [
+          "透明洗色",
+          "纸白湿边",
+          "透叠关系"
+        ],
+        "adaptOnNewContent": [
+          "原句和关系",
+          "每张图片的任务",
+          "对象初态、动作及结果",
+          "阅读窗口",
+          "前后交接",
+          "真实源时间与字幕"
+        ],
+        "neverInheritAsDefault": [
+          "当前财经物件",
+          "示意数量",
+          "固定秒点",
+          "固定三项建议",
+          "本片人像位置"
+        ]
+      },
+      "recipe": "recipes/watercolor.json",
+      "referenceProject": "examples/production-recipes/watercolor",
+      "videoSha256": "7775649579d55b563e874a71a6f0c1bd0e8f080f7663d0f66791823032a060c8",
+      "referenceSourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "evidence": "evidence/production-recipes/watercolor.json",
+      "status": "user-approved-source-specific",
+      "crossScriptStatus": "deferred-by-user"
+    },
+    {
+      "id": "oil",
+      "familyId": "F18",
+      "name": "厚涂油画",
+      "familyName": "厚涂油画",
+      "aliases": [
+        "F18",
+        "厚涂油画",
+        "厚涂油彩",
+        "impasto",
+        "A75",
+        "oil",
+        "油画",
+        "厚涂油彩"
+      ],
+      "duration": 36.666666666666664,
+      "orchestration": "diagram",
+      "productionRules": {
+        "layout": "覆盖关系、笔触方向、体块与侧光建立层次",
+        "objectMotion": "刮色揭示/厚涂覆盖对应取舍，结果保持可辨",
+        "camera": "从整体到局部厚涂体块，高低位服务比较",
+        "transition": "同一色面边缘/刮痕交接，避免纹理整屏闪动",
+        "typography": "稳定清晰字层与油彩分开，不把文字厚涂到难读",
+        "preserve": [
+          "实体笔触",
+          "覆盖关系",
+          "刀脊侧光"
+        ],
+        "adaptOnNewContent": [
+          "原句和关系",
+          "每张图片的任务",
+          "对象初态、动作及结果",
+          "阅读窗口",
+          "前后交接",
+          "真实源时间与字幕"
+        ],
+        "neverInheritAsDefault": [
+          "当前财经物件",
+          "示意数量",
+          "固定秒点",
+          "固定三项建议",
+          "本片人像位置"
+        ]
+      },
+      "recipe": "recipes/oil.json",
+      "referenceProject": "examples/production-recipes/oil",
+      "videoSha256": "6e2e50b1bd427cb5fc69144780f5893e86321ac953ec83f4d7128f0e48d9fce8",
+      "referenceSourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "evidence": "evidence/production-recipes/oil.json",
+      "status": "user-approved-source-specific",
+      "crossScriptStatus": "deferred-by-user"
+    },
+    {
+      "id": "woodcut",
+      "familyId": "F19",
+      "name": "木刻版画",
+      "familyName": "刻印版画",
+      "aliases": [
+        "F19",
+        "刻印版画",
+        "木刻刀痕",
+        "woodcut",
+        "A76",
+        "木刻版画",
+        "版画",
+        "木刻"
+      ],
+      "duration": 36.666666666666664,
+      "orchestration": "diagram",
+      "productionRules": {
+        "layout": "黑白正负形、刻线灰调与版边组织阅读",
+        "objectMotion": "刻除、版层分开与压印揭示状态变化",
+        "camera": "平面压印取景，局部放大后刻口仍清楚",
+        "transition": "正负形开口/共享印面承接结果",
+        "typography": "纸白字只在深印面；刻线为字形留出清晰区",
+        "preserve": [
+          "刻除与刻线",
+          "印面",
+          "版边与灰调"
+        ],
+        "adaptOnNewContent": [
+          "原句和关系",
+          "每张图片的任务",
+          "对象初态、动作及结果",
+          "阅读窗口",
+          "前后交接",
+          "真实源时间与字幕"
+        ],
+        "neverInheritAsDefault": [
+          "当前财经物件",
+          "示意数量",
+          "固定秒点",
+          "固定三项建议",
+          "本片人像位置"
+        ]
+      },
+      "recipe": "recipes/woodcut.json",
+      "referenceProject": "examples/production-recipes/woodcut",
+      "videoSha256": "a3214efac8eb559249a0533f1468f521e168e11dcb58aff11d6d735c3c9a9cb8",
+      "referenceSourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "evidence": "evidence/production-recipes/woodcut.json",
+      "status": "user-approved-source-specific",
+      "crossScriptStatus": "deferred-by-user"
+    }
+  ],
+  "implementedBranches": [
+    {
+      "id": "blueprint",
+      "familyId": "F07",
+      "name": "技术蓝图",
+      "aliases": [
+        "技术蓝图",
+        "工程蓝图",
+        "A09",
+        "blueprint"
+      ],
+      "duration": 36.666666666666664,
+      "orchestration": "diagram",
+      "productionRules": {
+        "layout": "同一工程平面、轴线和剖面解释关系",
+        "objectMotion": "扫描、导轨、结构显现与回收",
+        "camera": "沿工程平面取景与局部推进",
+        "transition": "前后共用轴线和对象锚点",
+        "typography": "技术字阶、引线与主次清楚的标注"
+      },
+      "recipe": "recipes/blueprint.json",
+      "referenceProject": "examples/production-recipes/blueprint",
+      "videoSha256": "05b55164f6cb54418c7aa32ab16ab6bf8ff9359bb47811d67cc5d61c6c663a11",
+      "referenceSourceSha256": "426a3d57498351e72b77c396dacb47cb5f911f66c91582885da2026a8bd0bf58",
+      "evidence": "evidence/production-recipes/blueprint.json",
+      "status": "user-approved-source-specific",
+      "crossScriptStatus": "deferred-by-user",
+      "branchId": "A09"
+    }
+  ],
+  "crossScript": "deferred-until-user-provides-new-footage"
+}

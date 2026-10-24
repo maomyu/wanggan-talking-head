@@ -1,0 +1,21 @@
+{
+  "compositionMode": "minimal",
+  "name": "写实极简",
+  "identityRules": [
+    "人物主导，摄影物件承担对照",
+    "留白与单一重音",
+    "干净的共享物件交接"
+  ],
+  "referencePrinciples": [
+    "保留已认可有效素材和轮廓，按当前原句重做动作结果与交接"
+  ],
+  "driftChecks": [
+    "人物无风格滤镜",
+    "不得重置损失/减少结果",
+    "字形和圆窗全路径避让"
+  ],
+  "standards": [
+    "realistic-minimal"
+  ],
+  "mode": "minimal"
+}

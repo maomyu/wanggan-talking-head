@@ -1,0 +1,15 @@
+{
+  "surfaceAssignments": {
+    "objects": "实体粗轮廓、斜向刀痕和纸白负形；固定图案不逐帧随机，不把噪声当刀痕",
+    "person": "original-color-no-treatment"
+  },
+  "textureScale": 6,
+  "edgeTreatment": {
+    "strokeWidth": 4,
+    "roughness": 0
+  },
+  "standards": [
+    "matte",
+    "paper-grain"
+  ]
+}

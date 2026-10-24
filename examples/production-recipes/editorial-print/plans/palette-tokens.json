@@ -1,0 +1,24 @@
+{
+  "colorRoles": {
+    "background": "#eee7d7",
+    "surface": "#fbf7eb",
+    "ink": "#24251f",
+    "muted": "#69604f",
+    "accent": "#a73329",
+    "risk": "#aa3029"
+  },
+  "contrastPairs": [
+    [
+      "ink",
+      "background"
+    ],
+    [
+      "ink",
+      "surface"
+    ]
+  ],
+  "emphasisBudget": 1,
+  "standards": [
+    "ink-paper-cinnabar"
+  ]
+}

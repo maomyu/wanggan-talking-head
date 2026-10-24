@@ -1,0 +1,27 @@
+{
+  "language": "保留同一印面和对象轮廓，正负形交接与分版撤离，结尾保留刻印结果",
+  "continuityAnchors": [
+    "headphone",
+    "principal-four-remain",
+    "burden-two-remain"
+  ],
+  "entryExitBridges": [
+    149,
+    388,
+    461,
+    563,
+    616,
+    686,
+    783,
+    856,
+    898
+  ],
+  "labelClearFrames": 6,
+  "coverFrames": [],
+  "sourceCut": "continuous original voice, no source jump cuts",
+  "standards": [
+    "object-match",
+    "relation-expand",
+    "foreground-occlusion"
+  ]
+}
