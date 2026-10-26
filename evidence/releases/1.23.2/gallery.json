@@ -1,0 +1,235 @@
+{
+  "count": 35,
+  "current": 35,
+  "history": 0,
+  "filters": [
+    {
+      "id": "mother",
+      "count": 19
+    },
+    {
+      "id": "branch",
+      "count": 1
+    },
+    {
+      "id": "mechanism",
+      "count": 8
+    },
+    {
+      "id": "attention",
+      "count": 2
+    },
+    {
+      "id": "combination",
+      "count": 3
+    },
+    {
+      "id": "module",
+      "count": 2
+    },
+    {
+      "id": "all",
+      "count": 35
+    }
+  ],
+  "ranges": [
+    {
+      "id": "mother-minimal",
+      "status": 206
+    },
+    {
+      "id": "mother-editorial-print",
+      "status": 206
+    },
+    {
+      "id": "mother-collage",
+      "status": 206
+    },
+    {
+      "id": "mother-geometry",
+      "status": 206
+    },
+    {
+      "id": "mother-line",
+      "status": 206
+    },
+    {
+      "id": "mother-illustration",
+      "status": 206
+    },
+    {
+      "id": "mother-precision",
+      "status": 206
+    },
+    {
+      "id": "mother-ink",
+      "status": 206
+    },
+    {
+      "id": "mother-halftone",
+      "status": 206
+    },
+    {
+      "id": "mother-comic",
+      "status": 206
+    },
+    {
+      "id": "mother-landscape",
+      "status": 206
+    },
+    {
+      "id": "mother-papercut",
+      "status": 206
+    },
+    {
+      "id": "mother-clay",
+      "status": 206
+    },
+    {
+      "id": "mother-gongbi",
+      "status": 206
+    },
+    {
+      "id": "mother-pixel",
+      "status": 206
+    },
+    {
+      "id": "mother-woodcut",
+      "status": 206
+    },
+    {
+      "id": "mother-oil",
+      "status": 206
+    },
+    {
+      "id": "mother-mural",
+      "status": 206
+    },
+    {
+      "id": "branch-blueprint",
+      "status": 206
+    },
+    {
+      "id": "mother-watercolor",
+      "status": 206
+    },
+    {
+      "id": "mechanism-reveal",
+      "status": 206
+    },
+    {
+      "id": "mechanism-parallel",
+      "status": 206
+    },
+    {
+      "id": "mechanism-relay",
+      "status": 206
+    },
+    {
+      "id": "mechanism-assembly",
+      "status": 206
+    },
+    {
+      "id": "mechanism-spatial",
+      "status": 206
+    },
+    {
+      "id": "mechanism-response",
+      "status": 206
+    },
+    {
+      "id": "mechanism-tracking",
+      "status": 206
+    },
+    {
+      "id": "mechanism-consequence",
+      "status": 206
+    },
+    {
+      "id": "combination-ink-relay",
+      "status": 206
+    },
+    {
+      "id": "combination-precision-tracking",
+      "status": 206
+    },
+    {
+      "id": "rhythm-only",
+      "status": 206
+    },
+    {
+      "id": "combination-clay-consequence",
+      "status": 206
+    },
+    {
+      "id": "palette-only",
+      "status": 206
+    },
+    {
+      "id": "attention-diagram",
+      "status": 206
+    },
+    {
+      "id": "attention-presenter",
+      "status": 206
+    }
+  ],
+  "decoded": [
+    {
+      "id": "mother-minimal",
+      "time": 0.172259,
+      "width": 1080,
+      "height": 1920,
+      "decoded": 10,
+      "muted": false
+    },
+    {
+      "id": "branch-blueprint",
+      "time": 0.16838,
+      "width": 1080,
+      "height": 1920,
+      "decoded": 11,
+      "muted": false
+    },
+    {
+      "id": "mechanism-spatial",
+      "time": 0.170477,
+      "width": 1080,
+      "height": 1920,
+      "decoded": 10,
+      "muted": false
+    },
+    {
+      "id": "attention-presenter",
+      "time": 0.158807,
+      "width": 1080,
+      "height": 1920,
+      "decoded": 11,
+      "muted": false
+    },
+    {
+      "id": "combination-ink-relay",
+      "time": 0.16772,
+      "width": 1080,
+      "height": 1920,
+      "decoded": 10,
+      "muted": false
+    },
+    {
+      "id": "palette-only",
+      "time": 0.156456,
+      "width": 1080,
+      "height": 1920,
+      "decoded": 10,
+      "muted": false
+    }
+  ],
+  "playAndDialog": true,
+  "mobile": {
+    "noOverflow": true,
+    "inlinePlayback": true
+  },
+  "ok": true,
+  "errors": [],
+  "scope": "All full-video URLs, covers and available previews reachable; category counts/search, real playback from each category, muted multi-play, one voice, full-HD dialog close release, mobile playback. No new film render or re-review of historical aesthetics."
+}
