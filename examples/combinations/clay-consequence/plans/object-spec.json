@@ -1,0 +1,60 @@
+{
+  "status": "designed",
+  "sourceBinding": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "combination": "柔质立体 × 动作与后果",
+  "axis": "representation",
+  "objects": [
+    {
+      "id": "speaker",
+      "identity": "original user video",
+      "persistentRule": "保持来源与含义，数量仅示意；本金受损后不复原，负债仅减少"
+    },
+    {
+      "id": "purchase",
+      "identity": "generated object illustration reused locally",
+      "persistentRule": "保持来源与含义，数量仅示意；本金受损后不复原，负债仅减少"
+    },
+    {
+      "id": "duplicate",
+      "identity": "generated object illustration reused locally",
+      "persistentRule": "保持来源与含义，数量仅示意；本金受损后不复原，负债仅减少"
+    },
+    {
+      "id": "food",
+      "identity": "generated object illustration reused locally",
+      "persistentRule": "保持来源与含义，数量仅示意；本金受损后不复原，负债仅减少"
+    },
+    {
+      "id": "principal",
+      "identity": "original explanation diagram",
+      "persistentRule": "保持来源与含义，数量仅示意；本金受损后不复原，负债仅减少"
+    },
+    {
+      "id": "debt",
+      "identity": "original explanation diagram",
+      "persistentRule": "保持来源与含义，数量仅示意；本金受损后不复原，负债仅减少"
+    },
+    {
+      "id": "promotion",
+      "identity": "original explanation diagram",
+      "persistentRule": "保持来源与含义，数量仅示意；本金受损后不复原，负债仅减少"
+    },
+    {
+      "id": "risk",
+      "identity": "original explanation diagram",
+      "persistentRule": "保持来源与含义，数量仅示意；本金受损后不复原，负债仅减少"
+    },
+    {
+      "id": "trend",
+      "identity": "original explanation diagram",
+      "persistentRule": "保持来源与含义，数量仅示意；本金受损后不复原，负债仅减少"
+    },
+    {
+      "id": "carrier",
+      "identity": "original explanation diagram",
+      "persistentRule": "保持来源与含义，数量仅示意；本金受损后不复原，负债仅减少"
+    }
+  ],
+  "geometry": "Three.js圆角体、耳机、购物袋、承重台、保护挡板和负债块",
+  "illustrationDisclosure": "图形、数量、物理变化均为示意，不是数据、预测或科学仿真"
+}

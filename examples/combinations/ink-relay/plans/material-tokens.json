@@ -1,0 +1,9 @@
+{
+  "status": "designed",
+  "sourceBinding": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "combination": "水墨写意 × 同物接力",
+  "axis": "material",
+  "surfaceAssignments": "墨的干湿边缘与纸纤维，只作用绘制对象",
+  "textureScale": "随对象固定；纸面纹理固定种子",
+  "edgeTreatment": "文字和真人不接受纹理滤镜"
+}

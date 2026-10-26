@@ -9,3 +9,5 @@
 1.18.0起先读docs/分类与配方.md与skills/talking-head-composition/SKILL.md。十一类职责见registry/axes.json；母画风、分支、组件分别登记，旧100项只作兼容映射。新素材init --recipe后先设计本片内容，不能直接套原案例。十一类与原四专家共存，四专家正文原哈希保持。
 
 1.21.0起先用catalog/inspect选择19套母画风、独立分支/组件与编排，读docs/19套配方与统一入口.md。新默认实现不依赖test。跨文案等用户自有新素材再测；没有新素材不借用第三方补测。旧七套源码、原100项与四专家原哈希保留。
+
+1.23.0自由搭配及指定组合先完整读docs/智能体自由搭配流程.md。registry/combinations.json与母画风、分支、组件、编排独立管理；新素材init仅继承方向，同源reproduce才装入案例源码。保持已有有效实现与四专家原哈希。

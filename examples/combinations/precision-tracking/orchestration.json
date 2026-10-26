@@ -1,0 +1,7 @@
+{
+  "id": "tracking",
+  "selection": "agent-reasoned",
+  "reason": "跟风消费、盲目打理和夸大收益是待检查对象；稳定坐标、追踪框与保留的证据状态适合逐项核查，不能伪造金融监测值。",
+  "status": "user-approved-reference",
+  "scope": "本组合实际设计；编排的原始案例另见registry/orchestrations.json"
+}

@@ -1,0 +1,54 @@
+{
+  "selectionAndCopy": true,
+  "trioPrompt": true,
+  "playing": [
+    {
+      "currentTime": 0.562842,
+      "width": 1080,
+      "height": 1920,
+      "muted": true,
+      "decoded": 23,
+      "src": "http://127.0.0.1:54164/media/combinations/ink-relay/play.mp4"
+    },
+    {
+      "currentTime": 0.567752,
+      "width": 1080,
+      "height": 1920,
+      "muted": true,
+      "decoded": 23,
+      "src": "http://127.0.0.1:54164/media/combinations/precision-tracking/play.mp4"
+    },
+    {
+      "currentTime": 0.507749,
+      "width": 1080,
+      "height": 1920,
+      "muted": true,
+      "decoded": 21,
+      "src": "http://127.0.0.1:54164/media/combinations/clay-consequence/play.mp4"
+    }
+  ],
+  "audible": 1,
+  "ranges": [
+    {
+      "status": 206,
+      "range": "bytes 0-1023/35270969"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-1023/28556386"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-1023/29520671"
+    }
+  ],
+  "guide": true,
+  "mobile": {
+    "width": 390,
+    "noHorizontalOverflow": true,
+    "inlinePlayback": true
+  },
+  "ok": true,
+  "errors": [],
+  "scope": "Actual formal entry: counts, preset selection, clipboard, new trio prompts, 3×1080p inline playback, one voice, pause/reset, Range206, guide, 390px mobile. Playback smoke only; previously approved full film evidence retained."
+}

@@ -1,0 +1,20 @@
+{
+  "status": "designed",
+  "sourceBinding": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "combination": "柔质立体 × 动作与后果",
+  "axis": "typography",
+  "fontRoles": {
+    "title": "NotoSansSC-500.woff",
+    "body": "NotoSansSC-500.woff",
+    "caption": "NotoSansSC-700.woff"
+  },
+  "readingZones": "中央立体舞台、宽大短标题、外层清晰标签",
+  "captionZones": {
+    "top": 1600,
+    "left": 64,
+    "width": 952,
+    "font": 58,
+    "maxLines": 2
+  },
+  "protectedPaths": "所有1100帧检查人物圆窗、字幕和实际字形边界；不只检查终点"
+}

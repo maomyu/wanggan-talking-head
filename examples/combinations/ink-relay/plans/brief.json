@@ -1,0 +1,24 @@
+{
+  "status": "designed",
+  "request": "自主选择三组显著不同的组合，完整视频，同页在线播放，只在test，源人物与原声保留",
+  "choice": {
+    "key": "ink-relay",
+    "recipe": "ink",
+    "mechanism": "relay",
+    "name": "水墨写意 × 同物接力",
+    "title": "把判断，握在自己手里",
+    "color": "#ab3d31",
+    "bg": "#eee9df",
+    "fg": "#252d2b",
+    "muted": "#636b64",
+    "detail": "一枚朱印沿墨线接力：筛掉加购、圈住本金、移开负担。",
+    "layout": "右侧竖题、左侧内容场、书写式留白",
+    "motion": "同一判断印沿弧线迁移，留印后墨迹保留",
+    "camera": "固定纸面为主；同一墨圈收放承接观察范围",
+    "transition": "墨圈与朱印连续，不重新换整张卡片"
+  },
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 36.666666666666664
+}

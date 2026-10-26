@@ -1,0 +1,9 @@
+{
+  "status": "designed",
+  "sourceBinding": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "combination": "水墨写意 × 同物接力",
+  "axis": "lighting",
+  "lightAssignments": "软陶左上暖主光与冷补光；其他两组平面清晰层",
+  "shadowRules": "仅场景物件受阴影与光照，人物独立原色",
+  "finishLayers": "背景/世界/清晰标签/真人/字幕，禁止全屏调色"
+}

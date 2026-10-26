@@ -1,0 +1,89 @@
+{
+  "status": "designed",
+  "sourceBinding": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "combination": "柔质立体 × 动作与后果",
+  "axis": "object-motion",
+  "actions": [
+    {
+      "id": "s1",
+      "startFrame": 0,
+      "endFrame": 149,
+      "action": "真人与承重舞台建立选择有代价的隐喻",
+      "result": "提出存不下钱的问题"
+    },
+    {
+      "id": "s2",
+      "startFrame": 149,
+      "endFrame": 388,
+      "action": "重复加购落下使托盘下沉；投机触发本金单位滑落",
+      "result": "看见跟风消费、负债和本金受损"
+    },
+    {
+      "id": "s3",
+      "startFrame": 388,
+      "endFrame": 461,
+      "action": "托盘稳住，三个独立建议并列呈现",
+      "result": "建立三条并列底线"
+    },
+    {
+      "id": "s4",
+      "startFrame": 461,
+      "endFrame": 616,
+      "action": "额外购物被移离托盘；想要与日常需要同尺度比较",
+      "result": "删去额外消费，分清想要与需要"
+    },
+    {
+      "id": "s5",
+      "startFrame": 616,
+      "endFrame": 686,
+      "action": "保护挡板围住剩余本金",
+      "result": "保留已受损后的本金，不恢复损失"
+    },
+    {
+      "id": "s6",
+      "startFrame": 686,
+      "endFrame": 783,
+      "action": "收益块接触边界后转面露出风险",
+      "result": "在收益说法后揭示风险"
+    },
+    {
+      "id": "s7",
+      "startFrame": 783,
+      "endFrame": 856,
+      "action": "已揭示风险块退到挡板之外",
+      "result": "明确远离投机和炒作"
+    },
+    {
+      "id": "s8",
+      "startFrame": 856,
+      "endFrame": 898,
+      "action": "两块负担移走，托盘减压，仍有一块负担",
+      "result": "移去部分负担，非清空负债"
+    },
+    {
+      "id": "s9",
+      "startFrame": 898,
+      "endFrame": 1100,
+      "action": "承重台保留三项结果后让回真人",
+      "result": "回到真人和已经形成的三项判断"
+    }
+  ],
+  "stateTransitions": {
+    "principal": "6 -> 4, f310–333; never resets",
+    "debt": "3 -> 1, f856–879; never zero"
+  },
+  "paths": "落物、受压、失衡、拦截与卸载，动作各有结果",
+  "settleFrames": [
+    198,
+    249,
+    333,
+    420,
+    518,
+    585,
+    653,
+    761,
+    810,
+    879,
+    960
+  ]
+}

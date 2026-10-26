@@ -1,0 +1,15 @@
+{
+  "status": "designed",
+  "sourceBinding": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "combination": "精密界面 × 追踪与锁定",
+  "axis": "camera",
+  "shotFraming": "左侧章节索引、右侧证据工作台、底部结果条",
+  "viewTransforms": "固定对照坐标，局部放大收益说法的背面",
+  "focusTargets": [
+    "purchase",
+    "principal",
+    "promotion",
+    "debt"
+  ],
+  "person": "人物屏幕空间独立，角落真圆，全程等比"
+}

@@ -1,0 +1,163 @@
+{
+  "ok": true,
+  "cases": [
+    {
+      "id": "chosen-style",
+      "scope": "full",
+      "axes": [
+        "art-style",
+        "palette",
+        "material",
+        "representation",
+        "object-motion",
+        "camera",
+        "transition",
+        "typography",
+        "lighting",
+        "information",
+        "rhythm"
+      ]
+    },
+    {
+      "id": "agent-choice",
+      "scope": "full",
+      "axes": [
+        "art-style",
+        "palette",
+        "material",
+        "representation",
+        "object-motion",
+        "camera",
+        "transition",
+        "typography",
+        "lighting",
+        "information",
+        "rhythm"
+      ]
+    },
+    {
+      "id": "agent-trio",
+      "scope": "full",
+      "axes": [
+        "art-style",
+        "palette",
+        "material",
+        "representation",
+        "object-motion",
+        "camera",
+        "transition",
+        "typography",
+        "lighting",
+        "information",
+        "rhythm"
+      ]
+    },
+    {
+      "id": "approved-combination",
+      "scope": "full",
+      "axes": [
+        "art-style",
+        "palette",
+        "material",
+        "representation",
+        "object-motion",
+        "camera",
+        "transition",
+        "typography",
+        "lighting",
+        "information",
+        "rhythm"
+      ]
+    },
+    {
+      "id": "style-and-arrangement",
+      "scope": "full",
+      "axes": [
+        "art-style",
+        "palette",
+        "material",
+        "representation",
+        "object-motion",
+        "camera",
+        "transition",
+        "typography",
+        "lighting",
+        "information",
+        "rhythm"
+      ]
+    },
+    {
+      "id": "mechanism-choice",
+      "scope": "full",
+      "axes": [
+        "art-style",
+        "palette",
+        "material",
+        "representation",
+        "object-motion",
+        "camera",
+        "transition",
+        "typography",
+        "lighting",
+        "information",
+        "rhythm"
+      ]
+    },
+    {
+      "id": "arrangement-only",
+      "scope": "module",
+      "axes": [
+        "information",
+        "representation",
+        "typography",
+        "object-motion",
+        "camera",
+        "transition",
+        "rhythm"
+      ]
+    },
+    {
+      "id": "typography-only",
+      "scope": "module",
+      "axes": [
+        "typography"
+      ]
+    },
+    {
+      "id": "motion-only",
+      "scope": "module",
+      "axes": [
+        "object-motion"
+      ]
+    },
+    {
+      "id": "transition-only",
+      "scope": "module",
+      "axes": [
+        "transition"
+      ]
+    },
+    {
+      "id": "rhythm-only",
+      "scope": "module",
+      "axes": [
+        "rhythm"
+      ]
+    },
+    {
+      "id": "palette-only",
+      "scope": "module",
+      "axes": [
+        "palette"
+      ]
+    },
+    {
+      "id": "custom-module",
+      "scope": "module",
+      "axes": [
+        "lighting"
+      ]
+    }
+  ],
+  "scope": "Real copyable instructions, including shared constraints; routing only, no new video render"
+}

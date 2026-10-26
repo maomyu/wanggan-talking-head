@@ -1,0 +1,17 @@
+{
+  "status": "designed",
+  "sourceBinding": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "combination": "水墨写意 × 同物接力",
+  "axis": "art-style",
+  "identityRules": [
+    "右侧竖题、左侧内容场、书写式留白",
+    "同一判断印沿弧线迁移，留印后墨迹保留",
+    "固定纸面为主；同一墨圈收放承接观察范围"
+  ],
+  "referencePrinciples": "继承正式母画风身份，当前组合重新设计；不复制原8条纸本排版",
+  "driftChecks": [
+    "人物不风格化",
+    "换掉强调色仍能辨认三种空间语言",
+    "不会只有图片漂移"
+  ]
+}

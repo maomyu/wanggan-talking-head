@@ -7,6 +7,7 @@ import {fileURLToPath} from 'node:url';
 import * as loaderHooks from 'node:module';
 import {createProductionReview} from '../runtime/production-review.mjs';
 import {recordOrchestrationChoice} from '../runtime/orchestration.mjs';
+import {combinations,loadCombination} from '../runtime/combinations.mjs';
 import {productionCatalog,chooseRecipe,recipeIntent,patchPalette,auditProductionLibrary} from '../runtime/production-entry.mjs';
 import {catalog,loadRecipe,resolve,change,compile,collaborationRoute,initCollaboration,reproduce,validateProject,reviseCollaboration,checkCollaborationLibrary} from '../runtime/collaboration.mjs';
 import {systems,system,compositionRecipe,installCompositionExample,checkCompositionLibrary} from '../runtime/choreography.mjs';
@@ -59,7 +60,7 @@ function setup(){
  run(py(),['-m','pip','install','--disable-pip-version-check','-r',path.join(runtime,'requirements.txt')],{stdio:'inherit'});return doctor();
 }
 function init(o){
- if(o.recipe||o.orchestration||o.source&&!o.style&&!o.example&&!o.composition&&!o.system)return initCollaboration(o);
+ if(o.combination||o.recipe||o.orchestration||o.source&&!o.style&&!o.example&&!o.composition&&!o.system)return initCollaboration(o);
  if(!o.project)throw Error('需要 --project 新项目路径');const r=path.resolve(o.project);if(fs.existsSync(r))throw Error('目标已存在，init不覆盖；修改现有项目请用revise');
  if(o.example && o.example!=='approved')throw Error('正式包使用 --example approved --style 画风；新素材使用--source，由完整模块设计');
  if(!o.example && !o.source)throw Error('新项目需 --source 视频，或显式选择 --example approved');
@@ -125,12 +126,14 @@ async function main(){
  const [command,...args]=process.argv.slice(2),o=parse(args);
  if(command==='styles'){if(o.id||o.style)return styleList(o.id||o.style);const c=styleList();if(o.all||o.status){if(o.status&&!['approved','implemented','production','candidate'].includes(o.status))throw Error('status需为approved、implemented、production或candidate');const rows=o.status==='approved'?c.styles.filter(s=>s.status==='approved-video'):o.status==='production'?c.styles.filter(s=>s.status==='verified-video'):o.status==='implemented'?c.styles:o.status==='candidate'?c.extensions:[...c.styles,...c.extensions];return {implementedCount:c.styles.length,approvedCount:c.styles.filter(s=>s.status==='approved-video').length,productionVerifiedCount:c.styles.filter(s=>s.status==='verified-video').length,plannedCount:c.plannedCount,totalCount:c.totalCount,styles:rows.sort((a,b)=>Number(a.id.slice(1))-Number(b.id.slice(1)))}}return c;}
  if(['families','branches','components','standards','recipes','orchestrations'].includes(command))return catalog(command,o.id);
+ if(command==='combinations')return o.id?loadCombination(o.id):combinations();
  if(command==='resolve')return resolve(o.recipe||o.file||'minimal');
  if(command==='plan-change')return change(String(o.axes||'').split(',').filter(Boolean));
  if(command==='compile'){if(!o.plan)throw Error('需要 --plan 场景计划JSON');const f=path.resolve(o.plan);return compile(o.recipe||'minimal',read(f),path.dirname(f));}
  if(command==='reproduce'||command==='reference')return reproduce(o);
  if(command==='catalog-ui')return createProductionReview(o);
- if(command==='catalog')return {...productionCatalog(),orchestrations:catalog('orchestrations'),branches:catalog('branches'),components:catalog('components')};
+ if(command==='catalog')return {...productionCatalog(),combinations:combinations(),orchestrations:catalog('orchestrations'),branches:catalog('branches'),components:catalog('components')};
+ if(command==='inspect'&&o.combination){const c=loadCombination(o.combination);return {combination:c,resolved:resolve(read(path.join(plugin,c.reference.path,'recipe.json')))}}
  if(command==='inspect'){const e=chooseRecipe(o.recipe);return {entry:e,resolved:resolve(e.id)}}
  if(command==='audit-library')return auditProductionLibrary();
  if(command==='recipe')return o.style?recipe(o):loadRecipe(o.recipe||o.id||'minimal');
@@ -140,7 +143,7 @@ async function main(){
  if(command==='setup')return setup();
  if(command==='init')return init(o);
  if(command==='revise')return revise(o);
- if(command==='help'||!command)return {commands:['catalog-ui --project 新目录 [--media-map 本地样片JSON]','catalog','inspect --recipe 配方ID|Fxx|名称','audit-library','scope --project 项目','patch-palette --project 新版本 --values 补丁JSON','select-orchestration --project 工程 --orchestration 编排ID --reason 文案选择理由','doctor','setup','orchestrations [--id 编排ID|G01至G08|中文名称]','families | branches | components [--id ID]','standards [--id 标准ID]','recipes [--id 配方ID]','recipe --id 任一母画风或分支配方ID','resolve --recipe 配方ID或JSON','plan-change --axes palette,typography','compile --recipe 配方ID或JSON --plan 场景计划JSON','init --project 新路径 --source 自有视频 --recipe 配方ID [--branch A09 --components A61 --orchestration 编排ID|auto --transcript 字幕]','reproduce --project 新路径 --source 原案例方形代理视频 --recipe 配方ID [--orchestration 编排ID]','revise --from 原项目 --out 新版本 [--axes rhythm|typography|其他轴 或 --orchestration 编排ID] --request 修改需求','styles [--id 编号或名称 | --all | --status approved|implemented|production|candidate]','choreographies [--id C01]','recipe --style A58 [--composition auto|C06 --kind cause --layout L10 --motion M09 --editing E04 --sound S01]','route --request 中文需求 [--mode full|layout|motion|editing|art-direction]','init --project 新路径 --source 视频 [--transcript 字幕 --style A58 --composition C06 --request 需求]','init --project 新路径 --example approved --style magazine [--composition auto|C05]','revise --from 原项目 --out 新版本 --module layout --request 需求','run --project 项目 [--until build|check|render|verify]','preview --project 项目 [--port 端口]','stop --project 项目'],guide:'docs/使用说明.md'};
+ if(command==='help'||!command)return {commands:['combinations [--id 组合ID或K01至K03]','inspect --combination 组合ID','init --project 新目录 --source 自有素材 --combination 组合ID','reproduce --project 新目录 --source 原案例完整原片 --combination 组合ID','catalog-ui --project 新目录 [--media-map 本地样片JSON]','catalog','inspect --recipe 配方ID|Fxx|名称','audit-library','scope --project 项目','patch-palette --project 新版本 --values 补丁JSON','select-orchestration --project 工程 --orchestration 编排ID --reason 文案选择理由','doctor','setup','orchestrations [--id 编排ID|G01至G08|中文名称]','families | branches | components [--id ID]','standards [--id 标准ID]','recipes [--id 配方ID]','recipe --id 任一母画风或分支配方ID','resolve --recipe 配方ID或JSON','plan-change --axes palette,typography','compile --recipe 配方ID或JSON --plan 场景计划JSON','init --project 新路径 --source 自有视频 --recipe 配方ID [--branch A09 --components A61 --orchestration 编排ID|auto --transcript 字幕]','reproduce --project 新路径 --source 原案例方形代理视频 --recipe 配方ID [--orchestration 编排ID]','revise --from 原项目 --out 新版本 [--axes rhythm|typography|其他轴 或 --orchestration 编排ID] --request 修改需求','styles [--id 编号或名称 | --all | --status approved|implemented|production|candidate]','choreographies [--id C01]','recipe --style A58 [--composition auto|C06 --kind cause --layout L10 --motion M09 --editing E04 --sound S01]','route --request 中文需求 [--mode full|layout|motion|editing|art-direction]','init --project 新路径 --source 视频 [--transcript 字幕 --style A58 --composition C06 --request 需求]','init --project 新路径 --example approved --style magazine [--composition auto|C05]','revise --from 原项目 --out 新版本 --module layout --request 需求','run --project 项目 [--until build|check|render|verify]','preview --project 项目 [--port 端口]','stop --project 项目'],guide:'docs/使用说明.md'};
  const r=rootOf(o);
  if(command==='select-orchestration')return recordOrchestrationChoice(r,o.orchestration,o.reason);
  if(command==='scope')return {ok:true,...scopeCheck(r,true)};

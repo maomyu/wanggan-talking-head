@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 2,
+  "collaborationVersion": 1,
+  "id": "approved-combination-clay-consequence",
+  "name": "clay-consequence",
+  "recipeId": "clay",
+  "orchestration": {
+    "id": "consequence",
+    "selection": "agent-reasoned",
+    "reason": "把加购带来的负担、本金受损与减少负债的结果做成实体动作；软体承压、保护挡板与卸载具有空间解释收益，各条底线保持并列。"
+  },
+  "status": "approved-reference-implementation",
+  "renderer": "custom",
+  "request": "自主搭配：柔质立体 × 动作与后果",
+  "sourcePolicy": {
+    "schemaVersion": 1,
+    "productionSpeaker": "user",
+    "productionVoice": "original-user-source",
+    "selectionOrder": [
+      "current-explicit-user-material",
+      "previously-confirmed-user-owned-material"
+    ],
+    "thirdPartyNarration": "reference-only-unless-user-explicitly-selects-for-this-task",
+    "whenMissing": "ask-for-user-material; do not substitute another speaker",
+    "runtimeBoundary": "This policy guides material selection. A local path or source argument does not prove ownership; use the user context.",
+    "preserve": [
+      "person-original-color",
+      "corner-true-circle-through-movement",
+      "captions-raised"
+    ]
+  },
+  "sourceSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "referenceFixture": true,
+  "userApproved": true,
+  "approvalDate": "2026-10-26",
+  "combinationId": "clay-consequence",
+  "timingContract": "source-bound-frame-functions-v1"
+}

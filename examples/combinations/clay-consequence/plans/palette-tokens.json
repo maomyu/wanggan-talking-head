@@ -1,0 +1,18 @@
+{
+  "status": "designed",
+  "sourceBinding": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "combination": "柔质立体 × 动作与后果",
+  "axis": "palette",
+  "colorRoles": {
+    "bg": "#eee5d9",
+    "fg": "#43364d",
+    "color": "#785394",
+    "muted": "#716078"
+  },
+  "contrastPairs": [
+    "fg/bg",
+    "muted/bg",
+    "caption-white/dark"
+  ],
+  "emphasisBudget": "一个主对象；风险用语义文字配色，不只靠红绿"
+}

@@ -1,0 +1,313 @@
+{
+  "status": "test-delivered-awaiting-user-review",
+  "scope": "3 agent-selected, source-specific style/orchestration combinations; formal plugin unchanged",
+  "source": {
+    "source": "assets/master.mp4",
+    "sha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+    "frame": 657,
+    "crop": [
+      0,
+      180,
+      1080,
+      1080
+    ],
+    "scale": [
+      840,
+      840
+    ],
+    "meanAbsoluteRGBError": 1.0895072751322752,
+    "meanChannelBias": [
+      -0.2111890589569161,
+      -0.033280895691609975,
+      -0.24073837868480727
+    ],
+    "passed": true,
+    "scope": "Ungraded source crop and resize vs existing proxy, compression/resampling tolerance"
+  },
+  "films": [
+    {
+      "key": "ink-relay",
+      "name": "水墨写意 × 同物接力",
+      "selection": {
+        "id": "relay",
+        "selection": "agent-reasoned",
+        "reason": "同一枚判断印贯穿消费、本金、负债，笔势与印记留下选择结果，三条建议并列，水墨留白让结论停稳。"
+      },
+      "video": {
+        "width": 1080,
+        "height": 1920,
+        "fps": "30/1",
+        "frames": 1100,
+        "duration": 36.666667,
+        "sha256": "7dca0d7d44291df1dac3ca655f4939858df316c32ad6bb91708a1f5fa56ac1aa"
+      },
+      "audio": {
+        "referenceCorrelation": 0.9999653765546691,
+        "offsetSamples": 0,
+        "droppedVoiceWindows": 0,
+        "decodedMonoSha256": "f09aeee5eb8b6f8d30015779bb9b98616a5f5af810f3927bebd6ce46d803ca43",
+        "referenceWavSha256": "9542b039523dc462a2637176fb17b1bf73ebf0f8675145a597ba5e26ef211cdf"
+      },
+      "pathAuditFrames": 1100,
+      "pathIssues": 0,
+      "reverseSeek": true,
+      "htmlMotionAuditEnabled": false,
+      "actualFile": "/Users/maoyu/个人项目/客户/插件/test/agent-combination-trio-11/ink-relay/outputs/final.mp4"
+    },
+    {
+      "key": "precision-tracking",
+      "name": "精密界面 × 追踪与锁定",
+      "selection": {
+        "id": "tracking",
+        "selection": "agent-reasoned",
+        "reason": "跟风消费、盲目打理和夸大收益是待检查对象；稳定坐标、追踪框与保留的证据状态适合逐项核查，不能伪造金融监测值。"
+      },
+      "video": {
+        "width": 1080,
+        "height": 1920,
+        "fps": "30/1",
+        "frames": 1100,
+        "duration": 36.666667,
+        "sha256": "1d66116337177a29cad531c34f0082f2f78bc75935f0fd52edc88c7b7892b178"
+      },
+      "audio": {
+        "referenceCorrelation": 0.9999653765546691,
+        "offsetSamples": 0,
+        "droppedVoiceWindows": 0,
+        "decodedMonoSha256": "f09aeee5eb8b6f8d30015779bb9b98616a5f5af810f3927bebd6ce46d803ca43",
+        "referenceWavSha256": "9542b039523dc462a2637176fb17b1bf73ebf0f8675145a597ba5e26ef211cdf"
+      },
+      "pathAuditFrames": 1100,
+      "pathIssues": 0,
+      "reverseSeek": true,
+      "htmlMotionAuditEnabled": false,
+      "actualFile": "/Users/maoyu/个人项目/客户/插件/test/agent-combination-trio-11/precision-tracking/outputs/final.mp4"
+    },
+    {
+      "key": "clay-consequence",
+      "name": "柔质立体 × 动作与后果",
+      "selection": {
+        "id": "consequence",
+        "selection": "agent-reasoned",
+        "reason": "把加购带来的负担、本金受损与减少负债的结果做成实体动作；软体承压、保护挡板与卸载具有空间解释收益，各条底线保持并列。"
+      },
+      "video": {
+        "width": 1080,
+        "height": 1920,
+        "fps": "30/1",
+        "frames": 1100,
+        "duration": 36.666667,
+        "sha256": "851031ba0cd513dcbc8504cea8d1dc0d9e77e339885452fe8eab751f8afaeda4"
+      },
+      "audio": {
+        "referenceCorrelation": 0.9999653765546691,
+        "offsetSamples": 0,
+        "droppedVoiceWindows": 0,
+        "decodedMonoSha256": "f09aeee5eb8b6f8d30015779bb9b98616a5f5af810f3927bebd6ce46d803ca43",
+        "referenceWavSha256": "9542b039523dc462a2637176fb17b1bf73ebf0f8675145a597ba5e26ef211cdf"
+      },
+      "pathAuditFrames": 1100,
+      "pathIssues": 0,
+      "reverseSeek": true,
+      "htmlMotionAuditEnabled": false,
+      "actualFile": "/Users/maoyu/个人项目/客户/插件/test/agent-combination-trio-11/clay-consequence/outputs/final.mp4"
+    }
+  ],
+  "checkedFramesTotal": 3300,
+  "actualEncodedVisualReview": "Author reviewed 16-frame contacts and dense continuity sheets for each actual MP4; not an independent critic",
+  "fullSpeedPlayback": "All 3 actual MP4 preview streams played from beginning to end in browser at 1x",
+  "hearingReview": "Audio measured against original continuous PCM, no subjective human-style hearing claim",
+  "browserChecks": {
+    "ok": true,
+    "oneAudibleStream": 1,
+    "rangeSupport": [
+      206,
+      206,
+      206
+    ],
+    "mobile": {
+      "width": 390,
+      "scrollWidth": 390,
+      "inline": true,
+      "playing": true
+    }
+  },
+  "personChecks": {
+    "ok": true,
+    "scope": "Actual encoded MP4 inside face vs same-frame ungraded proxy; encoding/resampling tolerance, not exact RGB equality. Entry, corner and return phases; outside-circle background probes.",
+    "results": [
+      {
+        "key": "ink-relay",
+        "frame": 130,
+        "personRect": [
+          482,
+          988,
+          441,
+          441
+        ],
+        "innerMeanAbsoluteRGBError": 2.6801193361610447,
+        "innerChannelBias": [
+          -2.308271056352252,
+          -1.8348818420521107,
+          -2.0563648757826702
+        ],
+        "outsideCircleBackgroundError": 2.421104536489152,
+        "passed": true
+      },
+      {
+        "key": "ink-relay",
+        "frame": 657,
+        "personRect": [
+          750,
+          1290,
+          265,
+          265
+        ],
+        "innerMeanAbsoluteRGBError": 2.4917962003454233,
+        "innerChannelBias": [
+          -2.590008402184568,
+          -1.940764598795687,
+          -2.2811931102086542
+        ],
+        "outsideCircleBackgroundError": 2.43359375,
+        "passed": true
+      },
+      {
+        "key": "ink-relay",
+        "frame": 925,
+        "personRect": [
+          595,
+          1109,
+          364,
+          364
+        ],
+        "innerMeanAbsoluteRGBError": 3.291497550518623,
+        "innerChannelBias": [
+          -2.5200808050855312,
+          -1.883184758233408,
+          -2.2325740867728006
+        ],
+        "outsideCircleBackgroundError": 2.3333333333333335,
+        "passed": true
+      },
+      {
+        "key": "precision-tracking",
+        "frame": 130,
+        "personRect": [
+          508,
+          984,
+          458,
+          458
+        ],
+        "innerMeanAbsoluteRGBError": 2.309321124264743,
+        "innerChannelBias": [
+          -2.2706408590063347,
+          -1.7901898104237655,
+          -2.0270254446669242
+        ],
+        "outsideCircleBackgroundError": 1.6666666666666667,
+        "passed": true
+      },
+      {
+        "key": "precision-tracking",
+        "frame": 657,
+        "personRect": [
+          750,
+          1290,
+          265,
+          265
+        ],
+        "innerMeanAbsoluteRGBError": 2.4788311627689867,
+        "innerChannelBias": [
+          -2.5377048032488445,
+          -1.95004201092284,
+          -2.2706903794986695
+        ],
+        "outsideCircleBackgroundError": 1.6666666666666667,
+        "passed": true
+      },
+      {
+        "key": "precision-tracking",
+        "frame": 925,
+        "personRect": [
+          617,
+          1109,
+          359,
+          359
+        ],
+        "innerMeanAbsoluteRGBError": 2.8934652232471856,
+        "innerChannelBias": [
+          -2.4576122589006633,
+          -1.8846344438514904,
+          -2.14675611801479
+        ],
+        "outsideCircleBackgroundError": 1.6666666666666667,
+        "passed": true
+      },
+      {
+        "key": "clay-consequence",
+        "frame": 130,
+        "personRect": [
+          113,
+          984,
+          458,
+          458
+        ],
+        "innerMeanAbsoluteRGBError": 2.6965297049605197,
+        "innerChannelBias": [
+          -2.224458729991452,
+          -1.791360756899802,
+          -1.9676584583318697
+        ],
+        "outsideCircleBackgroundError": 3.6666666666666665,
+        "passed": true
+      },
+      {
+        "key": "clay-consequence",
+        "frame": 657,
+        "personRect": [
+          64,
+          1290,
+          265,
+          265
+        ],
+        "innerMeanAbsoluteRGBError": 2.483674088596368,
+        "innerChannelBias": [
+          -2.52751715446016,
+          -1.9674765439014144,
+          -2.2608178126312843
+        ],
+        "outsideCircleBackgroundError": 3.6497395833333335,
+        "passed": true
+      },
+      {
+        "key": "clay-consequence",
+        "frame": 925,
+        "personRect": [
+          103,
+          1109,
+          359,
+          359
+        ],
+        "innerMeanAbsoluteRGBError": 2.909430510025158,
+        "innerChannelBias": [
+          -2.474079438896089,
+          -1.8756956621178622,
+          -2.1433635739879544
+        ],
+        "outsideCircleBackgroundError": 3.6666666666666665,
+        "passed": true
+      }
+    ]
+  },
+  "cleanup": {
+    "files": 4386,
+    "logicalBytes": 2314152304,
+    "physicalSpaceMeasured": false
+  },
+  "limitations": [
+    "This source only; new-script adaptation awaits new user-owned footage.",
+    "Browser concurrent playback is not guaranteed to be frame-locked.",
+    "Native checker has motion audit disabled; deterministic paths, recorded geometry and actual encoded frame sheets supply the motion evidence."
+  ]
+}

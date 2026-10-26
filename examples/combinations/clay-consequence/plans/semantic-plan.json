@@ -1,0 +1,538 @@
+{
+  "status": "designed",
+  "sourceBinding": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "combination": "柔质立体 × 动作与后果",
+  "axis": "information",
+  "claims": [
+    {
+      "id": 1,
+      "startFrame": 0,
+      "endFrame": 58,
+      "text": "为什么越努力上班越存不到钱",
+      "sourceStart": 0,
+      "sourceEnd": 1.9333333333333333,
+      "segment": "A",
+      "sourceId": 1
+    },
+    {
+      "id": 2,
+      "startFrame": 58,
+      "endFrame": 95,
+      "text": "今天就给普通人讲一讲",
+      "sourceStart": 1.9333333333333333,
+      "sourceEnd": 3.1666666666666665,
+      "segment": "A",
+      "sourceId": 2
+    },
+    {
+      "id": 3,
+      "startFrame": 95,
+      "endFrame": 149,
+      "text": "当下最接地气的财富真相",
+      "sourceStart": 3.1666666666666665,
+      "sourceEnd": 4.966666666666667,
+      "segment": "A",
+      "sourceId": 3
+    },
+    {
+      "id": 4,
+      "startFrame": 149,
+      "endFrame": 198,
+      "text": "很多人习惯跟风消费",
+      "sourceStart": 4.966666666666667,
+      "sourceEnd": 6.6,
+      "segment": "A",
+      "sourceId": 4
+    },
+    {
+      "id": 5,
+      "startFrame": 198,
+      "endFrame": 224,
+      "text": "盲目打理资产",
+      "sourceStart": 6.6,
+      "sourceEnd": 7.466666666666667,
+      "segment": "A",
+      "sourceId": 5
+    },
+    {
+      "id": 6,
+      "startFrame": 224,
+      "endFrame": 266,
+      "text": "要么透支负债前行",
+      "sourceStart": 7.466666666666667,
+      "sourceEnd": 8.866666666666667,
+      "segment": "A",
+      "sourceId": 6
+    },
+    {
+      "id": 7,
+      "startFrame": 266,
+      "endFrame": 310,
+      "text": "要么跟风盲目炒股",
+      "sourceStart": 8.866666666666667,
+      "sourceEnd": 10.333333333333334,
+      "segment": "A",
+      "sourceId": 7
+    },
+    {
+      "id": 8,
+      "startFrame": 310,
+      "endFrame": 349,
+      "text": "最后本金受损",
+      "sourceStart": 10.333333333333334,
+      "sourceEnd": 11.633333333333333,
+      "segment": "A",
+      "sourceId": 8
+    },
+    {
+      "id": 9,
+      "startFrame": 349,
+      "endFrame": 388,
+      "text": "生活压力越来越大",
+      "sourceStart": 11.633333333333333,
+      "sourceEnd": 12.933333333333334,
+      "segment": "A",
+      "sourceId": 9
+    },
+    {
+      "id": 10,
+      "startFrame": 388,
+      "endFrame": 461,
+      "text": "给大家三个普通人的财经底线",
+      "sourceStart": 12.933333333333334,
+      "sourceEnd": 15.366666666666667,
+      "segment": "A",
+      "sourceId": 10
+    },
+    {
+      "id": 11,
+      "startFrame": 461,
+      "endFrame": 516,
+      "text": "第一，砍掉无效消费",
+      "sourceStart": 15.366666666666667,
+      "sourceEnd": 17.2,
+      "segment": "A",
+      "sourceId": 11
+    },
+    {
+      "id": 12,
+      "startFrame": 516,
+      "endFrame": 563,
+      "text": "戒掉冲动的购物",
+      "sourceStart": 17.2,
+      "sourceEnd": 18.766666666666666,
+      "segment": "A",
+      "sourceId": 12
+    },
+    {
+      "id": 13,
+      "startFrame": 563,
+      "endFrame": 616,
+      "text": "分清楚想要和需要",
+      "sourceStart": 18.766666666666666,
+      "sourceEnd": 20.533333333333335,
+      "segment": "A",
+      "sourceId": 13
+    },
+    {
+      "id": 14,
+      "startFrame": 616,
+      "endFrame": 686,
+      "text": "第二守住本金永远优先",
+      "sourceStart": 20.533333333333335,
+      "sourceEnd": 22.866666666666667,
+      "segment": "A",
+      "sourceId": 14
+    },
+    {
+      "id": 15,
+      "startFrame": 686,
+      "endFrame": 783,
+      "text": "市面上夸大收益理财的都暗藏风险",
+      "sourceStart": 22.866666666666667,
+      "sourceEnd": 26.1,
+      "segment": "A",
+      "sourceId": 15
+    },
+    {
+      "id": 16,
+      "startFrame": 783,
+      "endFrame": 856,
+      "text": "普通人要远离投机跟炒作",
+      "sourceStart": 26.1,
+      "sourceEnd": 28.533333333333335,
+      "segment": "A",
+      "sourceId": 16
+    },
+    {
+      "id": 17,
+      "startFrame": 856,
+      "endFrame": 898,
+      "text": "第三减少负债",
+      "sourceStart": 28.533333333333335,
+      "sourceEnd": 29.933333333333334,
+      "segment": "A",
+      "sourceId": 17
+    },
+    {
+      "id": 18,
+      "startFrame": 898,
+      "endFrame": 959,
+      "text": "财富从来不是靠蛮力争取的",
+      "sourceStart": 29.933333333333334,
+      "sourceEnd": 31.966666666666665,
+      "segment": "A",
+      "sourceId": 18
+    },
+    {
+      "id": 19,
+      "startFrame": 959,
+      "endFrame": 1003,
+      "text": "而是靠认知筛选",
+      "sourceStart": 31.966666666666665,
+      "sourceEnd": 33.43333333333333,
+      "segment": "A",
+      "sourceId": 19
+    },
+    {
+      "id": 20,
+      "startFrame": 1003,
+      "endFrame": 1036,
+      "text": "不跟风不浮躁",
+      "sourceStart": 33.43333333333333,
+      "sourceEnd": 34.53333333333333,
+      "segment": "A",
+      "sourceId": 20
+    },
+    {
+      "id": 21,
+      "startFrame": 1036,
+      "endFrame": 1100,
+      "text": "才是普通人该走的路",
+      "sourceStart": 34.53333333333333,
+      "sourceEnd": 36.666666666666664,
+      "segment": "A",
+      "sourceId": 21
+    }
+  ],
+  "relations": [
+    {
+      "scene": "s1",
+      "relation": "question"
+    },
+    {
+      "scene": "s2",
+      "relation": "problem-and-outcome"
+    },
+    {
+      "scene": "s3",
+      "relation": "parallel-options"
+    },
+    {
+      "scene": "s4",
+      "relation": "option-comparison"
+    },
+    {
+      "scene": "s5",
+      "relation": "protection"
+    },
+    {
+      "scene": "s6",
+      "relation": "contrast-turn"
+    },
+    {
+      "scene": "s7",
+      "relation": "avoidance"
+    },
+    {
+      "scene": "s8",
+      "relation": "reduction"
+    },
+    {
+      "scene": "s9",
+      "relation": "recap-return"
+    }
+  ],
+  "scenePurpose": [
+    {
+      "id": "s1",
+      "startFrame": 0,
+      "endFrame": 149,
+      "sentenceIds": [
+        1,
+        2,
+        3
+      ],
+      "relation": "question",
+      "purpose": "提出存不下钱的问题",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "真人与承重舞台建立选择有代价的隐喻",
+      "result": "提出存不下钱的问题",
+      "readWindow": [
+        40,
+        108
+      ],
+      "handoff": "同一承重台重组用途，接触点与结果连续"
+    },
+    {
+      "id": "s2",
+      "startFrame": 149,
+      "endFrame": 388,
+      "sentenceIds": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "relation": "problem-and-outcome",
+      "purpose": "看见跟风消费、负债和本金受损",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "重复加购落下使托盘下沉；投机触发本金单位滑落",
+      "result": "看见跟风消费、负债和本金受损",
+      "readWindow": [
+        365,
+        388
+      ],
+      "handoff": "同一承重台重组用途，接触点与结果连续"
+    },
+    {
+      "id": "s3",
+      "startFrame": 388,
+      "endFrame": 461,
+      "sentenceIds": [
+        10
+      ],
+      "relation": "parallel-options",
+      "purpose": "建立三条并列底线",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "托盘稳住，三个独立建议并列呈现",
+      "result": "建立三条并列底线",
+      "readWindow": [
+        420,
+        456
+      ],
+      "handoff": "同一承重台重组用途，接触点与结果连续"
+    },
+    {
+      "id": "s4",
+      "startFrame": 461,
+      "endFrame": 616,
+      "sentenceIds": [
+        11,
+        12,
+        13
+      ],
+      "relation": "option-comparison",
+      "purpose": "删去额外消费，分清想要与需要",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "额外购物被移离托盘；想要与日常需要同尺度比较",
+      "result": "删去额外消费，分清想要与需要",
+      "readWindow": [
+        586,
+        610
+      ],
+      "handoff": "同一承重台重组用途，接触点与结果连续"
+    },
+    {
+      "id": "s5",
+      "startFrame": 616,
+      "endFrame": 686,
+      "sentenceIds": [
+        14
+      ],
+      "relation": "protection",
+      "purpose": "保留已受损后的本金，不恢复损失",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "保护挡板围住剩余本金",
+      "result": "保留已受损后的本金，不恢复损失",
+      "readWindow": [
+        650,
+        681
+      ],
+      "handoff": "同一承重台重组用途，接触点与结果连续"
+    },
+    {
+      "id": "s6",
+      "startFrame": 686,
+      "endFrame": 783,
+      "sentenceIds": [
+        15
+      ],
+      "relation": "contrast-turn",
+      "purpose": "在收益说法后揭示风险",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "收益块接触边界后转面露出风险",
+      "result": "在收益说法后揭示风险",
+      "readWindow": [
+        764,
+        781
+      ],
+      "handoff": "同一承重台重组用途，接触点与结果连续"
+    },
+    {
+      "id": "s7",
+      "startFrame": 783,
+      "endFrame": 856,
+      "sentenceIds": [
+        16
+      ],
+      "relation": "avoidance",
+      "purpose": "明确远离投机和炒作",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "已揭示风险块退到挡板之外",
+      "result": "明确远离投机和炒作",
+      "readWindow": [
+        812,
+        850
+      ],
+      "handoff": "同一承重台重组用途，接触点与结果连续"
+    },
+    {
+      "id": "s8",
+      "startFrame": 856,
+      "endFrame": 898,
+      "sentenceIds": [
+        17
+      ],
+      "relation": "reduction",
+      "purpose": "移去部分负担，非清空负债",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "两块负担移走，托盘减压，仍有一块负担",
+      "result": "移去部分负担，非清空负债",
+      "readWindow": [
+        880,
+        896
+      ],
+      "handoff": "同一承重台重组用途，接触点与结果连续"
+    },
+    {
+      "id": "s9",
+      "startFrame": 898,
+      "endFrame": 1100,
+      "sentenceIds": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "relation": "recap-return",
+      "purpose": "回到真人和已经形成的三项判断",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "承重台保留三项结果后让回真人",
+      "result": "回到真人和已经形成的三项判断",
+      "readWindow": [
+        960,
+        1100
+      ],
+      "handoff": "同一承重台重组用途，接触点与结果连续"
+    }
+  ],
+  "assetTasks": {
+    "headphones": "已有同类、额外加购对照",
+    "groceries": "日常需要的示意",
+    "principal": "原文本金受损，之后守住剩余",
+    "promotion": "原文夸大收益说法及其风险",
+    "debt": "原文负担增减，不是清零承诺"
+  }
+}

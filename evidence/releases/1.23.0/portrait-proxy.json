@@ -1,0 +1,38 @@
+{
+  "ok": true,
+  "checks": [
+    {
+      "frame": 130,
+      "mae": 0.0,
+      "bias": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 657,
+      "mae": 0.0,
+      "bias": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 925,
+      "mae": 0.0,
+      "bias": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "proxyHashes": {
+    "ink-relay": "0cdfbd58c2cc1405eed5756d2c90a68bd0900cdab4378cecd1fb10d94a3562b7",
+    "precision-tracking": "0cdfbd58c2cc1405eed5756d2c90a68bd0900cdab4378cecd1fb10d94a3562b7",
+    "clay-consequence": "0cdfbd58c2cc1405eed5756d2c90a68bd0900cdab4378cecd1fb10d94a3562b7"
+  },
+  "scope": "Rebuilt ungraded crop/resize vs approved proxy at same original-source time. Byte encoding differs; measured RGB tolerance <3/255. Original final MP4 hashes remain unchanged."
+}

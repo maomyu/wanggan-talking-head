@@ -1,0 +1,17 @@
+{
+  "status": "designed",
+  "sourceBinding": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "combination": "柔质立体 × 动作与后果",
+  "axis": "art-style",
+  "identityRules": [
+    "中央立体舞台、宽大短标题、外层清晰标签",
+    "落物、受压、失衡、拦截与卸载，动作各有结果",
+    "真实三维斜视与有限横移，近景只看关键接触"
+  ],
+  "referencePrinciples": "继承正式母画风身份，当前组合重新设计；不复制原8条纸本排版",
+  "driftChecks": [
+    "人物不风格化",
+    "换掉强调色仍能辨认三种空间语言",
+    "不会只有图片漂移"
+  ]
+}

@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import {fileURLToPath} from 'node:url';
+import {checkCombinationLibrary} from '../runtime/combinations.mjs';
 import {checkCollaborationLibrary} from '../runtime/collaboration.mjs';
 import {checkCompositionLibrary} from '../runtime/choreography.mjs';
 
@@ -77,4 +78,5 @@ check('sealed source manifest',()=>{
 });
 check('choreography library and source versions',checkCompositionLibrary);
 check('eleven-axis registries and approved recipes',checkCollaborationLibrary);
+check('approved combinations and preserved plans',checkCombinationLibrary);
 const result={ok:checks.every(c=>c.ok),root,checks};console.log(JSON.stringify(result,null,2));if(!result.ok)process.exitCode=1;

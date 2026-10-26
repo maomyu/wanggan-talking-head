@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 2,
+  "collaborationVersion": 1,
+  "id": "approved-combination-precision-tracking",
+  "name": "precision-tracking",
+  "recipeId": "precision",
+  "orchestration": {
+    "id": "tracking",
+    "selection": "agent-reasoned",
+    "reason": "跟风消费、盲目打理和夸大收益是待检查对象；稳定坐标、追踪框与保留的证据状态适合逐项核查，不能伪造金融监测值。"
+  },
+  "status": "approved-reference-implementation",
+  "renderer": "custom",
+  "request": "自主搭配：精密界面 × 追踪与锁定",
+  "sourcePolicy": {
+    "schemaVersion": 1,
+    "productionSpeaker": "user",
+    "productionVoice": "original-user-source",
+    "selectionOrder": [
+      "current-explicit-user-material",
+      "previously-confirmed-user-owned-material"
+    ],
+    "thirdPartyNarration": "reference-only-unless-user-explicitly-selects-for-this-task",
+    "whenMissing": "ask-for-user-material; do not substitute another speaker",
+    "runtimeBoundary": "This policy guides material selection. A local path or source argument does not prove ownership; use the user context.",
+    "preserve": [
+      "person-original-color",
+      "corner-true-circle-through-movement",
+      "captions-raised"
+    ]
+  },
+  "sourceSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "referenceFixture": true,
+  "userApproved": true,
+  "approvalDate": "2026-10-26",
+  "combinationId": "precision-tracking",
+  "timingContract": "source-bound-frame-functions-v1"
+}

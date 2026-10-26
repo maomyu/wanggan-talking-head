@@ -1,0 +1,17 @@
+{
+  "status": "designed",
+  "sourceBinding": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "combination": "精密界面 × 追踪与锁定",
+  "axis": "art-style",
+  "identityRules": [
+    "左侧章节索引、右侧证据工作台、底部结果条",
+    "一个观察框逐项锁定；光标落定后才更新结果",
+    "固定对照坐标，局部放大收益说法的背面"
+  ],
+  "referencePrinciples": "继承正式母画风身份，当前组合重新设计；不复制原8条纸本排版",
+  "driftChecks": [
+    "人物不风格化",
+    "换掉强调色仍能辨认三种空间语言",
+    "不会只有图片漂移"
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "id": "precision",
+  "name": "精密界面",
+  "mode": "design-recipe",
+  "status": "user-approved",
+  "hierarchy": {
+    "familyId": "F07",
+    "branchId": null,
+    "baseLegacyId": "A08"
+  },
+  "selections": {
+    "information": [
+      "problem-mechanism-response",
+      "parallel-options",
+      "option-comparison",
+      "contrast-turn",
+      "recap-return"
+    ],
+    "rhythm": [
+      "speech-led",
+      "reveal-hold-release",
+      "progressive-build",
+      "setup-payoff",
+      "ending-resolve"
+    ],
+    "art-style": [
+      "F07"
+    ],
+    "palette": [
+      "neutral-one-accent"
+    ],
+    "material": [
+      "matte"
+    ],
+    "representation": [
+      "flat-symbol",
+      "inset-stage"
+    ],
+    "object-motion": [
+      "sort-compare",
+      "accumulate-reduce",
+      "reveal-consequence",
+      "motivated-move"
+    ],
+    "camera": [
+      "locked-stage",
+      "wide-detail-return"
+    ],
+    "transition": [
+      "object-match",
+      "relation-expand"
+    ],
+    "typography": [
+      "raised-captions",
+      "clean-sans",
+      "comparison-alignment"
+    ],
+    "lighting": [
+      "flat-print-light"
+    ]
+  },
+  "overrides": {
+    "notes": "用户已认可本案例的完整十一类配方。人物原色、角落真圆、上移字幕；换素材重新设计，不泛化为任意组合已验收。"
+  },
+  "caseId": "precision-tracking",
+  "sourceRequiredForProduction": true,
+  "implementation": {
+    "kind": "source-specific-reference",
+    "path": "examples/combinations/precision-tracking",
+    "sourceSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+    "videoSha256": "1d66116337177a29cad531c34f0082f2f78bc75935f0fd52edc88c7b7892b178",
+    "buildMode": "approved-combination-case",
+    "frames": 1100,
+    "fps": 30,
+    "vendor": false,
+    "voiceSha256": "9542b039523dc462a2637176fb17b1bf73ebf0f8675145a597ba5e26ef211cdf",
+    "timingContract": "source-bound-frame-functions-v1"
+  },
+  "productionRules": {
+    "layout": "功能区域、标注和状态反馈形成解释面板",
+    "objectMotion": "展开结构、扫描定位、切换真实状态；不用虚假仪表数字",
+    "camera": "固定结构的局部取景与尺度标尺",
+    "transition": "共享轴线/定位框延续上下文",
+    "typography": "高对比无衬线，标尺退为次级信息",
+    "preserve": [
+      "结构标注",
+      "功能层级",
+      "有意义的状态"
+    ],
+    "adaptOnNewContent": [
+      "原句和关系",
+      "每张图片的任务",
+      "对象初态、动作及结果",
+      "阅读窗口",
+      "前后交接",
+      "真实源时间与字幕"
+    ],
+    "neverInheritAsDefault": [
+      "当前财经物件",
+      "示意数量",
+      "固定秒点",
+      "固定三项建议",
+      "本片人像位置"
+    ]
+  },
+  "axisReferences": {
+    "art-style": {
+      "skill": "skills/talking-head-art-style/SKILL.md",
+      "casePlan": "examples/combinations/precision-tracking/plans/style-contract.json",
+      "sha256": "ce22de8b601bcbf97c7840cdc0c41bd66decad3095ab0c645f4807d3f89fbe6f",
+      "scope": "本组合实际计划；新素材重新设计"
+    },
+    "palette": {
+      "skill": "skills/talking-head-palette/SKILL.md",
+      "casePlan": "examples/combinations/precision-tracking/plans/palette-tokens.json",
+      "sha256": "bf97e287f021f4dea2499efae019e2103ee39de7d4000f57bd2419d18a147956",
+      "scope": "本组合实际计划；新素材重新设计"
+    },
+    "material": {
+      "skill": "skills/talking-head-material/SKILL.md",
+      "casePlan": "examples/combinations/precision-tracking/plans/material-tokens.json",
+      "sha256": "6ab5d67a2166798b6791612af29b38dff01c81fe6bfc6f32a8286e373f72232d",
+      "scope": "本组合实际计划；新素材重新设计"
+    },
+    "representation": {
+      "skill": "skills/talking-head-representation/SKILL.md",
+      "casePlan": "examples/combinations/precision-tracking/plans/object-spec.json",
+      "sha256": "5695348519b75baf78b8e576ecb7c1a6b7f6ad7e8fbb5f592b64ec2cc7eda1ef",
+      "scope": "本组合实际计划；新素材重新设计"
+    },
+    "object-motion": {
+      "skill": "skills/talking-head-object-motion/SKILL.md",
+      "casePlan": "examples/combinations/precision-tracking/plans/motion-events.json",
+      "sha256": "0cb9bfff3a0575368450af615441cb759bd14dd4954757f19ebb25843a24224f",
+      "scope": "本组合实际计划；新素材重新设计"
+    },
+    "camera": {
+      "skill": "skills/talking-head-camera/SKILL.md",
+      "casePlan": "examples/combinations/precision-tracking/plans/camera-plan.json",
+      "sha256": "1806f6e9262ea85b01eb5d2ae514728e54f447bb2e82742484f9aa3a563b7f85",
+      "scope": "本组合实际计划；新素材重新设计"
+    },
+    "transition": {
+      "skill": "skills/talking-head-transition/SKILL.md",
+      "casePlan": "examples/combinations/precision-tracking/plans/transition-plan.json",
+      "sha256": "50865cec5ea1cc9dde802636a52816a86296072982fe633cec2b90013199203c",
+      "scope": "本组合实际计划；新素材重新设计"
+    },
+    "typography": {
+      "skill": "skills/talking-head-typography/SKILL.md",
+      "casePlan": "examples/combinations/precision-tracking/plans/layout-plan.json",
+      "sha256": "65cd2b62f7f1e22f6327a4d31b8abc74d7b3c8b4a6594735d39db9ea0fc80630",
+      "scope": "本组合实际计划；新素材重新设计"
+    },
+    "lighting": {
+      "skill": "skills/talking-head-lighting/SKILL.md",
+      "casePlan": "examples/combinations/precision-tracking/plans/finish-plan.json",
+      "sha256": "953f465a27609cd3b7e67dbce099233fe66a71b04a379e8d2909042bcae4abc3",
+      "scope": "本组合实际计划；新素材重新设计"
+    },
+    "information": {
+      "skill": "skills/talking-head-information/SKILL.md",
+      "casePlan": "examples/combinations/precision-tracking/plans/semantic-plan.json",
+      "sha256": "69b7eedda15beb4bd8109d01b4a2ac127d0c13c9b80bad40fc8aa82bb47515f0",
+      "scope": "本组合实际计划；新素材重新设计"
+    },
+    "rhythm": {
+      "skill": "skills/talking-head-rhythm/SKILL.md",
+      "casePlan": "examples/combinations/precision-tracking/plans/timing.json",
+      "sha256": "2fc47d57a189b323c05dac3527c9fa173634d40d5a56ee11f92f34466597ca42",
+      "scope": "本组合实际计划；新素材重新设计"
+    }
+  },
+  "approvalDate": "2026-10-26"
+}

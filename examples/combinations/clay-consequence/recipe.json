@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "id": "clay",
+  "name": "柔质立体",
+  "mode": "design-recipe",
+  "selections": {
+    "art-style": [
+      "soft-volume"
+    ],
+    "palette": [
+      "soft-earth"
+    ],
+    "material": [
+      "soft-clay",
+      "matte"
+    ],
+    "representation": [
+      "physical-model",
+      "inset-stage"
+    ],
+    "object-motion": [
+      "mechanism-transform",
+      "accumulate-reduce",
+      "motivated-move",
+      "reveal-consequence"
+    ],
+    "camera": [
+      "orthographic-space",
+      "follow-object"
+    ],
+    "transition": [
+      "object-match"
+    ],
+    "typography": [
+      "clean-sans",
+      "keyword-scene",
+      "raised-captions"
+    ],
+    "lighting": [
+      "even-soft",
+      "contact-shadow"
+    ],
+    "information": [
+      "problem-mechanism-response",
+      "parallel-options",
+      "option-comparison",
+      "contrast-turn",
+      "recap-return"
+    ],
+    "rhythm": [
+      "speech-led",
+      "reveal-hold-release",
+      "contrast-pulse",
+      "ending-resolve"
+    ]
+  },
+  "overrides": {
+    "notes": "参数见本片十一份专业产物；人物原色、圆窗、字幕与原声保护保持。"
+  },
+  "sourceRequiredForProduction": true,
+  "caseId": "clay-consequence",
+  "status": "user-approved",
+  "hierarchy": {
+    "familyId": "F11",
+    "branchId": null,
+    "baseLegacyId": "A14"
+  },
+  "implementation": {
+    "kind": "source-specific-reference",
+    "path": "examples/combinations/clay-consequence",
+    "sourceSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+    "videoSha256": "851031ba0cd513dcbc8504cea8d1dc0d9e77e339885452fe8eab751f8afaeda4",
+    "buildMode": "approved-combination-case",
+    "frames": 1100,
+    "fps": 30,
+    "vendor": true,
+    "voiceSha256": "9542b039523dc462a2637176fb17b1bf73ebf0f8675145a597ba5e26ef211cdf",
+    "timingContract": "source-bound-frame-functions-v1"
+  },
+  "productionRules": {
+    "layout": "真实体量、接触和投影承载对象关系",
+    "objectMotion": "部件真实分离/归位/消减，不能平面图冒充空间动作",
+    "camera": "有动机的三维机位与焦点交接",
+    "transition": "共享部件、接触面或相同空间锚点接续",
+    "typography": "文字独立清楚层，避免跟随三维透视变小",
+    "preserve": [
+      "实体体积",
+      "接触与投影",
+      "空间及材料行为"
+    ],
+    "adaptOnNewContent": [
+      "原句和关系",
+      "每张图片的任务",
+      "对象初态、动作及结果",
+      "阅读窗口",
+      "前后交接",
+      "真实源时间与字幕"
+    ],
+    "neverInheritAsDefault": [
+      "当前财经物件",
+      "示意数量",
+      "固定秒点",
+      "固定三项建议",
+      "本片人像位置"
+    ]
+  },
+  "axisReferences": {
+    "art-style": {
+      "skill": "skills/talking-head-art-style/SKILL.md",
+      "casePlan": "examples/combinations/clay-consequence/plans/style-contract.json",
+      "sha256": "8986a7db74e277d83d02ba4014831f8d121af6ed87e89cfefddc3036084a3f6d",
+      "scope": "本组合实际计划；新素材重新设计"
+    },
+    "palette": {
+      "skill": "skills/talking-head-palette/SKILL.md",
+      "casePlan": "examples/combinations/clay-consequence/plans/palette-tokens.json",
+      "sha256": "93599e35558e7362af2710d0e10458b19d52bc6cc0d8335206c587d0d350e651",
+      "scope": "本组合实际计划；新素材重新设计"
+    },
+    "material": {
+      "skill": "skills/talking-head-material/SKILL.md",
+      "casePlan": "examples/combinations/clay-consequence/plans/material-tokens.json",
+      "sha256": "78bcad3b295d6714e1b2c205fed61a4056926290b027718190c27692a769ec47",
+      "scope": "本组合实际计划；新素材重新设计"
+    },
+    "representation": {
+      "skill": "skills/talking-head-representation/SKILL.md",
+      "casePlan": "examples/combinations/clay-consequence/plans/object-spec.json",
+      "sha256": "44b896d8347028d12adf0fff0a3531830b7ae2a43a1e356312154f3d7bca3912",
+      "scope": "本组合实际计划；新素材重新设计"
+    },
+    "object-motion": {
+      "skill": "skills/talking-head-object-motion/SKILL.md",
+      "casePlan": "examples/combinations/clay-consequence/plans/motion-events.json",
+      "sha256": "fb8938c6e024a57004378b40d0881149daa8ad7d17bffef93b2d72ceef6534b7",
+      "scope": "本组合实际计划；新素材重新设计"
+    },
+    "camera": {
+      "skill": "skills/talking-head-camera/SKILL.md",
+      "casePlan": "examples/combinations/clay-consequence/plans/camera-plan.json",
+      "sha256": "6e80dc246dc07257c32ea2dc35621fe8e627c71c8f9a555f7913e8f601bad7b0",
+      "scope": "本组合实际计划；新素材重新设计"
+    },
+    "transition": {
+      "skill": "skills/talking-head-transition/SKILL.md",
+      "casePlan": "examples/combinations/clay-consequence/plans/transition-plan.json",
+      "sha256": "63e6f0ea044435aaa2de4f8dc3f8b545021ed3a84fe6a49342b3fc41fe65ca83",
+      "scope": "本组合实际计划；新素材重新设计"
+    },
+    "typography": {
+      "skill": "skills/talking-head-typography/SKILL.md",
+      "casePlan": "examples/combinations/clay-consequence/plans/layout-plan.json",
+      "sha256": "21ea93c9db1da0a40f39067b15791e44940c6988aa34e2138959401e97133dc6",
+      "scope": "本组合实际计划；新素材重新设计"
+    },
+    "lighting": {
+      "skill": "skills/talking-head-lighting/SKILL.md",
+      "casePlan": "examples/combinations/clay-consequence/plans/finish-plan.json",
+      "sha256": "4ba7001b6144d0fd0a16f37ff579008865d2dacc562f698ac34952ea94c9e126",
+      "scope": "本组合实际计划；新素材重新设计"
+    },
+    "information": {
+      "skill": "skills/talking-head-information/SKILL.md",
+      "casePlan": "examples/combinations/clay-consequence/plans/semantic-plan.json",
+      "sha256": "340f2b97a5b314a2d4e440dc0837cb726efd050f2e871fd842f7be6e169a7f0b",
+      "scope": "本组合实际计划；新素材重新设计"
+    },
+    "rhythm": {
+      "skill": "skills/talking-head-rhythm/SKILL.md",
+      "casePlan": "examples/combinations/clay-consequence/plans/timing.json",
+      "sha256": "45ba99b80be017a66ac140cc0fb49139bd05059df3331ab4d3af6095e673cbe0",
+      "scope": "本组合实际计划；新素材重新设计"
+    }
+  },
+  "approvalDate": "2026-10-26"
+}

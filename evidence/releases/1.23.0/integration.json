@@ -1,0 +1,353 @@
+{
+  "ok": true,
+  "version": "1.23.0",
+  "counts": {
+    "mothers": 19,
+    "mechanisms": 8,
+    "axes": 11,
+    "combinations": 3
+  },
+  "cases": [
+    {
+      "name": "3 init presets retain new-content design gate; no copied scene/timing/old-script",
+      "passed": true
+    },
+    {
+      "name": "wrong-source rejection and reasoned auto gate preserved",
+      "passed": true
+    },
+    {
+      "name": "rhythm revision preserves mechanism and other ten plans; tampering rejected",
+      "passed": true
+    }
+  ],
+  "parity": [
+    {
+      "id": "ink-relay",
+      "filesEqual": [
+        "scripts/film.mjs",
+        "scripts/ink-world.mjs",
+        "scripts/film.css",
+        "scripts/composition.template",
+        "assets/config.js",
+        "assets/film.css",
+        "assets/life-objects.png",
+        "assets/edited-voice.wav",
+        "timing.json",
+        "scene-plan.json",
+        "edit-plan.json"
+      ],
+      "sourceSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+      "referenceVideoSha256": "7dca0d7d44291df1dac3ca655f4939858df316c32ad6bb91708a1f5fa56ac1aa",
+      "personProxyByteIdentical": false
+    },
+    {
+      "id": "precision-tracking",
+      "filesEqual": [
+        "scripts/film.mjs",
+        "scripts/precision-world.mjs",
+        "scripts/film.css",
+        "scripts/composition.template",
+        "assets/config.js",
+        "assets/film.css",
+        "assets/life-objects.png",
+        "assets/edited-voice.wav",
+        "timing.json",
+        "scene-plan.json",
+        "edit-plan.json"
+      ],
+      "sourceSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+      "referenceVideoSha256": "1d66116337177a29cad531c34f0082f2f78bc75935f0fd52edc88c7b7892b178",
+      "personProxyByteIdentical": false
+    },
+    {
+      "id": "clay-consequence",
+      "filesEqual": [
+        "scripts/film.mjs",
+        "scripts/clay-world.mjs",
+        "scripts/film.css",
+        "scripts/composition.template",
+        "assets/config.js",
+        "assets/film.css",
+        "assets/life-objects.png",
+        "assets/edited-voice.wav",
+        "timing.json",
+        "scene-plan.json",
+        "edit-plan.json"
+      ],
+      "sourceSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+      "referenceVideoSha256": "851031ba0cd513dcbc8504cea8d1dc0d9e77e339885452fe8eab751f8afaeda4",
+      "personProxyByteIdentical": false
+    }
+  ],
+  "frames": [
+    {
+      "id": "ink-relay",
+      "frames": 1100,
+      "issues": [],
+      "reverseSeek": true,
+      "authoredStateParity": 10,
+      "pixelChecks": [
+        {
+          "frame": 0,
+          "canvas": 0,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 130,
+          "canvas": 0,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 324,
+          "canvas": 0,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 435,
+          "canvas": 0,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 570,
+          "canvas": 0,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 657,
+          "canvas": 0,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 768,
+          "canvas": 0,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 870,
+          "canvas": 0,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 925,
+          "canvas": 0,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 1099,
+          "canvas": 0,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        }
+      ]
+    },
+    {
+      "id": "precision-tracking",
+      "frames": 1100,
+      "issues": [],
+      "reverseSeek": true,
+      "authoredStateParity": 10,
+      "pixelChecks": [
+        {
+          "frame": 0,
+          "canvas": 0,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 130,
+          "canvas": 0,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 324,
+          "canvas": 0,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 435,
+          "canvas": 0,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 570,
+          "canvas": 0,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 657,
+          "canvas": 0,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 768,
+          "canvas": 0,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 870,
+          "canvas": 0,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 925,
+          "canvas": 0,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 1099,
+          "canvas": 0,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        }
+      ]
+    },
+    {
+      "id": "clay-consequence",
+      "frames": 1100,
+      "issues": [],
+      "reverseSeek": true,
+      "authoredStateParity": 10,
+      "pixelChecks": [
+        {
+          "frame": 0,
+          "canvas": 0,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 0,
+          "canvas": 1,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 130,
+          "canvas": 0,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 130,
+          "canvas": 1,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 324,
+          "canvas": 0,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 324,
+          "canvas": 1,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 435,
+          "canvas": 0,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 435,
+          "canvas": 1,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 570,
+          "canvas": 0,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 570,
+          "canvas": 1,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 657,
+          "canvas": 0,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 657,
+          "canvas": 1,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 768,
+          "canvas": 0,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 768,
+          "canvas": 1,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 870,
+          "canvas": 0,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 870,
+          "canvas": 1,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 925,
+          "canvas": 0,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 925,
+          "canvas": 1,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 1099,
+          "canvas": 0,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 1099,
+          "canvas": 1,
+          "mean": 0,
+          "largeDeltaFraction": 0
+        }
+      ]
+    }
+  ],
+  "scope": "3 source-bound CLI rebuilds, 3300 authored-frame safety checks, 30 state comparisons and 40 canvas parity comparisons including real Three.js. Approved full MP4s reused by SHA; no new full encode or cross-script claim."
+}

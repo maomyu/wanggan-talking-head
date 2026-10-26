@@ -1,0 +1,23 @@
+{
+  "source": "assets/master.mp4",
+  "sha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "frame": 657,
+  "crop": [
+    0,
+    180,
+    1080,
+    1080
+  ],
+  "scale": [
+    840,
+    840
+  ],
+  "meanAbsoluteRGBError": 1.0895072751322752,
+  "meanChannelBias": [
+    -0.2111890589569161,
+    -0.033280895691609975,
+    -0.24073837868480727
+  ],
+  "passed": true,
+  "scope": "Ungraded source crop and resize vs existing proxy, compression/resampling tolerance"
+}

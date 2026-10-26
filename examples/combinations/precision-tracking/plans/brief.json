@@ -1,0 +1,24 @@
+{
+  "status": "designed",
+  "request": "自主选择三组显著不同的组合，完整视频，同页在线播放，只在test，源人物与原声保留",
+  "choice": {
+    "key": "precision-tracking",
+    "recipe": "precision",
+    "mechanism": "tracking",
+    "name": "精密界面 × 追踪与锁定",
+    "title": "跟风之前，先看清",
+    "color": "#73d8b3",
+    "bg": "#142927",
+    "fg": "#eff5ed",
+    "muted": "#a9bdb2",
+    "detail": "稳定的观察矩阵和一个追踪框，把“看过”变成明确的检查结果。",
+    "layout": "左侧章节索引、右侧证据工作台、底部结果条",
+    "motion": "一个观察框逐项锁定；光标落定后才更新结果",
+    "camera": "固定对照坐标，局部放大收益说法的背面",
+    "transition": "焦点框移交阅读目标，保留已核查状态"
+  },
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 36.666666666666664
+}

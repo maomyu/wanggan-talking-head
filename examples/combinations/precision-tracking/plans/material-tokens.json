@@ -1,0 +1,9 @@
+{
+  "status": "designed",
+  "sourceBinding": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "combination": "精密界面 × 追踪与锁定",
+  "axis": "material",
+  "surfaceAssignments": "深绿哑光仪表底、清楚硬边与原色物件照片",
+  "textureScale": "随对象固定；纸面纹理固定种子",
+  "edgeTreatment": "文字和真人不接受纹理滤镜"
+}

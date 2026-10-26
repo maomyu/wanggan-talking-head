@@ -1,0 +1,9 @@
+{
+  "status": "designed",
+  "sourceBinding": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "combination": "柔质立体 × 动作与后果",
+  "axis": "material",
+  "surfaceAssignments": "粗糙度0.72的真实3D软陶体，接触阴影，人物豁免",
+  "textureScale": "随对象固定；纸面纹理固定种子",
+  "edgeTreatment": "文字和真人不接受纹理滤镜"
+}

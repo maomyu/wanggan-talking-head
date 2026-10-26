@@ -1,0 +1,15 @@
+{
+  "status": "designed",
+  "sourceBinding": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "combination": "水墨写意 × 同物接力",
+  "axis": "camera",
+  "shotFraming": "右侧竖题、左侧内容场、书写式留白",
+  "viewTransforms": "固定纸面为主；同一墨圈收放承接观察范围",
+  "focusTargets": [
+    "purchase",
+    "principal",
+    "promotion",
+    "debt"
+  ],
+  "person": "人物屏幕空间独立，角落真圆，全程等比"
+}

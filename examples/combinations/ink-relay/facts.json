@@ -1,0 +1,259 @@
+{
+  "sourceSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "claims": [
+    {
+      "id": 1,
+      "quote": "为什么越努力上班越存不到钱",
+      "source": "assets/master.mp4",
+      "range": [
+        0,
+        58
+      ]
+    },
+    {
+      "id": 2,
+      "quote": "今天就给普通人讲一讲",
+      "source": "assets/master.mp4",
+      "range": [
+        58,
+        95
+      ]
+    },
+    {
+      "id": 3,
+      "quote": "当下最接地气的财富真相",
+      "source": "assets/master.mp4",
+      "range": [
+        95,
+        149
+      ]
+    },
+    {
+      "id": 4,
+      "quote": "很多人习惯跟风消费",
+      "source": "assets/master.mp4",
+      "range": [
+        149,
+        198
+      ]
+    },
+    {
+      "id": 5,
+      "quote": "盲目打理资产",
+      "source": "assets/master.mp4",
+      "range": [
+        198,
+        224
+      ]
+    },
+    {
+      "id": 6,
+      "quote": "要么透支负债前行",
+      "source": "assets/master.mp4",
+      "range": [
+        224,
+        266
+      ]
+    },
+    {
+      "id": 7,
+      "quote": "要么跟风盲目炒股",
+      "source": "assets/master.mp4",
+      "range": [
+        266,
+        310
+      ]
+    },
+    {
+      "id": 8,
+      "quote": "最后本金受损",
+      "source": "assets/master.mp4",
+      "range": [
+        310,
+        349
+      ]
+    },
+    {
+      "id": 9,
+      "quote": "生活压力越来越大",
+      "source": "assets/master.mp4",
+      "range": [
+        349,
+        388
+      ]
+    },
+    {
+      "id": 10,
+      "quote": "给大家三个普通人的财经底线",
+      "source": "assets/master.mp4",
+      "range": [
+        388,
+        461
+      ]
+    },
+    {
+      "id": 11,
+      "quote": "第一，砍掉无效消费",
+      "source": "assets/master.mp4",
+      "range": [
+        461,
+        516
+      ]
+    },
+    {
+      "id": 12,
+      "quote": "戒掉冲动的购物",
+      "source": "assets/master.mp4",
+      "range": [
+        516,
+        563
+      ]
+    },
+    {
+      "id": 13,
+      "quote": "分清楚想要和需要",
+      "source": "assets/master.mp4",
+      "range": [
+        563,
+        616
+      ]
+    },
+    {
+      "id": 14,
+      "quote": "第二守住本金永远优先",
+      "source": "assets/master.mp4",
+      "range": [
+        616,
+        686
+      ]
+    },
+    {
+      "id": 15,
+      "quote": "市面上夸大收益理财的都暗藏风险",
+      "source": "assets/master.mp4",
+      "range": [
+        686,
+        783
+      ]
+    },
+    {
+      "id": 16,
+      "quote": "普通人要远离投机跟炒作",
+      "source": "assets/master.mp4",
+      "range": [
+        783,
+        856
+      ]
+    },
+    {
+      "id": 17,
+      "quote": "第三减少负债",
+      "source": "assets/master.mp4",
+      "range": [
+        856,
+        898
+      ]
+    },
+    {
+      "id": 18,
+      "quote": "财富从来不是靠蛮力争取的",
+      "source": "assets/master.mp4",
+      "range": [
+        898,
+        959
+      ]
+    },
+    {
+      "id": 19,
+      "quote": "而是靠认知筛选",
+      "source": "assets/master.mp4",
+      "range": [
+        959,
+        1003
+      ]
+    },
+    {
+      "id": 20,
+      "quote": "不跟风不浮躁",
+      "source": "assets/master.mp4",
+      "range": [
+        1003,
+        1036
+      ]
+    },
+    {
+      "id": 21,
+      "quote": "才是普通人该走的路",
+      "source": "assets/master.mp4",
+      "range": [
+        1036,
+        1100
+      ]
+    }
+  ],
+  "illustrationNotice": "物件与数量均为解释示意，不代表用户个人资产或负债；源片观点未进行外部金融事实核查",
+  "addedFinancialClaims": [],
+  "currentCombination": "水墨写意 × 同物接力",
+  "illustrationBindings": [
+    {
+      "objects": [
+        "purchase",
+        "duplicate",
+        "food"
+      ],
+      "sourceClaimIds": [
+        4,
+        11,
+        12,
+        13
+      ],
+      "scope": "物件只是解释需要与想要的例子，不是用户购买经历"
+    },
+    {
+      "objects": [
+        "principal"
+      ],
+      "sourceClaimIds": [
+        5,
+        7,
+        8,
+        14
+      ],
+      "scope": "六到四是示意数量，不是金额或损失比例；之后不恢复"
+    },
+    {
+      "objects": [
+        "promotion",
+        "risk"
+      ],
+      "sourceClaimIds": [
+        15,
+        16
+      ],
+      "scope": "高回报是夸大收益说法的示意，不是真实产品宣传或引文"
+    },
+    {
+      "objects": [
+        "debt"
+      ],
+      "sourceClaimIds": [
+        6,
+        9,
+        17
+      ],
+      "scope": "三到一只是减少示意，不承诺清零"
+    },
+    {
+      "objects": [
+        "carrier"
+      ],
+      "sourceClaimIds": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "scope": "朱印、追踪框、承重台是导演解释比喻，不新增财经事实"
+    }
+  ]
+}

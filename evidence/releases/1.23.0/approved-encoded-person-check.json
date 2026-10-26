@@ -1,0 +1,168 @@
+{
+  "ok": true,
+  "scope": "Actual encoded MP4 inside face vs same-frame ungraded proxy; encoding/resampling tolerance, not exact RGB equality. Entry, corner and return phases; outside-circle background probes.",
+  "results": [
+    {
+      "key": "ink-relay",
+      "frame": 130,
+      "personRect": [
+        482,
+        988,
+        441,
+        441
+      ],
+      "innerMeanAbsoluteRGBError": 2.6801193361610447,
+      "innerChannelBias": [
+        -2.308271056352252,
+        -1.8348818420521107,
+        -2.0563648757826702
+      ],
+      "outsideCircleBackgroundError": 2.421104536489152,
+      "passed": true
+    },
+    {
+      "key": "ink-relay",
+      "frame": 657,
+      "personRect": [
+        750,
+        1290,
+        265,
+        265
+      ],
+      "innerMeanAbsoluteRGBError": 2.4917962003454233,
+      "innerChannelBias": [
+        -2.590008402184568,
+        -1.940764598795687,
+        -2.2811931102086542
+      ],
+      "outsideCircleBackgroundError": 2.43359375,
+      "passed": true
+    },
+    {
+      "key": "ink-relay",
+      "frame": 925,
+      "personRect": [
+        595,
+        1109,
+        364,
+        364
+      ],
+      "innerMeanAbsoluteRGBError": 3.291497550518623,
+      "innerChannelBias": [
+        -2.5200808050855312,
+        -1.883184758233408,
+        -2.2325740867728006
+      ],
+      "outsideCircleBackgroundError": 2.3333333333333335,
+      "passed": true
+    },
+    {
+      "key": "precision-tracking",
+      "frame": 130,
+      "personRect": [
+        508,
+        984,
+        458,
+        458
+      ],
+      "innerMeanAbsoluteRGBError": 2.309321124264743,
+      "innerChannelBias": [
+        -2.2706408590063347,
+        -1.7901898104237655,
+        -2.0270254446669242
+      ],
+      "outsideCircleBackgroundError": 1.6666666666666667,
+      "passed": true
+    },
+    {
+      "key": "precision-tracking",
+      "frame": 657,
+      "personRect": [
+        750,
+        1290,
+        265,
+        265
+      ],
+      "innerMeanAbsoluteRGBError": 2.4788311627689867,
+      "innerChannelBias": [
+        -2.5377048032488445,
+        -1.95004201092284,
+        -2.2706903794986695
+      ],
+      "outsideCircleBackgroundError": 1.6666666666666667,
+      "passed": true
+    },
+    {
+      "key": "precision-tracking",
+      "frame": 925,
+      "personRect": [
+        617,
+        1109,
+        359,
+        359
+      ],
+      "innerMeanAbsoluteRGBError": 2.8934652232471856,
+      "innerChannelBias": [
+        -2.4576122589006633,
+        -1.8846344438514904,
+        -2.14675611801479
+      ],
+      "outsideCircleBackgroundError": 1.6666666666666667,
+      "passed": true
+    },
+    {
+      "key": "clay-consequence",
+      "frame": 130,
+      "personRect": [
+        113,
+        984,
+        458,
+        458
+      ],
+      "innerMeanAbsoluteRGBError": 2.6965297049605197,
+      "innerChannelBias": [
+        -2.224458729991452,
+        -1.791360756899802,
+        -1.9676584583318697
+      ],
+      "outsideCircleBackgroundError": 3.6666666666666665,
+      "passed": true
+    },
+    {
+      "key": "clay-consequence",
+      "frame": 657,
+      "personRect": [
+        64,
+        1290,
+        265,
+        265
+      ],
+      "innerMeanAbsoluteRGBError": 2.483674088596368,
+      "innerChannelBias": [
+        -2.52751715446016,
+        -1.9674765439014144,
+        -2.2608178126312843
+      ],
+      "outsideCircleBackgroundError": 3.6497395833333335,
+      "passed": true
+    },
+    {
+      "key": "clay-consequence",
+      "frame": 925,
+      "personRect": [
+        103,
+        1109,
+        359,
+        359
+      ],
+      "innerMeanAbsoluteRGBError": 2.909430510025158,
+      "innerChannelBias": [
+        -2.474079438896089,
+        -1.8756956621178622,
+        -2.1433635739879544
+      ],
+      "outsideCircleBackgroundError": 3.6666666666666665,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "designed",
+  "sourceBinding": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "combination": "柔质立体 × 动作与后果",
+  "axis": "camera",
+  "shotFraming": "中央立体舞台、宽大短标题、外层清晰标签",
+  "viewTransforms": "真实三维斜视与有限横移，近景只看关键接触",
+  "focusTargets": [
+    "purchase",
+    "principal",
+    "promotion",
+    "debt"
+  ],
+  "person": "人物屏幕空间独立，角落真圆，全程等比"
+}

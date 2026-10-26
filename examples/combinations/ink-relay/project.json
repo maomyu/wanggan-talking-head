@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 2,
+  "collaborationVersion": 1,
+  "id": "approved-combination-ink-relay",
+  "name": "ink-relay",
+  "recipeId": "ink",
+  "orchestration": {
+    "id": "relay",
+    "selection": "agent-reasoned",
+    "reason": "同一枚判断印贯穿消费、本金、负债，笔势与印记留下选择结果，三条建议并列，水墨留白让结论停稳。"
+  },
+  "status": "approved-reference-implementation",
+  "renderer": "custom",
+  "request": "自主搭配：水墨写意 × 同物接力",
+  "sourcePolicy": {
+    "schemaVersion": 1,
+    "productionSpeaker": "user",
+    "productionVoice": "original-user-source",
+    "selectionOrder": [
+      "current-explicit-user-material",
+      "previously-confirmed-user-owned-material"
+    ],
+    "thirdPartyNarration": "reference-only-unless-user-explicitly-selects-for-this-task",
+    "whenMissing": "ask-for-user-material; do not substitute another speaker",
+    "runtimeBoundary": "This policy guides material selection. A local path or source argument does not prove ownership; use the user context.",
+    "preserve": [
+      "person-original-color",
+      "corner-true-circle-through-movement",
+      "captions-raised"
+    ]
+  },
+  "sourceSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "referenceFixture": true,
+  "userApproved": true,
+  "approvalDate": "2026-10-26",
+  "combinationId": "ink-relay",
+  "timingContract": "source-bound-frame-functions-v1"
+}

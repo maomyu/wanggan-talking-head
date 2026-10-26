@@ -1,0 +1,15 @@
+{
+  "status": "designed",
+  "sourceBinding": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "combination": "水墨写意 × 同物接力",
+  "axis": "transition",
+  "entryExitBridges": "墨圈与朱印连续，不重新换整张卡片",
+  "coverFrames": [],
+  "continuityAnchors": [
+    "speaker",
+    "carrier",
+    "principal",
+    "debt"
+  ],
+  "textHandoff": "退出文字先清理，当前完整状态才给标签，不镜像，不让同一位置两段字叠加"
+}

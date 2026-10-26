@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "id": "ink",
+  "name": "水墨写意",
+  "mode": "design-recipe",
+  "status": "user-approved",
+  "hierarchy": {
+    "familyId": "F10",
+    "branchId": null,
+    "baseLegacyId": "A13"
+  },
+  "selections": {
+    "information": [
+      "problem-mechanism-response",
+      "parallel-options",
+      "option-comparison",
+      "contrast-turn",
+      "recap-return"
+    ],
+    "rhythm": [
+      "speech-led",
+      "reveal-hold-release",
+      "progressive-build",
+      "setup-payoff",
+      "ending-resolve"
+    ],
+    "art-style": [
+      "ink-wash"
+    ],
+    "palette": [
+      "monochrome-ink"
+    ],
+    "material": [
+      "paper-grain",
+      "matte"
+    ],
+    "representation": [
+      "line-construction",
+      "flat-symbol"
+    ],
+    "object-motion": [
+      "trace-build",
+      "sort-compare",
+      "accumulate-reduce",
+      "reveal-consequence"
+    ],
+    "camera": [
+      "planar-push-pull",
+      "wide-detail-return"
+    ],
+    "transition": [
+      "foreground-occlusion",
+      "object-match"
+    ],
+    "typography": [
+      "raised-captions",
+      "serif-display",
+      "diagram-callouts"
+    ],
+    "lighting": [
+      "paper-grain-finish",
+      "even-soft"
+    ]
+  },
+  "overrides": {
+    "notes": "用户已认可本案例的完整十一类配方。人物原色、角落真圆、上移字幕；换素材重新设计，不泛化为任意组合已验收。"
+  },
+  "caseId": "ink-relay",
+  "sourceRequiredForProduction": true,
+  "implementation": {
+    "kind": "source-specific-reference",
+    "path": "examples/combinations/ink-relay",
+    "sourceSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+    "videoSha256": "7dca0d7d44291df1dac3ca655f4939858df316c32ad6bb91708a1f5fa56ac1aa",
+    "buildMode": "approved-combination-case",
+    "frames": 1100,
+    "fps": 30,
+    "vendor": false,
+    "voiceSha256": "9542b039523dc462a2637176fb17b1bf73ebf0f8675145a597ba5e26ef211cdf",
+    "timingContract": "source-bound-frame-functions-v1"
+  },
+  "productionRules": {
+    "layout": "墨阶、虚实与大留白安排解释空间",
+    "objectMotion": "笔势显现关系，墨幕退开露结果；结果需稳定",
+    "camera": "沿笔路二维推拉，密图停稳",
+    "transition": "保留墨迹或纸白开口接下一状态",
+    "typography": "标题可书写气质，字幕用清楚稳定字体",
+    "preserve": [
+      "墨色浓淡",
+      "笔势边缘",
+      "虚实留白"
+    ],
+    "adaptOnNewContent": [
+      "原句和关系",
+      "每张图片的任务",
+      "对象初态、动作及结果",
+      "阅读窗口",
+      "前后交接",
+      "真实源时间与字幕"
+    ],
+    "neverInheritAsDefault": [
+      "当前财经物件",
+      "示意数量",
+      "固定秒点",
+      "固定三项建议",
+      "本片人像位置"
+    ]
+  },
+  "axisReferences": {
+    "art-style": {
+      "skill": "skills/talking-head-art-style/SKILL.md",
+      "casePlan": "examples/combinations/ink-relay/plans/style-contract.json",
+      "sha256": "c121498fb768e0dc7cca213fc859fe300d656c9f881c45c16487f4d73509c8d2",
+      "scope": "本组合实际计划；新素材重新设计"
+    },
+    "palette": {
+      "skill": "skills/talking-head-palette/SKILL.md",
+      "casePlan": "examples/combinations/ink-relay/plans/palette-tokens.json",
+      "sha256": "b2ecb1a43994f581236a29734f5f30bac7216ce7dcfe47aa02ec63ba93dc7edb",
+      "scope": "本组合实际计划；新素材重新设计"
+    },
+    "material": {
+      "skill": "skills/talking-head-material/SKILL.md",
+      "casePlan": "examples/combinations/ink-relay/plans/material-tokens.json",
+      "sha256": "628e033d871c8b12b131ef907f19cbc85fc27608c827e1dda24edb983ee4d95d",
+      "scope": "本组合实际计划；新素材重新设计"
+    },
+    "representation": {
+      "skill": "skills/talking-head-representation/SKILL.md",
+      "casePlan": "examples/combinations/ink-relay/plans/object-spec.json",
+      "sha256": "531ef5b5cd1882f7134b733863108c32af9ae7c2c759430142a0463c7b14adda",
+      "scope": "本组合实际计划；新素材重新设计"
+    },
+    "object-motion": {
+      "skill": "skills/talking-head-object-motion/SKILL.md",
+      "casePlan": "examples/combinations/ink-relay/plans/motion-events.json",
+      "sha256": "a6aab482b9a05771cd5f9baedf21d719861ff75f27f7c8cb9d919b8bc73492aa",
+      "scope": "本组合实际计划；新素材重新设计"
+    },
+    "camera": {
+      "skill": "skills/talking-head-camera/SKILL.md",
+      "casePlan": "examples/combinations/ink-relay/plans/camera-plan.json",
+      "sha256": "5b9fb7e0fcc46f3491a8481541d9c722386661883b677fb5aa11b06e60f109b6",
+      "scope": "本组合实际计划；新素材重新设计"
+    },
+    "transition": {
+      "skill": "skills/talking-head-transition/SKILL.md",
+      "casePlan": "examples/combinations/ink-relay/plans/transition-plan.json",
+      "sha256": "526543dc484ae52878d1ecd86c3f9d9828b47a7d2d6607ca79f7a3253de93433",
+      "scope": "本组合实际计划；新素材重新设计"
+    },
+    "typography": {
+      "skill": "skills/talking-head-typography/SKILL.md",
+      "casePlan": "examples/combinations/ink-relay/plans/layout-plan.json",
+      "sha256": "a375494b44b8dcac415df69c1e9cc72ba8ad42685096e9efcd48040fe483afde",
+      "scope": "本组合实际计划；新素材重新设计"
+    },
+    "lighting": {
+      "skill": "skills/talking-head-lighting/SKILL.md",
+      "casePlan": "examples/combinations/ink-relay/plans/finish-plan.json",
+      "sha256": "724ab19d1c5c9f20358fd59682e8ce6914ef6136e6e6b021827177abe29423fe",
+      "scope": "本组合实际计划；新素材重新设计"
+    },
+    "information": {
+      "skill": "skills/talking-head-information/SKILL.md",
+      "casePlan": "examples/combinations/ink-relay/plans/semantic-plan.json",
+      "sha256": "40861d78a19b3a004c0384a290eb31013df135f9c68eefac340bd73a914ae05a",
+      "scope": "本组合实际计划；新素材重新设计"
+    },
+    "rhythm": {
+      "skill": "skills/talking-head-rhythm/SKILL.md",
+      "casePlan": "examples/combinations/ink-relay/plans/timing.json",
+      "sha256": "185f24518a2de437c54a925d9aa40cc6eade462fd9d2ff870cf4fbff2d46bb16",
+      "scope": "本组合实际计划；新素材重新设计"
+    }
+  },
+  "approvalDate": "2026-10-26"
+}

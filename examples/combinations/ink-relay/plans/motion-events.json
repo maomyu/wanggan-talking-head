@@ -1,0 +1,89 @@
+{
+  "status": "designed",
+  "sourceBinding": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "combination": "水墨写意 × 同物接力",
+  "axis": "object-motion",
+  "actions": [
+    {
+      "id": "s1",
+      "startFrame": 0,
+      "endFrame": 149,
+      "action": "朱印伴随墨圈立题，真人先讲问题",
+      "result": "提出存不下钱的问题"
+    },
+    {
+      "id": "s2",
+      "startFrame": 149,
+      "endFrame": 388,
+      "action": "朱印沿消费、负债、本金迁移，墨圈记录损失",
+      "result": "看见跟风消费、负债和本金受损"
+    },
+    {
+      "id": "s3",
+      "startFrame": 388,
+      "endFrame": 461,
+      "action": "朱印圈出三个并列判断点",
+      "result": "建立三条并列底线"
+    },
+    {
+      "id": "s4",
+      "startFrame": 461,
+      "endFrame": 616,
+      "action": "印章压下否定，额外耳机移走；日常采购留下",
+      "result": "删去额外消费，分清想要与需要"
+    },
+    {
+      "id": "s5",
+      "startFrame": 616,
+      "endFrame": 686,
+      "action": "同一墨圈缩成保护边界，剩余本金停留圈内",
+      "result": "保留已受损后的本金，不恢复损失"
+    },
+    {
+      "id": "s6",
+      "startFrame": 686,
+      "endFrame": 783,
+      "action": "墨块随笔势开白，露出风险字",
+      "result": "在收益说法后揭示风险"
+    },
+    {
+      "id": "s7",
+      "startFrame": 783,
+      "endFrame": 856,
+      "action": "朱印落下远离，风险离开保护圈",
+      "result": "明确远离投机和炒作"
+    },
+    {
+      "id": "s8",
+      "startFrame": 856,
+      "endFrame": 898,
+      "action": "朱印接触负担，两层退出，剩余一层保留",
+      "result": "移去部分负担，非清空负债"
+    },
+    {
+      "id": "s9",
+      "startFrame": 898,
+      "endFrame": 1100,
+      "action": "三处印记汇合，回到真人",
+      "result": "回到真人和已经形成的三项判断"
+    }
+  ],
+  "stateTransitions": {
+    "principal": "6 -> 4, f310–333; never resets",
+    "debt": "3 -> 1, f856–879; never zero"
+  },
+  "paths": "同一判断印沿弧线迁移，留印后墨迹保留",
+  "settleFrames": [
+    198,
+    249,
+    333,
+    420,
+    518,
+    585,
+    653,
+    761,
+    810,
+    879,
+    960
+  ]
+}
