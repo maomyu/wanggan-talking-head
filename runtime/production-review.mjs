@@ -2,6 +2,7 @@ import fs from 'node:fs';import path from 'node:path';import crypto from 'node:c
 import{outsidePlugin}from'./collaboration.mjs';import{productionCatalog}from'./production-entry.mjs';
 import{orchestrations}from'./orchestration.mjs';
 import{combinations}from'./combinations.mjs';
+import{writeSampleGallery}from'./sample-gallery.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),read=p=>JSON.parse(fs.readFileSync(p)),write=(p,v)=>{fs.mkdirSync(path.dirname(p),{recursive:true});fs.writeFileSync(p,JSON.stringify(v,null,2)+'\n')},sha=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
 export function writeProductionGuides(dest){
  const escape=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
@@ -37,5 +38,6 @@ export function createProductionReview(o){
  writeProductionGuides(dest);
  write(path.join(dest,'registry/catalog.json'),c);write(path.join(dest,'project.json'),{schemaVersion:1,id:crypto.randomUUID(),name:path.basename(dest),kind:'production-catalog',pluginVersion:read(path.join(root,'.codex-plugin/plugin.json')).version});write(path.join(dest,'qa/catalog-bindings.json'),{count:Object.keys(media).length,videoHashes:Object.fromEntries(Object.keys(media).map(k=>[k,sha(media[k].video)])),sourceMediaRetained:true,copyMode:'independent filesystem clone when supported; no symlinks or runtime test dependency'});
  write(path.join(dest,'qa/orchestration-bindings.json'),{count:Object.keys(arrMedia).length,videoHashes:Object.fromEntries(Object.entries(arrMedia).map(([id,m])=>[id,sha(m.video)])),scope:'已认可的本地视频绑定，不代表选中画风已与该编排生成新片'});
+ writeSampleGallery(dest,o['extra-media-map']);
  return {project:dest,page:'review/index.html',boundVideos:Object.keys(media).length,boundOrchestrationVideos:Object.keys(arrMedia).length,boundCombinationVideos:Object.keys(comboMedia).length,next:'preview --project 此目录，打开返回地址下的review/'};
 }

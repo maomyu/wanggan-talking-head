@@ -101,3 +101,7 @@ node scripts/studio.mjs revise --from /path/to/film --out /path/to/film-v2 --axe
 [自由搭配完整流程](docs/智能体自由搭配流程.md) · [使用指南](docs/常用指令与使用指南.md)
 
 `combinations`查询，`init --combination <ID>`开始新内容设计，`reproduce --combination <ID>`仅明确同源复现。三组同源验证不泛化为所有组合或跨文案均已通过。
+
+## 全部视频案例
+
+正式入口顶部可打开[全部案例总览](docs/全部案例总览.md)，集中查看当前35条案例和旧100项历史参考，支持筛选、搜索和在线播放。新增样片通过gallery-ui显式绑定本地视频。

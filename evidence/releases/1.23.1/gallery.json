@@ -1,0 +1,651 @@
+{
+  "count": 135,
+  "current": 35,
+  "history": 100,
+  "filters": [
+    {
+      "id": "current",
+      "count": 35
+    },
+    {
+      "id": "mother",
+      "count": 19
+    },
+    {
+      "id": "branch",
+      "count": 1
+    },
+    {
+      "id": "mechanism",
+      "count": 8
+    },
+    {
+      "id": "attention",
+      "count": 2
+    },
+    {
+      "id": "combination",
+      "count": 3
+    },
+    {
+      "id": "module",
+      "count": 2
+    },
+    {
+      "id": "history",
+      "count": 100
+    },
+    {
+      "id": "all",
+      "count": 135
+    }
+  ],
+  "ranges": [
+    {
+      "id": "mother-geometry",
+      "status": 206
+    },
+    {
+      "id": "mother-line",
+      "status": 206
+    },
+    {
+      "id": "mother-editorial-print",
+      "status": 206
+    },
+    {
+      "id": "mother-collage",
+      "status": 206
+    },
+    {
+      "id": "mother-minimal",
+      "status": 206
+    },
+    {
+      "id": "mother-precision",
+      "status": 206
+    },
+    {
+      "id": "mother-comic",
+      "status": 206
+    },
+    {
+      "id": "mother-ink",
+      "status": 206
+    },
+    {
+      "id": "mother-illustration",
+      "status": 206
+    },
+    {
+      "id": "mother-halftone",
+      "status": 206
+    },
+    {
+      "id": "mother-papercut",
+      "status": 206
+    },
+    {
+      "id": "mother-clay",
+      "status": 206
+    },
+    {
+      "id": "mother-pixel",
+      "status": 206
+    },
+    {
+      "id": "mother-landscape",
+      "status": 206
+    },
+    {
+      "id": "mother-gongbi",
+      "status": 206
+    },
+    {
+      "id": "mother-mural",
+      "status": 206
+    },
+    {
+      "id": "branch-blueprint",
+      "status": 206
+    },
+    {
+      "id": "mother-watercolor",
+      "status": 206
+    },
+    {
+      "id": "mother-woodcut",
+      "status": 206
+    },
+    {
+      "id": "mother-oil",
+      "status": 206
+    },
+    {
+      "id": "mechanism-spatial",
+      "status": 206
+    },
+    {
+      "id": "mechanism-assembly",
+      "status": 206
+    },
+    {
+      "id": "mechanism-relay",
+      "status": 206
+    },
+    {
+      "id": "mechanism-parallel",
+      "status": 206
+    },
+    {
+      "id": "mechanism-reveal",
+      "status": 206
+    },
+    {
+      "id": "combination-ink-relay",
+      "status": 206
+    },
+    {
+      "id": "mechanism-consequence",
+      "status": 206
+    },
+    {
+      "id": "mechanism-response",
+      "status": 206
+    },
+    {
+      "id": "mechanism-tracking",
+      "status": 206
+    },
+    {
+      "id": "combination-precision-tracking",
+      "status": 206
+    },
+    {
+      "id": "rhythm-only",
+      "status": 206
+    },
+    {
+      "id": "combination-clay-consequence",
+      "status": 206
+    },
+    {
+      "id": "attention-diagram",
+      "status": 206
+    },
+    {
+      "id": "palette-only",
+      "status": 206
+    },
+    {
+      "id": "attention-presenter",
+      "status": 206
+    },
+    {
+      "id": "history-magazine",
+      "status": 206
+    },
+    {
+      "id": "history-minimal",
+      "status": 206
+    },
+    {
+      "id": "history-collage",
+      "status": 206
+    },
+    {
+      "id": "history-paper",
+      "status": 206
+    },
+    {
+      "id": "history-geometry",
+      "status": 206
+    },
+    {
+      "id": "history-illustration",
+      "status": 206
+    },
+    {
+      "id": "history-blueprint",
+      "status": 206
+    },
+    {
+      "id": "history-precision",
+      "status": 206
+    },
+    {
+      "id": "history-line",
+      "status": 206
+    },
+    {
+      "id": "history-halftone",
+      "status": 206
+    },
+    {
+      "id": "history-comic",
+      "status": 206
+    },
+    {
+      "id": "history-ink",
+      "status": 206
+    },
+    {
+      "id": "history-clay",
+      "status": 206
+    },
+    {
+      "id": "history-film",
+      "status": 206
+    },
+    {
+      "id": "history-pixel",
+      "status": 206
+    },
+    {
+      "id": "history-paper-stage",
+      "status": 206
+    },
+    {
+      "id": "history-cel",
+      "status": 206
+    },
+    {
+      "id": "history-type-poster",
+      "status": 206
+    },
+    {
+      "id": "history-sci-fi-wireframe",
+      "status": 206
+    },
+    {
+      "id": "history-chalk",
+      "status": 206
+    },
+    {
+      "id": "history-tabletop-stilllife",
+      "status": 206
+    },
+    {
+      "id": "history-documentary",
+      "status": 206
+    },
+    {
+      "id": "history-macro-material",
+      "status": 206
+    },
+    {
+      "id": "history-overhead-workbench",
+      "status": 206
+    },
+    {
+      "id": "history-architectural-light",
+      "status": 206
+    },
+    {
+      "id": "history-spotlight-stage",
+      "status": 206
+    },
+    {
+      "id": "history-darkroom-prints",
+      "status": 206
+    },
+    {
+      "id": "history-archive-dossier",
+      "status": 206
+    },
+    {
+      "id": "history-newspaper",
+      "status": 206
+    },
+    {
+      "id": "history-everyday-story",
+      "status": 206
+    },
+    {
+      "id": "history-timeline-almanac",
+      "status": 206
+    },
+    {
+      "id": "history-dictionary-entry",
+      "status": 206
+    },
+    {
+      "id": "history-photo-book",
+      "status": 206
+    },
+    {
+      "id": "history-lab-notebook",
+      "status": 206
+    },
+    {
+      "id": "history-swiss-grid",
+      "status": 206
+    },
+    {
+      "id": "history-constructivist",
+      "status": 206
+    },
+    {
+      "id": "history-art-deco",
+      "status": 206
+    },
+    {
+      "id": "history-art-nouveau",
+      "status": 206
+    },
+    {
+      "id": "history-memphis",
+      "status": 206
+    },
+    {
+      "id": "history-brutalist-type",
+      "status": 206
+    },
+    {
+      "id": "history-optical-graphic",
+      "status": 206
+    },
+    {
+      "id": "history-charcoal",
+      "status": 206
+    },
+    {
+      "id": "history-colored-pencil",
+      "status": 206
+    },
+    {
+      "id": "history-pencil-sketch",
+      "status": 206
+    },
+    {
+      "id": "history-negative-space",
+      "status": 206
+    },
+    {
+      "id": "history-pen-hatching",
+      "status": 206
+    },
+    {
+      "id": "history-brush-lettering",
+      "status": 206
+    },
+    {
+      "id": "history-wax-crayon",
+      "status": 206
+    },
+    {
+      "id": "history-marker-sketch",
+      "status": 206
+    },
+    {
+      "id": "history-soft-pastel",
+      "status": 206
+    },
+    {
+      "id": "history-isometric-city",
+      "status": 206
+    },
+    {
+      "id": "history-faceted-vector",
+      "status": 206
+    },
+    {
+      "id": "history-natural-history",
+      "status": 206
+    },
+    {
+      "id": "history-editorial-metaphor",
+      "status": 206
+    },
+    {
+      "id": "history-picture-book",
+      "status": 206
+    },
+    {
+      "id": "history-silhouette-fable",
+      "status": 206
+    },
+    {
+      "id": "history-illustrated-map",
+      "status": 206
+    },
+    {
+      "id": "history-origami",
+      "status": 206
+    },
+    {
+      "id": "history-pop-up-book",
+      "status": 206
+    },
+    {
+      "id": "history-corrugated-model",
+      "status": 206
+    },
+    {
+      "id": "history-torn-paper",
+      "status": 206
+    },
+    {
+      "id": "history-patchwork",
+      "status": 206
+    },
+    {
+      "id": "history-knotted-cord",
+      "status": 206
+    },
+    {
+      "id": "history-embroidery",
+      "status": 206
+    },
+    {
+      "id": "history-felt-applique",
+      "status": 206
+    },
+    {
+      "id": "history-gongbi",
+      "status": 206
+    },
+    {
+      "id": "history-folk-woodblock",
+      "status": 206
+    },
+    {
+      "id": "history-silk-layers",
+      "status": 206
+    },
+    {
+      "id": "history-mural",
+      "status": 206
+    },
+    {
+      "id": "history-blue-green-landscape",
+      "status": 206
+    },
+    {
+      "id": "history-impasto",
+      "status": 206
+    },
+    {
+      "id": "history-porcelain-painting",
+      "status": 206
+    },
+    {
+      "id": "history-watercolor",
+      "status": 206
+    },
+    {
+      "id": "history-seal-carving",
+      "status": 206
+    },
+    {
+      "id": "history-lacquer-gold",
+      "status": 206
+    },
+    {
+      "id": "history-risograph",
+      "status": 206
+    },
+    {
+      "id": "history-woodcut",
+      "status": 206
+    },
+    {
+      "id": "history-etching",
+      "status": 206
+    },
+    {
+      "id": "history-enamel-badge",
+      "status": 206
+    },
+    {
+      "id": "history-cyanotype",
+      "status": 206
+    },
+    {
+      "id": "history-foil-deboss",
+      "status": 206
+    },
+    {
+      "id": "history-chased-metal",
+      "status": 206
+    },
+    {
+      "id": "history-stained-glass",
+      "status": 206
+    },
+    {
+      "id": "history-sandstone-relief",
+      "status": 206
+    },
+    {
+      "id": "history-mosaic",
+      "status": 206
+    },
+    {
+      "id": "history-ceramic-objects",
+      "status": 206
+    },
+    {
+      "id": "history-optical-glass",
+      "status": 206
+    },
+    {
+      "id": "history-miniature-puppet",
+      "status": 206
+    },
+    {
+      "id": "history-liquid-chrome",
+      "status": 206
+    },
+    {
+      "id": "history-building-blocks",
+      "status": 206
+    },
+    {
+      "id": "history-terminal-ascii",
+      "status": 206
+    },
+    {
+      "id": "history-isometric-maquette",
+      "status": 206
+    },
+    {
+      "id": "history-viscous-gel",
+      "status": 206
+    },
+    {
+      "id": "history-mechanical-cutaway",
+      "status": 206
+    },
+    {
+      "id": "history-inflatable-sculpture",
+      "status": 206
+    },
+    {
+      "id": "history-led-dot-matrix",
+      "status": 206
+    },
+    {
+      "id": "history-early-desktop",
+      "status": 206
+    },
+    {
+      "id": "history-spatial-pointcloud",
+      "status": 206
+    },
+    {
+      "id": "history-holographic-volume",
+      "status": 206
+    },
+    {
+      "id": "history-vector-oscilloscope",
+      "status": 206
+    }
+  ],
+  "decoded": [
+    {
+      "id": "mother-minimal",
+      "time": 0.172685,
+      "width": 1080,
+      "height": 1920,
+      "decoded": 10,
+      "muted": false
+    },
+    {
+      "id": "branch-blueprint",
+      "time": 0.161876,
+      "width": 1080,
+      "height": 1920,
+      "decoded": 10,
+      "muted": false
+    },
+    {
+      "id": "mechanism-spatial",
+      "time": 0.172488,
+      "width": 1080,
+      "height": 1920,
+      "decoded": 11,
+      "muted": false
+    },
+    {
+      "id": "attention-presenter",
+      "time": 0.159588,
+      "width": 1080,
+      "height": 1920,
+      "decoded": 10,
+      "muted": false
+    },
+    {
+      "id": "combination-ink-relay",
+      "time": 0.15915,
+      "width": 1080,
+      "height": 1920,
+      "decoded": 10,
+      "muted": false
+    },
+    {
+      "id": "palette-only",
+      "time": 0.156262,
+      "width": 1080,
+      "height": 1920,
+      "decoded": 10,
+      "muted": false
+    },
+    {
+      "id": "history-minimal",
+      "time": 0.163205,
+      "width": 1080,
+      "height": 1920,
+      "decoded": 10,
+      "muted": false
+    }
+  ],
+  "playAndDialog": true,
+  "mobile": {
+    "noOverflow": true,
+    "inlinePlayback": true
+  },
+  "ok": true,
+  "errors": [],
+  "scope": "All full-video URLs, covers and available previews reachable; category counts/search, real playback from each category, muted multi-play, one voice, full-HD dialog close release, mobile playback. No new film render or re-review of historical aesthetics."
+}

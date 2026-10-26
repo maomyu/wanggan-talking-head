@@ -4,3 +4,5 @@
 @media(max-width:480px){main{padding:0 16px}.brand{font-size:13px}.badge{font-size:9px}.intro .lead{font-size:15px}.facts{gap:12px 22px}.two{grid-template-columns:1fr;gap:0}h2{font-size:24px}.catalog-grid{gap:10px}.card-info{padding:10px}#axis-list,.resource-list{grid-template-columns:1fr}.video-label{font-size:11px}.pair{gap:8px}.pair article{padding:6px}.toolbar button{padding:9px 12px;font-size:12px}.pair video{min-height:0}.selected-preview{padding:0}section:not(.intro){padding:38px 0}}
 
 .combination-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}.combination-grid .card-info{padding:18px}.combination-grid .card video{max-height:610px}.combination-grid .small{line-height:1.8}#combinations .toolbar select{width:230px}@media(max-width:850px){.combination-grid{gap:10px}.combination-grid .card-info{padding:10px}}@media(max-width:600px){.combination-grid{grid-template-columns:1fr}.combination-grid .card video{max-height:560px}.combination-grid .card-info{padding:18px}}
+
+nav{flex-wrap:wrap;gap:12px 20px}
