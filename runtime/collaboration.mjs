@@ -62,9 +62,11 @@ export function collaborationRoute(request='',requested,orchestration){
   selected=Object.entries(signals).filter(([,rx])=>rx.test(active)).map(([id])=>id);
   // A stated single-module boundary owns the route; later clauses can describe
   // a goal such as “让对比更早落定”, which does not rewrite information design.
-  const only=active.match(/(?:^|，)\s*(?:只|仅)(?:调整|修改|改动|改)?(.+?)(?=，|$)/)?.[1]?.split(/让|使|以便/)[0];
-  if(only){const scoped=Object.entries(signals).filter(([,rx])=>rx.test(only)).map(([id])=>id);if(scoped.length)selected=scoped;}
-  if(!selected.length||/制作|重做|做一条|做个|生成/.test(active)&&/完整|整片|口播/.test(active)&&!/只|仅/.test(active))selected=axes.map(a=>a.id);
+  const boundaries=[...active.matchAll(/(?:^|，)\s*(?:只|仅)(?:调整|修改|改动|改)?(.+?)(?=[：:，]|$)/g)];
+  const scoped=boundaries.map(m=>Object.entries(signals).filter(([,rx])=>rx.test(m[1].split(/让|使|以便/)[0])).map(([id])=>id)).find(ids=>ids.length);
+  if(scoped)selected=scoped;
+  // “只使用自己的口播” is a source rule, not a single-module boundary.
+  if(!selected.length||!scoped&&/制作|重做|做一条|做个|生成/.test(active)&&/完整|整片|口播/.test(active))selected=axes.map(a=>a.id);
   if(arrangement&&arrangement.id!=='auto'&&selected.length===11&&!/制作|重做|做一条|做个|生成|完整|整片/.test(active))selected=orchestrationAxes;
  }
  if(selected.some(id=>!axes.some(a=>a.id===id)))throw Error('未知十一类技能: '+selected.join(','));

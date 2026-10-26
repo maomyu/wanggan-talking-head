@@ -25,9 +25,12 @@ export function route(request='',mode){
  let selected=mode==='full'?Object.keys(modes):mode?[mode]:[];
  if(!mode){
   const active=request.split(/[，。；,;\n]/).filter(s=>!/^\s*(保留|沿用|保持|不改|别改|不要改|维持)/.test(s)).join('，');
-  const signals={'art-direction':/画风|风格|配色|材质/,layout:/排版|字幕|字体|字号|标题|构图/,motion:/动效|动画|运动|入场|出场/,editing:/剪辑|转场|重剪|停顿|剪点/};
+  const signals={'art-direction':/画风|风格|配色|材质|光影/,layout:/排版|字幕|字体|字号|标题|构图/,motion:/动效|动画|运动|入场|出场|节奏|读窗|停留/,editing:/剪辑|转场|重剪|停顿|剪点/};
   selected=Object.entries(signals).filter(([,rx])=>rx.test(active)).map(([k])=>k);
-  if(!selected.length || /制作|做一条|做个|生成/.test(active)&&/完整|整片|口播视频/.test(active)&&!/只|仅/.test(active))selected=Object.keys(modes);
+  const boundaries=[...active.matchAll(/(?:^|，)\s*(?:只|仅)(?:调整|修改|改动|改)?(.+?)(?=[：:，]|$)/g)];
+  const scoped=boundaries.map(m=>Object.entries(signals).filter(([,rx])=>rx.test(m[1].split(/让|使|以便/)[0])).map(([id])=>id)).find(ids=>ids.length);
+  if(scoped)selected=scoped;
+  if(!selected.length || !scoped&&/制作|做一条|做个|生成/.test(active)&&/完整|整片|口播/.test(active))selected=Object.keys(modes);
  }
  const scope=selected.length===4?'full':selected.length===1?'module':'multi';
  return {scope,modules:selected,selection:mode?'explicit':'keyword hint; 由代理结合上下文确认，不代替语义判断',entry:path.join(plugin,'skills/talking-head-video/SKILL.md'),requiredSkills:selected.map(k=>({module:k,path:path.join(plugin,'skills',modes[k],'SKILL.md')})),sourcePolicy:read(path.join(plugin,'source-policy.json')),requiredReferences:[{path:path.join(plugin,'docs/素材与原声.md'),use:'素材选择；默认用户自己的口播与原声，第三方研究不作为生产默认'},{path:path.join(plugin,'docs/新素材制作流程.md'),use:'新片或换素材；局部修改保留已有语义编排'},{path:path.join(plugin,'docs/共同制作规范.md'),use:'所有制作与修改'},{path:path.join(plugin,'docs/语义编排与素材协作.md'),use:'整片或解释编排；仅改字号等局部任务继承已有编排，不扩大范围'}],request};
