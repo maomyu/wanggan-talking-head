@@ -1,0 +1,16 @@
+{
+  "status": "designed",
+  "grammar": "G05",
+  "sourceBinding": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "axis": "material",
+  "surfaces": [
+    "哑光纸板",
+    "微弱纸面行纹",
+    "自然物件摄影"
+  ],
+  "rules": [
+    "纹理不覆盖真人",
+    "投影服务载体层级",
+    "不制作与语句无关的粒子"
+  ]
+}

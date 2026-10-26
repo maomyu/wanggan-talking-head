@@ -1,0 +1,19 @@
+{
+  "name": "空间漫游",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 1100,
+  "source": "user-owned",
+  "output": "test-only",
+  "coreConcept": "沿一张总图进入消费、本金和负债三个区域，最后拉回全貌。",
+  "sourceEdit": "continuous 0–1100; original voice unchanged",
+  "visualControl": "shared paper, ink, red and green; narrative structure varies",
+  "person": "natural color, equal-scale circle throughout",
+  "caption": {
+    "top": 1600,
+    "size": 58,
+    "maxLines": 2
+  },
+  "review": "author self-review"
+}

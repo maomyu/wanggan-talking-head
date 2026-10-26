@@ -1,0 +1,19 @@
+{
+  "name": "追踪与锁定",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 1100,
+  "source": "user-owned",
+  "output": "test-only",
+  "coreConcept": "从购物、资产、负债和收益承诺中逐项寻找问题；观察框停在依据上，再留下筛选结果。",
+  "sourceEdit": "continuous 0–1100; original voice unchanged",
+  "visualControl": "shared paper, ink, red and green; narrative structure varies",
+  "person": "natural color, equal-scale circle throughout",
+  "caption": {
+    "top": 1600,
+    "size": 58,
+    "maxLines": 2
+  },
+  "review": "author self-review"
+}

@@ -1,0 +1,1 @@
+import fs from 'node:fs';import path from 'node:path';const R=path.resolve(process.argv[process.argv.indexOf('--project')+1]);fs.copyFileSync(R+'/scripts/composition.template',R+'/index.html');fs.copyFileSync(R+'/scripts/film.css',R+'/assets/film.css');console.log('Built G05');

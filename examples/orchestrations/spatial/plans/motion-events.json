@@ -1,0 +1,159 @@
+{
+  "status": "designed",
+  "grammar": "G01",
+  "sourceBinding": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "axis": "object-motion",
+  "character": "镜头在既有站点之间移动；每个站点对象保留结果",
+  "actions": [
+    {
+      "frameRange": [
+        0,
+        149
+      ],
+      "sentenceIds": [
+        1,
+        2,
+        3
+      ],
+      "action": "人物让位，三处站点连成总图",
+      "readWindow": [
+        40,
+        108
+      ]
+    },
+    {
+      "frameRange": [
+        149,
+        388
+      ],
+      "sentenceIds": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "action": "镜头依原句进入消费、本金和负债站点；受损后的本金仍为四张示意票",
+      "readWindow": [
+        365,
+        388
+      ]
+    },
+    {
+      "frameRange": [
+        388,
+        461
+      ],
+      "sentenceIds": [
+        10
+      ],
+      "action": "拉回三站总览，保留三个并列区域",
+      "readWindow": [
+        420,
+        456
+      ]
+    },
+    {
+      "frameRange": [
+        461,
+        616
+      ],
+      "sentenceIds": [
+        11,
+        12,
+        13
+      ],
+      "action": "镜头进入消费站；额外加购退出，日常采购来到相同尺度的比较位",
+      "readWindow": [
+        586,
+        610
+      ]
+    },
+    {
+      "frameRange": [
+        616,
+        686
+      ],
+      "sentenceIds": [
+        14
+      ],
+      "action": "镜头进入本金站，保护框围住余下本金",
+      "readWindow": [
+        650,
+        681
+      ]
+    },
+    {
+      "frameRange": [
+        686,
+        783
+      ],
+      "sentenceIds": [
+        15
+      ],
+      "action": "本金站里的宣传面被揭开，黑底风险停稳",
+      "readWindow": [
+        764,
+        781
+      ]
+    },
+    {
+      "frameRange": [
+        783,
+        856
+      ],
+      "sentenceIds": [
+        16
+      ],
+      "action": "保护框保留本金，远离的批注留在外面",
+      "readWindow": [
+        812,
+        850
+      ]
+    },
+    {
+      "frameRange": [
+        856,
+        898
+      ],
+      "sentenceIds": [
+        17
+      ],
+      "action": "移到负债站，两条负担退出，一条留下",
+      "readWindow": [
+        880,
+        896
+      ]
+    },
+    {
+      "frameRange": [
+        898,
+        1100
+      ],
+      "sentenceIds": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "action": "镜头回收全貌，注意回归原色真人",
+      "readWindow": [
+        960,
+        1100
+      ]
+    }
+  ],
+  "stateRules": {
+    "principal": [
+      6,
+      4
+    ],
+    "debt": [
+      3,
+      1
+    ],
+    "numbers": "illustrative only"
+  },
+  "pathProtection": "人物全路径等比；字幕上方至少20px；正文结果在读取窗口停稳"
+}

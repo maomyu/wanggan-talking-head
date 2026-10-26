@@ -1,0 +1,8 @@
+{
+  "status": "designed",
+  "grammar": "G02",
+  "sourceBinding": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "axis": "lighting",
+  "method": "纸面层影只作用于载体；自然照片保留色彩，人物不用任何颜色、风格或混合滤镜",
+  "source": "person-proxy.mp4 只解码适配，等比裁切；不改原片"
+}

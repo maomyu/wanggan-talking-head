@@ -1,0 +1,19 @@
+{
+  "name": "同物接力",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 1100,
+  "source": "user-owned",
+  "output": "test-only",
+  "coreConcept": "一张“判断卡”从购物清单穿过本金护套，再进入减负债页，成为整片交接物。",
+  "sourceEdit": "continuous 0–1100; original voice unchanged",
+  "visualControl": "shared paper, ink, red and green; narrative structure varies",
+  "person": "natural color, equal-scale circle throughout",
+  "caption": {
+    "top": 1600,
+    "size": 58,
+    "maxLines": 2
+  },
+  "review": "author self-review"
+}

@@ -1,0 +1,42 @@
+{
+  "status": "user-approved",
+  "date": "2026-10-26",
+  "basis": "用户明确认可这8类编排并要求正式并入插件",
+  "sourceSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "originalVideoSha256": "fbfa57a2e9ac50c76709ba85f58c9f93bee7af8fb24a7d66017bece2cc2569c0",
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "frames": 1100,
+    "duration": 36.666667,
+    "sha256": "fbfa57a2e9ac50c76709ba85f58c9f93bee7af8fb24a7d66017bece2cc2569c0"
+  },
+  "preservedImplementation": {
+    "examples/orchestrations/spatial/edit-plan.json": "699c481b98445d39dedb1b09bf46e5f7db6b5dfe422e67bbeaf6718a2c335cf2",
+    "examples/orchestrations/spatial/scene-plan.json": "a4fdffe7416748268780b7dec4465da9083f14aebc432417a4d5493adc7bfb53",
+    "examples/orchestrations/spatial/hyperframes.json": "33d34a7319db254dc97eb3973b382a86cec16bab42543aec715be3c383447428",
+    "examples/orchestrations/spatial/timing.json": "ec0f23f93d85ff62e1c4311b8e2603fe39b7bd87be6d78ff67cc5887b8e7f5d8",
+    "examples/orchestrations/spatial/recipe.json": "82d36824ac03481e1b9c3837e4ad07bd370933742f9c1ecf39709b37a96e20ef",
+    "examples/orchestrations/spatial/facts.json": "5e0f84f861852c02301370d8ad33123e896ec8cde2248cfcb138158664556b9c",
+    "examples/orchestrations/spatial/plans/palette-tokens.json": "02a23be613792f0d8b93e13dc20e92fc47d604975ae8770f73bc4f0574b1fcb5",
+    "examples/orchestrations/spatial/plans/transition-plan.json": "636ed76e433453c93fe33b82eece3ef167d1905358e7fc5bbe3668bb6f279162",
+    "examples/orchestrations/spatial/plans/timing.json": "46f508dd190f2d8e95cb3ba9a89da5ae7c5577f0a01cd59bbf429ca970ca7fc6",
+    "examples/orchestrations/spatial/plans/layout-plan.json": "8cbfea448c9a7d0d686f57f9636f82a176bb4dbd55439a0f367b30dde8cd514c",
+    "examples/orchestrations/spatial/plans/brief.json": "1e6ee58ef84cc91e277f225837935cae6928129ef5b97391f07a5205564bb31c",
+    "examples/orchestrations/spatial/plans/semantic-plan.json": "cc856bbfd3f917e263250ca5e49f9b8410d8ad0858c3a2bd90c880451ca35758",
+    "examples/orchestrations/spatial/plans/finish-plan.json": "ca3ac8bd62389982cf44c1ea6724ae5fa73cdcf987f6be44f1b7ed34809c4d2d",
+    "examples/orchestrations/spatial/plans/camera-plan.json": "04a56f1fed89610ef898131769721fd8ad8cff82a5a6ba25171595ad103a7856",
+    "examples/orchestrations/spatial/plans/object-spec.json": "d0dde568f65099c1d7e863801ce29085ca84ea5695af2fa3c44b994e33412563",
+    "examples/orchestrations/spatial/plans/material-tokens.json": "dc7086e6421c9def0f3151397c80a9b923b3e67bf8da08c464fdabfdef18b904",
+    "examples/orchestrations/spatial/plans/style-contract.json": "4444eb0f651435346d46fea8afe88fffebc4f61adbdc39960fbebf976e556e2c",
+    "examples/orchestrations/spatial/plans/motion-events.json": "89017dffe8e7de770f134509185f2d1f273d72c1168b2b6b5647a6b863c6ef90",
+    "examples/orchestrations/spatial/scripts/film.mjs": "287e93d7948d9dbc8a1c18e3e8aeeb0f2c7f1720fe876de5b82f82212f1ca5f9",
+    "examples/orchestrations/spatial/scripts/composition.template": "70f7451dd7a79e570911d9b12c627819515065a97fc22fc80e3ae3539a88ed83",
+    "examples/orchestrations/spatial/scripts/film.css": "582c22daa999b90fc9efabbee244497ea6be60e8f22a7da81df99732d680d5d5",
+    "examples/orchestrations/spatial/scripts/build-project.mjs": "b7d69162cdf963e717af814c67308357ab7f9f5aabe0f8a2a68d965c2456343a",
+    "examples/orchestrations/spatial/assets/config.js": "3790014757ae904f507c09b1108aab37ab323312ce01bac21fb2a82a2bf12733"
+  },
+  "scope": "同一自有口播与统一基础视觉的8条完整视频；19套母画风交叉组合需按实际内容设计，非152条影片验收",
+  "reviewMethod": "作者实片抽帧、逐帧程序检查及用户观看认可；非独立盲评"
+}

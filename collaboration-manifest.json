@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "1.20.0",
+  "version": "1.22.0",
   "entry": "skills/talking-head-video/SKILL.md",
   "compositionSkill": "skills/talking-head-composition/SKILL.md",
   "axes": [
@@ -154,5 +154,14 @@
   "recipes": "recipes/index.json",
   "preservedExperts": "module-manifest.json",
   "legacyImplementationFiles": 901,
-  "orchestrationGuide": "docs/编排选择与局部节奏.md"
+  "orchestrationGuide": "docs/编排选择与局部节奏.md",
+  "mechanismGuide": "docs/八类编排机制.md",
+  "orchestrationStructure": {
+    "mechanisms": 8,
+    "compatibleAttentionModes": 2,
+    "motherRecipes": 19,
+    "axes": 11,
+    "selection": "explicit-or-agent-reasoned",
+    "crossProductRenderVerification": false
+  }
 }

@@ -1,0 +1,13 @@
+{
+  "status": "designed",
+  "grammar": "G08",
+  "sourceBinding": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "axis": "camera",
+  "method": "固定机位，真人持续大圆，图文在右侧回应",
+  "focus": "人物与句后回应",
+  "screenLayers": [
+    "headline",
+    "original-color presenter",
+    "raised captions"
+  ]
+}

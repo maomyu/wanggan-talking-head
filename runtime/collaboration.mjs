@@ -19,6 +19,7 @@ export const standards=data('standards');
 const availableStandards=[...standards,...data('families').map(f=>({id:f.id,axis:'art-style',name:f.name,definition:f.definition,identityRules:f.identityRules,familyIds:[f.id],provides:[],requiresAny:[],availability:'family-reference'}))];
 const keys=read(path.join(root,'recipes/index.json')).recipes.filter(r=>r.status==='user-approved').map(r=>r.id);
 export function catalog(kind,id){
+ if(kind==='orchestrations'&&id)return loadOrchestration(id);
  const rows=kind==='recipes'?read(path.join(root,'recipes/index.json')).recipes:kind==='orchestrations'?orchestrations():kind==='standards'?standards:data(kind);
  if(!id)return rows;
  const found=rows.find(r=>[r.id,r.name,r.key,r.legacyKey,r.defaultLegacyKey].includes(id));
@@ -67,10 +68,11 @@ export function collaborationRoute(request='',requested,orchestration){
   if(scoped)selected=scoped;
   // “只使用自己的口播” is a source rule, not a single-module boundary.
   if(!selected.length||!scoped&&/制作|重做|做一条|做个|生成/.test(active)&&/完整|整片|口播/.test(active))selected=axes.map(a=>a.id);
+  if(arrangement&&!scoped&&/(?:只|仅)(?:修改|改|换|调整)?编排|把编排改|编排(?:换|改)|改成[^，。]*编排/.test(active))selected=orchestrationAxes;
   if(arrangement&&arrangement.id!=='auto'&&selected.length===11&&!/制作|重做|做一条|做个|生成|完整|整片/.test(active))selected=orchestrationAxes;
  }
  if(selected.some(id=>!axes.some(a=>a.id===id)))throw Error('未知十一类技能: '+selected.join(','));
- return {scope:selected.length===11?'full':'module',axes:selected,orchestration:arrangement,change:change(selected),requiredSkills:axes.filter(a=>selected.includes(a.id)).map(a=>({axis:a.id,path:path.join(root,'skills',a.skill,'SKILL.md')})),requiredReferences:[path.join(root,'docs/编排选择与局部节奏.md')],entry:path.join(root,'skills/talking-head-composition/SKILL.md'),policy};
+ return {scope:selected.length===11?'full':'module',axes:selected,orchestration:arrangement,change:change(selected),requiredSkills:axes.filter(a=>selected.includes(a.id)).map(a=>({axis:a.id,path:path.join(root,'skills',a.skill,'SKILL.md')})),requiredReferences:[path.join(root,'docs/编排选择与局部节奏.md'),path.join(root,'docs/八类编排机制.md')],entry:path.join(root,'skills/talking-head-composition/SKILL.md'),policy};
 }
 export function selectRecipe(o){
  let recipe=loadRecipe(o.recipe);
@@ -118,11 +120,18 @@ export function reproduce(o){
  const choice=selectOrchestration(o.request||'',o.orchestration);
  if(choice?.id==='auto')throw Error('复现需要明确编排；自动判断用于新素材init');
  const profile=choice?loadOrchestration(choice.id):null,implementation=profile?.reference||recipe.implementation;
- if(profile&&recipe.id!==implementation.recipeId)throw Error('该编排的认可复现仅为写实极简；其他配方组合请init后按内容适配');
- if(!o.source||hash(path.resolve(o.source))!==implementation.sourceSha256)throw Error('复现仅接受明确选择的原案例840方形代理源片且哈希一致；换素材请用init --recipe重新设计');
+ if(profile&&recipe.id!==implementation.recipeId)throw Error('该编排的认可复现仅为'+(implementation.recipeId==='minimal'?'写实极简':implementation.recipeId)+'；其他配方组合请init后按内容适配');
+ if(!o.source||hash(path.resolve(o.source))!==implementation.sourceSha256)throw Error('复现仅接受明确选择的原案例源片且哈希一致；换素材请用init --recipe重新设计');
  if(o.components)throw Error('案例复现不额外组合组件；使用init按本片内容适配');
  const {dest}=emptyProject({...o,recipe}),from=path.join(root,implementation.path);
  fs.cpSync(from,dest,{recursive:true});
+ if(implementation.buildMode==='approved-mechanism-case'){
+  fs.copyFileSync(path.join(root,'assets/recipe-images/life-objects.png'),path.join(dest,'assets/life-objects.png'));
+  for(const name of ['NotoSansSC-500.woff','NotoSansSC-700.woff','NotoSerifSC-700.woff','OFL.txt','LICENSES.md'])fs.copyFileSync(path.join(root,'assets/fonts',name),path.join(dest,'assets/fonts',name));
+  execFileSync('ffmpeg',['-v','error','-threads','2','-filter_threads','2','-y','-i',path.join(dest,'assets/master.mp4'),'-an','-vf','crop=1080:1080:0:180,scale=840:840','-frames:v','1100','-c:v','libx264','-crf','17','-preset','fast','-g','30','-pix_fmt','yuv420p','-movflags','+faststart',path.join(dest,'assets/person-proxy.mp4')],{stdio:'pipe'});
+  const p=read(path.join(dest,'project.json'));p.id=crypto.randomUUID();p.name=path.basename(dest);p.referenceFixture=true;p.status='reference-awaiting-rebuild';write(path.join(dest,'project.json'),p);
+  return {project:dest,status:p.status,recipe:recipe.id,orchestration:p.orchestration,scope:'正式包独立源码；原案例SHA绑定复现，人物代理从明确提供的原片裁切且不调色；原声由EDL重建，未复制历史视频或QA作为新结果'};
+ }
  if(!profile&&implementation.buildMode==='preserved-production-case'){
   fs.copyFileSync(path.join(root,'assets/recipe-images/life-objects.png'),path.join(dest,'assets/life-objects.png'));
   fs.cpSync(path.join(root,'assets/fonts'),path.join(dest,'assets/fonts'),{recursive:true});
@@ -143,7 +152,7 @@ export function reproduce(o){
 }
 export function validateProject(r){
  const p=read(path.join(r,'project.json'));if(!p.collaborationVersion)return null;
- if(p.orchestration){const selection=read(path.join(r,'orchestration.json'));if(selection.id!==p.orchestration.id)throw Error('编排选择与project.json不一致');if(selection.id!=='auto')loadOrchestration(selection.id);else if(p.referenceFixture)throw Error('案例复现不能使用待判断编排');}
+ if(p.orchestration){const selection=read(path.join(r,'orchestration.json'));if(selection.id!==p.orchestration.id)throw Error('编排选择与project.json不一致');if(selection.id!=='auto')loadOrchestration(selection.id);else throw Error('auto编排尚未完成判断：先用select-orchestration记录选择及文案理由');}
  const draft=axes.filter(a=>!fs.existsSync(path.join(r,'plans',a.artifact))||read(path.join(r,'plans',a.artifact)).status==='awaiting-design');
  if(draft.length)throw Error('十一类设计尚未完成: '+draft.map(a=>a.name).join(','));
  const plan=read(path.join(r,'scene-plan.json')),result=compile(read(path.join(r,'recipe.json')),plan,r);
@@ -201,6 +210,6 @@ export function checkCollaborationLibrary(){
  for(const a of axes)if(!fs.existsSync(path.join(root,'skills',a.skill,'SKILL.md')))throw Error('缺少协作技能: '+a.id);
  for(const key of keys){const r=loadRecipe(key),result=resolve(r);if(!result.ok)throw Error(key+': '+result.errors.join('; '));const example=path.join(root,r.implementation.path);for(const a of axes)if(!fs.existsSync(path.join(example,'plans',a.artifact)))throw Error('配方实际计划缺失: '+key+'/'+a.id);}
  const arrangements=orchestrations();if(new Set(arrangements.map(r=>r.id)).size!==arrangements.length)throw Error('编排ID重复');
- for(const row of arrangements){const from=path.join(root,row.reference.path);for(const a of axes)if(!fs.existsSync(path.join(from,'plans',a.artifact)))throw Error('编排实际计划缺失: '+row.id+'/'+a.id);if(!fs.existsSync(path.join(root,row.evidence)))throw Error('编排认可证据缺失');}
+ for(const row of arrangements){const from=path.join(root,row.reference.path);for(const a of axes)if(!fs.existsSync(path.join(from,'plans',a.artifact)))throw Error('编排实际计划缺失: '+row.id+'/'+a.id);if(!fs.existsSync(path.join(root,row.evidence)))throw Error('编排认可证据缺失');const proof=read(path.join(root,row.evidence));for(const [rel,h]of Object.entries(proof.preservedImplementation||{}))if(hash(path.join(root,rel))!==h)throw Error('已认可编排实现变化: '+rel);}
  return {axes:axes.length,designStandards:standards.length,families:families.length,branches:branches.length,components:components.length,legacyIds:legacy.length,approvedRecipes:keys.length,motherRecipes:catalog('recipes').filter(r=>r.kind==='mother').length,branchRecipes:catalog('recipes').filter(r=>r.kind==='branch').length,approvedOrchestrations:arrangements.length,scope:'登记、引用、结构及原案例实现；不是任意组合渲染证明'};
 }

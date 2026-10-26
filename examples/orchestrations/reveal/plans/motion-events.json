@@ -1,0 +1,159 @@
+{
+  "status": "designed",
+  "grammar": "G05",
+  "sourceBinding": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "axis": "object-motion",
+  "character": "撕签、抽层、开窗、翻页；正面文字退出后背面才读",
+  "actions": [
+    {
+      "frameRange": [
+        0,
+        149
+      ],
+      "sentenceIds": [
+        1,
+        2,
+        3
+      ],
+      "action": "层叠纸面随人物让位进入",
+      "readWindow": [
+        40,
+        108
+      ]
+    },
+    {
+      "frameRange": [
+        149,
+        388
+      ],
+      "sentenceIds": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "action": "覆盖层依次抽开，出现消费、本金、负担与代价",
+      "readWindow": [
+        365,
+        388
+      ]
+    },
+    {
+      "frameRange": [
+        388,
+        461
+      ],
+      "sentenceIds": [
+        10
+      ],
+      "action": "三个抽屉式层面并列展示三条底线",
+      "readWindow": [
+        420,
+        456
+      ]
+    },
+    {
+      "frameRange": [
+        461,
+        616
+      ],
+      "sentenceIds": [
+        11,
+        12,
+        13
+      ],
+      "action": "前盖先问是否需要，随后抽开呈现想要和需要",
+      "readWindow": [
+        586,
+        610
+      ]
+    },
+    {
+      "frameRange": [
+        616,
+        686
+      ],
+      "sentenceIds": [
+        14
+      ],
+      "action": "保护层打开，展示里面保留的本金",
+      "readWindow": [
+        650,
+        681
+      ]
+    },
+    {
+      "frameRange": [
+        686,
+        783
+      ],
+      "sentenceIds": [
+        15
+      ],
+      "action": "宣传表层翻揭，旧字退出后风险背面读入",
+      "readWindow": [
+        764,
+        781
+      ]
+    },
+    {
+      "frameRange": [
+        783,
+        856
+      ],
+      "sentenceIds": [
+        16
+      ],
+      "action": "投机层抽离，远离印记留下",
+      "readWindow": [
+        812,
+        850
+      ]
+    },
+    {
+      "frameRange": [
+        856,
+        898
+      ],
+      "sentenceIds": [
+        17
+      ],
+      "action": "从多层负债中抽掉多余层，剩余一条",
+      "readWindow": [
+        880,
+        896
+      ]
+    },
+    {
+      "frameRange": [
+        898,
+        1100
+      ],
+      "sentenceIds": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "action": "层面收束，人物与结论留在前景",
+      "readWindow": [
+        960,
+        1100
+      ]
+    }
+  ],
+  "stateRules": {
+    "principal": [
+      6,
+      4
+    ],
+    "debt": [
+      3,
+      1
+    ],
+    "numbers": "illustrative only"
+  },
+  "pathProtection": "人物全路径等比；字幕上方至少20px；正文结果在读取窗口停稳"
+}

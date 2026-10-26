@@ -1,0 +1,55 @@
+{
+  "ok": true,
+  "checks": [
+    {
+      "name": "19 mothers, 8 mechanisms + 2 compatible modes + auto; clipboard and isolated module prompts",
+      "passed": true
+    }
+  ],
+  "media": [
+    {
+      "url": "/media/orchestrations/spatial/play.mp4",
+      "status": 206
+    },
+    {
+      "url": "/media/orchestrations/relay/play.mp4",
+      "status": 206
+    },
+    {
+      "url": "/media/orchestrations/assembly/play.mp4",
+      "status": 206
+    },
+    {
+      "url": "/media/orchestrations/parallel/play.mp4",
+      "status": 206
+    },
+    {
+      "url": "/media/orchestrations/reveal/play.mp4",
+      "status": 206
+    },
+    {
+      "url": "/media/orchestrations/consequence/play.mp4",
+      "status": 206
+    },
+    {
+      "url": "/media/orchestrations/tracking/play.mp4",
+      "status": 206
+    },
+    {
+      "url": "/media/orchestrations/response/play.mp4",
+      "status": 206
+    }
+  ],
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "duration": 36.666667,
+    "time": 18.9,
+    "paused": true
+  },
+  "mobile": {
+    "width": 390,
+    "overflow": 0
+  },
+  "pageErrors": []
+}

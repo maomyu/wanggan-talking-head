@@ -1,0 +1,17 @@
+{
+  "proxyHashes": {
+    "spatial": "e26071a14545b6d1554eaeb97b8c62280bdcfdaa13fd34b598fc4fa656d1e105",
+    "relay": "e26071a14545b6d1554eaeb97b8c62280bdcfdaa13fd34b598fc4fa656d1e105",
+    "assembly": "e26071a14545b6d1554eaeb97b8c62280bdcfdaa13fd34b598fc4fa656d1e105",
+    "parallel": "e26071a14545b6d1554eaeb97b8c62280bdcfdaa13fd34b598fc4fa656d1e105",
+    "reveal": "e26071a14545b6d1554eaeb97b8c62280bdcfdaa13fd34b598fc4fa656d1e105",
+    "consequence": "e26071a14545b6d1554eaeb97b8c62280bdcfdaa13fd34b598fc4fa656d1e105",
+    "tracking": "e26071a14545b6d1554eaeb97b8c62280bdcfdaa13fd34b598fc4fa656d1e105",
+    "response": "e26071a14545b6d1554eaeb97b8c62280bdcfdaa13fd34b598fc4fa656d1e105"
+  },
+  "allIdentical": true,
+  "frame": 657,
+  "meanRgbErrorToApprovedProxy": 0.9759150604686319,
+  "faceMeanRgbError": 1.1448863086598935,
+  "scope": "重建裁切代理与认可代理比较；无人物风格化或调色，差异来自H.264代理重编码，不是新成片验收"
+}

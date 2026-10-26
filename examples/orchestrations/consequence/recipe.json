@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "editorial-print",
+  "name": "动作与后果 · 同源编排研究",
+  "mode": "design-recipe",
+  "sourceRequiredForProduction": true,
+  "usagePolicy": "候选池逐场选用；文学引句与人物寓言只在内容确有依据时使用。",
+  "selections": {
+    "art-style": [
+      "editorial-print"
+    ],
+    "palette": [
+      "ink-paper-cinnabar"
+    ],
+    "material": [
+      "paper-grain",
+      "matte"
+    ],
+    "representation": [
+      "printed-page",
+      "inset-stage"
+    ],
+    "object-motion": [
+      "paper-shift-flip",
+      "stamp-reveal",
+      "motivated-move"
+    ],
+    "camera": [
+      "planar-push-pull"
+    ],
+    "transition": [
+      "page-match",
+      "object-match",
+      "relation-expand"
+    ],
+    "typography": [
+      "serif-display",
+      "red-annotation",
+      "raised-captions"
+    ],
+    "lighting": [
+      "paper-grain-finish",
+      "local-spotlight"
+    ],
+    "information": [
+      "option-comparison",
+      "parallel-options",
+      "contrast-turn",
+      "problem-mechanism-response",
+      "recap-return"
+    ],
+    "rhythm": [
+      "speech-led",
+      "reveal-hold-release",
+      "contrast-pulse",
+      "ending-resolve"
+    ]
+  },
+  "provenance": {
+    "suppliedBy": "agent",
+    "basis": "用户授权自由搭配；按本次文案重新编排"
+  },
+  "overrides": {},
+  "adaptation": "依据本次真实原句启用并列、对照与转折；无文学引文或人物寓言。",
+  "caseId": null,
+  "status": "test-designed",
+  "hierarchy": {
+    "familyId": "F03",
+    "branchId": null,
+    "components": []
+  },
+  "implementation": {
+    "kind": "current-source-original-design",
+    "path": "scripts",
+    "sourceSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03"
+  },
+  "productionRules": {
+    "layout": "页栏、裁切、批注分配主次；保留纸页阅读秩序",
+    "objectMotion": "抽页、翻面与印记揭示真实关系，非每句都翻页",
+    "camera": "二维推拉进入局部引句或对象",
+    "transition": "页边、批注或同物接续，旧字退出再读新字",
+    "typography": "衬线标题与稳定字幕，红色批注限一重点",
+    "preserve": [
+      "图文编辑",
+      "层级与留白",
+      "载体秩序"
+    ],
+    "adaptOnNewContent": [
+      "原句和关系",
+      "每张图片的任务",
+      "对象初态、动作及结果",
+      "阅读窗口",
+      "前后交接",
+      "真实源时间与字幕"
+    ],
+    "neverInheritAsDefault": [
+      "当前财经物件",
+      "示意数量",
+      "固定秒点",
+      "固定三项建议",
+      "本片人像位置"
+    ]
+  },
+  "approvalDate": "2026-10-24",
+  "researchGrammar": {
+    "id": "G06",
+    "key": "consequence",
+    "name": "动作与后果",
+    "concept": "跟风增加负担；划去额外消费腾出空间；保护挡板截住风险；减少负债后负担变轻。",
+    "title": "每个动作，都有后果",
+    "anchor": "受力台与负担",
+    "motion": "加载、挤压、掉落、阻挡、卸载；原本金损失保持",
+    "sequence": "条件—动作—响应—结果",
+    "status": "in-production"
+  }
+}

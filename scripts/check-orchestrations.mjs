@@ -18,7 +18,7 @@ const cli=(...a)=>execFileSync(process.execPath,[path.join(root,'scripts/studio.
 const json=(...a)=>JSON.parse(cli(...a)),cases=[];
 const reject=(name,fn,pattern)=>{assert.throws(fn,pattern);cases.push({name,passed:true});};
 const sourceHash=sha(args.source),sourceVoiceHash=sha(path.join(reference,'diagram/assets/edited-voice.wav'));
-assert.equal(checkCollaborationLibrary().approvedOrchestrations,2);
+assert(checkCollaborationLibrary().approvedOrchestrations>=2);
 assert(checkCollaborationLibrary().approvedRecipes>=7,'original seven recipes remain available');
 assert.equal(json('orchestrations','--id','diagram').name,'连续图解');
 const route=collaborationRoute('保留画风、连续图解编排和字幕，只调整节奏，让对比更早落定');

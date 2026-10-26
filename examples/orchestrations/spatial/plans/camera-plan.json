@@ -1,0 +1,13 @@
+{
+  "status": "designed",
+  "grammar": "G01",
+  "sourceBinding": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "axis": "camera",
+  "method": "整张横向总图上的站点漫游，局部.86/.88，总览.31；正文上方独立标题，下方独立人物与字幕",
+  "focus": "同一张总图",
+  "screenLayers": [
+    "headline",
+    "original-color presenter",
+    "raised captions"
+  ]
+}

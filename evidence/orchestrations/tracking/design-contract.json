@@ -1,0 +1,297 @@
+{
+  "grammar": {
+    "id": "G07",
+    "key": "tracking",
+    "name": "追踪与锁定",
+    "concept": "从购物、资产、负债和收益承诺中逐项寻找问题；观察框停在依据上，再留下筛选结果。",
+    "title": "先找到问题，再筛选",
+    "anchor": "检查框与对象网格",
+    "motion": "观察框追踪、局部放大、否决问题项、锁定底线",
+    "sequence": "范围—检查—依据—锁定",
+    "status": "in-production"
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "startFrame": 0,
+      "endFrame": 149,
+      "sentenceIds": [
+        1,
+        2,
+        3
+      ],
+      "relation": "problem-mechanism-response",
+      "purpose": "提出存不下钱的问题",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "对象网格随人物让位进入",
+      "result": "提出存不下钱的问题",
+      "readWindow": [
+        40,
+        108
+      ],
+      "handoff": "检查框与对象网格接住下一段阅读任务"
+    },
+    {
+      "id": "s2",
+      "startFrame": 149,
+      "endFrame": 388,
+      "sentenceIds": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "relation": "problem-mechanism-response",
+      "purpose": "看见跟风消费、负债和本金受损",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "观察框依序移动至各问题卡，停下后检查局部",
+      "result": "看见跟风消费、负债和本金受损",
+      "readWindow": [
+        365,
+        388
+      ],
+      "handoff": "检查框与对象网格接住下一段阅读任务"
+    },
+    {
+      "id": "s3",
+      "startFrame": 388,
+      "endFrame": 461,
+      "sentenceIds": [
+        10
+      ],
+      "relation": "parallel-options",
+      "purpose": "建立三条并列底线",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "四张对象卡停留，建立逐项检查任务",
+      "result": "建立三条并列底线",
+      "readWindow": [
+        420,
+        456
+      ],
+      "handoff": "检查框与对象网格接住下一段阅读任务"
+    },
+    {
+      "id": "s4",
+      "startFrame": 461,
+      "endFrame": 616,
+      "sentenceIds": [
+        11,
+        12,
+        13
+      ],
+      "relation": "option-comparison",
+      "purpose": "删去额外消费，分清想要与需要",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "观察框锁在消费；额外加购被否定，必要采购出现",
+      "result": "删去额外消费，分清想要与需要",
+      "readWindow": [
+        586,
+        610
+      ],
+      "handoff": "检查框与对象网格接住下一段阅读任务"
+    },
+    {
+      "id": "s5",
+      "startFrame": 616,
+      "endFrame": 686,
+      "sentenceIds": [
+        14
+      ],
+      "relation": "problem-mechanism-response",
+      "purpose": "保留已受损后的本金，不恢复损失",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "观察框移到本金，保护框锁定剩余本金",
+      "result": "保留已受损后的本金，不恢复损失",
+      "readWindow": [
+        650,
+        681
+      ],
+      "handoff": "检查框与对象网格接住下一段阅读任务"
+    },
+    {
+      "id": "s6",
+      "startFrame": 686,
+      "endFrame": 783,
+      "sentenceIds": [
+        15
+      ],
+      "relation": "contrast-turn",
+      "purpose": "在收益说法后揭示风险",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "观察框移到宣传说法，风险揭示后保留检查依据",
+      "result": "在收益说法后揭示风险",
+      "readWindow": [
+        764,
+        781
+      ],
+      "handoff": "检查框与对象网格接住下一段阅读任务"
+    },
+    {
+      "id": "s7",
+      "startFrame": 783,
+      "endFrame": 856,
+      "sentenceIds": [
+        16
+      ],
+      "relation": "problem-mechanism-response",
+      "purpose": "明确远离投机和炒作",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "风险项被否定，筛选结果保留",
+      "result": "明确远离投机和炒作",
+      "readWindow": [
+        812,
+        850
+      ],
+      "handoff": "检查框与对象网格接住下一段阅读任务"
+    },
+    {
+      "id": "s8",
+      "startFrame": 856,
+      "endFrame": 898,
+      "sentenceIds": [
+        17
+      ],
+      "relation": "problem-mechanism-response",
+      "purpose": "移去部分负担，非清空负债",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "观察框移到负债，减少示意负担",
+      "result": "移去部分负担，非清空负债",
+      "readWindow": [
+        880,
+        896
+      ],
+      "handoff": "检查框与对象网格接住下一段阅读任务"
+    },
+    {
+      "id": "s9",
+      "startFrame": 898,
+      "endFrame": 1100,
+      "sentenceIds": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "relation": "recap-return",
+      "purpose": "回到真人和已经形成的三项判断",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "检查完成，留下三项判断并回到真人",
+      "result": "回到真人和已经形成的三项判断",
+      "readWindow": [
+        960,
+        1100
+      ],
+      "handoff": "同一人物、同一路原声完整结束"
+    }
+  ],
+  "protected": [
+    "source",
+    "voice",
+    "captions",
+    "person-color",
+    "circle-shape",
+    "raised-caption"
+  ],
+  "scope": "only test, same source; no new-material validation claim"
+}

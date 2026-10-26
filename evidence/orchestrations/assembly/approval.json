@@ -1,0 +1,42 @@
+{
+  "status": "user-approved",
+  "date": "2026-10-26",
+  "basis": "用户明确认可这8类编排并要求正式并入插件",
+  "sourceSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "originalVideoSha256": "5ecadda18a01d91e8eb020927354153c5a5af8d38fe583ec8529d5a2e1515e07",
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "frames": 1100,
+    "duration": 36.666667,
+    "sha256": "5ecadda18a01d91e8eb020927354153c5a5af8d38fe583ec8529d5a2e1515e07"
+  },
+  "preservedImplementation": {
+    "examples/orchestrations/assembly/edit-plan.json": "699c481b98445d39dedb1b09bf46e5f7db6b5dfe422e67bbeaf6718a2c335cf2",
+    "examples/orchestrations/assembly/scene-plan.json": "f5ad49c375981ec5cae1b34678d26508c43e9ef6b500321d8a81b1bcf0569ed7",
+    "examples/orchestrations/assembly/hyperframes.json": "33d34a7319db254dc97eb3973b382a86cec16bab42543aec715be3c383447428",
+    "examples/orchestrations/assembly/timing.json": "ec0f23f93d85ff62e1c4311b8e2603fe39b7bd87be6d78ff67cc5887b8e7f5d8",
+    "examples/orchestrations/assembly/recipe.json": "badadb950d7c22471540a3a5e6cfa22eb1102d9d5b028d8aadac196fe89336b8",
+    "examples/orchestrations/assembly/facts.json": "5e0f84f861852c02301370d8ad33123e896ec8cde2248cfcb138158664556b9c",
+    "examples/orchestrations/assembly/plans/palette-tokens.json": "98a15aa04a0ab74e662438fb9513e2db19dde90412ade812b8113a40296dc8d9",
+    "examples/orchestrations/assembly/plans/transition-plan.json": "8ad8aed66c6e0a7ebed240906d51fb2e5ec0e2be995512e59154402c5e53b807",
+    "examples/orchestrations/assembly/plans/timing.json": "fb3ce5a09534efde9a959e6da2ddff440ed8f8613a46042a86b6c5db10867386",
+    "examples/orchestrations/assembly/plans/layout-plan.json": "6ba067835fffc037d7f0e3f9d34bf79f36e6d13aa1cd13cd404db09e5ffefed9",
+    "examples/orchestrations/assembly/plans/brief.json": "1488b230055e0db7330ddb09e6a7763a689bf1907c8262d1d3f6ee92aae78bec",
+    "examples/orchestrations/assembly/plans/semantic-plan.json": "b3689c84ff7fb62b3cec9c1e755a80b16b8208d8b106dd4c35db1dc8cff783a5",
+    "examples/orchestrations/assembly/plans/finish-plan.json": "a1139f37afd8caaed65284e8b4f61c27179d07b9cc6b22f3213a6df95183e029",
+    "examples/orchestrations/assembly/plans/camera-plan.json": "ebdcd93e00532bcdf90b0a709252a3f510db667511bdbdeeb0042b12448f37ec",
+    "examples/orchestrations/assembly/plans/object-spec.json": "e1e70ef09615f6817bb0dd33c7f93f8902a021186f5683a92d549f0a73dbf7c8",
+    "examples/orchestrations/assembly/plans/material-tokens.json": "b09af97865bdfc1f7f6953d18e210e5c5812e4c13d3190d9d2fdf3cdfd878e45",
+    "examples/orchestrations/assembly/plans/style-contract.json": "da9a9722735d134a1b7818473474fc2854161a7ec2ea1a3971d1373a87545f12",
+    "examples/orchestrations/assembly/plans/motion-events.json": "bc31389e25dc729685ace6c53110533ab10fc884fd88055255f28e564df19994",
+    "examples/orchestrations/assembly/scripts/film.mjs": "434fd9a27e448d3c0c1b97a366414c301fe4a156df51e814a1f76442fac7a9f0",
+    "examples/orchestrations/assembly/scripts/composition.template": "71b26b0b332495ef3cb40c9515fc5c9179772e9cf86c9487a74858f37216c94f",
+    "examples/orchestrations/assembly/scripts/film.css": "582c22daa999b90fc9efabbee244497ea6be60e8f22a7da81df99732d680d5d5",
+    "examples/orchestrations/assembly/scripts/build-project.mjs": "f83effe879ef62444e232500abc8d775a42b819dc67d5a0b70adc480516372e9",
+    "examples/orchestrations/assembly/assets/config.js": "03eb83a8b9994778f4b9b0af155f722672f1c6e107273e61c4d211ecbcfeced4"
+  },
+  "scope": "同一自有口播与统一基础视觉的8条完整视频；19套母画风交叉组合需按实际内容设计，非152条影片验收",
+  "reviewMethod": "作者实片抽帧、逐帧程序检查及用户观看认可；非独立盲评"
+}

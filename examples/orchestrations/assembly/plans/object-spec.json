@@ -1,0 +1,61 @@
+{
+  "status": "designed",
+  "grammar": "G03",
+  "sourceBinding": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "axis": "representation",
+  "anchor": "三块并列部件",
+  "objects": [
+    {
+      "id": "speaker",
+      "identity": "original user video",
+      "persistentRule": "保持来源与含义，数量仅示意；本金受损后不复原，负债仅减少"
+    },
+    {
+      "id": "purchase",
+      "identity": "generated object illustration reused locally",
+      "persistentRule": "保持来源与含义，数量仅示意；本金受损后不复原，负债仅减少"
+    },
+    {
+      "id": "duplicate",
+      "identity": "generated object illustration reused locally",
+      "persistentRule": "保持来源与含义，数量仅示意；本金受损后不复原，负债仅减少"
+    },
+    {
+      "id": "food",
+      "identity": "generated object illustration reused locally",
+      "persistentRule": "保持来源与含义，数量仅示意；本金受损后不复原，负债仅减少"
+    },
+    {
+      "id": "principal",
+      "identity": "original explanation diagram",
+      "persistentRule": "保持来源与含义，数量仅示意；本金受损后不复原，负债仅减少"
+    },
+    {
+      "id": "debt",
+      "identity": "original explanation diagram",
+      "persistentRule": "保持来源与含义，数量仅示意；本金受损后不复原，负债仅减少"
+    },
+    {
+      "id": "promotion",
+      "identity": "original explanation diagram",
+      "persistentRule": "保持来源与含义，数量仅示意；本金受损后不复原，负债仅减少"
+    },
+    {
+      "id": "risk",
+      "identity": "original explanation diagram",
+      "persistentRule": "保持来源与含义，数量仅示意；本金受损后不复原，负债仅减少"
+    },
+    {
+      "id": "trend",
+      "identity": "original explanation diagram",
+      "persistentRule": "保持来源与含义，数量仅示意；本金受损后不复原，负债仅减少"
+    },
+    {
+      "id": "carrier",
+      "identity": "original explanation diagram",
+      "persistentRule": "保持来源与含义，数量仅示意；本金受损后不复原，负债仅减少"
+    }
+  ],
+  "geometryOwner": "scripts/film.mjs 中assembly函数",
+  "shape": "frame-addressable canvas vector and photo objects; real person separate HTML circular clip"
+}

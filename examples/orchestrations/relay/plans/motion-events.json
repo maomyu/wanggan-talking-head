@@ -1,0 +1,159 @@
+{
+  "status": "designed",
+  "grammar": "G02",
+  "sourceBinding": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "axis": "object-motion",
+  "character": "判断卡伸展、通过护套、翻到背面；对象身份不换",
+  "actions": [
+    {
+      "frameRange": [
+        0,
+        149
+      ],
+      "sentenceIds": [
+        1,
+        2,
+        3
+      ],
+      "action": "判断卡随人物让位进入",
+      "readWindow": [
+        40,
+        108
+      ]
+    },
+    {
+      "frameRange": [
+        149,
+        388
+      ],
+      "sentenceIds": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "action": "同一张卡承接购物、投机和负担的信息",
+      "readWindow": [
+        365,
+        388
+      ]
+    },
+    {
+      "frameRange": [
+        388,
+        461
+      ],
+      "sentenceIds": [
+        10
+      ],
+      "action": "卡面扩为三条并列选择，侧签记录位置",
+      "readWindow": [
+        420,
+        456
+      ]
+    },
+    {
+      "frameRange": [
+        461,
+        616
+      ],
+      "sentenceIds": [
+        11,
+        12,
+        13
+      ],
+      "action": "判断卡展开为对照面；加购划去，留下已有和日常所需",
+      "readWindow": [
+        586,
+        610
+      ]
+    },
+    {
+      "frameRange": [
+        616,
+        686
+      ],
+      "sentenceIds": [
+        14
+      ],
+      "action": "判断卡上的护套合拢在剩余本金周围",
+      "readWindow": [
+        650,
+        681
+      ]
+    },
+    {
+      "frameRange": [
+        686,
+        783
+      ],
+      "sentenceIds": [
+        15
+      ],
+      "action": "同卡承接收益宣传，翻开表层读取风险",
+      "readWindow": [
+        764,
+        781
+      ]
+    },
+    {
+      "frameRange": [
+        783,
+        856
+      ],
+      "sentenceIds": [
+        16
+      ],
+      "action": "卡面留下远离标记，不更换卡的身份",
+      "readWindow": [
+        812,
+        850
+      ]
+    },
+    {
+      "frameRange": [
+        856,
+        898
+      ],
+      "sentenceIds": [
+        17
+      ],
+      "action": "判断卡转入负债条页，两条退出",
+      "readWindow": [
+        880,
+        896
+      ]
+    },
+    {
+      "frameRange": [
+        898,
+        1100
+      ],
+      "sentenceIds": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "action": "判断卡收回三项结果后让回人物",
+      "readWindow": [
+        960,
+        1100
+      ]
+    }
+  ],
+  "stateRules": {
+    "principal": [
+      6,
+      4
+    ],
+    "debt": [
+      3,
+      1
+    ],
+    "numbers": "illustrative only"
+  },
+  "pathProtection": "人物全路径等比；字幕上方至少20px；正文结果在读取窗口停稳"
+}

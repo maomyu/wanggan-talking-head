@@ -1,0 +1,159 @@
+{
+  "status": "designed",
+  "grammar": "G07",
+  "sourceBinding": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "axis": "object-motion",
+  "character": "观察框追踪、局部放大、否决问题项、锁定底线",
+  "actions": [
+    {
+      "frameRange": [
+        0,
+        149
+      ],
+      "sentenceIds": [
+        1,
+        2,
+        3
+      ],
+      "action": "对象网格随人物让位进入",
+      "readWindow": [
+        40,
+        108
+      ]
+    },
+    {
+      "frameRange": [
+        149,
+        388
+      ],
+      "sentenceIds": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "action": "观察框依序移动至各问题卡，停下后检查局部",
+      "readWindow": [
+        365,
+        388
+      ]
+    },
+    {
+      "frameRange": [
+        388,
+        461
+      ],
+      "sentenceIds": [
+        10
+      ],
+      "action": "四张对象卡停留，建立逐项检查任务",
+      "readWindow": [
+        420,
+        456
+      ]
+    },
+    {
+      "frameRange": [
+        461,
+        616
+      ],
+      "sentenceIds": [
+        11,
+        12,
+        13
+      ],
+      "action": "观察框锁在消费；额外加购被否定，必要采购出现",
+      "readWindow": [
+        586,
+        610
+      ]
+    },
+    {
+      "frameRange": [
+        616,
+        686
+      ],
+      "sentenceIds": [
+        14
+      ],
+      "action": "观察框移到本金，保护框锁定剩余本金",
+      "readWindow": [
+        650,
+        681
+      ]
+    },
+    {
+      "frameRange": [
+        686,
+        783
+      ],
+      "sentenceIds": [
+        15
+      ],
+      "action": "观察框移到宣传说法，风险揭示后保留检查依据",
+      "readWindow": [
+        764,
+        781
+      ]
+    },
+    {
+      "frameRange": [
+        783,
+        856
+      ],
+      "sentenceIds": [
+        16
+      ],
+      "action": "风险项被否定，筛选结果保留",
+      "readWindow": [
+        812,
+        850
+      ]
+    },
+    {
+      "frameRange": [
+        856,
+        898
+      ],
+      "sentenceIds": [
+        17
+      ],
+      "action": "观察框移到负债，减少示意负担",
+      "readWindow": [
+        880,
+        896
+      ]
+    },
+    {
+      "frameRange": [
+        898,
+        1100
+      ],
+      "sentenceIds": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "action": "检查完成，留下三项判断并回到真人",
+      "readWindow": [
+        960,
+        1100
+      ]
+    }
+  ],
+  "stateRules": {
+    "principal": [
+      6,
+      4
+    ],
+    "debt": [
+      3,
+      1
+    ],
+    "numbers": "illustrative only"
+  },
+  "pathProtection": "人物全路径等比；字幕上方至少20px；正文结果在读取窗口停稳"
+}

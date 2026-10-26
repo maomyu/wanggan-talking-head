@@ -1,0 +1,19 @@
+{
+  "name": "并行对照",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 1100,
+  "source": "user-owned",
+  "output": "test-only",
+  "coreConcept": "把跟风与先判断放到左右两个比较区，同尺度观察消费取舍、风险识别和负债变化。",
+  "sourceEdit": "continuous 0–1100; original voice unchanged",
+  "visualControl": "shared paper, ink, red and green; narrative structure varies",
+  "person": "natural color, equal-scale circle throughout",
+  "caption": {
+    "top": 1600,
+    "size": 58,
+    "maxLines": 2
+  },
+  "review": "author self-review"
+}

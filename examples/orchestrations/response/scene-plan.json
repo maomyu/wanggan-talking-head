@@ -1,0 +1,338 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "path": "assets/master.mp4",
+    "sha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+    "ownership": "user-owned"
+  },
+  "fps": 30,
+  "frames": 1100,
+  "researchGrammar": "G08",
+  "objects": [
+    {
+      "id": "speaker",
+      "identity": "original user video",
+      "persistentRule": "保持来源与含义，数量仅示意；本金受损后不复原，负债仅减少"
+    },
+    {
+      "id": "purchase",
+      "identity": "generated object illustration reused locally",
+      "persistentRule": "保持来源与含义，数量仅示意；本金受损后不复原，负债仅减少"
+    },
+    {
+      "id": "duplicate",
+      "identity": "generated object illustration reused locally",
+      "persistentRule": "保持来源与含义，数量仅示意；本金受损后不复原，负债仅减少"
+    },
+    {
+      "id": "food",
+      "identity": "generated object illustration reused locally",
+      "persistentRule": "保持来源与含义，数量仅示意；本金受损后不复原，负债仅减少"
+    },
+    {
+      "id": "principal",
+      "identity": "original explanation diagram",
+      "persistentRule": "保持来源与含义，数量仅示意；本金受损后不复原，负债仅减少"
+    },
+    {
+      "id": "debt",
+      "identity": "original explanation diagram",
+      "persistentRule": "保持来源与含义，数量仅示意；本金受损后不复原，负债仅减少"
+    },
+    {
+      "id": "promotion",
+      "identity": "original explanation diagram",
+      "persistentRule": "保持来源与含义，数量仅示意；本金受损后不复原，负债仅减少"
+    },
+    {
+      "id": "risk",
+      "identity": "original explanation diagram",
+      "persistentRule": "保持来源与含义，数量仅示意；本金受损后不复原，负债仅减少"
+    },
+    {
+      "id": "trend",
+      "identity": "original explanation diagram",
+      "persistentRule": "保持来源与含义，数量仅示意；本金受损后不复原，负债仅减少"
+    },
+    {
+      "id": "carrier",
+      "identity": "original explanation diagram",
+      "persistentRule": "保持来源与含义，数量仅示意；本金受损后不复原，负债仅减少"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "s1",
+      "startFrame": 0,
+      "endFrame": 149,
+      "sentenceIds": [
+        1,
+        2,
+        3
+      ],
+      "relation": "problem-mechanism-response",
+      "purpose": "提出存不下钱的问题",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "真人持续占据大圆窗，问题文字停稳",
+      "result": "提出存不下钱的问题",
+      "readWindow": [
+        40,
+        108
+      ],
+      "handoff": "人物与句后回应接住下一段阅读任务"
+    },
+    {
+      "id": "s2",
+      "startFrame": 149,
+      "endFrame": 388,
+      "sentenceIds": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "relation": "problem-mechanism-response",
+      "purpose": "看见跟风消费、负债和本金受损",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "图片、负担和走势逐句回应，真人持续保持主角",
+      "result": "看见跟风消费、负债和本金受损",
+      "readWindow": [
+        365,
+        388
+      ],
+      "handoff": "人物与句后回应接住下一段阅读任务"
+    },
+    {
+      "id": "s3",
+      "startFrame": 388,
+      "endFrame": 461,
+      "sentenceIds": [
+        10
+      ],
+      "relation": "parallel-options",
+      "purpose": "建立三条并列底线",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "三条底线在人物旁逐项出现",
+      "result": "建立三条并列底线",
+      "readWindow": [
+        420,
+        456
+      ],
+      "handoff": "人物与句后回应接住下一段阅读任务"
+    },
+    {
+      "id": "s4",
+      "startFrame": 461,
+      "endFrame": 616,
+      "sentenceIds": [
+        11,
+        12,
+        13
+      ],
+      "relation": "option-comparison",
+      "purpose": "删去额外消费，分清想要与需要",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "已有同类被圈出，额外购买被否定，再回应必要采购",
+      "result": "删去额外消费，分清想要与需要",
+      "readWindow": [
+        586,
+        610
+      ],
+      "handoff": "人物与句后回应接住下一段阅读任务"
+    },
+    {
+      "id": "s5",
+      "startFrame": 616,
+      "endFrame": 686,
+      "sentenceIds": [
+        14
+      ],
+      "relation": "problem-mechanism-response",
+      "purpose": "保留已受损后的本金，不恢复损失",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "本金保护图在人物旁出现，不遮脸和口型",
+      "result": "保留已受损后的本金，不恢复损失",
+      "readWindow": [
+        650,
+        681
+      ],
+      "handoff": "人物与句后回应接住下一段阅读任务"
+    },
+    {
+      "id": "s6",
+      "startFrame": 686,
+      "endFrame": 783,
+      "sentenceIds": [
+        15
+      ],
+      "relation": "contrast-turn",
+      "purpose": "在收益说法后揭示风险",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "高回报说法先出现，随后用风险重点词和圈注回应",
+      "result": "在收益说法后揭示风险",
+      "readWindow": [
+        764,
+        781
+      ],
+      "handoff": "人物与句后回应接住下一段阅读任务"
+    },
+    {
+      "id": "s7",
+      "startFrame": 783,
+      "endFrame": 856,
+      "sentenceIds": [
+        16
+      ],
+      "relation": "problem-mechanism-response",
+      "purpose": "明确远离投机和炒作",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "投机与炒作被划去，远离标签跟随原句",
+      "result": "明确远离投机和炒作",
+      "readWindow": [
+        812,
+        850
+      ],
+      "handoff": "人物与句后回应接住下一段阅读任务"
+    },
+    {
+      "id": "s8",
+      "startFrame": 856,
+      "endFrame": 898,
+      "sentenceIds": [
+        17
+      ],
+      "relation": "problem-mechanism-response",
+      "purpose": "移去部分负担，非清空负债",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "减少负债的动作发生在侧边，不改变真人表情",
+      "result": "移去部分负担，非清空负债",
+      "readWindow": [
+        880,
+        896
+      ],
+      "handoff": "人物与句后回应接住下一段阅读任务"
+    },
+    {
+      "id": "s9",
+      "startFrame": 898,
+      "endFrame": 1100,
+      "sentenceIds": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "relation": "recap-return",
+      "purpose": "回到真人和已经形成的三项判断",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "重点图文让位，真人回到中心，结论停稳",
+      "result": "回到真人和已经形成的三项判断",
+      "readWindow": [
+        960,
+        1100
+      ],
+      "handoff": "同一人物、同一路原声完整结束"
+    }
+  ]
+}

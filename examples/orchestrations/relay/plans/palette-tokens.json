@@ -1,0 +1,21 @@
+{
+  "status": "designed",
+  "grammar": "G02",
+  "sourceBinding": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "axis": "palette",
+  "colors": {
+    "paper": "#f1eddf",
+    "white": "#fffdf6",
+    "ink": "#252e29",
+    "red": "#aa3e32",
+    "green": "#426657",
+    "pale": "#dce3d4"
+  },
+  "roles": {
+    "red": "问题、否定和风险",
+    "green": "保留、保护和筛选结果"
+  },
+  "exclude": [
+    "人物原色层"
+  ]
+}

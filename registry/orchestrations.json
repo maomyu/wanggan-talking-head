@@ -38,7 +38,8 @@
       "fps": 30
     },
     "evidence": "evidence/orchestrations/presenter/approval.json",
-    "otherRecipeCompatibility": "design-adaptation-required; not cross-recipe rendering verification"
+    "otherRecipeCompatibility": "design-adaptation-required; not cross-recipe rendering verification",
+    "kind": "attention-mode"
   },
   {
     "id": "diagram",
@@ -79,6 +80,415 @@
       "fps": 30
     },
     "evidence": "evidence/orchestrations/diagram/approval.json",
+    "otherRecipeCompatibility": "design-adaptation-required; not cross-recipe rendering verification",
+    "kind": "attention-mode"
+  },
+  {
+    "id": "spatial",
+    "code": "G01",
+    "name": "空间漫游",
+    "aliases": [
+      "G01"
+    ],
+    "kind": "mechanism",
+    "status": "user-approved",
+    "when": [
+      "一个主题有多个位置、步骤或观察尺度，观众需要知道自己在哪里",
+      "空间关系真实存在，或明确标注为解释地图"
+    ],
+    "principle": "全图—局部—全图",
+    "anchor": "同一张总图",
+    "referenceConcept": "沿一张总图进入消费、本金和负债三个区域，最后拉回全貌。",
+    "coordinationAxes": [
+      "information",
+      "representation",
+      "typography",
+      "object-motion",
+      "camera",
+      "transition",
+      "rhythm"
+    ],
+    "preserve": [
+      "人物原色",
+      "角落真圆且全路径等比",
+      "字幕上移",
+      "自有原声",
+      "本次文案真实关系"
+    ],
+    "avoid": [
+      "为了换画面穿越不相关空间",
+      "镜头拉远后标签小到不可读"
+    ],
+    "guide": "docs/八类编排机制.md",
+    "reference": {
+      "path": "examples/orchestrations/spatial",
+      "recipeId": "editorial-print",
+      "sourceSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+      "videoSha256": "fbfa57a2e9ac50c76709ba85f58c9f93bee7af8fb24a7d66017bece2cc2569c0",
+      "frames": 1100,
+      "fps": 30,
+      "buildMode": "approved-mechanism-case",
+      "timingContract": "source-bound-frame-functions-v1"
+    },
+    "evidence": "evidence/orchestrations/spatial/approval.json",
+    "poster": "evidence/orchestrations/spatial/comparison-poster.jpg",
+    "otherRecipeCompatibility": "design-adaptation-required; not cross-recipe rendering verification"
+  },
+  {
+    "id": "relay",
+    "code": "G02",
+    "name": "同物接力",
+    "aliases": [
+      "G02"
+    ],
+    "kind": "mechanism",
+    "status": "user-approved",
+    "when": [
+      "同一对象在多段承担不同任务",
+      "原稿有贯穿的问题、证据或判断，不需要强换道具"
+    ],
+    "principle": "同物移动—展开—接住",
+    "anchor": "同一张判断卡",
+    "referenceConcept": "一张“判断卡”从购物清单穿过本金护套，再进入减负债页，成为整片交接物。",
+    "coordinationAxes": [
+      "information",
+      "representation",
+      "typography",
+      "object-motion",
+      "camera",
+      "transition",
+      "rhythm"
+    ],
+    "preserve": [
+      "人物原色",
+      "角落真圆且全路径等比",
+      "字幕上移",
+      "自有原声",
+      "本次文案真实关系"
+    ],
+    "avoid": [
+      "对象被替换却伪装成同一个",
+      "每段换卡片，只复用同一种转场"
+    ],
+    "guide": "docs/八类编排机制.md",
+    "reference": {
+      "path": "examples/orchestrations/relay",
+      "recipeId": "editorial-print",
+      "sourceSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+      "videoSha256": "63adefe2a8b4be2523e02329042c25fc1d135acfcf097cee9e84d3c6970277f9",
+      "frames": 1100,
+      "fps": 30,
+      "buildMode": "approved-mechanism-case",
+      "timingContract": "source-bound-frame-functions-v1"
+    },
+    "evidence": "evidence/orchestrations/relay/approval.json",
+    "poster": "evidence/orchestrations/relay/comparison-poster.jpg",
+    "otherRecipeCompatibility": "design-adaptation-required; not cross-recipe rendering verification"
+  },
+  {
+    "id": "assembly",
+    "code": "G03",
+    "name": "拆解与组装",
+    "aliases": [
+      "G03"
+    ],
+    "kind": "mechanism",
+    "status": "user-approved",
+    "when": [
+      "整体可拆为可辨认的部分，并能说明各部分如何组成整体",
+      "结尾需要把局部重新放回系统"
+    ],
+    "principle": "整体—拆件—解释—组装",
+    "anchor": "三块并列部件",
+    "referenceConcept": "先把“选择”拆成消费、本金和负债三块；逐块处理，结尾重新组成自己的底线。",
+    "coordinationAxes": [
+      "information",
+      "representation",
+      "typography",
+      "object-motion",
+      "camera",
+      "transition",
+      "rhythm"
+    ],
+    "preserve": [
+      "人物原色",
+      "角落真圆且全路径等比",
+      "字幕上移",
+      "自有原声",
+      "本次文案真实关系"
+    ],
+    "avoid": [
+      "把并列建议伪装成真实机械部件",
+      "拆开后无法交代缺失部件和终态"
+    ],
+    "guide": "docs/八类编排机制.md",
+    "reference": {
+      "path": "examples/orchestrations/assembly",
+      "recipeId": "editorial-print",
+      "sourceSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+      "videoSha256": "5ecadda18a01d91e8eb020927354153c5a5af8d38fe583ec8529d5a2e1515e07",
+      "frames": 1100,
+      "fps": 30,
+      "buildMode": "approved-mechanism-case",
+      "timingContract": "source-bound-frame-functions-v1"
+    },
+    "evidence": "evidence/orchestrations/assembly/approval.json",
+    "poster": "evidence/orchestrations/assembly/comparison-poster.jpg",
+    "otherRecipeCompatibility": "design-adaptation-required; not cross-recipe rendering verification"
+  },
+  {
+    "id": "parallel",
+    "code": "G04",
+    "name": "并行对照",
+    "aliases": [
+      "G04"
+    ],
+    "kind": "mechanism",
+    "status": "user-approved",
+    "when": [
+      "明确比较两个或多个对象的同一维度",
+      "需要保留共同基线并同时看到差异"
+    ],
+    "principle": "共同维度—分别变化—对照",
+    "anchor": "左右比较面",
+    "referenceConcept": "把跟风与先判断放到左右两个比较区，同尺度观察消费取舍、风险识别和负债变化。",
+    "coordinationAxes": [
+      "information",
+      "representation",
+      "typography",
+      "object-motion",
+      "camera",
+      "transition",
+      "rhythm"
+    ],
+    "preserve": [
+      "人物原色",
+      "角落真圆且全路径等比",
+      "字幕上移",
+      "自有原声",
+      "本次文案真实关系"
+    ],
+    "avoid": [
+      "偷换比较尺度或时间条件",
+      "同屏堆满文字使双方都读不完"
+    ],
+    "guide": "docs/八类编排机制.md",
+    "reference": {
+      "path": "examples/orchestrations/parallel",
+      "recipeId": "editorial-print",
+      "sourceSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+      "videoSha256": "771bcbc6d7a68aa495acf763c2025e87de7ffe11cd47aeb714352ab3725a036a",
+      "frames": 1100,
+      "fps": 30,
+      "buildMode": "approved-mechanism-case",
+      "timingContract": "source-bound-frame-functions-v1"
+    },
+    "evidence": "evidence/orchestrations/parallel/approval.json",
+    "poster": "evidence/orchestrations/parallel/comparison-poster.jpg",
+    "otherRecipeCompatibility": "design-adaptation-required; not cross-recipe rendering verification"
+  },
+  {
+    "id": "reveal",
+    "code": "G05",
+    "name": "分层揭示",
+    "aliases": [
+      "G05"
+    ],
+    "kind": "mechanism",
+    "status": "user-approved",
+    "when": [
+      "原句先给表象，后给条件、内部或转折",
+      "揭开信息确实减少误解，而非故意隐瞒必要条件"
+    ],
+    "principle": "表层—揭开—内部—停留",
+    "anchor": "前后层与揭示边缘",
+    "referenceConcept": "购物冲动、收益承诺和负债表层依次被揭开，底层信息在原句说到时才出现。",
+    "coordinationAxes": [
+      "information",
+      "representation",
+      "typography",
+      "object-motion",
+      "camera",
+      "transition",
+      "rhythm"
+    ],
+    "preserve": [
+      "人物原色",
+      "角落真圆且全路径等比",
+      "字幕上移",
+      "自有原声",
+      "本次文案真实关系"
+    ],
+    "avoid": [
+      "正文和背面文字相互遮挡",
+      "只为悬念遮掉原文必要条件"
+    ],
+    "guide": "docs/八类编排机制.md",
+    "reference": {
+      "path": "examples/orchestrations/reveal",
+      "recipeId": "editorial-print",
+      "sourceSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+      "videoSha256": "19bc3da531704d7f3d6c872f2226266554a12528dd7821f4cd4db134ae0b14cc",
+      "frames": 1100,
+      "fps": 30,
+      "buildMode": "approved-mechanism-case",
+      "timingContract": "source-bound-frame-functions-v1"
+    },
+    "evidence": "evidence/orchestrations/reveal/approval.json",
+    "poster": "evidence/orchestrations/reveal/comparison-poster.jpg",
+    "otherRecipeCompatibility": "design-adaptation-required; not cross-recipe rendering verification"
+  },
+  {
+    "id": "consequence",
+    "code": "G06",
+    "name": "动作与后果",
+    "aliases": [
+      "G06"
+    ],
+    "kind": "mechanism",
+    "status": "user-approved",
+    "when": [
+      "文案明确支持一个动作导致可观察后果",
+      "条件、动作、响应、结果可以逐步看见"
+    ],
+    "principle": "条件—动作—响应—结果",
+    "anchor": "受力台与负担",
+    "referenceConcept": "跟风增加负担；划去额外消费腾出空间；保护挡板截住风险；减少负债后负担变轻。",
+    "coordinationAxes": [
+      "information",
+      "representation",
+      "typography",
+      "object-motion",
+      "camera",
+      "transition",
+      "rhythm"
+    ],
+    "preserve": [
+      "人物原色",
+      "角落真圆且全路径等比",
+      "字幕上移",
+      "自有原声",
+      "本次文案真实关系"
+    ],
+    "avoid": [
+      "并列或相关冒充因果",
+      "示意载荷被误认为量化证据"
+    ],
+    "guide": "docs/八类编排机制.md",
+    "reference": {
+      "path": "examples/orchestrations/consequence",
+      "recipeId": "editorial-print",
+      "sourceSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+      "videoSha256": "f317f973c8d55e4a8e32dc42dc7d7484330c4b29a801fc0f2ac1b04c66a79208",
+      "frames": 1100,
+      "fps": 30,
+      "buildMode": "approved-mechanism-case",
+      "timingContract": "source-bound-frame-functions-v1"
+    },
+    "evidence": "evidence/orchestrations/consequence/approval.json",
+    "poster": "evidence/orchestrations/consequence/comparison-poster.jpg",
+    "otherRecipeCompatibility": "design-adaptation-required; not cross-recipe rendering verification"
+  },
+  {
+    "id": "tracking",
+    "code": "G07",
+    "name": "追踪与锁定",
+    "aliases": [
+      "G07"
+    ],
+    "kind": "mechanism",
+    "status": "user-approved",
+    "when": [
+      "从多个候选中检查证据、排除或确定目标",
+      "筛选标准有来源，锁定动作有依据"
+    ],
+    "principle": "范围—检查—依据—锁定",
+    "anchor": "检查框与对象网格",
+    "referenceConcept": "从购物、资产、负债和收益承诺中逐项寻找问题；观察框停在依据上，再留下筛选结果。",
+    "coordinationAxes": [
+      "information",
+      "representation",
+      "typography",
+      "object-motion",
+      "camera",
+      "transition",
+      "rhythm"
+    ],
+    "preserve": [
+      "人物原色",
+      "角落真圆且全路径等比",
+      "字幕上移",
+      "自有原声",
+      "本次文案真实关系"
+    ],
+    "avoid": [
+      "扫描框无依据游走",
+      "锁定错误对象或筛完后全部恢复"
+    ],
+    "guide": "docs/八类编排机制.md",
+    "reference": {
+      "path": "examples/orchestrations/tracking",
+      "recipeId": "editorial-print",
+      "sourceSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+      "videoSha256": "4108e7e4a249d6d03d477fe35c8bdd29322dc5a6ef6df8122c63918277b42e85",
+      "frames": 1100,
+      "fps": 30,
+      "buildMode": "approved-mechanism-case",
+      "timingContract": "source-bound-frame-functions-v1"
+    },
+    "evidence": "evidence/orchestrations/tracking/approval.json",
+    "poster": "evidence/orchestrations/tracking/comparison-poster.jpg",
+    "otherRecipeCompatibility": "design-adaptation-required; not cross-recipe rendering verification"
+  },
+  {
+    "id": "response",
+    "code": "G08",
+    "name": "人物现场回应",
+    "aliases": [
+      "G08"
+    ],
+    "kind": "mechanism",
+    "status": "user-approved",
+    "when": [
+      "观点、经历、判断或情绪以真人表达为主",
+      "图文可在语气重点之后回应并及时让位"
+    ],
+    "principle": "人物—重点回应—物件解释—人物",
+    "anchor": "人物与句后回应",
+    "referenceConcept": "人物持续承担讲述；关键词、物件与批注按语气回应，保留真人表情和连续原声。",
+    "coordinationAxes": [
+      "information",
+      "representation",
+      "typography",
+      "object-motion",
+      "camera",
+      "transition",
+      "rhythm"
+    ],
+    "preserve": [
+      "人物原色",
+      "角落真圆且全路径等比",
+      "字幕上移",
+      "自有原声",
+      "本次文案真实关系"
+    ],
+    "avoid": [
+      "编造人物反应或嘴型",
+      "每句话都弹字，抢走真人语气"
+    ],
+    "guide": "docs/八类编排机制.md",
+    "reference": {
+      "path": "examples/orchestrations/response",
+      "recipeId": "editorial-print",
+      "sourceSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+      "videoSha256": "799c66b3976b383926c340ad4805697dbfcf5a353e4c832f8cbe11441ecb4b76",
+      "frames": 1100,
+      "fps": 30,
+      "buildMode": "approved-mechanism-case",
+      "timingContract": "source-bound-frame-functions-v1"
+    },
+    "evidence": "evidence/orchestrations/response/approval.json",
+    "poster": "evidence/orchestrations/response/comparison-poster.jpg",
     "otherRecipeCompatibility": "design-adaptation-required; not cross-recipe rendering verification"
   }
 ]

@@ -1,0 +1,42 @@
+{
+  "status": "user-approved",
+  "date": "2026-10-26",
+  "basis": "用户明确认可这8类编排并要求正式并入插件",
+  "sourceSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "originalVideoSha256": "f317f973c8d55e4a8e32dc42dc7d7484330c4b29a801fc0f2ac1b04c66a79208",
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "frames": 1100,
+    "duration": 36.666667,
+    "sha256": "f317f973c8d55e4a8e32dc42dc7d7484330c4b29a801fc0f2ac1b04c66a79208"
+  },
+  "preservedImplementation": {
+    "examples/orchestrations/consequence/edit-plan.json": "699c481b98445d39dedb1b09bf46e5f7db6b5dfe422e67bbeaf6718a2c335cf2",
+    "examples/orchestrations/consequence/scene-plan.json": "d9a2b91ab1fb4315cb0e45d561444140efa40e826f8562555bc2527dd5a7abac",
+    "examples/orchestrations/consequence/hyperframes.json": "33d34a7319db254dc97eb3973b382a86cec16bab42543aec715be3c383447428",
+    "examples/orchestrations/consequence/timing.json": "ec0f23f93d85ff62e1c4311b8e2603fe39b7bd87be6d78ff67cc5887b8e7f5d8",
+    "examples/orchestrations/consequence/recipe.json": "a23f08d2bb8fba127af8d755013fe2699761f0be756f49291338c1e1c5c246c9",
+    "examples/orchestrations/consequence/facts.json": "5e0f84f861852c02301370d8ad33123e896ec8cde2248cfcb138158664556b9c",
+    "examples/orchestrations/consequence/plans/palette-tokens.json": "6600ce455ef05147fd969fc899d2296d15f10f818b8b9ef752b7e997a6efd49e",
+    "examples/orchestrations/consequence/plans/transition-plan.json": "38f441b82248b83d015043a60c83364eea0d9a4683725b61082f0b917c3adc0d",
+    "examples/orchestrations/consequence/plans/timing.json": "e646a8e796c9e254faebcf8fd807f32566842967cd215c9fabc52adcdfec0ca7",
+    "examples/orchestrations/consequence/plans/layout-plan.json": "06f079db0549e21d3a711105592767a706267a8b8f696578914180c8a82d3ac1",
+    "examples/orchestrations/consequence/plans/brief.json": "cc1314f68cbdda7741127b0fc8e877ee7d7803ed49fea9c812c6b8593da70c0e",
+    "examples/orchestrations/consequence/plans/semantic-plan.json": "c1847375f10960476f4a24617516e4901897ea20713849453e2c1905384aa231",
+    "examples/orchestrations/consequence/plans/finish-plan.json": "37fb039bd5db5dd63b764468fdfbadff5394c3d3feb8ea9da0f77f97346fe43c",
+    "examples/orchestrations/consequence/plans/camera-plan.json": "70b05951ad0bf59dcbb97b001d84062dad74705192b3afe197291f1c98fc0a50",
+    "examples/orchestrations/consequence/plans/object-spec.json": "c3943e51d74ffa8f2791fc441daf2944588734870a205634fd7d3dcf15917002",
+    "examples/orchestrations/consequence/plans/material-tokens.json": "d6a12f8d59e9c6f6a4db8112b1d332dd4c9e52e429bbd6aec709ad55581d7d34",
+    "examples/orchestrations/consequence/plans/style-contract.json": "3a746429f883b24cb7ff72fc5b8902e12802ed14c7d99e48429d0c8196244591",
+    "examples/orchestrations/consequence/plans/motion-events.json": "ed88f7eaa102755d91db0bdbfdb0e901279ba96603aafc7620c77625ae4c04fd",
+    "examples/orchestrations/consequence/scripts/film.mjs": "d5cd9561091610ec9ad005e806930c48ae008f3a83ec365284aa05f0aa58338f",
+    "examples/orchestrations/consequence/scripts/composition.template": "a5e8bda2fe2f0fca52cd6406dd16f88693d689e92476a2bdd8a1569091033a54",
+    "examples/orchestrations/consequence/scripts/film.css": "582c22daa999b90fc9efabbee244497ea6be60e8f22a7da81df99732d680d5d5",
+    "examples/orchestrations/consequence/scripts/build-project.mjs": "dadfb4556e412a22c47c7ea9927eca07b1b917eff4e946d0c34e8feb34046f3c",
+    "examples/orchestrations/consequence/assets/config.js": "546e87213c1e4927fef74f7175e4f84decec28af51ab35f52faa5c88b4d1d285"
+  },
+  "scope": "同一自有口播与统一基础视觉的8条完整视频；19套母画风交叉组合需按实际内容设计，非152条影片验收",
+  "reviewMethod": "作者实片抽帧、逐帧程序检查及用户观看认可；非独立盲评"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "designed",
+  "grammar": "G06",
+  "sourceBinding": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "axis": "camera",
+  "method": "固定观察面，以对象本身的动作交接；不加无目的整体推拉",
+  "focus": "受力台与负担",
+  "screenLayers": [
+    "headline",
+    "original-color presenter",
+    "raised captions"
+  ]
+}

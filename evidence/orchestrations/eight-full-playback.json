@@ -1,0 +1,1202 @@
+{
+  "ok": true,
+  "samples": [
+    {
+      "wallSeconds": 0.008,
+      "videos": [
+        {
+          "key": "spatial",
+          "time": 0,
+          "ended": false,
+          "paused": true,
+          "ready": 1,
+          "error": null,
+          "frames": 0,
+          "dropped": 0
+        },
+        {
+          "key": "relay",
+          "time": 0,
+          "ended": false,
+          "paused": true,
+          "ready": 1,
+          "error": null,
+          "frames": 0,
+          "dropped": 0
+        },
+        {
+          "key": "assembly",
+          "time": 0,
+          "ended": false,
+          "paused": true,
+          "ready": 1,
+          "error": null,
+          "frames": 0,
+          "dropped": 0
+        },
+        {
+          "key": "parallel",
+          "time": 0,
+          "ended": false,
+          "paused": true,
+          "ready": 1,
+          "error": null,
+          "frames": 0,
+          "dropped": 0
+        },
+        {
+          "key": "reveal",
+          "time": 0,
+          "ended": false,
+          "paused": true,
+          "ready": 1,
+          "error": null,
+          "frames": 0,
+          "dropped": 0
+        },
+        {
+          "key": "consequence",
+          "time": 0,
+          "ended": false,
+          "paused": true,
+          "ready": 1,
+          "error": null,
+          "frames": 0,
+          "dropped": 0
+        },
+        {
+          "key": "tracking",
+          "time": 0,
+          "ended": false,
+          "paused": true,
+          "ready": 1,
+          "error": null,
+          "frames": 0,
+          "dropped": 0
+        },
+        {
+          "key": "response",
+          "time": 0,
+          "ended": false,
+          "paused": true,
+          "ready": 1,
+          "error": null,
+          "frames": 0,
+          "dropped": 0
+        }
+      ]
+    },
+    {
+      "wallSeconds": 3.016,
+      "videos": [
+        {
+          "key": "spatial",
+          "time": 1.263326,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 43,
+          "dropped": 0
+        },
+        {
+          "key": "relay",
+          "time": 1.263344,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 43,
+          "dropped": 0
+        },
+        {
+          "key": "assembly",
+          "time": 1.263351,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 43,
+          "dropped": 0
+        },
+        {
+          "key": "parallel",
+          "time": 1.263347,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 43,
+          "dropped": 0
+        },
+        {
+          "key": "reveal",
+          "time": 1.263337,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 43,
+          "dropped": 0
+        },
+        {
+          "key": "consequence",
+          "time": 1.263336,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 43,
+          "dropped": 0
+        },
+        {
+          "key": "tracking",
+          "time": 1.263308,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 43,
+          "dropped": 0
+        },
+        {
+          "key": "response",
+          "time": 1.263307,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 43,
+          "dropped": 0
+        }
+      ]
+    },
+    {
+      "wallSeconds": 6.022,
+      "videos": [
+        {
+          "key": "spatial",
+          "time": 4.269089,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 133,
+          "dropped": 0
+        },
+        {
+          "key": "relay",
+          "time": 4.269088,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 133,
+          "dropped": 0
+        },
+        {
+          "key": "assembly",
+          "time": 4.269084,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 133,
+          "dropped": 0
+        },
+        {
+          "key": "parallel",
+          "time": 4.269083,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 133,
+          "dropped": 0
+        },
+        {
+          "key": "reveal",
+          "time": 4.269073,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 133,
+          "dropped": 0
+        },
+        {
+          "key": "consequence",
+          "time": 4.269071,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 133,
+          "dropped": 0
+        },
+        {
+          "key": "tracking",
+          "time": 4.269068,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 133,
+          "dropped": 0
+        },
+        {
+          "key": "response",
+          "time": 4.269037,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 133,
+          "dropped": 0
+        }
+      ]
+    },
+    {
+      "wallSeconds": 9.027,
+      "videos": [
+        {
+          "key": "spatial",
+          "time": 7.276591,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 223,
+          "dropped": 0
+        },
+        {
+          "key": "relay",
+          "time": 7.276591,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 223,
+          "dropped": 0
+        },
+        {
+          "key": "assembly",
+          "time": 7.27659,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 223,
+          "dropped": 0
+        },
+        {
+          "key": "parallel",
+          "time": 7.276588,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 223,
+          "dropped": 0
+        },
+        {
+          "key": "reveal",
+          "time": 7.276572,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 223,
+          "dropped": 0
+        },
+        {
+          "key": "consequence",
+          "time": 7.276571,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 223,
+          "dropped": 0
+        },
+        {
+          "key": "tracking",
+          "time": 7.276568,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 223,
+          "dropped": 0
+        },
+        {
+          "key": "response",
+          "time": 7.276565,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 223,
+          "dropped": 0
+        }
+      ]
+    },
+    {
+      "wallSeconds": 12.033,
+      "videos": [
+        {
+          "key": "spatial",
+          "time": 10.283551,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 313,
+          "dropped": 0
+        },
+        {
+          "key": "relay",
+          "time": 10.283541,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 313,
+          "dropped": 0
+        },
+        {
+          "key": "assembly",
+          "time": 10.283538,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 313,
+          "dropped": 0
+        },
+        {
+          "key": "parallel",
+          "time": 10.283535,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 313,
+          "dropped": 0
+        },
+        {
+          "key": "reveal",
+          "time": 10.283498,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 313,
+          "dropped": 0
+        },
+        {
+          "key": "consequence",
+          "time": 10.283496,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 313,
+          "dropped": 0
+        },
+        {
+          "key": "tracking",
+          "time": 10.283494,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 313,
+          "dropped": 0
+        },
+        {
+          "key": "response",
+          "time": 10.283493,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 313,
+          "dropped": 0
+        }
+      ]
+    },
+    {
+      "wallSeconds": 15.038,
+      "videos": [
+        {
+          "key": "spatial",
+          "time": 13.288861,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 403,
+          "dropped": 0
+        },
+        {
+          "key": "relay",
+          "time": 13.288865,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 403,
+          "dropped": 0
+        },
+        {
+          "key": "assembly",
+          "time": 13.288863,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 403,
+          "dropped": 0
+        },
+        {
+          "key": "parallel",
+          "time": 13.28886,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 403,
+          "dropped": 0
+        },
+        {
+          "key": "reveal",
+          "time": 13.288826,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 403,
+          "dropped": 0
+        },
+        {
+          "key": "consequence",
+          "time": 13.288821,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 403,
+          "dropped": 0
+        },
+        {
+          "key": "tracking",
+          "time": 13.288819,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 403,
+          "dropped": 0
+        },
+        {
+          "key": "response",
+          "time": 13.288817,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 403,
+          "dropped": 0
+        }
+      ]
+    },
+    {
+      "wallSeconds": 18.044,
+      "videos": [
+        {
+          "key": "spatial",
+          "time": 16.29418,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 493,
+          "dropped": 0
+        },
+        {
+          "key": "relay",
+          "time": 16.294182,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 493,
+          "dropped": 0
+        },
+        {
+          "key": "assembly",
+          "time": 16.294181,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 493,
+          "dropped": 0
+        },
+        {
+          "key": "parallel",
+          "time": 16.29418,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 493,
+          "dropped": 0
+        },
+        {
+          "key": "reveal",
+          "time": 16.294166,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 493,
+          "dropped": 0
+        },
+        {
+          "key": "consequence",
+          "time": 16.294165,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 493,
+          "dropped": 0
+        },
+        {
+          "key": "tracking",
+          "time": 16.294164,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 493,
+          "dropped": 0
+        },
+        {
+          "key": "response",
+          "time": 16.294158,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 493,
+          "dropped": 0
+        }
+      ]
+    },
+    {
+      "wallSeconds": 21.048,
+      "videos": [
+        {
+          "key": "spatial",
+          "time": 19.301504,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 584,
+          "dropped": 0
+        },
+        {
+          "key": "relay",
+          "time": 19.301476,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 584,
+          "dropped": 0
+        },
+        {
+          "key": "assembly",
+          "time": 19.301361,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 584,
+          "dropped": 0
+        },
+        {
+          "key": "parallel",
+          "time": 19.301359,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 584,
+          "dropped": 0
+        },
+        {
+          "key": "reveal",
+          "time": 19.301327,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 584,
+          "dropped": 0
+        },
+        {
+          "key": "consequence",
+          "time": 19.300947,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 584,
+          "dropped": 0
+        },
+        {
+          "key": "tracking",
+          "time": 19.30091,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 584,
+          "dropped": 0
+        },
+        {
+          "key": "response",
+          "time": 19.300908,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 584,
+          "dropped": 0
+        }
+      ]
+    },
+    {
+      "wallSeconds": 24.053,
+      "videos": [
+        {
+          "key": "spatial",
+          "time": 22.307478,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 674,
+          "dropped": 0
+        },
+        {
+          "key": "relay",
+          "time": 22.307488,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 674,
+          "dropped": 0
+        },
+        {
+          "key": "assembly",
+          "time": 22.307454,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 674,
+          "dropped": 0
+        },
+        {
+          "key": "parallel",
+          "time": 22.307398,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 674,
+          "dropped": 0
+        },
+        {
+          "key": "reveal",
+          "time": 22.307396,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 674,
+          "dropped": 0
+        },
+        {
+          "key": "consequence",
+          "time": 22.307046,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 674,
+          "dropped": 0
+        },
+        {
+          "key": "tracking",
+          "time": 22.307044,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 674,
+          "dropped": 0
+        },
+        {
+          "key": "response",
+          "time": 22.307042,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 674,
+          "dropped": 0
+        }
+      ]
+    },
+    {
+      "wallSeconds": 27.058,
+      "videos": [
+        {
+          "key": "spatial",
+          "time": 25.31261,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 764,
+          "dropped": 0
+        },
+        {
+          "key": "relay",
+          "time": 25.312614,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 764,
+          "dropped": 0
+        },
+        {
+          "key": "assembly",
+          "time": 25.312612,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 764,
+          "dropped": 0
+        },
+        {
+          "key": "parallel",
+          "time": 25.31261,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 764,
+          "dropped": 0
+        },
+        {
+          "key": "reveal",
+          "time": 25.31261,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 764,
+          "dropped": 0
+        },
+        {
+          "key": "consequence",
+          "time": 25.312281,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 764,
+          "dropped": 0
+        },
+        {
+          "key": "tracking",
+          "time": 25.312278,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 764,
+          "dropped": 0
+        },
+        {
+          "key": "response",
+          "time": 25.312278,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 764,
+          "dropped": 0
+        }
+      ]
+    },
+    {
+      "wallSeconds": 30.063,
+      "videos": [
+        {
+          "key": "spatial",
+          "time": 28.316191,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 854,
+          "dropped": 0
+        },
+        {
+          "key": "relay",
+          "time": 28.316212,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 854,
+          "dropped": 0
+        },
+        {
+          "key": "assembly",
+          "time": 28.316212,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 854,
+          "dropped": 0
+        },
+        {
+          "key": "parallel",
+          "time": 28.316208,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 854,
+          "dropped": 0
+        },
+        {
+          "key": "reveal",
+          "time": 28.316208,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 854,
+          "dropped": 0
+        },
+        {
+          "key": "consequence",
+          "time": 28.316037,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 854,
+          "dropped": 0
+        },
+        {
+          "key": "tracking",
+          "time": 28.316036,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 854,
+          "dropped": 0
+        },
+        {
+          "key": "response",
+          "time": 28.316035,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 854,
+          "dropped": 0
+        }
+      ]
+    },
+    {
+      "wallSeconds": 33.068,
+      "videos": [
+        {
+          "key": "spatial",
+          "time": 31.320025,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 944,
+          "dropped": 0
+        },
+        {
+          "key": "relay",
+          "time": 31.320027,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 944,
+          "dropped": 0
+        },
+        {
+          "key": "assembly",
+          "time": 31.320026,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 944,
+          "dropped": 0
+        },
+        {
+          "key": "parallel",
+          "time": 31.320026,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 944,
+          "dropped": 0
+        },
+        {
+          "key": "reveal",
+          "time": 31.321549,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 944,
+          "dropped": 0
+        },
+        {
+          "key": "consequence",
+          "time": 31.321405,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 944,
+          "dropped": 0
+        },
+        {
+          "key": "tracking",
+          "time": 31.321399,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 944,
+          "dropped": 0
+        },
+        {
+          "key": "response",
+          "time": 31.321396,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 944,
+          "dropped": 0
+        }
+      ]
+    },
+    {
+      "wallSeconds": 36.072,
+      "videos": [
+        {
+          "key": "spatial",
+          "time": 34.326702,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 1034,
+          "dropped": 0
+        },
+        {
+          "key": "relay",
+          "time": 34.326707,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 1034,
+          "dropped": 0
+        },
+        {
+          "key": "assembly",
+          "time": 34.326706,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 1034,
+          "dropped": 0
+        },
+        {
+          "key": "parallel",
+          "time": 34.326706,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 1034,
+          "dropped": 0
+        },
+        {
+          "key": "reveal",
+          "time": 34.326704,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 1034,
+          "dropped": 0
+        },
+        {
+          "key": "consequence",
+          "time": 34.326593,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 1034,
+          "dropped": 0
+        },
+        {
+          "key": "tracking",
+          "time": 34.326594,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 1034,
+          "dropped": 0
+        },
+        {
+          "key": "response",
+          "time": 34.326593,
+          "ended": false,
+          "paused": false,
+          "ready": 4,
+          "error": null,
+          "frames": 1034,
+          "dropped": 0
+        }
+      ]
+    },
+    {
+      "wallSeconds": 39.085,
+      "videos": [
+        {
+          "key": "spatial",
+          "time": 36.666667,
+          "ended": true,
+          "paused": true,
+          "ready": 4,
+          "error": null,
+          "frames": 1100,
+          "dropped": 0
+        },
+        {
+          "key": "relay",
+          "time": 36.666667,
+          "ended": true,
+          "paused": true,
+          "ready": 4,
+          "error": null,
+          "frames": 1100,
+          "dropped": 0
+        },
+        {
+          "key": "assembly",
+          "time": 36.666667,
+          "ended": true,
+          "paused": true,
+          "ready": 4,
+          "error": null,
+          "frames": 1100,
+          "dropped": 0
+        },
+        {
+          "key": "parallel",
+          "time": 36.666667,
+          "ended": true,
+          "paused": true,
+          "ready": 4,
+          "error": null,
+          "frames": 1100,
+          "dropped": 0
+        },
+        {
+          "key": "reveal",
+          "time": 36.666667,
+          "ended": true,
+          "paused": true,
+          "ready": 4,
+          "error": null,
+          "frames": 1100,
+          "dropped": 0
+        },
+        {
+          "key": "consequence",
+          "time": 36.666667,
+          "ended": true,
+          "paused": true,
+          "ready": 4,
+          "error": null,
+          "frames": 1100,
+          "dropped": 0
+        },
+        {
+          "key": "tracking",
+          "time": 36.666667,
+          "ended": true,
+          "paused": true,
+          "ready": 4,
+          "error": null,
+          "frames": 1100,
+          "dropped": 0
+        },
+        {
+          "key": "response",
+          "time": 36.666667,
+          "ended": true,
+          "paused": true,
+          "ready": 4,
+          "error": null,
+          "frames": 1100,
+          "dropped": 0
+        }
+      ]
+    }
+  ],
+  "issues": [],
+  "viewport": {
+    "width": 1600,
+    "height": 2400,
+    "reason": "所有八个播放器均可见，避免浏览器对视口外视频节流"
+  },
+  "scope": "八条实际MP4在同页从头播放到尾，以1倍速开始，轻微速度校准；记录掉帧，不等于审美或听感评审。"
+}

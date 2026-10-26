@@ -14,7 +14,21 @@ export function selectOrchestration(request='',explicit){
  const active=request.split(/[，。；,;\n]/).filter(s=>!/^\s*(保留|沿用|保持|不改|别改|不要|维持)/.test(s)).join('，');
  const found=orchestrations().filter(r=>[r.name,...r.aliases].some(n=>active.includes(n)));
  if(found.length>1)throw Error('检测到多套编排；用 --orchestration 明确本版本选择，分别比较请另建版本');
- return found.length?{id:found[0].id,selection:'request-hint',reason:'由指令提取，代理结合上下文确认'}:null;
+ if(found.length)return {id:found[0].id,selection:'request-hint',reason:'由指令提取，代理结合上下文确认'};
+ return /(?:自由搭配|自主选择|自动选择|按内容选择|按文案选择)/.test(active)?{id:'auto',selection:'agent-pending',reason:'代理读取本片语义后记录主编排及选择理由'}:null;
+}
+// Choosing a mechanism is a design decision, not a keyword-based video renderer.
+// Resolve a pending agent choice before building; existing films use revise.
+export function recordOrchestrationChoice(project,id,reason){
+ if(!reason?.trim())throw Error('需要 --reason，说明本次文案关系和选择理由');
+ const file=path.join(project,'project.json'),p=JSON.parse(fs.readFileSync(file));
+ if(!p.collaborationVersion||!['awaiting-design','revision-pending'].includes(p.status)||p.orchestration?.id!=='auto')throw Error('仅用于待设计的auto选择；已选编排请使用revise另存版本');
+ const row=loadOrchestration(id),selection={id:row.id,selection:'agent-reasoned',reason:reason.trim()};
+ p.orchestration=selection;
+ fs.writeFileSync(file,JSON.stringify(p,null,2)+'\n');
+ fs.writeFileSync(path.join(project,'orchestration.json'),JSON.stringify({...selection,profile:row,status:'awaiting-content-design'},null,2)+'\n');
+ const routeFile=path.join(project,'route.json');if(fs.existsSync(routeFile)){const route=JSON.parse(fs.readFileSync(routeFile));route.orchestration=selection;fs.writeFileSync(routeFile,JSON.stringify(route,null,2)+'\n');}
+ return {project,orchestration:selection,next:'逐句完成本片11类方案、动作结果与交接，再构建；选定不代表视频已制作'};
 }
 // Only the symbolic-track contract used by the approved reference cases.
 // Other new mechanisms retain their own implementation and validation.

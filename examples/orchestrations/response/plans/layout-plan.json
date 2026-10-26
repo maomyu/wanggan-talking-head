@@ -1,0 +1,50 @@
+{
+  "status": "designed",
+  "grammar": "G08",
+  "sourceBinding": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "axis": "typography",
+  "fontRoles": {
+    "title": "NotoSerifSC-700.woff",
+    "body": "NotoSansSC-500.woff",
+    "caption": "NotoSansSC-700.woff"
+  },
+  "headline": {
+    "x": 64,
+    "y": 210,
+    "width": 952,
+    "size": 88
+  },
+  "caption": {
+    "x": 64,
+    "y": 1600,
+    "width": 952,
+    "size": 58,
+    "lineHeight": 1.3,
+    "maxLines": 2
+  },
+  "portrait": {
+    "main": [
+      70,
+      635,
+      530
+    ],
+    "closing": [
+      205,
+      580,
+      670
+    ]
+  },
+  "graphicReadingArea": [
+    36,
+    500,
+    1008,
+    960
+  ],
+  "guards": [
+    "所有人物窗口全程为圆",
+    "文字不能经过人脸",
+    "图文对照同尺度",
+    "小卡片文字按实际高宽缩放并检查"
+  ],
+  "concept": "人物持续承担讲述；关键词、物件与批注按语气回应，保留真人表情和连续原声。"
+}

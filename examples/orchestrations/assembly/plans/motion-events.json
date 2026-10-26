@@ -1,0 +1,159 @@
+{
+  "status": "designed",
+  "grammar": "G03",
+  "sourceBinding": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03",
+  "axis": "object-motion",
+  "character": "层板拆开、局部部件抽出、保护壳合拢、重新组装",
+  "actions": [
+    {
+      "frameRange": [
+        0,
+        149
+      ],
+      "sentenceIds": [
+        1,
+        2,
+        3
+      ],
+      "action": "三个叠层随人物让位准备展开",
+      "readWindow": [
+        40,
+        108
+      ]
+    },
+    {
+      "frameRange": [
+        149,
+        388
+      ],
+      "sentenceIds": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "action": "叠层拆开，消费、本金、负债各占独立层板",
+      "readWindow": [
+        365,
+        388
+      ]
+    },
+    {
+      "frameRange": [
+        388,
+        461
+      ],
+      "sentenceIds": [
+        10
+      ],
+      "action": "三层并列停留，用括号说明不是先后步骤",
+      "readWindow": [
+        420,
+        456
+      ]
+    },
+    {
+      "frameRange": [
+        461,
+        616
+      ],
+      "sentenceIds": [
+        11,
+        12,
+        13
+      ],
+      "action": "消费层移到工作面，其余两层缩到索引；额外消费撤下",
+      "readWindow": [
+        586,
+        610
+      ]
+    },
+    {
+      "frameRange": [
+        616,
+        686
+      ],
+      "sentenceIds": [
+        14
+      ],
+      "action": "本金层接替工作面，侧板与顶盖合拢",
+      "readWindow": [
+        650,
+        681
+      ]
+    },
+    {
+      "frameRange": [
+        686,
+        783
+      ],
+      "sentenceIds": [
+        15
+      ],
+      "action": "顶盖沿导轨抽开，露出内部风险",
+      "readWindow": [
+        764,
+        781
+      ]
+    },
+    {
+      "frameRange": [
+        783,
+        856
+      ],
+      "sentenceIds": [
+        16
+      ],
+      "action": "护壳保住本金，投机留在外部",
+      "readWindow": [
+        812,
+        850
+      ]
+    },
+    {
+      "frameRange": [
+        856,
+        898
+      ],
+      "sentenceIds": [
+        17
+      ],
+      "action": "负债层接替工作面，拆去两条负担",
+      "readWindow": [
+        880,
+        896
+      ]
+    },
+    {
+      "frameRange": [
+        898,
+        1100
+      ],
+      "sentenceIds": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "action": "三层重新组成整体，再由人物接回结论",
+      "readWindow": [
+        960,
+        1100
+      ]
+    }
+  ],
+  "stateRules": {
+    "principal": [
+      6,
+      4
+    ],
+    "debt": [
+      3,
+      1
+    ],
+    "numbers": "illustrative only"
+  },
+  "pathProtection": "人物全路径等比；字幕上方至少20px；正文结果在读取窗口停稳"
+}

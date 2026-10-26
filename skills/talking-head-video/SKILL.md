@@ -3,6 +3,12 @@ name: talking-head-video
 description: 网感口播正式统一入口：按真实中文真人口播调度十一类专业技能，使用母画风、分支、组件和认可配方完成整片制作或单模块修改。保留四个完整专家方法、原素材与原声；换文案重新设计动作、图片和连续转场。
 ---
 
+<orchestration_1_22>
+1.22.0正式收录八类具体编排：空间漫游、同物接力、拆解与组装、并行对照、分层揭示、动作与后果、追踪与锁定、人物现场回应。它们与19套母画风、分支、组件分别选择，由11类技能协作；人物主导/连续图解继续兼容。整片、换编排或自由搭配先完整读[八类编排机制](../../docs/八类编排机制.md)，不缩成特效列表。以当前文案决定对象、动作、结果、读窗和连续交接。
+`orchestrations`查询，`init --orchestration <ID或中文名或G编号>`指定；auto时代理读懂本片后用`select-orchestration --project <工程> --orchestration <ID> --reason <文案理由>`记录主机制，再完成本片设计。auto未决不构建。局部技巧可组合但不轮播八种机制；换编排用revise，单模块修改继续冻结未选部分。八条认可片为同一自有素材，其他母画风组合须按实际内容适配，跨文案仍待新素材。
+</orchestration_1_22>
+
+
 <eleven_axis_production_contract>
 1.20.0正式加入人物主导、连续图解两套可选编排和已实测的单独节奏修改方法，画风、编排、局部修改范围分别选择。整片或相关修改先读[编排选择与局部节奏](../../docs/编排选择与局部节奏.md)。`orchestrations`查询，`init --recipe minimal --orchestration presenter|diagram|auto`选择；`revise --axes rhythm`只改节奏，其他轴同理。保留完整专业方法，新增编排不增加母画风数量。
 

@@ -1,0 +1,297 @@
+{
+  "grammar": {
+    "id": "G06",
+    "key": "consequence",
+    "name": "动作与后果",
+    "concept": "跟风增加负担；划去额外消费腾出空间；保护挡板截住风险；减少负债后负担变轻。",
+    "title": "每个动作，都有后果",
+    "anchor": "受力台与负担",
+    "motion": "加载、挤压、掉落、阻挡、卸载；原本金损失保持",
+    "sequence": "条件—动作—响应—结果",
+    "status": "in-production"
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "startFrame": 0,
+      "endFrame": 149,
+      "sentenceIds": [
+        1,
+        2,
+        3
+      ],
+      "relation": "problem-mechanism-response",
+      "purpose": "提出存不下钱的问题",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "受力台随人物让位进入",
+      "result": "提出存不下钱的问题",
+      "readWindow": [
+        40,
+        108
+      ],
+      "handoff": "受力台与负担接住下一段阅读任务"
+    },
+    {
+      "id": "s2",
+      "startFrame": 149,
+      "endFrame": 388,
+      "sentenceIds": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "relation": "problem-mechanism-response",
+      "purpose": "看见跟风消费、负债和本金受损",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "加购增加物件，负担加载让台面倾斜；损失后只剩四张本金票",
+      "result": "看见跟风消费、负债和本金受损",
+      "readWindow": [
+        365,
+        388
+      ],
+      "handoff": "受力台与负担接住下一段阅读任务"
+    },
+    {
+      "id": "s3",
+      "startFrame": 388,
+      "endFrame": 461,
+      "sentenceIds": [
+        10
+      ],
+      "relation": "parallel-options",
+      "purpose": "建立三条并列底线",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "台面停稳，建立重新判断的任务",
+      "result": "建立三条并列底线",
+      "readWindow": [
+        420,
+        456
+      ],
+      "handoff": "受力台与负担接住下一段阅读任务"
+    },
+    {
+      "id": "s4",
+      "startFrame": 461,
+      "endFrame": 616,
+      "sentenceIds": [
+        11,
+        12,
+        13
+      ],
+      "relation": "option-comparison",
+      "purpose": "删去额外消费，分清想要与需要",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "额外加购从台面撤下，腾出的位子留给必要采购",
+      "result": "删去额外消费，分清想要与需要",
+      "readWindow": [
+        586,
+        610
+      ],
+      "handoff": "受力台与负担接住下一段阅读任务"
+    },
+    {
+      "id": "s5",
+      "startFrame": 616,
+      "endFrame": 686,
+      "sentenceIds": [
+        14
+      ],
+      "relation": "problem-mechanism-response",
+      "purpose": "保留已受损后的本金，不恢复损失",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "剩余本金周围立起保护挡板",
+      "result": "保留已受损后的本金，不恢复损失",
+      "readWindow": [
+        650,
+        681
+      ],
+      "handoff": "受力台与负担接住下一段阅读任务"
+    },
+    {
+      "id": "s6",
+      "startFrame": 686,
+      "endFrame": 783,
+      "sentenceIds": [
+        15
+      ],
+      "relation": "contrast-turn",
+      "purpose": "在收益说法后揭示风险",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "收益说法向本金靠近，停在挡板外，随后显出风险",
+      "result": "在收益说法后揭示风险",
+      "readWindow": [
+        764,
+        781
+      ],
+      "handoff": "受力台与负担接住下一段阅读任务"
+    },
+    {
+      "id": "s7",
+      "startFrame": 783,
+      "endFrame": 856,
+      "sentenceIds": [
+        16
+      ],
+      "relation": "problem-mechanism-response",
+      "purpose": "明确远离投机和炒作",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "挡板阻断接近，远离标记留下",
+      "result": "明确远离投机和炒作",
+      "readWindow": [
+        812,
+        850
+      ],
+      "handoff": "受力台与负担接住下一段阅读任务"
+    },
+    {
+      "id": "s8",
+      "startFrame": 856,
+      "endFrame": 898,
+      "sentenceIds": [
+        17
+      ],
+      "relation": "problem-mechanism-response",
+      "purpose": "移去部分负担，非清空负债",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "悬挂负担减少两块，一块仍在",
+      "result": "移去部分负担，非清空负债",
+      "readWindow": [
+        880,
+        896
+      ],
+      "handoff": "受力台与负担接住下一段阅读任务"
+    },
+    {
+      "id": "s9",
+      "startFrame": 898,
+      "endFrame": 1100,
+      "sentenceIds": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "relation": "recap-return",
+      "purpose": "回到真人和已经形成的三项判断",
+      "objects": [
+        "speaker",
+        "purchase",
+        "duplicate",
+        "food",
+        "principal",
+        "debt",
+        "promotion",
+        "risk",
+        "trend",
+        "carrier"
+      ],
+      "action": "受力结果与三条底线回收，人物接住结论",
+      "result": "回到真人和已经形成的三项判断",
+      "readWindow": [
+        960,
+        1100
+      ],
+      "handoff": "同一人物、同一路原声完整结束"
+    }
+  ],
+  "protected": [
+    "source",
+    "voice",
+    "captions",
+    "person-color",
+    "circle-shape",
+    "raised-caption"
+  ],
+  "scope": "only test, same source; no new-material validation claim"
+}

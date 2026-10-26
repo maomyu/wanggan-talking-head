@@ -1,0 +1,19 @@
+{
+  "name": "分层揭示",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 1100,
+  "source": "user-owned",
+  "output": "test-only",
+  "coreConcept": "购物冲动、收益承诺和负债表层依次被揭开，底层信息在原句说到时才出现。",
+  "sourceEdit": "continuous 0–1100; original voice unchanged",
+  "visualControl": "shared paper, ink, red and green; narrative structure varies",
+  "person": "natural color, equal-scale circle throughout",
+  "caption": {
+    "top": 1600,
+    "size": 58,
+    "maxLines": 2
+  },
+  "review": "author self-review"
+}

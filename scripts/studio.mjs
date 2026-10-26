@@ -6,6 +6,7 @@ import {spawn,execFileSync} from 'node:child_process';
 import {fileURLToPath} from 'node:url';
 import * as loaderHooks from 'node:module';
 import {createProductionReview} from '../runtime/production-review.mjs';
+import {recordOrchestrationChoice} from '../runtime/orchestration.mjs';
 import {productionCatalog,chooseRecipe,recipeIntent,patchPalette,auditProductionLibrary} from '../runtime/production-entry.mjs';
 import {catalog,loadRecipe,resolve,change,compile,collaborationRoute,initCollaboration,reproduce,validateProject,reviseCollaboration,checkCollaborationLibrary} from '../runtime/collaboration.mjs';
 import {systems,system,compositionRecipe,installCompositionExample,checkCompositionLibrary} from '../runtime/choreography.mjs';
@@ -129,7 +130,7 @@ async function main(){
  if(command==='compile'){if(!o.plan)throw Error('需要 --plan 场景计划JSON');const f=path.resolve(o.plan);return compile(o.recipe||'minimal',read(f),path.dirname(f));}
  if(command==='reproduce'||command==='reference')return reproduce(o);
  if(command==='catalog-ui')return createProductionReview(o);
- if(command==='catalog')return {...productionCatalog(),branches:catalog('branches'),components:catalog('components')};
+ if(command==='catalog')return {...productionCatalog(),orchestrations:catalog('orchestrations'),branches:catalog('branches'),components:catalog('components')};
  if(command==='inspect'){const e=chooseRecipe(o.recipe);return {entry:e,resolved:resolve(e.id)}}
  if(command==='audit-library')return auditProductionLibrary();
  if(command==='recipe')return o.style?recipe(o):loadRecipe(o.recipe||o.id||'minimal');
@@ -139,8 +140,9 @@ async function main(){
  if(command==='setup')return setup();
  if(command==='init')return init(o);
  if(command==='revise')return revise(o);
- if(command==='help'||!command)return {commands:['catalog-ui --project 新目录 [--media-map 本地样片JSON]','catalog','inspect --recipe 配方ID|Fxx|名称','audit-library','scope --project 项目','patch-palette --project 新版本 --values 补丁JSON','doctor','setup','orchestrations [--id presenter|diagram]','families | branches | components [--id ID]','standards [--id 标准ID]','recipes [--id 配方ID]','recipe --id 任一母画风或分支配方ID','resolve --recipe 配方ID或JSON','plan-change --axes palette,typography','compile --recipe 配方ID或JSON --plan 场景计划JSON','init --project 新路径 --source 自有视频 --recipe 配方ID [--branch A09 --components A61 --orchestration presenter|diagram|auto --transcript 字幕]','reproduce --project 新路径 --source 原案例方形代理视频 --recipe 配方ID [--orchestration presenter|diagram]','revise --from 原项目 --out 新版本 [--axes rhythm|typography|其他轴 或 --orchestration presenter|diagram] --request 修改需求','styles [--id 编号或名称 | --all | --status approved|implemented|production|candidate]','choreographies [--id C01]','recipe --style A58 [--composition auto|C06 --kind cause --layout L10 --motion M09 --editing E04 --sound S01]','route --request 中文需求 [--mode full|layout|motion|editing|art-direction]','init --project 新路径 --source 视频 [--transcript 字幕 --style A58 --composition C06 --request 需求]','init --project 新路径 --example approved --style magazine [--composition auto|C05]','revise --from 原项目 --out 新版本 --module layout --request 需求','run --project 项目 [--until build|check|render|verify]','preview --project 项目 [--port 端口]','stop --project 项目'],guide:'docs/使用说明.md'};
+ if(command==='help'||!command)return {commands:['catalog-ui --project 新目录 [--media-map 本地样片JSON]','catalog','inspect --recipe 配方ID|Fxx|名称','audit-library','scope --project 项目','patch-palette --project 新版本 --values 补丁JSON','select-orchestration --project 工程 --orchestration 编排ID --reason 文案选择理由','doctor','setup','orchestrations [--id 编排ID|G01至G08|中文名称]','families | branches | components [--id ID]','standards [--id 标准ID]','recipes [--id 配方ID]','recipe --id 任一母画风或分支配方ID','resolve --recipe 配方ID或JSON','plan-change --axes palette,typography','compile --recipe 配方ID或JSON --plan 场景计划JSON','init --project 新路径 --source 自有视频 --recipe 配方ID [--branch A09 --components A61 --orchestration 编排ID|auto --transcript 字幕]','reproduce --project 新路径 --source 原案例方形代理视频 --recipe 配方ID [--orchestration 编排ID]','revise --from 原项目 --out 新版本 [--axes rhythm|typography|其他轴 或 --orchestration 编排ID] --request 修改需求','styles [--id 编号或名称 | --all | --status approved|implemented|production|candidate]','choreographies [--id C01]','recipe --style A58 [--composition auto|C06 --kind cause --layout L10 --motion M09 --editing E04 --sound S01]','route --request 中文需求 [--mode full|layout|motion|editing|art-direction]','init --project 新路径 --source 视频 [--transcript 字幕 --style A58 --composition C06 --request 需求]','init --project 新路径 --example approved --style magazine [--composition auto|C05]','revise --from 原项目 --out 新版本 --module layout --request 需求','run --project 项目 [--until build|check|render|verify]','preview --project 项目 [--port 端口]','stop --project 项目'],guide:'docs/使用说明.md'};
  const r=rootOf(o);
+ if(command==='select-orchestration')return recordOrchestrationChoice(r,o.orchestration,o.reason);
  if(command==='scope')return {ok:true,...scopeCheck(r,true)};
  if(command==='patch-palette'){if(!o.values)throw Error('需要 --values 补丁JSON');return patchPalette(r,o.values,scopeCheck)}
  if(command==='check')return {ok:true,scope:scopeCheck(r),plan:validateProject(r)};

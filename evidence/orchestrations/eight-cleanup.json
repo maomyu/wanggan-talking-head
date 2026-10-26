@@ -1,0 +1,274 @@
+{
+  "completedAt": "2026-10-26T05:38:52.021797+00:00",
+  "scope": "only test/orchestration-eight-09 owned rebuildable intermediates",
+  "removed": [
+    {
+      "path": "qa/frame-cache",
+      "logicalBytes": 5858421544,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "qa/smoke",
+      "logicalBytes": 648347775,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "qa/person-proxy-keyframed.mp4",
+      "logicalBytes": 12802611,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "spatial/qa/frames",
+      "logicalBytes": 4357416,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "spatial/assets/fonts/NotoSansSC-800.woff",
+      "logicalBytes": 1426988,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "spatial/assets/fonts/NotoSansSC-900.woff",
+      "logicalBytes": 1394104,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "spatial/assets/fonts/ArchivoBlack-400.woff",
+      "logicalBytes": 38316,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "spatial/assets/fonts/LXGWWenKai-500.woff",
+      "logicalBytes": 2098296,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "spatial/assets/fonts/MaShanZheng-Regular.ttf",
+      "logicalBytes": 5857936,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "relay/qa/frames",
+      "logicalBytes": 4439649,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "relay/assets/fonts/NotoSansSC-800.woff",
+      "logicalBytes": 1426988,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "relay/assets/fonts/NotoSansSC-900.woff",
+      "logicalBytes": 1394104,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "relay/assets/fonts/ArchivoBlack-400.woff",
+      "logicalBytes": 38316,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "relay/assets/fonts/LXGWWenKai-500.woff",
+      "logicalBytes": 2098296,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "relay/assets/fonts/MaShanZheng-Regular.ttf",
+      "logicalBytes": 5857936,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "assembly/qa/frames",
+      "logicalBytes": 4475992,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "assembly/assets/fonts/NotoSansSC-800.woff",
+      "logicalBytes": 1426988,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "assembly/assets/fonts/NotoSansSC-900.woff",
+      "logicalBytes": 1394104,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "assembly/assets/fonts/ArchivoBlack-400.woff",
+      "logicalBytes": 38316,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "assembly/assets/fonts/LXGWWenKai-500.woff",
+      "logicalBytes": 2098296,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "assembly/assets/fonts/MaShanZheng-Regular.ttf",
+      "logicalBytes": 5857936,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "parallel/qa/frames",
+      "logicalBytes": 4928646,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "parallel/assets/fonts/NotoSansSC-800.woff",
+      "logicalBytes": 1426988,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "parallel/assets/fonts/NotoSansSC-900.woff",
+      "logicalBytes": 1394104,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "parallel/assets/fonts/ArchivoBlack-400.woff",
+      "logicalBytes": 38316,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "parallel/assets/fonts/LXGWWenKai-500.woff",
+      "logicalBytes": 2098296,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "parallel/assets/fonts/MaShanZheng-Regular.ttf",
+      "logicalBytes": 5857936,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "reveal/qa/frames",
+      "logicalBytes": 4405499,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "reveal/assets/fonts/NotoSansSC-800.woff",
+      "logicalBytes": 1426988,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "reveal/assets/fonts/NotoSansSC-900.woff",
+      "logicalBytes": 1394104,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "reveal/assets/fonts/ArchivoBlack-400.woff",
+      "logicalBytes": 38316,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "reveal/assets/fonts/LXGWWenKai-500.woff",
+      "logicalBytes": 2098296,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "reveal/assets/fonts/MaShanZheng-Regular.ttf",
+      "logicalBytes": 5857936,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "consequence/qa/frames",
+      "logicalBytes": 4340102,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "consequence/assets/fonts/NotoSansSC-800.woff",
+      "logicalBytes": 1426988,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "consequence/assets/fonts/NotoSansSC-900.woff",
+      "logicalBytes": 1394104,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "consequence/assets/fonts/ArchivoBlack-400.woff",
+      "logicalBytes": 38316,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "consequence/assets/fonts/LXGWWenKai-500.woff",
+      "logicalBytes": 2098296,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "consequence/assets/fonts/MaShanZheng-Regular.ttf",
+      "logicalBytes": 5857936,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "tracking/qa/frames",
+      "logicalBytes": 5225656,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "tracking/assets/fonts/NotoSansSC-800.woff",
+      "logicalBytes": 1426988,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "tracking/assets/fonts/NotoSansSC-900.woff",
+      "logicalBytes": 1394104,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "tracking/assets/fonts/ArchivoBlack-400.woff",
+      "logicalBytes": 38316,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "tracking/assets/fonts/LXGWWenKai-500.woff",
+      "logicalBytes": 2098296,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "tracking/assets/fonts/MaShanZheng-Regular.ttf",
+      "logicalBytes": 5857936,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "response/qa/frames",
+      "logicalBytes": 4710713,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "response/assets/fonts/NotoSansSC-800.woff",
+      "logicalBytes": 1426988,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "response/assets/fonts/NotoSansSC-900.woff",
+      "logicalBytes": 1394104,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "response/assets/fonts/ArchivoBlack-400.woff",
+      "logicalBytes": 38316,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "response/assets/fonts/LXGWWenKai-500.woff",
+      "logicalBytes": 2098296,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    },
+    {
+      "path": "response/assets/fonts/MaShanZheng-Regular.ttf",
+      "logicalBytes": 5857936,
+      "note": "hardlinks may share storage; this is not physical bytes freed"
+    }
+  ],
+  "studyAllocatedBytesBefore": 6411235328,
+  "studyAllocatedBytesAfter": 375693312,
+  "studyAllocatedReductionBytes": 6035542016,
+  "retained": [
+    "8 final MP4",
+    "original source and source proxy",
+    "voice and source ownership",
+    "images, used fonts and licenses",
+    "code and 11-axis plans",
+    "8 full contact sheets, posters, browser evidence and QA records"
+  ],
+  "otherProjectsModified": false,
+  "additionalOwnedTemporaryFileRemoved": "/tmp/wg-orch-doctor.json"
+}

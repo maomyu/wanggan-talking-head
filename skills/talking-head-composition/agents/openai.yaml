@@ -1,4 +1,4 @@
 interface:
   display_name: "口播十一类协作统筹"
-  short_description: "按真实文案设计十一类协作统筹，共享对象、原声与阅读约束"
+  short_description: "八类编排协调十一类技能，共享对象、原声与阅读约束"
   default_prompt: "使用 $talking-head-composition，承接当前配方和真实口播，在本模块职责内完成设计与实际验证；人物原色、角落圆窗、字幕上移。"

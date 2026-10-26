@@ -1,0 +1,150 @@
+{
+  "ok": true,
+  "method": "Frame 657 from each actual MP4 compared against same-frame ungraded source proxy inside the face window; outside-circle paper probe. Compression/resampling tolerance, not exact RGB identity. Other movement phases are checked separately.",
+  "results": [
+    {
+      "id": "G01",
+      "frame": 657,
+      "personRect": [
+        750,
+        1290,
+        265,
+        265
+      ],
+      "innerPersonMeanAbsoluteRGBError": 2.468727767315338,
+      "innerPersonMeanChannelBias": [
+        -2.549372253609542,
+        -1.9321406151914626,
+        -2.2385436283741367
+      ],
+      "outsideCirclePaperError": 2.0,
+      "passed": true
+    },
+    {
+      "id": "G02",
+      "frame": 657,
+      "personRect": [
+        750,
+        1290,
+        265,
+        265
+      ],
+      "innerPersonMeanAbsoluteRGBError": 2.4806967984934087,
+      "innerPersonMeanChannelBias": [
+        -2.5854990583804143,
+        -1.9351851851851851,
+        -2.2822975517890773
+      ],
+      "outsideCirclePaperError": 2.0,
+      "passed": true
+    },
+    {
+      "id": "G03",
+      "frame": 657,
+      "personRect": [
+        750,
+        1290,
+        265,
+        265
+      ],
+      "innerPersonMeanAbsoluteRGBError": 2.4745134965473947,
+      "innerPersonMeanChannelBias": [
+        -2.5391399874450724,
+        -1.9302573760200878,
+        -2.2623666038920276
+      ],
+      "outsideCirclePaperError": 2.0,
+      "passed": true
+    },
+    {
+      "id": "G04",
+      "frame": 657,
+      "personRect": [
+        750,
+        1290,
+        265,
+        265
+      ],
+      "innerPersonMeanAbsoluteRGBError": 2.4493931784892236,
+      "innerPersonMeanChannelBias": [
+        -2.5350910232266166,
+        -1.934902699309479,
+        -2.187853107344633
+      ],
+      "outsideCirclePaperError": 2.0,
+      "passed": true
+    },
+    {
+      "id": "G05",
+      "frame": 657,
+      "personRect": [
+        750,
+        1290,
+        265,
+        265
+      ],
+      "innerPersonMeanAbsoluteRGBError": 2.4446118434819,
+      "innerPersonMeanChannelBias": [
+        -2.532391713747646,
+        -1.9094789704959196,
+        -2.209667294413057
+      ],
+      "outsideCirclePaperError": 2.90625,
+      "passed": true
+    },
+    {
+      "id": "G06",
+      "frame": 657,
+      "personRect": [
+        750,
+        1290,
+        265,
+        265
+      ],
+      "innerPersonMeanAbsoluteRGBError": 2.4611948106298387,
+      "innerPersonMeanChannelBias": [
+        -2.5254551161330823,
+        -1.936660389202762,
+        -2.229378531073446
+      ],
+      "outsideCirclePaperError": 2.0,
+      "passed": true
+    },
+    {
+      "id": "G07",
+      "frame": 657,
+      "personRect": [
+        750,
+        1290,
+        265,
+        265
+      ],
+      "innerPersonMeanAbsoluteRGBError": 2.4519774011299433,
+      "innerPersonMeanChannelBias": [
+        -2.5321406151914627,
+        -1.9350596359070935,
+        -2.2040489642184555
+      ],
+      "outsideCirclePaperError": 2.0,
+      "passed": true
+    },
+    {
+      "id": "G08",
+      "frame": 657,
+      "personRect": [
+        70,
+        635,
+        530,
+        530
+      ],
+      "innerPersonMeanAbsoluteRGBError": 2.1319405749444753,
+      "innerPersonMeanChannelBias": [
+        -2.290697765674418,
+        -1.6898784344809725,
+        -2.0084836879321304
+      ],
+      "outsideCirclePaperError": 2.0,
+      "passed": true
+    }
+  ]
+}

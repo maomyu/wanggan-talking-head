@@ -1,4 +1,4 @@
 interface:
   display_name: "口播整片统筹"
-  short_description: "十一类专业协作，四套配方与母画风、分支、组件分层管理"
+  short_description: "19套母画风、8类编排、11类专业协作，支持指定与自由搭配"
   default_prompt: "使用 $talking-head-video，根据用户自己的真实口播选择配方，调度十一类专业技能与四份完整专家方法，重新设计动作、图片、结果和前后衔接，完成实际成片验证；人物原色、角落圆窗、字幕上移。"

@@ -1,0 +1,10 @@
+{
+  "checkedFrames": 1100,
+  "personTextCollisions": [],
+  "captionViolations": [],
+  "corner": "circle clipping and equal scale encoded smoke verified",
+  "personPathRange": {
+    "minDiameter": 265,
+    "maxDiameter": 720
+  }
+}

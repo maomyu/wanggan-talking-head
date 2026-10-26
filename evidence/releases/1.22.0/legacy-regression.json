@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "cases": [
+    {
+      "id": "presenter",
+      "rebuilt": true,
+      "visualInputsAndVoiceMatchApproved": true
+    },
+    {
+      "id": "diagram",
+      "rebuilt": true,
+      "visualInputsAndVoiceMatchApproved": true
+    }
+  ]
+}

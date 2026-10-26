@@ -1,0 +1,789 @@
+{
+  "ok": true,
+  "version": "1.22.0",
+  "cases": [
+    {
+      "name": "19 mother recipes × 8 independent mechanism selection contracts",
+      "count": 152,
+      "scope": "selection/design contracts, not 152 rendered films"
+    },
+    {
+      "name": "agent auto choice must record semantic reason; no old-script injection",
+      "passed": true
+    },
+    {
+      "name": "source hash and unsupported cross-style fixture guarded",
+      "passed": true
+    },
+    {
+      "name": "rhythm-only preserves mechanism and other ten plans; changing mechanism owns seven axes",
+      "passed": true
+    }
+  ],
+  "parity": [
+    {
+      "id": "spatial",
+      "filesEqual": [
+        "scripts/film.mjs",
+        "scripts/film.css",
+        "scripts/composition.template",
+        "assets/config.js",
+        "assets/film.css",
+        "timing.json",
+        "scene-plan.json",
+        "edit-plan.json"
+      ],
+      "voiceEqual": true,
+      "sourceSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03"
+    },
+    {
+      "id": "relay",
+      "filesEqual": [
+        "scripts/film.mjs",
+        "scripts/film.css",
+        "scripts/composition.template",
+        "assets/config.js",
+        "assets/film.css",
+        "timing.json",
+        "scene-plan.json",
+        "edit-plan.json"
+      ],
+      "voiceEqual": true,
+      "sourceSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03"
+    },
+    {
+      "id": "assembly",
+      "filesEqual": [
+        "scripts/film.mjs",
+        "scripts/film.css",
+        "scripts/composition.template",
+        "assets/config.js",
+        "assets/film.css",
+        "timing.json",
+        "scene-plan.json",
+        "edit-plan.json"
+      ],
+      "voiceEqual": true,
+      "sourceSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03"
+    },
+    {
+      "id": "parallel",
+      "filesEqual": [
+        "scripts/film.mjs",
+        "scripts/film.css",
+        "scripts/composition.template",
+        "assets/config.js",
+        "assets/film.css",
+        "timing.json",
+        "scene-plan.json",
+        "edit-plan.json"
+      ],
+      "voiceEqual": true,
+      "sourceSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03"
+    },
+    {
+      "id": "reveal",
+      "filesEqual": [
+        "scripts/film.mjs",
+        "scripts/film.css",
+        "scripts/composition.template",
+        "assets/config.js",
+        "assets/film.css",
+        "timing.json",
+        "scene-plan.json",
+        "edit-plan.json"
+      ],
+      "voiceEqual": true,
+      "sourceSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03"
+    },
+    {
+      "id": "consequence",
+      "filesEqual": [
+        "scripts/film.mjs",
+        "scripts/film.css",
+        "scripts/composition.template",
+        "assets/config.js",
+        "assets/film.css",
+        "timing.json",
+        "scene-plan.json",
+        "edit-plan.json"
+      ],
+      "voiceEqual": true,
+      "sourceSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03"
+    },
+    {
+      "id": "tracking",
+      "filesEqual": [
+        "scripts/film.mjs",
+        "scripts/film.css",
+        "scripts/composition.template",
+        "assets/config.js",
+        "assets/film.css",
+        "timing.json",
+        "scene-plan.json",
+        "edit-plan.json"
+      ],
+      "voiceEqual": true,
+      "sourceSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03"
+    },
+    {
+      "id": "response",
+      "filesEqual": [
+        "scripts/film.mjs",
+        "scripts/film.css",
+        "scripts/composition.template",
+        "assets/config.js",
+        "assets/film.css",
+        "timing.json",
+        "scene-plan.json",
+        "edit-plan.json"
+      ],
+      "voiceEqual": true,
+      "sourceSha256": "499f8c4c4b6535c831f05604e0e20354d57d2cd2bad058dfc2d56e5975b57f03"
+    }
+  ],
+  "frames": [
+    {
+      "id": "spatial",
+      "frames": 1100,
+      "personTextCollisions": 0,
+      "captionViolations": 0,
+      "authoredStateParity": 10,
+      "pixelChecks": [
+        {
+          "frame": 0,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 130,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 324,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 435,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 570,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 657,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 768,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 870,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 925,
+          "mean": 0.0007121672453703704,
+          "max": 6,
+          "changedPixels": 2575,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 1099,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        }
+      ],
+      "rasterTolerance": "mean < 0.01/255 and pixels differing by >8 <0.1%; transparent-edge browser rounding only"
+    },
+    {
+      "id": "relay",
+      "frames": 1100,
+      "personTextCollisions": 0,
+      "captionViolations": 0,
+      "authoredStateParity": 10,
+      "pixelChecks": [
+        {
+          "frame": 0,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 130,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 324,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 435,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 570,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 657,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 768,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 870,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 925,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 1099,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        }
+      ],
+      "rasterTolerance": "mean < 0.01/255 and pixels differing by >8 <0.1%; transparent-edge browser rounding only"
+    },
+    {
+      "id": "assembly",
+      "frames": 1100,
+      "personTextCollisions": 0,
+      "captionViolations": 0,
+      "authoredStateParity": 10,
+      "pixelChecks": [
+        {
+          "frame": 0,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 130,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 324,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 435,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 570,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 657,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 768,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 870,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 925,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 1099,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        }
+      ],
+      "rasterTolerance": "mean < 0.01/255 and pixels differing by >8 <0.1%; transparent-edge browser rounding only"
+    },
+    {
+      "id": "parallel",
+      "frames": 1100,
+      "personTextCollisions": 0,
+      "captionViolations": 0,
+      "authoredStateParity": 10,
+      "pixelChecks": [
+        {
+          "frame": 0,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 130,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 324,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 435,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 570,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 657,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 768,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 870,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 925,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 1099,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        }
+      ],
+      "rasterTolerance": "mean < 0.01/255 and pixels differing by >8 <0.1%; transparent-edge browser rounding only"
+    },
+    {
+      "id": "reveal",
+      "frames": 1100,
+      "personTextCollisions": 0,
+      "captionViolations": 0,
+      "authoredStateParity": 10,
+      "pixelChecks": [
+        {
+          "frame": 0,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 130,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 324,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 435,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 570,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 657,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 768,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 870,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 925,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 1099,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        }
+      ],
+      "rasterTolerance": "mean < 0.01/255 and pixels differing by >8 <0.1%; transparent-edge browser rounding only"
+    },
+    {
+      "id": "consequence",
+      "frames": 1100,
+      "personTextCollisions": 0,
+      "captionViolations": 0,
+      "authoredStateParity": 10,
+      "pixelChecks": [
+        {
+          "frame": 0,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 130,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 324,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 435,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 570,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 657,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 768,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 870,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 925,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 1099,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        }
+      ],
+      "rasterTolerance": "mean < 0.01/255 and pixels differing by >8 <0.1%; transparent-edge browser rounding only"
+    },
+    {
+      "id": "tracking",
+      "frames": 1100,
+      "personTextCollisions": 0,
+      "captionViolations": 0,
+      "authoredStateParity": 10,
+      "pixelChecks": [
+        {
+          "frame": 0,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 130,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 324,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 435,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 570,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 657,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 768,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 870,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 925,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 1099,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        }
+      ],
+      "rasterTolerance": "mean < 0.01/255 and pixels differing by >8 <0.1%; transparent-edge browser rounding only"
+    },
+    {
+      "id": "response",
+      "frames": 1100,
+      "personTextCollisions": 0,
+      "captionViolations": 0,
+      "authoredStateParity": 10,
+      "pixelChecks": [
+        {
+          "frame": 0,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 130,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 324,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 435,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 570,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 657,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 768,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 870,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 925,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        },
+        {
+          "frame": 1099,
+          "mean": 0,
+          "max": 0,
+          "changedPixels": 0,
+          "largeDeltaFraction": 0
+        }
+      ],
+      "rasterTolerance": "mean < 0.01/255 and pixels differing by >8 <0.1%; transparent-edge browser rounding only"
+    }
+  ],
+  "sourceUnchanged": true,
+  "scope": "8 formal CLI rebuilds; 8800 authored-frame safety checks and 80 actual canvas parity checks. Reuses approved full MP4 evidence; no new full encode, no cross-script or 152-film claim."
+}
