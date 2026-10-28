@@ -45,9 +45,9 @@
 <th width="33%">精密界面<br><sub>F07</sub></th>
 </tr>
 <tr>
-<td align="center"><img src="docs/media/minimal.gif" width="320" alt="写实极简母画风实际视频片段：人物保留主位，实物与少量标签在留白中配合重点。"></td>
-<td align="center"><img src="docs/media/geometry.gif" width="320" alt="现代几何平面母画风实际视频片段：色块、轴线与明确图底，把对象关系整理成几何构图。"></td>
-<td align="center"><img src="docs/media/precision.gif" width="320" alt="精密界面母画风实际视频片段：面板、标注与状态反馈，形成清楚的观察和判断界面。"></td>
+<td align="center"><img src="docs/media/minimal.gif" width="100%" alt="写实极简母画风实际视频片段：人物保留主位，实物与少量标签在留白中配合重点。"></td>
+<td align="center"><img src="docs/media/geometry.gif" width="100%" alt="现代几何平面母画风实际视频片段：色块、轴线与明确图底，把对象关系整理成几何构图。"></td>
+<td align="center"><img src="docs/media/precision.gif" width="100%" alt="精密界面母画风实际视频片段：面板、标注与状态反馈，形成清楚的观察和判断界面。"></td>
 </tr>
 <tr>
 <td>人物保留主位，实物与少量标签在留白中配合重点。</td>
@@ -65,9 +65,9 @@
 <th width="33%">复古网点<br><sub>F08</sub></th>
 </tr>
 <tr>
-<td align="center"><img src="docs/media/editorial-print.gif" width="320" alt="编辑拼贴与印刷母画风实际视频片段：纸页承载图像，衬线标题、批注与划线留下取舍。"></td>
-<td align="center"><img src="docs/media/collage.gif" width="320" alt="拼贴混合媒介母画风实际视频片段：异质图像、裁切接缝和叠压层次共同组织内容。"></td>
-<td align="center"><img src="docs/media/halftone.gif" width="320" alt="复古网点母画风实际视频片段：有限套色、网点印面与分区对照形成印刷感。"></td>
+<td align="center"><img src="docs/media/editorial-print.gif" width="100%" alt="编辑拼贴与印刷母画风实际视频片段：纸页承载图像，衬线标题、批注与划线留下取舍。"></td>
+<td align="center"><img src="docs/media/collage.gif" width="100%" alt="拼贴混合媒介母画风实际视频片段：异质图像、裁切接缝和叠压层次共同组织内容。"></td>
+<td align="center"><img src="docs/media/halftone.gif" width="100%" alt="复古网点母画风实际视频片段：有限套色、网点印面与分区对照形成印刷感。"></td>
 </tr>
 <tr>
 <td>纸页承载图像，衬线标题、批注与划线留下取舍。</td>
@@ -85,9 +85,9 @@
 <th width="33%">像素复古<br><sub>F12</sub></th>
 </tr>
 <tr>
-<td align="center"><img src="docs/media/line.gif" width="320" alt="单线手绘母画风实际视频片段：用线条描物、撤线和续接关系，保留纸白呼吸。"></td>
-<td align="center"><img src="docs/media/comic.gif" width="320" alt="漫画描线母画风实际视频片段：分格、描线与阅读顺序，让重点像漫画一样推进。"></td>
-<td align="center"><img src="docs/media/pixel.gif" width="320" alt="像素复古母画风实际视频片段：离散网格与受限色阶，呈现像素物件和状态变化。"></td>
+<td align="center"><img src="docs/media/line.gif" width="100%" alt="单线手绘母画风实际视频片段：用线条描物、撤线和续接关系，保留纸白呼吸。"></td>
+<td align="center"><img src="docs/media/comic.gif" width="100%" alt="漫画描线母画风实际视频片段：分格、描线与阅读顺序，让重点像漫画一样推进。"></td>
+<td align="center"><img src="docs/media/pixel.gif" width="100%" alt="像素复古母画风实际视频片段：离散网格与受限色阶，呈现像素物件和状态变化。"></td>
 </tr>
 <tr>
 <td>用线条描物、撤线和续接关系，保留纸白呼吸。</td>
@@ -105,9 +105,9 @@
 <th width="33%">厚涂油画<br><sub>F18</sub></th>
 </tr>
 <tr>
-<td align="center"><img src="docs/media/illustration.gif" width="320" alt="平面插画母画风实际视频片段：具象物件和色面构成可读情境，图形随讲述变化。"></td>
-<td align="center"><img src="docs/media/watercolor.gif" width="320" alt="水彩洇染母画风实际视频片段：透明洗色、湿边与纸白，形成轻透的图像层次。"></td>
-<td align="center"><img src="docs/media/oil.gif" width="320" alt="厚涂油画母画风实际视频片段：笔触、覆盖关系与体块明暗，带出厚涂质感。"></td>
+<td align="center"><img src="docs/media/illustration.gif" width="100%" alt="平面插画母画风实际视频片段：具象物件和色面构成可读情境，图形随讲述变化。"></td>
+<td align="center"><img src="docs/media/watercolor.gif" width="100%" alt="水彩洇染母画风实际视频片段：透明洗色、湿边与纸白，形成轻透的图像层次。"></td>
+<td align="center"><img src="docs/media/oil.gif" width="100%" alt="厚涂油画母画风实际视频片段：笔触、覆盖关系与体块明暗，带出厚涂质感。"></td>
 </tr>
 <tr>
 <td>具象物件和色面构成可读情境，图形随讲述变化。</td>
@@ -125,9 +125,9 @@
 <th width="33%">青绿山水<br><sub>F15</sub></th>
 </tr>
 <tr>
-<td align="center"><img src="docs/media/ink.gif" width="320" alt="水墨写意母画风实际视频片段：墨阶、虚实和大留白，为对象变化留下空间。"></td>
-<td align="center"><img src="docs/media/gongbi.gif" width="320" alt="工笔设色母画风实际视频片段：细线立骨、淡色叠染，让对象边界与层次保持清楚。"></td>
-<td align="center"><img src="docs/media/landscape.gif" width="320" alt="青绿山水母画风实际视频片段：前中后景与矿物色层，构成可游观的解释空间。"></td>
+<td align="center"><img src="docs/media/ink.gif" width="100%" alt="水墨写意母画风实际视频片段：墨阶、虚实和大留白，为对象变化留下空间。"></td>
+<td align="center"><img src="docs/media/gongbi.gif" width="100%" alt="工笔设色母画风实际视频片段：细线立骨、淡色叠染，让对象边界与层次保持清楚。"></td>
+<td align="center"><img src="docs/media/landscape.gif" width="100%" alt="青绿山水母画风实际视频片段：前中后景与矿物色层，构成可游观的解释空间。"></td>
 </tr>
 <tr>
 <td>墨阶、虚实和大留白，为对象变化留下空间。</td>
@@ -144,8 +144,8 @@
 <th width="50%">剪纸舞台<br><sub>F13</sub></th>
 </tr>
 <tr>
-<td align="center"><img src="docs/media/clay.gif" width="320" alt="柔质立体母画风实际视频片段：体量、接触和投影，让对象在立体空间中产生关系。"></td>
-<td align="center"><img src="docs/media/papercut.gif" width="320" alt="剪纸舞台母画风实际视频片段：可见片层、切口和厚边，把对象放进纸艺舞台。"></td>
+<td align="center"><img src="docs/media/clay.gif" width="100%" alt="柔质立体母画风实际视频片段：体量、接触和投影，让对象在立体空间中产生关系。"></td>
+<td align="center"><img src="docs/media/papercut.gif" width="100%" alt="剪纸舞台母画风实际视频片段：可见片层、切口和厚边，把对象放进纸艺舞台。"></td>
 </tr>
 <tr>
 <td>体量、接触和投影，让对象在立体空间中产生关系。</td>
@@ -159,8 +159,8 @@
 <th width="50%">木刻版画<br><sub>F19</sub></th>
 </tr>
 <tr>
-<td align="center"><img src="docs/media/mural.gif" width="320" alt="壁画重彩母画风实际视频片段：重彩画带、壁面颗粒与叙事分区，形成壁画秩序。"></td>
-<td align="center"><img src="docs/media/woodcut.gif" width="320" alt="木刻版画母画风实际视频片段：黑白正负形、刻线灰调与版边，让关系像刻印一样清楚。"></td>
+<td align="center"><img src="docs/media/mural.gif" width="100%" alt="壁画重彩母画风实际视频片段：重彩画带、壁面颗粒与叙事分区，形成壁画秩序。"></td>
+<td align="center"><img src="docs/media/woodcut.gif" width="100%" alt="木刻版画母画风实际视频片段：黑白正负形、刻线灰调与版边，让关系像刻印一样清楚。"></td>
 </tr>
 <tr>
 <td>重彩画带、壁面颗粒与叙事分区，形成壁画秩序。</td>
@@ -175,7 +175,7 @@
 <table>
 <tr><th width="50%">技术蓝图 · F07 / A09</th><th width="50%">观察重点</th></tr>
 <tr>
-<td align="center"><img src="docs/media/blueprint.gif" width="320" alt="技术蓝图分支实际片段：工程线条和导轨连接对象，分出想要与需要"></td>
+<td align="center"><img src="docs/media/blueprint.gif" width="100%" alt="技术蓝图分支实际片段：工程线条和导轨连接对象，分出想要与需要"></td>
 <td>深蓝底、线描、导轨与剖视关系，让对象沿同一工程平面接续。<br><br>指定方式：采用精密界面母画风下的技术蓝图分支，按我的口播设计动作与连续转场。</td>
 </tr>
 </table>
