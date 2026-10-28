@@ -24,9 +24,161 @@
 
 ## 看效果
 
-下面 **9 组**使用**同一段 36.7 秒的自有真人口播**，均已有完整成片并获用户认可。动图统一截取各片的 **13–21 秒**，每组 8 秒、无声循环，可以比较同一句话在不同画风和编排中的呈现。
+**19 套母画风已全部展示**，另保留 1 套技术蓝图分支、3 组自由搭配与 3 类编排对比，共 **26 段动图**。全部使用**同一段 36.7 秒的自有真人口播**，来自已认可的完整成片。
 
-[自由搭配](#自由搭配同一句话三种表达) · [画风对比](#画风对比纸页工程线条与写实留白) · [编排对比](#编排对比同一画风三种讲述方式)
+动图统一截取 **13–21 秒**，每段 **8 秒**、无声循环。可以对照同一句“砍掉无效消费、分清想要和需要”，看画风、对象动作与信息组织如何变化。人物原色、圆窗和上移字幕沿用原片。
+
+[19 套母画风](#19-套母画风) · [技术蓝图分支](#分支对比技术蓝图) · [自由搭配](#自由搭配同一句话三种表达) · [编排对比](#编排对比同一画风三种讲述方式)
+
+### 19 套母画风
+
+按视觉特点分为六组，全部直接展开。分组仅用于浏览；F01–F19 对应现有母画风，标题使用各自已认可配方的名称，不把分支或编排另算母画风。
+
+[写实与图形](#写实与图形) · [拼贴与印刷](#拼贴与印刷) · [线条与像素](#线条与像素) · [插画与绘画](#插画与绘画) · [东方笔墨](#东方笔墨) · [空间与手工](#空间与手工)
+
+#### 写实与图形
+
+<table>
+<tr>
+<th width="33%">写实极简<br><sub>F01</sub></th>
+<th width="33%">现代几何平面<br><sub>F02</sub></th>
+<th width="33%">精密界面<br><sub>F07</sub></th>
+</tr>
+<tr>
+<td align="center"><img src="docs/media/minimal.gif" width="320" alt="写实极简母画风实际视频片段：人物保留主位，实物与少量标签在留白中配合重点。"></td>
+<td align="center"><img src="docs/media/geometry.gif" width="320" alt="现代几何平面母画风实际视频片段：色块、轴线与明确图底，把对象关系整理成几何构图。"></td>
+<td align="center"><img src="docs/media/precision.gif" width="320" alt="精密界面母画风实际视频片段：面板、标注与状态反馈，形成清楚的观察和判断界面。"></td>
+</tr>
+<tr>
+<td>人物保留主位，实物与少量标签在留白中配合重点。</td>
+<td>色块、轴线与明确图底，把对象关系整理成几何构图。</td>
+<td>面板、标注与状态反馈，形成清楚的观察和判断界面。</td>
+</tr>
+</table>
+
+#### 拼贴与印刷
+
+<table>
+<tr>
+<th width="33%">编辑拼贴与印刷<br><sub>F03</sub></th>
+<th width="33%">拼贴混合媒介<br><sub>F04</sub></th>
+<th width="33%">复古网点<br><sub>F08</sub></th>
+</tr>
+<tr>
+<td align="center"><img src="docs/media/editorial-print.gif" width="320" alt="编辑拼贴与印刷母画风实际视频片段：纸页承载图像，衬线标题、批注与划线留下取舍。"></td>
+<td align="center"><img src="docs/media/collage.gif" width="320" alt="拼贴混合媒介母画风实际视频片段：异质图像、裁切接缝和叠压层次共同组织内容。"></td>
+<td align="center"><img src="docs/media/halftone.gif" width="320" alt="复古网点母画风实际视频片段：有限套色、网点印面与分区对照形成印刷感。"></td>
+</tr>
+<tr>
+<td>纸页承载图像，衬线标题、批注与划线留下取舍。</td>
+<td>异质图像、裁切接缝和叠压层次共同组织内容。</td>
+<td>有限套色、网点印面与分区对照形成印刷感。</td>
+</tr>
+</table>
+
+#### 线条与像素
+
+<table>
+<tr>
+<th width="33%">单线手绘<br><sub>F05</sub></th>
+<th width="33%">漫画描线<br><sub>F09</sub></th>
+<th width="33%">像素复古<br><sub>F12</sub></th>
+</tr>
+<tr>
+<td align="center"><img src="docs/media/line.gif" width="320" alt="单线手绘母画风实际视频片段：用线条描物、撤线和续接关系，保留纸白呼吸。"></td>
+<td align="center"><img src="docs/media/comic.gif" width="320" alt="漫画描线母画风实际视频片段：分格、描线与阅读顺序，让重点像漫画一样推进。"></td>
+<td align="center"><img src="docs/media/pixel.gif" width="320" alt="像素复古母画风实际视频片段：离散网格与受限色阶，呈现像素物件和状态变化。"></td>
+</tr>
+<tr>
+<td>用线条描物、撤线和续接关系，保留纸白呼吸。</td>
+<td>分格、描线与阅读顺序，让重点像漫画一样推进。</td>
+<td>离散网格与受限色阶，呈现像素物件和状态变化。</td>
+</tr>
+</table>
+
+#### 插画与绘画
+
+<table>
+<tr>
+<th width="33%">平面插画<br><sub>F06</sub></th>
+<th width="33%">水彩洇染<br><sub>F17</sub></th>
+<th width="33%">厚涂油画<br><sub>F18</sub></th>
+</tr>
+<tr>
+<td align="center"><img src="docs/media/illustration.gif" width="320" alt="平面插画母画风实际视频片段：具象物件和色面构成可读情境，图形随讲述变化。"></td>
+<td align="center"><img src="docs/media/watercolor.gif" width="320" alt="水彩洇染母画风实际视频片段：透明洗色、湿边与纸白，形成轻透的图像层次。"></td>
+<td align="center"><img src="docs/media/oil.gif" width="320" alt="厚涂油画母画风实际视频片段：笔触、覆盖关系与体块明暗，带出厚涂质感。"></td>
+</tr>
+<tr>
+<td>具象物件和色面构成可读情境，图形随讲述变化。</td>
+<td>透明洗色、湿边与纸白，形成轻透的图像层次。</td>
+<td>笔触、覆盖关系与体块明暗，带出厚涂质感。</td>
+</tr>
+</table>
+
+#### 东方笔墨
+
+<table>
+<tr>
+<th width="33%">水墨写意<br><sub>F10</sub></th>
+<th width="33%">工笔设色<br><sub>F14</sub></th>
+<th width="33%">青绿山水<br><sub>F15</sub></th>
+</tr>
+<tr>
+<td align="center"><img src="docs/media/ink.gif" width="320" alt="水墨写意母画风实际视频片段：墨阶、虚实和大留白，为对象变化留下空间。"></td>
+<td align="center"><img src="docs/media/gongbi.gif" width="320" alt="工笔设色母画风实际视频片段：细线立骨、淡色叠染，让对象边界与层次保持清楚。"></td>
+<td align="center"><img src="docs/media/landscape.gif" width="320" alt="青绿山水母画风实际视频片段：前中后景与矿物色层，构成可游观的解释空间。"></td>
+</tr>
+<tr>
+<td>墨阶、虚实和大留白，为对象变化留下空间。</td>
+<td>细线立骨、淡色叠染，让对象边界与层次保持清楚。</td>
+<td>前中后景与矿物色层，构成可游观的解释空间。</td>
+</tr>
+</table>
+
+#### 空间与手工
+
+<table>
+<tr>
+<th width="50%">柔质立体<br><sub>F11</sub></th>
+<th width="50%">剪纸舞台<br><sub>F13</sub></th>
+</tr>
+<tr>
+<td align="center"><img src="docs/media/clay.gif" width="320" alt="柔质立体母画风实际视频片段：体量、接触和投影，让对象在立体空间中产生关系。"></td>
+<td align="center"><img src="docs/media/papercut.gif" width="320" alt="剪纸舞台母画风实际视频片段：可见片层、切口和厚边，把对象放进纸艺舞台。"></td>
+</tr>
+<tr>
+<td>体量、接触和投影，让对象在立体空间中产生关系。</td>
+<td>可见片层、切口和厚边，把对象放进纸艺舞台。</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<th width="50%">壁画重彩<br><sub>F16</sub></th>
+<th width="50%">木刻版画<br><sub>F19</sub></th>
+</tr>
+<tr>
+<td align="center"><img src="docs/media/mural.gif" width="320" alt="壁画重彩母画风实际视频片段：重彩画带、壁面颗粒与叙事分区，形成壁画秩序。"></td>
+<td align="center"><img src="docs/media/woodcut.gif" width="320" alt="木刻版画母画风实际视频片段：黑白正负形、刻线灰调与版边，让关系像刻印一样清楚。"></td>
+</tr>
+<tr>
+<td>重彩画带、壁面颗粒与叙事分区，形成壁画秩序。</td>
+<td>黑白正负形、刻线灰调与版边，让关系像刻印一样清楚。</td>
+</tr>
+</table>
+
+### 分支对比：技术蓝图
+
+技术蓝图属于 **F07 技术图形与界面（精密界面）**，独立列为分支，便于与上方 F07 的默认配方比较。
+
+<table>
+<tr><th width="50%">技术蓝图 · F07 / A09</th><th width="50%">观察重点</th></tr>
+<tr>
+<td align="center"><img src="docs/media/blueprint.gif" width="320" alt="技术蓝图分支实际片段：工程线条和导轨连接对象，分出想要与需要"></td>
+<td>深蓝底、线描、导轨与剖视关系，让对象沿同一工程平面接续。<br><br>指定方式：采用精密界面母画风下的技术蓝图分支，按我的口播设计动作与连续转场。</td>
+</tr>
+</table>
 
 ### 自由搭配：同一句话，三种表达
 
@@ -57,28 +209,6 @@
 先按文案设计对象、动作和可见结果，再安排图片、镜头和转场。
 三条都做成完整视频，放在同一个页面在线播放对比。
 ```
-
-### 画风对比：纸页、工程线条与写实留白
-
-三套已认可配方采用不同的画面组织方式。技术蓝图是精密界面的分支；写实极简把人物留在主要位置，解释物件在旁侧配合。
-
-<table>
-<tr>
-<th width="33%">编辑拼贴与印刷</th>
-<th width="33%">技术蓝图</th>
-<th width="33%">写实极简</th>
-</tr>
-<tr>
-<td><img src="docs/media/editorial-print.gif" width="100%" alt="编辑拼贴与印刷实际片段：纸页中的物件随讲述显现，红色批注划去额外消费"></td>
-<td><img src="docs/media/blueprint.gif" width="100%" alt="技术蓝图实际片段：工程线条和导轨连接对象，分出想要与需要"></td>
-<td><img src="docs/media/minimal.gif" width="100%" alt="写实极简实际片段：真人保持主位，实物图片在留白中完成消费取舍"></td>
-</tr>
-<tr>
-<td>纸页承载图像，衬线大字带出观点，批注与划线留下取舍。</td>
-<td>深蓝底、线描与导轨建立关系，让对象沿同一工程平面接续。</td>
-<td>人物承担主要讲述，实物与少量标签在留白中配合重点。</td>
-</tr>
-</table>
 
 ### 编排对比：同一画风，三种讲述方式
 
@@ -163,7 +293,7 @@
 
 ## 安装与准备
 
-当前仓库已**公开**，无需登录即可查看 README、9 组动图和源码。已在本机 Codex / macOS 环境验证；其他智能体与操作系统需要适配验证。
+当前仓库已**公开**，无需登录即可查看 README、19 套母画风及其他案例动图和源码。已在本机 Codex / macOS 环境验证；其他智能体与操作系统需要适配验证。
 
 ### 已安装插件
 
@@ -362,7 +492,7 @@ node scripts/studio.mjs preview --project /path/to/selector
 | 智能体如何自由搭配 | [自由搭配流程](docs/智能体自由搭配流程.md) |
 | 多模块如何交接 | [协作合同](docs/协作合同.md) · [共同制作规范](docs/共同制作规范.md) |
 | 完整视频在哪里看 | [全部案例总览](docs/全部案例总览.md) |
-| 版本记录与验收 | [文档目录](docs/) · [本次 README 更新](docs/1.23.5验收.md) |
+| 版本记录与验收 | [文档目录](docs/) · [本次 README 更新](docs/1.23.6验收.md) |
 
 ```text
 skills/       整片入口、协作统筹与专业技能
