@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "gifCount": 9,
+  "totalBytes": 8140636,
+  "items": [
+    {
+      "id": "ink-relay",
+      "frames": 120,
+      "durationMs": 8000,
+      "bytes": 848991,
+      "sha256": "2627805efac45b0514b1c641a00c96a1bc32bd2ebc9359e99f4717b46426acb7"
+    },
+    {
+      "id": "precision-tracking",
+      "frames": 120,
+      "durationMs": 8000,
+      "bytes": 455925,
+      "sha256": "7cc1f9360c0593c3088186aec815b002c17122f90a6fb29294b344aac920282a"
+    },
+    {
+      "id": "clay-consequence",
+      "frames": 120,
+      "durationMs": 8000,
+      "bytes": 540917,
+      "sha256": "85c114e88a519c4edca55736c1ae6461d25434536581d094a63e43720c216eec"
+    },
+    {
+      "id": "editorial-print",
+      "frames": 120,
+      "durationMs": 8000,
+      "bytes": 909193,
+      "sha256": "3109a31d291f9c79fd22f487638b3970a4b49f8576965293357a02f5e62dc52c"
+    },
+    {
+      "id": "blueprint",
+      "frames": 120,
+      "durationMs": 8000,
+      "bytes": 1298017,
+      "sha256": "890a4e92498cd3f3d056885cd7dd94199c6f183e52998eb0951ec092be9e6a44"
+    },
+    {
+      "id": "minimal",
+      "frames": 120,
+      "durationMs": 8000,
+      "bytes": 1776318,
+      "sha256": "b60f078de2d8a806b41d8e0f7592e93ca0cecec310ea25d8b881b7984bfd1e39"
+    },
+    {
+      "id": "spatial",
+      "frames": 120,
+      "durationMs": 8000,
+      "bytes": 1037343,
+      "sha256": "618849d24214908444f07f5435d29d92fefd6bf152ed30def6dc9eed2dc24017"
+    },
+    {
+      "id": "assembly",
+      "frames": 120,
+      "durationMs": 8000,
+      "bytes": 725453,
+      "sha256": "9e0776a7c6562c0b983b1cb880caa3d33b0123c9cf1f5e3366d45ce1c64bacda"
+    },
+    {
+      "id": "parallel",
+      "frames": 120,
+      "durationMs": 8000,
+      "bytes": 548479,
+      "sha256": "823c193d47ad785511c2767ae887b69514f3fdebd15b07634c63fa17939acb99"
+    }
+  ],
+  "visualReview": "Six new GIF contact sheets inspected at 13.0,15.4,17.8,20.2 seconds; GitHub rendering checked separately."
+}
