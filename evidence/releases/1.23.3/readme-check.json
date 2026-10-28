@@ -1,0 +1,32 @@
+{
+  "ok": true,
+  "localLinks": 43,
+  "gifPreviews": [
+    {
+      "asset": "docs/media/ink-relay.gif",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "bytes": 848991
+    },
+    {
+      "asset": "docs/media/precision-tracking.gif",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "bytes": 455925
+    },
+    {
+      "asset": "docs/media/clay-consequence.gif",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "bytes": 540917
+    }
+  ],
+  "markdownRenderedByGitHub": true,
+  "scope": "Documentation links, GitHub Markdown rendering and final excerpt assets; no new production capability or film acceptance."
+}

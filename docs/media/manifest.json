@@ -1,0 +1,47 @@
+{
+  "purpose": "README中的已认可案例无声片段预览，原完整视频保持本地。",
+  "items": [
+    {
+      "id": "ink-relay",
+      "name": "水墨写意 × 同物接力",
+      "case": "examples/combinations/ink-relay",
+      "sourceVideoSha256": "7dca0d7d44291df1dac3ca655f4939858df316c32ad6bb91708a1f5fa56ac1aa",
+      "excerptStartSeconds": 13,
+      "excerptDurationSeconds": 8,
+      "width": 320,
+      "fps": 15,
+      "audio": false,
+      "asset": "docs/media/ink-relay.gif",
+      "bytes": 848991,
+      "sha256": "2627805efac45b0514b1c641a00c96a1bc32bd2ebc9359e99f4717b46426acb7"
+    },
+    {
+      "id": "precision-tracking",
+      "name": "精密界面 × 追踪与锁定",
+      "case": "examples/combinations/precision-tracking",
+      "sourceVideoSha256": "1d66116337177a29cad531c34f0082f2f78bc75935f0fd52edc88c7b7892b178",
+      "excerptStartSeconds": 13,
+      "excerptDurationSeconds": 8,
+      "width": 320,
+      "fps": 15,
+      "audio": false,
+      "asset": "docs/media/precision-tracking.gif",
+      "bytes": 455925,
+      "sha256": "7cc1f9360c0593c3088186aec815b002c17122f90a6fb29294b344aac920282a"
+    },
+    {
+      "id": "clay-consequence",
+      "name": "柔质立体 × 动作与后果",
+      "case": "examples/combinations/clay-consequence",
+      "sourceVideoSha256": "851031ba0cd513dcbc8504cea8d1dc0d9e77e339885452fe8eab751f8afaeda4",
+      "excerptStartSeconds": 13,
+      "excerptDurationSeconds": 8,
+      "width": 320,
+      "fps": 15,
+      "audio": false,
+      "asset": "docs/media/clay-consequence.gif",
+      "bytes": 540917,
+      "sha256": "85c114e88a519c4edca55736c1ae6461d25434536581d094a63e43720c216eec"
+    }
+  ]
+}
