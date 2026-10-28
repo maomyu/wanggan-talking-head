@@ -380,7 +380,9 @@
       "asset": "docs/media/spatial.gif",
       "bytes": 1037343,
       "sha256": "618849d24214908444f07f5435d29d92fefd6bf152ed30def6dc9eed2dc24017",
-      "kind": "orchestration"
+      "kind": "orchestration",
+      "code": "G01",
+      "recipeId": "editorial-print"
     },
     {
       "id": "assembly",
@@ -395,7 +397,9 @@
       "asset": "docs/media/assembly.gif",
       "bytes": 725453,
       "sha256": "9e0776a7c6562c0b983b1cb880caa3d33b0123c9cf1f5e3366d45ce1c64bacda",
-      "kind": "orchestration"
+      "kind": "orchestration",
+      "code": "G03",
+      "recipeId": "editorial-print"
     },
     {
       "id": "parallel",
@@ -410,7 +414,94 @@
       "asset": "docs/media/parallel.gif",
       "bytes": 548479,
       "sha256": "823c193d47ad785511c2767ae887b69514f3fdebd15b07634c63fa17939acb99",
-      "kind": "orchestration"
+      "kind": "orchestration",
+      "code": "G04",
+      "recipeId": "editorial-print"
+    },
+    {
+      "id": "relay",
+      "name": "同物接力",
+      "kind": "orchestration",
+      "code": "G02",
+      "recipeId": "editorial-print",
+      "case": "examples/orchestrations/relay",
+      "sourceVideoSha256": "63adefe2a8b4be2523e02329042c25fc1d135acfcf097cee9e84d3c6970277f9",
+      "excerptStartSeconds": 13,
+      "excerptDurationSeconds": 8,
+      "width": 320,
+      "fps": 15,
+      "audio": false,
+      "asset": "docs/media/relay.gif",
+      "bytes": 1083417,
+      "sha256": "137c8f394a1abb502045b5a58d6ce86efc343a2716e2bf0c8fa8c43ceaa265fc"
+    },
+    {
+      "id": "reveal",
+      "name": "分层揭示",
+      "kind": "orchestration",
+      "code": "G05",
+      "recipeId": "editorial-print",
+      "case": "examples/orchestrations/reveal",
+      "sourceVideoSha256": "19bc3da531704d7f3d6c872f2226266554a12528dd7821f4cd4db134ae0b14cc",
+      "excerptStartSeconds": 13,
+      "excerptDurationSeconds": 8,
+      "width": 320,
+      "fps": 15,
+      "audio": false,
+      "asset": "docs/media/reveal.gif",
+      "bytes": 537985,
+      "sha256": "825484b785022f2eee561e35a73a5f75c36de7a2c1e90c84381fe6e03504324a"
+    },
+    {
+      "id": "consequence",
+      "name": "动作与后果",
+      "kind": "orchestration",
+      "code": "G06",
+      "recipeId": "editorial-print",
+      "case": "examples/orchestrations/consequence",
+      "sourceVideoSha256": "f317f973c8d55e4a8e32dc42dc7d7484330c4b29a801fc0f2ac1b04c66a79208",
+      "excerptStartSeconds": 13,
+      "excerptDurationSeconds": 8,
+      "width": 320,
+      "fps": 15,
+      "audio": false,
+      "asset": "docs/media/consequence.gif",
+      "bytes": 619755,
+      "sha256": "046af326337d8b0982f3a6e0bb0fd7512388854e9a8bb945feae85492fb5e4da"
+    },
+    {
+      "id": "tracking",
+      "name": "追踪与锁定",
+      "kind": "orchestration",
+      "code": "G07",
+      "recipeId": "editorial-print",
+      "case": "examples/orchestrations/tracking",
+      "sourceVideoSha256": "4108e7e4a249d6d03d477fe35c8bdd29322dc5a6ef6df8122c63918277b42e85",
+      "excerptStartSeconds": 13,
+      "excerptDurationSeconds": 8,
+      "width": 320,
+      "fps": 15,
+      "audio": false,
+      "asset": "docs/media/tracking.gif",
+      "bytes": 559916,
+      "sha256": "11c49bf7e2d4ed3bbe7f478a23af8427eeb5a1173a4052fc240d4a996528a7c2"
+    },
+    {
+      "id": "response",
+      "name": "人物现场回应",
+      "kind": "orchestration",
+      "code": "G08",
+      "recipeId": "editorial-print",
+      "case": "examples/orchestrations/response",
+      "sourceVideoSha256": "799c66b3976b383926c340ad4805697dbfcf5a353e4c832f8cbe11441ecb4b76",
+      "excerptStartSeconds": 13,
+      "excerptDurationSeconds": 8,
+      "width": 320,
+      "fps": 15,
+      "audio": false,
+      "asset": "docs/media/response.gif",
+      "bytes": 1468993,
+      "sha256": "240ee0185a2692ff3323c3b665e30a81fa30abce6afebd83e9211b5c458ad1d6"
     }
   ]
 }

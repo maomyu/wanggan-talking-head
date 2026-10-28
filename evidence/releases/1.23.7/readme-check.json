@@ -1,0 +1,372 @@
+{
+  "ok": true,
+  "version": "1.23.7",
+  "readmes": {
+    "zh": {
+      "path": "README.md",
+      "uniqueGifs": 31,
+      "languageSwitch": true,
+      "licenseLinks": true,
+      "sha256": "1c79b1917744d6906dfce15718b7cf45c935dd5b4bec96aefa54d6f5ab91b0f8"
+    },
+    "en": {
+      "path": "README.en.md",
+      "uniqueGifs": 31,
+      "languageSwitch": true,
+      "licenseLinks": true,
+      "sha256": "cf353a7aef7feef55b7d41ebf0c46100fdda4f4b021b98e0a02a5f7ce68aebb9"
+    }
+  },
+  "counts": {
+    "mother-style": 19,
+    "branch": 1,
+    "combination": 3,
+    "orchestration": 8
+  },
+  "uniqueGifs": 31,
+  "totalBytes": 30131727,
+  "items": [
+    {
+      "id": "minimal",
+      "kind": "mother-style",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "loop": 0,
+      "sha256": "b60f078de2d8a806b41d8e0f7592e93ca0cecec310ea25d8b881b7984bfd1e39",
+      "bytes": 1776318
+    },
+    {
+      "id": "geometry",
+      "kind": "mother-style",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "loop": 0,
+      "sha256": "444c036a07ec2e997abbfaf27db36c8118edd5ed7ed787e0f64d10a1c690e3f1",
+      "bytes": 721959
+    },
+    {
+      "id": "precision",
+      "kind": "mother-style",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "loop": 0,
+      "sha256": "38c679ea41e3356d658b41cf72a13245cc092d70d164363e9ebf2a2a2a65eaec",
+      "bytes": 745777
+    },
+    {
+      "id": "editorial-print",
+      "kind": "mother-style",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "loop": 0,
+      "sha256": "3109a31d291f9c79fd22f487638b3970a4b49f8576965293357a02f5e62dc52c",
+      "bytes": 909193
+    },
+    {
+      "id": "collage",
+      "kind": "mother-style",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "loop": 0,
+      "sha256": "1307135490c4dcbbdcc75d7a89fa57da01426c08a48a6d8a85f757702e18eeb1",
+      "bytes": 1210611
+    },
+    {
+      "id": "halftone",
+      "kind": "mother-style",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "loop": 0,
+      "sha256": "4ef88510285733b9444adf4d75d55c431941fdd641f0053f717e0180885ce21c",
+      "bytes": 1007852
+    },
+    {
+      "id": "line",
+      "kind": "mother-style",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "loop": 0,
+      "sha256": "900d483ee505f6874b71c17f3fe02eda3e58f6e8950925e109f2bcd15030f772",
+      "bytes": 962667
+    },
+    {
+      "id": "comic",
+      "kind": "mother-style",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "loop": 0,
+      "sha256": "6d2a08e173a14c5d00cd8aa711f2e007caef38b684abc1a8056fd94ff0ea044c",
+      "bytes": 873050
+    },
+    {
+      "id": "pixel",
+      "kind": "mother-style",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "loop": 0,
+      "sha256": "6b1b4816ef21f5bf7a0d60c80a9a39286d0dd53fa5edadba7e7800d4015c794c",
+      "bytes": 700442
+    },
+    {
+      "id": "illustration",
+      "kind": "mother-style",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "loop": 0,
+      "sha256": "e011642fb4b3858d9ab49d9d773ab0eeb39afe7bdc29b6aef3efe534ae2e2be4",
+      "bytes": 799345
+    },
+    {
+      "id": "watercolor",
+      "kind": "mother-style",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "loop": 0,
+      "sha256": "bad16df77cc47a55403a11b31fbc8545c029253b0bd52c2aa41f41750641a07d",
+      "bytes": 1254462
+    },
+    {
+      "id": "oil",
+      "kind": "mother-style",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "loop": 0,
+      "sha256": "07f7db4a1de7f15c1a18a2f7b8b6c51719f678ff912b312c71752208b438b3e1",
+      "bytes": 1478783
+    },
+    {
+      "id": "ink",
+      "kind": "mother-style",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "loop": 0,
+      "sha256": "caa52855b15f155317a66aa67b596a8f74457fc79bb7fa8110ed65082f5f4607",
+      "bytes": 1310677
+    },
+    {
+      "id": "gongbi",
+      "kind": "mother-style",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "loop": 0,
+      "sha256": "d8aac7ed51c81c2d3e3dc9d9f87c0e7df716f528b0da701dd45ed29bf7b72cde",
+      "bytes": 1407456
+    },
+    {
+      "id": "landscape",
+      "kind": "mother-style",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "loop": 0,
+      "sha256": "78befebad21b799771be2ab39dadeb0923861cd563e7321acfc9f92c61410944",
+      "bytes": 945504
+    },
+    {
+      "id": "clay",
+      "kind": "mother-style",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "loop": 0,
+      "sha256": "9105cd00d444be9581b0017e3f387a98b0cd6d08492fe6eda8ec0da4f28322c1",
+      "bytes": 685412
+    },
+    {
+      "id": "papercut",
+      "kind": "mother-style",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "loop": 0,
+      "sha256": "5fa8a52e221e8c38112926c3a953f5f3549f8024bdd09de9d19f979e17a0a49a",
+      "bytes": 730896
+    },
+    {
+      "id": "mural",
+      "kind": "mother-style",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "loop": 0,
+      "sha256": "7ead29c37ff00629350f0b065b986ea388f00dc52f8ecb7e2d6f851337b0918b",
+      "bytes": 1419990
+    },
+    {
+      "id": "woodcut",
+      "kind": "mother-style",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "loop": 0,
+      "sha256": "6bf08abda50e44349b149495629fc7b07d00e05e3dba21306899bc4d5b2610c1",
+      "bytes": 1466142
+    },
+    {
+      "id": "blueprint",
+      "kind": "branch",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "loop": 0,
+      "sha256": "890a4e92498cd3f3d056885cd7dd94199c6f183e52998eb0951ec092be9e6a44",
+      "bytes": 1298017
+    },
+    {
+      "id": "ink-relay",
+      "kind": "combination",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "loop": 0,
+      "sha256": "2627805efac45b0514b1c641a00c96a1bc32bd2ebc9359e99f4717b46426acb7",
+      "bytes": 848991
+    },
+    {
+      "id": "precision-tracking",
+      "kind": "combination",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "loop": 0,
+      "sha256": "7cc1f9360c0593c3088186aec815b002c17122f90a6fb29294b344aac920282a",
+      "bytes": 455925
+    },
+    {
+      "id": "clay-consequence",
+      "kind": "combination",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "loop": 0,
+      "sha256": "85c114e88a519c4edca55736c1ae6461d25434536581d094a63e43720c216eec",
+      "bytes": 540917
+    },
+    {
+      "id": "spatial",
+      "kind": "orchestration",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "loop": 0,
+      "sha256": "618849d24214908444f07f5435d29d92fefd6bf152ed30def6dc9eed2dc24017",
+      "bytes": 1037343
+    },
+    {
+      "id": "assembly",
+      "kind": "orchestration",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "loop": 0,
+      "sha256": "9e0776a7c6562c0b983b1cb880caa3d33b0123c9cf1f5e3366d45ce1c64bacda",
+      "bytes": 725453
+    },
+    {
+      "id": "parallel",
+      "kind": "orchestration",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "loop": 0,
+      "sha256": "823c193d47ad785511c2767ae887b69514f3fdebd15b07634c63fa17939acb99",
+      "bytes": 548479
+    },
+    {
+      "id": "relay",
+      "kind": "orchestration",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "loop": 0,
+      "sha256": "137c8f394a1abb502045b5a58d6ce86efc343a2716e2bf0c8fa8c43ceaa265fc",
+      "bytes": 1083417
+    },
+    {
+      "id": "reveal",
+      "kind": "orchestration",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "loop": 0,
+      "sha256": "825484b785022f2eee561e35a73a5f75c36de7a2c1e90c84381fe6e03504324a",
+      "bytes": 537985
+    },
+    {
+      "id": "consequence",
+      "kind": "orchestration",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "loop": 0,
+      "sha256": "046af326337d8b0982f3a6e0bb0fd7512388854e9a8bb945feae85492fb5e4da",
+      "bytes": 619755
+    },
+    {
+      "id": "tracking",
+      "kind": "orchestration",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "loop": 0,
+      "sha256": "11c49bf7e2d4ed3bbe7f478a23af8427eeb5a1173a4052fc240d4a996528a7c2",
+      "bytes": 559916
+    },
+    {
+      "id": "response",
+      "kind": "orchestration",
+      "frames": 120,
+      "durationMs": 8000,
+      "width": 320,
+      "height": 569,
+      "loop": 0,
+      "sha256": "240ee0185a2692ff3323c3b665e30a81fa30abce6afebd83e9211b5c458ad1d6",
+      "bytes": 1468993
+    }
+  ],
+  "scope": "GIF timing, dimensions, hashes, 19 family IDs, all eight approved same-style source hashes, both README media coverage and licensing links. GitHub browser checks and screenshots are recorded separately. No new full-video or legal review is claimed."
+}
