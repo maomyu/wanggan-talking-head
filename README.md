@@ -362,7 +362,7 @@ node scripts/studio.mjs preview --project /path/to/selector
 | 智能体如何自由搭配 | [自由搭配流程](docs/智能体自由搭配流程.md) |
 | 多模块如何交接 | [协作合同](docs/协作合同.md) · [共同制作规范](docs/共同制作规范.md) |
 | 完整视频在哪里看 | [全部案例总览](docs/全部案例总览.md) |
-| 版本记录与验收 | [文档目录](docs/) · [本次 README 更新](docs/1.23.3验收.md) |
+| 版本记录与验收 | [文档目录](docs/) · [本次 README 更新](docs/1.23.5验收.md) |
 
 ```text
 skills/       整片入口、协作统筹与专业技能
