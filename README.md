@@ -327,9 +327,3 @@ assets/       字体、选择页与共享资源
 evidence/     已有案例的认可与检查记录
 docs/         使用指南、制作方法与版本记录
 ```
-
-## 参考与致谢
-
-制作研究参考了花叔的 [huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion)。这份 README 的展示组织参考 [huashu-design](https://github.com/alchaincyf/huashu-design) 与 [huashu-motion](https://github.com/alchaincyf/huashu-motion)：用真实作品说明能力，再给读者可以直接尝试的指令和清楚的使用方法。
-
-这里展示的案例、技能结构与验证范围来自网感口播自身，文案按本项目的实际能力重新撰写。
