@@ -4,7 +4,7 @@
 
 [简体中文](README.md) · **English**
 
-**Source available · Attribution required · Prior written permission for commercial use** · [License](LICENSE) · [Request a commercial license](COMMERCIAL.md#english)
+**MIT open source · Commercial use allowed · Preserve attribution and source** · [License](LICENSE) · [Attribution guide](COMMERCIAL.md#english)
 
 ### Turn what you say into visuals people can follow.
 
@@ -539,13 +539,13 @@ New footage requires new action, image and transition design. Testing across dif
 
 Full videos and original footage stay local by default and are not synchronized with the source repository.
 
-## License and commercial use
+## License and attribution
 
-The [Wanggan Talking Head Source-Available License](LICENSE) permits **non-commercial study, use, modification and sharing. Public quotation, reuse and published work must credit the project and Maoyu and link to the source. Any commercial use requires prior written authorization.**
+This project uses the [MIT License](LICENSE). **Commercial use, modification, integration and redistribution are allowed without separate permission. When copying or distributing the project or substantial portions, preserve Maoyu's copyright notice, project source and MIT license notice.**
 
-You may apply for any commercial purpose, including client videos, commercial content, internal business production, plugin sales or SaaS integration. Scope, duration and any fees are agreed separately. [Request permission and see attribution examples](COMMERCIAL.md#english). Credit may appear in the work description or accompanying documentation; an in-video watermark is not required.
+When citing the project, name Wanggan Talking Head and link to the repository. [See attribution examples](COMMERCIAL.md#english). Videos made with the tool do not require an in-video watermark.
 
-This is a source-available license with a commercial-use restriction, not an OSI-defined open-source license. Third-party fonts, dependencies and separately licensed material retain their licenses. Rights previously granted under another valid license are not retroactively withdrawn. The Chinese terms in LICENSE govern if translations differ.
+Third-party fonts, dependencies and separately licensed content retain their own licenses. Rights to likenesses, voices and source footage remain with their respective holders.
 
 ## Documentation and repository structure
 
@@ -558,7 +558,7 @@ Detailed documentation is currently in Chinese. This README provides the English
 | Agent-selected combinations | [Selection workflow](docs/智能体自由搭配流程.md) |
 | Module handoffs | [Collaboration contract](docs/协作合同.md) · [Shared production rules](docs/共同制作规范.md) |
 | Full-video playback | [Complete example gallery](docs/全部案例总览.md) |
-| Release records and checks | [Documentation](docs/) · [This README update](docs/1.23.7验收.md) |
+| Release records and checks | [Documentation](docs/) · [Current release](docs/1.23.8验收.md) |
 
 ```text
 skills/       Production entry, coordinator and specialist skills

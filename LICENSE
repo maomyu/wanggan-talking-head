@@ -1,65 +1,22 @@
-网感口播源码公开许可证 1.0
-Wanggan Talking Head Source-Available License 1.0
+MIT License
 
-Copyright (c) 2026 Maoyu (GitHub: maomyu)
-项目 / Project: https://github.com/maomyu/wanggan-talking-head
-生效日期 / Effective date: 2026-10-28
+Copyright (c) 2026 Maoyu (GitHub: maomyu) — Wanggan Talking Head
+Project source: https://github.com/maomyu/wanggan-talking-head
 
-中文条款
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-1. 适用范围
-本许可适用于本仓库中许可方有权授权、且未另行标明许可的代码、技能文本、文档、配方及其他项目原创内容（合称“本项目”）。第三方软件、字体、素材及其他带有独立许可的内容沿用各自许可；本许可不限制其原许可授予的权利，也不授予许可方不拥有的权利。此前已依其他有效许可授予的权利不因本许可而追溯撤销。
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-2. 非商业使用许可
-在遵守本许可的前提下，许可方授予你全球范围、免费、非独占的非商业使用许可，允许查看、下载、运行、学习、复制、修改及分发本项目和修改版。个人学习、无商业目的的实验和非商业研究属于允许范围。公开访问、下载或 fork 仓库本身不构成商业授权。
-
-3. 来源与署名
-对外引用、复用或分发本项目或修改版时，必须在合理可见的位置注明“网感口播 / Wanggan Talking Head — Maoyu”，并提供项目来源链接 https://github.com/maomyu/wanggan-talking-head 。分发代码、技能、配方或文档时，保留本许可、已有版权与第三方许可声明，并说明修改过哪些部分；不得暗示原作者为修改版背书，也不得声称是完全独立原创。
-公开发布使用本项目制作的作品时，在作品简介、发布页或随附说明中注明使用了本项目并提供来源链接即可；不强制在视频画面内加水印。仅在本地私下使用时不要求公开署名。不受版权限制的事实、一般思想，以及法律允许的引用或其他法定例外，不因本条被另行限制。
-
-4. 商业使用须事先书面授权
-本许可不自动授予任何商业使用权。任何主要为商业利益、营业活动或金钱报酬而使用、修改、集成、分发或提供本项目的行为，均须在开展前取得 Maoyu (GitHub: maomyu) 的明确书面授权。包括但不限于：付费客户项目、商业宣传或变现内容制作；企业经营或内部商业生产；销售插件、模板或修改版；作为付费工具、托管服务、SaaS、收费课程或会员产品的一部分。
-任何商业用途均可提出授权申请，具体用途、范围、期限及费用（如有）以双方书面约定为准。提交申请、公开署名、下载、star、fork 或许可方未回复均不表示已获商业授权。修改或重新打包本项目不能绕过本条。商业授权未明确豁免时，第3条来源与署名要求继续适用。
-授权申请入口及所需信息见 COMMERCIAL.md。
-
-5. 输入、输出与其他权利
-本许可不转移你对自有输入素材或依法享有权利的输出内容的所有权。纯粹的生成结果不因使用本项目而整体变成本项目的衍生软件；但制作过程中的商业使用仍受第4条约束，公开发布仍遵守第3条，输出中包含的本项目或第三方受保护内容沿用其许可。展示样片不表示授予其中人物的肖像、声音、商标或其他人格与品牌使用权。
-
-6. 分发与终止
-分发本项目或其修改版时，须将本许可一并传递给接收方，不得授予超出自身所得许可的权利，也不得删除本项目内容的署名或商业授权条件。你独立创作且可分离的新增内容可采用自己的许可，但不得借此改变本项目部分的条件。
-违反本许可时，本许可授予的权利自动终止；应停止未经许可的使用。恢复授权须获得许可方书面确认。依法无需本许可即可行使的权利不受影响。
-
-7. 无保证与责任限制
-在适用法律允许的最大范围内，本项目按“现状”提供，不作适销性、特定用途适用性、不侵权或效果保证；许可方不对因使用本项目产生的损失承担责任。本条不排除法律不允许排除的责任。
-
-8. 文本与性质
-本许可为自定义的源码公开许可，含商业使用限制，不是 OSI 定义的开源许可证。中英文如有不一致，以中文条款为准。商业书面授权与本许可发生冲突时，仅在该授权明确约定的范围内以书面授权为准。
-
-English translation
-
-1. Scope
-This license covers code, skill text, documentation, recipes and other original project material in this repository that the licensor has the right to license and that does not carry a separate license (the “Project”). Third-party software, fonts, assets and separately licensed material retain their own licenses. This license neither restricts rights granted by those licenses nor grants rights the licensor does not own. Rights previously granted under another valid license are not retroactively withdrawn.
-
-2. Non-commercial permission
-Subject to these terms, you receive a worldwide, royalty-free, non-exclusive license to view, download, run, study, copy, modify and distribute the Project and modified versions for non-commercial purposes. Personal learning, experiments without a commercial purpose and non-commercial research are permitted. Public access, downloading or forking does not itself grant commercial permission.
-
-3. Attribution and source
-When publicly quoting, reusing or distributing the Project or modified versions, credit “网感口播 / Wanggan Talking Head — Maoyu” in a reasonably visible location and link to https://github.com/maomyu/wanggan-talking-head . When distributing code, skills, recipes or documentation, retain this license and existing copyright and third-party license notices, and identify your changes. Do not imply endorsement by the original author or claim wholly independent authorship.
-For publicly released work produced using the Project, credit the Project and link to its source in the work description, publication page or accompanying documentation. An in-video watermark is not required. Private local use does not require public attribution. This clause does not restrict unprotected facts, general ideas, lawful quotation or other statutory exceptions.
-
-4. Prior written authorization for commercial use
-This license does not automatically grant any commercial rights. Before using, modifying, integrating, distributing or providing the Project primarily for commercial advantage, business activity or monetary compensation, obtain explicit written authorization from Maoyu (GitHub: maomyu). This includes paid client work, commercial promotion or monetized content production; business operations or internal commercial production; sales of plugins, templates or modified versions; and inclusion in paid tools, hosted services, SaaS, paid courses or membership products.
-You may request authorization for any commercial purpose. Permitted uses, scope, duration and any fees are subject to a separate written agreement. A request, attribution, download, star, fork or lack of a reply is not authorization. Modifying or repackaging the Project does not avoid this requirement. Section 3 continues to apply unless the commercial authorization explicitly provides otherwise. See COMMERCIAL.md for the request channel and required information.
-
-5. Inputs, outputs and other rights
-This license does not transfer ownership of your inputs or outputs in which you lawfully hold rights. Generated results do not as a whole become derivative software solely because the Project was used; commercial use during production remains subject to Section 4, and public releases remain subject to Section 3. Protected Project or third-party material included in an output remains subject to its own license. Sample previews do not grant rights to use any person's likeness or voice, trademarks, or other personality or brand rights.
-
-6. Distribution and termination
-Pass this license to recipients of the Project and modified versions. Do not grant rights beyond those you hold or remove attribution or commercial-authorization conditions from Project material. Your independently created, separable additions may have their own license, without altering the terms for Project material.
-Rights granted by this license terminate automatically upon breach; stop unauthorized use. Reinstatement requires written confirmation from the licensor. Rights exercisable without this license under applicable law remain unaffected.
-
-7. Disclaimer and limitation of liability
-To the maximum extent permitted by applicable law, the Project is provided “as is,” without warranties of merchantability, fitness for a particular purpose, non-infringement or results. The licensor is not liable for losses arising from use of the Project. This does not exclude liability that cannot legally be excluded.
-
-8. Language and nature
-This is a custom source-available license with a commercial-use restriction, not an OSI-defined open-source license. The Chinese terms prevail if the translations differ. A separate written commercial authorization prevails over these terms only within its expressly agreed scope.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

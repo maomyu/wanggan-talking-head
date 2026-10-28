@@ -1,8 +1,8 @@
 # 字体许可 · Font licenses
 
-本目录的字体不适用项目根目录的源码公开许可，各自沿用原许可。全部是 SIL Open Font License 1.1（全文见同目录 `OFL.txt`），可以随软件再分发、可商用，但不能单独售卖字体文件。部分文件是按 GB2312 或按用字抽出的子集（`scripts/font_subset.py`），转成了 woff。
+本目录的字体不适用项目根目录的 MIT 许可，各自沿用原许可。全部是 SIL Open Font License 1.1（全文见同目录 `OFL.txt`），可以随软件再分发、可商用，但不能单独售卖字体文件。部分文件是按 GB2312 或按用字抽出的子集（`scripts/font_subset.py`），转成了 woff。
 
-The fonts in this directory are not covered by the project's source-available license. Each keeps its own license; all of them are SIL Open Font License 1.1 (full text in `OFL.txt`). Some files are subsets converted to WOFF.
+The fonts in this directory are not covered by the project's MIT license. Each keeps its own license; all of them are SIL Open Font License 1.1 (full text in `OFL.txt`). Some files are subsets converted to WOFF.
 
 | 文件 | 字体 | 版权 | 来源 |
 |---|---|---|---|
